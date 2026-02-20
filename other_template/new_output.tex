@@ -1,9 +1,8 @@
-\documentclass[pdflatex,sn-mathphys-num]{sn-jnl}
-
+﻿\documentclass[conference]{IEEEtran}
+\usepackage{cite}
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{amsthm}
-\usepackage[title]{appendix}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{tabularx}
@@ -16,6 +15,7 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
 \usetikzlibrary{arrows.meta,positioning,calc,fit,matrix}
 
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
@@ -28,16 +28,25 @@
 
 \begin{document}
 
-\title[LLM Modules in the RL Loop]{LLM Modules in the Reinforcement Learning Loop: Roles, Architectures, and Credit Assignment}
+\title{
+LLM Modules in the Reinforcement Learning Loop: Roles, Architectures, and Credit Assignment
+}
 
-\author*[1]{\fnm{Kourosh} \sur{Shahnazari}}
-\author[1]{\fnm{Seyed Moein} \sur{Ayyoubzadeh}}
-\affil[1]{\orgname{Sharif University of Technology}, \orgaddress{\city{Tehran}, \country{Iran}}}
-
-\abstract{Reinforcement learning is increasingly deployed in domains where reward feedback is sparse, delayed, and entangled with long-horizon constraints, making reliable credit assignment difficult. A central development in recent work is the insertion of large language model modules directly into the reinforcement learning loop, not as peripheral interfaces but as components that alter trajectory generation and supervision. In these systems, language modules provide planning priors, structured reward shaping, process verification, synthetic world traces, and tool-memory context that reconfigure optimization at trajectory level. This survey develops a mechanism-first synthesis of that shift. We formalize intervention operators for planning, reward and verifier channels, world construction, and tool-memory mediation; analyze how each operator changes update targets, bias pathways, and stability conditions; and organize the field into a unified taxonomy grounded in optimization effects rather than model branding. We then examine evaluation practice across embodied control, web interaction, games, continuous control, and multi-agent settings, highlighting reproducibility gaps and protocol confounds. Finally, we synthesize recurring failure modes and propose a concrete research agenda on calibration, module authority arbitration, uncertainty-aware simulation, and benchmark design. The resulting perspective positions LLM-in-the-loop reinforcement learning as a systems and optimization discipline centered on trustworthy credit assignment under heterogeneous supervision.}
-\keywords{large language models, reinforcement learning, planning priors, reward shaping, verification, credit assignment}
+\author{
+\IEEEauthorblockN{Kourosh Shahnazari and Seyed Moein Ayyoubzadeh}
+\IEEEauthorblockA{Sharif University of Technology, Tehran, Iran}
+}
 
 \maketitle
+
+\begin{abstract}
+Reinforcement learning is increasingly deployed in domains where reward feedback is sparse, delayed, and entangled with long-horizon constraints, making reliable credit assignment difficult. A central development in recent work is the insertion of large language model modules directly into the reinforcement learning loop, not as peripheral interfaces but as components that alter trajectory generation and supervision. In these systems, language modules provide planning priors, structured reward shaping, process verification, synthetic world traces, and tool-memory context that reconfigure optimization at trajectory level. This survey develops a mechanism-first synthesis of that shift. We formalize intervention operators for planning, reward and verifier channels, world construction, and tool-memory mediation; analyze how each operator changes update targets, bias pathways, and stability conditions; and organize the field into a unified taxonomy grounded in optimization effects rather than model branding. We then examine evaluation practice across embodied control, web interaction, games, continuous control, and multi-agent settings, highlighting reproducibility gaps and protocol confounds. Finally, we synthesize recurring failure modes and propose a concrete research agenda on calibration, module authority arbitration, uncertainty-aware simulation, and benchmark design. The resulting perspective positions LLM-in-the-loop reinforcement learning as a systems and optimization discipline centered on trustworthy credit assignment under heterogeneous supervision.
+\end{abstract}
+
+\begin{IEEEkeywords}
+large language models, reinforcement learning, planning priors, reward shaping, verification, credit assignment
+\end{IEEEkeywords}
+
 \noindent\textbf{Index Terms}---large language models, reinforcement learning, modular control, trajectory optimization, verification channels, tool-memory mediation.
 
 \section{Introduction}
@@ -351,14 +360,14 @@ The distinction between information processors and decision makers is operationa
 \begin{landscape}
 \begin{table}[p]
 \centering
-\small
-\setlength{\tabcolsep}{5pt}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.15}
 % Encourage line breaks at explicit hyphens/slashes inside narrow cells.
 \hyphenpenalty=2000
 \exhyphenpenalty=2000
 % In `pdflscape`, use `\linewidth` for the rotated text block width.
-\begin{tabularx}{0.98\linewidth}{P{3.0cm}P{2.1cm}P{3.2cm}P{2.1cm}Y Y}
+\begin{tabularx}{0.98\linewidth}{P{2.8cm}P{2.0cm}P{3.0cm}P{2.3cm}Y Y}
 \toprule
 \textbf{Representative system} & \textbf{Domain} & \textbf{Operator roles} & \textbf{Authority} & \textbf{\shortstack[c]{Arbitration\\mechanism}} & \textbf{\shortstack[c]{Known failure\\mode / check}}\\
 \midrule
@@ -876,5 +885,7 @@ Ultimately, LLM-enhanced RL should be evaluated not only by peak benchmark score
 For compactness in the main text, full category-level citation bundles are provided below.
 \input{appendix_category_citations.tex}
 
+\bibliographystyle{IEEEtran}
 \bibliography{sn-bibliography}
 \end{document}
+

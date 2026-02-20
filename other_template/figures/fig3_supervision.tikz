@@ -1,0 +1,28 @@
+\begin{tikzpicture}[
+  font=\small,
+  >=Latex,
+  box/.style={draw=black!70, rounded corners=2.2mm, thick, align=center, minimum width=31mm, minimum height=10mm, fill=white},
+  sig1/.style={draw=orange!80!black, rounded corners=2.2mm, thick, align=center, minimum width=31mm, minimum height=9.5mm, fill=orange!10},
+  sig2/.style={draw=blue!70!black, rounded corners=2.2mm, thick, align=center, minimum width=31mm, minimum height=9.5mm, fill=blue!8},
+  sig3/.style={draw=green!60!black, rounded corners=2.2mm, thick, align=center, minimum width=31mm, minimum height=9.5mm, fill=green!10},
+  arr/.style={-Latex, very thick, draw=black!75}
+]
+
+\node[box, fill=gray!10] (env) at (0,0) {Environment reward $r_t$};
+\node[sig1] (shape) at (4.3, 1.9) {Shaping term $b_t$};
+\node[sig2] (ver)   at (4.3, 0.0) {Verifier score $v_t$};
+\node[sig3] (sim)   at (4.3,-1.9) {Synthetic trace weight};
+\node[box, fill=gray!8, minimum width=35mm] (agg) at (8.9,0) {Arbitration layer};
+\node[box, minimum width=38mm] (upd) at (13.2,0) {Policy update $\Delta\theta$};
+
+\draw[arr] (env.east) -- node[above] {grounded target} (agg.west);
+\draw[arr] (shape.east) -- (agg.north west);
+\draw[arr] (ver.east) -- (agg.west);
+\draw[arr] (sim.east) -- (agg.south west);
+\draw[arr] (agg.east) -- node[above] {effective objective} (upd.west);
+
+\node[draw=black!40, rounded corners=1.5mm, fill=gray!8, align=left, inner sep=2mm, anchor=north west] at (0,-3.1)
+{\footnotesize The update pathway combines environment reward with LLM-mediated shaping, verifier weighting,\\
+\footnotesize and synthetic replay influence under an explicit arbitration policy.};
+
+\end{tikzpicture}

@@ -1,0 +1,16 @@
+# Python cache artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Tool/runtime caches
+cache/
+api_cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local temporary analysis artifacts
+paper_hashes_before.txt
+tmp_cmd_counts.txt

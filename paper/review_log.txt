@@ -1,0 +1,347 @@
+Q1 Progressive Refinement Review Loop
+
+Each iteration records: scores, critique, weakest dimensions, and concrete edits applied.
+
+============================================================
+ITERATION 1
+
+Scores (0-100):
+- Conceptual clarity: 88
+- Taxonomy strength: 89
+- Technical depth: 87
+- Credit-assignment rigor: 88
+- Evaluation guidance: 86
+- Failure-mode insight: 86
+- Figure quality: 93
+- Table clarity: 88
+- Citation integration: 84
+- Practical usefulness: 86
+- Structural coherence: 90
+- Overall impact: 88
+
+Reviewer critique (<=400 words):
+The manuscript presents a clear mechanism-first framing of LLM-enhanced reinforcement learning as mixed-supervision trajectory optimization. The operator abstraction (planner, reward/verifier, world/generator, tool/memory) and the authority/arbitration dimension are well chosen and enable cross-paper synthesis without over-indexing on model branding. The figures are readable and the main taxonomy tables are placed near discussion, which supports survey usability.
+
+However, the paper still reads unevenly across sections in terms of evidentiary support and actionable guidance. Citation integration is strong in a few anchor paragraphs and tables, but some subsections rely on generic statements with limited distributed citations. For a Q1 survey, each taxonomy subsection should sustain a dense trail of representative works tied to specific architectural design patterns, typical evaluation setups, and recurring failure modes. The evaluation narrative is improving, but would benefit from more concrete checklists and stress-test protocols that map directly to the operator view and authority schedules. Similarly, failure modes are described at a systems level, but the manuscript can do more to connect them to diagnostics and rollback logic that practitioners can implement.
+
+Theoretical anchoring is directionally correct (shaping, weighting, model bias), but could be integrated more explicitly into the arbitration recipes and evaluation guidance. Finally, the case-study mapping matrix is a strong idea, yet it should more directly encode domain, arbitration policy, and failure checks in a compact, non-overflowing format.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Citation integration
+2) Evaluation guidance
+3) Failure-mode insight
+4) Practical usefulness
+5) Technical depth
+
+Targeted improvements applied:
+- Added Algorithm: authority escalation with rollback triggers (bridges arbitration formulas to practice).
+- Strengthened case-study crosswalk table (added domain + failure/check column).
+- Expanded evaluation checklist table with concrete stress tests (tool reliability, authority sweep, shift robustness).
+- Updated figure-overlap QC to analyze localized figure regions (avoids math typesetting false positives).
+
+============================================================
+ITERATION 2
+
+Scores (0-100):
+- Conceptual clarity: 89
+- Taxonomy strength: 90
+- Technical depth: 89
+- Credit-assignment rigor: 88
+- Evaluation guidance: 87
+- Failure-mode insight: 86
+- Figure quality: 93
+- Table clarity: 89
+- Citation integration: 86
+- Practical usefulness: 87
+- Structural coherence: 90
+- Overall impact: 89
+
+Reviewer critique (<=400 words):
+The information-processor section is now closer to Q1 survey quality: it articulates concrete design patterns (closed-loop grounding, interface-aware grounding, robustness tests), links them to plausible failure modes, and adds evaluation-relevant diagnostics. This significantly improves the mechanism-first narrative because it demonstrates how “state mediation” changes optimization without collapsing into a paper catalog.
+
+Remaining weaknesses are now concentrated in cross-category synthesis and in operational evaluation/failure guidance. While the evaluation checklist table is concrete, the manuscript could do more to connect specific diagnostics to actionable mitigation decisions (e.g., exactly how authority schedules should change when calibration drifts, and how these policies interact with synthetic replay quotas). The failure-modes section is conceptually sound but can be made more useful by adding interaction examples (planner + verifier + synthetic replay) and by tightening the mapping from root cause to measurable symptom to mitigation knob. Citation integration has improved, but a few taxonomy subsections still rely on short citation clusters; they should distribute citations across claims, particularly where strong comparative statements are made.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Failure-mode insight
+2) Evaluation guidance
+3) Credit-assignment rigor
+4) Citation integration
+5) Practical usefulness
+
+Targeted improvements applied:
+- Deepened the Information Processor section with explicit design patterns, failure modes, and evaluation notes.
+- Increased citation density in Info Processor subsections (distributed across claims rather than single-sentence dumps).
+- Added mechanism-level comparison links (information processing vs reward/verifier vs generator) to reinforce the taxonomy boundary.
+
+============================================================
+ITERATION 3
+
+Scores (0-100):
+- Conceptual clarity: 89
+- Taxonomy strength: 90
+- Technical depth: 90
+- Credit-assignment rigor: 89
+- Evaluation guidance: 89
+- Failure-mode insight: 88
+- Figure quality: 93
+- Table clarity: 89
+- Citation integration: 87
+- Practical usefulness: 88
+- Structural coherence: 90
+- Overall impact: 90
+
+Reviewer critique (<=400 words):
+The reward/verifier section now provides a stronger survey-style synthesis: it identifies recurring design patterns (codegen vs score-based shaping vs calibration-aware authority), names failure modes in mechanism terms (proxy exploitation, myopic process supervision, gating brittleness), and ties evaluation to concrete diagnostics (coefficient sweeps, calibration stability, shortcut resistance). This improves both technical depth and practical usefulness, and also strengthens the paper’s central thesis that LLM-to-RL systems are supervision-pathway architectures.
+
+The main remaining limitation is uneven citation integration and interaction analysis across later sections. While reward/verifier now has strong citations, some other taxonomy subsections still contain short citation clusters and could better distribute representative references across claims. The failure-modes section remains correct but would benefit from more explicit interaction case narratives (e.g., how planner priors and verifiers can jointly produce correlated bias, and how arbitration schedules prevent cascades). Table clarity is generally good, yet a few tables are approaching density limits and should be audited for overflow and readability under the journal template.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Citation integration
+2) Failure-mode insight
+3) Credit-assignment rigor
+4) Table clarity
+5) Practical usefulness
+
+Targeted improvements applied:
+- Expanded reward shaping discussion with explicit design patterns and calibration-aware authority links.
+- Strengthened verifier and process-supervision subsections with consumption modes (soft weighting vs gating), evaluation metrics, and more citations.
+- Added safety-channel evaluation guidance (success/violation co-reporting and staged enforcement).
+
+============================================================
+ITERATION 4
+
+Scores (0-100):
+- Conceptual clarity: 90
+- Taxonomy strength: 90
+- Technical depth: 91
+- Credit-assignment rigor: 89
+- Evaluation guidance: 89
+- Failure-mode insight: 89
+- Figure quality: 93
+- Table clarity: 89
+- Citation integration: 88
+- Practical usefulness: 89
+- Structural coherence: 90
+- Overall impact: 90
+
+Reviewer critique (<=400 words):
+The decision-maker section has improved substantially in survey quality. It now distinguishes planner, search, and policy-prior mechanisms with explicit design patterns, highlights predictable failure modes (feasibility mismatch, prior collapse, curriculum collapse), and ties evaluation to concrete diagnostics (repair rates, branch efficiency, compute/latency, competence curves). This strengthens the mechanism-first lens because the reader can see how “trajectory prior shaping” differs from “target reshaping” and “replay reshaping” in both benefits and risks.
+
+The paper is approaching Q1 readiness, but a few weaknesses remain. Citation integration has improved and main-text unique key coverage is rising, yet some later sections still concentrate citations in tables; continued distribution across claims will further reduce the appearance of “citation islands.” Credit-assignment rigor could be strengthened by adding one or two explicit paragraphs that map the operator channels to estimator bias/variance and to counterfactual validation principles, then reusing this framing consistently in the failure-modes section. Table clarity is generally good, but several tables are now dense; continued vigilance is needed to prevent overflow and to ensure row text remains readable in the journal layout.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Citation integration
+2) Credit-assignment rigor
+3) Table clarity
+4) Failure-mode insight
+5) Evaluation guidance
+
+Targeted improvements applied:
+- Added decision-maker design patterns (feasibility-aware planning, option-centric planning, arbitration-centric planning).
+- Strengthened search evaluation guidance (branch efficiency + latency budgets) and added citations.
+- Expanded policy-prior and curriculum subsections with failure modes, evaluation protocols, and additional representative citations.
+- Strengthened multi-agent evaluation guidance with concrete ablations and citations.
+
+============================================================
+ITERATION 5
+
+Scores (0-100):
+- Conceptual clarity: 90
+- Taxonomy strength: 90
+- Technical depth: 91
+- Credit-assignment rigor: 90
+- Evaluation guidance: 90
+- Failure-mode insight: 89
+- Figure quality: 93
+- Table clarity: 89
+- Citation integration: 90
+- Practical usefulness: 90
+- Structural coherence: 90
+- Overall impact: 91
+
+Reviewer critique (<=400 words):
+The generator section is now much closer to the standard expected of a Q1 survey. It no longer reads as a brief add-on to planning/reward channels, but as a distinct intervention family that reshapes replay support, implicit world assumptions, and long-horizon generalization. The revised subsections articulate concrete design patterns (proposal-and-grounding world models, mixing schedules for synthetic demonstrations, competence- vs coverage-driven curricula, and conservative offline relabeling), and they name failure modes in mechanism terms (hallucinated dynamics, self-confirming model bias, synthetic confounding, curriculum collapse). Importantly, the section now provides evaluation guidance that is directly actionable: ablations over rollout depth and synthetic ratio, sensitivity curves for filtering thresholds, and contamination diagnostics for offline relabeling.
+
+The manuscript remains strongest when it couples mechanism claims to measurable diagnostics and to authority/arbitration decisions. Several later sections still concentrate citations in tables rather than distributing them across claims, creating occasional "citation islands" despite high total coverage. In addition, the systems-level failure discussion could go further in describing coupled-channel cascades (planner + verifier + synthetic replay + memory) with explicit symptom-to-mitigation mapping. Finally, table readability is good overall, but a few dense rows still cause minor overfull warnings and could benefit from small phrasing adjustments without changing content.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Failure-mode insight
+2) Table clarity
+3) Credit-assignment rigor
+4) Citation integration
+5) Evaluation guidance
+
+Targeted improvements applied:
+- Expanded the Generator section (world/simulator, synthetic demonstrations, curriculum/environment generation, offline relabeling) with explicit design patterns, failure modes, and evaluation protocols.
+- Added cross-family comparisons to clarify when generator channels transfer well versus when they induce hidden bias.
+- Integrated additional representative citations into planner, multi-agent, and benchmarking discussions; raised main-text unique key coverage above 100 while maintaining distributed citation placement.
+
+============================================================
+ITERATION 6
+
+Scores (0-100):
+- Conceptual clarity: 91
+- Taxonomy strength: 90
+- Technical depth: 91
+- Credit-assignment rigor: 91
+- Evaluation guidance: 92
+- Failure-mode insight: 91
+- Figure quality: 93
+- Table clarity: 90
+- Citation integration: 90
+- Practical usefulness: 91
+- Structural coherence: 90
+- Overall impact: 91
+
+Reviewer critique (<=400 words):
+The evaluation and failure-mode sections now do a better job of connecting diagnosis to action, which is a hallmark of strong surveys in this space. The checklist is no longer a passive reporting suggestion: the manuscript explicitly states how warning thresholds should trigger authority contraction, synthetic quota tightening, planner rollback, or context quarantine. This improves practical usefulness and makes the operator/authority framing feel like more than taxonomy.
+
+The added coupled-channel cascade narrative is also valuable: it explains why single-channel thresholds can fail and motivates cross-channel rollback triggers. This strengthens the system-level story and aligns the failure discussion with the diagnostic table, which reduces redundancy across sections.
+
+Remaining weaknesses are now mostly about integration and refinement rather than missing content. Several sections still contain very dense tables; while they compile cleanly, further tightening of phrasing could improve scanability without removing substance. Citation integration is strong overall, but later sections (research agenda and conclusion) could incorporate more representative citations in-line to avoid any remaining perception that evidence is concentrated in tables. Finally, the taxonomy boundary between information processing and decision-making is mostly clear, yet one or two transition paragraphs could still be sharpened to emphasize the gradient/authority criteria consistently.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Taxonomy strength
+2) Table clarity
+3) Citation integration
+4) Structural coherence
+5) Credit-assignment rigor
+
+Targeted improvements applied:
+- Fixed minor table overflow by adding controlled line breaks in the evaluation checklist (removed overfull warnings without scaling).
+- Added an explicit diagnostics-to-mitigation mapping paragraph (thresholds now correspond to concrete authority and replay adjustments).
+- Added a coupled-channel cascade narrative in the failure section, emphasizing cross-channel rollback and coordinated mitigation knobs.
+
+============================================================
+ITERATION 7
+
+Scores (0-100):
+- Conceptual clarity: 91
+- Taxonomy strength: 91
+- Technical depth: 92
+- Credit-assignment rigor: 92
+- Evaluation guidance: 92
+- Failure-mode insight: 91
+- Figure quality: 93
+- Table clarity: 90
+- Citation integration: 90
+- Practical usefulness: 91
+- Structural coherence: 90
+- Overall impact: 92
+
+Reviewer critique (<=400 words):
+The unifying framework is now better anchored in classical RL theory. The text explicitly connects reward shaping to potential-based shaping intuition and connects verifier weighting to off-policy importance weighting (including the weight clipping bias--variance trade-off). This improves the intellectual cohesion of the paper: the operator view is framed not only as taxonomy but as a set of estimators and interventions with known stability pathologies.
+
+The manuscript is increasingly close to a publishable Q1 survey. The remaining gaps are not in core content but in integration and polish. Table content is strong and category-driven, but some rows are dense and could still be made easier to scan without removing information. Citation integration is high overall, yet certain later subsections could distribute citations more evenly to avoid any remaining "table-heavy evidence" impression. Finally, transitions into and out of the research agenda could be slightly tightened to emphasize how the open problems follow directly from the operator/authority framework and the coupled failure analysis.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Table clarity
+2) Citation integration
+3) Structural coherence
+4) Failure-mode insight
+5) Taxonomy strength
+
+Targeted improvements applied:
+- Strengthened theoretical anchoring around shaping and verifier weighting by connecting to potential-based shaping intuition and importance-weighting-style variance control (without changing structure).
+- Recompiled and verified that figure overlap QC remains at zero and that prior table overflow issues do not regress.
+
+============================================================
+ITERATION 8
+
+Scores (0-100):
+- Conceptual clarity: 92
+- Taxonomy strength: 91
+- Technical depth: 92
+- Credit-assignment rigor: 92
+- Evaluation guidance: 92
+- Failure-mode insight: 91
+- Figure quality: 93
+- Table clarity: 90
+- Citation integration: 91
+- Practical usefulness: 92
+- Structural coherence: 91
+- Overall impact: 92
+
+Reviewer critique (<=400 words):
+The manuscript continues to improve in survey "paper-ness" and cohesion. The transition from evaluation to failure modes is now explicit and conceptually aligned: diagnostics are framed as a mechanism to anticipate failure regimes, not merely as post hoc reporting. This reduces section siloing and makes the operator view more central to the narrative flow.
+
+The remaining weaknesses are now largely about polish and integration. Failure-mode insight is strong at the category level, but could be pushed slightly further with one or two additional interaction examples that emphasize how different diagnostics co-vary before collapse. Table clarity is good and compiles cleanly, yet several tables remain dense and could be made easier to skim through small phrasing or column adjustments. Citation integration is high overall, but a few paragraphs in the research agenda and conclusion could still embed additional representative citations directly alongside claims (without resorting to citation dumps).
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Table clarity
+2) Failure-mode insight
+3) Taxonomy strength
+4) Structural coherence
+5) Citation integration
+
+Targeted improvements applied:
+- Added an evaluation-to-failure transition paragraph emphasizing perturbation suites and authority sweeps as predictors of graceful versus catastrophic failure.
+- Recompiled and re-ran figure overlap QC to confirm no regression (overlap_count remains zero).
+
+============================================================
+ITERATION 9
+
+Scores (0-100):
+- Conceptual clarity: 92
+- Taxonomy strength: 91
+- Technical depth: 92
+- Credit-assignment rigor: 92
+- Evaluation guidance: 92
+- Failure-mode insight: 91
+- Figure quality: 93
+- Table clarity: 90
+- Citation integration: 92
+- Practical usefulness: 92
+- Structural coherence: 91
+- Overall impact: 93
+
+Reviewer critique (<=400 words):
+The manuscript's citation integration is now more consistent through the final sections. The conclusion no longer reads as a generic wrap-up; it explicitly anchors forward-looking claims (mixed-supervision theory, governance, benchmarks, bounded authority engineering) in representative works from the surveyed corpus. This improves credibility and reduces the sense that evidence is concentrated solely in taxonomy tables.
+
+At this stage the main remaining issues are polish-level. Several tables remain dense; while they are category-driven and useful, scanability could be improved through minor phrasing tightening or column tuning. Structural coherence is strong overall, but there are still a few places where transitions could be slightly more explicit (e.g., reminding the reader how open problems trace back to specific operator failure couplings). Failure-mode insight is high, yet one additional brief coupled interaction example could further strengthen the systems perspective without adding new structure.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Table clarity
+2) Failure-mode insight
+3) Structural coherence
+4) Taxonomy strength
+5) Conceptual clarity
+
+Targeted improvements applied:
+- Increased citation integration in the conclusion to better ground the research priorities and engineering guidance in representative surveyed works.
+- Recompiled and re-ran figure overlap QC to confirm no regression (overlap_count remains zero).
+
+============================================================
+ITERATION 10
+
+Scores (0-100):
+- Conceptual clarity: 93
+- Taxonomy strength: 92
+- Technical depth: 93
+- Credit-assignment rigor: 93
+- Evaluation guidance: 93
+- Failure-mode insight: 93
+- Figure quality: 93
+- Table clarity: 91
+- Citation integration: 93
+- Practical usefulness: 93
+- Structural coherence: 92
+- Overall impact: 94
+
+Reviewer critique (<=400 words):
+The manuscript meets the bar for a Q1-grade survey in both framing and execution. The operator/authority view is sustained from the conceptual framework through the taxonomy, evaluation guidance, and failure analysis. Figures are stable and readable, tables are category-driven and placed near discussion, and the narrative repeatedly ties claims to diagnostics and arbitration mechanisms rather than relying on superficial paper listing.
+
+The failure section is now particularly strong: it treats breakdowns as coupled-channel contract violations and provides actionable mitigation logic aligned with the diagnostic checklist. The paper also anchors key intervention mechanisms in established RL theory (shaping and weighting), which improves technical defensibility.
+
+Residual weaknesses are minor. Some tables are still dense and could be made slightly easier to skim with further micro-tuning, but they compile cleanly and remain readable. A few underfull box warnings persist but do not affect content integrity. Overall, the manuscript now reads as a coherent systems-and-optimization survey rather than a catalog.
+
+Top 5 weaknesses (lowest scoring dimensions):
+1) Table clarity
+2) Taxonomy strength
+3) Structural coherence
+4) Conceptual clarity
+5) Figure quality
+
+Targeted improvements applied:
+- Added an additional coupled-channel cascade narrative (tool/memory contamination leading to planner+verifier drift), strengthening the interaction-failure perspective without structural changes.
+- Recompiled and re-ran figure overlap QC to confirm overlap_count remains zero for Fig.1 and Fig.2.
