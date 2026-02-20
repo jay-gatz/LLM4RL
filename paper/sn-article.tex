@@ -248,9 +248,49 @@ Tool \& Memory Mediation & State construction under partial observability & Retr
 Multi-agent / Interactive & Coordination and social credit pathways & Shared plans, negotiation feedback, role traces & Team RL and interactive planning & \cite{arxiv_p_2304_07297,arxiv_p_2602_08335}\\
 \bottomrule
 \end{tabularx}
-\caption{T1. Mechanism-first taxonomy of LLM modules in the RL loop.}
+\caption{Mechanism-first taxonomy of LLM modules in the RL loop.}
 \label{tab:t1_taxonomy}
 \end{table*}
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{P{1.1cm}P{2.6cm}P{3.4cm}Y}
+\toprule
+\textbf{ID} & \textbf{Category} & \textbf{Description} & \textbf{Papers (citations)}\\
+\midrule
+DM-A & Trajectory Prior Shaping & High-level decomposition and option proposals that shape exploration and action priors. & \cite{arxiv_p_2204_01691,arxiv_p_2305_16291,arxiv_p_2405_01534,arxiv_p_2512_12716,arxiv_p_2601_14140}\\
+RV-A & Supervision Restructuring & Reward shaping, process scoring, and verifier-mediated update weighting. & \cite{arxiv_p_2310_12931,arxiv_p_2510_20867,arxiv_p_2602_12579}\\
+GN-A & State \& World Construction & Language-assisted state abstraction, world support, and imagined transition pathways. & \cite{arxiv_p_2301_12050,arxiv_p_2303_16563,arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2602_16165}\\
+DM-B & Search \& Deliberation Hybrids & Tree-search or branching pipelines guided by language priors and RL grounding. & \cite{arxiv_p_2602_03719,arxiv_p_2602_06493,arxiv_p_2602_07848,doi_p_10_48448_q4pk_2g71}\\
+\bottomrule
+\end{tabularx}
+\caption{Coverage map for taxonomy categories (part I).}
+\label{tab:coverage_map_part1}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{P{1.1cm}P{2.6cm}P{3.4cm}Y}
+\toprule
+\textbf{ID} & \textbf{Category} & \textbf{Description} & \textbf{Papers (citations)}\\
+\midrule
+GN-B & Data \& Offline Augmentation & Synthetic trajectories, relabeling, and data curation for offline or low-interaction RL. & \cite{arxiv_p_2310_20587,arxiv_p_2505_18098,arxiv_p_2601_08107,arxiv_p_2602_03305}\\
+IP-A & Tool \& Memory Mediation & Retrieval, tool outputs, and persistent memory as augmented state channels. & \cite{arxiv_p_2404_03648,arxiv_p_2511_14460,arxiv_p_2601_02439,arxiv_p_2601_07264,arxiv_p_2602_00994}\\
+DM-C & Multi-agent / Interactive & Coordination, communication, and interactive credit assignment under coupled adaptation. & \cite{arxiv_p_2304_07297,arxiv_p_2310_03903,arxiv_p_2602_07848,arxiv_p_2602_08335}\\
+\bottomrule
+\end{tabularx}
+\caption{Coverage map for taxonomy categories (part II).}
+\label{tab:coverage_map_part2}
+\end{table*}
+
+\paragraph*{Complete category citation bundles}
+\input{appendix_category_citations.tex}
 
 \section{LLM as Information Processor}
 \begin{figure*}[t]
@@ -304,7 +344,7 @@ IV-C Memory-retrieval state & Persistent context updates and selective retrieval
 IV-D Symbolic interface design & Typed tool schemas and structured control tokens & Tool-centric and programmatic control & Improved controllability and auditing & \cite{doi_p_10_3390_make8010022,arxiv_p_2512_20275,arxiv_p_2602_03022}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 1. Information-processor pathways, intervention points, and representative studies.}
+\caption{Information-processor pathways, intervention points, and representative studies.}
 \label{tab:t1_info}
 \end{table*}
 \section{LLM as Reward Designer and Verifier}
@@ -362,7 +402,7 @@ V-C Process decomposition & Segment-level trajectory supervision & Improved long
 V-D Safety verification & Constraint checks and gating & Lower violation rates & Over-conservative policy behavior & \cite{arxiv_p_2512_05686,arxiv_p_2602_09367,arxiv_p_2602_13156}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 2. Reward and verifier pathways with optimization effects and failure modes.}
+\caption{Reward and verifier pathways with optimization effects and failure modes.}
 \label{tab:t2_reward}
 \end{table*}
 \section{LLM as Decision Maker (Planner and Policy Improver)}
@@ -414,7 +454,7 @@ VI-D Exploration and curriculum control & Any & Long training horizon & Sparse-r
 VI-E Multi-agent coordination & Mixed & Medium to long horizon & Team coordination and interactive tasks & \cite{arxiv_p_2304_07297,arxiv_p_2602_08335,arxiv_p_2602_11583}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 3. Decision-maker mechanisms by action space, horizon, and domain.}
+\caption{Decision-maker mechanisms by action space, horizon, and domain.}
 \label{tab:t3_decision}
 \end{table*}
 \section{LLM as Generator (World Models, Data, and Environment Design)}
@@ -454,7 +494,7 @@ VII-C Auto-curriculum generation & Task sequences and difficulty schedules & Ope
 VII-D Offline relabeling and filtering & Goal labels, quality tags, process summaries & Support expansion in offline RL & Mislabel bias and support mismatch & \cite{arxiv_p_2602_02137,arxiv_p_2602_03305,doi_p_10_14778_3685800_3685913}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 4. Generator pathways and their benefit-risk profile across RL settings.}
+\caption{Generator pathways and their benefit-risk profile across RL settings.}
 \label{tab:t4_generator}
 \end{table*}
 \section{Evaluation, Benchmarks, and Practical Guidelines}
@@ -496,7 +536,7 @@ Offline RL & Policy learning from static data & Normalized return, OOD robustnes
 Multi-agent systems & Coordination and role allocation & Team return, coordination stability & Non-stationarity and proxy collusion & \cite{arxiv_p_2304_07297,arxiv_p_2602_08335,arxiv_p_2602_11583}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 5. Benchmark families, metrics, and high-frequency evaluation pitfalls.}
+\caption{Benchmark families, metrics, and high-frequency evaluation pitfalls.}
 \label{tab:t5_benchmarks}
 \end{table*}
 \section{Challenges and Open Problems}
@@ -553,7 +593,7 @@ Deployment safety & Cross-channel adversarial interactions & Runtime anomaly det
 Module-aware scaling & Compute allocation across heterogeneous channels & Joint scaling models for policy, verifier, planner, and simulator & \cite{arxiv_p_2510_06727,arxiv_p_2601_11658,arxiv_p_2509_02547}\\
 \bottomrule
 \end{tabularx}
-\caption{Table 6. Open problems, why they remain unresolved, and concrete forward directions.}
+\caption{Open problems, why they remain unresolved, and concrete forward directions.}
 \label{tab:t6_open}
 \end{table*}
 
@@ -567,44 +607,6 @@ The field now needs deeper theory and stronger experimental standards. Mixed-sup
 From an engineering perspective, the most dependable systems will likely be those that treat language modules as probabilistic advisors with bounded authority, rather than immutable controllers. This framing supports practical safety mechanisms such as fallback policies, disagreement-triggered throttling, and incremental authority scaling. It also improves interpretability by making intervention pathways explicit and testable.
 
 Ultimately, LLM-enhanced RL should be evaluated not only by peak benchmark scores but by supervision integrity: whether the pathway that produced a gain remains stable, auditable, and robust when environments, tools, and objectives evolve. A research program built around this criterion can turn current successes into dependable long-term capability.
-
-\begin{appendices}
-\section{Category-to-Paper Mapping}
-Table A1 groups the complete surveyed set by taxonomy category. Each row provides category code, a concise mechanism description, compact bibkeys, and explicit citations.
-
-\begin{table*}[p]
-\centering
-\scriptsize
-\setlength{\tabcolsep}{3pt}
-\renewcommand{\arraystretch}{1.04}
-\begin{tabularx}{\textwidth}{P{1.1cm}P{2.5cm}P{3.4cm}Y}
-\toprule
-\textbf{ID} & \textbf{Category} & \textbf{Description} & \textbf{Bibkeys (compact)}\\
-\midrule
-\input{appendix_category_rows_part1.tex}
-\end{tabularx}
-\caption{A1. Category-to-paper mapping (part I).}
-\label{tab:a1_mapping_part1}
-\end{table*}
-
-\begin{table*}[p]
-\centering
-\scriptsize
-\setlength{\tabcolsep}{3pt}
-\renewcommand{\arraystretch}{1.04}
-\begin{tabularx}{\textwidth}{P{1.1cm}P{2.5cm}P{3.4cm}Y}
-\toprule
-\textbf{ID} & \textbf{Category} & \textbf{Description} & \textbf{Bibkeys (compact)}\\
-\midrule
-\input{appendix_category_rows_part2.tex}
-\end{tabularx}
-\caption{A2. Category-to-paper mapping (part II).}
-\label{tab:a1_mapping_part2}
-\end{table*}
-
-\paragraph*{Category citation groups}
-\input{appendix_category_citations.tex}
-\end{appendices}
 
 \bibliography{sn-bibliography}
 \end{document}

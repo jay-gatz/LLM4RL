@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  20 FEB 2026 08:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  20 FEB 2026 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1375,10 +1375,11 @@ put line 208.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-(figures/fig1.tikz) (figures/fig2_taxonomy.tex)
+(figures/fig1.tikz) (appendix_category_citations.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [11])
+(figures/fig2_taxonomy.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
@@ -1391,10 +1392,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-(figures/fig3_supervision.tikz)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
+(figures/fig3_supervision.tikz)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
@@ -1413,42 +1414,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-(appendix_category_rows_part1.tex) (appendix_category_rows_part1.tex)
-(appendix_category_rows_part1.tex
-Underfull \hbox (badness 5954) in paragraph at lines 1--2
-\OT1/cmtt/m/n/7 arxiv_p_2602_14468, 
- []
-
-
-Underfull \hbox (badness 1769) in paragraph at lines 1--2
-\OT1/cmtt/m/n/7 doi_p_10_3390_make8010022, 
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 3--4
-[]|\OT1/cmtt/m/n/7 arxiv_p_2205_12258, 
- []
-
-
-Underfull \hbox (badness 1769) in paragraph at lines 3--4
-\OT1/cmtt/m/n/7 doi_p_10_3390_app14198868, 
- []
-
-)
-Underfull \hbox (badness 5954) in paragraph at lines 4--585
-[]|\OT1/cmtt/m/n/7 arxiv_p_2601_06845, 
- []
-
-(appendix_category_rows_part2.tex) (appendix_category_rows_part2.tex)
-(appendix_category_rows_part2.tex
-Underfull \hbox (badness 5954) in paragraph at lines 2--3
-[]|\OT1/cmtt/m/n/7 arxiv_p_2305_11854, 
- []
-
-) (appendix_category_citations.tex) (sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
+(sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
@@ -1481,10 +1450,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34])
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [35])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
@@ -1500,23 +1469,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
 (sn-article.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: DB147D8D6460B4A473BC8A81AAE15041;12962.
+(rerunfilecheck)             Checksum: 14C0E94223F3AFB55BE7EBD9DCBE22FD;12789.
  ) 
 Here is how much of TeX's memory you used:
- 25862 strings out of 467870
- 483598 string characters out of 5417387
- 924875 words of memory out of 5000000
- 53971 multiletter control sequences out of 15000+600000
- 649330 words of font info for 122 fonts, out of 8000000 for 9000
+ 25874 strings out of 467870
+ 483259 string characters out of 5417387
+ 903783 words of memory out of 5000000
+ 54000 multiletter control sequences out of 15000+600000
+ 649162 words of font info for 121 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  90i,11n,94p,1612b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
@@ -1541,11 +1507,10 @@ mr9.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy5.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kourosh/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/Kourosh/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on sn-article.pdf (41 pages, 564787 bytes).
+/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on sn-article.pdf (40 pages, 559416 bytes).
 PDF statistics:
- 1376 PDF objects out of 1440 (max. 8388607)
- 268 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1451 PDF objects out of 1728 (max. 8388607)
+ 266 named destinations out of 1000 (max. 500000)
+ 445 words of extra memory for PDF output out of 10000 (max. 10000000)
 
