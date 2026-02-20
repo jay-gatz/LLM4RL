@@ -194,10 +194,37 @@ An underappreciated implication is that module interventions change effective ob
 
 This viewpoint suggests a practical bias-variance decomposition for modular RL updates. Planner and verifier channels often reduce estimator variance by concentrating updates on structured trajectories, yet they can increase bias when their semantics drift from environment utility. Generator channels can reduce variance through broader replay support while introducing model bias through synthetic mismatch. Tool-memory channels can reduce partial-observation variance but introduce temporal bias if stale context persists. Effective credit assignment therefore depends on balancing channel-specific bias and variance contributions, not on maximizing any single auxiliary signal.
 
+This decomposition connects naturally to established RL theory. When shaping terms can be approximated as potential differences, they tend to preserve policy ordering while reducing temporal sparsity; when they cannot, they still may help optimization but lose invariance guarantees and require stronger grounding checks \cite{arxiv_p_2310_12931,arxiv_p_2309_11489,arxiv_p_2309_06687}. Verifier-based reweighting is similarly close to clipped importance weighting in off-policy updates: bounded weights can reduce estimator variance, but miscalibrated weights can shift effective training distribution away from environment utility \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_02395}.
+
+Generator channels mirror the classic Dyna trade-off between sample efficiency and model bias. Imagined rollouts can accelerate value propagation, especially in low-interaction regimes, but bias grows with rollout depth and transition misspecification \cite{arxiv_p_2301_12050,arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2602_12099}. A consistent implication across these settings is that auxiliary channels should be treated as estimators with uncertainty budgets and explicit authority constraints, not as direct substitutes for grounded environment feedback.
+
+For verifier-mediated updates, an off-policy analogy is useful:
+\begin{equation}
+w(\tau)=\mathrm{clip}\!\left(\rho(\tau),0,c\right),
+\label{eq:clip_importance}
+\end{equation}
+where $\rho(\tau)$ is a surrogate likelihood or quality ratio and $c$ is a clipping constant. In LLM-enhanced RL, $\rho(\tau)$ is usually unavailable in closed form and is approximated by verifier confidence, which reinforces the need for calibration-aware clipping and periodic grounding checks \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2508_03680}.
+
 \subsection{Module Authority and Arbitration}
 A practical way to reason about safety and stability is module authority. Advisor-level modules propose candidates without direct control. Controller-level modules affect action selection or reward terms. Judge-level modules gate updates or trajectories. Simulator-level modules influence the data regime itself. As authority increases, potential sample-efficiency gains increase, but so does the risk of systematic error.
 
 Arbitration policies determine whether authority is static or adaptive. Static weighting is simple but brittle under shift. Adaptive arbitration uses uncertainty, disagreement, and environment-grounded diagnostics to adjust influence online. Empirically, systems with explicit arbitration tend to degrade more gracefully when tool quality, prompt format, or domain dynamics change.
+
+\subsection{Concrete Arbitration Recipes}
+Two practical schedules can be implemented with minimal overhead and provide stable authority control in mixed-supervision training.
+\begin{equation}
+\alpha_t=\alpha_0\cdot \sigma\!\left(\kappa\left(1-\mathrm{ECE}_t\right)\right),
+\label{eq:alpha_recipe}
+\end{equation}
+where $\alpha_0$ is the maximum shaping weight, $\sigma(\cdot)$ is the logistic function, $\kappa$ controls sensitivity, and $\mathrm{ECE}_t$ is expected calibration error measured on a rolling buffer of verifier predictions versus delayed grounded outcomes. In practice, $\mathrm{ECE}_t$ can be recomputed every $N$ updates; when calibration worsens, $\alpha_t$ contracts automatically, limiting shaped-reward authority.
+
+\begin{equation}
+w(\tau)=\min\!\left(1,\frac{\beta}{\hat{\sigma}_{\text{verifier}}(\tau)+\epsilon}\right),
+\label{eq:weight_recipe}
+\end{equation}
+where $\hat{\sigma}_{\text{verifier}}(\tau)$ is trajectory-level uncertainty (ensemble variance or dropout variance), $\beta$ is a trust budget, and $\epsilon$ avoids numerical instability. This schedule is directly usable in replay sampling or loss reweighting: uncertain trajectories still contribute but with bounded influence. Combined with periodic disagreement checks across verifier heads, this yields a simple advisor-to-judge authority schedule that is both auditable and robust under moderate shift.
+
+In deployed pipelines, both schedules are typically computed on rolling windows: (i) update $\mathrm{ECE}_t$ from recent verifier predictions versus delayed grounded outcomes, (ii) update $\hat{\sigma}_{\text{verifier}}$ from ensemble variance, and (iii) apply conservative floor and ceiling constraints on $\alpha_t$ and $w(\tau)$ to prevent abrupt authority shifts. This workflow is lightweight enough for online adaptation and has been adopted in variants of verifier-weighted and search-guided systems \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_07848,arxiv_p_2602_02395}.
 
 \subsection{Operator Composition in Practice}
 Real systems rarely deploy a single operator in isolation. Planner outputs influence action priors, verifier outputs influence update trust, and world outputs influence replay composition at the same time. Composition creates leverage because each operator can compensate weaknesses of another: verifiers can reject planner-induced shortcuts; planners can constrain expensive search; world models can pre-screen poor branches before real interaction. Composition also creates coupling risk because correlated errors can align in harmful ways. For example, a planner may generate semantically attractive but infeasible trajectories, while a verifier trained on linguistic coherence assigns them high confidence, and a simulator reproduces the same bias in synthetic replay.
@@ -228,7 +255,7 @@ Some adjacent literature develops RL procedures primarily for improving language
 
 \begin{figure*}[t]
 \centering
-\resizebox{0.95\textwidth}{!}{\input{figures/fig1.tikz}}
+\input{figures/fig1.tikz}
 \caption{LLM modules embedded in the reinforcement learning loop. Planner, reward-verifier, world-model, and tool-memory modules intervene in trajectory generation and update construction while environment reward remains the grounding anchor.}
 \label{fig:loop}
 \end{figure*}
@@ -253,6 +280,8 @@ Multi-agent / Interactive & Coordination and social credit pathways & Shared pla
 \caption{Mechanism-first taxonomy of LLM modules in the RL loop.}
 \label{tab:t1_taxonomy}
 \end{table*}
+
+Table~\ref{tab:t1_taxonomy} acts as a pathway map for the rest of the survey: trajectory-prior and search modules primarily reshape sampling, reward-verifier modules reshape targets, generator modules reshape replay support, and tool-memory modules reshape effective state. This operator-centric reading improves taxonomy rigor because it links each category to a distinct optimization pathway and therefore to distinct diagnostics.
 
 \begin{table*}[t]
 \centering
@@ -291,10 +320,34 @@ DM-C & Multi-agent / Interactive & Coordination, communication, and interactive 
 \label{tab:coverage_map_part2}
 \end{table*}
 
+\subsection{Boundary Between Information Processor and Decision Maker Roles}
+The distinction between information processors and decision makers is operational, not stylistic. Information-processor modules primarily transform observations into augmented state variables $\tilde{s}_t$ while leaving both action-selection and gradient targets unchanged. Decision-maker modules, by contrast, directly influence action probabilities through $a_t$ or latent control variables $z_t$ and therefore change trajectory distribution at sampling time. Reward-verifier modules define a third boundary: they do not necessarily choose actions, but they alter update targets or trajectory weights and thus reshape gradients. This three-way split is essential for clean ablations because state mediation, action mediation, and target mediation produce different bias pathways even when they share a language backbone \cite{arxiv_p_2204_01691,arxiv_p_2404_03648,arxiv_p_2602_06493,arxiv_p_2602_07848}.
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{P{2.6cm}P{2.8cm}P{1.8cm}P{3.1cm}Y}
+\toprule
+\textbf{Representative system} & \textbf{Operator roles} & \textbf{Authority level} & \textbf{Arbitration mechanism} & \textbf{Reported calibration / checks}\\
+\midrule
+SayCan \cite{arxiv_p_2204_01691} & Planner + grounded skill selection & Advisor-controller hybrid & Language prior combined with grounded skill-value scoring & Skill-selection ablations and execution success comparisons \\
+Code as Policies \cite{doi_p_10_1109_icra48891_2023_10160591} & Policy/program generation + tool interface & Controller & Program execution with feasibility constraints and fallback primitives & Task success and behavior-level error analysis \\
+Voyager \cite{arxiv_p_2305_16291} & Planning + memory + curriculum & Advisor with adaptive authority & Iterative skill library updates with environment feedback loops & Progress metrics and iterative capability diagnostics \\
+Eureka \cite{arxiv_p_2310_12931} & Reward design + verifier-like refinement & Judge on reward channel & Candidate reward proposal with iterative grounded selection & Reward-function ablations and transfer checks \\
+Tool-memory interactive agents \cite{arxiv_p_2404_03648} & Information processor + tool/memory mediation & Advisor or Judge (context gating) & Retrieval and memory policies gate available context for control & Tool-failure stress tests and memory consistency diagnostics \\
+Search-guided hybrids \cite{arxiv_p_2602_07848,doi_p_10_48448_q4pk_2g71} & Decision-maker + verifier scoring & Controller or Judge & Branch expansion by priors, reranking by value/verifier signals & Branch-efficiency and robustness under perturbation \\
+Synthetic replay pipelines \cite{arxiv_p_2602_02454,arxiv_p_2601_08107} & Generator + world-model assistance & Simulator authority (bounded) & Confidence-aware synthetic-real replay mixing & Divergence monitoring and replay-ratio sensitivity analysis \\
+\bottomrule
+\end{tabularx}
+\caption{Case-study mapping matrix linking representative systems to operator roles, authority levels, and arbitration patterns.}
+\label{tab:case_mapping}
+\end{table*}
+
 \section{LLM as Information Processor}
 \begin{figure*}[t]
 \centering
-\resizebox{0.95\textwidth}{!}{\input{figures/fig2_taxonomy.tex}}
+\input{figures/fig2_taxonomy.tex}
 \caption{Role-based taxonomy of LLM-enhanced RL: information processor, reward-verifier, decision maker, and generator modules with representative submechanisms.}
 \label{fig:taxonomy}
 \end{figure*}
@@ -303,10 +356,14 @@ Information processing is the least noisy yet most structurally consequential ro
 
 This role is best understood as a representational intervention in trajectory optimization. If observation-to-state mapping improves, policy gradients are estimated with lower variance and with fewer misleading state aliases. If mapping degrades, value estimation may become systematically biased even when optimization itself is numerically stable. The practical implication is that representation design is not a preprocessing convenience; it is part of the RL algorithmic core when language modules are present. Evidence from embodied control, web interaction, and instruction-grounded decision tasks consistently supports this claim, especially in settings with long horizons and partial observability \cite{arxiv_p_2205_12258,arxiv_p_2302_06692,arxiv_p_2311_13373,arxiv_p_2411_02337,arxiv_p_2601_12762,arxiv_p_2602_13559}.
 
+Unlike reward-verifier pathways that alter gradient targets directly, information-processing pathways usually improve RL by reducing state ambiguity and improving observability before updates are computed \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2310_12931}. In contrast to planner-heavy systems that modify action priors online, these methods often preserve controller autonomy while still improving sample efficiency through better context structuring \cite{arxiv_p_2204_01691,arxiv_p_2305_16291,arxiv_p_2602_07848}.
+
 \subsection{Language-to-state translation and instruction grounding}
 Language-to-state modules transform natural-language goals and constraints into policy-consumable state variables. This can include latent goal vectors, symbolic predicates, option masks, or executable control hints that parameterize downstream RL components. In instruction-following environments, this translation is often the difference between random exploration and structured interaction. In embodied robotics, grounding instruction semantics into affordance-aware representations has proven especially effective because it narrows the action manifold before expensive real-world trial-and-error begins \cite{arxiv_p_2204_01691,doi_p_10_1109_icra48891_2023_10160591,arxiv_p_2310_17722}.
 
 A key design choice is whether translation is static or iterative. Static translation produces one task embedding at episode start, which is computationally efficient and reproducible, but brittle under context drift. Iterative translation updates task representations as observations and tool responses arrive, enabling adaptation in dynamic interfaces at the cost of additional compute and consistency risk. Systems in web and dialogue-heavy control tasks increasingly favor iterative translation because objectives and constraints are revealed gradually, not all at once \cite{arxiv_p_2311_00262,arxiv_p_2402_19446,arxiv_p_2601_02439}.
+
+Recent embodied and interactive studies further show that iterative grounding is most useful when paired with explicit tool contracts and consistency checks, because unbounded context updates can introduce latent drift even when immediate task success appears to improve \cite{arxiv_p_2404_03648,arxiv_p_2511_14460,arxiv_p_2601_03555}.
 
 Granularity is another axis. Coarse representations improve robustness and reduce overfitting to surface wording. Rich symbolic structures can improve long-horizon decomposition when planners and verifiers are available. The practical frontier is adaptive granularity: fine-grained when uncertainty is high and coarse when control confidence is already strong.
 
@@ -322,12 +379,16 @@ Long-horizon RL in interactive environments requires persistent context. Memory-
 
 Retrieval-centric systems preserve detail but can become latency-heavy and noisy. Summarization-centric systems are efficient but risk irreversible information loss. Hybrid systems that combine short-term buffers with long-term summaries and verifier-guided memory correction provide better stability in multi-turn tasks.
 
+Compared with synthetic replay methods that expand support through generated trajectories, memory-mediated systems primarily alter what is remembered and reused from grounded interaction histories \cite{arxiv_p_2601_08107,arxiv_p_2602_02137,arxiv_p_2602_03305}. This distinction matters because memory errors propagate as context bias, whereas synthetic errors propagate as transition-model bias.
+
 An unresolved credit-assignment issue is memory write attribution: which stored item deserves credit for future return improvements. Existing methods still rely heavily on heuristics. Treating memory writes as explicit actions with delayed utility is a promising direction for principled optimization.
 
 \subsection{Programmatic and symbolic interface construction}
 A fourth information-processing pathway uses LLMs to construct typed interfaces among language, tools, and control modules. Instead of passing free-form text, these systems emit function schemas, symbolic action arguments, or program fragments that constrain downstream execution. Such interfaces can reduce ambiguity, improve safety checks, and simplify action grounding in complex tool environments.
 
 Programmatic mediation also improves diagnostics. Failure attribution becomes tractable when errors can be localized to parsing, grounding, tool execution, or low-level policy adaptation. This does not eliminate failures; it makes them measurable. The trade-off is reduced flexibility when schemas are too rigid. Modern systems address this with typed fallback channels and explicit exception handling \cite{doi_p_10_3390_make8010022,arxiv_p_2512_20275,arxiv_p_2602_03022,doi_p_10_1609_icaps_v34i1_31503}.
+
+This interface-centric design is increasingly coupled with structured execution traces and schema-level validation in complex agentic environments, yielding better debuggability than free-form textual mediation alone \cite{arxiv_p_2509_12867,arxiv_p_2509_14480,arxiv_p_2510_18383,arxiv_p_2602_00528}.
 
 \begin{table*}[t]
 \centering
@@ -349,7 +410,9 @@ IV-D Symbolic interface design & Typed tool schemas and structured control token
 
 Taken together, information-processing mechanisms mostly improve RL by changing what the learner perceives as state, not by changing objective semantics directly. This usually yields stable gains when observability is the bottleneck, but limited gains when supervision is the bottleneck. The next section therefore shifts focus from state construction to supervision construction, where reward and verifier channels can accelerate learning more aggressively but with higher misalignment risk.
 \section{LLM as Reward Designer and Verifier}
-Reward and verifier pathways modify the supervision that drives RL updates. Instead of relying solely on delayed environment reward, these approaches introduce language-derived shaping terms, process scores, and trajectory-level acceptance signals. The upside is clear: denser supervision can accelerate learning and stabilize long-horizon credit assignment. The downside is equally clear: auxiliary signals can become exploitable proxies that drift from task utility. Consequently, this role requires stronger calibration and diagnostics than almost any other module class.
+Reward and verifier pathways modify the supervision that drives RL updates. Instead of relying solely on delayed environment reward, these approaches introduce language-derived shaping terms, process scores, and trajectory-level acceptance signals. The upside is clear: denser supervision can accelerate learning and stabilize long-horizon credit assignment. The downside is equally clear: auxiliary signals can become exploitable proxies that drift from task utility. Consequently, this role requires stronger calibration and diagnostics than almost any other module class \cite{arxiv_p_2310_12931,arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2510_20867,arxiv_p_2512_05686,arxiv_p_2602_09367}.
+
+Compared with information-processing modules, reward-verifier modules act closer to the gradient target and therefore can produce larger gains and larger failures in fewer updates \cite{arxiv_p_2205_12258,arxiv_p_2404_03648,arxiv_p_2602_00994}. Unlike planner-heavy methods that alter sampling trajectories first and targets second, supervision-first methods alter targets immediately and rely on calibration to preserve alignment with long-horizon return \cite{arxiv_p_2204_01691,arxiv_p_2305_16291,arxiv_p_2602_07848}.
 
 \subsection{Natural-language reward shaping for RL tasks}
 Natural-language reward shaping transforms textual task requirements into explicit reward signals or code-level reward functions. In RL environments where task constraints are easier to express linguistically than mathematically, this mechanism can reduce reward-engineering overhead and speed adaptation across task variants \cite{arxiv_p_2310_12931,arxiv_p_2309_11489,arxiv_p_2309_06687,doi_p_10_3390_app14198868}.
@@ -363,12 +426,16 @@ where $F$ is a language-derived shaping term. Potential-based shaping variants p
 
 Empirically, reward-generation methods are most effective in robotics and embodied tasks with sparse success signals. However, they are also where reward hacking is most dangerous: policies can maximize shaped objectives while degrading true task robustness. Effective systems therefore report shaping-ablation curves, return-correlation diagnostics, and adversarial probes.
 
+Recent work also indicates that reward synthesis quality is tightly coupled with task decomposition quality: when decomposition is poor, even semantically plausible reward code can bias optimization toward superficial process markers \cite{arxiv_p_2509_23863,arxiv_p_2510_10197,arxiv_p_2601_15690}.
+
 \subsection{Verifier-based RL and process critics}
 Verifier-based RL does not always replace reward; it reweights or filters updates using process-level quality scores. A verifier may score full trajectories, sub-trajectory segments, or step-wise rationale traces. These scores enter optimization via weighting or gating, typically to suppress noisy samples and improve update quality \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2601_06845,arxiv_p_2602_02395}.
 
 The main technical challenge is calibration under shift. A verifier that appears reliable in one prompt regime can fail when task framing changes. Over-authorized verifiers induce shortcut optimization, where the policy learns to satisfy verifier artifacts instead of environment objectives. Practical mitigation includes disagreement-aware ensembles, uncertainty heads, and staged authority schedules.
 
 A second challenge is consistency across trajectories of different length and structure. Length-normalized scoring and context-aware calibration are important in multi-turn tasks where superficial fluency is weakly tied to control quality.
+
+Cross-domain evidence from robotics, web interaction, and strategic environments suggests that verifier transfer is weakest when score semantics depend strongly on hidden tool state; this is one reason disagreement-aware verification is becoming standard \cite{arxiv_p_2404_03648,arxiv_p_2601_02439,arxiv_p_2602_14234}.
 
 \subsection{Process reward decomposition and credit routing}
 Process supervision can be interpreted as trajectory-level credit routing. Instead of rewarding only terminal outcomes, the system assigns credit to intermediate decisions based on language-mediated evaluations of progress quality. This can dramatically reduce delayed-credit ambiguity in compositional tasks.
@@ -409,7 +476,9 @@ V-D Safety verification & Constraint checks and gating & Lower violation rates &
 
 Reward-verifier pathways are often the highest-leverage and highest-risk intervention class. They can convert delayed outcomes into actionable intermediate targets, but they also create direct routes for proxy optimization. This tension motivates the transition to decision-making modules, where language channels act less as judges of quality and more as shapers of trajectory search.
 \section{LLM as Decision Maker (Planner and Policy Improver)}
-Decision-making interventions assign language modules direct influence over action selection, branch expansion, or exploration strategy. Compared with representation and reward mediation, these interventions generally carry higher authority. Their upside is substantial in long-horizon tasks where unstructured search is intractable. Their failure modes are also severe: planner-policy mismatch, infeasible action proposals, and overconfident deliberation under distribution shift.
+Decision-making interventions assign language modules direct influence over action selection, branch expansion, or exploration strategy. Compared with representation and reward mediation, these interventions generally carry higher authority. Their upside is substantial in long-horizon tasks where unstructured search is intractable. Their failure modes are also severe: planner-policy mismatch, infeasible action proposals, and overconfident deliberation under distribution shift \cite{arxiv_p_2204_01691,arxiv_p_2305_16291,arxiv_p_2405_01534,arxiv_p_2602_16165,arxiv_p_2602_07848,arxiv_p_2602_11551,arxiv_p_2512_16848}.
+
+Unlike reward-verifier pathways that primarily reshape update targets, decision-making pathways reshape sampling trajectories first and only indirectly alter gradients through changed visitation distributions. In contrast to generator pathways that modify replay support post hoc, planner and search interventions affect control online and therefore require tighter real-time fallback logic \cite{arxiv_p_2310_12931,arxiv_p_2602_06493,arxiv_p_2310_20587,arxiv_p_2601_08107}.
 
 \subsection{LLM as planner for hierarchical RL}
 Planner-centric systems decompose long-horizon tasks into subgoals or options that condition lower-level RL controllers. The immediate benefit is horizon reduction: instead of optimizing over full trajectories with delayed sparse reward, the learner receives structured intermediate objectives that can be evaluated sooner. In hierarchical form, the policy becomes conditioned on planner outputs $z_t$, and policy learning focuses on executing and refining those latent directives \cite{arxiv_p_2204_01691,arxiv_p_2305_16291,arxiv_p_2405_01534,arxiv_p_2602_16165}.
@@ -418,12 +487,16 @@ A critical design choice is planner authority. Soft planners provide candidate s
 
 Planner modules also differ by output form. Some output natural-language subgoals, others output symbolic options or executable pseudo-code. Symbolic and code-like outputs can improve reproducibility and repairability, but they require strong schema validation. Free-form outputs are flexible but harder to audit.
 
+Across reported systems, symbolic planners tend to improve debuggability and contract checking, whereas free-form planners often retain higher adaptability under open-ended tasks; hybrid planners that emit structured plans with natural-language justifications are increasingly common \cite{doi_p_10_1109_icra48891_2023_10160591,arxiv_p_2510_13229,arxiv_p_2510_14967,arxiv_p_2601_14140}.
+
 \subsection{LLM-guided search and deliberative control}
 Search-augmented decision pipelines use LLM priors to guide branch generation while RL/value estimates ground branch selection. This includes MCTS-style proposals, beam-style expansion with verifier reranking, and uncertainty-aware branch sampling \cite{arxiv_p_2602_03719,arxiv_p_2602_06493,arxiv_p_2602_07848,doi_p_10_48448_q4pk_2g71}.
 
 The core benefit is better allocation of planning-time computation. Rather than evaluating actions uniformly, the agent explores branches likely to contain high-value trajectories and prunes implausible branches early. This can improve both solution quality and sample efficiency in strategic and language-rich environments.
 
 The main risk is prior collapse: language priors can overconcentrate search on semantically attractive but environment-weak branches. Mitigation includes diversity regularization, value-grounded pruning, and adversarial branch perturbations. Another risk is latency inflation. Deliberation improves quality only if compute budgets are adapted to uncertainty; fixed over-deliberation reduces practical utility.
+
+Recent deliberative-control results also highlight a recurring calibration pattern: branch quality estimates remain reliable at shallow depth but deteriorate quickly as branches lengthen without grounded feedback, reinforcing the need for depth-aware trust schedules \cite{arxiv_p_2601_06845,arxiv_p_2602_03719,arxiv_p_2602_06493}.
 
 \subsection{Policy priors and action proposal modules}
 A complementary family keeps a standard RL optimizer but uses LLM modules to propose candidate actions, skills, or policy priors. In continuous control and robotics, proposals may be high-level control intents or waypoint programs. In discrete environments, proposals can restrict action sets before value scoring. This narrows exploration and can reduce sample complexity.
@@ -436,6 +509,8 @@ Imitation-enhanced variants use language-generated demonstrations or policy sket
 Decision-making roles also include exploration shaping and curriculum generation policies. LLM modules can propose exploration targets, curriculum stages, and adaptive data-collection plans based on observed failure patterns. This is particularly useful in sparse-reward domains where random exploration is prohibitively expensive.
 
 Curriculum-guided exploration is not uniformly beneficial. Poorly calibrated curricula can lock the learner into easy but uninformative trajectories. Effective systems update curriculum policies using grounded performance diagnostics and maintain diversity constraints over generated tasks \cite{arxiv_p_2512_16848,arxiv_p_2602_07906,arxiv_p_2601_16486}.
+
+Compared with reward-shaping interventions that alter gradients directly, curriculum interventions alter the data seen by the optimizer and therefore tend to improve stability when reward semantics are uncertain \cite{arxiv_p_2310_12931,arxiv_p_2510_20867,arxiv_p_2602_11551}. However, they are more sensitive to task-generation bias and require diversity-aware sampling policies \cite{arxiv_p_2512_24653,arxiv_p_2601_18225,arxiv_p_2601_20802}.
 
 \subsection{Multi-agent and interactive decision settings}
 In multi-agent settings, language modules can coordinate role assignment, negotiation, and shared planning. These settings expose additional credit-assignment complexity because outcomes depend on coupled adaptation among agents. Language-mediated coordination can reduce non-stationarity when communication channels are reliable, but can also induce proxy collusion or communication drift under weak constraints \cite{arxiv_p_2304_07297,arxiv_p_2310_03903,arxiv_p_2602_08335,arxiv_p_2602_11583}.
@@ -463,12 +538,16 @@ VI-E Multi-agent coordination & Mixed & Medium to long horizon & Team coordinati
 
 Decision-making modules expose a core trade-off between guidance and controllability: stronger priors reduce search burden but increase dependence on planner quality. This naturally leads to generator pathways, where language modules influence not only action selection but also the data and world structures from which policies learn.
 \section{LLM as Generator (World Models, Data, and Environment Design)}
-Generator roles alter the data distribution that RL learns from. Instead of only guiding actions or rewards, these modules generate imagined transitions, synthetic trajectories, relabeled datasets, and auto-generated tasks. This can dramatically increase coverage in low-data regimes and accelerate early-stage learning. It can also inject structured bias that remains hidden until deployment shift.
+Generator roles alter the data distribution that RL learns from. Instead of only guiding actions or rewards, these modules generate imagined transitions, synthetic trajectories, relabeled datasets, and auto-generated tasks. This can dramatically increase coverage in low-data regimes and accelerate early-stage learning. It can also inject structured bias that remains hidden until deployment shift \cite{arxiv_p_2301_12050,arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2310_20587,arxiv_p_2601_08107,arxiv_p_2512_24653,arxiv_p_2602_03305}.
+
+In contrast to decision-making modules that alter trajectories online, generator modules often alter learning indirectly by changing replay composition and world assumptions. Compared with information processors, they can yield larger sample-efficiency gains in low-interaction settings but face stronger distribution-shift risks that demand explicit uncertainty control \cite{arxiv_p_2404_03648,arxiv_p_2511_14460,arxiv_p_2602_07848,arxiv_p_2602_14468}.
 
 \subsection{World-model and simulator generation}
 Language-assisted world modeling uses LLM priors to produce abstract or explicit transition hypotheses. In model-based RL, these hypotheses support planning and value-target construction. In expensive interaction settings, even partially accurate world priors can improve sample efficiency by reducing random exploration \cite{arxiv_p_2301_12050,arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2602_12099}.
 
 The dominant risk is hallucinated dynamics. Language-generated trajectories can be internally coherent but physically invalid. Without uncertainty-aware arbitration, these errors contaminate replay and value learning. Strong systems therefore cap synthetic replay ratios, monitor synthetic-real divergence, and discount deep imagined rollouts more aggressively than shallow ones.
+
+Reported best practices now include per-transition confidence tagging and replay-time filtering rather than one-shot dataset filtering, because transition quality is often non-uniform within a single generated trajectory \cite{arxiv_p_2602_00785,arxiv_p_2602_03022,arxiv_p_2602_12099}.
 
 \subsection{Synthetic trajectory and demonstration generation}
 Synthetic data generation includes demonstrations, candidate trajectories, and relabeled traces. These resources are valuable when real data is costly or unsafe to collect. Offline RL pipelines in particular benefit from synthetic augmentation when data support is narrow.
@@ -484,6 +563,10 @@ The challenge is maintaining useful diversity. If generated tasks are too simila
 In offline RL, LLMs can annotate trajectories with latent goals, quality labels, and process summaries. These annotations can improve conservative policy learning by exposing otherwise hidden structure in historical data. They can also introduce confounding if labels reflect language priors not grounded in dynamics.
 
 Reliable offline augmentation requires conservative integration schedules and explicit uncertainty modeling. Policies should be evaluated under multiple relabeling strengths and with diagnostics that isolate label quality effects from policy-optimization effects.
+
+Unlike reward-verifier pathways that can be stress-tested with calibration curves on held-out trajectories, offline augmentation needs contamination diagnostics that estimate how much policy gain depends on generated versus grounded support \cite{arxiv_p_2602_02137,doi_p_10_14778_3685800_3685913,arxiv_p_2505_18098}.
+
+This distinction explains why many offline gains are fragile under distribution shift: improvements can come from improved support coverage or from latent confounding, and only counterfactual contamination analyses can separate the two effects \cite{arxiv_p_2310_20587,arxiv_p_2601_03205,arxiv_p_2601_14228,arxiv_p_2602_03073}.
 
 \begin{table*}[t]
 \centering
@@ -520,6 +603,29 @@ planner feasibility, verifier calibration, synthetic-real divergence, memory fre
 
 Robustness metrics are essential for deployment-oriented evaluation. Useful stress tests include prompt paraphrase perturbations, tool outages, adversarial verifier probes, and delayed-reward perturbations. Reporting only in-distribution metrics risks overestimating practical reliability.
 
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{P{2.1cm}P{1.7cm}P{3.7cm}P{2.6cm}Y}
+\toprule
+\textbf{Diagnostic} & \textbf{Metric} & \textbf{How to compute} & \textbf{Threshold / warning sign} & \textbf{Relevant operator}\\
+\midrule
+Verifier calibration & ECE, AUROC & Bin verifier confidence on held-out trajectories; compute confidence-accuracy gap and discrimination under success/failure labels & ECE $>$ 0.08 or rapidly degrading AUROC indicates unsafe verifier authority & Reward \& Verifier \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_02395}\\
+Synthetic-real divergence & MMD/KL proxy + TD-residual gap & Compare feature distributions between synthetic and grounded replay; track value-error gap across the two buffers & Persistent divergence growth or TD gap inflation flags model-bias accumulation & World and Generator \cite{arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2601_08107}\\
+Planner-policy disagreement rate & Feasibility mismatch ratio & Measure frequency that planner proposals are rejected or repaired by controller/value critic & Sustained mismatch $>$ 20\% suggests planner authority should be reduced & Planner and Decision modules \cite{arxiv_p_2204_01691,arxiv_p_2405_01534,arxiv_p_2602_16165}\\
+Replay contamination ratio & Synthetic influence fraction & Estimate contribution of synthetic transitions to policy gradient norm or update mass & High influence with weak grounded gains indicates shortcut learning risk & Offline and Generator channels \cite{arxiv_p_2310_20587,arxiv_p_2505_18098,arxiv_p_2602_03305}\\
+Memory drift & Context inconsistency rate & Track contradiction/staleness in retrieved memory versus current environment state and tool outputs & Rising inconsistency under stable task conditions signals context-governance failure & Tool and Memory channels \cite{arxiv_p_2404_03648,arxiv_p_2602_00994,arxiv_p_2601_07264}\\
+\bottomrule
+\end{tabularx}
+\caption{Evaluation checklist for pathway-level diagnostics in LLM-enhanced RL systems.}
+\label{tab:t6_eval_checklist}
+\end{table*}
+
+The checklist in Table~\ref{tab:t6_eval_checklist} is most informative when diagnostics are reported jointly rather than independently. For example, a rise in planner-policy disagreement is less concerning when verifier calibration and memory drift remain stable, but becomes high risk when both degrade simultaneously. Similarly, synthetic-real divergence should be interpreted together with replay contamination ratio: high divergence with low synthetic influence may be tolerable, while moderate divergence with dominant synthetic influence is usually a warning condition \cite{arxiv_p_2602_02454,arxiv_p_2601_08107,arxiv_p_2602_03305,arxiv_p_2404_03648}. Cross-diagnostic reporting therefore improves causal interpretation of gains and helps avoid overfitting to single-metric optimizations.
+
+A practical rollout strategy is to gate deployment by checklist stability rather than by return alone: require verifier calibration to remain within tolerance, planner-policy disagreement to trend downward, and synthetic contamination to remain bounded over multi-seed runs. This protocol improves practical usefulness by turning abstract diagnostics into release criteria.
+
 \subsection{Reproducibility and ablation design}
 Ablations should align with claimed mechanisms. Planner-centric systems should ablate planner authority and repair policies. Reward-centric systems should ablate shaping strength and verifier weighting. Generator-centric systems should ablate synthetic-real mixing ratios and confidence filters. Memory-centric systems should ablate retention windows and retrieval quality.
 
@@ -528,9 +634,11 @@ A second reproducibility requirement is intervention logging. Systems should log
 \subsection{Practical design patterns}
 Across domains, several design patterns recur. First, stage authority over training phases: conservative module influence early, increased influence after calibration evidence. Second, maintain dual grounding checks that compare language-mediated signals against environment return. Third, keep fail-safe fallback policies that disable high-risk channels under disagreement spikes.
 
-These patterns are not universal guarantees, but they consistently improve robustness in reported deployments. They also provide a path toward standardized engineering practice for LLM-enhanced RL.
+These patterns are not universal guarantees, but they consistently improve robustness in reported deployments. They also provide a path toward standardized engineering practice for LLM-enhanced RL \cite{arxiv_p_2204_01691,arxiv_p_2404_03648,arxiv_p_2602_06493,arxiv_p_2602_02454,arxiv_p_2512_05686}.
 
 To make these patterns comparable across papers, reporting should separate intervention efficacy from orchestration efficacy. Intervention efficacy measures whether a channel (e.g., planner or verifier) can provide useful signal in principle. Orchestration efficacy measures whether authority schedules, fallback logic, and arbitration thresholds are tuned robustly in practice. Confusing the two leads to misleading conclusions: a weakly orchestrated strong intervention may appear inferior to a well-orchestrated weaker one. Standard reports should therefore include both mechanism ablations and orchestration ablations, with perturbation tests on tool reliability, prompt framing, and uncertainty calibration.
+
+In practice, this separation also improves reproducibility audits: when a result regresses, one can determine whether the failure came from weakened module signal quality or from altered orchestration policy, rather than conflating both as ``model instability.''
 
 \begin{table*}[t]
 \centering
@@ -558,6 +666,11 @@ A practical implication is that mitigation should be contract-aware rather than 
 
 An actionable evaluation protocol follows directly from this framing: test each channel under three modes---disabled, advisory, and authoritative---then report how both return and stability indicators move across modes. This protocol isolates whether gains come from signal quality or merely from aggressive authority. It also reveals hidden coupling effects, such as planners that are useful only when verifier thresholds are strict, or synthetic replay that helps only under conservative memory policies. These interaction tests are often more informative than incremental benchmark gains and should become standard in comparative studies.
 
+\subsection*{Ethics and Safety Safeguards}
+Authority escalation should be treated as a safety-critical decision rather than a pure performance optimization. In practice, high-authority channels benefit from guardrails such as capped influence, disagreement-triggered rollback, and explicit human-in-the-loop override policies in deployment-facing settings \cite{arxiv_p_2512_05686,arxiv_p_2602_09367,arxiv_p_2602_13156}. Failure containment should also be pathway-specific: planner faults require fast feasibility fallback, verifier faults require trust contraction, and tool-memory faults require context quarantine. These safeguards do not remove all risk, but they substantially reduce the probability that localized module errors become trajectory-wide failures.
+
+From an optimization perspective, these safeguards can be interpreted as variance control under epistemic uncertainty: authority caps reduce heavy-tailed update noise, rollback policies prevent error persistence, and disagreement triggers limit correlated bias across channels. This interpretation links safety engineering directly to stable learning dynamics rather than treating it as a post hoc compliance layer \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_14468}.
+
 \begin{table*}[t]
 \centering
 \small
@@ -581,34 +694,34 @@ Compute-latency imbalance & Over-deliberation under fixed latency budgets & Marg
 The field has advanced quickly, but its scientific foundations remain incomplete. The principal challenge is not the absence of strong models; it is the absence of robust theories and protocols for mixed-supervision optimization. Language modules alter trajectory priors, supervision density, and dataset composition simultaneously, making causal attribution difficult. The following open problems identify research directions with direct implications for reliability.
 
 \subsection{Calibrated verifier uncertainty}
-Verifier scores are still frequently consumed as if they were calibrated probabilities, even when the underlying data regime is non-stationary. In practice, prompt variations, tool noise, and changing rollout composition can shift score semantics faster than threshold policies are updated. This mismatch turns ostensibly robust reweighting into brittle gating, especially in late training where policy behavior departs from verifier training data. A first priority is joint modeling of score and uncertainty, with explicit reliability intervals attached to each verification decision. A second priority is online recalibration against delayed environment outcomes so that verifier trust tracks real control quality rather than internal confidence alone.
+Verifier scores are still frequently consumed as if they were calibrated probabilities, even when the underlying data regime is non-stationary. In practice, prompt variations, tool noise, and changing rollout composition can shift score semantics faster than threshold policies are updated. This mismatch turns ostensibly robust reweighting into brittle gating, especially in late training where policy behavior departs from verifier training data. A first priority is joint modeling of score and uncertainty, with explicit reliability intervals attached to each verification decision. A second priority is online recalibration against delayed environment outcomes so that verifier trust tracks real control quality rather than internal confidence alone \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_02395}.
 
 \subsection{Module authority arbitration}
-Most systems still assign module authority through fixed coefficients or static stage boundaries, even though module quality is strongly state- and phase-dependent. The same planner can be reliable in nominal regions and unreliable near boundary conditions where dynamics become nonlinear. Similarly, verifier confidence can lag policy drift, causing authority to remain high when it should contract. The research gap is not only better arbitration policies, but better arbitration objectives that optimize stability, not just short-horizon return. Promising directions include constrained meta-controllers that allocate authority under uncertainty budgets and can be evaluated independently from task reward.
+Most systems still assign module authority through fixed coefficients or static stage boundaries, even though module quality is strongly state- and phase-dependent. The same planner can be reliable in nominal regions and unreliable near boundary conditions where dynamics become nonlinear. Similarly, verifier confidence can lag policy drift, causing authority to remain high when it should contract. The research gap is not only better arbitration policies, but better arbitration objectives that optimize stability, not just short-horizon return. Promising directions include constrained meta-controllers that allocate authority under uncertainty budgets and can be evaluated independently from task reward \cite{arxiv_p_2508_03680,arxiv_p_2601_16486,arxiv_p_2602_07906}.
 
 \subsection{Credit assignment with mixed supervision}
-Theoretical understanding of policy updates under mixed supervision remains thin. Planner outputs, shaping terms, verifier weights, and synthetic replay are rarely independent; their errors are often correlated through shared context and model priors. When those correlations are positive, bias can accumulate faster than variance reduction benefits, producing deceptively stable but misaligned optimization. Future theory should therefore move beyond additive-noise assumptions and model cross-channel covariance explicitly. On the empirical side, standardized diagnostics should report not only channel-wise ablations but pairwise and higher-order interaction effects.
+Theoretical understanding of policy updates under mixed supervision remains thin. Planner outputs, shaping terms, verifier weights, and synthetic replay are rarely independent; their errors are often correlated through shared context and model priors. When those correlations are positive, bias can accumulate faster than variance reduction benefits, producing deceptively stable but misaligned optimization. Future theory should therefore move beyond additive-noise assumptions and model cross-channel covariance explicitly. On the empirical side, standardized diagnostics should report not only channel-wise ablations but pairwise and higher-order interaction effects \cite{arxiv_p_2510_20867,arxiv_p_2602_16165,arxiv_p_2601_06845}.
 
 \subsection{Uncertainty-aware world modeling}
-Generated rollouts improve coverage, but their utility depends on where and how they are inserted into training. Deep imagined trajectories can contribute useful structural priors while simultaneously amplifying small model errors into large value bias. A key open problem is uncertainty shaping across rollout depth: confidence should typically decay with horizon unless corroborated by grounded evidence. Another open problem is calibrating synthetic-real mixing adaptively, rather than fixing replay ratios globally. Robust pipelines should couple divergence diagnostics with automatic down-weighting when synthetic traces drift from observed transition statistics.
+Generated rollouts improve coverage, but their utility depends on where and how they are inserted into training. Deep imagined trajectories can contribute useful structural priors while simultaneously amplifying small model errors into large value bias. A key open problem is uncertainty shaping across rollout depth: confidence should typically decay with horizon unless corroborated by grounded evidence. Another open problem is calibrating synthetic-real mixing adaptively, rather than fixing replay ratios globally. Robust pipelines should couple divergence diagnostics with automatic down-weighting when synthetic traces drift from observed transition statistics \cite{arxiv_p_2301_12050,arxiv_p_2602_02454,arxiv_p_2602_11075,arxiv_p_2602_00785}.
 
 \subsection{Planner-controller contracts}
-Planner-policy mismatch remains one of the fastest paths to catastrophic degradation in long-horizon tasks. High-level plans can be linguistically coherent yet violate actuation limits, temporal constraints, or hidden environmental preconditions. Contract-aware interfaces should therefore encode feasibility metadata directly in planner outputs, including confidence, precondition assumptions, and acceptable fallback behavior. Controllers, in turn, should return structured execution feedback that can trigger planner repair rather than silent failure accumulation. Closing this loop would transform planning from one-way suggestion to bidirectional coordination with measurable guarantees.
+Planner-policy mismatch remains one of the fastest paths to catastrophic degradation in long-horizon tasks. High-level plans can be linguistically coherent yet violate actuation limits, temporal constraints, or hidden environmental preconditions. Contract-aware interfaces should therefore encode feasibility metadata directly in planner outputs, including confidence, precondition assumptions, and acceptable fallback behavior. Controllers, in turn, should return structured execution feedback that can trigger planner repair rather than silent failure accumulation. Closing this loop would transform planning from one-way suggestion to bidirectional coordination with measurable guarantees \cite{arxiv_p_2204_01691,arxiv_p_2405_01534,arxiv_p_2512_12716,arxiv_p_2602_16165}.
 
 \subsection{Tool and memory reliability}
-Tool and memory pathways are now central in interactive RL, yet reliability contracts remain underdeveloped. Retrieved or executed outputs are often inserted into context without explicit provenance, freshness, or confidence metadata. Once polluted context is written into memory, downstream planning and verification may repeatedly reuse it, creating long error cascades. Future work should treat memory governance as a first-class control problem with typed writes, provenance tracking, expiration policies, and rollback triggers. This framing also enables principled auditing of which context fragments causally influence policy updates.
+Tool and memory pathways are now central in interactive RL, yet reliability contracts remain underdeveloped. Retrieved or executed outputs are often inserted into context without explicit provenance, freshness, or confidence metadata. Once polluted context is written into memory, downstream planning and verification may repeatedly reuse it, creating long error cascades. Future work should treat memory governance as a first-class control problem with typed writes, provenance tracking, expiration policies, and rollback triggers. This framing also enables principled auditing of which context fragments causally influence policy updates \cite{arxiv_p_2404_03648,arxiv_p_2511_14460,arxiv_p_2602_00994,arxiv_p_2601_07264}.
 
 \subsection{Synthetic data governance}
-Synthetic data has become indispensable in low-interaction regimes, but current governance is still largely ad hoc. Leakage between generated and evaluation distributions can silently inflate performance while masking weak generalization. Confounding can also occur when synthetic traces encode stylistic priors that correlate with benchmark scoring but not with robust control. The field needs auditable provenance standards that make generation source, filtering policy, and integration strength transparent. Influence-accounting tools that estimate how much performance depends on synthetic versus grounded data would make claims substantially more trustworthy.
+Synthetic data has become indispensable in low-interaction regimes, but current governance is still largely ad hoc. Leakage between generated and evaluation distributions can silently inflate performance while masking weak generalization. Confounding can also occur when synthetic traces encode stylistic priors that correlate with benchmark scoring but not with robust control. The field needs auditable provenance standards that make generation source, filtering policy, and integration strength transparent. Influence-accounting tools that estimate how much performance depends on synthetic versus grounded data would make claims substantially more trustworthy \cite{arxiv_p_2310_20587,arxiv_p_2505_18098,arxiv_p_2601_08107,arxiv_p_2602_02137}.
 
 \subsection{Evaluation standardization}
-Comparability across studies remains weak because critical protocol choices are inconsistently reported. Two papers with similar headline return may differ dramatically in prompt templates, tool permissions, memory truncation, verifier thresholds, and intervention schedules. Without this metadata, replication attempts often fail for reasons unrelated to algorithmic quality. Channel-aware benchmark cards can close this gap by standardizing reporting of authority policies, perturbation suites, and module-specific diagnostics. Beyond reporting, shared stress-test batteries are needed to evaluate robustness under prompt shift, tool failures, and delayed feedback perturbations.
+Comparability across studies remains weak because critical protocol choices are inconsistently reported. Two papers with similar headline return may differ dramatically in prompt templates, tool permissions, memory truncation, verifier thresholds, and intervention schedules. Without this metadata, replication attempts often fail for reasons unrelated to algorithmic quality. Channel-aware benchmark cards can close this gap by standardizing reporting of authority policies, perturbation suites, and module-specific diagnostics. Beyond reporting, shared stress-test batteries are needed to evaluate robustness under prompt shift, tool failures, and delayed feedback perturbations \cite{arxiv_p_2411_02337,doi_p_10_3390_app14198868,arxiv_p_2510_16720,arxiv_p_2601_12762}.
 
 \subsection{Safety under adversarial conditions}
-Adversarial pressure in modular RL systems is inherently cross-channel. Prompt manipulation can bias planner proposals, which then exploit verifier blind spots, while compromised tool outputs reinforce both channels through shared memory. Defenses designed for isolated modules are therefore insufficient when pathways interact. Safety architectures need coordinated detection across planner, verifier, simulator, and memory traces, with policies that reduce authority when multi-channel anomalies co-occur. Formal threat models for modular RL loops are still rare and should become a standard component of safety evaluation.
+Adversarial pressure in modular RL systems is inherently cross-channel. Prompt manipulation can bias planner proposals, which then exploit verifier blind spots, while compromised tool outputs reinforce both channels through shared memory. Defenses designed for isolated modules are therefore insufficient when pathways interact. Safety architectures need coordinated detection across planner, verifier, simulator, and memory traces, with policies that reduce authority when multi-channel anomalies co-occur. Formal threat models for modular RL loops are still rare and should become a standard component of safety evaluation \cite{arxiv_p_2512_05686,arxiv_p_2602_09367,arxiv_p_2602_13156,arxiv_p_2602_11583}.
 
 \subsection{Scaling laws for modular RL systems}
-Existing scaling analyses mostly track parameter count and total compute, but modular RL systems introduce a second scaling axis: orchestration topology. Performance may improve more from reallocating compute across planner, verifier, world, and policy channels than from increasing any single model size. This creates a resource-allocation problem that current scaling laws do not capture. Future work should model marginal return per compute unit for each channel under different task regimes, then optimize allocation jointly. Such module-aware scaling laws would enable predictable system design under fixed latency and cost constraints.
+Existing scaling analyses mostly track parameter count and total compute, but modular RL systems introduce a second scaling axis: orchestration topology. Performance may improve more from reallocating compute across planner, verifier, world, and policy channels than from increasing any single model size. This creates a resource-allocation problem that current scaling laws do not capture. Future work should model marginal return per compute unit for each channel under different task regimes, then optimize allocation jointly. Such module-aware scaling laws would enable predictable system design under fixed latency and cost constraints \cite{arxiv_p_2510_06727,arxiv_p_2601_11658,arxiv_p_2509_02547,arxiv_p_2602_10576}.
 
 \begin{table*}[t]
 \centering
@@ -636,15 +749,15 @@ Module-aware scaling & Compute allocation across heterogeneous channels & Joint 
 \end{table*}
 
 \section{Conclusion}
-This survey examined how language-model modules improve reinforcement learning when embedded directly in the learning loop. The core claim is that these systems are best understood as supervision-pathway architectures, not as monolithic model substitutions. Information processors construct effective state, reward-verifier modules reshape optimization targets, decision-maker modules shape trajectory priors and search, and generator modules alter the data regime available to learning.
+This survey examined how language-model modules improve reinforcement learning when embedded directly in the learning loop. The core claim is that these systems are best understood as supervision-pathway architectures, not as monolithic model substitutions. Information processors construct effective state, reward-verifier modules reshape optimization targets, decision-maker modules shape trajectory priors and search, and generator modules alter the data regime available to learning \cite{arxiv_p_2204_01691,arxiv_p_2310_12931,arxiv_p_2404_03648,arxiv_p_2602_02454,arxiv_p_2602_07848}.
 
-A mechanism-first view reveals both power and fragility. Gains are real in long-horizon, sparse-reward, and partially observable settings, especially when planner, verifier, and memory channels are coordinated. At the same time, each additional channel introduces new bias pathways and coupling risks. Reliable progress therefore depends on calibrated authority, uncertainty-aware arbitration, and pathway-level diagnostics.
+A mechanism-first view reveals both power and fragility. Gains are real in long-horizon, sparse-reward, and partially observable settings, especially when planner, verifier, and memory channels are coordinated. At the same time, each additional channel introduces new bias pathways and coupling risks. Reliable progress therefore depends on calibrated authority, uncertainty-aware arbitration, and pathway-level diagnostics \cite{arxiv_p_2602_06493,arxiv_p_2602_12579,arxiv_p_2602_00994,arxiv_p_2602_14468}.
 
 The field now needs deeper theory and stronger experimental standards. Mixed-supervision gradient analysis, contract-aware module interfaces, auditable synthetic-data governance, and channel-aware benchmarks are central priorities. Work on these directions can shift the area from heuristic integration to principled optimization and make performance gains more durable under distribution shift.
 
 From an engineering perspective, the most dependable systems will likely be those that treat language modules as probabilistic advisors with bounded authority, rather than immutable controllers. This framing supports practical safety mechanisms such as fallback policies, disagreement-triggered throttling, and incremental authority scaling. It also improves interpretability by making intervention pathways explicit and testable.
 
-Ultimately, LLM-enhanced RL should be evaluated not only by peak benchmark scores but by supervision integrity: whether the pathway that produced a gain remains stable, auditable, and robust when environments, tools, and objectives evolve. A research program built around this criterion can turn current successes into dependable long-term capability.
+Ultimately, LLM-enhanced RL should be evaluated not only by peak benchmark scores but by supervision integrity: whether the pathway that produced a gain remains stable, auditable, and robust when environments, tools, and objectives evolve. A research program built around this criterion can turn current successes into dependable long-term capability \cite{arxiv_p_2512_05686,arxiv_p_2602_09367,arxiv_p_2602_13156}.
 
 \appendix
 \section{Extended Coverage Citations}

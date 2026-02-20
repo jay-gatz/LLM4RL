@@ -1,44 +1,46 @@
 \begin{tikzpicture}[
   font=\small,
   >=Latex,
-  core/.style={draw=black!75, rounded corners=2.5mm, thick, align=center, minimum height=12mm, fill=white},
-  modA/.style={draw=blue!70!black, rounded corners=2.5mm, thick, align=center, text width=31mm, minimum height=11mm, fill=blue!8},
-  modB/.style={draw=orange!75!black, rounded corners=2.5mm, thick, align=center, text width=31mm, minimum height=11mm, fill=orange!10},
-  modC/.style={draw=green!55!black, rounded corners=2.5mm, thick, align=center, text width=31mm, minimum height=11mm, fill=green!10},
-  modD/.style={draw=purple!70!black, rounded corners=2.5mm, thick, align=center, text width=31mm, minimum height=11mm, fill=purple!8},
-  mainflow/.style={-Latex, very thick, draw=black!80},
-  modflow/.style={-Latex, thick, draw=black!65},
+  node distance=2.4cm and 2.0cm,
+  core/.style={draw=black!80, rounded corners=2.6mm, thick, align=center, text width=3.2cm, minimum height=1.15cm, fill=white},
+  agentbox/.style={draw=black!85, rounded corners=2.8mm, very thick, align=center, text width=4.0cm, minimum height=1.45cm, fill=gray!8},
+  planner/.style={draw=blue!70!black, rounded corners=2.4mm, thick, align=center, text width=3.2cm, minimum height=1.1cm, fill=blue!10},
+  reward/.style={draw=orange!80!black, rounded corners=2.4mm, thick, align=center, text width=3.2cm, minimum height=1.1cm, fill=orange!12},
+  world/.style={draw=green!55!black, rounded corners=2.4mm, thick, align=center, text width=3.2cm, minimum height=1.1cm, fill=green!11},
+  tool/.style={draw=purple!70!black, rounded corners=2.4mm, thick, align=center, text width=3.2cm, minimum height=1.1cm, fill=purple!9},
+  mainflow/.style={-Latex, very thick, draw=black!85},
+  modflow/.style={-Latex, thick, draw=black!70},
   feedback/.style={-Latex, thick, dashed, draw=black!55}
 ]
 
-\node[core, text width=34mm] (env) at (0,0) {Environment};
-\node[core, text width=43mm, minimum height=16mm] (agent) at (6.2,0) {RL Agent\\{\footnotesize Policy, Value, Replay}};
+\node[core] (env) at (0,0) {Environment};
+\node[agentbox] (agent) at (3.2,0) {RL Agent\\Policy--Value Update};
 
-\node[modA] (planner) at (11.2, 2.9) {Planner\\Decomposer};
-\node[modB] (reward)  at (15.2, 2.9) {Reward\\Verifier};
-\node[modC] (world)   at (11.2,-2.9) {World Model\\Simulator};
-\node[modD] (tool)    at (15.2,-2.9) {Tool + Memory\\Interface};
+\node[planner] (planner) at (6.6,2.1) {Planner\\Decomposer};
+\node[reward]  (reward)  at (9.8,2.1) {Reward\\Verifier};
+\node[world]   (world)   at (6.6,-2.1) {World Model\\Simulator};
+\node[tool]    (tool)    at (9.8,-2.1) {Tool + Memory\\Interface};
+
+\coordinate (aTop)    at ($(agent.east)+(0,0.66)$);
+\coordinate (aTopMid) at ($(agent.east)+(0,0.24)$);
+\coordinate (aBotMid) at ($(agent.east)+(0,-0.24)$);
+\coordinate (aBot)    at ($(agent.east)+(0,-0.66)$);
 
 \draw[mainflow] (env.east) -- node[above] {$s_t$} (agent.west);
-\draw[mainflow] (agent.west) -- ++(-1.8,0) |- node[left, pos=0.30] {$a_t$} (env.south);
-\draw[mainflow] (env.north) to[out=25, in=155] node[above] {$r_t,\ s_{t+1}$} (agent.north);
+\draw[mainflow] (agent.west) to[out=215,in=-35] node[below,pos=0.45] {$a_t$} (env.south east);
+\draw[mainflow] (env.north east) to[out=45,in=145] node[above,pos=0.52] {$r_t,\, s_{t+1}$} (agent.north);
 
-\coordinate (agentTop) at ($(agent.east)+(0,0.95)$);
-\coordinate (agentTopR) at ($(agent.east)+(0,0.35)$);
-\coordinate (agentBot) at ($(agent.east)+(0,-0.95)$);
-\coordinate (agentBotR) at ($(agent.east)+(0,-0.35)$);
+\draw[modflow] (planner.west) -- ++(-0.9,0) |- (aTop);
+\draw[modflow] (reward.west)  -- ++(-1.1,0) |- (aTopMid);
+\draw[modflow] (world.west)   -- ++(-0.9,0) |- (aBot);
+\draw[modflow] (tool.west)    -- ++(-1.1,0) |- (aBotMid);
 
-\draw[modflow] (planner.west) -- ++(-1.0,0) |- (agentTop);
-\draw[modflow] (reward.west)  -- ++(-1.0,0) |- (agentTopR);
-\draw[modflow] (world.west)   -- ++(-1.0,0) |- (agentBot);
-\draw[modflow] (tool.west)    -- ++(-1.0,0) |- (agentBotR);
+\draw[feedback] (agent.east) -- ++(0.7,0) |- (planner.south);
+\draw[feedback] (agent.east) -- ++(1.0,0) |- (reward.south);
+\draw[feedback] (agent.east) -- ++(0.7,0) |- (world.north);
+\draw[feedback] (agent.east) -- ++(1.0,0) |- (tool.north);
 
-\draw[feedback] (agent.east) -- ++(0.8,0) |- (planner.south);
-\draw[feedback] (agent.east) -- ++(1.2,0) |- (reward.south);
-\draw[feedback] (agent.east) -- ++(0.8,0) |- (world.north);
-\draw[feedback] (agent.east) -- ++(1.2,0) |- (tool.north);
-
-\node[draw=black!35, rounded corners=1.6mm, fill=gray!8, align=left, inner sep=2.5mm, anchor=north west, text width=108mm] at (-1.1,-4.3)
-{\footnotesize Module outputs intervene through subgoal priors, shaped supervision, imagined rollouts, and tool-memory context that modify trajectory-level updates.};
+\node[draw=black!35, rounded corners=1.8mm, fill=gray!8, align=left, text width=7.8cm, inner sep=2.4mm, anchor=north west] at (-1.0,-3.75)
+{LLM channels provide subgoals, shaped supervision, imagined rollouts, and tool-memory context that modulate trajectory sampling and update weighting.};
 
 \end{tikzpicture}

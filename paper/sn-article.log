@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  20 FEB 2026 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  20 FEB 2026 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,16 +1372,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 210.
-
-(figures/fig1.tikz) (figures/fig2_taxonomy.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 237.
+
+(figures/fig1.tikz)
+Overfull \hbox (5.35161pt too wide) in paragraph at lines 46--259
+ [][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
+(figures/fig2_taxonomy.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
@@ -1394,7 +1400,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-(figures/fig3_supervision.tikz)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
@@ -1404,6 +1409,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
+(figures/fig3_supervision.tikz)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
@@ -1419,11 +1425,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 1184) in paragraph at lines 575--575
-[]|\OT1/cmr/m/n/9 Over- 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
@@ -1436,10 +1437,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-(appendix_category_citations.tex) (sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+Underfull \hbox (badness 1184) in paragraph at lines 688--688
+[]|\OT1/cmr/m/n/9 Over- 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30]
@@ -1452,6 +1457,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
+(appendix_category_citations.tex) (sn-article.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
@@ -1472,29 +1478,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40])
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
 (sn-article.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `sn-article.out' has not changed.
-(rerunfilecheck)             Checksum: C286076EBE4D8084E9AF728EBB47C013;13165.
+(rerunfilecheck)             Checksum: 7E8F2049FC8F7D0241C27AEAE290C987;13765.
  ) 
 Here is how much of TeX's memory you used:
- 25882 strings out of 467870
- 483343 string characters out of 5417387
- 897419 words of memory out of 5000000
- 54003 multiletter control sequences out of 15000+600000
+ 25891 strings out of 467870
+ 483444 string characters out of 5417387
+ 903346 words of memory out of 5000000
+ 53997 multiletter control sequences out of 15000+600000
  649162 words of font info for 121 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,11n,94p,1612b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,94p,1612b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/t
@@ -1518,9 +1539,9 @@ onts/cm/cmsy10.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy5.pfb><C:/Users/Kourosh/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Kourosh/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on sn-article.pdf (42 pages, 573210 bytes).
+Output written on sn-article.pdf (47 pages, 638260 bytes).
 PDF statistics:
- 1513 PDF objects out of 1728 (max. 8388607)
- 271 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1807 PDF objects out of 2073 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
+ 477 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,54 +1,44 @@
 \begin{tikzpicture}[
   font=\small,
   >=Latex,
-  root/.style={draw=black!75, very thick, rounded corners=2.8mm, fill=gray!12, align=center, minimum width=45mm, minimum height=11mm},
-  role/.style={draw=black!70, thick, rounded corners=2.4mm, fill=white, align=center, minimum width=39mm, minimum height=10mm},
-  sub/.style={draw=black!55, thick, rounded corners=1.8mm, fill=gray!6, align=center, minimum width=32mm, minimum height=8.4mm},
+  node distance=2.4cm and 2.0cm,
+  root/.style={draw=black!75, very thick, rounded corners=2.8mm, fill=gray!12, align=center, text width=4.8cm, minimum height=1.1cm},
+  role/.style={draw=black!72, thick, rounded corners=2.4mm, fill=white, align=center, text width=3.2cm, minimum height=1.05cm},
+  sub/.style={draw=black!55, thick, rounded corners=1.8mm, fill=gray!6, align=center, text width=2.9cm, minimum height=0.95cm},
   edge/.style={-Latex, thick, draw=black!65}
 ]
 
-\node[root] (r) at (0,0) {LLM Modules in the RL Loop};
+\node[root] (r) at (0,3.6) {LLM Modules in the RL Loop};
 
-\node[role] (ip) at (5.4, 3.3) {Information Processor};
-\node[role] (rv) at (5.4, 1.1) {Reward / Verifier};
-\node[role] (dm) at (5.4,-1.1) {Decision Maker};
-\node[role] (gn) at (5.4,-3.3) {Generator};
+\node[role] (ip) at (-4.8,1.3) {Information\\Processor};
+\node[role] (rv) at (-1.6,1.3) {Reward\\Verifier};
+\node[role] (dm) at ( 1.6,1.3) {Decision\\Maker};
+\node[role] (gn) at ( 4.8,1.3) {Generator};
 
-\draw[edge] (r.east) -- (ip.west);
-\draw[edge] (r.east) -- (rv.west);
-\draw[edge] (r.east) -- (dm.west);
-\draw[edge] (r.east) -- (gn.west);
+\draw[edge] (r.south west) to[out=225,in=90] (ip.north);
+\draw[edge] (r.south)      -- (rv.north);
+\draw[edge] (r.south)      -- (dm.north);
+\draw[edge] (r.south east) to[out=315,in=90] (gn.north);
 
-\node[sub] (ip1) at (11.0, 4.0) {state translation};
-\node[sub] (ip2) at (11.0, 3.1) {memory/retrieval};
-\node[sub] (ip3) at (11.0, 2.2) {tool interface};
+\node[sub] (ip1) at (-4.8,-0.7) {state translation};
+\node[sub] (ip2) at (-4.8,-2.6) {memory + retrieval};
 
-\node[sub] (rv1) at (11.0, 1.8) {reward shaping};
-\node[sub] (rv2) at (11.0, 0.9) {process verifier};
-\node[sub] (rv3) at (11.0, 0.0) {constraint checks};
+\node[sub] (rv1) at (-1.6,-0.7) {reward shaping};
+\node[sub] (rv2) at (-1.6,-2.6) {process verifier};
 
-\node[sub] (dm1) at (11.0,-0.4) {hierarchical planning};
-\node[sub] (dm2) at (11.0,-1.3) {search priors};
-\node[sub] (dm3) at (11.0,-2.2) {exploration control};
+\node[sub] (dm1) at ( 1.6,-0.7) {hierarchical planning};
+\node[sub] (dm2) at ( 1.6,-2.6) {search-guided control};
 
-\node[sub] (gn1) at (11.0,-2.6) {world rollouts};
-\node[sub] (gn2) at (11.0,-3.5) {synthetic data};
-\node[sub] (gn3) at (11.0,-4.4) {auto-curriculum};
+\node[sub] (gn1) at ( 4.8,-0.7) {world rollouts};
+\node[sub] (gn2) at ( 4.8,-2.6) {data/curriculum synthesis};
 
-\draw[edge] (ip.east) -- (ip1.west);
-\draw[edge] (ip.east) -- (ip2.west);
-\draw[edge] (ip.east) -- (ip3.west);
-
-\draw[edge] (rv.east) -- (rv1.west);
-\draw[edge] (rv.east) -- (rv2.west);
-\draw[edge] (rv.east) -- (rv3.west);
-
-\draw[edge] (dm.east) -- (dm1.west);
-\draw[edge] (dm.east) -- (dm2.west);
-\draw[edge] (dm.east) -- (dm3.west);
-
-\draw[edge] (gn.east) -- (gn1.west);
-\draw[edge] (gn.east) -- (gn2.west);
-\draw[edge] (gn.east) -- (gn3.west);
+\draw[edge] (ip.south) -- (ip1.north);
+\draw[edge] (ip.south) -- (ip2.north);
+\draw[edge] (rv.south) -- (rv1.north);
+\draw[edge] (rv.south) -- (rv2.north);
+\draw[edge] (dm.south) -- (dm1.north);
+\draw[edge] (dm.south) -- (dm2.north);
+\draw[edge] (gn.south) -- (gn1.north);
+\draw[edge] (gn.south) -- (gn2.north);
 
 \end{tikzpicture}
