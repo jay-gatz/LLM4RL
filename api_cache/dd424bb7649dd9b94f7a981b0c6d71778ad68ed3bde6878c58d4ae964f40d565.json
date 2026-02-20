@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dqu5WcFq/j038t6SVUwTcDeUlOg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.07745v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.07745v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07745v4</id>
+    <title>StepTool: Enhancing Multi-Step Tool Usage in LLMs via Step-Grained Reinforcement Learning</title>
+    <updated>2025-08-17T06:06:35Z</updated>
+    <link href="https://arxiv.org/abs/2410.07745v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07745v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite their powerful text generation capabilities, large language models (LLMs) still struggle to effectively utilize external tools to solve complex tasks, a challenge known as tool learning. Existing methods primarily rely on supervised fine-tuning, treating tool learning as a text generation problem while overlooking the decision-making complexities inherent in multi-step contexts. In this work, we propose modeling tool learning as a dynamic decision-making process and introduce StepTool, a novel step-grained reinforcement learning framework that enhances LLMs' capabilities in multi-step tool use. StepTool comprises two key components: Step-grained Reward Shaping, which assigns rewards to each tool interaction based on its invocation success and contribution to task completion; and Step-grained Optimization, which applies policy gradient methods to optimize the model across multiple decision steps. Extensive experiments across diverse benchmarks show that StepTool consistently outperforms both SFT-based and RL-based baselines in terms of task Pass Rate and Recall of relevant tools. Furthermore, our analysis suggests that StepTool helps models discover new tool-use strategies rather than merely re-weighting prior knowledge. These results highlight the importance of fine-grained decision modeling in tool learning and establish StepTool as a general and robust solution for enhancing multi-step tool use in LLMs. Code and data are available at https://github.com/yuyq18/StepTool.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T09:23:26Z</published>
+    <arxiv:comment>Accepted by CIKM'25</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuanqing Yu</name>
+    </author>
+    <author>
+      <name>Zhefan Wang</name>
+    </author>
+    <author>
+      <name>Weizhi Ma</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+    <author>
+      <name>Chuhan Wu</name>
+    </author>
+    <author>
+      <name>Zhiqiang Guo</name>
+    </author>
+    <author>
+      <name>Min Zhang</name>
+    </author>
+    <arxiv:doi>10.1145/3746252.3761391</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3746252.3761391" title="doi"/>
+  </entry>
+</feed>

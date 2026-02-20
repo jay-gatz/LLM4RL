@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cdA1VWh0+uXXioVV+DwOqwieSiU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14849v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14849v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14849v1</id>
+    <title>Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows</title>
+    <updated>2026-02-16T15:46:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.14849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents increasingly act on external systems, yet tool effects are immediate. Under failures, speculation, or contention, losing branches can leak unintended side effects with no safe rollback. We introduce Atomix, a runtime that provides progress-aware transactional semantics for agent tool calls. Atomix tags each call with an epoch, tracks per-resource frontiers, and commits only when progress predicates indicate safety; bufferable effects can be delayed, while externalized effects are tracked and compensated on abort. Across real workloads with fault injection, transactional retry improves task success, while frontier-gated commit strengthens isolation under speculation and contention.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T15:46:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bardia Mohammadi</name>
+    </author>
+    <author>
+      <name>Nearchos Potamitis</name>
+    </author>
+    <author>
+      <name>Lars Klein</name>
+    </author>
+    <author>
+      <name>Akhil Arora</name>
+    </author>
+    <author>
+      <name>Laurent Bindschaedler</name>
+    </author>
+  </entry>
+</feed>

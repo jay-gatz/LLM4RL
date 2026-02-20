@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F6jYC3t4dkwg8fCPg61L4Pp8yIs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02548v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02548v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02548v1</id>
+    <title>ToolTok: Tool Tokenization for Efficient and Generalizable GUI Agents</title>
+    <updated>2026-01-30T08:38:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.02548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing GUI agent models relying on coordinate-based one-step visual grounding struggle with generalizing to varying input resolutions and aspect ratios. Alternatives introduce coordinate-free strategies yet suffer from learning under severe data scarcity. To address the limitations, we propose ToolTok, a novel paradigm of multi-step pathfinding for GUI agents, where operations are modeled as a sequence of progressive tool usage. Specifically, we devise tools aligned with human interaction habits and represent each tool using learnable token embeddings. To enable efficient embedding learning under limited supervision, ToolTok introduces a semantic anchoring mechanism that grounds each tool with semantically related concepts as natural inductive bias. To further enable a pre-trained large language model to progressively acquire tool semantics, we construct an easy-to-hard curriculum consisting of three tasks: token definition question-answering, pure text-guided tool selection, and simplified visual pathfinding. Extensive experiments on multiple benchmarks show that ToolTok achieves superior performance among models of comparable scale (4B) and remains competitive with a substantially larger model (235B). Notably, these results are obtained using less than 1% of the training data required by other post-training approaches. In addition, ToolTok demonstrates strong generalization across unseen scenarios. Our training &amp; inference code is open-source at https://github.com/ZephinueCode/ToolTok.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T08:38:05Z</published>
+    <arxiv:comment>8 pages main paper, 18 pages total, 8 figures, 5 tables, code at https://github.com/ZephinueCode/ToolTok</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiaoce Wang</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Junzhe Li</name>
+    </author>
+    <author>
+      <name>Jinzhe Tu</name>
+    </author>
+    <author>
+      <name>Chun Li</name>
+    </author>
+    <author>
+      <name>Ming Li</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hTCISpea+Gks+9o+2VHvFgmDlfw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.26270v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.26270v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.26270v1</id>
+    <title>Graph-Enhanced Policy Optimization in LLM Agent Training</title>
+    <updated>2025-10-30T08:53:41Z</updated>
+    <link href="https://arxiv.org/abs/2510.26270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.26270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Group based reinforcement learning (RL) has shown impressive results on complex reasoning and mathematical tasks. Yet, when applied to train multi-turn, interactive LLM agents, these methods often suffer from structural blindness-the inability to exploit the underlying connectivity of the environment. This manifests in three critical challenges: (1) inefficient, unguided exploration, (2) imprecise credit assignment due to overlooking pivotal states, and (3) myopic planning caused by static reward discounting. We address these issues with Graph-Enhanced Policy Optimization (GEPO), which dynamically constructs a state-transition graph from agent experience and employs graph-theoretic centrality to provide three synergistic learning signals: (1)structured intrinsic rewards that guide exploration toward high-impact states, (2) a graph-enhanced advantage function for topology-aware credit assignment, and (3) a dynamic discount factor adapted to each state's strategic value. On the ALFWorld, WebShop, and a proprietary Workbench benchmarks, GEPO demonstrates strong performance, achieving absolute success rate gains of +4.1%, +5.3%, and +10.9% over competitive baselines. These results highlight that explicitly modeling environmental structure is a robust, generalizable strategy for advancing LLM agent training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-30T08:53:41Z</published>
+    <arxiv:comment>Under review as a conference paper</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiazhen Yuan</name>
+    </author>
+    <author>
+      <name>Wei Zhao</name>
+    </author>
+    <author>
+      <name>Zhengbiao Bai</name>
+    </author>
+  </entry>
+</feed>

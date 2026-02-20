@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b7RebjU2IIw0ajE2YAL8890644k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21699v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21699v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21699v1</id>
+    <title>Can David Beat Goliath? On Multi-Hop Reasoning with Resource-Constrained Agents</title>
+    <updated>2026-01-29T13:31:28Z</updated>
+    <link href="https://arxiv.org/abs/2601.21699v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21699v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While reinforcement learning (RL) has empowered multi-turn reasoning agents with retrieval and tools, existing successes largely depend on extensive on-policy rollouts in high-cost, high-accuracy regimes. Under realistic resource constraints that cannot support large models or dense explorations, however, small language model agents fall into a low-cost, low-accuracy regime, where limited rollout budgets lead to sparse exploration, sparse credit assignment, and unstable training. In this work, we challenge this trade-off and show that small language models can achieve strong multi-hop reasoning under resource constraints. We introduce DAVID-GRPO, a budget-efficient RL framework that (i) stabilizes early learning with minimal supervision, (ii) assigns retrieval credit based on evidence recall, and (iii) improves exploration by resampling truncated near-miss trajectories. Evaluated on agents up to 1.5B parameters trained on only four RTX 3090 GPUs, DAVID-GRPO consistently outperforms prior RL methods designed for large-scale settings on six multi-hop QA benchmarks. These results show that with the right inductive biases, small agents can achieve low training cost with high accuracy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T13:31:28Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hojae Han</name>
+    </author>
+    <author>
+      <name>Heeyun Jung</name>
+    </author>
+    <author>
+      <name>Jongyoon Kim</name>
+    </author>
+    <author>
+      <name>Seung-won Hwang</name>
+    </author>
+  </entry>
+</feed>

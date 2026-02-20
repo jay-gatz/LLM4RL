@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//uw0mHQDkP2zlCTT8Vfe99cbRDs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2209.03993&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2209.03993" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.03993v4</id>
+    <title>Q-learning Decision Transformer: Leveraging Dynamic Programming for Conditional Sequence Modelling in Offline RL</title>
+    <updated>2023-05-25T16:36:02Z</updated>
+    <link href="https://arxiv.org/abs/2209.03993v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.03993v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent works have shown that tackling offline reinforcement learning (RL) with a conditional policy produces promising results. The Decision Transformer (DT) combines the conditional policy approach and a transformer architecture, showing competitive performance against several benchmarks. However, DT lacks stitching ability -- one of the critical abilities for offline RL to learn the optimal policy from sub-optimal trajectories. This issue becomes particularly significant when the offline dataset only contains sub-optimal trajectories. On the other hand, the conventional RL approaches based on Dynamic Programming (such as Q-learning) do not have the same limitation; however, they suffer from unstable learning behaviours, especially when they rely on function approximation in an off-policy learning setting. In this paper, we propose the Q-learning Decision Transformer (QDT) to address the shortcomings of DT by leveraging the benefits of Dynamic Programming (Q-learning). It utilises the Dynamic Programming results to relabel the return-to-go in the training data to then train the DT with the relabelled data. Our approach efficiently exploits the benefits of these two approaches and compensates for each other's shortcomings to achieve better performance. We empirically show these in both simple toy environments and the more complex D4RL benchmark, showing competitive performance gains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-08T18:26:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Taku Yamagata</name>
+      <arxiv:affiliation>Intelligent System Laboratory, University of Bristol</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ahmed Khalil</name>
+      <arxiv:affiliation>Intelligent System Laboratory, University of Bristol</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raul Santos-Rodriguez</name>
+      <arxiv:affiliation>Intelligent System Laboratory, University of Bristol</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EtKWl5jX6WmLNpr/fF2o4R6yuNc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05327v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05327v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05327v1</id>
+    <title>ProAct: Agentic Lookahead in Interactive Environments</title>
+    <updated>2026-02-05T05:45:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.05327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Large Language Model (LLM) agents struggle in interactive environments requiring long-horizon planning, primarily due to compounding errors when simulating future states. To address this, we propose ProAct, a framework that enables agents to internalize accurate lookahead reasoning through a two-stage training paradigm. First, we introduce Grounded LookAhead Distillation (GLAD), where the agent undergoes supervised fine-tuning on trajectories derived from environment-based search. By compressing complex search trees into concise, causal reasoning chains, the agent learns the logic of foresight without the computational overhead of inference-time search. Second, to further refine decision accuracy, we propose the Monte-Carlo Critic (MC-Critic), a plug-and-play auxiliary value estimator designed to enhance policy-gradient algorithms like PPO and GRPO. By leveraging lightweight environment rollouts to calibrate value estimates, MC-Critic provides a low-variance signal that facilitates stable policy optimization without relying on expensive model-based value approximation. Experiments on both stochastic (e.g., 2048) and deterministic (e.g., Sokoban) environments demonstrate that ProAct significantly improves planning accuracy. Notably, a 4B parameter model trained with ProAct outperforms all open-source baselines and rivals state-of-the-art closed-source models, while demonstrating robust generalization to unseen environments. The codes and models are available at https://github.com/GreatX3/ProAct</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T05:45:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yangbin Yu</name>
+    </author>
+    <author>
+      <name>Mingyu Yang</name>
+    </author>
+    <author>
+      <name>Junyou Li</name>
+    </author>
+    <author>
+      <name>Yiming Gao</name>
+    </author>
+    <author>
+      <name>Feiyu Liu</name>
+    </author>
+    <author>
+      <name>Yijun Yang</name>
+    </author>
+    <author>
+      <name>Zichuan Lin</name>
+    </author>
+    <author>
+      <name>Jiafei Lyu</name>
+    </author>
+    <author>
+      <name>Yicheng Liu</name>
+    </author>
+    <author>
+      <name>Zhicong Lu</name>
+    </author>
+    <author>
+      <name>Deheng Ye</name>
+    </author>
+    <author>
+      <name>Jie Jiang</name>
+    </author>
+  </entry>
+</feed>

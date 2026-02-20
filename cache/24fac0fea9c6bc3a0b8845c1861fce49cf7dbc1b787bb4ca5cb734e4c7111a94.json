@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M36uJUEV0eUsmAydnnkJpohwrqA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10048v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10048v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10048v1</id>
+    <title>Long Chain-of-Thought Compression via Fine-Grained Group Policy Optimization</title>
+    <updated>2026-02-10T18:15:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.10048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often generate unnecessarily verbose Chain-of-Thought (CoT) reasoning that increases computational costs and latency without proportional performance gains. In this paper, we propose \textbf{F}ine-grained \textbf{G}roup policy \textbf{O}ptimization (\textbf{FGO}), a Reinforcement Learning (RL) algorithm that refines group responses by subdividing them and assigning appropriate weights based on length and entropy, thereby enabling effective CoT compression. Meanwhile, as an enhanced variant of Group Relative Policy Optimization (GRPO), FGO successfully addresses two major limitations of the GRPO: inefficient data utilization and entropy collapse. We evaluate FGO on multiple reasoning LLMs and benchmarks, including MATH500, AIME24, AMC23, and Minerva. Experimental results show that FGO achieves efficient CoT compression without degrading performance, and simultaneously resolves the key limitations of GRPO.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T18:15:58Z</published>
+    <arxiv:comment>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xinchen Han</name>
+    </author>
+    <author>
+      <name>Hossam Afifi</name>
+    </author>
+    <author>
+      <name>Michel Marot</name>
+    </author>
+    <author>
+      <name>Xilu Wang</name>
+    </author>
+    <author>
+      <name>Lu Yin</name>
+    </author>
+  </entry>
+</feed>

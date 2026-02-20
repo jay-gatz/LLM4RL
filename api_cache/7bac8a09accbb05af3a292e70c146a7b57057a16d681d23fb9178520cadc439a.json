@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DbLGAbDujbuXWnTmgO+Up/aPUNs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.08332v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:40:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.08332v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.08332v2</id>
+    <title>ORFS-agent: Tool-Using Agents for Chip Design Optimization</title>
+    <updated>2025-08-01T06:36:42Z</updated>
+    <link href="https://arxiv.org/abs/2506.08332v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.08332v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning has been widely used to optimize complex engineering workflows across numerous domains. In the context of integrated circuit design, modern flows (e.g., going from a register-transfer level netlist to physical layouts) involve extensive configuration via thousands of parameters, and small changes to these parameters can have large downstream impacts on desired outcomes - namely design performance, power, and area. Recent advances in Large Language Models (LLMs) offer new opportunities for learning and reasoning within such high-dimensional optimization tasks. In this work, we introduce ORFS-agent, an LLM-based iterative optimization agent that automates parameter tuning in an open-source hardware design flow. ORFS-agent adaptively explores parameter configurations, demonstrating clear improvements over standard Bayesian optimization approaches in terms of resource efficiency and final design metrics. Our empirical evaluations on two different technology nodes and a range of circuit benchmarks indicate that ORFS-agent can improve both routed wirelength and effective clock period by over 13%, all while using 40% fewer optimization iterations. Moreover, by following natural language objectives to trade off certain metrics for others, ORFS-agent demonstrates a flexible and interpretable framework for multi-objective optimization. Crucially, RFS-agent is modular and model-agnostic, and can be plugged in to any frontier LLM without any further fine-tuning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-10T01:38:57Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Amur Ghose</name>
+    </author>
+    <author>
+      <name>Andrew B. Kahng</name>
+    </author>
+    <author>
+      <name>Sayak Kundu</name>
+    </author>
+    <author>
+      <name>Zhiang Wang</name>
+    </author>
+  </entry>
+</feed>

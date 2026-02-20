@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0yd7aQFHW8R9ZF9L7fGPHW2HVr8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.08274v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.08274v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08274v2</id>
+    <title>Discovery and Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees</title>
+    <updated>2026-01-16T11:53:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.08274v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08274v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-Integrated Reasoning has emerged as a key paradigm to augment Large Language Models (LLMs) with computational capabilities, yet integrating tool-use into long Chain-of-Thought (long CoT) remains underexplored, largely due to the scarcity of training data and the challenge of integrating tool-use without compromising the model's intrinsic long-chain reasoning. In this paper, we introduce DART (Discovery And Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees), a reinforcement learning framework that enables spontaneous tool-use during long CoT reasoning without human annotation. DART operates by constructing dynamic rollout trees during training to discover valid tool-use opportunities, branching out at promising positions to explore diverse tool-integrated trajectories. Subsequently, a tree-based process advantage estimation identifies and credits specific sub-trajectories where tool invocation positively contributes to the solution, effectively reinforcing these beneficial behaviors. Extensive experiments on challenging benchmarks like AIME and GPQA-Diamond demonstrate that DART significantly outperforms existing methods, successfully harmonizing tool execution with long CoT reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T07:06:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kun Li</name>
+    </author>
+    <author>
+      <name>Zenan Xu</name>
+    </author>
+    <author>
+      <name>Junan Li</name>
+    </author>
+    <author>
+      <name>Zengrui Jin</name>
+    </author>
+    <author>
+      <name>Jinghao Deng</name>
+    </author>
+    <author>
+      <name>Zexuan Qiu</name>
+    </author>
+    <author>
+      <name>Bo Zhou</name>
+    </author>
+  </entry>
+</feed>

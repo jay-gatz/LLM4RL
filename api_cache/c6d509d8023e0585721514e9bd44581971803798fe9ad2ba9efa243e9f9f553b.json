@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cxDWnTK71Hqdzw0/xdtiXNjSkQ4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.15527v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:44:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.15527v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.15527v1</id>
+    <title>Data Efficient Evaluation of Large Language Models and Text-to-Image Models via Adaptive Sampling</title>
+    <updated>2024-06-21T07:38:55Z</updated>
+    <link href="https://arxiv.org/abs/2406.15527v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.15527v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating LLMs and text-to-image models is a computationally intensive task often overlooked. Efficient evaluation is crucial for understanding the diverse capabilities of these models and enabling comparisons across a growing number of new models and benchmarks. To address this, we introduce SubLIME, a data-efficient evaluation framework that employs adaptive sampling techniques, such as clustering and quality-based methods, to create representative subsets of benchmarks. Our approach ensures statistically aligned model rankings compared to full datasets, evidenced by high Pearson correlation coefficients. Empirical analysis across six NLP benchmarks reveals that: (1) quality-based sampling consistently achieves strong correlations (0.85 to 0.95) with full datasets at a 10\% sampling rate such as Quality SE and Quality CPD (2) clustering methods excel in specific benchmarks such as MMLU (3) no single method universally outperforms others across all metrics. Extending this framework, we leverage the HEIM leaderboard to cover 25 text-to-image models on 17 different benchmarks. SubLIME dynamically selects the optimal technique for each benchmark, significantly reducing evaluation costs while preserving ranking integrity and score distribution. Notably, a minimal sampling rate of 1% proves effective for benchmarks like MMLU. Additionally, we demonstrate that employing difficulty-based sampling to target more challenging benchmark segments enhances model differentiation with broader score distributions. We also combine semantic search, tool use, and GPT-4 review to identify redundancy across benchmarks within specific LLM categories, such as coding benchmarks. This allows us to further reduce the number of samples needed to maintain targeted rank preservation. Overall, SubLIME offers a versatile and cost-effective solution for the robust evaluation of LLMs and text-to-image models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-21T07:38:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Cong Xu</name>
+    </author>
+    <author>
+      <name>Gayathri Saranathan</name>
+    </author>
+    <author>
+      <name>Mahammad Parwez Alam</name>
+    </author>
+    <author>
+      <name>Arpit Shah</name>
+    </author>
+    <author>
+      <name>James Lim</name>
+    </author>
+    <author>
+      <name>Soon Yee Wong</name>
+    </author>
+    <author>
+      <name>Foltin Martin</name>
+    </author>
+    <author>
+      <name>Suparna Bhattacharya</name>
+    </author>
+  </entry>
+</feed>

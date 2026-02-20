@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V0alVhK7o6f29S1lQmcHFdvfvIs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14857v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14857v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14857v1</id>
+    <title>HiNS: Hierarchical Negative Sampling for More Comprehensive Memory Retrieval Embedding Model</title>
+    <updated>2026-01-21T10:39:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.14857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Memory-augmented language agents rely on embedding models for effective memory retrieval. However, existing training data construction overlooks a critical limitation: the hierarchical difficulty of negative samples and their natural distribution in human-agent interactions. In practice, some negatives are semantically close distractors while others are trivially irrelevant, and natural dialogue exhibits structured proportions of these types. Current approaches using synthetic or uniformly sampled negatives fail to reflect this diversity, limiting embedding models' ability to learn nuanced discrimination essential for robust memory retrieval. In this work, we propose a principled data construction framework HiNS that explicitly models negative sample difficulty tiers and incorporates empirically grounded negative ratios derived from conversational data, enabling the training of embedding models with substantially improved retrieval fidelity and generalization in memory-intensive tasks. Experiments show significant improvements: on LoCoMo, F1/BLEU-1 gains of 3.27%/3.30%(MemoryOS) and 1.95%/1.78% (Mem0); on PERSONAMEM, total score improvements of 1.19% (MemoryOS) and 2.55% (Mem0).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T10:39:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Motong Tian</name>
+    </author>
+    <author>
+      <name>Allen P. Wong</name>
+    </author>
+    <author>
+      <name>Mingjun Mao</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+  </entry>
+</feed>

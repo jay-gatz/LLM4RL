@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uIppLbQkffhiPzy8eC1F9CpPO6Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.13697&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T16:36:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.13697" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13697v1</id>
+    <title>Toward Robust Multimodal Learning using Multimodal Foundational Models</title>
+    <updated>2024-01-20T04:46:43Z</updated>
+    <link href="https://arxiv.org/abs/2401.13697v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13697v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing multimodal sentiment analysis tasks are highly rely on the assumption that the training and test sets are complete multimodal data, while this assumption can be difficult to hold: the multimodal data are often incomplete in real-world scenarios. Therefore, a robust multimodal model in scenarios with randomly missing modalities is highly preferred. Recently, CLIP-based multimodal foundational models have demonstrated impressive performance on numerous multimodal tasks by learning the aligned cross-modal semantics of image and text pairs, but the multimodal foundational models are also unable to directly address scenarios involving modality absence. To alleviate this issue, we propose a simple and effective framework, namely TRML, Toward Robust Multimodal Learning using Multimodal Foundational Models. TRML employs generated virtual modalities to replace missing modalities, and aligns the semantic spaces between the generated and missing modalities. Concretely, we design a missing modality inference module to generate virtual modaliites and replace missing modalities. We also design a semantic matching learning module to align semantic spaces generated and missing modalities. Under the prompt of complete modality, our model captures the semantics of missing modalities by leveraging the aligned cross-modal semantic space. Experiments demonstrate the superiority of our approach on three multimodal sentiment analysis benchmark datasets, CMU-MOSI, CMU-MOSEI, and MELD.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-20T04:46:43Z</published>
+    <arxiv:comment>Under Review</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xianbing Zhao</name>
+    </author>
+    <author>
+      <name>Soujanya Poria</name>
+    </author>
+    <author>
+      <name>Xuejiao Li</name>
+    </author>
+    <author>
+      <name>Yixin Chen</name>
+    </author>
+    <author>
+      <name>Buzhou Tang</name>
+    </author>
+  </entry>
+</feed>

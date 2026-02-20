@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HkufXV5opDybhbC0lSh4eYcvxQE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04000v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04000v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04000v1</id>
+    <title>After Talking with 1,000 Personas: Learning Preference-Aligned Proactive Assistants From Large-Scale Persona Interactions</title>
+    <updated>2026-02-03T20:37:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.04000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart assistants increasingly act proactively, yet mistimed or intrusive behavior often causes users to lose trust and disable these features. Learning user preferences for proactive assistance is difficult because real-world studies are costly, limited in scale, and rarely capture how preferences change across multiple interaction sessions. Large language model based generative agents offer a way to simulate realistic interactions, but existing synthetic datasets remain limited in temporal depth, diverse personas, and multi-dimensional preferences. They also provide little support for transferring population-level insights to individual users under on-device constraints. We present a population-to-individual learning framework for preference-aligned proactive assistants that operates under on-device and privacy constraints. Our approach uses large-scale interaction simulation with 1,000 diverse personas to learn shared structure in how users express preferences across recurring dimensions such as timing, autonomy, and communication style, providing a strong cold start without relying on real user logs. The assistant then adapts to individual users on device through lightweight activation-based steering driven by simple interaction feedback, without model retraining or cloud-side updates. We evaluate the framework using controlled simulations with 1,000 simulated personas and a human-subject study with 30 participants. Results show improved timing decisions and perceived interaction quality over untuned and direct-response baselines, while on-device activation steering achieves performance comparable to reinforcement learning from human feedback. Participants also report higher satisfaction, trust, and comfort as the assistant adapts over multiple sessions of interactions.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T20:37:59Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Ziyi Xuan</name>
+    </author>
+    <author>
+      <name>Yiwen Wu</name>
+    </author>
+    <author>
+      <name>Zhaoyang Yan</name>
+    </author>
+    <author>
+      <name>Vinod Namboodiri</name>
+    </author>
+    <author>
+      <name>Yu Yang</name>
+    </author>
+  </entry>
+</feed>

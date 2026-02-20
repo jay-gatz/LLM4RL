@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/P1RZ4JyFKVJBAzxTia2di4uB8OM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06127v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06127v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06127v1</id>
+    <title>Compressing LLMs with MoP: Mixture of Pruners</title>
+    <updated>2026-02-05T19:01:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.06127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The high computational demands of Large Language Models (LLMs) motivate methods that reduce parameter count and accelerate inference. In response, model pruning emerges as an effective strategy, yet current methods typically focus on a single dimension-depth or width. We introduce MoP (Mixture of Pruners), an iterative framework that unifies these dimensions. At each iteration, MoP generates two branches-pruning in depth versus pruning in width-and selects a candidate to advance the path. On LLaMA-2 and LLaMA-3, MoP advances the frontier of structured pruning, exceeding the accuracy of competing methods across a broad set of compression regimes. It also consistently outperforms depth-only and width-only pruning. Furthermore, MoP translates structural pruning into real speedup, reducing end-to-end latency by 39% at 40% compression. Finally, extending MoP to the vision-language model LLaVA-1.5, we notably improve computational efficiency and demonstrate that text-only recovery fine-tuning can restore performance even on visual tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T19:01:06Z</published>
+    <arxiv:comment>Code and models are available at: https://github.com/c2d-usp/Efficient-LLMs-with-MoP</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bruno Lopes Yamamoto</name>
+    </author>
+    <author>
+      <name>Lucas Lauton de Alcantara</name>
+    </author>
+    <author>
+      <name>Victor Zacarias</name>
+    </author>
+    <author>
+      <name>Leandro Giusti Mugnaini</name>
+    </author>
+    <author>
+      <name>Keith Ando Ogawa</name>
+    </author>
+    <author>
+      <name>Lucas Pellicer</name>
+    </author>
+    <author>
+      <name>Rosimeire Pereira Costa</name>
+    </author>
+    <author>
+      <name>Edson Bollis</name>
+    </author>
+    <author>
+      <name>Anna Helena Reali Costa</name>
+    </author>
+    <author>
+      <name>Artur Jordao</name>
+    </author>
+  </entry>
+</feed>

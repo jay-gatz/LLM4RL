@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nZkq+U0DmKoDzdiMY6qh534YOTE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.13860&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2305.13860" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13860v2</id>
+    <title>Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study</title>
+    <updated>2024-03-10T13:58:08Z</updated>
+    <link href="https://arxiv.org/abs/2305.13860v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13860v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs), like ChatGPT, have demonstrated vast potential but also introduce challenges related to content constraints and potential misuse. Our study investigates three key research questions: (1) the number of different prompt types that can jailbreak LLMs, (2) the effectiveness of jailbreak prompts in circumventing LLM constraints, and (3) the resilience of ChatGPT against these jailbreak prompts. Initially, we develop a classification model to analyze the distribution of existing prompts, identifying ten distinct patterns and three categories of jailbreak prompts. Subsequently, we assess the jailbreak capability of prompts with ChatGPT versions 3.5 and 4.0, utilizing a dataset of 3,120 jailbreak questions across eight prohibited scenarios. Finally, we evaluate the resistance of ChatGPT against jailbreak prompts, finding that the prompts can consistently evade the restrictions in 40 use-case scenarios. The study underscores the importance of prompt structures in jailbreaking LLMs and discusses the challenges of robust jailbreak prompt generation and prevention.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T09:33:38Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Gelei Deng</name>
+    </author>
+    <author>
+      <name>Zhengzi Xu</name>
+    </author>
+    <author>
+      <name>Yuekang Li</name>
+    </author>
+    <author>
+      <name>Yaowen Zheng</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Lida Zhao</name>
+    </author>
+    <author>
+      <name>Tianwei Zhang</name>
+    </author>
+    <author>
+      <name>Kailong Wang</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+</feed>

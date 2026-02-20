@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vhudWrv2tE6auVQJjrh7vyiN5ns</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13314v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13314v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13314v1</id>
+    <title>Sim2Radar: Toward Bridging the Radar Sim-to-Real Gap with VLM-Guided Scene Reconstruction</title>
+    <updated>2026-02-10T10:56:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.13314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Millimeter-wave (mmWave) radar provides reliable perception in visually degraded indoor environments (e.g., smoke, dust, and low light), but learning-based radar perception is bottlenecked by the scarcity and cost of collecting and annotating large-scale radar datasets. We present Sim2Radar, an end-to-end framework that synthesizes training radar data directly from single-view RGB images, enabling scalable data generation without manual scene modeling. Sim2Radar reconstructs a material-aware 3D scene by combining monocular depth estimation, segmentation, and vision-language reasoning to infer object materials, then simulates mmWave propagation with a configurable physics-based ray tracer using Fresnel reflection models parameterized by ITU-R electromagnetic properties. Evaluated on real-world indoor scenes, Sim2Radar improves downstream 3D radar perception via transfer learning: pre-training a radar point-cloud object detection model on synthetic data and fine-tuning on real radar yields up to +3.7 3D AP (IoU 0.3), with gains driven primarily by improved spatial localization. These results suggest that physics-based, vision-driven radar simulation can provide effective geometric priors for radar learning and measurably improve performance under limited real-data supervision.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T10:56:47Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Emily Bejerano</name>
+    </author>
+    <author>
+      <name>Federico Tondolo</name>
+    </author>
+    <author>
+      <name>Aayan Qayyum</name>
+    </author>
+    <author>
+      <name>Xiaofan Yu</name>
+    </author>
+    <author>
+      <name>Xiaofan Jiang</name>
+    </author>
+  </entry>
+</feed>

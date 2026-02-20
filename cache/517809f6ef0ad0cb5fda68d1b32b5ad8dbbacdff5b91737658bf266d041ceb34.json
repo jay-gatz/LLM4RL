@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U9CxiSCOldV9F3CdQ8qPJErG1is</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18077v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18077v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18077v1</id>
+    <title>Sparks of Cooperative Reasoning: LLMs as Strategic Hanabi Agents</title>
+    <updated>2026-01-26T02:23:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.18077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooperative reasoning under incomplete information remains challenging for both humans and multi-agent systems. The card game Hanabi embodies this challenge, requiring theory-of-mind reasoning and strategic communication. We benchmark 17 state-of-the-art LLM agents in 2-5 player games and study the impact of context engineering across model scales (4B to 600B+) to understand persistent coordination failures and robustness to scaffolding: from a minimal prompt with only explicit card details (Watson setting), to scaffolding with programmatic, Bayesian-motivated deductions (Sherlock setting), to multi-turn state tracking via working memory (Mycroft setting). We show that (1) agents can maintain an internal working memory for state tracking and (2) cross-play performance between different LLMs smoothly interpolates with model strength. In the Sherlock setting, the strongest reasoning models exceed 15 points on average across player counts, yet still trail experienced humans and specialist Hanabi agents, both consistently scoring above 20. We release the first public Hanabi datasets with annotated trajectories and move utilities: (1) HanabiLogs, containing 1,520 full game logs for instruction tuning, and (2) HanabiRewards, containing 560 games with dense move-level value annotations for all candidate moves. Supervised and RL finetuning of a 4B open-weight model (Qwen3-Instruct) on our datasets improves cooperative Hanabi play by 21% and 156% respectively, bringing performance to within ~3 points of a strong proprietary reasoning model (o4-mini) and surpassing the best non-reasoning model (GPT-4.1) by 52%. The HanabiRewards RL-finetuned model further generalizes beyond Hanabi, improving performance on a cooperative group-guessing benchmark by 11%, temporal reasoning on EventQA by 6.4%, instruction-following on IFBench-800K by 1.7 Pass@10, and matching AIME 2025 mathematical reasoning Pass@10.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T02:23:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mahesh Ramesh</name>
+    </author>
+    <author>
+      <name>Kaousheik Jayakumar</name>
+    </author>
+    <author>
+      <name>Aswinkumar Ramkumar</name>
+    </author>
+    <author>
+      <name>Pavan Thodima</name>
+    </author>
+    <author>
+      <name>Aniket Rege</name>
+    </author>
+  </entry>
+</feed>

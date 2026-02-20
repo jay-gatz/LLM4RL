@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9kQu5kl5z4VmdDpdza8rz9StP5A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15922v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15922v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15922v1</id>
+    <title>World Action Models are Zero-shot Policies</title>
+    <updated>2026-02-17T15:04:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.15922v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15922v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art Vision-Language-Action (VLA) models excel at semantic generalization but struggle to generalize to unseen physical motions in novel environments. We introduce DreamZero, a World Action Model (WAM) built upon a pretrained video diffusion backbone. Unlike VLAs, WAMs learn physical dynamics by predicting future world states and actions, using video as a dense representation of how the world evolves. By jointly modeling video and action, DreamZero learns diverse skills effectively from heterogeneous robot data without relying on repetitive demonstrations. This results in over 2x improvement in generalization to new tasks and environments compared to state-of-the-art VLAs in real robot experiments. Crucially, through model and system optimizations, we enable a 14B autoregressive video diffusion model to perform real-time closed-loop control at 7Hz. Finally, we demonstrate two forms of cross-embodiment transfer: video-only demonstrations from other robots or humans yield a relative improvement of over 42% on unseen task performance with just 10-20 minutes of data. More surprisingly, DreamZero enables few-shot embodiment adaptation, transferring to a new embodiment with only 30 minutes of play data while retaining zero-shot generalization.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:04:02Z</published>
+    <arxiv:comment>Project page: https://dreamzero0.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Seonghyeon Ye</name>
+    </author>
+    <author>
+      <name>Yunhao Ge</name>
+    </author>
+    <author>
+      <name>Kaiyuan Zheng</name>
+    </author>
+    <author>
+      <name>Shenyuan Gao</name>
+    </author>
+    <author>
+      <name>Sihyun Yu</name>
+    </author>
+    <author>
+      <name>George Kurian</name>
+    </author>
+    <author>
+      <name>Suneel Indupuru</name>
+    </author>
+    <author>
+      <name>You Liang Tan</name>
+    </author>
+    <author>
+      <name>Chuning Zhu</name>
+    </author>
+    <author>
+      <name>Jiannan Xiang</name>
+    </author>
+    <author>
+      <name>Ayaan Malik</name>
+    </author>
+    <author>
+      <name>Kyungmin Lee</name>
+    </author>
+    <author>
+      <name>William Liang</name>
+    </author>
+    <author>
+      <name>Nadun Ranawaka</name>
+    </author>
+    <author>
+      <name>Jiasheng Gu</name>
+    </author>
+    <author>
+      <name>Yinzhen Xu</name>
+    </author>
+    <author>
+      <name>Guanzhi Wang</name>
+    </author>
+    <author>
+      <name>Fengyuan Hu</name>
+    </author>
+    <author>
+      <name>Avnish Narayan</name>
+    </author>
+    <author>
+      <name>Johan Bjorck</name>
+    </author>
+    <author>
+      <name>Jing Wang</name>
+    </author>
+    <author>
+      <name>Gwanghyun Kim</name>
+    </author>
+    <author>
+      <name>Dantong Niu</name>
+    </author>
+    <author>
+      <name>Ruijie Zheng</name>
+    </author>
+    <author>
+      <name>Yuqi Xie</name>
+    </author>
+    <author>
+      <name>Jimmy Wu</name>
+    </author>
+    <author>
+      <name>Qi Wang</name>
+    </author>
+    <author>
+      <name>Ryan Julian</name>
+    </author>
+    <author>
+      <name>Danfei Xu</name>
+    </author>
+    <author>
+      <name>Yilun Du</name>
+    </author>
+    <author>
+      <name>Yevgen Chebotar</name>
+    </author>
+    <author>
+      <name>Scott Reed</name>
+    </author>
+    <author>
+      <name>Jan Kautz</name>
+    </author>
+    <author>
+      <name>Yuke Zhu</name>
+    </author>
+    <author>
+      <name>Linxi "Jim" Fan</name>
+    </author>
+    <author>
+      <name>Joel Jang</name>
+    </author>
+  </entry>
+</feed>

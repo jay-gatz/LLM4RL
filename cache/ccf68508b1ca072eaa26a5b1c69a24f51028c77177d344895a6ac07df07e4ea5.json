@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//Nj1UyrIfU7gh86KvzAjjUtBmFo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03876v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03876v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03876v1</id>
+    <title>GOPO: Policy Optimization using Ranked Rewards</title>
+    <updated>2026-02-01T22:07:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.03876v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03876v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Standard reinforcement learning from human feedback (RLHF) trains a reward model on pairwise preference data and then uses it for policy optimization. However, while reward models are optimized to capture relative preferences, existing policy optimization techniques rely on absolute reward magnitudes during training. In settings where the rewards are non-verifiable such as summarization, instruction following, and chat completion, this misalignment often leads to suboptimal performance. We introduce Group Ordinal Policy Optimization (GOPO), a policy optimization method that uses only the ranking of the rewards and discards their magnitudes. Our rank-based transformation of rewards provides several gains, compared to Group Relative Policy Optimization (GRPO), in settings with non-verifiable rewards: (1) consistently higher training/validation reward trajectories, (2) improved LLM-as-judge evaluations across most intermediate training steps, and (3) reaching a policy of comparable quality in substantially less training steps than GRPO. We demonstrate consistent improvements across a range of tasks and model sizes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T22:07:11Z</published>
+    <arxiv:comment>17 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kyuseong Choi</name>
+    </author>
+    <author>
+      <name>Dwaipayan Saha</name>
+    </author>
+    <author>
+      <name>Woojeong Kim</name>
+    </author>
+    <author>
+      <name>Anish Agarwal</name>
+    </author>
+    <author>
+      <name>Raaz Dwivedi</name>
+    </author>
+  </entry>
+</feed>

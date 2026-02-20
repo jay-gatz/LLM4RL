@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UPKP23gXP/FztQYbEVc9KxUwW9M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16343v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16343v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16343v1</id>
+    <title>How to Label Resynthesized Audio: The Dual Role of Neural Audio Codecs in Audio Deepfake Detection</title>
+    <updated>2026-02-18T10:29:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.16343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since Text-to-Speech systems typically don't produce waveforms directly, recent spoof detection studies use resynthesized waveforms from vocoders and neural audio codecs to simulate an attacker. Unlike vocoders, which are specifically designed for speech synthesis, neural audio codecs were originally developed for compressing audio for storage and transmission. However, their ability to discretize speech also sparked interest in language-modeling-based speech synthesis. Owing to this dual functionality, codec resynthesized data may be labeled as either bonafide or spoof. So far, very little research has addressed this issue. In this study, we present a challenging extension of the ASVspoof 5 dataset constructed for this purpose. We examine how different labeling choices affect detection performance and provide insights into labeling strategies.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T10:29:07Z</published>
+    <arxiv:comment>Accepted to ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Yixuan Xiao</name>
+    </author>
+    <author>
+      <name>Florian Lux</name>
+    </author>
+    <author>
+      <name>Alejandro Pérez-González-de-Martos</name>
+    </author>
+    <author>
+      <name>Ngoc Thang Vu</name>
+    </author>
+  </entry>
+</feed>

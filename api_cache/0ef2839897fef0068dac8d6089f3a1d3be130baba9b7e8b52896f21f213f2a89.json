@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Amr2KA37HNJ0SuB9HovoLlJevzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14518v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14518v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14518v1</id>
+    <title>Diagnosing Knowledge Conflict in Multimodal Long-Chain Reasoning</title>
+    <updated>2026-02-16T07:10:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.14518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models (MLLMs) in long chain-of-thought reasoning often fail when different knowledge sources provide conflicting signals. We formalize these failures under a unified notion of knowledge conflict, distinguishing input-level objective conflict from process-level effective conflict. Through probing internal representations, we reveal that: (I) Linear Separability: different conflict types are explicitly encoded as linearly separable features rather than entangled; (II) Depth Localization: conflict signals concentrate in mid-to-late layers, indicating a distinct processing stage for conflict encoding; (III) Hierarchical Consistency: aggregating noisy token-level signals along trajectories robustly recovers input-level conflict types; and (IV) Directional Asymmetry: reinforcing the model's implicit source preference under conflict is far easier than enforcing the opposite source. Our findings provide a mechanism-level view of multimodal reasoning under knowledge conflict and enable principled diagnosis and control of long-CoT failures.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T07:10:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jing Tang</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Haolang Lu</name>
+    </author>
+    <author>
+      <name>Hongjin Chen</name>
+    </author>
+    <author>
+      <name>KaiTao Chen</name>
+    </author>
+    <author>
+      <name>Zhongxiang Sun</name>
+    </author>
+    <author>
+      <name>Qiankun Li</name>
+    </author>
+    <author>
+      <name>Lingjuan Lyu</name>
+    </author>
+    <author>
+      <name>Guoshun Nan</name>
+    </author>
+    <author>
+      <name>Zhigang Zeng</name>
+    </author>
+  </entry>
+</feed>

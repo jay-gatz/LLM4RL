@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gzc3YWBXIreNcj/YB8Yg052Vwzg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10880v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10880v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10880v1</id>
+    <title>Chart Specification: Structural Representations for Incentivizing VLM Reasoning in Chart-to-Code Generation</title>
+    <updated>2026-02-11T14:08:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.10880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models (VLMs) have shown promise in generating plotting code from chart images, yet achieving structural fidelity remains challenging. Existing approaches largely rely on supervised fine-tuning, encouraging surface-level token imitation rather than faithful modeling of underlying chart structure, which often leads to hallucinated or semantically inconsistent outputs. We propose Chart Specification, a structured intermediate representation that shifts training from text imitation to semantically grounded supervision. Chart Specification filters syntactic noise to construct a structurally balanced training set and supports a Spec-Align Reward that provides fine-grained, verifiable feedback on structural correctness, enabling reinforcement learning to enforce consistent plotting logic. Experiments on three public benchmarks show that our method consistently outperforms prior approaches. With only 3K training samples, we achieve strong data efficiency, surpassing leading baselines by up to 61.7% on complex benchmarks, and scaling to 4K samples establishes new state-of-the-art results across all evaluated metrics. Overall, our results demonstrate that precise structural supervision offers an efficient pathway to high-fidelity chart-to-code generation. Code and dataset are available at: https://github.com/Mighten/chart-specification-paper</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T14:08:06Z</published>
+    <arxiv:comment>under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Minggui He</name>
+    </author>
+    <author>
+      <name>Mingchen Dai</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Yilun Liu</name>
+    </author>
+    <author>
+      <name>Shimin Tao</name>
+    </author>
+    <author>
+      <name>Pufan Zeng</name>
+    </author>
+    <author>
+      <name>Osamu Yoshie</name>
+    </author>
+    <author>
+      <name>Yuya Ieiri</name>
+    </author>
+  </entry>
+</feed>

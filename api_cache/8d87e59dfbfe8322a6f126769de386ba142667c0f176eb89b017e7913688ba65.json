@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XdfEL0/WolHiZOQsujsQuk9huqg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06384v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06384v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06384v1</id>
+    <title>FMBench: Adaptive Large Language Model Output Formatting</title>
+    <updated>2026-02-06T04:42:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.06384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Producing outputs that satisfy both semantic intent and format constraints is essential for deploying large language models in user-facing and system-integrated workflows. In this work, we focus on Markdown formatting, which is ubiquitous in assistants, documentation, and tool-augmented pipelines but still prone to subtle, hard-to-detect errors (e.g., broken lists, malformed tables, inconsistent headings, and invalid code blocks) that can significantly degrade downstream usability. We present FMBench, a benchmark for adaptive Markdown output formatting that evaluates models under a wide range of instruction-following scenarios with diverse structural requirements. FMBench emphasizes real-world formatting behaviors such as multi-level organization, mixed content (natural language interleaved with lists/tables/code), and strict adherence to user-specified layout constraints. To improve Markdown compliance without relying on hard decoding constraints, we propose a lightweight alignment pipeline that combines supervised fine-tuning (SFT) with reinforcement learning fine-tuning. Starting from a base model, we first perform SFT on instruction-response pairs, and then optimize a composite objective that balances semantic fidelity with structural correctness. Experiments on two model families (OpenPangu and Qwen) show that SFT consistently improves semantic alignment, while reinforcement learning provides additional gains in robustness to challenging Markdown instructions when initialized from a strong SFT policy. Our results also reveal an inherent trade-off between semantic and structural objectives, highlighting the importance of carefully designed rewards for reliable formatted generation. Code is available at: https://github.com/FudanCVL/FMBench.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T04:42:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yaoting Wang</name>
+    </author>
+    <author>
+      <name>Yun Zhou</name>
+    </author>
+    <author>
+      <name>Henghui Ding</name>
+    </author>
+  </entry>
+</feed>

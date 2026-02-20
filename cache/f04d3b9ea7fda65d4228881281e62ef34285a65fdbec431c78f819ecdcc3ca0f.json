@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HGN00fj0gHbfyyUG+ZkyjNYqDkQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2306.01337v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2306.01337v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.01337v3</id>
+    <title>MathChat: Converse to Tackle Challenging Math Problems with LLM Agents</title>
+    <updated>2024-06-28T10:26:27Z</updated>
+    <link href="https://arxiv.org/abs/2306.01337v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.01337v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Employing Large Language Models (LLMs) to address mathematical problems is an intriguing research endeavor, considering the abundance of math problems expressed in natural language across numerous science and engineering fields. LLMs, with their generalized ability, are used as a foundation model to build AI agents for different tasks. In this paper, we study the effectiveness of utilizing LLM agents to solve math problems through conversations. We propose MathChat, a conversational problem-solving framework designed for math problems. MathChat consists of an LLM agent and a user proxy agent which is responsible for tool execution and additional guidance. This synergy facilitates a collaborative problem-solving process, where the agents engage in a dialogue to solve the problems. We perform evaluation on difficult high school competition problems from the MATH dataset. Utilizing Python, we show that MathChat can further improve previous tool-using prompting methods by 6%.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-02T08:02:15Z</published>
+    <arxiv:comment>Update version</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yiran Wu</name>
+    </author>
+    <author>
+      <name>Feiran Jia</name>
+    </author>
+    <author>
+      <name>Shaokun Zhang</name>
+    </author>
+    <author>
+      <name>Hangyu Li</name>
+    </author>
+    <author>
+      <name>Erkang Zhu</name>
+    </author>
+    <author>
+      <name>Yue Wang</name>
+    </author>
+    <author>
+      <name>Yin Tat Lee</name>
+    </author>
+    <author>
+      <name>Richard Peng</name>
+    </author>
+    <author>
+      <name>Qingyun Wu</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+  </entry>
+</feed>

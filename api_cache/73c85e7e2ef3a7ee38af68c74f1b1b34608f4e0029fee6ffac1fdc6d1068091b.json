@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ATxDLtj99zx536HeCY/1oRguBwM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01791v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01791v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01791v1</id>
+    <title>Grad2Reward: From Sparse Judgment to Dense Rewards for Improving Open-Ended LLM Reasoning</title>
+    <updated>2026-02-02T08:13:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.01791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning with Verifiable Rewards (RLVR) has catalyzed significant breakthroughs in complex LLM reasoning within verifiable domains, such as mathematics and programming. Recent efforts have sought to extend this paradigm to open-ended tasks by employing LLMs-as-a-Judge to provide sequence-level rewards for policy optimization. However, these rewards are inherently sparse, failing to provide the fine-grained supervision necessary for generating complex, long-form trajectories. Furthermore, current work treats the Judge as a black-box oracle, discarding the rich intermediate feedback signals encoded in it. To address these limitations, we introduce Grad2Reward, a novel framework that extracts dense process rewards directly from the Judge's model inference process via a single backward pass. By leveraging gradient-based attribution, Grad2Reward enables precise token-level credit assignment, substantially enhancing training efficiency and reasoning quality. Additionally, Grad2Reward introduces a self-judging mechanism, allowing the policy to improve through its own evaluative signals without training specialized reward models or reliance on superior external Judges. The experiments demonstrate that policies optimized with Grad2Reward achieve outstanding performance across diverse open-ended tasks, affirming its effectiveness and broad generalizability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T08:13:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <author>
+      <name>Ao Lu</name>
+    </author>
+    <author>
+      <name>Yuanhao Zeng</name>
+    </author>
+    <author>
+      <name>Ziwei Shan</name>
+    </author>
+    <author>
+      <name>Jinjin Guo</name>
+    </author>
+    <author>
+      <name>Lufei Li</name>
+    </author>
+    <author>
+      <name>Yexin Li</name>
+    </author>
+    <author>
+      <name>Kan Ren</name>
+    </author>
+  </entry>
+</feed>

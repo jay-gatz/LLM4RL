@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hcLyyF2RHzVpjVlxv54+XPoRvz0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.02038&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:07:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.02038" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02038v2</id>
+    <title>Understanding LLMs: A Comprehensive Overview from Training to Inference</title>
+    <updated>2024-01-06T03:32:08Z</updated>
+    <link href="https://arxiv.org/abs/2401.02038v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.02038v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The introduction of ChatGPT has led to a significant increase in the utilization of Large Language Models (LLMs) for addressing downstream tasks. There's an increasing focus on cost-efficient training and deployment within this context. Low-cost training and deployment of LLMs represent the future development trend. This paper reviews the evolution of large language model training techniques and inference deployment technologies aligned with this emerging trend. The discussion on training includes various aspects, including data preprocessing, training architecture, pre-training tasks, parallel training, and relevant content related to model fine-tuning. On the inference side, the paper covers topics such as model compression, parallel computation, memory scheduling, and structural optimization. It also explores LLMs' utilization and provides insights into their future development.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-04T02:43:57Z</published>
+    <arxiv:comment>30 pages,6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yiheng Liu</name>
+    </author>
+    <author>
+      <name>Hao He</name>
+    </author>
+    <author>
+      <name>Tianle Han</name>
+    </author>
+    <author>
+      <name>Xu Zhang</name>
+    </author>
+    <author>
+      <name>Mengyuan Liu</name>
+    </author>
+    <author>
+      <name>Jiaming Tian</name>
+    </author>
+    <author>
+      <name>Yutong Zhang</name>
+    </author>
+    <author>
+      <name>Jiaqi Wang</name>
+    </author>
+    <author>
+      <name>Xiaohui Gao</name>
+    </author>
+    <author>
+      <name>Tianyang Zhong</name>
+    </author>
+    <author>
+      <name>Yi Pan</name>
+    </author>
+    <author>
+      <name>Shaochen Xu</name>
+    </author>
+    <author>
+      <name>Zihao Wu</name>
+    </author>
+    <author>
+      <name>Zhengliang Liu</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Shu Zhang</name>
+    </author>
+    <author>
+      <name>Xintao Hu</name>
+    </author>
+    <author>
+      <name>Tuo Zhang</name>
+    </author>
+    <author>
+      <name>Ning Qiang</name>
+    </author>
+    <author>
+      <name>Tianming Liu</name>
+    </author>
+    <author>
+      <name>Bao Ge</name>
+    </author>
+  </entry>
+</feed>

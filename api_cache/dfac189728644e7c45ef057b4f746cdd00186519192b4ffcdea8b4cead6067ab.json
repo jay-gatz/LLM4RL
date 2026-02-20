@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OFntSXdWW9bxxdUNk1HRh0ZVStM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.09321v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.09321v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.09321v1</id>
+    <title>Towards Adaptive ML Benchmarks: Web-Agent-Driven Construction, Domain Expansion, and Metric Optimization</title>
+    <updated>2025-09-11T10:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2509.09321v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.09321v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have enabled the emergence of general-purpose agents for automating end-to-end machine learning (ML) workflows, including data analysis, feature engineering, model training, and competition solving. However, existing benchmarks remain limited in task coverage, domain diversity, difficulty modeling, and evaluation rigor, failing to capture the full capabilities of such agents in realistic settings. We present TAM Bench, a diverse, realistic, and structured benchmark for evaluating LLM-based agents on end-to-end ML tasks. TAM Bench features three key innovations: (1) A browser automation and LLM-based task acquisition system that automatically collects and structures ML challenges from platforms such as Kaggle, AIcrowd, and Biendata, spanning multiple task types and data modalities (e.g., tabular, text, image, graph, audio); (2) A leaderboard-driven difficulty modeling mechanism that estimates task complexity using participant counts and score dispersion, enabling scalable and objective task calibration; (3) A multi-dimensional evaluation framework incorporating performance, format compliance, constraint adherence, and task generalization. Based on 150 curated AutoML tasks, we construct three benchmark subsets of different sizes -- Lite, Medium, and Full -- designed for varying evaluation scenarios. The Lite version, with 18 tasks and balanced coverage across modalities and difficulty levels, serves as a practical testbed for daily benchmarking and comparative studies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-11T10:10:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hangyi Jia</name>
+    </author>
+    <author>
+      <name>Yuxi Qian</name>
+    </author>
+    <author>
+      <name>Hanwen Tong</name>
+    </author>
+    <author>
+      <name>Xinhui Wu</name>
+    </author>
+    <author>
+      <name>Lin Chen</name>
+    </author>
+    <author>
+      <name>Feng Wei</name>
+    </author>
+  </entry>
+</feed>

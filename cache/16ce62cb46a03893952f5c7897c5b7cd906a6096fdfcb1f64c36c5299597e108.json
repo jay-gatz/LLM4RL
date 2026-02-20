@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2KhNokvCj0qBOpFE9YLxWXOTgmY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15707v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15707v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15707v1</id>
+    <title>Proactive Conversational Assistant for a Procedural Manual Task based on Audio and IMU</title>
+    <updated>2026-02-17T16:41:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.15707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-time conversational assistants for procedural tasks often depend on video input, which can be computationally expensive and compromise user privacy. For the first time, we propose a real-time conversational assistant that provides comprehensive guidance for a procedural task using only lightweight privacy-preserving modalities such as audio and IMU inputs from a user's wearable device to understand the context. This assistant proactively communicates step-by-step instructions to a user performing a furniture assembly task, and answers user questions. We construct a dataset containing conversations where the assistant guides the user in performing the task. On observing that an off-the-shelf language model is a very talkative assistant, we design a novel User Whim Agnostic (UWA) LoRA finetuning method which improves the model's ability to suppress less informative dialogues, while maintaining its tendency to communicate important instructions. This leads to &gt;30% improvement in the F-score. Finetuning the model also results in a 16x speedup by eliminating the need to provide in-context examples in the prompt. We further describe how such an assistant is implemented on edge devices with no dependence on the cloud.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T16:41:51Z</published>
+    <arxiv:comment>3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <author>
+      <name>Rehana Mahfuz</name>
+    </author>
+    <author>
+      <name>Yinyi Guo</name>
+    </author>
+    <author>
+      <name>Erik Visser</name>
+    </author>
+    <author>
+      <name>Phanidhar Chinchili</name>
+    </author>
+  </entry>
+</feed>

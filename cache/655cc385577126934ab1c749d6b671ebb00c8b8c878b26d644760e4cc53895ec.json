@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/saZ7CR6ZZwFlMMNIcQfXRq/6M5g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2306.03314&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:08:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2306.03314" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03314v1</id>
+    <title>Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents</title>
+    <updated>2023-06-05T23:55:37Z</updated>
+    <link href="https://arxiv.org/abs/2306.03314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a novel framework for enhancing the capabilities of large language models (LLMs) by leveraging the power of multi-agent systems. Our framework introduces a collaborative environment where multiple intelligent agent components, each with distinctive attributes and roles, work together to handle complex tasks more efficiently and effectively. We demonstrate the practicality and versatility of our framework through case studies in artificial general intelligence (AGI), specifically focusing on the Auto-GPT and BabyAGI models. We also examine the "Gorilla" model, which integrates external APIs into the LLM. Our framework addresses limitations and challenges such as looping issues, security risks, scalability, system evaluation, and ethical considerations. By modeling various domains such as courtroom simulations and software development scenarios, we showcase the potential applications and benefits of our proposed multi-agent system. Our framework provides an avenue for advancing the capabilities and performance of LLMs through collaboration and knowledge exchange among intelligent agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T23:55:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yashar Talebirad</name>
+    </author>
+    <author>
+      <name>Amirhossein Nadiri</name>
+    </author>
+  </entry>
+</feed>

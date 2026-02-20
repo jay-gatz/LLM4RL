@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NEzJaqgyvdRWwu8v5hiSusGvqsE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13602v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13602v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13602v1</id>
+    <title>Towards Sparse Video Understanding and Reasoning</title>
+    <updated>2026-02-14T04:52:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.13602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present \revise (\underline{Re}asoning with \underline{Vi}deo \underline{S}parsity), a multi-round agent for video question answering (VQA). Instead of uniformly sampling frames, \revise selects a small set of informative frames, maintains a summary-as-state across rounds, and stops early when confident. It supports proprietary vision-language models (VLMs) in a ``plug-and-play'' setting and enables reinforcement fine-tuning for open-source models. For fine-tuning, we introduce EAGER (Evidence-Adjusted Gain for Efficient Reasoning), an annotation-free reward with three terms: (1) Confidence gain: after new frames are added, we reward the increase in the log-odds gap between the correct option and the strongest alternative; (2) Summary sufficiency: at answer time we re-ask using only the last committed summary and reward success; (3) Correct-and-early stop: answering correctly within a small turn budget is rewarded. Across multiple VQA benchmarks, \revise improves accuracy while reducing frames, rounds, and prompt tokens, demonstrating practical sparse video reasoning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T04:52:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenwei Xu</name>
+    </author>
+    <author>
+      <name>Zhen Ye</name>
+    </author>
+    <author>
+      <name>Shang Wu</name>
+    </author>
+    <author>
+      <name>Weijian Li</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Zhuofan Xia</name>
+    </author>
+    <author>
+      <name>Lie Lu</name>
+    </author>
+    <author>
+      <name>Pranav Maneriker</name>
+    </author>
+    <author>
+      <name>Fan Du</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Han Liu</name>
+    </author>
+  </entry>
+</feed>

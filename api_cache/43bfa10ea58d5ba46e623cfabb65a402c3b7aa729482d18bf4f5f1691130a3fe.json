@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jh4JbrSxVbtZCliE44JhMV2ysQ0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.24040v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.24040v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24040v1</id>
+    <title>ROAD: Reflective Optimization via Automated Debugging for Zero-Shot Agent Alignment</title>
+    <updated>2025-12-30T07:31:34Z</updated>
+    <link href="https://arxiv.org/abs/2512.24040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic Prompt Optimization (APO) has emerged as a critical technique for enhancing Large Language Model (LLM) performance, yet current state-of-the-art methods typically rely on large, labeled gold-standard development sets to compute fitness scores for evolutionary or Reinforcement Learning (RL) approaches. In real-world software engineering, however, such curated datasets are rarely available during the initial cold start of agent development, where engineers instead face messy production logs and evolving failure modes. We present ROAD (Reflective Optimization via Automated Debugging), a novel framework that bypasses the need for refined datasets by treating optimization as a dynamic debugging investigation rather than a stochastic search. Unlike traditional mutation strategies, ROAD utilizes a specialized multi-agent architecture, comprising an Analyzer for root-cause analysis, an Optimizer for pattern aggregation, and a Coach for strategy integration, to convert unstructured failure logs into robust, structured Decision Tree Protocols. We evaluated ROAD across both a standardized academic benchmark and a live production Knowledge Management engine. Experimental results demonstrate that ROAD is highly sample-efficient, achieving a 5.6 percent increase in success rate (73.6 percent to 79.2 percent) and a 3.8 percent increase in search accuracy within just three automated iterations. Furthermore, on complex reasoning tasks in the retail domain, ROAD improved agent performance by approximately 19 percent relative to the baseline. These findings suggest that mimicking the human engineering loop of failure analysis and patching offers a viable, data-efficient alternative to resource-intensive RL training for deploying reliable LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-30T07:31:34Z</published>
+    <arxiv:comment>22 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Natchaya Temyingyong</name>
+    </author>
+    <author>
+      <name>Daman Jain</name>
+    </author>
+    <author>
+      <name>Neeraj Kumarsahu</name>
+    </author>
+    <author>
+      <name>Prabhat Kumar</name>
+    </author>
+    <author>
+      <name>Rachata Phondi</name>
+    </author>
+    <author>
+      <name>Wachiravit Modecrua</name>
+    </author>
+    <author>
+      <name>Krittanon Kaewtawee</name>
+    </author>
+    <author>
+      <name>Krittin Pachtrachai</name>
+    </author>
+    <author>
+      <name>Touchapon Kraisingkorn</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2sQ4+KIfK6rl2ejhjGxR8zptyO4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12532v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12532v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12532v1</id>
+    <title>CRAFT: Adapting VLA Models to Contact-rich Manipulation via Force-aware Curriculum Fine-tuning</title>
+    <updated>2026-02-13T02:28:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.12532v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12532v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have shown a strong capability in enabling robots to execute general instructions, yet they struggle with contact-rich manipulation tasks, where success requires precise alignment, stable contact maintenance, and effective handling of deformable objects. A fundamental challenge arises from the imbalance between high-entropy vision and language inputs and low-entropy but critical force signals, which often leads to over-reliance on perception and unstable control. To address this, we introduce CRAFT, a force-aware curriculum fine-tuning framework that integrates a variational information bottleneck module to regulate vision and language embeddings during early training. This curriculum strategy encourages the model to prioritize force signals initially, before progressively restoring access to the full multimodal information. To enable force-aware learning, we further design a homologous leader-follower teleoperation system that collects synchronized vision, language, and force data across diverse contact-rich tasks. Real-world experiments demonstrate that CRAFT consistently improves task success, generalizes to unseen objects and novel task variations, and adapts effectively across diverse VLA architectures, enabling robust and generalizable contact-rich manipulation.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T02:28:21Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yike Zhang</name>
+    </author>
+    <author>
+      <name>Yaonan Wang</name>
+    </author>
+    <author>
+      <name>Xinxin Sun</name>
+    </author>
+    <author>
+      <name>Kaizhen Huang</name>
+    </author>
+    <author>
+      <name>Zhiyuan Xu</name>
+    </author>
+    <author>
+      <name>Junjie Ji</name>
+    </author>
+    <author>
+      <name>Zhengping Che</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Jingtao Sun</name>
+    </author>
+  </entry>
+</feed>

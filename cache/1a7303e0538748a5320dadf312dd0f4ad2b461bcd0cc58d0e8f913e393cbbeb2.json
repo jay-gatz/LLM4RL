@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OkNvQnpTx9PLRKjsDn6HDm3GvLc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07960v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07960v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07960v1</id>
+    <title>D-ORCA: Dialogue-Centric Optimization for Robust Audio-Visual Captioning</title>
+    <updated>2026-02-08T13:16:33Z</updated>
+    <link href="https://arxiv.org/abs/2602.07960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spoken dialogue is a primary source of information in videos; therefore, accurately identifying who spoke what and when is essential for deep video understanding. We introduce D-ORCA, a \textbf{d}ialogue-centric \textbf{o}mni-modal large language model optimized for \textbf{r}obust audio-visual \textbf{ca}ptioning. We further curate DVD, a large-scale, high-quality bilingual dataset comprising nearly 40,000 multi-party dialogue videos for training and 2000 videos for evaluation in English and Mandarin, addressing a critical gap in the open-source ecosystem. To ensure fine-grained captioning accuracy, we adopt group relative policy optimization with three novel reward functions that assess speaker attribution accuracy, global speech content accuracy, and sentence-level temporal boundary alignment. These rewards are derived from evaluation metrics widely used in speech processing and, to our knowledge, are applied for the first time as reinforcement learning objectives for audio-visual captioning. Extensive experiments demonstrate that D-ORCA substantially outperforms existing open-source models in speaker identification, speech recognition, and temporal grounding. Notably, despite having only 8 billion parameters, D-ORCA achieves performance competitive with Qwen3-Omni across several general-purpose audio-visual understanding benchmarks. Demos are available at \href{https://d-orca-llm.github.io/}{https://d-orca-llm.github.io/}. Our code, data, and checkpoints will be available at \href{https://github.com/WeChatCV/D-ORCA/}{https://github.com/WeChatCV/D-ORCA/}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T13:16:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Changli Tang</name>
+    </author>
+    <author>
+      <name>Tianyi Wang</name>
+    </author>
+    <author>
+      <name>Fengyun Rao</name>
+    </author>
+    <author>
+      <name>Jing Lyu</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+  </entry>
+</feed>

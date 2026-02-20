@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iLOxeIM0usjow+bpLJP7SMDaEm4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2412.18547&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2412.18547" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.18547v5</id>
+    <title>Token-Budget-Aware LLM Reasoning</title>
+    <updated>2025-06-02T00:44:09Z</updated>
+    <link href="https://arxiv.org/abs/2412.18547v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.18547v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning is critical for large language models (LLMs) to excel in a wide range of tasks. While methods like Chain-of-Thought (CoT) reasoning and enhance LLM performance by decomposing problems into intermediate steps, they also incur significant overhead in token usage, leading to increased costs. We find that the reasoning process of current LLMs is unnecessarily lengthy and it can be compressed by including a reasonable token budget in the prompt, but the choice of token budget plays a crucial role in the actual compression effectiveness. We then propose a token-budget-aware LLM reasoning framework that dynamically adjusts the number of reasoning tokens based on the reasoning complexity of each problem. Experiments show that our method effectively reduces token costs in CoT reasoning with only a slight performance reduction, offering a practical solution to balance efficiency and accuracy in LLM reasoning. Code: https://github.com/GeniusHTX/TALE</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-24T16:55:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tingxu Han</name>
+    </author>
+    <author>
+      <name>Zhenting Wang</name>
+    </author>
+    <author>
+      <name>Chunrong Fang</name>
+    </author>
+    <author>
+      <name>Shiyu Zhao</name>
+    </author>
+    <author>
+      <name>Shiqing Ma</name>
+    </author>
+    <author>
+      <name>Zhenyu Chen</name>
+    </author>
+  </entry>
+</feed>

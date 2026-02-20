@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t8u3aI+x+pIfricLdOIGMUnAPpA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14262v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14262v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14262v1</id>
+    <title>ABI: A tightly integrated, unified, sparsity-aware, reconfigurable, compute near-register file/cache GPU architecture with light-weight softmax for deep learning, linear algebra, and Ising compute</title>
+    <updated>2026-02-15T18:19:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.14262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a tightly integrated and unified near-memory GPU architecture that delivers 6 to 16 times speedup and 6 to 13 times energy savings across Convolutional Neural Networks, Graph Convolutional Networks, Linear Programming, Large Language Models, and Ising workloads compared to MIAOW GPU. The design includes a custom sparsity-aware near-memory circuit providing about 1.5 times energy savings, and a lightweight softmax circuit providing about 1.6 times energy savings. The architecture supports reconfigurable compute up to INT16 with dynamic resolution updates and scales efficiently across problem sizes. ABI-enabled MI300 and Blackwell systems achieve about 4.5 times speedup over baseline MI300 and Blackwell.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T18:19:06Z</published>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Siddhartha Raman Sundara Raman</name>
+    </author>
+    <author>
+      <name>Jaydeep P. Kulkarni</name>
+    </author>
+  </entry>
+</feed>

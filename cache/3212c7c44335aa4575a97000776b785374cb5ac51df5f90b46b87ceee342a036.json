@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/a2nQrBsZBOp/aLPwW3g0hZybLak</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14307v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14307v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14307v1</id>
+    <title>Benchmarking at the Edge of Comprehension</title>
+    <updated>2026-02-15T20:51:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.14307v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14307v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As frontier Large Language Models (LLMs) increasingly saturate new benchmarks shortly after they are published, benchmarking itself is at a juncture: if frontier models keep improving, it will become increasingly hard for humans to generate discriminative tasks, provide accurate ground-truth answers, or evaluate complex solutions. If benchmarking becomes infeasible, our ability to measure any progress in AI is at stake. We refer to this scenario as the post-comprehension regime. In this work, we propose Critique-Resilient Benchmarking, an adversarial framework designed to compare models even when full human understanding is infeasible. Our technique relies on the notion of critique-resilient correctness: an answer is deemed correct if no adversary has convincingly proved otherwise. Unlike standard benchmarking, humans serve as bounded verifiers and focus on localized claims, which preserves evaluation integrity beyond full comprehension of the task. Using an itemized bipartite Bradley-Terry model, we jointly rank LLMs by their ability to solve challenging tasks and to generate difficult yet solvable questions. We showcase the effectiveness of our method in the mathematical domain across eight frontier LLMs, showing that the resulting scores are stable and correlate with external capability measures. Our framework reformulates benchmarking as an adversarial generation-evaluation game in which humans serve as final adjudicators.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T20:51:29Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Samuele Marro</name>
+    </author>
+    <author>
+      <name>Jialin Yu</name>
+    </author>
+    <author>
+      <name>Emanuele La Malfa</name>
+    </author>
+    <author>
+      <name>Oishi Deb</name>
+    </author>
+    <author>
+      <name>Jiawei Li</name>
+    </author>
+    <author>
+      <name>Yibo Yang</name>
+    </author>
+    <author>
+      <name>Ebey Abraham</name>
+    </author>
+    <author>
+      <name>Sunando Sengupta</name>
+    </author>
+    <author>
+      <name>Eric Sommerlade</name>
+    </author>
+    <author>
+      <name>Michael Wooldridge</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3+N/7qtTchovclFoz0jbPs8KVmk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.04455v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.04455v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04455v4</id>
+    <title>Fortify the Shortest Stave in Attention: Enhancing Context Awareness of Large Language Models for Effective Tool Use</title>
+    <updated>2024-06-04T07:33:12Z</updated>
+    <link href="https://arxiv.org/abs/2312.04455v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04455v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we demonstrate that an inherent waveform pattern in the attention allocation of large language models (LLMs) significantly affects their performance in tasks demanding a high degree of context awareness, such as utilizing LLMs for tool-use. Specifically, the crucial information in the context will be potentially overlooked by model when it is positioned in the trough zone of the attention waveform, leading to decreased performance. To address this issue, we propose a novel inference method named Attention Buckets. It allows LLMs to process their input through multiple parallel processes. Each process utilizes a distinct base angle for the rotary position embedding, thereby creating a unique attention waveform. By compensating an attention trough of a particular process with an attention peak of another process, our approach enhances LLM's awareness to various contextual positions, thus mitigating the risk of overlooking crucial information. In the largest tool-use benchmark, our method elevates a 7B model to achieve state-of-the-art performance, comparable to that of GPT-4. On other benchmarks and some RAG tasks, which also demand a thorough understanding of contextual content, Attention Buckets also exhibited notable enhancements in performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T17:24:51Z</published>
+    <arxiv:comment>ACL 2024 main</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuhan Chen</name>
+    </author>
+    <author>
+      <name>Ang Lv</name>
+    </author>
+    <author>
+      <name>Ting-En Lin</name>
+    </author>
+    <author>
+      <name>Changyu Chen</name>
+    </author>
+    <author>
+      <name>Yuchuan Wu</name>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+    </author>
+    <author>
+      <name>Yongbin Li</name>
+    </author>
+    <author>
+      <name>Rui Yan</name>
+    </author>
+  </entry>
+</feed>

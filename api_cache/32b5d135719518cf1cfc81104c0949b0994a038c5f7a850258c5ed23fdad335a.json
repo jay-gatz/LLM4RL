@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T4t83UzBbY4aMYoY2/fhMDrFgK0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10986v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10986v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10986v1</id>
+    <title>TVCACHE: A Stateful Tool-Value Cache for Post-Training LLM Agents</title>
+    <updated>2026-02-11T16:13:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.10986v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10986v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In RL post-training of LLM agents, calls to external tools take several seconds or even minutes, leaving allocated GPUs idle and inflating post-training time and cost. While many tool invocations repeat across parallel rollouts and could in principle be cached, naively caching their outputs for reuse is incorrect since tool outputs depend on the environment state induced by prior agent interactions. We present TVCACHE, a stateful tool-value cache for LLM agent post-training. TVCACHE maintains a tree of observed tool-call sequences and performs longest-prefix matching for cache lookups: a hit occurs only when the agent's full tool history matches a previously executed sequence, guaranteeing identical environment state. On three diverse workloads-terminal-based tasks, SQL generation, and video understanding. TVCACHE achieves cache hit rates of up to 70% and reduces median tool call execution time by up to 6.9X, with no degradation in post-training reward accumulation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T16:13:44Z</published>
+    <arxiv:comment>Abhishek Vijaya Kumar and Bhaskar Kataria have equal contribution</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abhishek Vijaya Kumar</name>
+    </author>
+    <author>
+      <name>Bhaskar Kataria</name>
+    </author>
+    <author>
+      <name>Byungsoo Oh</name>
+    </author>
+    <author>
+      <name>Emaad Manzoor</name>
+    </author>
+    <author>
+      <name>Rachee Singh</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xp/Zby0+2mtmU8ZsmjBqLG12NOI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05933v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05933v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05933v1</id>
+    <title>Approximation of Log-Partition Function in Policy Mirror Descent Induces Implicit Regularization for LLM Post-Training</title>
+    <updated>2026-02-05T17:44:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.05933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Policy mirror descent (PMD) provides a principled framework for reinforcement learning (RL) by iteratively solving KL-regularized policy improvement subproblems. While this approach has been adopted in training advanced LLMs such as Kimi K1.5/K2, the ideal closed-form PMD updates require reliable partition function estimation, a significant challenge when working with limited rollouts in the vast action spaces of LLMs. We investigate a practical algorithm, termed PMD-mean, that approximates the log-partition term with the mean reward under the sampling policy and performs regression in log-policy space. Specifically, we characterize the population solution of PMD-mean and demonstrate that it implicitly optimizes mirror descent subproblems with an adaptive mixed KL--$χ^2$ regularizer. This additional $χ^2$ regularization constrains large probability changes, producing more conservative updates when expected rewards are low and enhancing robustness against finite-sample estimation errors. Experiments on math reasoning tasks show that PMD-mean achieves superior performance with improved stability and time efficiency. These findings deepen our understanding of PMD-mean and illuminate pathways toward principled improvements in RL algorithms for LLMs. Code is available at https://github.com/horizon-rl/OpenKimi.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T17:44:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhenghao Xu</name>
+    </author>
+    <author>
+      <name>Qin Lu</name>
+    </author>
+    <author>
+      <name>Changlong Yu</name>
+    </author>
+    <author>
+      <name>Tuo Zhao</name>
+    </author>
+  </entry>
+</feed>

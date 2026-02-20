@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OT6pP1Z+stAuE002Fyptwdr6gpc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11715v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11715v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11715v1</id>
+    <title>DICE: Diffusion Large Language Models Excel at Generating CUDA Kernels</title>
+    <updated>2026-02-12T08:45:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.11715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion large language models (dLLMs) have emerged as a compelling alternative to autoregressive (AR) LLMs, owing to their capacity for parallel token generation. This paradigm is particularly well-suited for code generation, where holistic structural planning and non-sequential refinement are critical. Despite this potential, tailoring dLLMs for CUDA kernel generation remains challenging, obstructed not only by the high specialization but also by the severe lack of high-quality training data. To address these challenges, we construct CuKe, an augmented supervised fine-tuning dataset optimized for high-performance CUDA kernels. On top of it, we propose a bi-phase curated reinforcement learning (BiC-RL) framework consisting of a CUDA kernel infilling stage and an end-to-end CUDA kernel generation stage. Leveraging this training framework, we introduce DICE, a series of diffusion large language models designed for CUDA kernel generation, spanning three parameter scales, 1.7B, 4B, and 8B. Extensive experiments on KernelBench demonstrate that DICE significantly outperforms both autoregressive and diffusion LLMs of comparable scale, establishing a new state-of-the-art for CUDA kernel generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T08:45:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haolei Bai</name>
+    </author>
+    <author>
+      <name>Lingcheng Kong</name>
+    </author>
+    <author>
+      <name>Xueyi Chen</name>
+    </author>
+    <author>
+      <name>Jianmian Wang</name>
+    </author>
+    <author>
+      <name>Zhiqiang Tao</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3MN5YRoqgv6XjiQ+LHYhy/fJ0VI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.14324&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.14324" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.14324v1</id>
+    <title>Evaluating the Moral Beliefs Encoded in LLMs</title>
+    <updated>2023-07-26T17:42:43Z</updated>
+    <link href="https://arxiv.org/abs/2307.14324v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.14324v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM "making a choice", the associated uncertainty, and the consistency of that choice. (2) We apply this method to study what moral beliefs are encoded in different LLMs, especially in ambiguous cases where the right choice is not obvious. We design a large-scale survey comprising 680 high-ambiguity moral scenarios (e.g., "Should I tell a white lie?") and 687 low-ambiguity moral scenarios (e.g., "Should I stop for a pedestrian on the road?"). Each scenario includes a description, two possible actions, and auxiliary labels indicating violated rules (e.g., "do not kill"). We administer the survey to 28 open- and closed-source LLMs. We find that (a) in unambiguous scenarios, most models "choose" actions that align with commonsense. In ambiguous cases, most models express uncertainty. (b) Some models are uncertain about choosing the commonsense action because their responses are sensitive to the question-wording. (c) Some models reflect clear preferences in ambiguous scenarios. Specifically, closed-source models tend to agree with each other.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-26T17:42:43Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nino Scherrer</name>
+    </author>
+    <author>
+      <name>Claudia Shi</name>
+    </author>
+    <author>
+      <name>Amir Feder</name>
+    </author>
+    <author>
+      <name>David M. Blei</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A8s0GVKMk96qLi6xmvbHirkxX8I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00169v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00169v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00169v2</id>
+    <title>Towards Agentic Intelligence for Materials Science</title>
+    <updated>2026-02-06T14:57:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.00169v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00169v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The convergence of artificial intelligence and materials science presents a transformative opportunity, but achieving true acceleration in discovery requires moving beyond task-isolated, fine-tuned models toward agentic systems that plan, act, and learn across the full discovery loop. This survey advances a unique pipeline-centric view that spans from corpus curation and pretraining, through domain adaptation and instruction tuning, to goal-conditioned agents interfacing with simulation and experimental platforms. Unlike prior reviews, we treat the entire process as an end-to-end system to be optimized for tangible discovery outcomes rather than proxy benchmarks. This perspective allows us to trace how upstream design choices-such as data curation and training objectives-can be aligned with downstream experimental success through effective credit assignment.
+  To bridge communities and establish a shared frame of reference, we first present an integrated lens that aligns terminology, evaluation, and workflow stages across AI and materials science. We then analyze the field through two focused lenses: From the AI perspective, the survey details LLM strengths in pattern recognition, predictive analytics, and natural language processing for literature mining, materials characterization, and property prediction; from the materials science perspective, it highlights applications in materials design, process optimization, and the acceleration of computational workflows via integration with external tools (e.g., DFT, robotic labs). Finally, we contrast passive, reactive approaches with agentic design, cataloging current contributions while motivating systems that pursue long-horizon goals with autonomy, memory, and tool use. This survey charts a practical roadmap towards autonomous, safety-aware LLM agents aimed at discovering novel and useful materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T23:48:43Z</published>
+    <arxiv:comment>81 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Huan Zhang</name>
+    </author>
+    <author>
+      <name>Yizhan Li</name>
+    </author>
+    <author>
+      <name>Wenhao Huang</name>
+    </author>
+    <author>
+      <name>Ziyu Hou</name>
+    </author>
+    <author>
+      <name>Yu Song</name>
+    </author>
+    <author>
+      <name>Xuye Liu</name>
+    </author>
+    <author>
+      <name>Farshid Effaty</name>
+    </author>
+    <author>
+      <name>Jinya Jiang</name>
+    </author>
+    <author>
+      <name>Sifan Wu</name>
+    </author>
+    <author>
+      <name>Qianggang Ding</name>
+    </author>
+    <author>
+      <name>Izumi Takahara</name>
+    </author>
+    <author>
+      <name>Leonard R. MacGillivray</name>
+    </author>
+    <author>
+      <name>Teruyasu Mizoguchi</name>
+    </author>
+    <author>
+      <name>Tianshu Yu</name>
+    </author>
+    <author>
+      <name>Lizi Liao</name>
+    </author>
+    <author>
+      <name>Yuyu Luo</name>
+    </author>
+    <author>
+      <name>Yu Rong</name>
+    </author>
+    <author>
+      <name>Jia Li</name>
+    </author>
+    <author>
+      <name>Ying Diao</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Bang Liu</name>
+    </author>
+  </entry>
+</feed>

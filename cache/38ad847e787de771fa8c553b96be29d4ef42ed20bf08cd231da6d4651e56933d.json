@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CMNFVATBrMmzvxKuF4mRzeM7Tho</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15173v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15173v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15173v1</id>
+    <title>Mind the (DH) Gap! A Contrast in Risky Choices Between Reasoning and Conversational LLMs</title>
+    <updated>2026-02-16T20:24:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.15173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of large language models either as decision support systems, or in agentic workflows, is rapidly transforming the digital ecosystem. However, the understanding of LLM decision-making under uncertainty remains limited. We initiate a comparative study of LLM risky choices along two dimensions: (1) prospect representation (explicit vs. experience based) and (2) decision rationale (explanation). Our study, which involves 20 frontier and open LLMs, is complemented by a matched human subjects experiment, which provides one reference point, while an expected payoff maximizing rational agent model provides another. We find that LLMs cluster into two categories: reasoning models (RMs) and conversational models (CMs). RMs tend towards rational behavior, are insensitive to the order of prospects, gain/loss framing, and explanations, and behave similarly whether prospects are explicit or presented via experience history. CMs are significantly less rational, slightly more human-like, sensitive to prospect ordering, framing, and explanation, and exhibit a large description-history gap. Paired comparisons of open LLMs suggest that a key factor differentiating RMs and CMs is training for mathematical reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T20:24:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Luise Ge</name>
+    </author>
+    <author>
+      <name>Yongyan Zhang</name>
+    </author>
+    <author>
+      <name>Yevgeniy Vorobeychik</name>
+    </author>
+  </entry>
+</feed>

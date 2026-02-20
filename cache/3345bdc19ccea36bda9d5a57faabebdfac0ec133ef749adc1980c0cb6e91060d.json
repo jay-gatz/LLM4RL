@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/la6+O9z053L6OHUYCmITnkg8P0A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01875v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01875v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01875v1</id>
+    <title>PretrainRL: Alleviating Factuality Hallucination of Large Language Models at the Beginning</title>
+    <updated>2026-02-02T09:46:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.01875v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01875v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs), despite their powerful capabilities, suffer from factual hallucinations where they generate verifiable falsehoods. We identify a root of this issue: the imbalanced data distribution in the pretraining corpus, which leads to a state of "low-probability truth" and "high-probability falsehood". Recent approaches, such as teaching models to say "I don't know" or post-hoc knowledge editing, either evade the problem or face catastrophic forgetting. To address this issue from its root, we propose \textbf{PretrainRL}, a novel framework that integrates reinforcement learning into the pretraining phase to consolidate factual knowledge. The core principle of PretrainRL is "\textbf{debiasing then learning}." It actively reshapes the model's probability distribution by down-weighting high-probability falsehoods, thereby making "room" for low-probability truths to be learned effectively. To enable this, we design an efficient negative sampling strategy to discover these high-probability falsehoods and introduce novel metrics to evaluate the model's probabilistic state concerning factual knowledge. Extensive experiments on three public benchmarks demonstrate that PretrainRL significantly alleviates factual hallucinations and outperforms state-of-the-art methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T09:46:05Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Langming Liu</name>
+    </author>
+    <author>
+      <name>Kangtao Lv</name>
+    </author>
+    <author>
+      <name>Haibin Chen</name>
+    </author>
+    <author>
+      <name>Weidong Zhang</name>
+    </author>
+    <author>
+      <name>Yejing Wang</name>
+    </author>
+    <author>
+      <name>Shilei Liu</name>
+    </author>
+    <author>
+      <name>Xin Tong</name>
+    </author>
+    <author>
+      <name>Yujin Yuan</name>
+    </author>
+    <author>
+      <name>Yongwei Wang</name>
+    </author>
+    <author>
+      <name>Wenbo Su</name>
+    </author>
+    <author>
+      <name>Bo Zheng</name>
+    </author>
+  </entry>
+</feed>

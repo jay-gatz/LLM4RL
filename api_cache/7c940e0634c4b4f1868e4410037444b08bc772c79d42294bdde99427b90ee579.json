@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/07+wfVHpYxpwxHx8/Zi9h5ryjAo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09225v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09225v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09225v1</id>
+    <title>Barycentric alignment for instance-level comparison of neural representations</title>
+    <updated>2026-02-09T21:49:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.09225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Comparing representations across neural networks is challenging because representations admit symmetries, such as arbitrary reordering of units or rotations of activation space, that obscure underlying equivalence between models. We introduce a barycentric alignment framework that quotients out these nuisance symmetries to construct a universal embedding space across many models. Unlike existing similarity measures, which summarize relationships over entire stimulus sets, this framework enables similarity to be defined at the level of individual stimuli, revealing inputs that elicit convergent versus divergent representations across models. Using this instance-level notion of similarity, we identify systematic input properties that predict representational convergence versus divergence across vision and language model families. We also construct universal embedding spaces for brain representations across individuals and cortical regions, enabling instance-level comparison of representational agreement across stages of the human visual hierarchy. Finally, we apply the same barycentric alignment framework to purely unimodal vision and language models and find that post-hoc alignment into a shared space yields image text similarity scores that closely track human cross-modal judgments and approach the performance of contrastively trained vision-language models. This strikingly suggests that independently learned representations already share sufficient geometric structure for human-aligned cross-modal comparison. Together, these results show that resolving representational similarity at the level of individual stimuli reveals phenomena that cannot be detected by set-level comparison metrics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T21:49:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shreya Saha</name>
+    </author>
+    <author>
+      <name>Zoe Wanying He</name>
+    </author>
+    <author>
+      <name>Meenakshi Khosla</name>
+    </author>
+  </entry>
+</feed>

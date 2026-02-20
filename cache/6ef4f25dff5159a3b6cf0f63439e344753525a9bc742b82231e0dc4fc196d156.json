@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CXd8M/aUMFI9/y/Ied7YzxnRHIs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.14460v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.14460v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14460v1</id>
+    <title>Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning</title>
+    <updated>2025-11-18T13:03:15Z</updated>
+    <link href="https://arxiv.org/abs/2511.14460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly being explored for building Agents capable of active environmental interaction (e.g., via tool use) to solve complex problems. Reinforcement Learning (RL) is considered a key technology with significant potential for training such Agents; however, the effective application of RL to LLM Agents is still in its nascent stages and faces considerable challenges. Currently, this emerging field lacks in-depth exploration into RL approaches specifically tailored for the LLM Agent context, alongside a scarcity of flexible and easily extensible training frameworks designed for this purpose. To help advance this area, this paper first revisits and clarifies Reinforcement Learning methodologies for LLM Agents by systematically extending the Markov Decision Process (MDP) framework to comprehensively define the key components of an LLM Agent. Secondly, we introduce Agent-R1, a modular, flexible, and user-friendly training framework for RL-based LLM Agents, designed for straightforward adaptation across diverse task scenarios and interactive environments. We conducted experiments on Multihop QA benchmark tasks, providing initial validation for the effectiveness of our proposed methods and framework.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T13:03:15Z</published>
+    <arxiv:comment>This paper serves as the technical report of the Agent-R1 project</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mingyue Cheng</name>
+    </author>
+    <author>
+      <name>Jie Ouyang</name>
+    </author>
+    <author>
+      <name>Shuo Yu</name>
+    </author>
+    <author>
+      <name>Ruiran Yan</name>
+    </author>
+    <author>
+      <name>Yucong Luo</name>
+    </author>
+    <author>
+      <name>Zirui Liu</name>
+    </author>
+    <author>
+      <name>Daoyu Wang</name>
+    </author>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+  </entry>
+</feed>

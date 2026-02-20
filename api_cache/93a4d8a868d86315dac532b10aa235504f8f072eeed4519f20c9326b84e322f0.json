@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ELuk6ya5gAnhrIvpdpa5HwsnRTE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.14476&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.14476" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14476v2</id>
+    <title>DAPO: An Open-Source LLM Reinforcement Learning System at Scale</title>
+    <updated>2025-05-20T01:37:34Z</updated>
+    <link href="https://arxiv.org/abs/2503.14476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inference scaling empowers LLMs with unprecedented reasoning ability, with reinforcement learning as the core technique to elicit complex reasoning. However, key technical details of state-of-the-art reasoning LLMs are concealed (such as in OpenAI o1 blog and DeepSeek R1 technical report), thus the community still struggles to reproduce their RL training results. We propose the $\textbf{D}$ecoupled Clip and $\textbf{D}$ynamic s$\textbf{A}$mpling $\textbf{P}$olicy $\textbf{O}$ptimization ($\textbf{DAPO}$) algorithm, and fully open-source a state-of-the-art large-scale RL system that achieves 50 points on AIME 2024 using Qwen2.5-32B base model. Unlike previous works that withhold training details, we introduce four key techniques of our algorithm that make large-scale LLM RL a success. In addition, we open-source our training code, which is built on the verl framework, along with a carefully curated and processed dataset. These components of our open-source system enhance reproducibility and support future research in large-scale LLM RL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T17:49:06Z</published>
+    <arxiv:comment>Project Page: https://dapo-sia.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qiying Yu</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <author>
+      <name>Ruofei Zhu</name>
+    </author>
+    <author>
+      <name>Yufeng Yuan</name>
+    </author>
+    <author>
+      <name>Xiaochen Zuo</name>
+    </author>
+    <author>
+      <name>Yu Yue</name>
+    </author>
+    <author>
+      <name>Weinan Dai</name>
+    </author>
+    <author>
+      <name>Tiantian Fan</name>
+    </author>
+    <author>
+      <name>Gaohong Liu</name>
+    </author>
+    <author>
+      <name>Lingjun Liu</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Haibin Lin</name>
+    </author>
+    <author>
+      <name>Zhiqi Lin</name>
+    </author>
+    <author>
+      <name>Bole Ma</name>
+    </author>
+    <author>
+      <name>Guangming Sheng</name>
+    </author>
+    <author>
+      <name>Yuxuan Tong</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Mofan Zhang</name>
+    </author>
+    <author>
+      <name>Wang Zhang</name>
+    </author>
+    <author>
+      <name>Hang Zhu</name>
+    </author>
+    <author>
+      <name>Jinhua Zhu</name>
+    </author>
+    <author>
+      <name>Jiaze Chen</name>
+    </author>
+    <author>
+      <name>Jiangjie Chen</name>
+    </author>
+    <author>
+      <name>Chengyi Wang</name>
+    </author>
+    <author>
+      <name>Hongli Yu</name>
+    </author>
+    <author>
+      <name>Yuxuan Song</name>
+    </author>
+    <author>
+      <name>Xiangpeng Wei</name>
+    </author>
+    <author>
+      <name>Hao Zhou</name>
+    </author>
+    <author>
+      <name>Jingjing Liu</name>
+    </author>
+    <author>
+      <name>Wei-Ying Ma</name>
+    </author>
+    <author>
+      <name>Ya-Qin Zhang</name>
+    </author>
+    <author>
+      <name>Lin Yan</name>
+    </author>
+    <author>
+      <name>Mu Qiao</name>
+    </author>
+    <author>
+      <name>Yonghui Wu</name>
+    </author>
+    <author>
+      <name>Mingxuan Wang</name>
+    </author>
+  </entry>
+</feed>

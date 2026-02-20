@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rw7K1SMepn4FodJZoyK2dYmSfS4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.19598v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.19598v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.19598v1</id>
+    <title>Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning</title>
+    <updated>2025-08-27T06:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2508.19598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.19598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The functionality of Large Language Model (LLM) agents is primarily determined by two capabilities: action planning and answer summarization. The former, action planning, is the core capability that dictates an agent's performance. However, prevailing training paradigms employ end-to-end, multi-objective optimization that jointly trains both capabilities. This paradigm faces two critical challenges: imbalanced optimization objective allocation and scarcity of verifiable data, making it difficult to enhance the agent's planning capability. To address these challenges, we propose Reinforcement Learning with Tool-use Rewards (RLTR), a novel framework that decouples the training process to enable a focused, single-objective optimization of the planning module. Crucially, RLTR introduces a reward signal based on tool-use completeness to directly evaluate the quality of tool invocation sequences. This method offers a more direct and reliable training signal than assessing the final response content, thereby obviating the need for verifiable data. Our experiments demonstrate that RLTR achieves an 8%-12% improvement in planning performance compared to end-to-end baselines. Moreover, this enhanced planning capability, in turn, translates to a 5%-6% increase in the final response quality of the overall agent system.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-27T06:19:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhiwei Li</name>
+    </author>
+    <author>
+      <name>Yong Hu</name>
+    </author>
+    <author>
+      <name>Wenqing Wang</name>
+    </author>
+  </entry>
+</feed>

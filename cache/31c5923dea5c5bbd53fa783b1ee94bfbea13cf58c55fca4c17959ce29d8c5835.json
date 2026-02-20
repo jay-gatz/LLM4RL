@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/azr1xJaoFypLCemy6xumEsqsMrs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.22931v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.22931v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.22931v2</id>
+    <title>Factored Agents: Decoupling In-Context Learning and Memorization for Robust Tool Use</title>
+    <updated>2025-04-02T04:53:06Z</updated>
+    <link href="https://arxiv.org/abs/2503.22931v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.22931v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a novel factored agent architecture designed to overcome the limitations of traditional single-agent systems in agentic AI. Our approach decomposes the agent into two specialized components: (1) a large language model (LLM) that serves as a high level planner and in-context learner, which may use dynamically available information in user prompts, (2) a smaller language model which acts as a memorizer of tool format and output. This decoupling addresses prevalent issues in monolithic designs, including malformed, missing, and hallucinated API fields, as well as suboptimal planning in dynamic environments. Empirical evaluations demonstrate that our factored architecture significantly improves planning accuracy and error resilience, while elucidating the inherent trade-off between in-context learning and static memorization. These findings suggest that a factored approach is a promising pathway for developing more robust and adaptable agentic AI systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-29T01:27:11Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nicholas Roth</name>
+    </author>
+    <author>
+      <name>Christopher Hidey</name>
+    </author>
+    <author>
+      <name>Lucas Spangher</name>
+    </author>
+    <author>
+      <name>William F. Arnold</name>
+    </author>
+    <author>
+      <name>Chang Ye</name>
+    </author>
+    <author>
+      <name>Nick Masiewicki</name>
+    </author>
+    <author>
+      <name>Jinoo Baek</name>
+    </author>
+    <author>
+      <name>Peter Grabowski</name>
+    </author>
+    <author>
+      <name>Eugene Ie</name>
+    </author>
+  </entry>
+</feed>

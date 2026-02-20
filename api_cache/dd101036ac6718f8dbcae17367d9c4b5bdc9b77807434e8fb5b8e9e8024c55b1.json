@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9Tjkz0fIM3QJpeADFRwpUMu39h4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.06980v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.06980v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06980v1</id>
+    <title>RLFactory: A Plug-and-Play Reinforcement Learning Post-Training Framework for LLM Multi-Turn Tool-Use</title>
+    <updated>2025-08-31T16:47:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.06980v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06980v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models excel at basic reasoning but struggle with tasks that require interaction with external tools. We present RLFactory, a plug-and-play reinforcement learning post-training framework for multi-round tool use. RLFactory tackles (i) tool-call stability and adaptability amid tool heterogeneity and interface issues via an asyncio-based asynchronous caller and a decoupled tool/training architecture, and (ii) diverse evaluation needs via a reward layer supporting rule-based, model-judgment, and tool-verification signals. It reconstructs the MDP by introducing observation markers from tool feedback, closing the loop among model, tools, and environment, and implements a generate-parse-invoke-update workflow for dynamic policy optimization. On Search-R1 with Qwen3-4B, RLFactory achieves a 0.486 test score on the Natural Questions (NQ) dataset, surpassing larger models trained with similar techniques (e.g., Qwen2.5-7B-Instruct-GRPO at 0.473), and increases training throughput by 6.8x. RLFactory provides a low-barrier, highly adaptable framework for strengthening multi-round tool use of LLMs in real-world scenarios. Code: https://github.com/Simple-Efficient/RL-Factory.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-31T16:47:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiajun Chai</name>
+    </author>
+    <author>
+      <name>Guojun Yin</name>
+    </author>
+    <author>
+      <name>Zekun Xu</name>
+    </author>
+    <author>
+      <name>Chuhuai Yue</name>
+    </author>
+    <author>
+      <name>Yi Jia</name>
+    </author>
+    <author>
+      <name>Siyu Xia</name>
+    </author>
+    <author>
+      <name>Xiaohan Wang</name>
+    </author>
+    <author>
+      <name>Jiwen Jiang</name>
+    </author>
+    <author>
+      <name>Xiaoguang Li</name>
+    </author>
+    <author>
+      <name>Chengqi Dong</name>
+    </author>
+    <author>
+      <name>Hang He</name>
+    </author>
+    <author>
+      <name>Wei Lin</name>
+    </author>
+  </entry>
+</feed>

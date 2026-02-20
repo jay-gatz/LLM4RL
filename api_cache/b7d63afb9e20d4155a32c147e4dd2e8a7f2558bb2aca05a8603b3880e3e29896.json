@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/roxbBQOXo/hf070ymga5GPJdgAo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.13167v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.13167v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.13167v1</id>
+    <title>Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL</title>
+    <updated>2025-08-06T17:01:02Z</updated>
+    <link href="https://arxiv.org/abs/2508.13167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.13167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) and multi-agent systems have demonstrated remarkable capabilities in complex problem-solving tasks such as deep research, vibe coding, and mathematical reasoning. However, most existing multi-agent systems are built upon manual prompt/workflow engineering with sophisticated agent frameworks, making them computationally inefficient, less capable, and can not benefit from data-centric learning. In this work, we introduce Chain-of-Agents (CoA), a novel paradigm of LLM reasoning that enables native end-to-end complex problem-solving in the same way as a multi-agent system (i.e., multi-turn problem solving with multiple tools and multiple agents) within one model. In chain-of-agents problem-solving, the model dynamically activates different tool agents and role-playing agents to simulate multi-agent collaboration in an end-to-end fashion. To elicit end-to-end chain-of-agents problem-solving abilities in LLMs, we introduce a multi-agent distillation framework to distill state-of-the-art multi-agent systems into chain-of-agents trajectories for agentic supervised fine-tuning. We then use agentic reinforcement learning on verifiable agentic tasks to further improve the models' capabilities on chain-of-agents problem solving. We call the resulting models Agent Foundation Models (AFMs). Our empirical studies demonstrate that AFM establishes new state-of-the-art performance across diverse benchmarks in both web agent and code agent settings. We make the entire research, including the model weights, code for training and evaluation, and the training data, fully open-sourced, which offers a solid starting point for future research on agent models and agentic RL.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-06T17:01:02Z</published>
+    <arxiv:comment>51 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Weizhen Li</name>
+    </author>
+    <author>
+      <name>Jianbo Lin</name>
+    </author>
+    <author>
+      <name>Zhuosong Jiang</name>
+    </author>
+    <author>
+      <name>Jingyi Cao</name>
+    </author>
+    <author>
+      <name>Xinpeng Liu</name>
+    </author>
+    <author>
+      <name>Jiayu Zhang</name>
+    </author>
+    <author>
+      <name>Zhenqiang Huang</name>
+    </author>
+    <author>
+      <name>Qianben Chen</name>
+    </author>
+    <author>
+      <name>Weichen Sun</name>
+    </author>
+    <author>
+      <name>Qiexiang Wang</name>
+    </author>
+    <author>
+      <name>Hongxuan Lu</name>
+    </author>
+    <author>
+      <name>Tianrui Qin</name>
+    </author>
+    <author>
+      <name>Chenghao Zhu</name>
+    </author>
+    <author>
+      <name>Yi Yao</name>
+    </author>
+    <author>
+      <name>Shuying Fan</name>
+    </author>
+    <author>
+      <name>Xiaowan Li</name>
+    </author>
+    <author>
+      <name>Tiannan Wang</name>
+    </author>
+    <author>
+      <name>Pai Liu</name>
+    </author>
+    <author>
+      <name>King Zhu</name>
+    </author>
+    <author>
+      <name>He Zhu</name>
+    </author>
+    <author>
+      <name>Dingfeng Shi</name>
+    </author>
+    <author>
+      <name>Piaohong Wang</name>
+    </author>
+    <author>
+      <name>Yeyi Guan</name>
+    </author>
+    <author>
+      <name>Xiangru Tang</name>
+    </author>
+    <author>
+      <name>Minghao Liu</name>
+    </author>
+    <author>
+      <name>Yuchen Eleanor Jiang</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Jiaheng Liu</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+  </entry>
+</feed>

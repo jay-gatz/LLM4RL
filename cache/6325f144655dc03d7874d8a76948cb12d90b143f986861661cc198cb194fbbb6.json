@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ooCqZbdq91MA7kEeM16IfxejAL8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04256v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04256v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04256v1</id>
+    <title>AppleVLM: End-to-end Autonomous Driving with Advanced Perception and Planning-Enhanced Vision-Language Models</title>
+    <updated>2026-02-04T06:37:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.04256v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04256v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>End-to-end autonomous driving has emerged as a promising paradigm integrating perception, decision-making, and control within a unified learning framework. Recently, Vision-Language Models (VLMs) have gained significant attention for their potential to enhance the robustness and generalization of end-to-end driving models in diverse and unseen scenarios. However, existing VLM-based approaches still face challenges, including suboptimal lane perception, language understanding biases, and difficulties in handling corner cases. To address these issues, we propose AppleVLM, an advanced perception and planning-enhanced VLM model for robust end-to-end driving. AppleVLM introduces a novel vision encoder and a planning strategy encoder to improve perception and decision-making. Firstly, the vision encoder fuses spatial-temporal information from multi-view images across multiple timesteps using a deformable transformer mechanism, enhancing robustness to camera variations and facilitating scalable deployment across different vehicle platforms. Secondly, unlike traditional VLM-based approaches, AppleVLM introduces a dedicated planning modality that encodes explicit Bird's-Eye-View spatial information, mitigating language biases in navigation instructions. Finally, a VLM decoder fine-tuned by a hierarchical Chain-of-Thought integrates vision, language, and planning features to output robust driving waypoints. We evaluate AppleVLM in closed-loop experiments on two CARLA benchmarks, achieving state-of-the-art driving performance. Furthermore, we deploy AppleVLM on an AGV platform and successfully showcase real-world end-to-end autonomous driving in complex outdoor environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T06:37:14Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuxuan Han</name>
+    </author>
+    <author>
+      <name>Kunyuan Wu</name>
+    </author>
+    <author>
+      <name>Qianyi Shao</name>
+    </author>
+    <author>
+      <name>Renxiang Xiao</name>
+    </author>
+    <author>
+      <name>Zilu Wang</name>
+    </author>
+    <author>
+      <name>Cansen Jiang</name>
+    </author>
+    <author>
+      <name>Yi Xiao</name>
+    </author>
+    <author>
+      <name>Liang Hu</name>
+    </author>
+    <author>
+      <name>Yunjiang Lou</name>
+    </author>
+  </entry>
+</feed>

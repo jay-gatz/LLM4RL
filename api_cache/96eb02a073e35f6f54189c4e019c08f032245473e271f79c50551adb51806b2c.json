@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6+zPk0Pu9vx3TKdI7lPAgSTgH1U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2412.14161&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2412.14161" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.14161v3</id>
+    <title>TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks</title>
+    <updated>2025-09-10T08:35:19Z</updated>
+    <link href="https://arxiv.org/abs/2412.14161v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.14161v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We interact with computers on an everyday basis, be it in everyday life or work, and many aspects of work can be done entirely with access to a computer and the Internet. At the same time, thanks to improvements in large language models (LLMs), there has also been a rapid development in AI agents that interact with and affect change in their surrounding environments. But how performant are AI agents at accelerating or even autonomously performing work-related tasks? The answer to this question has important implications both for industry looking to adopt AI into their workflows and for economic policy to understand the effects that adoption of AI may have on the labor market. To measure the progress of these LLM agents' performance on performing real-world professional tasks, in this paper we introduce TheAgentCompany, an extensible benchmark for evaluating AI agents that interact with the world in similar ways to those of a digital worker: by browsing the Web, writing code, running programs, and communicating with other coworkers. We build a self-contained environment with internal web sites and data that mimics a small software company environment, and create a variety of tasks that may be performed by workers in such a company. We test baseline agents powered by both closed API-based and open-weights language models (LMs), and find that the most competitive agent can complete 30% of tasks autonomously. This paints a nuanced picture on task automation with LM agents--in a setting simulating a real workplace, a good portion of simpler tasks could be solved autonomously, but more difficult long-horizon tasks are still beyond the reach of current systems. We release code, data, environment, and experiments on https://the-agent-company.com.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-18T18:55:40Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Frank F. Xu</name>
+    </author>
+    <author>
+      <name>Yufan Song</name>
+    </author>
+    <author>
+      <name>Boxuan Li</name>
+    </author>
+    <author>
+      <name>Yuxuan Tang</name>
+    </author>
+    <author>
+      <name>Kritanjali Jain</name>
+    </author>
+    <author>
+      <name>Mengxue Bao</name>
+    </author>
+    <author>
+      <name>Zora Z. Wang</name>
+    </author>
+    <author>
+      <name>Xuhui Zhou</name>
+    </author>
+    <author>
+      <name>Zhitong Guo</name>
+    </author>
+    <author>
+      <name>Murong Cao</name>
+    </author>
+    <author>
+      <name>Mingyang Yang</name>
+    </author>
+    <author>
+      <name>Hao Yang Lu</name>
+    </author>
+    <author>
+      <name>Amaad Martin</name>
+    </author>
+    <author>
+      <name>Zhe Su</name>
+    </author>
+    <author>
+      <name>Leander Maben</name>
+    </author>
+    <author>
+      <name>Raj Mehta</name>
+    </author>
+    <author>
+      <name>Wayne Chi</name>
+    </author>
+    <author>
+      <name>Lawrence Jang</name>
+    </author>
+    <author>
+      <name>Yiqing Xie</name>
+    </author>
+    <author>
+      <name>Shuyan Zhou</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+  </entry>
+</feed>

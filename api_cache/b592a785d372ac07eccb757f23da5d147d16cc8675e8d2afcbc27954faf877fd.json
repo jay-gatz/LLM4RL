@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wzTqSbE1OOKLJEScdk0TFO4XPlU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23041v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23041v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23041v1</id>
+    <title>One-shot Optimized Steering Vector for Hallucination Mitigation for VLMs</title>
+    <updated>2026-01-30T14:47:59Z</updated>
+    <link href="https://arxiv.org/abs/2601.23041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Models (VLMs) achieve strong performance on multimodal tasks but still suffer from hallucination and safety-related failures that persist even at scale. Steering offers a lightweight technique to improve model performance. However, steering, whether input-dependent or input-independent, achieves a meaningful trade-off between efficiency and effectiveness. In this work, we observe that steering vectors can generalize across inputs when tasks share aligned semantic intent. Based on this insight, we propose \textbf{OSGA} (\textbf{O}ne-shot \textbf{S}teering with \textbf{G}enerative \textbf{A}nchor), an input-independent framework that improves model performance with a single optimization instance. OSGA first selects an informative sample via a variance-based data selection strategy and learns a single steering vector with a contrastive objective with generative anchor regularization. The resulting vector can be universally applied at a certain layer during inference time without modifying model parameters. Experiments across multiple benchmarks show that a single OSGA-optimized steering vector consistently improves hallucination mitigation and safety enhancement with negligible overhead, highlighting one-shot steering as a practical and scalable solution for reliable VLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T14:47:59Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Youxu Shi</name>
+    </author>
+    <author>
+      <name>Suorong Yang</name>
+    </author>
+    <author>
+      <name>Dong Liu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HgTNB8CHz9JTMmh8KREWcUueHno</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.07648&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.07648" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.07648v2</id>
+    <title>Characterization of Large Language Model Development in the Datacenter</title>
+    <updated>2024-04-03T20:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2403.07648v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.07648v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have presented impressive performance across several transformative tasks. However, it is non-trivial to efficiently utilize large-scale cluster resources to develop LLMs, often riddled with numerous challenges such as frequent hardware failures, intricate parallelization strategies, and imbalanced resource utilization. In this paper, we present an in-depth characterization study of a six-month LLM development workload trace collected from our GPU datacenter Acme. Specifically, we investigate discrepancies between LLMs and prior task-specific Deep Learning (DL) workloads, explore resource utilization patterns, and identify the impact of various job failures. Our analysis summarizes hurdles we encountered and uncovers potential opportunities to optimize systems tailored for LLMs. Furthermore, we introduce our system efforts: (1) fault-tolerant pretraining, which enhances fault tolerance through LLM-involved failure diagnosis and automatic recovery. (2) decoupled scheduling for evaluation, which achieves timely performance feedback via trial decomposition and scheduling optimization.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-12T13:31:14Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Qinghao Hu</name>
+    </author>
+    <author>
+      <name>Zhisheng Ye</name>
+    </author>
+    <author>
+      <name>Zerui Wang</name>
+    </author>
+    <author>
+      <name>Guoteng Wang</name>
+    </author>
+    <author>
+      <name>Meng Zhang</name>
+    </author>
+    <author>
+      <name>Qiaoling Chen</name>
+    </author>
+    <author>
+      <name>Peng Sun</name>
+    </author>
+    <author>
+      <name>Dahua Lin</name>
+    </author>
+    <author>
+      <name>Xiaolin Wang</name>
+    </author>
+    <author>
+      <name>Yingwei Luo</name>
+    </author>
+    <author>
+      <name>Yonggang Wen</name>
+    </author>
+    <author>
+      <name>Tianwei Zhang</name>
+    </author>
+  </entry>
+</feed>

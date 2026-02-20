@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GQo/CiU+ieXfpZuTkcWAcfBEVRw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10556v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10556v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10556v2</id>
+    <title>LAP: Language-Action Pre-Training Enables Zero-shot Cross-Embodiment Transfer</title>
+    <updated>2026-02-15T15:32:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.10556v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10556v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A long-standing goal in robotics is a generalist policy that can be deployed zero-shot on new robot embodiments without per-embodiment adaptation. Despite large-scale multi-embodiment pre-training, existing Vision-Language-Action models (VLAs) remain tightly coupled to their training embodiments and typically require costly fine-tuning. We introduce Language-Action Pre-training (LAP), a simple recipe that represents low-level robot actions directly in natural language, aligning action supervision with the pre-trained vision-language model's input-output distribution. LAP requires no learned tokenizer, no costly annotation, and no embodiment-specific architectural design. Based on LAP, we present LAP-3B, which to the best of our knowledge is the first VLA to achieve substantial zero-shot transfer to previously unseen robot embodiments without any embodiment-specific fine-tuning. Across multiple novel robots and manipulation tasks, LAP-3B attains over 50% average zero-shot success, delivering roughly a 2x improvement over the strongest prior VLAs. We further show that LAP enables efficient adaptation and favorable scaling, while unifying action prediction and VQA in a shared language-action format that yields additional gains through co-training.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T06:09:11Z</published>
+    <arxiv:comment>Project website: https://lap-vla.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Lihan Zha</name>
+    </author>
+    <author>
+      <name>Asher J. Hancock</name>
+    </author>
+    <author>
+      <name>Mingtong Zhang</name>
+    </author>
+    <author>
+      <name>Tenny Yin</name>
+    </author>
+    <author>
+      <name>Yixuan Huang</name>
+    </author>
+    <author>
+      <name>Dhruv Shah</name>
+    </author>
+    <author>
+      <name>Allen Z. Ren</name>
+    </author>
+    <author>
+      <name>Anirudha Majumdar</name>
+    </author>
+  </entry>
+</feed>

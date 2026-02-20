@@ -1,0 +1,1576 @@
+                                         IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                            1
+
+
+
+
+                                             Survey on Large Language Model-Enhanced
+                                           Reinforcement Learning: Concept, Taxonomy, and
+                                                              Methods
+                                             Yuji Cao, Huan Zhao, Member, IEEE, Yuheng Cheng, Student Member, IEEE, Ting Shu, Yue Chen,
+                                         Member, IEEE, Guolong Liu, Member, IEEE, Gaoqi Liang, Member, IEEE, Junhua Zhao, Senior Member, IEEE,
+                                                                        Jinyue Yan, Yun Li, Fellow, IEEE
+arXiv:2404.00282v3 [cs.LG] 30 Oct 2024
+
+
+
+
+                                            Abstract—With extensive pre-trained knowledge and high-level
+                                         general capabilities, large language models (LLMs) emerge as a
+                                         promising avenue to augment reinforcement learning (RL) in as-
+                                                                                                                       R      EINFORCEMENT learning (RL) is a powerful learning
+                                                                                                                              paradigm that focuses on control and decision-making,
+                                                                                                                       where an agent learns to optimize a specified target through
+                                         pects such as multi-task learning, sample efficiency, and high-level
+                                         task planning. In this survey, we provide a comprehensive review              trial and error interactions with the environment. Traditional
+                                         of the existing literature in LLM-enhanced RL and summarize                   RL methods, however, often struggled with high-dimensional
+                                         its characteristics compared to conventional RL methods, aiming               state spaces and complex environments [1]. The integration
+                                         to clarify the research scope and directions for future studies.              of deep learning techniques with RL, known as deep RL, has
+                                         Utilizing the classical agent-environment interaction paradigm,               led to significant breakthroughs. In 2015, Deep Q-Networks
+                                         we propose a structured taxonomy to systematically categorize
+                                         LLMs’ functionalities in RL, including four roles: information                (DQN) [2] marked a turning point, demonstrating human-level
+                                         processor, reward designer, decision-maker, and generator. For                performance on Atari games using raw pixel inputs. Subse-
+                                         each role, we summarize the methodologies, analyze the specific               quent innovations such as proximal policy optimization [3]
+                                         RL challenges that are mitigated, and provide insights into future            and soft actor-critic [4] have further expanded the capabilities
+                                         directions. Lastly, comparative analysis of each role, potential              of deep RL. In different realms, deep RL algorithms have
+                                         applications, prospective opportunities and challenges of the
+                                         LLM-enhanced RL are discussed. By proposing this taxonomy, we                 achieved promising performance, such as real-time strategy
+                                         aim to provide a framework for researchers to effectively leverage            games [5], [6], board games [7], [8], energy management [9]
+                                         LLMs in the RL field, potentially accelerating RL applications in             and imperfect information games [10], [11]. Concurrent ad-
+                                         complex applications such as robotics, autonomous driving, and                vancements in natural language processing (NLP) and com-
+                                         energy systems.                                                               puter vision (CV) [12], [13], have fostered new RL paradigms,
+                                           Index Terms—Reinforcement learning (RL), large language                     such as language-conditional RL [14], which uses natural
+                                         models (LLM), vision-language models (VLM), multimodal RL,                    language to instruct agents, and vision-based RL [15], where
+                                         LLM-enhanced RL.                                                              agents learn from high-dimensional visual inputs.
+                                                                                                                          The integration of language and vision capabilities into deep
+                                                                  I. I NTRODUCTION                                     RL has introduced new challenges, as the agent has to learn
+                                                                                                                       the high-dimensional features and a control policy jointly. To
+                                                                                                                       reduce the burden of visual feature learning, reference [16] de-
+                                            Corresponding author: Huan Zhao, Junhua Zhao.                              coupled representation learning from RL. To handle language-
+                                            Yuji Cao and Yue Chen are with the Department of Mechan-                   involved tasks, a survey [17] called for potential uses of NLP
+                                         ical and Automation Engineering, The Chinese University of Hong
+                                         Kong, Hong Kong SAR, 999077, China (email: yjcao@mae.cuhk.edu.hk,             techniques in RL. Nevertheless, the capabilities of language
+                                         yuechen@mae.cuhk.edu.hk)                                                      models were limited at that time and the following four chal-
+                                            Huan Zhao and Jinyue Yan are with the Department of Building En-           lenges still have not been addressed: 1) Sample inefficiency:
+                                         vironment and Energy Engineering, The Hong Kong Polytechnic Univer-
+                                         sity, Hong Kong, 100872, China (email: huan-paul.zhao@polyu.edu.hk, j-        Language and vision tasks involve large, complex state-action
+                                         jerry.yan@polyu.edu.hk)                                                       spaces, making it challenging for RL agents to learn effective
+                                            Yuheng Cheng, Guolong Liu, and Junhua Zhao are with the School of          policies. Moreover, agents must understand tasks and connect
+                                         Science and Engineering, The Chinese University of Hong Kong, Shenzhen,
+                                         518172, China, and also with the Center for Crowd Intelligence, Shen-         them to corresponding states, necessitating even more exten-
+                                         zhen Institute of Artificial Intelligence and Robotics for Society (AIRS),    sive interactions [18], [19], [20]. 2) Reward function design: In
+                                         Shenzhen, 518129, China (email: yuhengcheng@link.cuhk.edu.cn, liuguo-         language and vision tasks, designing effective reward functions
+                                         long@cuhk.edu.cn, zhaojunhua@cuhk.edu.cn)
+                                            Ting Shu is with Guangdong-Hongkong-Macao Greater Bay Area Weather         is particularly challenging. These functions must capture subtle
+                                         Research Center for Monitoring Warning and Forecasting (Shenzhen In-          linguistic nuances and complex visual features, significantly
+                                         stitute of Meteorological Innovation), Shenzhen, 518125, China. (email:       increasing the complexity of an already difficult process.
+                                         shuting@gbamwf.com)
+                                            Gaoqi Liang is with the School of Mechanical Engineering and Automation,   Moreover, aligning rewards with high-level task objectives in
+                                         Harbin Institute of Technology, Shenzhen, 518055, China (e-mail: liang-       these domains often requires domain expertise and extensive
+                                         gaoqi@hit.edu.cn)                                                             trial-and-error [21], [22], [1], [23]. 3) Generalization: RL
+                                            Yun Li is with the Shenzhen Institute for Advanced Study, University of
+                                         Electronic Science and Technology of China, Shenzhen, 518110, China, and      agents often overfit to training data, especially in vision-based
+                                         also with i4AI Ltd., WC1N 3AX London, U.K (email: Yun.Li@ieee.org)            environments, leading to poor performance when deployed in
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                 2
+
+
+
+states with interventions (e.g., added noise). Agents must learn   such integration. Our survey paper seeks to fill these gaps by
+invariant features robust to such interventions, enabling gen-     providing an extensive review of the related literature, defining
+eralization across varied linguistic contexts and visual scenes.   the scope of the novel paradigm called LLM-enhanced RL, and
+However, the complexity of these domains makes extracting          further proposing a taxonomy to categorize the functionalities
+such features and adapting to new environments particularly        of LLMs in the proposed paradigm.
+challenging [24], [25]. 4) Natural language understanding:
+deep RL faces difficulties in natural language processing and
+understanding scenarios, where the nuances and complexities        A. Contributions
+of human language present unique challenges that are not             This survey makes the following contributions:
+adequately addressed by current RL methodologies [26].
+                                                                     • LLM-enhanced RL paradigm: This paper presents the first
+   The field of NLP has undergone a revolutionary transfor-
+                                                                       comprehensive review in the emerging field of integrating
+mation since the introduction of the Transformer architecture
+                                                                       LLM into the RL paradigm. To clarify the research scope
+in 2017 [12]. This breakthrough paved the way for the devel-
+                                                                       and direction for future works, we define the term LLM-
+opment of Large Language Models (LLMs), with landmark
+                                                                       enhanced RL to encapsulate this class of methodologies,
+models such as BERT [27], GPT [28], and more recent itera-
+                                                                       summarize the characteristics and provide a correspond-
+tions such as GPT-3 [29] and PaLM [30] marking significant
+                                                                       ing framework that clearly illustrates 1) how to integrate
+milestones. The emergence of these LLMs has demonstrated
+                                                                       LLMs in classical agent-environment interaction and 2)
+powerful capabilities across various real-world applications,
+                                                                       the multifaceted enhancements that LLMs offer to the
+including medicine [31], chemical research [32], energy sys-
+                                                                       conventional RL paradigm.
+tem [33], [34], [35] and embodied control in robotics [36].
+                                                                     • Unified taxonomy: Further classifying the functionalities
+These models have not only advanced the field of NLP but
+                                                                       of LLMs in the LLM-enhanced RL paradigm, we propose
+also shown remarkable potential in tackling complex, multi-
+                                                                       a structured taxonomy to systematically categorize LLMs
+disciplinary challenges. Compared to small language models,
+                                                                       within the classical agent-environment paradigm, where
+LLMs have emergent capabilities that are not present in small
+                                                                       LLMs are classified as information processors, reward
+language models [37], such as in-context learning [38], reason-
+                                                                       designers, decision-makers, and generators. By such a
+ing ability [39] etc. Additionally, leveraging the vast amounts
+                                                                       categorization, a clear view of how LLMs integrate into
+of training data, pre-trained LLMs are equipped with a broad
+                                                                       the classical RL paradigm is offered.
+spectrum of world knowledge [40]. Benefiting from these
+                                                                     • Algorithmic review: For each role of LLM, we review
+capabilities, the applications of language models have been
+                                                                       emerging works in this direction and discuss different
+shifted from language modeling to task-solving, ranging from
+                                                                       algorithmic characteristics from the perspective of ca-
+basic text classification and sentiment analysis to complex
+                                                                       pabilities. Based on this foundation, future applications,
+high-level task planning [41] and decision-making [42], [43].
+                                                                       opportunities, and challenges of LLM-enhanced RL are
+   With emergent capabilities, the potential of LLMs to address
+                                                                       analyzed to provide a potential roadmap for advancing
+the inherent challenges of RL has recently gained popu-
+                                                                       this interdisciplinary field.
+larity [44], [45]. The capabilities of LLMs, particularly in
+natural language understanding, reasoning, and task planning,
+provide a unique approach to solving the above-mentioned           B. Text Organization
+RL issues. For sample inefficiency, reference [46] proposed
+a framework where LLMs can be employed to improve the                 The remaining sections are organized as follows. Sec-
+sample efficiency of RL agents by providing rich, contextually     tion II provides foundational knowledge of both RL and
+informed predictions or suggestions, thereby reducing the need     LLM. Section III presents the concept of LLM-enhanced
+for extensive environment interactions. For reward function        RL and provides its overall framework. Following this, Sec-
+design, LLMs can aid in constructing more nuanced and              tions IV, V, VI, and VII offer an in-depth analysis of LLMs
+effective reward functions, enhancing the learning process by      within the RL context, exploring their roles as information
+offering a deeper understanding of complex scenarios [47]. For     processor, reward designer, decision-maker, and generator,
+generalization, reference [48] proposed a framework that lever-    respectively. Last, Section VIII discusses the application,
+ages language-based feedback for improving the generalization      opportunities and challenges of LLM-enhanced RL. Finally,
+of RL policy in unseen environments. For natural language          Section IX concludes the survey.
+understanding, Pang et al. [49] used LLMs to translate
+complex natural language-based instructions to simple task-                               II. BACKGROUND
+specified languages for RL agents. These works show that
+LLM is a promising and powerful role that can contribute to          In this section, we provide a concise overview of the classi-
+the longstanding RL challenges.                                    cal RL paradigm and related challenges. Next, we explore the
+   Despite the advancements in the domain of integrating           prevailing trend in RL—specifically, the fusion of multimodal
+LLMs into the RL paradigm, there is currently a notable            data sources, including language and visual information. Fol-
+absence of comprehensive review in this rapidly evolving area.     lowing this, we offer an introductory background on LLMs and
+Additionally, though various methods are proposed to integrate     outline the key capabilities that can enhance the RL learning
+LLMs into the RL paradigm, there is no unified framework for       paradigm.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                 3
+
+
+
+A. Background of Reinforcement Learning                                 manual trial-and-error since most designed rewards are
+   1) Classical Reinforcement Learning: In a classical RL               sub-optimal [23] or lead to unintended behavior [54].
+paradigm shown in Fig. 1, the agent interacts with an en-             • Compounding Error in Model-based Planning: Model-
+
+vironment through a trial-and-error process to maximize the             based RL is prone to the issue of compounding errors
+specified rewards in the trajectory. In each step, the agent            during planning. As the prediction horizon extends, errors
+takes an action a based on the observed state s from the                in the model’s predictions accumulate, leading to signifi-
+environment. By optimizing the policy π (action controller),            cant deviations from optimal trajectories [55], [56]. This
+the agent maximizes the cumulative rewards. Such an opti-               problem is particularly acute in complex environments
+mization problem is usually formalized through the concept              with high-dimensional state spaces. With their advanced
+of Markov Decision Process (MDP), defined by the quintuple              predictive capabilities and understanding of sequential
+⟨S, A, T , R, γ⟩. Here, S denotes a set comprising all possible         dependencies, LLMs could help mitigate these errors,
+states, A denotes a set of all possible actions, T represents the       leading to more accurate and reliable planning in model-
+state transition probability function T : S × A × S → [0, 1],           based RL.
+R is a reward function R : S × A × S → R, and γ (with                 • Multi-task Learning: Multi-task RL faces several key
+
+0 ≤ γ ≤ 1) is the discount factor. The objective in RL is to            challenges that limit its effectiveness. One major issue is
+optimize the policy π(a|s) such that the cumulative returns             managing varying task difficulties, where simpler tasks
+P  ∞     k                                                              can overshadow learning of more complex ones, leading
+   k=0 γ rk+1 is maximized.
+                                                                        to negative transfer [57]. Task interference is another
+                                                                        critical problem, as shared parameters or data between
+                                        Reward                          tasks can result in suboptimal performance on individual
+    Agent                                                               tasks [58]. Determining optimal parameter-sharing strate-
+                   Policy
+                                                     Environment        gies is complex, as it must balance learning efficiency
+                  controller   Action                                   with task-specific requirements [59]. Sample efficiency
+                                                                        remains a significant hurdle, with traditional data-sharing
+                                Observed state                          approaches not fully leveraging learned behaviors across
+                                                                        tasks [60]. Finally, effectively transferring knowledge
+Fig. 1. Classical reinforcement learning paradigm.                      between tasks without negative interference is an ongoing
+                                                                        challenge that impacts the agent’s ability to accelerate
+   2) Challenges of Reinforcement Learning: While RL                    learning across multiple objectives [61].
+algorithms have made remarkable performance in recent
+years [2], [7], [50], there are still several longstanding chal-       3) Multimodal Reinforcement Learning: With the advances
+lenges that limit the real-world applicability of RL:               in both CV and NLP, pattern recognition in vision and natural
+                                                                    language has become increasingly powerful, and multimodal
+   • Generalization in Unseen Environment: Generalization in
+                                                                    data has been involved in the RL paradigm recently. Visual
+     unseen environments remains a significant challenge in
+                                                                    data is commonly involved in the observation space of RL
+     the field of RL [51]. The core issue lies in the ability of
+                                                                    when agents receive image-based information from the envi-
+     RL algorithms to transfer learned knowledge or behaviors
+                                                                    ronment, e.g. in applications such as robots [62], video game
+     to new, previously unseen environments. RL models are
+                                                                    control [2] etc. Compared to visual data, natural languages
+     often trained in simulated or specific settings, excelling
+                                                                    are usually included when RL agents are given specific tasks
+     in those scenarios but struggling to maintain performance
+                                                                    when interacting with the environments. The use of natural
+     when faced with novel or dynamic conditions. This
+                                                                    languages in RL can be divided into the following two
+     limitation hinders the practical application of RL in real-
+                                                                    categories [17]:
+     world situations, where environments are rarely static or
+     perfectly predictable. Achieving generalization requires         • Language-conditional RL: In language-conditional RL,
+     models to not only learn specific task solutions but also          the problem itself requires the agent to interact with
+     to understand underlying principles that can be adapted            the environment through language. Specifically, there are
+     to a range of situations.                                          two ways to integrate natural language in RL: 1) task
+   • Reward Function Design: Reward function is the princi-             description: the task or instruction is described in natural
+     pal contributing factor to the performance of an RL agent.         languages, e.g. instruction following, where the agents
+     Despite their fundamental importance, reward functions             learn to interpret the instructions first and then execute
+     are known to be notoriously difficult to design, especially        actions; 2) action space or observation space: natural
+     in contexts involving sparse reward environments and               language is part of the state and action space, e.g.. text
+     complex scenarios [1]. In sparse reward settings, where            games, dialogue systems, and question answering (Q&A).
+     feedback is limited, reward shaping becomes essential              This class of RL leverages natural language as a direct
+     to guide agents toward meaningful behaviors; however,              component of the RL process, guiding the agent’s actions
+     this introduces the risk of inadvertently biasing the agent        and decisions within the language environment.
+     towards sub-optimal policies or overfitting to specific          • Language-assisted RL: In language-assisted RL, natural
+     scenarios [52], [53]. Conversely, for complex tasks, high-         language is used to facilitate learning but not as a
+     performance reward functions usually require massive               part of problem formulation. Two usages of language-
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                    4
+
+
+
+     assisted RL are: 1) communicating domain knowledge:                  models can address the complex task effectively with so-
+     the text containing task-related information can be helpful          phisticated prompting strategies such as Chain of Thought
+     for agents. Therefore, wikis and manuals related to the              (CoT) [74], Tree of Thought (ToT) [75], and Graph
+     environment can potentially assist the agents in such                of Thought (GoT) [76]. These strategies structure the
+     cases; 2) structuring policies: structuring policies is to           problem-solving process into sequential or hierarchical
+     communicate information about the state or dynamics                  steps, facilitating a more articulated and understandable
+     of the environment based on language instead of rep-                 reasoning pathway. Additionally, prompts designed for
+     resentations of the environment or models. In such cases,            planning enable LLMs to output sequences that reflect
+     language can be leveraged to shape representations to-               a progression of thoughts or actions, proving invaluable
+     wards a generalizable abstraction, such as using “avoid              for tasks demanding logical sequence or decision-making
+     hitting the wall” instead of representations of a policy.            outputs.
+     This approach represents a more indirect use of natural
+     language, serving as a guide or enhancer to the primary                 III. L ARGE L ANGUAGE M ODEL -E NHANCED
+     RL tasks.                                                                       R EINFORCEMENT L EARNING
+  The integration of multimodal data challenges the RL
+                                                                     A. Definition
+paradigm since the agent has to simultaneously learn how to
+process complex multimodal data and optimize the control                RL agents are often tasked with making robust and de-
+policy in the environment [16]. Issues such as natural lan-          liberate decisions using multimodal information in real-real
+guage understanding [63] and visual-based reward function            applications, whether in the MDP setting or within the context
+design [64] require to be addressed.                                 of specific task descriptions. Examples include robots designed
+                                                                     to follow natural language instructions while navigating phys-
+                                                                     ical environments or visual games with tasks described in
+B. Background of Large Language Models                               natural language [77], [78], [79]. However, it is challenging for
+   LLMs typically refer to the Transformer-based language            conventional RL methods as the agent is required to simultane-
+models [65] containing billions of parameters and being              ously interpret complex multimodal data and optimize control
+trained on massive text data (i.e., several terabytes (TB)           policies amidst ever-changing environments [80]. Compound-
+scale) [66], such as GPT-3 [29] and LLaMA [67]. The ex-              ing these challenges are issues like sample inefficiency, the
+tensive number of parameters and internet-scale training data        difficulty of crafting reward functions that accurately reflect
+enable LLMs to master a diverse array of tasks, resulting            multimodal inputs, and the need for robust generalization
+in enhanced capabilities in language generation, knowledge           across varied tasks and settings.
+representation, and logical reasoning, as well as improved              The rapid advancements in LLMs present a viable solution
+generalization to novel tasks.                                       to these challenges, thanks to their potent natural language
+   The development and effectiveness of LLMs are largely             understanding and reasoning abilities, coupled with recent
+driven by Scaling Laws, i.e., as these models grow in size           progress in incorporating visual data processing [81]. This dual
+– both in terms of their parameter count and the data they           capability enables LLMs to interpret and act upon complex
+are trained on – they tend to exhibit emergent abilities that        multimodal information effectively, serving as a robust helper
+are not present in small models [68], [69], [70], such as            for enhancing the RL paradigm for real-world applications.
+in-context learning, reasoning, and generalization. Here, we            Nevertheless, despite the powerful functionalities of LLMs,
+briefly introduce such capabilities of LLMs in detail:               the current studies are varied and lack a standard concept
+   • In-context Learning: In-context learning capability elim-       correctly specifying the systematic methodology, which im-
+      inates the need for explicit model retraining or gradient      pedes the advancement of research in this area. Therefore, we
+      update [29], as it can generate better responses or perform    introduce the concept called LLM-enhanced RL as follows:
+      tasks by inputs cueing examples or related knowledge.             LLM-enhanced RL refers to the methods that utilize the
+      Specifically, task-related texts are included in the prompts   multimodal information processing, generating, reasoning,
+      as context information, helping the LLMs to understand         and other high-level cognitive capabilities of pre-trained,
+      the situations and execute instructions.                       knowledge-inherent LLM models to assist the RL paradigm.
+   • Instruction Following: Leveraging diverse task-specific            LLM-enhanced RL differs from traditional model-based RL
+      datasets formatted with natural language descriptions          by leveraging knowledge-rich LLM models. This approach
+      (also called instruction tuning), LLMs are shown to            provides two key advantages: First, LLM equips the agent
+      perform well on unseen tasks that are also described           with substantial pre-trained capabilities at the beginning of
+      in the form of natural language [71], [72], [73]. There-       the learning process, such as reasoning and high-level plan-
+      fore, this capability equips LLMs with the ability to          ning, etc. Second, it offers superior generalization capabilities.
+      comprehend instructions for new tasks and effectively          Pre-trained on diverse data, LLMs can effectively transfer
+      generalize across tasks not previously encountered, even       knowledge across domains, enabling better adaptation to un-
+      in the absence of explicit examples.                           seen environments than conventional data-driven models. Last,
+   • Step-by-step Reasoning: For smaller models, tackling            LLM-enhanced RL addresses a key limitation of pre-trained
+      multi-step tasks, such as solving math word problems,          models: their inability to interact with environments to expand
+      often proves to be challenging. However, large language        their knowledge and ground themselves in specific domains.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                         5
+
+
+
+
+          Information Processor                                                                                             Generator
+                                                             Agent                                      Model Simulator         Policy Interpreter
+                     Specification
+                      Language                                                                         Real            Sim.
+                                                                                                                                 Policy
+                                                          LLM as         LLM as             LLM as     World           World
+                                          LLM as
+                                        Information      Reward        World Model         Decision-
+                      Extracted          Processor       Designer       Simulator           maker
+                    Representation
+                                                                                                           World Model                    Interpretation
+
+
+            Reward Designer                                                                                            Decision-maker
+                                           State          Reward            Model           Action       Action-making             Action-guiding
+            Reward Model
+                                                                                                                                            Action
+                                                                                                               Trajectory
+                                                                                                                                          Candidates
+               Code
+             Generation                                                                                  Sequence                            Expert
+                                                                               LLM as
+                                                               Env             Policy                    Modelling                           Actions
+                                                                             Interpreter
+
+Fig. 2. Framework of LLM-enhanced RL in classical Agent-Environment interactions, where LLM plays different roles in enhancing RL.
+
+
+
+Through environmental interactions, this approach generates                     multimodal information, enabling them to learn from
+task-specific data, grounds the LLM in particular domains                       tasks or environments described in natural language and
+by in-context learning, and eventually helps them adapt to                      vision data more effectively.
+dynamic changes with continuous learning.                                     • Multi-task Learning and Generalization: Benefiting
+                                                                                from the multi-disciplinary pre-trained knowledge and
+B. Framework                                                                    powerful sequence modeling capability, LLMs empower
+   The framework of LLM-enhanced RL is illustrated in the                       RL agents by providing a high-capacity model capable
+center of Fig. 2, which is founded on the classical agent-                      of accommodating task variances and transferring knowl-
+environment interaction paradigm. Along with the trial-and-                     edge across multiple tasks, assisting in handling multiple
+error learning process, LLM processes the state information,                    tasks.
+                                                                              • Improved Sample Efficiency: Given the inherent ex-
+redesigns the reward, assists in action selection, and interprets
+the policy after the action selection.                                          ploratory nature, the RL paradigm demands significant
+   Specifically, on the one hand, when the agent receives the                   samples to learn. Pre-trained LLM can enhance data
+state and reward information from the environment, LLM                          generation by simulation or leverage the prior knowledge
+is able to process or modify the information to either filter                   to improve the sample efficiency of RL.
+                                                                              • Long-Horizon Handling: RL becomes more challenging
+unnecessary natural language-based information or design ap-
+propriate rewards to accelerate the learning process, based on                  as the length of trajectory increases, due to the credit as-
+the natural language understanding and reasoning capabilities.                  signment problem. LLMs can decompose complex tasks
+On the other hand, when the agent is about to choose an                         down into sub-tasks to assist RL agents in planning
+action based on the observation, LLM can assist the action                      over longer temporal horizons, aiding in the decision-
+selection process by either simulating a world model or serving                 making process for complex, multi-step tasks such as the
+as the policy network to generate reasonable actions based                      Minecraft game.
+                                                                              • Reward Signal Generation: Based on the context un-
+on the modeling capability and common-sense knowledge.
+Additionally, after the action selection process, integrating                   derstanding and domain knowledge, LLMs contribute to
+state, reward, and action information, LLM can interpret the                    the reward shaping and reward function designing, which
+underlying possible reasons behind the policy selection, which                  help guide the RL towards effective policy learning in
+helps human supervisors understand the scenarios for further                    sparse-reward environments.
+system optimization.
+   Based on the functions of LLM in the framework, we extract              D. Taxonomy
+characteristics of LLM-enhanced RL and further divide four                   In this subsection, we illustrate the different roles of LLMs
+different LLM roles in LLM-enhanced RL, including informa-                 within the above framework, by detailing their functions and
+tion processor, reward designer, generator, and decision-maker,            corresponding issues of RL they address:
+which will be elaborated in the next subsections.
+                                                                             • Information Processor: When observation or task de-
+                                                                                scription involves language or visual features, it is chal-
+C. Characteristics                                                              lenging for the agent to comprehend the complex infor-
+  The LLM-enhanced RL paradigm enhances the vanilla RL                          mation and optimize the control policy simultaneously.
+paradigm with the following characteristics:                                    To release the agent from the burden of understanding
+  • Multimodal Information Understanding: LLMs en-                              the multimodal data, LLM can serve as an information
+     hance RL agents’ comprehension of scenarios involving                      processor for environment information or task instruction
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                      6
+
+
+
+    information by 1): extracting meaningful feature repre-                a given task. These LLM-generated world models guide
+    sentations for speeding up network learning; 2) trans-                 RL agents’ exploration and learning and the RL agent
+    lating natural language-based environment information                  verifies and corrects the world model through gameplay,
+    or task instruction information into formal specific task              combining LLM knowledge with grounded experience to
+    languages to reduce learning complexity.                               achieve an order of magnitude improvement in sample
+    Application example: In instruction-following RL for                   efficiency over traditional methods [84].
+    robots, tasks can have unbounded natural language forms
+    due to users’ diverse speaking habits, which can impede                     IV. LLM AS I NFORMATION P ROCESSOR
+    RL learning performance. LLMs transform these varied                 The normal way for deep RL with language or visual
+    natural language instructions into a unique task language,        information is to jointly process the information and learn
+    enabling more robust RL performance [49].                         a control policy, end-to-end. However, this demands the RL
+  • Reward Designer: In complex task environments where
+                                                                      agent to learn to comprehend the information and manage
+    the reward is sparse or a high-performance reward func-           the task simultaneously. Additionally, learning the language
+    tion is hard to define, using the prior world knowledge,          or visual features by simply relying on the reward function is
+    reasoning abilities, and code generation ability, LLM can         challenging and may narrow the learned features to a narrow
+    serve as two roles: 1) an implicit reward model to provide        utility, hampering the generalization ability of the agent [16].
+    reward values based on the environment information, ei-              With the advances in unsupervised techniques and large-
+    ther by training or prompting; 2) an explicit reward model        scale pre-trained models for CV and NLP, the decoupled
+    that generates executable codes of reward functions that          structure, where the encoders are separately trained, has gained
+    transparently specifies the logical calculation process of        popularity [16], [85], [86]. Utilizing the powerful represen-
+    reward scalars based on the environment specifications            tation ability and prior knowledge, the pre-trained LLM or
+    and language-based instructions or goals.                         vision-language model (VLM) model can serve as an informa-
+    Application example: For complex robotic control prob-            tion processor for RL. They can extract observation represen-
+    lems, such as dexterous manipulation, reward design               tations for downstream networks or translate natural language
+    requires both expertise and trial and error. LLM designs          into formal specifications, enabling the execution of multiple
+    reward functions based on knowledge and iteratively               tasks. This multi-task capability improves sample efficiency
+    improves it based on the performance [82].                        and zero-shot performance, allowing agents to generalize
+  • Decision-maker: RL faces challenges such as sample
+                                                                      effectively across diverse and sparse-reward environments.
+    inefficiency and exploration inefficiency. To address these
+    challenges, LLMs can be leveraged as decision-makers
+    in RL, offering promising solutions through two main              A. Feature Representation Extractor
+    approaches: 1) action-making: LLMs treat offline RL                  Adopting the large pre-trained models in CV and NLP, the
+    as a sequence modeling problem, using rewards for the             learned feature representation can be a scaffold embedding
+    conditional generation of actions. Pretrained on diverse,         for downstream network learning and increase the sample
+    internet-scale data, LLMs possess advanced semantic               efficiency. As illustrated in Fig. 3 (i), the usages can be further
+    understanding capabilities, which can be exploited to             divided into two categories according to whether the model is
+    accelerate offline RL learning. 2) action-guiding: LLMs           trained simultaneously. One way is to directly use the frozen
+    act as expert instructors to produce a reduced set of             pre-trained model to extract embeddings from the observation
+    action candidates or expert actions. The action candidates        Ot and another way is to further fine-tune the pre-trained
+    constrain the original action space, thereby enhancing            model using contrastive learning with a contrastive loss Lct
+    exploration efficiency. Expert actions encapsulate prior          to achieve better adaptation in new environments.
+    knowledge from LLMs. When incorporated to regularize                 1) Frozen Pre-trained Model: Using the frozen large-scale
+    the policy learning, this expert knowledge is distilled into      pre-trained model is the straightforward way. In reference [87],
+    an RL agent, resulting in better sample efficiency.               the author proposed History Compression via Language Mod-
+    Application example: In embodied robot, given human-              els (HELM) to utilize a frozen pre-trained Language Trans-
+    instruction and language-based description, LLM gener-            former to extract history representation and compression and
+    ates potential actions for the robot to choose from [83].         thus addresses the problem of partially observed MDP by
+  • Generator: Model-based RL hinges on precise world                 approximating the underlying MDP with the past representa-
+    models to learn accurate environment dynamics and simu-           tion. Specifically, the framework first uses FrozenHopfield, a
+    late high-fidelity trajectories. Additionally, interpretability   frozen associative memory to map observations [ot−2 , ot−1 , ot ]
+    remains another important issue in RL. Using the mul-             to a compressed representation ht and then concatenate it
+    timodal information understanding capability and prior            with a learned encoding of the current observation via a
+    common-sense reasoning ability, LLMs can be 1) a                  convolutional neural network. Such a method solves the prob-
+    generator to generate accurate trajectories in model-based        lem of how to effectively utilize the compressed history for
+    RL; 2) generate policy explanations with the prompts of           policy optimization. After that, Semantic HELM [88] proposed
+    related information in explainable RL. Application exam-          a human-readable memory mechanism that summarizes past
+    ple: In Minecraft item crafting, LLMs generate Abstract           visual observations in human language and uses multimodal
+    World Models—hypothesized sequences of subgoals for               models to associate visual inputs with language tokens. The
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                       7
+
+
+
+                                                                                          2) Fine-tuning Pre-trained Model: When trained RL agents
+                (i) Feature Representation Extractor
+                                                                                       are deployed in real-world applications, their performance
+                                                             Actor-Critic              often deteriorates under significant appearance variations (out-
+                                                              Network                  of-distribution data) due to overfitting to training scenarios. For
+                                               Invariant
+                                                Feature                                example, robots with vision-based navigation tasks may fail
+                                                                                       when the environment color changes. Invariant feature repre-
+                                                             LLM / VLM                 sentations serve as a form of state abstraction that remains con-
+                                   Fine-tune
+                                                              Encoder                  sistent across out-of-distribution appearance variations such
+                             according to the task                                     as added noise, brightness changes, or slight rotations. When
+                                                                                       encountering appearance changes or out-of-distribution data,
+                                                                                       though the observation changed, the representation (feature
+                        (ii) Language Translator                                       embedding) that fed into the policy/value network is nearly
+   Instruction Information Translator                                                  unchanged, leading to robust RL performance and increased
+                                                                                       generalization in unseen environments.
+      Open the door.
+                                                                                          Contrastive learning is a common way to learn the invariant
+                              directly exposed to NL                                   feature representation. It learns representations from high-
+                                                                                       dimensional data by contrasting positive examples against
+                                                                                       negatives. Given a query q, the goal is to match query q
+                                                           [0 1 0]                     more closely to a positive key k+ than to any negative keys
+                                                                                       K \ {k+ } in a set K. This process is modeled using similarity
+                         task language translation                                     measures, such as the dot product (q T k) or the bilinear
+                                                                                       product (q T W k), where W is a weight matrix. To effectively
+   Environment Information Translator                                                  learn these representations, a contrastive loss function such as
+   You'll die if hitting a
+                                                                                       InfoNCE [91] is used:
+                                                                  Policies    Reward
+           wall.                                                                                                    exp(q T W k+ )
+                                                                 Transition    State          Lc = log                   PK−1                         (1)
+                                    MDP translator                                                       exp(q T W k+ ) + k     exp(q T W ki )
+                    Effect HittingWall:
+                      if Near(wall) and a == walk:
+                                                                                       where exp is the exponential symbol and the whole Lc can
+                        R <= -1                                                        be viewed as the log-loss of a softmax classifier, treating the
+                        S <= S_initial
+                        t = 0 ...                                                      matching of q to k+ as a multi-class classification problem
+                                                                                       among K classes. By maximizing alignment between different
+                                                                                       changes of the same observation via the above loss, the model
+Fig. 3. LLM as an information processor. (i) Feature Representation Extractor:
+frozen/fine-tuned LLM extracts meaningful representations for downstream               can learn the invariant representations.
+RL networks. In the fine-tuning process, given observation (Ot ), invariant               When combining with RL, given different RL tasks, the re-
+feature abstraction (S̃t ) is learned with the contrastive loss (Lct ). Then,          quired invariant feature representations should be adjusted ac-
+the invariant is fed into the actor-critic network. After fine-tuning, given
+different observations (Ot ) and (Ot′ ) with appearance variation, the extracted       cordingly. Therefore, researchers have explored different ways
+representation is invariant, leading to robust RL performance. (ii) Language           to improve contrastive learning. In reference [92], to achieve
+Translator: LLM interprets diverse natural language inputs, converting them            the zero-shot capability of embodied agents, the author devised
+into a standardized, task-specific format that the RL agent can efficiently
+process and act upon.                                                                  a visual prompt-based contrastive learning framework that uses
+                                                                                       a pre-trained VLM to learn the visual state representations.
+                                                                                       The visual prompts are learned on expert demonstrations from
+                                                                                       domain factors such as camera settings and stride length. By
+memory is a semantic database S constructed by encoding                                contrastively training the VLM on a pool of visual prompts
+prompt-augmented tokens from the vocabularies of Contrastive                           along with the RL policy learning process, the learned repre-
+Language-Image Pre-training (CLIP) [89] and the pre-trained                            sentations are robust to the variations of environments, leading
+language models. Given an observation ot , the agent retrieves                         an increase of 18-20% success rates on unseen scenarios and
+top-k embeddings from S as actor-critic input to assist the                            improved generalization capability. Based on the contrastive
+policy optimization. Such a memory mechanism provides a                                learning, another method ReCoRe [93] added an intervention-
+human-readable representation of the past and helps the agent                          invariant regularizer in the form of an auxiliary task such as
+to cope with partially observable environments. In the exper-                          depth prediction and image denoising to explicitly enforce
+iment, they used the proximal policy optimization (PPO) [3]                            invariance of learned representations to environment changes.
+algorithm and pretrained Transformer XL [90] model. When
+testing on the partially observable environments, they found
+the extracted semantics help the memory-less agent obtain                              B. Language Translator
+comparable scores with memory-based methods trained on                                   The unbounded and diverse representation of natural lan-
+long trajectories. However, one limitation of such frozen pre-                         guages in both human instruction and environmental infor-
+trained models is that the representations cannot dynamically                          mation impedes policy learning. LLM can be leveraged as
+adjust according to the task and environment.                                          a language translator to reduce the additional burden of
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                  8
+
+
+
+comprehending natural language for RL agents and increase            learning with attention mechanisms, which learns the intra
+sample efficiency. As illustrated in Fig. 3 (ii), LLM transforms     and inter-modal representations, was proposed. The different
+the diverse and informal natural language information into           attention heads align the agreement from one modality to
+formal task-specific information, such as feature representation     another and vice versa, providing an informative representation
+or task-specific languages, thus assisting the learning process      for the RL agent. However, most multimodal learning methods
+of the RL agent.                                                     do not consider the task information and only focus on the
+   1) Instruction Information Translation: One application           modality alignment, remaining an area to be explored.
+of LLM is to translate natural language-based instructions              In the following, we list potential directions for future
+for instruction-following applications. In reference [49], the       research.
+author investigated an inside-out scheme for natural language-          • Feature Representation Extractor: Although the use of
+conditioned RL by training an LLM that translates the natural              LLMs as feature representation extractors has shown
+language to a task-related unique language. Such an inside-                promise in enhancing RL, several challenges persist in
+out scheme prevents the policy from being directly exposed to              future research. Short-term goals include developing a
+natural language instructions and helps efficient policy learn-            computationally efficient feature extractor and improving
+ing. Another literature STARLING [94] used LLM to translate                the generalization of LLM-derived representations. In the
+natural language-based instructions to game information and                long term, researchers should focus on exploiting task
+example game metadata. The translated information is then                  compositionality for better generalization and creating
+fed forward to Inform7, an interactive fiction game engine, to             adaptive extraction methods for diverse control tasks.
+develop a large amount of text-based games for RL agents to             • Language Translator: Current existing works are still
+master the desired skills.                                                 limited. Short-term objectives involve exploring LLMs’
+   2) Environment Information Translation: On the other                    ability to handle more tasks and improving translation
+hand, LLM can also be used to translate the natural language               efficiency and accuracy in RL contexts. Long-term goals
+environment information into formal domain-specific language               include developing multimodal translation capabilities
+that can specify MDP information, which converts natural                   and integrating these with RL algorithms, achieving a
+language sentences into grounded usable knowledge for the                  more general translator, and helping agent learning.
+agent. Previous works generally ground natural language into
+individual task components such as task objectives descrip-
+                                                                                   V. LLM AS R EWARD D ESIGNER
+tion [95], rewards [96] and polices [97], [98]. To unify the
+information about all the components of a task, [99] introduces         The reward signal is the most important information to
+RLang, a grounded formal language capable of expressing              instruct agent learning in RL [1]. However, despite the fun-
+information about every element of an MDP and solutions such         damental importance, high-performing reward functions are
+as policies, plans, reward functions and transition functions.       known to be notoriously difficult to design [104]. First,
+By using LLM to translate natural language to RLang and train        specifying human notions of desired behavior is difficult via
+RL agents upon RLang, the agents are capable of leveraging           designed reward functions or requires huge expert demon-
+information and avoid having to learn tabula rasa.                   strations. Moreover, dense rewards that accurately provide
+                                                                     learning signals require either manually decomposing the
+                                                                     general goal into sub-goals [105] or rewarding interesting
+C. Summarization and Outlook
+                                                                     auxiliary objectives [106]. Nevertheless, both of these methods
+   For information processing, LLM is used to accelerate RL          suffer from the need for expert input and meticulous manual
+learning processing by decoupling the information processing         crafting [23].
+task and the controlling task, where LLM extracts feature               Benefiting from pre-trained common-sense knowledge, code
+representations or handles the natural language-based infor-         generation, and in-context learning ability, LLM has the poten-
+mation.                                                              tial to design or shape reward functions for DRL by leveraging
+   When multimodal data are involved in the environment,             natural language-based instructions and environment informa-
+e.g., robot manipulation tasks, the information processing task      tion. In this section, we review recent literature in which LLMs
+becomes more challenging. For one thing, the misalignment            act as reward models that implicitly provide reward values or
+or contradiction between different modalities may exist [100].       explicitly write executable reward function codes detailing the
+Modality weighting techniques that adaptively learn the impor-       calculation process of reward scalars.
+tance of different modalities by attention mechanisms provide
+a potential solution for this problem [101]. In addition, CLIP-
+based multimodal foundation models using large-scale image-          A. Implicit Reward Model
+text pairs have shown outstanding zero-shot ability in various         A large pre-trained model can be an implicit reward model
+multimodal tasks [89]. By learning cross-modal and task              that directly provides auxiliary or overall reward value based
+semantics, the misaligned modality can be replaced with a            on the understanding of task objectives and observations. The
+virtually generated modality [102]. For another, how to effec-       methods are illustrated in Fig. 4 (i). One way is by directly
+tively combine the information between different modalities          prompting with language descriptions and another way is by
+into a unified representation, i.e., multimodal fusion, is also an   scoring the alignment between the feature representation of
+important issue. In reference [103], a multimodal contrastive        the visual observations and language-based instructions.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                              9
+
+
+
+                                                                               between agent and environment.
+                        (i) Implicit Reward Model
+       Directly Prompting                    Alignment Scoring                 Algorithm 1 Language Reward Modulated Pretraining
+                                                                               (LAMP) in [110]
+                                                                                 1: Initialize parameters for Masked World Models (MWM)
+            Prompting                                                            2: Load pretrained DistilBERT [111] for language prepro-
+                                                Similarity  Language
+                                            Alignment Score                         cessing
+                                                                                 3: Load pretrained R3M visual encoder and score predictor
+                              Designed
+                               Reward                                            4: Initialize empty replay buffer
+                                                                  Visual         5: Populate language prompt buffer and synonym buffers
+                                                                                    with predefined samples
+                        (ii) Explicit Reward Model                               6: for each training episode do
+                                                                                 7:    Randomize scene textures from Ego4D and RLBench
+                                 LLM Function
+                                                                                       datasets
+ class GridEnv:                   Generator        def calc_reward(obj, s,
+
+    def calc_obs(self):                            a):
+                                                                                 8:    Sample ShapeNet objects and language prompts
+      self.vol = ...                                     reward = ...
+                                                                                 9:    Insert ShapeNet objects into the scene
+      self.current = ...                                                        10:    Generate and process language embeddings using Dis-
+      self.num_bus = ...                                                               tilBERT
+      self.load = ...                    Self-refine Loop                       11:    Execute policy to collect transitions
+      ...                                                                       12:    Assign LAMP rewards using R3M score predictos
+                                                         Evaluation
+                                                                                13:    Update buffers and train MWM with augmented re-
+                                                                                       wards
+Fig. 4. LLM as a reward designer. (i) Implicit Reward Model: LLMs               14: end for
+provide rewards through direct prompting or alignment scoring between
+language instructions and visual observations. (ii) Explicit Reward Model:
+LLMs generate executable code for reward functions, with potential for self-
+                                                                                  2) Alignment Scoring: For visual RL, some literature uti-
+refinement through evaluation loops.                                           lizes vision-language models as reward models to align multi-
+                                                                               modal data and calculate the similarity score using metrics
+                                                                               such as cosine similarity. Rocamonde et al. employs the
+   1) Direct Prompting: Reference [107] simplified the man-                    CLIP model as a zero-shot reward model to specify tasks via
+ual reward design by prompting an LLM as a proxy reward                        natural language [64]. They first compute the probability pot ,l
+function with examples of desirable behaviors and the pref-                    that the agent achieves a goal given by language description
+erences description of the desired behaviors. Reference [108]                  l out of a set of potential goals l′ ∈ L in the task set
+proposed a Read and Reward framework that utilizes LLMs                        L using the softmax computation with temperature τ over
+to read instruction manuals to boost the learning policies                     the cosine similarity between visual state embeddings fθ (ot )
+of specific tasks. The framework includes a Question &                         and language description embeddings gθ (l) across the set of
+Answer (QA) extraction module for information retrieval                        potential goals l′ :
+and summarization and a Reasoning module for evaluation.
+                                                                                                       exp(fθ (ot ) · gϕ (l)/τ )
+Experimentally, they show RL algorithms, by their design, can                                pot ,l = P                       ′
+                                                                                                                                     .       (2)
+obtain significant improvement in performance and training                                             l′ exp(fθ (ot ) · gϕ (l )/τ )
+
+speed. In reference [45], Carta et al. proposed an automated                   Then the reward is obtained by a binary reward function rt =
+reward shaping method where the agent extracts auxiliary                       r(ot+1 , l) = I[pot+1 ,l ≥ β], which thresholding the probability.
+objectives from the general language goal. Using a question                    Their framework only requires a single-sentence text prompt
+generation and QA system, the framework guides the agent                       description of the desired task with minimal prompt engineer-
+in reconstructing partial information about the global goal                    ing. Another work [112] constructed reward signals based on
+and provides an intrinsic reward signal for the agent. This                    the similarity between natural language-based description and
+intrinsic reward incentivizes the agent to produce trajectories                embeddings from the pre-trained VLM encoder. By labeling
+that help them reconstruct the partial information about the                   the expert demonstration with the reward signals, the frame-
+general language goal. To acquire a generalizable policy by                    work effectively mitigates the problem of mis-generalization.
+continually learning a set of tasks is challenging for RL agents               In reference [110], the authors proposed the Language Reward
+since the agent is required to retain the previous knowledge                   Modulated Pretraining (LAMP) framework as a pertaining
+while quickly adapting to new tasks. Reference [109] intro-                    utility for RL as opposed to a downstream task reward to
+duced the Lafite-RL (Language agent feedback interactive                       warm-start sample-efficient learning. The framework leverages
+RL) framework that provides interactive rewards mimicking                      frozen, pre-trained VLMs such as R3M [113] to generate
+human feedback based on LLMs’ real-time understanding of                       noisy, albeit shaped exploration rewards by computing the
+the agent’s behavior. By designing two prompts, one to let                     alignment score between instructions and image observations.
+LLM understand the scenario and the other to instruct it about                 The algorithm is presented in Algorithm 1. They used Masked
+the evaluation criterion, their framework can accelerate the RL                World Model [114], a visual model-based RL algorithm for
+process while freeing up human effort during the interaction                   robot manipulation based on image and instructions. The
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                   10
+
+
+
+images were downloaded from Ego4D [115] and the language              Algorithm 2 Eureka [82]
+instructions were obtained by querying ChatGPT. The reward            Require: Task description l, environment code C, coding
+is then calculated from the R3M alignment score. After that,              LLM Mc , evaluation function E, initial prompt prompt,
+the generated rewards are optimized with standard novelty-                optimization iterations N , iteration batch size K
+seeking exploration rewards for language-conditioned policy.           1: for i ← 1 to N do
+Reference [116] explored preference-based RL, where the                2:   // Sample K reward code candidates
+agent learns a reward function from preference labels over                  from coding LLM Mc
+the behaviors. A VLM is leveraged to generate preference               3:   R1 , . . . , RK ← sample(l, Mc , C, prompt)
+labels given visual observations and a text description of the         4:   // Evaluate reward candidates
+task goal. The evaluation is based on a series of vision-based         5:   si1 = E(R1i ), si2 = E(R2i ), . . . , siK = E(RKi
+                                                                                                                               )
+manipulation tasks. Results suggested that prompting VLMs              6:   // Select the best reward code
+to produce preference labels for reward learning leads to better       7:   best = arg maxk (si1 , . . . , siK )
+performance, in contrast to treating them as reward functions          8:   // Reward reflection
+                                                                                                                          i
+to produce raw reward scores.                                          9:   prompt← prompt:Reflection(Rbest                  , sibest )
+                                                                      10:   // Optimize Eureka reward code
+B. Explicit Reward Model                                              11:   if sibest > sEureka then
+                                                                                                          i
+   Another way to design reward functions is by generating            12:      REureka , sEureka ← (Rbest      , sibest )
+executable codes that explicitly specify the details of the cal-      13:   end if
+culation process, as illustrated in Fig. 4 (ii). Compared to the      14: end for
+implicit reward value provision, this explicit way transparently      15: return REureka
+reflects the reasoning and logical process of LLMs and thus
+is readable for humans to further evaluate and optimize.
+   To help robots learn low-level actions, reference [117]            By leveraging natural language processing capabilities, LLMs
+harnessed the code generation ability of LLMs to define the           simplify the traditionally challenging task of reward function
+lower-level reward parameters based on high-level instructions.       design, enhancing both the efficiency and effectiveness of RL
+Using such a reward design paradigm, their work bridges               algorithms.
+the gap between high-level language instructions to low-level            However, the inherent biases in LLMs may transfer to the
+robot actions and can reliably tackle 90% of the designed             designed reward functions, potentially resulting in suboptimal
+tasks compared to the 50% of the baseline. Motivated by the           or harmful behaviors [121]. This presents a potential risk re-
+capability of LLM for self-refinement [118], reference [119]          quiring careful consideration. While existing mitigation efforts
+proposed a framework with a self-refinement mechanism for             primarily address biases in demographic, cultural, and political
+automated reward function design, including initial design,           beliefs [122], task-specific biases remain understudied, thus
+evaluation and self-refinement loop. Their results indicate that      limiting the applicability of LLM-designed reward functions.
+the LLM-designed reward functions are able to rival or surpass        Toward this end, we list some potential solutions. First, in
+manually designed reward functions. Similarly, Eureka [82]            preference-based RL, when an RL agent optimizes against
+developed a reward optimization algorithm with self-reflection.       biased reward models generated by LLMs to predict human
+The algorithm is outlined in Algorithm 2. In each iteration,          preferences, overoptimization and overfitting may occur [123],
+it uses an environment source code and task description to            impeding the learning of the true reward function. Reward
+sample different reward function candidates from a coding             function regularization [124] includes the agent preference
+LLM. Then the candidates are used to instruct RL training.            generated by the value function as a regularization term to
+After training, the results are used to calculate the scores of the   mitigate the risk, which helps recover the true underlying
+reward candidates. Then the best reward function code are se-         reward function. Secondly, human-in-the-loop approaches are
+lected for reflection, where LLM uses the reasoning capability        another direction to prevent harmful behaviors from designed
+to progressively improve the reward code. In the experiment,          reward functions. One viable solution is to design an evalu-
+results show that their proposed method can achieve human-            ation module where humans can intervene and correct unde-
+level performance on reward design and solve dexterous                sired behaviors and reward functions when the agent’s action
+manipulation tasks that were previously infeasible by manual          violates a predefined set of rules. Finally, principles from
+reward engineering. Another work Text2Reward [120] gener-             ensemble learning suggest that combining the reward functions
+ated shaped dense reward functions as executable programs             from different LLM models mitigates bias from individual
+based on the environment description. Given the sensitivity of        LLMs, leading to improved unbiased performance compared
+RL training and the ambiguity of language, the RL policy may          to a single LLM [125].
+fail to achieve the goal. Text2Reward addresses the problem              In the future, we expect advancements in the following
+by executing the learned policy in the environment, requesting        areas:
+human feedback and refining the reward accordingly.                      • Implicit Reward Model: An immediate focus may con-
+                                                                           sider improving how well LLM-generated rewards align
+C. Summarization and Outlook                                               with human intentions. This involves refining the qual-
+  The use of LLMs as reward designers in RL offers a more                  ity of language instructions to reduce ambiguities and
+natural and efficient way to design complex reward functions.              inaccuracies, ensuring that the reward functions align
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                    11
+
+
+
+     precisely with human notions of desired behavior. In the                           Instead of using the traditional trial-and-error way, these mod-
+     longer term, generalization and transferability of LLM-                            els treat offline RL as a sequence modeling problem, yielding
+     generated rewards across different tasks and environ-                              promising results. As LLM itself is a large-scale Transformer-
+     ments, especially in complex, high-dimensional visual                              based model, a natural thought is to leverage the pre-trained
+     environments, is also an important direction to explore.                           power of LLM within this paradigm.
+   • Explicit Reward Model: A key limitation in reward code                                We term this function of LLM as action-making, and
+     generation is its dependency on pre-trained common-                                identify two typical approaches, as illustrated in Fig. 5 (i).
+     sense knowledge, which can be restrictive for highly                               In the first approach (left figure), pre-trained LLM is fine-
+     specialized tasks not covered in training data. Therefore,                         tuned and then employed for action generation. In the second
+     short-term goals may include enhancing prompts with de-                            approach (right figure), goal/instruction along with trajectory
+     tailed, task-specific information and external knowledge.                          are fed to pre-trained LLM. Moreover, a task-specific smaller
+     Additionally, the reliance on manually designed templates                          model is appended after the fine-tuned LLM to facilitate rapid
+     for motion descriptions limits the adaptability. Looking                           adaptation to diverse tasks.
+     further ahead, researchers might develop automated or                                 Pre-trained LLMs outperform basic DT in generalization
+     unified processes for designing templates, moving beyond                           and sample efficiency, especially for sparse-reward and long-
+     the current limitations of manual motion description                               horizon tasks. LLMs’ latent representations, learned from di-
+     templates.                                                                         verse linguistic data, provide valuable prior knowledge for new
+                                                                                        tasks. This knowledge enables LLMs to solve unseen tasks
+               VI. LLM AS D ECISION -M AKER
+                                                                                        with less training data, by transferring knowledge from similar
+   LLMs trained on a massive amount of data show impres-                                tasks and predicting high-reward actions even with sparse
+sive results in language understanding tasks [29], instruction-                         feedback. For instance, comparing pre-trained LLM with basic
+following [126], vision-language navigation [127] and tasks                             DT, Li et al. [129] reported a 43.6% improvement in out-of-
+requiring planning and sequential reasoning [83]. Such success                          distribution (novel) task completion rates while requiring less
+motivates researchers to explore the potential of LLMs for                              training data (e.g., 500 vs 10K). Additionally, Shi et al. [130]
+decision-making problems. In this section, we divide the role                           demonstrated a 50% performance gain in sparse-reward envi-
+of LLM as 1) the action-maker that generates actions; and 2)                            ronments like Kitchen and Reacher2d. For long-horizon tasks,
+the action-guider that instructs the actions.                                           pre-trained representations encode future information, guiding
+                                                                                        decision-making over extended sequences. For instance, in
+                                 (i) Action-making                                      AntMaze, a long-horizon navigation environment, pre-trained
+                                                            Next Action
+                                                                                        representations yield five times higher scores compared to non-
+                                                       Task-Specific Model              pre-trained counterparts [131].
+                                                                                           Several studies have further explored the application of
+              Pretrained LLM                 Pretrained LLM as General Scoffold
+                                                                                        LLMs in offline RL, demonstrating their versatility and effec-
+                                                                                        tiveness across various tasks and benchmarks. Reference [132]
+                                               Trajectory        Goal / Instruction
+                                                                                        investigated the transferability of general language models on
+                                                                                        specific RL tasks. Fined-tuned on offline RL tasks (control,
+                                (ii) Action-guiding                                     games), these general language models outperform Decision
+       Action Candidates                          Expert Actions                        Transformer and reduce training time by 3-6x on D4RL
+        Env & Trajectory                                  Env
+                                                                                        benchmark [133]. Reference [129] used pre-trained LLM as a
+            History                                                                     general scaffold for task-specific model learning, where goals
+                                       Update Policy
+                                                                                        were added along with observations as the input for LLM.
+                                                                                        Results on embodied decision-making tasks demonstrate that
+                                                         Agent                          their proposed method outperforms others with less training
+                                                                                        data, especially when generalizing to novel tasks. In addition,
+                       Action                                                           they found representations in pre-trained language models
+                    Candidates
+                                                                                        can aid learning and generalization even outside of language.
+                                                        Replay            Inst.         To unify language reasoning with actions in a single policy,
+          Critic Network
+                                                                                        reference [134] generated textual captions interleaved with
+                                                                                        actions when training the Transformer-based policy. Results
+Fig. 5. LLM as a decision-maker. (i) Action-Making: given a T -length
+trajectory τ = (R̂1 , s1 , a1 , . . . , R̂T , sT , aT ) as a sequence of ordered        show that by using captions describing the next subgoals,
+return-to-go R̂, action a, and states s, LLM learns to P      predict future action     the reasoning policy can consistently outperform the caption-
+a′t by minimizing the mean squared error loss L =                          ′ 2
+                                                                 t ∥at − at ∥2 . (ii)   free baseline. For scenarios where data collection is costly
+Action-Guiding: LLM generates a reduced set of action candidates for agents
+or generates expert actions to regularize RL learning.
+                                                                                        and risky, reference [130] proposed a general framework to
+                                                                                        effectively use pre-trained LLM for offline RL. The pre-
+                                                                                        trained LLM are based on DT. To combine the pre-trained
+A. Action-Making                                                                        knowledge and task-related domain knowledge, they fine-
+  Transformer-based models such as Decision Transformer                                 tuned pre-trained LLM with Low-Rank Adaptation (LoRA)
+(DT) [128] have shown great potential in offline RL domain.                             method. The architecture of Transformer is based on GPT-
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                 12
+
+
+
+2 model with 12 layers and 12 attention heads. To fine-tune         regularizing the RL objective. Specifically, instructRL aug-
+the LLM, they obtained the trajectory data from the D4RL            ments the policy update function with an auxiliary term
+dataset. Results show their method achieves state-of-the-art        pLLM [lang(at )|lang(τti ), inst], the probability of choosing an
+performance in sparse-reward tasks with limited data samples.       action based on the trajectory and instructions. Experiments
+To integrate multimodal data, e.g., vision and language, into       show instructRL converges to policies aligned with human
+the offline RL, reference [135] co-fine-tuned vision-language       preferences. Similarly, to address the sample inefficiency issue
+models on both robotic trajectory data and Internet-scale           of RL, Zhou et al. [139] included the policy difference between
+vision-language tasks, e.g., visual question answering. In the      the student model and LLM-based teacher into RL learning
+framework, they incorporate the actions as natural language         loss. Their experiments on simulation platforms demonstrate
+tokens and co-fine-tune models on both vision and language          that the method reduced training iterations by a factor of 1
+datasets. Results show that such co-fine-tune methods can           to 9. In reference [140], LLM was leveraged to generate a
+increase generalization performance and the chain of thought        high-level expert motion plan of robotics tasks, guiding RL
+reasoning can help the agent perform multi-stage semantic           policies to efficiently solve robotics control tasks. The high-
+reasoning and solve complex tasks.                                  level language plan breaks long-horizon tasks into stages to
+                                                                    execute. Then, a single RL policy was trained across all states
+                                                                    and stepped through the language plan. Their results show the
+B. Action-Guiding
+                                                                    proposed method solves long-horizon tasks from raw visual
+   The action-guider role is illustrated in Fig. 5 (ii). As         input spanning different benchmarks at success rates of over
+an action-guider, LLM guides the action selection by either         85%, out-performing classical, language-based, and end-to-
+generating reasonable action candidates or expert actions.          end approaches.
+By instructing the action selection, LLM improves sample
+efficiency and exploration efficiency posed by enormous action
+spaces and natural language.                                        C. Summarization and Outlook
+   1) Action Candidates: In environments such as text-based            Sample inefficiency and exploration inefficiency remain
+games, action spaces are large and only a tiny fraction of          long-standing challenges for deep RL, particularly in envi-
+actions are accessible. Although RL agents can learn through        ronments with sparse rewards or where data collection is
+extensive trials, they often face exploration efficiency issues,    expensive or risky. LLM provides three ways to solve the
+especially in multi-task settings where agents must manage          problems. First, LLM as action-makers treat RL as a condi-
+various tasks simultaneously. LLMs address this challenge           tional sequence modeling problem. The supervised way fine-
+by generating a reduced set of action candidates based on           tunes pre-trained LLMs to predict future actions. Benefiting
+task understanding. These candidates are likely to yield high       from learned prior knowledge, LLM can perform well even
+rewards and are applicable across multiple tasks, enhancing         in out-of-distribution, sparse-reward, and long-horizon tasks.
+exploration efficiency and reducing the need for ineffective        Second, LLM as action-guiders generates potential action
+exploration. Reference [136] trained a GPT-2 model to gener-        candidates for RL. With task comprehension, these action
+ate the candidates. To maximize long-term rewards, another          candidates promote agents to explore potentially high task-
+neural network is used to calculate the Q-values of these           value states, thus increasing exploration efficiency. Last, LLM
+candidates. When tested in 28 man-made text games from              generates expert actions to help RL learn from demonstrations.
+Jericho framework [137], they found the method excludes             By incorporating demonstrations from LLM, and RL learns
+non-useful actions, speeds up the exploration and consistently      specific prior knowledge and improves sample efficiency.
+achieves higher scores by more than 20%. Following this work,          Safety issues are another important topic when using LLMs
+another study [83] proposed the SayCan framework, where             as decision-makers in RL, particularly for costly and risky
+instruction-following robots are integrated with an embodied        tasks [141]. For action-making, DT-based offline RL learns
+LLM to understand tasks. When receiving instructions, the           the optimal policy from pre-collected datasets. Recently, inte-
+embodied LLM generates a high-level step-by-step plan. When         grating safety constraints has been explored by some works
+acting, LLM produces action candidates based on task prompts        using methods such as pessimistic estimations [142] and
+and then the candidate with the largest critic value is executed.   stationary distribution correction [143]. These methods set a
+Being evaluated in an office kitchen with real-world robotic        constant constraint threshold before training. To dynamically
+tasks from 101 instructions, their method can complete long-        adjust the threshold during deployment, a constrained deci-
+horizon, abstract, natural language instructions on a mobile        sion transformer that dynamically relabels the reward based
+manipulator.                                                        on safety-reward trade-offs was proposed [144]. For action-
+   2) Expert Actions: Traditional RL agents cannot converge         guiding, LLMs are viewed as instructors to provide expert
+to desirable equilibrium in human-AI collaboration or learn         actions. Ensuring the safety of actions generated by LLMs
+efficiently for complex tasks, due to the lack of expert            differs from that in action-making. Leveraging ideas from
+demonstrations. With the understanding of human behavior            LLM-based agent research, we propose several potential solu-
+and general knowledge, LLM solves the issues by producing           tions. First, LLMs can be equipped with testing modules that
+high-quality expert actions to regularize RL agents. In human-      execute code to evaluate action safety and feasibility [145].
+AI collaboration, instructRL [138] used LLM to generate prior       Second, implementing a carefully designed human-in-the-
+policy based on human instructions and uses this prior to           loop framework enables safety intervention through human
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                    13
+
+
+
+oversight [146]. Finally, developing memory modules with                                       (i) World Model Simulator
+reasoning mechanisms that adaptively learn safety boundaries
+from past experiences provides a continual learning-based                                         Enhance
+approach to ensuring long-term safety [147].                               Real                                           Sim.
+   In the following, we list the challenges and future directions          World     Collect                              World
+of the two roles as below:                                                                                                               Trajectory
+   • Action-making: Directly employing pre-trained large-                                       Real Data
+                                                                              Acquire                                 Render               Rollout
+      scale LLM to generate actions demands huge computa-
+      tional resources and huge data for fine-tuning it in specific                  Guide                   Model
+      tasks. In the short term, future work may consider more
+      cost-effective methods such as the Low-Rank Adaptation                                   World Model              Dynamics           Policy
+                                                                        Knowledge
+      (LoRA) [148] to exploit the power of LLM in direct                                        Simulator             Reconstruction      Learning
+      decision-making. Long-term goals involve developing
+      innovative techniques to efficiently exploit the power                                    (ii) Policy Interpreter
+      of LLMs in direct decision-making, potentially creating
+                                                                                                         Prompts
+      hybrid models that combine the strengths of LLMs with                                                             Further Prompts
+      more lightweight, task-specific architectures.
+                                                                            State
+   • Action-guiding: Since the LLM acts as an instructor                                  Guide
+                                                                           Action
+      to provide expert actions, the bias and limitations are              History
+      also inherited by the agent. In addition, LLM itself                                                Policy
+      cannot inherently interrogate or intervene in the environ-                                                                    Interpretation
+                                                                                                        Interpreter
+      ment, which limits LLMs’ capabilities to intentionally
+      aggregate information. Short-term goal is to address            Fig. 6. LLM as a generator. (i) World Model Simulator: LLM uses real-
+      the inherited biases and limitations when LLMs act as           world data and knowledge to model dynamics, generate simulated worlds, and
+      instructors providing expert actions, focusing on meth-         assist policy learning. (ii) Policy Interpreter: LLM generates interpretations of
+                                                                      agent behavior based on state-action history and prompts, potentially leading
+      ods to filter or correct biased information. In the long        to explainable RL.
+      term, it is crucial to develop mechanisms for LLMs to
+      actively interrogate and intervene in the environment,
+      enabling them to intentionally aggregate information and
+      improve their capabilities through real-world interactions.     curate trajectories for the agent to learn and plan; 2) dynamics
+      Therefore, how to use the information gained from real-         representation learner, which predicts the latent representation
+      world interactions to improve the LLM itself in terms of        of the world using representation learning. A flow chart of
+      actuality and reasoning is another important problem.           the world model is illustrated in Fig. 6 (i). From the real
+                                                                      world, knowledge and real data can be collected to construct
+                 VII. LLM AS G ENERATOR                               a world model simulator, which further models the dynamics
+   The generative capability of LLMs can be applied to en-            representation of the world, generates trajectories and helps
+vironmental simulation and behavior explanation. On the one           the policy learning of the agent in the real world.
+hand, growing interests in applying RL to the real world and             1) Trajectory Rolloutor: Similar to the decision trans-
+risky data-collection process suggests a need for imaginary           former [153] in offline RL, pre-trained large-scale models
+rollouts [149], [150]. Possessed with a powerful modeling             were used in model-based to synthesize trajectories. In 2022,
+capability and world knowledge, LLMs can serve as a world             Micheli et al. proposed IRIS, an agent that employs a discrete
+model simulator to learn complex environmental dynamics               autoencoder and an autoregressive Transformer to learn the
+with high fidelity by iteratively predicting the next state and       world model for Atari games [154]. With the equivalent of
+reward, thus increasing the sample efficiency in model-based          two hours of gameplay in the Atari 100k benchmark, the
+RL [151], [152]. On the other hand, in RL, interpretability           proposed method outperforms humans in 10 out of 26 games.
+remains an important security issue in current black-box AI           Similarly, reference [155] applied a transformer to build a
+systems as they are increasingly being deployed to help end-          sample-efficient world model for Atari games. Utilizing such
+users with everyday tasks. Explanations of policy can improve         a Transformer-based world model (TWM), the RL agent can
+the end-user understanding of the agent’s decision-making and         solve the long-term dependency and train a state-of-the-art pol-
+inform the reward function design for agent learning. In such         icy on the Atari 100k benchmark based on generated meaning-
+aspects, LLM can act as a policy interpreter based on their           ful experiences from TWM. Visual RL enables the RL agent
+knowledge and reasoning ability. In this section, we classify         to learn from visual observations effectively. Reference [156]
+the above two roles of LLM as a generator and review recent           proposed TransDreamer, a Transformer-based model-based RL
+related works.                                                        agent that leverages a Transformer for dynamics predictions
+                                                                      in 2D and 3D visual RL tasks. Experiments showed the
+A. World Model Simulator                                              TransDreamer agent can outperform Dreamer with long-range
+  Serving as a world model simulator, LLM is trained as a             memory access and memory-based reasoning. Based on the
+1) trajectory rolloutor, which auto-regressively generates ac-        development of supervised pre-training methods, Seo et al.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                         14
+
+
+
+proposed a framework that learns world model dynamics from           Algorithm 3 Training part of Dynalang [46]
+action-free video representations [157]. The framework added         Require: Rewards rt , episode continue flag ct , images xt ,
+a video-based intrinsic bonus for better-guiding exploration to          language tokens lt , actions at , model state (ht , zt ).
+effectively encourage agents to learn diverse behaviors. The          1: while training do
+experimental results demonstrated their proposed method can           2:    Draw batch of transitions {(rt , ct , xt , lt , at )} from re-
+improve the performances of vision-based RL on manipulation                 play buffer.
+and locomotion tasks by transferring the pre-trained represen-        3:    Use world model to compute multimodal representa-
+tations from unseen domains.                                                tions zt , future predictions ẑt+1 , and decode x̂t , ˆlt , r̂t ,
+   2) Dynamics Representation Learner: Using representation                 ĉt .
+learning techniques, the latent representation of the future          4:    Update world model to minimize Lpred + Lrepr .
+can be learned to assist decision-making. Reference [114]             5:    Imagine rollouts from all zt using π.
+introduced a visual model-based RL framework that decou-              6:    Update actor to minimize Lπ .
+ples visual representation learning and dynamic learning by           7:    Update critic to minimize LV .
+training an autoencoder with a vision Transformer to recon-           8: end while
+struct pixel-given masked observations and learn the dynamics
+from the latent space. By such a decoupling approach, their
+proposed method achieved state-of-the-art performance on             limited to the policy level, i.e., as the policy interpreter.
+visual robotic tasks from Meta-world and RLBench. Utilizing          Therefore, though there is limited literature related to this area,
+the fact that language contains rich information signals and         we think this field is important and requires more attention in
+can help agents to predict the future, Lin et al. proposed           the future. The following will introduce the role of LLMs as
+Dynalang [46], where an agent that learns a multimodal world         policy interpreters and an outlook regarding other categories
+model to predict future text and image representations and           of XRL will be provided in the last subsection.
+thereby instruct the decision-making process. The algorithm             As the policy interpreter, LLM generates explanations with
+is presented in Algorithm 3. In the training part, a LLM-            the prompts of state and action description or trajectory
+based world model implemented with Recurrent State Space             information. An illustration is depicted in Fig. 6. Using the
+Model (RSSM) [158] computes the state representation zt              trajectory history of states and actions as context information,
+based on the collected transitions. After that, the representation   LLMs can be prompts to generate readable interpretations of
+zt and the action at are fed into the RSSM to predict the            current policies or situations for humans.
+future representations zt+1 . In addition, the language ˆlt and         Das et al. [161] proposed a unified framework called
+images x̂t are predicted to reconstruct the original state. Then,    State2Explanation (S2E), that learns a joint embedding model
+the world model is trained to learn the next representation          between state-action pairs and concept-based explanation.
+and reconstruct observations from the representations. After         Based on the learned models, the explanation can help inform
+updating, the world model imagined (sampled) rollouts and the        reward shaping during an agent’s training and provide insights
+policy is trained to maximize the imagined rewards. Compared         to end-users at deployment. Another work [162] first distilled
+to other works that use language only for predicting actions,        the policy into a decision tree, derives the decision path,
+multimodal information enables Dynalang to handle tasks              and then prompts an LLM to generate a natural language
+that require grounded language generation, obtaining higher          explanation based on the decision path. Additionally, Lu et
+score than methods provided with only task descriptions.             al. [163] introduced a framework that decomposes the overall
+To solve the out-of-distribution generalization problem in           reward into multiple sub-rewards based on specific object
+visual control tasks of RL, reference [159] proposed the             properties, defines actions as high-level motion primitives exe-
+Language Grounded World Model (LanGWM), which focuses                cuted at precise 3D positions to simplify decision-making, and
+on learning language-grounded visual features to enhance the         integrates LLMs to enable interactive and flexible querying of
+world model learning. To improve the generalization of the           explanations.
+learned visual features, they masked the bounding boxes and
+predicted them with given language descriptions. Utilizing the
+                                                                     C. Summarization and Outlook
+expressing ability of language in higher-level concepts and
+global contexts, the proposed LanGWM method yields state-               As a generator, LLMs can be integrated into model-based
+of-the-art results on out-of-distribution tests.                     RL or explainable RL, i.e., serving as world model simulators
+                                                                     or policy interpreters, respectively. As world model simulators,
+                                                                     LLMs enhance model-based RL by auto-regressively generat-
+B. Policy Interpreter                                                ing accurate trajectories (trajectory rollout) and by predicting
+   Explainable RL (XRL) is an emerging subfield of both              latent world representations (world representation learners),
+explainable machine learning and RL that has attracted consid-       significantly improving sample efficiency and decision-making
+erable attention recently. XRL aims to elucidate the decision-       accuracy. In the realm of explainable RL, LLMs provide
+making process of learning agents. According to a survey             valuable insights for both end-user understanding and reward
+in explainable RL [160], the categories of XRL include the           shaping by generating explanations based on trajectory infor-
+feature importance, learning process and MDP, and policy             mation. However, the current usages of LLMs in explainable
+level. Currently, the usage of LLMs in XRL has only been             RL are rather limited and have great potential for future work.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                               15
+
+
+
+Below are discussions on the key limitations and future work       the LLM-enhanced RL paradigm. Finally, we discuss future
+directions of the two roles:                                       opportunities and challenges, taking into account both the
+   • World Model Simulator: LLMs encounter challenges in           untapped capabilities and inherent limitations of LLMs, with a
+     aligning their abstract knowledge with the specific re-       particular focus on their application in multimodal information
+     quirements of different environments, leading to limi-        environments.
+     tations in functional competence and grounding. This
+     misalignment affects their effectiveness in generating        A. Comparison of Different LLM-Enhanced RL Approaches
+     trajectories and interacting with the environment. Addi-
+                                                                      This section provides a comparative analysis of the four
+     tionally, the current model-based agents, which rely on
+                                                                   LLM-enhanced RL approaches, helping researchers under-
+     purely observational world models, present difficulties for
+                                                                   stand the strengths and limitations of each approach.
+     human adaptation. These models are typically modifiable
+     only through observational data, which is not an effective       • Information Processor: As an information processor,
+
+     means for humans to communicate complex intentions or              LLM excels in handling complex, multimodal inputs,
+     adjustments. Furthermore, while LLMs hold promise for              particularly in translating natural language instructions
+     enhancing multi-task learning by generating trajectories           or environment information into a format more readily
+     and dynamic representations applicable to multiple tasks,          usable by RL agents. This role significantly enhances the
+     there remains a scarcity of research exploring this poten-         agent’s ability to understand and interact with complex
+     tial.Looking ahead, in the short term, researchers might           environments. However, it faces challenges in computa-
+     prioritize improving LLMs’ alignment with specific en-             tional efficiency and may struggle with highly specialized
+     vironment requirements. For the long term, a promising             domain knowledge not covered in its pre-training.
+     direction would be to integrate language instructions or         • Reward Designer: LLMs serving as reward designers
+
+     an adapter into the world model. This approach could               offer a more intuitive and flexible approach to defining
+     lead to a more flexible and adaptive world model that can          reward functions, especially in complex or sparse-reward
+     better accommodate human intentions and adjustments, as            environments. This role can significantly improve the
+     well as support more effective multi-task learning through         alignment of RL objectives with human intentions. The
+     enhanced trajectory generation and dynamic representa-             main limitation lies in ensuring that generated rewards
+     tions.                                                             accurately reflect task-specific nuances and long-term
+   • Policy Interpreter: As policy interpreters, the quality of         goals, particularly in highly specialized domains.
+     explanations depends on the LLM’s understanding of               • Decision-Maker: As decision-makers, LLMs can either
+
+     feature representations and implicit logic of policy. How          directly generate actions or guide action selection, lever-
+     to utilize domain knowledge or examples to improve the             aging their vast knowledge base to improve sample ef-
+     understanding of a complex policy is still a major issue.          ficiency and exploration in RL. This role is particularly
+     In the short term, researchers could focus on enhancing            effective in tasks requiring complex reasoning or long-
+     LLMs’ ability to interpret the correlation between obser-          term planning. However, it may face challenges in real-
+     vations and policy selection, providing insights into the          time decision-making scenarios due to computational
+     decision-making process of RL agents. This could involve           overhead and may inherit biases present in the LLM’s
+     developing techniques to better leverage domain knowl-             training data.
+     edge and examples for improving LLMs’ understanding              • Generator: In the generator role, LLMs can simulate
+
+     of complex policies. In the long-term, the field could             complex environments for model-based RL and provide
+     explore advanced applications of LLMs in explainable               interpretable explanations of RL policies. This capability
+     RL, such as analyzing the learning process and MDP to              is invaluable for improving sample efficiency and making
+     reveal influences on agent behavior. Researchers could             RL more transparent and understandable. The main chal-
+     develop sophisticated prompting techniques for LLMs to             lenges include aligning generated simulations with real-
+     answer nuanced “why” and “why-not” questions with                  world dynamics and ensuring the relevance and accuracy
+     MDP context, providing deeper explanations of agent                of policy explanations.
+     decision-making.
+                                                                   B. Applications of LLM-Enhanced RL
+                     VIII. D ISCUSSION                               Based on the characteristics of LLM-enhanced RL, such as
+   In previous sections, we introduced the concept “LLM-           multimodal information understanding and multi-task learning
+enhanced RL” and developed a corresponding framework,              and generation, we believe that LLM-enhanced RL opens up
+which we extended to the integration of multimodal AI              a wide array of potential applications. Here we list several
+models such as visual-language models. We then discussed           applications to inspire researchers.
+the different LLM-enhanced RL approaches. This section               • Robotics: RL is widely used in robots to learn how to
+provides a comprehensive analysis of the LLM-enhanced RL                make decisions and execute actions to achieve goals. Uti-
+approach. We begin with a comparative analysis of the differ-           lizing natural language understanding and general logical
+ent LLM roles, highlighting their advantages and limitations.           reasoning abilities, LLM-enhanced RL can 1) improve
+Following this, we explore potential real-world applications of         the efficiency of human-robot interaction, 2) help robots
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                            16
+
+
+
+    understand human needs and behavioral logic, and 3)              different tasks; For multi-task RL, LLMs enhance agents
+    enhance decision-making and planning capabilities.               by processing diverse entity representations and aligning
+  • Autonomous Driving: Autonomous driving uses RL to                instructions (Information Processor), generating reduced
+    make decisions in complex, ever-changing environments            action sets and expert actions for various tasks (Decision-
+    that involve understanding both sensor data (visual, lidar,      Maker), and creating task-specific trajectories and dy-
+    radar) and contextual information (traffic laws, human           namic representations (Generator). Recently, in-context
+    behavior). LLM-enhanced RL could employ LLMs to 1)               RL has emerged as a promising field by leveraging the
+    process this multimodal information and natural language         in-context learning capability of LLMs to solve decision-
+    instructions; or 2) design comprehensive rewards based           making problems [169]. Given a query state and an in-
+    on multi-disciplinary metrics such as safety, efficiency,        context offline dataset, a trained LLM exhibits both on-
+    and passenger comfort.                                           line exploration and offline conservation while avoiding
+  • Energy Management: In the energy system, operators or            extensive trial and error and is sample-efficient. Addi-
+    users apply RL to efficiently manage the usage, trans-           tionally, human-centric RL is another prominent field in
+    portation, conversion and storage of multiple energy with        healthcare and robotics, where AI and humans learn and
+    high uncertainty brought by renewable resources. LLM-            communicate with each other for collaboration [170]. In
+    enhanced RL in such cases can 1) improve the RL agents’          this setting, an LLM naturally serves as a perfect mediator
+    ability to handle multi-objective tasks, such as economy,        to facilitate bidirectional communication through natural
+    safety, and low carbon, by reward function designing,            language interactions.
+    and 2) increase the sample efficiency for the new energy       • LLM: While LLMs have been integrated with RL in
+    system.                                                          various methods, several promising directions remain to
+  • Healthcare Recommendation: RL is used to learn rec-              be explored to further enhance LLM capabilities for RL.
+    ommendations or suggestions in healthcare [164]. LLMs            It can be divided into the language model view and the
+    can utilize the domain knowledge to analyze the vast             language agent view as follows:
+    amount of patient data and medical histories, therefore, 1)
+    accelerating the learning process of RL recommendation              – From the model perspective: LLM could be en-
+    and 2) providing more accurate diagnostic and treatment               hanced by an external knowledge base and contin-
+    recommendations in healthcare.                                        ual learning. Retrieval-augmented generation (RAG)
+                                                                          techniques help LLM to retrieve the most relevant
+                                                                          data in an external database, which could be used
+C. Opportunities for LLM-Enhanced RL
+                                                                          to attach knowledge in the task domains [171].
+   Although current works in LLM-enhanced RL have already                 Continual learning techniques are also a hot field
+shown better performance in several aspects, more unexplored              that enables models to continuously acquire new
+areas remain to be explored and may lead to significant im-               knowledge while retaining previously learned ca-
+provement. Below, we summarize the potential opportunities                pabilities [172]. This technique allows both LLMs
+of LLM-enhanced RL from both the perspectives of RL and                   and RL agents to continuously evolve and adapt to
+LLM capabilities, respectively.                                           new tasks or environments while maintaining their
+   • RL: Existing work such as [138], [134], [129] mainly fo-             fundamental pre-trained abilities, leading to more
+     cus on the general RL while various specialized branches             flexible and robust learning systems.
+     of RL are still under-exploited, e.g. multi-agent RL,              – From the agent perspective: Equipping LLM-
+     safe RL, transfer RL, explainable RL, multi-task RL,                 based agents with specialized modules—namely,
+     in-context RL and human-centric RL. In the multi-                    planning modules, memory modules, and action
+     agent area, compared to various works about multi-                   modules—can significantly enhance the capabilities
+     LLM-agent collaboration [165], [166], LLM-based multi-               of LLMs [173], [174]. In the planning module, multi-
+     agent RL remains largely unexplored [167]. A recent                  step reasoning techniques such as CoT-based reason-
+     survey discussed some open research problems within this             ing [74] and Monte Carlo tree search (MCTS) [175]
+     field [168]. LLM-enhanced strategies could be employed               can be used to enhance LLM’s long-term planning
+     to facilitate communication and collaboration among RL               ability, improving the long-term task decomposition
+     agents. The natural language understanding capabilities              ability of RL agents; for the memory module, long-
+     of LLMs can be used to interpret and generate instruc-               and short-term human-memories and corresponding
+     tions or strategies among agents, enhancing cooperative              memory retrieval mechanisms provide a way to
+     behaviors or competition strategies; Safe RL could benefit           store previous experiences and learn adaptively along
+     from the reasoning and predictive capabilities of LLMs               with the RL agents [176]; for the action module,
+     to design cost functions that encourage safety criteria              tool integration presents another promising direc-
+     compliance, reducing the risks of dangerous exploration;             tion to unlock new possibilities for LLMs. Exter-
+     In transfer RL, LLMs can assist in identifying simi-                 nal tools such as mathematical solvers [177] and
+     larities between tasks or environments, leveraging their             internet browsers [178] can augment LLMs’ capa-
+     vast knowledge base to facilitate knowledge transfer and             bilities in RL tasks requiring complex mathematical
+     thus improve learning efficiency and adaptability across             computations and real-time information processing,
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                               17
+
+
+
+         respectively. Furthermore, collaboration of multiple        • Computational Demands: The integration of LLMs into
+         LLM agents [179] is another promising direction.              the RL learning process introduces complexities in terms
+         With each LLM playing different roles and acquir-             of computational overhead and inference times, which
+         ing different information, multiple distinctive LLM           slow down the learning process of RL. To address this
+         agents solve complex problems by communicating                challenge, several potential solutions have been proposed
+         and exchanging information. In the context of LLM-            across different levels. At the data level, input compres-
+         enhanced RL, different LLMs could potential serves            sion techniques such as prompt pruning [183] can be em-
+         different roles and work together to guiding RL. For          ployed to directly shorten the model input, significantly
+         example, in a group of three LLM agents, one LLM              reducing inference time without substantial loss in perfor-
+         focuses on guiding short-term or immediate problem-           mance. At the model level, efficient architecture designs
+         solving for RL; another LLM is responsible for long-          like mixture-of-experts (MoE) [184] enable conditional
+         term planning for RL; the last LLM serves as a                computation, activating only relevant parts of the model
+         coordinator responsible for overseeing the group and          for each input, thus reducing computational costs. Sim-
+         adjusting horizon consideration accordingly.                  ilarly, structured state space models (SSM) [185] offer
+                                                                       linear-time complexity for sequence modeling, providing
+D. Challenges of LLM-Enhanced RL                                       a more efficient alternative to traditional attention mech-
+   While LLM improves different issues in the RL paradigm,             anisms. At the system level, advanced caching strate-
+the success of LLM-enhanced RL is inherently tied to the ca-           gies [186] and asynchronous processing techniques [187]
+pabilities and limitations of the underlying LLM. The primary          can be implemented to reuse intermediate computations
+concerns revolve around the inherent limitations of LLMs,              and parallelize the execution, respectively.
+adaptability of LLMs in RL environments, computational               • Ethical, Legal, and Safety Concerns: In practical usages,
+demands, and the broader implications of deploying such                the use of LLMs involves complex ethical, legal, and
+systems in real-world scenarios.                                       safety concerns. Data privacy, intellectual property, and
+   • Inherent Limitations of LLMs: The effectiveness of LLM-           accountability for AI decisions should be carefully dis-
+     enhanced RL systems is fundamentally constrained by               cussed. To address these issues, researchers are devel-
+     the inherent capabilities and limitations of the underlying       oping robust frameworks for responsible AI deployment.
+     language models. The presence of systematic biases and            At the privacy level, differential privacy techniques [188]
+     potential hallucinations in pre-trained LLMs can signifi-         are being implemented to protect individual data during
+     cantly impact the reliability of multimodal input interpre-       training and inference. For transparency, efforts focus
+     tation, potentially compromising the overall performance          on developing interpretable AI systems, allowing stake-
+     of the RL agent. This necessitates the development of             holders to audit AI-driven decisions [189]. To enhance
+     robust evaluation frameworks to systematically charac-            system robustness, adversarial training methods are being
+     terize and delineate the capability boundaries of LLMs            explored to strengthen LLM-RL systems against potential
+     given specified RL contexts. Furthermore, incorporating           attacks [190]. Regarding ethical and legal issues, a recent
+     uncertainty quantification methods aids in identifying un-        survey also analyzed potential solutions to integrate eth-
+     reliable answers, increasing the trustworthiness of LLMs’         ical standards and societal values into LLM [191].
+     responses [180].
+   • Adaptability of LLMs in RL Environments: Despite the
+                                                                                         IX. C ONCLUSION
+     vast knowledge base of LLMs, they may struggle to
+     adapt to specific or novel RL task environments that are         LLMs, with their pre-trained knowledge bases and powerful
+     not well-represented in their training data. This calls for   capabilities such as reasoning and in-context learning, present
+     methods to expand the task-related knowledge for LLM          as a viable solution to enhance RL in terms of natural lan-
+     and ground LLMs’ inherent knowledge in specific do-           guage understanding, multi-task generalization, task planning,
+     mains. In terms of expanding the task-related knowledge,      and sample efficiency. In this survey, we have defined this
+     RAG-related techniques attach LLMs with the external          paradigm as LLM-enhanced RL and summarized its character-
+     domain-knowledge without further training [171]. When         istics, together with opportunities and challenges. To formalize
+     fine-tuning LLMs, employing data augmentation tech-           the research scope and methodology of LLM-enhanced RL, we
+     niques such as generating synthetic data is another way       propose a structured framework to systematically categorize
+     to expand the diversity of training scenarios and improve     the roles of LLM based on the functionalities within the
+     generalization to novel environments [181]. Additionally,     classical agent-environment interaction paradigm. According
+     continual learning mechanisms help preserve previously        to functionalities, we categorize the roles of LLMs into
+     acquired knowledge while adapting to new informa-             information processor, reward designer, decision-maker, and
+     tion [182]. For domain-specific knowledge grounding,          generator. For each category, we review current literature based
+     approaches include training value functions to evaluate       on their methods and applications, outline the methodologies,
+     the long-term utility of LLM instructions [83]. Expert        discuss the addressed issues, and provide insights into future
+     trajectories provide another valuable source of informa-      directions. These are listed below:
+     tion, allowing LLMs to learn optimal decision-making             • Information Processor: LLMs extract observational rep-
+     patterns through in-context learning.                               resentations and formal specification languages for RL
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                            18
+
+
+
+    agents, thus increasing the sample efficiency. Future                         [14] Y. Jiang, S. S. Gu, K. P. Murphy, and C. Finn, “Language as an
+    directions include incorporating goal-based information                            abstraction for hierarchical deep reinforcement learning,” Advances in
+                                                                                       Neural Information Processing Systems, vol. 32, 2019.
+    and integrating multimodal environmental information to                       [15] P. Anderson, Q. Wu, D. Teney, J. Bruce, M. Johnson, N. Sünderhauf,
+    obtain stronger information extraction ability.                                    I. Reid, S. Gould et al., “Vision-and-language navigation: Interpreting
+  • Reward Designer: For intricate or un-quantifiable tasks,                           visually-grounded navigation instructions in real environments,” in
+                                                                                       Proceedings of the IEEE conference on computer vision and pattern
+    LLMs can leverage pre-trained knowledge to generate                                recognition, 2018, pp. 3674–3683.
+    high-performing rewards that are notoriously difficult                        [16] A. Stooke, K. Lee, P. Abbeel, and M. Laskin, “Decoupling representa-
+    for humans to design. Current methods still require                                tion learning from reinforcement learning,” in International Conference
+                                                                                       on Machine Learning. PMLR, 2021, pp. 9870–9879.
+    consistently modifying the prompts and instructions of                        [17] J. Luketina, N. Nardelli, G. Farquhar, J. Foerster, J. Andreas, E. Grefen-
+    LLMs, calling for future work on automated self-evolving                           stette, S. Whiteson, and T. Rocktäschel, “A Survey of Reinforcement
+    frameworks without human intervention.                                             Learning Informed by Natural Language,” Jun. 2019.
+                                                                                  [18] A. Mandlekar, D. Xu, J. Wong, S. Nasiriany, C. Wang, R. Kulkarni,
+  • Decision-Maker: LLMs generate direct actions or indirect
+                                                                                       L. Fei-Fei, S. Savarese et al., “What matters in learning from offline
+    advice for the agent to improve exploration efficiency.                            human demonstrations for robot manipulation,” 2021.
+    Huge computational overhead is a major issue in online                        [19] C. Lynch, A. Wahid, J. Tompson, T. Ding, J. Betker, R. Baruch,
+    interaction. Cost-effective methods to reduce the huge                             T. Armstrong, and P. Florence, “Interactive language: Talking to robots
+                                                                                       in real time,” 2022.
+    computational overhead of LLM in online RL is an                              [20] Z. Yang, K. Ren, X. Luo, M. Liu, W. Liu, J. Bian, W. Zhang, and
+    important direction.                                                               D. Li, “Towards applicable reinforcement learning: Improving the
+  • Generator: With the generative capability and world                                generalization and sample efficiency with policy ensemble,” in Inter-
+                                                                                       national Joint Conference on Artificial Intelligence, 2022. [Online].
+    knowledge, LLMs are used as 1) a high-fidelity world                               Available: https://api.semanticscholar.org/CorpusID:248887230
+    model to reduce real-world learning cost; and 2) a                            [21] W. B. Knox, A. Allievi, H. Banzhaf, F. Schmitt, and P. Stone, “Reward
+    language-based policy interpreter to explain the agent                             (mis) design for autonomous driving,” Artificial Intelligence, vol. 316,
+                                                                                       p. 103829, 2023.
+    policy. Leveraging human instructions to improve the                          [22] F. Dworschak, S. Dietze, M. Wittmann, B. Schleich, and S. Wartzack,
+    accuracy and generalizability of the world model and                               “Reinforcement learning for engineering design automation,” Advanced
+    policy interpreter would be a crucial direction.                                   Engineering Informatics, vol. 52, p. 101612, 2022.
+                                                                                  [23] S. Booth, W. B. Knox, J. Shah, S. Niekum, P. Stone, and A. Al-
+                                                                                       lievi, “The perils of trial-and-error reward design: misdesign through
+                             R EFERENCES                                               overfitting and invalid task specifications,” in Proceedings of the AAAI
+                                                                                       Conference on Artificial Intelligence, vol. 37, no. 5, 2023, pp. 5920–
+ [1] R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction.            5929.
+     MIT press, 2018.
+                                                                                  [24] L. L. Di Langosco, J. Koch, L. D. Sharkey, J. Pfau, and D. Krueger,
+ [2] V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G.
+                                                                                       “Goal misgeneralization in deep reinforcement learning,” in Interna-
+     Bellemare, A. Graves, M. Riedmiller et al., “Human-level control
+                                                                                       tional Conference on Machine Learning. PMLR, 2022, pp. 12 004–
+     through deep reinforcement learning,” Nature, vol. 518, no. 7540, pp.
+                                                                                       12 019.
+     529–533, 2015.
+                                                                                  [25] R. Yang, X. Sun, and K. Narasimhan, “A generalized algorithm for
+ [3] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, and O. Klimov, “Prox-
+                                                                                       multi-objective reinforcement learning and policy adaptation,” Ad-
+     imal policy optimization algorithms,” arXiv preprint arXiv:1707.06347,
+                                                                                       vances in neural information processing systems, vol. 32, 2019.
+     2017.
+ [4] T. Haarnoja, A. Zhou, P. Abbeel, and S. Levine, “Soft actor-critic: Off-     [26] J. Luketina, N. Nardelli, G. Farquhar, J. Foerster, J. Andreas,
+     policy maximum entropy deep reinforcement learning with a stochastic              E. Grefenstette, S. Whiteson, and T. Rocktäschel, “A survey of re-
+     actor,” in International conference on machine learning. PMLR, 2018,              inforcement learning informed by natural language,” arXiv preprint
+     pp. 1861–1870.                                                                    arXiv:1906.03926, 2019.
+ [5] O. Vinyals, I. Babuschkin, W. M. Czarnecki, M. Mathieu, A. Dudzik,           [27] J. Devlin, “Bert: Pre-training of deep bidirectional transformers for
+     J. Chung, D. H. Choi, R. Powell et al., “Grandmaster level in starcraft ii        language understanding,” arXiv preprint arXiv:1810.04805, 2018.
+     using multi-agent reinforcement learning,” Nature, vol. 575, no. 7782,       [28] A. Radford and K. Narasimhan, “Improving language understanding
+     pp. 350–354, 2019.                                                                by generative pre-training,” 2018. [Online]. Available: https://api.
+ [6] C. Berner, G. Brockman, B. Chan, V. Cheung, P. Déak, C. Dennison,                semanticscholar.org/CorpusID:49313245
+     D. Farhi, Q. Fischer et al., “Dota 2 with large scale deep reinforcement     [29] T. Brown, B. Mann, N. Ryder, M. Subbiah, J. D. Kaplan, P. Dhariwal,
+     learning,” arXiv preprint arXiv:1912.06680, 2019.                                 A. Neelakantan, P. Shyam et al., “Language models are few-shot
+ [7] D. Silver, A. Huang, C. J. Maddison, A. Guez, L. Sifre, G. Van                    learners,” Advances in neural information processing systems, vol. 33,
+     Den Driessche, J. Schrittwieser, I. Antonoglou et al., “Mastering the             pp. 1877–1901, 2020.
+     game of go with deep neural networks and tree search,” Nature, vol.          [30] A. Chowdhery, S. Narang, J. Devlin, M. Bosma, G. Mishra, A. Roberts,
+     529, no. 7587, pp. 484–489, 2016.                                                 P. Barham, H. W. Chung et al., “Palm: Scaling language modeling with
+ [8] J. Schrittwieser, I. Antonoglou, T. Hubert, K. Simonyan, L. Sifre,                pathways,” Journal of Machine Learning Research, vol. 24, no. 240,
+     S. Schmitt, A. Guez, E. Lockhart et al., “Mastering atari, go,                    pp. 1–113, 2023.
+     chess and shogi by planning with a learned model,” arXiv preprint            [31] A. J. Thirunavukarasu, D. S. J. Ting, K. Elangovan, L. Gutierrez, T. F.
+     arXiv:1911.08265, 2020.                                                           Tan, and D. S. W. Ting, “Large language models in medicine,” Nature
+ [9] H. Zhao, Z. Liu, X. Mai, J. Zhao, J. Qiu, G. Liu, Z. Y. Dong, and                 medicine, vol. 29, no. 8, pp. 1930–1940, 2023.
+     A. M. Ghias, “Mobile battery energy storage system control with              [32] D. A. Boiko, R. MacKnight, B. Kline, and G. Gomes, “Autonomous
+     knowledge-assisted deep reinforcement learning,” Energy Conversion                chemical research with large language models,” Nature, vol. 624, no.
+     and Economics, vol. 3, no. 6, pp. 381–391, 2022.                                  7992, pp. 570–578, 2023.
+[10] N. B. Schmid, A. Botev, A. Hennig, A. Lerer, Q. Wu, D. Yarats,               [33] G. Jiang, Z. Ma, L. Zhang, and J. Chen, “Eplus-llm: A large language
+     J. Foerster, T. Rocktäschel et al., “Rebel: A general game playing ai,”          model-based computing platform for automated building energy mod-
+     Science, vol. 373, no. 6556, pp. 664–670, 2021.                                   eling,” Applied Energy, vol. 367, p. 123431, 2024.
+[11] N. Brown, A. Lerer, S. Gross, and T. Sandholm, “Superhuman ai for            [34] H. Tan, Z. Guo, Z. Lin, Y. Chen, D. Huang, W. Yuan, H. Zhang, and
+     multiplayer poker,” Science, vol. 365, no. 6456, pp. 885–890, 2020.               J. Yan, “General generative ai-based image augmentation method for
+[12] A. Vaswani, “Attention is all you need,” Advances in Neural Informa-              robust rooftop pv segmentation,” Applied Energy, vol. 368, p. 123554,
+     tion Processing Systems, 2017.                                                    2024.
+[13] A. Krizhevsky, I. Sutskever, and G. E. Hinton, “Imagenet classification      [35] X. Zhou, H. Zhao, Y. Cheng, Y. Cao, G. Liang, G. Liu, and J. Zhao,
+     with deep convolutional neural networks,” Advances in neural infor-               “Elecbench: a power dispatch evaluation benchmark for large language
+     mation processing systems, vol. 25, 2012.                                         models,” arXiv preprint arXiv:2407.05365, 2024.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                       19
+
+
+
+[36] J. Liang, W. Huang, F. Xia, P. Xu, K. Hausman, B. Ichter, P. Florence,    [60] G. Zhang, A. Jain, I. Hwang, S.-H. Sun, and J. J. Lim, “Efficient
+     and A. Zeng, “Code as policies: Language model programs for em-                multi-task reinforcement learning via selective behavior sharing,” 2024.
+     bodied control,” in 2023 IEEE International Conference on Robotics             [Online]. Available: https://openreview.net/forum?id=LYGHdwyXUb
+     and Automation (ICRA). IEEE, 2023, pp. 9493–9500.                         [61] N. Vithayathil Varghese and Q. H. Mahmoud, “A survey of multi-task
+[37] T. Webb, K. J. Holyoak, and H. Lu, “Emergent analogical reasoning              deep reinforcement learning,” Electronics, vol. 9, no. 9, 2020.
+     in large language models,” Nature Human Behaviour, vol. 7, no. 9, pp.          [Online]. Available: https://www.mdpi.com/2079-9292/9/9/1363
+     1526–1541, 2023.                                                          [62] T. Xiao, H. Chan, P. Sermanet, A. Wahid, A. Brohan, K. Hausman,
+[38] J. Wei, J. Wei, Y. Tay, D. Tran, A. Webson, Y. Lu, X. Chen, H. Liu             S. Levine, and J. Tompson, “Robotic Skill Acquisition via Instruction
+     et al., “Larger language models do in-context learning differently,”           Augmentation with Vision-Language Models,” Jul. 2023.
+     arXiv preprint arXiv:2303.03846, 2023.                                    [63] H. Yuan, C. Zhang, H. Wang, F. Xie, P. Cai, H. Dong, and Z. Lu,
+[39] J. Huang and K. C.-C. Chang, “Towards reasoning in large language              “Plan4mc: Skill reinforcement learning and planning for open-world
+     models: A survey,” arXiv preprint arXiv:2212.10403, 2022.                      minecraft tasks,” arXiv preprint arXiv:2303.16563, 2023.
+[40] J. Yu, X. Wang, S. Tu, S. Cao, D. Zhang-Li, X. Lv, H. Peng,               [64] J. Rocamonde, V. Montesinos, E. Nava, E. Perez, and D. Lindner,
+     Z. Yao et al., “Kola: Carefully benchmarking world knowledge of large          “Vision-Language Models are Zero-Shot Reward Models for Rein-
+     language models,” 2023.                                                        forcement Learning,” Oct. 2023.
+[41] I. Singh, V. Blukis, A. Mousavian, A. Goyal, D. Xu, J. Tremblay,          [65] A. Vaswani, N. M. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N.
+     D. Fox, J. Thomason et al., “Progprompt: program generation for                Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,”
+     situated robot task planning using large language models,” Autonomous          in Neural Information Processing Systems, 2017. [Online]. Available:
+     Robots, pp. 1–14, 2023.                                                        https://api.semanticscholar.org/CorpusID:13756489
+[42] N. Stiennon, L. Ouyang, J. Wu, D. M. Ziegler, R. Lowe, C. Voss,           [66] M. Shanahan, “Talking about large language models,” ArXiv, vol.
+     A. Radford, D. Amodei et al., “Learning to summarize from human                abs/2212.03551, 2022. [Online]. Available: https://api.semanticscholar.
+     feedback,” 2022.                                                               org/CorpusID:254366666
+[43] E. Akyürek, D. Schuurmans, J. Andreas, T. Ma, and D. Zhou, “What         [67] H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux,
+     learning algorithm is in-context learning? investigations with linear          T. Lacroix, B. Rozière, N. Goyal et al., “Llama: Open and
+     models,” 2023.                                                                 efficient foundation language models,” ArXiv, vol. abs/2302.13971,
+[44] Y. Du, O. Watkins, Z. Wang, C. Colas, T. Darrell, P. Abbeel, A. Gupta,         2023. [Online]. Available: https://api.semanticscholar.org/CorpusID:
+     and J. Andreas, “Guiding Pretraining in Reinforcement Learning with            257219404
+     Large Language Models,” Sep. 2023.                                        [68] J. Kaplan, S. McCandlish, T. J. Henighan, T. B. Brown, B. Chess,
+[45] T. Carta, C. Romac, T. Wolf, S. Lamprier, O. Sigaud, and P.-Y. Oudeyer,        R. Child, S. Gray, A. Radford et al., “Scaling laws for neural language
+     “Grounding Large Language Models in Interactive Environments with              models,” ArXiv, vol. abs/2001.08361, 2020. [Online]. Available:
+     Online Reinforcement Learning,” Sep. 2023.                                     https://api.semanticscholar.org/CorpusID:210861095
+[46] J. Lin, Y. Du, O. Watkins, D. Hafner, P. Abbeel, D. Klein, and            [69] J. Hoffmann, S. Borgeaud, A. Mensch, E. Buchatskaya, T. Cai,
+     A. Dragan, “Learning to Model the World with Language,” Jul. 2023.             E. Rutherford, D. de Las Casas, L. A. Hendricks et al., “Training
+[47] H. Li, X. Yang, Z. Wang, X. Zhu, J. Zhou, Y. Qiao, X. Wang, H. Li              compute-optimal large language models,” ArXiv, vol. abs/2203.15556,
+     et al., “Auto mc-reward: Automated dense reward design with large              2022. [Online]. Available: https://api.semanticscholar.org/CorpusID:
+     language models for minecraft,” 2023.                                          247778764
+[48] S. Chakraborty, K. Weerakoon, P. Poddar, M. Elnoor, P. Narayanan,         [70] J. Wei, Y. Tay, R. Bommasani, C. Raffel, B. Zoph, S. Borgeaud,
+     C. Busart, P. Tokekar, A. S. Bedi et al., “RE-MOVE: An Adaptive                D. Yogatama, M. Bosma et al., “Emergent abilities of large language
+     Policy Design for Robotic Navigation Tasks in Dynamic Environments             models,” Trans. Mach. Learn. Res., vol. 2022, 2022. [Online].
+     via Language-Based Feedback,” Sep. 2023.                                       Available: https://api.semanticscholar.org/CorpusID:249674500
+[49] J.-C. Pang, X.-Y. Yang, S.-H. Yang, and Y. Yu, “Natural language-         [71] V. Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai,
+     conditioned reinforcement learning with inside-out task language               A. Chaffin, A. Stiegler et al., “Multitask prompted training enables
+     development and translation,” 2023. [Online]. Available: https:                zero-shot task generalization,” arXiv preprint arXiv:2110.08207, 2021.
+     //arxiv.org/abs/2302.09368                                                [72] L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wainwright, P. Mishkin,
+[50] D. Kalashnikov, A. Irpan, P. Pastor, J. Ibarz, A. Herzog, E. Jang,             C. Zhang, S. Agarwal et al., “Training language models to follow
+     D. Quillen, E. Holly et al., “Qt-opt: Scalable deep reinforcement              instructions with human feedback,” 2022.
+     learning for vision-based robotic manipulation,” 2018.                    [73] Y. Cheng, H. Zhao, X. Zhou, J. Zhao, Y. Cao, and C. Yang, “Gaia–
+[51] K. Wang, B. Kang, J. Shao, and J. Feng, “Improving generalization              a large language model for advanced power dispatch,” arXiv preprint
+     in reinforcement learning with mixture regularization,” Advances in            arXiv:2408.03847, 2024.
+     Neural Information Processing Systems, vol. 33, pp. 7968–7978, 2020.      [74] J. Wei, X. Wang, D. Schuurmans, M. Bosma, B. Ichter, F. Xia, E. Chi,
+[52] R. Devidze, P. Kamalaruban, and A. Singla, “Exploration-guided                 Q. Le et al., “Chain-of-thought prompting elicits reasoning in large
+     reward shaping for reinforcement learning under sparse rewards,”               language models,” 2023.
+     Advances in Neural Information Processing Systems, vol. 35, pp. 5829–     [75] S. Yao, D. Yu, J. Zhao, I. Shafran, T. L. Griffiths, Y. Cao, and
+     5842, 2022.                                                                    K. Narasimhan, “Tree of thoughts: Deliberate problem solving with
+[53] A. Singh, L. Yang, K. Hartikainen, C. Finn, and S. Levine, “End-to-            large language models,” 2023.
+     end robotic reinforcement learning without reward engineering,” arXiv     [76] M. Besta, N. Blach, A. Kubicek, R. Gerstenberger, L. Gianinazzi,
+     preprint arXiv:1904.07854, 2019.                                               J. Gajda, T. Lehmann, M. Podstawski et al., “Graph of thoughts:
+[54] D. Hadfield-Menell, S. Milli, P. Abbeel, S. J. Russell, and A. Dragan,         Solving elaborate problems with large language models,” 2023.
+     “Inverse reward design,” Advances in neural information processing        [77] Z. Rao, Y. Wu, Z. Yang, W. Zhang, S. Lu, W. Lu, and Z. Zha, “Visual
+     systems, vol. 30, 2017.                                                        navigation with multiple goals based on deep reinforcement learning,”
+[55] C. Xiao, Y. Wu, C. Ma, D. Schuurmans, and M. Müller, “Learning                IEEE Transactions on Neural Networks and Learning Systems, vol. 32,
+     to combat compounding-error in model-based reinforcement learning,”            no. 12, pp. 5445–5455, 2021.
+     arXiv preprint arXiv:1912.11206, 2019.                                    [78] C. Huang, R. Zhang, M. Ouyang, P. Wei, J. Lin, J. Su, and L. Lin,
+[56] T. M. Moerland, J. Broekens, A. Plaat, C. M. Jonker et al., “Model-            “Deductive reinforcement learning for visual autonomous urban driving
+     based reinforcement learning: A survey,” Foundations and Trends® in            navigation,” IEEE Transactions on Neural Networks and Learning
+     Machine Learning, vol. 16, no. 1, pp. 1–118, 2023.                             Systems, vol. 32, no. 12, pp. 5379–5391, 2021.
+[57] M. Cho, J. Park, S. Lee, and Y. Sung, “Hard tasks first: Multi-           [79] M. Yang, W. Huang, W. Tu, Q. Qu, Y. Shen, and K. Lei, “Multitask
+     task reinforcement learning through task scheduling,” in Forty-first           learning and reinforcement learning for personalized dialog genera-
+     International Conference on Machine Learning, 2024. [Online].                  tion: An empirical study,” IEEE transactions on neural networks and
+     Available: https://openreview.net/forum?id=haUOhXo70o                          learning systems, vol. 32, no. 1, pp. 49–62, 2020.
+[58] J. Feng, M. Chen, Z. Pu, T. Qiu, and J. Yi, “Efficient multi-task         [80] Z. He, J. Li, F. Wu, H. Shi, and K.-S. Hwang, “Derl: Coupling
+     reinforcement learning via task-specific action correction,” 2024.             decomposition in action space for reinforcement learning task,” IEEE
+     [Online]. Available: https://arxiv.org/abs/2404.05950                          Transactions on Emerging Topics in Computational Intelligence, 2023.
+[59] L. Sun, H. Zhang, W. Xu, and M. Tomizuka, “Paco: Parameter-               [81] Y. Liu, Y. Zhang, Y. Wang, F. Hou, J. Yuan, J. Tian, Y. Zhang, Z. Shi
+     compositional multi-task reinforcement learning,” Advances in Neural           et al., “A survey of visual transformers,” IEEE Transactions on Neural
+     Information Processing Systems, vol. 35, pp. 21 495–21 507, 2022.              Networks and Learning Systems, 2023.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                          20
+
+
+
+ [82] Y. J. Ma, W. Liang, G. Wang, D.-A. Huang, O. Bastani, D. Jayaraman,        [105] J. Andreas, D. Klein, and S. Levine, “Modular multitask reinforcement
+      Y. Zhu, L. Fan et al., “Eureka: Human-Level Reward Design via                    learning with policy sketches,” in International conference on machine
+      Coding Large Language Models,” Oct. 2023.                                        learning. PMLR, 2017, pp. 166–175.
+ [83] M. Ahn, A. Brohan, N. Brown, Y. Chebotar, O. Cortes, B. David,             [106] S. Mirchandani, S. Karamcheti, and D. Sadigh, “Ella: Exploration
+      C. Finn, C. Fu et al., “Do As I Can, Not As I Say: Grounding Language            through learned language abstraction,” Advances in Neural Information
+      in Robotic Affordances,” Aug. 2022.                                              Processing Systems, vol. 34, pp. 29 529–29 540, 2021.
+ [84] K. Nottingham, P. Ammanabrolu, A. Suhr, Y. Choi, H. Hajishirzi,            [107] M. Kwon, S. M. Xie, K. Bullard, and D. Sadigh, “Reward Design
+      S. Singh, and R. Fox, “Do Embodied Agents Dream of Pixelated Sheep:              with Language Models,” in The Eleventh International Conference on
+      Embodied Decision Making using Language Guided World Modelling,”                 Learning Representations, Sep. 2022.
+      Apr. 2023.                                                                 [108] Y. Wu, Y. Fan, P. P. Liang, A. Azaria, Y. Li, and T. M. Mitchell,
+ [85] A. Srinivas, M. Laskin, and P. Abbeel, “CURL: Contrastive Unsuper-               “Read and Reap the Rewards: Learning to Play Atari with the Help of
+      vised Representations for Reinforcement Learning,” Sep. 2020.                    Instruction Manuals,” Oct. 2023.
+ [86] M. Schwarzer, A. Anand, R. Goel, R. D. Hjelm, A. Courville, and            [109] K. Chu, X. Zhao, C. Weber, M. Li, and S. Wermter, “Accelerating
+      P. Bachman, “Data-efficient reinforcement learning with self-predictive          Reinforcement Learning of Robotic Manipulations via Feedback from
+      representations,” arXiv preprint arXiv:2007.05929, 2020.                         Large Language Models,” Nov. 2023.
+ [87] F. Paischer, T. Adler, V. Patil, A. Bitto-Nemling, M. Holzleitner,         [110] A. Adeniji, A. Xie, C. Sferrazza, Y. Seo, S. James, and P. Abbeel,
+      S. Lehner, H. Eghbal-zadeh, and S. Hochreiter, “History Compression              “Language reward modulation for pretraining reinforcement learning,”
+      via Language Models in Reinforcement Learning,” Feb. 2023.                       arXiv preprint arXiv:2308.12270, 2023.
+ [88] F. Paischer, T. Adler, M. Hofmarcher, and S. Hochreiter, “Semantic         [111] V. Sanh, L. Debut, J. Chaumond, and T. Wolf, “Distilbert, a distilled
+      helm: A human-readable memory for reinforcement learning,” Ad-                   version of bert: smaller, faster, cheaper and lighter,” 2020. [Online].
+      vances in Neural Information Processing Systems, vol. 36, 2024.                  Available: https://arxiv.org/abs/1910.01108
+ [89] A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal,          [112] C. Kim, Y. Seo, H. Liu, L. Lee, J. Shin, H. Lee, and K. Lee, “Guide
+      G. Sastry, A. Askell et al., “Learning transferable visual models from           Your Agent with Adaptive Multimodal Rewards,” Oct. 2023.
+      natural language supervision,” in International conference on machine      [113] S. Nair, A. Rajeswaran, V. Kumar, C. Finn, and A. Gupta, “R3m: A
+      learning. PMLR, 2021, pp. 8748–8763.                                             universal visual representation for robot manipulation,” 2022. [Online].
+ [90] Z. Dai, Z. Yang, Y. Yang, J. Carbonell, Q. V. Le, and R. Salakhutdinov,          Available: https://arxiv.org/abs/2203.12601
+      “Transformer-xl: Attentive language models beyond a fixed-length           [114] Y. Seo, D. Hafner, H. Liu, F. Liu, S. James, K. Lee, and P. Abbeel,
+      context,” 2019. [Online]. Available: https://arxiv.org/abs/1901.02860            “Masked World Models for Visual Control,” May 2023.
+ [91] A. v. d. Oord, Y. Li, and O. Vinyals, “Representation learning with        [115] K. Grauman, A. Westbury, E. Byrne, Z. Chavis, A. Furnari, R. Girdhar,
+      contrastive predictive coding,” arXiv preprint arXiv:1807.03748, 2018.           J. Hamburger, H. Jiang et al., “Ego4d: Around the world in 3,000 hours
+ [92] W. K. Kim, S. Kim, H. Woo et al., “Efficient policy adaptation with              of egocentric video,” in Proceedings of the IEEE/CVF Conference on
+      contrastive prompt ensemble for embodied agents,” Advances in Neural             Computer Vision and Pattern Recognition, 2022, pp. 18 995–19 012.
+      Information Processing Systems, vol. 36, 2024.                             [116] Y. Wang, Z. Sun, J. Zhang, Z. Xian, E. Biyik, D. Held,
+ [93] R. P. Poudel, H. Pandya, S. Liwicki, and R. Cipolla, “Recore:                    and Z. Erickson, “Rl-vlm-f: Reinforcement learning from vision
+      Regularized contrastive representation learning of world model,” in              language foundation model feedback,” 2024. [Online]. Available:
+      Proceedings of the IEEE/CVF Conference on Computer Vision and                    https://arxiv.org/abs/2402.03681
+      Pattern Recognition, 2024, pp. 22 904–22 913.                              [117] W. Yu, N. Gileadi, C. Fu, S. Kirmani, K.-H. Lee, M. G. Arenas, H.-
+ [94] S. Basavatia, K. Murugesan, and S. Ratnakar, “Starling: Self-supervised          T. L. Chiang, T. Erez et al., “Language to rewards for robotic skill
+      training of text-based reinforcement learning agent with large language          synthesis,” arXiv preprint arXiv:2306.08647, 2023.
+      models,” arXiv preprint arXiv:2406.05872, 2024.                            [118] A. Madaan, N. Tandon, P. Gupta, S. Hallinan, L. Gao, S. Wiegreffe,
+ [95] R. Patel, E. Pavlick, and S. Tellex, “Grounding language to non-                 U. Alon, N. Dziri et al., “Self-refine: Iterative refinement with self-
+      markovian tasks with no supervision of task specifications.” in                  feedback,” 2023.
+      Robotics: Science and Systems, vol. 2020, 2020.                            [119] J. Song, Z. Zhou, J. Liu, C. Fang, Z. Shu, and L. Ma, “Self-Refined
+ [96] T. R. Sumers, M. K. Ho, R. D. Hawkins, K. Narasimhan, and T. L.                  Large Language Model as Automated Reward Function Designer for
+      Griffiths, “Learning rewards from linguistic feedback,” in Proceedings           Deep Reinforcement Learning in Robotics,” Oct. 2023.
+      of the AAAI Conference on Artificial Intelligence, vol. 35, no. 7, 2021,   [120] T. Xie, S. Zhao, C. H. Wu, Y. Liu, Q. Luo, V. Zhong,
+      pp. 6002–6010.                                                                   Y. Yang, and T. Yu, “Text2reward: Reward shaping with language
+ [97] J. Liang, W. Huang, F. Xia, P. Xu, K. Hausman, B. Ichter, P. Florence,           models for reinforcement learning,” in The Twelfth International
+      and A. Zeng, “Code as Policies: Language Model Programs for                      Conference on Learning Representations, 2024. [Online]. Available:
+      Embodied Control,” May 2023.                                                     https://openreview.net/forum?id=tUM39YTRxH
+ [98] C. H. Song, J. Wu, C. Washington, B. M. Sadler, W.-L. Chao, and Y. Su,     [121] E. Ferrara, “Should chatgpt be biased? challenges and risks of bias in
+      “Llm-planner: Few-shot grounded planning for embodied agents with                large language models,” arXiv preprint arXiv:2304.03738, 2023.
+      large language models,” in Proceedings of the IEEE/CVF International       [122] I. O. Gallegos, R. A. Rossi, J. Barrow, M. M. Tanjim, S. Kim,
+      Conference on Computer Vision, 2023, pp. 2998–3009.                              F. Dernoncourt, T. Yu, R. Zhang et al., “Bias and fairness in large
+ [99] B. A. Spiegel, Z. Yang, W. Jurayj, B. Bachmann, S. Tellex, and                   language models: A survey,” Computational Linguistics, pp. 1–79,
+      G. Konidaris, “Informing reinforcement learning agents by grounding              2024.
+      language to markov decision processes,” in Workshop on Training            [123] L. Gao, J. Schulman, and J. Hilton, “Scaling laws for reward model
+      Agents with Foundation Models at RLC 2024, 2024. [Online].                       overoptimization,” in Proceedings of the 40th International Conference
+      Available: https://openreview.net/forum?id=uFm9e4Ly26                            on Machine Learning, ser. Proceedings of Machine Learning Research,
+[100] B. Gordon, Y. Bitton, Y. Shafir, R. Garg, X. Chen, D. Lischinski,                A. Krause, E. Brunskill, K. Cho, B. Engelhardt, S. Sabato, and
+      D. Cohen-Or, and I. Szpektor, “Mismatch quest: Visual and textual                J. Scarlett, Eds., vol. 202. PMLR, 23–29 Jul 2023, pp. 10 835–10 866.
+      feedback for image-text misalignment,” in European Conference on           [124] S. Chakraborty, A. Bhaskar, A. Singh, P. Tokekar, D. Manocha,
+      Computer Vision. Springer, 2025, pp. 310–328.                                    and A. S. Bedi, “Rebel: A regularization-based solution for reward
+[101] Y. Wang, J. He, D. Wang, Q. Wang, B. Wan, and X. Luo, “Multimodal                overoptimization in reinforcement learning from human feedback,”
+      transformer with adaptive modality weighting for multimodal sentiment            arXiv preprint arXiv:2312.14436, 2023.
+      analysis,” Neurocomputing, vol. 572, p. 127181, 2024.                      [125] A. Radwan, L. Zaafarani, J. Abudawood, F. AlZahrani, and F. Fourat,
+[102] X. Zhao, S. Poria, X. Li, Y. Chen, and B. Tang, “Toward robust                   “Addressing bias through ensemble learning and regularized fine-
+      multimodal learning using multimodal foundational models,” arXiv                 tuning,” arXiv preprint arXiv:2402.00910, 2024.
+      preprint arXiv:2401.13697, 2024.                                           [126] Y. Inoue and H. Ohashi, “Prompter: Utilizing large language model
+[103] F. Lygerakis, V. Dave, and E. Rueckert, “M2curl: Sample-efficient                prompting for a data efficient embodied instruction following,” arXiv
+      multimodal reinforcement learning via self-supervised representation             preprint arXiv:2211.03267, 2022.
+      learning for robotic manipulation,” arXiv preprint arXiv:2401.17032,       [127] A. Majumdar, A. Shrivastava, S. Lee, P. Anderson, D. Parikh, and
+      2024.                                                                            D. Batra, “Improving vision-and-language navigation with image-text
+[104] J. Eschmann, “Reward function design in reinforcement learning,”                 pairs from the web,” in Computer Vision–ECCV 2020: 16th European
+      Reinforcement Learning Algorithms: Analysis and Applications, pp.                Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part VI
+      25–33, 2021.                                                                     16. Springer, 2020, pp. 259–274.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024                                                                         21
+
+
+
+[128] M. Janner, Q. Li, and S. Levine, “Offline reinforcement learning as       [152] Y. Matsuo, Y. LeCun, M. Sahani, D. Precup, D. Silver, M. Sugiyama,
+      one big sequence modeling problem,” Advances in neural information              E. Uchibe, and J. Morimoto, “Deep learning, reinforcement learning,
+      processing systems, vol. 34, pp. 1273–1286, 2021.                               and world models,” Neural Networks, vol. 152, pp. 267–275, 2022.
+[129] S. Li, X. Puig, C. Paxton, Y. Du, C. Wang, L. Fan, T. Chen, D.-A.         [153] L. Chen, K. Lu, A. Rajeswaran, K. Lee, A. Grover, M. Laskin,
+      Huang et al., “Pre-trained language models for interactive decision-            P. Abbeel, A. Srinivas et al., “Decision transformer: Reinforcement
+      making,” Advances in Neural Information Processing Systems, vol. 35,            learning via sequence modeling,” Advances in neural information
+      pp. 31 199–31 212, 2022.                                                        processing systems, vol. 34, pp. 15 084–15 097, 2021.
+[130] R. Shi, Y. Liu, Y. Ze, S. S. Du, and H. Xu, “Unleashing the power of      [154] V. Micheli, E. Alonso, and F. Fleuret, “Transformers are Sample-
+      pre-trained language models for offline reinforcement learning,” arXiv          Efficient World Models,” in The Eleventh International Conference on
+      preprint arXiv:2310.20587, 2023.                                                Learning Representations, Sep. 2022.
+[131] Z. Zeng, C. Zhang, S. Wang, and C. Sun, “Goal-conditioned predictive      [155] J. Robine, M. Höftmann, T. Uelwer, and S. Harmeling, “Transformer-
+      coding for offline reinforcement learning,” Advances in Neural Infor-           based World Models Are Happy With 100k Interactions,” Mar. 2023.
+      mation Processing Systems, vol. 36, 2024.                                 [156] C. Chen, Y.-F. Wu, J. Yoon, and S. Ahn, “TransDreamer: Reinforce-
+[132] M. Reid, Y. Yamada, and S. S. Gu, “Can Wikipedia Help Offline                   ment Learning with Transformer World Models,” Feb. 2022.
+      Reinforcement Learning?” Jul. 2022.                                       [157] Y. Seo, K. Lee, S. James, and P. Abbeel, “Reinforcement Learning
+[133] J. Fu, A. Kumar, O. Nachum, G. Tucker, and S. Levine, “D4rl:                    with Action-Free Pre-Training from Videos,” Jun. 2022.
+      Datasets for deep data-driven reinforcement learning,” arXiv preprint     [158] D. Hafner, T. Lillicrap, I. Fischer, R. Villegas, D. Ha, H. Lee, and
+      arXiv:2004.07219, 2020.                                                         J. Davidson, “Learning latent dynamics for planning from pixels,” in
+                                                                                      International conference on machine learning.         PMLR, 2019, pp.
+[134] L. Mezghani, P. Bojanowski, K. Alahari, and S. Sukhbaatar, “Think
+                                                                                      2555–2565.
+      before you act: Unified policy for interleaving language reasoning with
+                                                                                [159] R. P. K. Poudel, H. Pandya, C. Zhang, and R. Cipolla, “LanGWM:
+      actions,” arXiv preprint arXiv:2304.11063, 2023.
+                                                                                      Language Grounded World Model,” Nov. 2023.
+[135] B. Zitkovich, T. Yu, S. Xu, P. Xu, T. Xiao, F. Xia, J. Wu, P. Wohlhart    [160] S. Milani, N. Topin, M. Veloso, and F. Fang, “A survey of explainable
+      et al., “Rt-2: Vision-language-action models transfer web knowledge             reinforcement learning,” 2022.
+      to robotic control,” in Conference on Robot Learning. PMLR, 2023,         [161] D. Das, S. Chernova, and B. Kim, “State2explanation: Concept-based
+      pp. 2165–2183.                                                                  explanations to benefit agent learning and user understanding,”
+[136] S. Yao, R. Rao, M. Hausknecht, and K. Narasimhan, “Keep calm and                in Thirty-seventh Conference on Neural Information Processing
+      explore: Language models for action generation in text-based games,”            Systems, 2023. [Online]. Available: https://openreview.net/forum?id=
+      arXiv preprint arXiv:2010.02903, 2020.                                          xGz0wAIJrS
+[137] M. Hausknecht, P. Ammanabrolu, M.-A. Côté, and X. Yuan, “Interac-       [162] J. Lin, Y. Du, O. Watkins, D. Hafner, P. Abbeel, D. Klein, and
+      tive fiction games: A colossal adventure,” in Proceedings of the AAAI           A. Dragan, “Learning to model the world with language,” arXiv
+      Conference on Artificial Intelligence, vol. 34, no. 05, 2020, pp. 7903–         preprint arXiv:2308.01399, 2023.
+      7910.                                                                     [163] W. Lu, X. Zhao, S. Magg, M. Gromniak, M. Li, and S. Wermterl,
+[138] H. Hu and D. Sadigh, “Language Instructed Reinforcement Learning                “A closer look at reward decomposition for high-level robotic expla-
+      for Human-AI Coordination,” Jun. 2023.                                          nations,” in 2023 IEEE International Conference on Development and
+[139] Z. Zhou, B. Hu, P. Zhang, C. Zhao, and B. Liu, “Large language model            Learning (ICDL). IEEE, 2023, pp. 429–436.
+      is a good policy teacher for training reinforcement learning agents,”     [164] C. Yu, J. Liu, S. Nemati, and G. Yin, “Reinforcement learning in
+      arXiv preprint arXiv:2311.13373, 2023.                                          healthcare: A survey,” ACM Computing Surveys (CSUR), vol. 55, no. 1,
+[140] M. Dalal, T. Chiruvolu, D. S. Chaplot, and R. Salakhutdinov,                    pp. 1–36, 2021.
+      “Plan-seq-learn: Language model guided RL for solving long                [165] S. Agashe, Y. Fan, and X. E. Wang, “Evaluating multi-agent
+      horizon robotics tasks,” in The Twelfth International Conference                coordination abilities in large language models,” arXiv preprint
+      on Learning Representations, 2024. [Online]. Available: https:                  arXiv:2310.03903, 2023.
+      //openreview.net/forum?id=hQVCCxQrYN                                      [166] S. S. Kannan, V. L. Venkatesh, and B.-C. Min, “Smart-llm: Smart
+[141] J. Garcıa and F. Fernández, “A comprehensive survey on safe rein-              multi-agent robot task planning using large language models,” arXiv
+      forcement learning,” Journal of Machine Learning Research, vol. 16,             preprint arXiv:2309.10062, 2023.
+      no. 1, pp. 1437–1480, 2015.                                               [167] O. Slumbers, D. H. Mguni, K. Shao, and J. Wang, “Leveraging large
+[142] H. Xu, X. Zhan, and X. Zhu, “Constraints penalized q-learning for safe          language models for optimised coordination in textual multi-agent
+      offline reinforcement learning,” in Proceedings of the AAAI Conference          reinforcement learning,” 2023.
+      on Artificial Intelligence, vol. 36, no. 8, 2022, pp. 8753–8760.          [168] C. Sun, S. Huang, and D. Pompili, “Llm-based multi-agent rein-
+[143] J. Lee, C. Paduraru, D. J. Mankowitz, N. Heess, D. Precup, K.-E.                forcement learning: Current and future directions,” arXiv preprint
+      Kim, and A. Guez, “Coptidice: Offline constrained reinforcement learn-          arXiv:2405.11106, 2024.
+      ing via stationary distribution correction estimation,” arXiv preprint    [169] J. Lee, A. Xie, A. Pacchiano, Y. Chandak, C. Finn, O. Nachum, and
+      arXiv:2204.08957, 2022.                                                         E. Brunskill, “Supervised pretraining can learn in-context reinforce-
+[144] Z. Liu, Z. Guo, Y. Yao, Z. Cen, W. Yu, T. Zhang, and D. Zhao, “Con-             ment learning,” Advances in Neural Information Processing Systems,
+      strained decision transformer for offline safe reinforcement learning,”         vol. 36, 2024.
+      in International Conference on Machine Learning. PMLR, 2023, pp.          [170] Z. Buçinca, S. Swaroop, A. E. Paluch, S. A. Murphy, and K. Z.
+      21 611–21 630.                                                                  Gajos, “Towards optimizing human-centric objectives in ai-assisted
+                                                                                      decision-making with offline reinforcement learning,” arXiv preprint
+[145] S. Naihin, D. Atkinson, M. Green, M. Hamadi, C. Swift, D. Schonholtz,
+                                                                                      arXiv:2403.05911, 2024.
+      A. T. Kalai, and D. Bau, “Testing language model agents safely in the
+                                                                                [171] P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal,
+      wild,” arXiv preprint arXiv:2311.10538, 2023.
+                                                                                      H. Küttler, M. Lewis et al., “Retrieval-augmented generation
+[146] W. Huang, H. Liu, Z. Huang, and C. Lv, “Safety-aware human-in-                  for knowledge-intensive nlp tasks,” 2021. [Online]. Available:
+      the-loop reinforcement learning with shared control for autonomous              https://arxiv.org/abs/2005.11401
+      driving,” IEEE Transactions on Intelligent Transportation Systems, pp.    [172] L. Wang, X. Zhang, H. Su, and J. Zhu, “A comprehensive survey of
+      1–12, 2024.                                                                     continual learning: theory, method and application,” IEEE Transactions
+[147] N. Shinn, F. Cassano, E. Berman, A. Gopinath, K. Narasimhan,                    on Pattern Analysis and Machine Intelligence, 2024.
+      and S. Yao, “Reflexion: Language Agents with Verbal Reinforcement         [173] L. Wang, C. Ma, X. Feng, Z. Zhang, H. Yang, J. Zhang, Z. Chen,
+      Learning,” Oct. 2023.                                                           J. Tang et al., “A survey on large language model based autonomous
+[148] E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang,            agents,” Frontiers of Computer Science, vol. 18, no. 6, p. 186345, 2024.
+      and W. Chen, “Lora: Low-rank adaptation of large language models,”        [174] Y. Cheng, C. Zhang, Z. Zhang, X. Meng, S. Hong, W. Li, Z. Wang,
+      2021.                                                                           Z. Wang et al., “Exploring large language model based intelli-
+[149] D. Hafner, T. Lillicrap, J. Ba, and M. Norouzi, “Dream to Control:              gent agents: Definitions, methods, and prospects,” arXiv preprint
+      Learning Behaviors by Latent Imagination,” Mar. 2020.                           arXiv:2401.03428, 2024.
+[150] D. Hafner, T. Lillicrap, M. Norouzi, and J. Ba, “Mastering Atari with     [175] C. B. Browne, E. Powley, D. Whitehouse, S. M. Lucas, P. I. Cowling,
+      Discrete World Models,” Feb. 2022.                                              P. Rohlfshagen, S. Tavener, D. Perez et al., “A survey of monte carlo
+[151] D. Hafner, T. Lillicrap, J. Ba, and M. Norouzi, “Dream to control:              tree search methods,” IEEE Transactions on Computational Intelligence
+      Learning behaviors by latent imagination,” 2020.                                and AI in games, vol. 4, no. 1, pp. 1–43, 2012.
+IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS, VOL. X, NO. X, XXX 2024   22
+
+
+
+[176] Z. Zhang, X. Bo, C. Ma, R. Li, X. Chen, Q. Dai, J. Zhu, Z. Dong et al.,
+      “A survey on the memory mechanism of large language model based
+      agents,” 2024. [Online]. Available: https://arxiv.org/abs/2404.13501
+[177] S. G. Patil, T. Zhang, X. Wang, and J. E. Gonzalez, “Gorilla:
+      Large language model connected with massive apis,” arXiv preprint
+      arXiv:2305.15334, 2023.
+[178] R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim, C. Hesse,
+      S. Jain et al., “Webgpt: Browser-assisted question-answering with
+      human feedback,” arXiv preprint arXiv:2112.09332, 2021.
+[179] Y. Talebirad and A. Nadiri, “Multi-agent collaboration: Harnessing
+      the power of intelligent llm agents,” arXiv preprint arXiv:2306.03314,
+      2023.
+[180] Z. Lin, S. Trivedi, and J. Sun, “Generating with confidence:
+      Uncertainty quantification for black-box large language models,”
+      2024. [Online]. Available: https://arxiv.org/abs/2305.19187
+[181] R. S. Y. C. Tan, Q. Lin, G. H. Low, R. Lin, T. C. Goh, C. C. E.
+      Chang, F. F. Lee, W. Y. Chan et al., “Inferring cancer disease response
+      from radiology reports using large language models with data augmen-
+      tation and prompting,” Journal of the American Medical Informatics
+      Association, vol. 30, no. 10, pp. 1657–1664, 2023.
+[182] Q. Gao, C. Zhao, Y. Sun, T. Xi, G. Zhang, B. Ghanem, and J. Zhang, “A
+      unified continual learning framework with general parameter-efficient
+      tuning,” in Proceedings of the IEEE/CVF International Conference on
+      Computer Vision, 2023, pp. 11 483–11 493.
+[183] W. Zhou, Y. E. Jiang, R. Cotterell, and M. Sachan, “Efficient
+      prompting via dynamic in-context learning,” 2023. [Online]. Available:
+      https://arxiv.org/abs/2305.11170
+[184] Z.-F. Gao, P. Liu, W. X. Zhao, Z.-Y. Lu, and J.-R. Wen, “Parameter-
+      efficient mixture-of-experts architecture for pre-trained language
+      models,” 2022. [Online]. Available: https://arxiv.org/abs/2203.01104
+[185] A. Gu and T. Dao, “Mamba: Linear-time sequence modeling
+      with selective state spaces,” 2024. [Online]. Available: https:
+      //arxiv.org/abs/2312.00752
+[186] L. D. Corro, A. D. Giorno, S. Agarwal, B. Yu, A. Awadallah,
+      and S. Mukherjee, “Skipdecode: Autoregressive skip decoding with
+      batching and caching for efficient llm inference,” 2023. [Online].
+      Available: https://arxiv.org/abs/2307.02628
+[187] Y. Chen, Z. han Ding, Z. Wang, Y. Wang, L. Zhang, and S. Liu,
+      “Asynchronous large language model enhanced planner for autonomous
+      driving,” 2024. [Online]. Available: https://arxiv.org/abs/2406.14556
+[188] Z. Charles, A. Ganesh, R. McKenna, H. B. McMahan, N. Mitchell,
+      K. Pillutla, and K. Rush, “Fine-tuning large language models
+      with user-level differential privacy,” 2024. [Online]. Available:
+      https://arxiv.org/abs/2407.07737
+[189] E. Cambria, L. Malandri, F. Mercorio, N. Nobani, and A. Seveso,
+      “Xai meets llms: A survey of the relation between explainable
+      ai and large language models,” 2024. [Online]. Available: https:
+      //arxiv.org/abs/2407.15248
+[190] S. Xhonneux, A. Sordoni, S. Günnemann, G. Gidel, and L. Schwinn,
+      “Efficient adversarial training in llms with continuous attacks,” 2024.
+      [Online]. Available: https://arxiv.org/abs/2405.15589
+[191] C. Deng, Y. Duan, X. Jin, H. Chang, Y. Tian, H. Liu, H. P. Zou,
+      Y. Jin et al., “Deconstructing the ethics of large language models from
+      long-standing issues to new-emerging dilemmas,” 2024. [Online].
+      Available: https://arxiv.org/abs/2406.05392
+

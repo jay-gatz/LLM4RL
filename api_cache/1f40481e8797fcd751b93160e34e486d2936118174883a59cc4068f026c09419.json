@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ie9Zw73ptAZeqwd6kNYL48LE8zo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.13032v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.13032v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13032v1</id>
+    <title>Agent-E: From Autonomous Web Navigation to Foundational Design Principles in Agentic Systems</title>
+    <updated>2024-07-17T21:44:28Z</updated>
+    <link href="https://arxiv.org/abs/2407.13032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI Agents are changing the way work gets done, both in consumer and enterprise domains. However, the design patterns and architectures to build highly capable agents or multi-agent systems are still developing, and the understanding of the implication of various design choices and algorithms is still evolving. In this paper, we present our work on building a novel web agent, Agent-E \footnote{Our code is available at \url{https://github.com/EmergenceAI/Agent-E}}. Agent-E introduces numerous architectural improvements over prior state-of-the-art web agents such as hierarchical architecture, flexible DOM distillation and denoising method, and the concept of \textit{change observation} to guide the agent towards more accurate performance. We first present the results of an evaluation of Agent-E on WebVoyager benchmark dataset and show that Agent-E beats other SOTA text and multi-modal web agents on this benchmark in most categories by 10-30\%. We then synthesize our learnings from the development of Agent-E into general design principles for developing agentic systems. These include the use of domain-specific primitive skills, the importance of distillation and de-noising of environmental observations, the advantages of a hierarchical architecture, and the role of agentic self-improvement to enhance agent efficiency and efficacy as the agent gathers experience.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-17T21:44:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tamer Abuelsaad</name>
+    </author>
+    <author>
+      <name>Deepak Akkil</name>
+    </author>
+    <author>
+      <name>Prasenjit Dey</name>
+    </author>
+    <author>
+      <name>Ashish Jagmohan</name>
+    </author>
+    <author>
+      <name>Aditya Vempaty</name>
+    </author>
+    <author>
+      <name>Ravi Kokku</name>
+    </author>
+  </entry>
+</feed>

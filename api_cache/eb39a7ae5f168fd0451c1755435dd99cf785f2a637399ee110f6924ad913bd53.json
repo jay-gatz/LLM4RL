@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uaDbAdu57Gw1OOaBYaiQ9Vn916U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.20629v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.20629v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20629v3</id>
+    <title>Learning Evolving Latent Strategies for Multi-Agent Language Systems without Model Fine-Tuning</title>
+    <updated>2026-01-05T16:14:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.20629v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20629v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study proposes a multi-agent language framework that enables continual strategy evolution without fine-tuning the language model's parameters. The core idea is to liberate the latent vectors of abstract concepts from traditional static semantic representations, allowing them to be continuously updated through environmental interaction and reinforcement feedback. We construct a dual-loop architecture: the behavior loop adjusts action preferences based on environmental rewards, while the language loop updates the external latent vectors by reflecting on the semantic embeddings of generated text.
+  Together, these mechanisms allow agents to develop stable and disentangled strategic styles over long-horizon multi-round interactions. Experiments show that agents' latent spaces exhibit clear convergence trajectories under reflection-driven updates, along with structured shifts at critical moments. Moreover, the system demonstrates an emergent ability to implicitly infer and continually adapt to emotional agents, even without shared rewards. These results indicate that, without modifying model parameters, an external latent space can provide language agents with a low-cost, scalable, and interpretable form of abstract strategic representation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-28T23:36:45Z</published>
+    <arxiv:comment>17 pages, 5 figures. Code available at https://github.com/wltang-dev/Latent-Strategy-RL-Agent</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wenlong Tang</name>
+    </author>
+  </entry>
+</feed>

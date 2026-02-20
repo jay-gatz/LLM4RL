@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R148nazyJC3bxlikfij8t6jhK/o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2306.14924&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2306.14924" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14924v1</id>
+    <title>LLM-Assisted Content Analysis: Using Large Language Models to Support Deductive Coding</title>
+    <updated>2023-06-23T20:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2306.14924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deductive coding is a widely used qualitative research method for determining the prevalence of themes across documents. While useful, deductive coding is often burdensome and time consuming since it requires researchers to read, interpret, and reliably categorize a large body of unstructured text documents. Large language models (LLMs), like ChatGPT, are a class of quickly evolving AI tools that can perform a range of natural language processing and reasoning tasks. In this study, we explore the use of LLMs to reduce the time it takes for deductive coding while retaining the flexibility of a traditional content analysis. We outline the proposed approach, called LLM-assisted content analysis (LACA), along with an in-depth case study using GPT-3.5 for LACA on a publicly available deductive coding data set. Additionally, we conduct an empirical benchmark using LACA on 4 publicly available data sets to assess the broader question of how well GPT-3.5 performs across a range of deductive coding tasks. Overall, we find that GPT-3.5 can often perform deductive coding at levels of agreement comparable to human coders. Additionally, we demonstrate that LACA can help refine prompts for deductive coding, identify codes for which an LLM is randomly guessing, and help assess when to use LLMs vs. human coders for deductive coding. We conclude with several implications for future practice of deductive coding and related research methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-23T20:57:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Robert Chew</name>
+    </author>
+    <author>
+      <name>John Bollenbacher</name>
+    </author>
+    <author>
+      <name>Michael Wenger</name>
+    </author>
+    <author>
+      <name>Jessica Speer</name>
+    </author>
+    <author>
+      <name>Annice Kim</name>
+    </author>
+  </entry>
+</feed>

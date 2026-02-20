@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kto6RQ79DHZyqaXZOEVVT7LnkMc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12642v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12642v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12642v1</id>
+    <title>Beyond Normalization: Rethinking the Partition Function as a Difficulty Scheduler for RLVR</title>
+    <updated>2026-02-13T06:04:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.12642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward-maximizing RL methods enhance the reasoning performance of LLMs, but often reduce the diversity among outputs. Recent works address this issue by adopting GFlowNets, training LLMs to match a target distribution while jointly learning its partition function. In contrast to prior works that treat this partition function solely as a normalizer, we reinterpret it as a per-prompt expected-reward (i.e., online accuracy) signal, leveraging this unused information to improve sample efficiency. Specifically, we first establish a theoretical relationship between the partition function and per-prompt accuracy estimates. Building on this key insight, we propose Partition Function-Guided RL (PACED-RL), a post-training framework that leverages accuracy estimates to prioritize informative question prompts during training, and further improves sample efficiency through an accuracy estimate error-prioritized replay. Crucially, both components reuse information already produced during GFlowNet training, effectively amortizing the compute overhead into the existing optimization process. Extensive experiments across diverse benchmarks demonstrate strong performance improvements over GRPO and prior GFlowNet approaches, highlighting PACED-RL as a promising direction for a more sample efficient distribution-matching training for LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T06:04:14Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dohyung Kim</name>
+    </author>
+    <author>
+      <name>Minbeom Kim</name>
+    </author>
+    <author>
+      <name>Jeonghye Kim</name>
+    </author>
+    <author>
+      <name>Sangmook Lee</name>
+    </author>
+    <author>
+      <name>Sojeong Rhee</name>
+    </author>
+    <author>
+      <name>Kyomin Jung</name>
+    </author>
+  </entry>
+</feed>

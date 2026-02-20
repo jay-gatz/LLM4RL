@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n/ruWsMdx/NSP4+ghFXg4vHxfzo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10329v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10329v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10329v1</id>
+    <title>Are More Tokens Rational? Inference-Time Scaling in Language Models as Adaptive Resource Rationality</title>
+    <updated>2026-02-10T22:07:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.10329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human reasoning is shaped by resource rationality -- optimizing performance under constraints. Recently, inference-time scaling has emerged as a powerful paradigm to improve the reasoning performance of Large Language Models by expanding test-time computation. Specifically, instruction-tuned (IT) models explicitly generate long reasoning steps during inference, whereas Large Reasoning Models (LRMs) are trained by reinforcement learning to discover reasoning paths that maximize accuracy. However, it remains unclear whether resource-rationality can emerge from such scaling without explicit reward related to computational costs. We introduce a Variable Attribution Task in which models infer which variables determine outcomes given candidate variables, input-output trials, and predefined logical functions. By varying the number of candidate variables and trials, we systematically manipulate task complexity. Both models exhibit a transition from brute-force to analytic strategies as complexity increases. IT models degrade on XOR and XNOR functions, whereas LRMs remain robust. These findings suggest that models can adjust their reasoning behavior in response to task complexity, even without explicit cost-based reward. It provides compelling evidence that resource rationality is an emergent property of inference-time scaling itself.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T22:07:05Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhimin Hu</name>
+    </author>
+    <author>
+      <name>Riya Roshan</name>
+    </author>
+    <author>
+      <name>Sashank Varma</name>
+    </author>
+  </entry>
+</feed>

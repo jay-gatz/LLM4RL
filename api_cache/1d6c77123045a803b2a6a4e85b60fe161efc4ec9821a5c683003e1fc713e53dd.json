@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Yy4G5VCgdFanito80jUyUDMacCA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14234v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14234v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14234v1</id>
+    <title>REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search Agents</title>
+    <updated>2026-02-15T17:04:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.14234v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14234v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are transitioning from generalpurpose knowledge engines to realworld problem solvers, yet optimizing them for deep search tasks remains challenging. The central bottleneck lies in the extreme sparsity of highquality search trajectories and reward signals, arising from the difficulty of scalable longhorizon task construction and the high cost of interactionheavy rollouts involving external tool calls. To address these challenges, we propose REDSearcher, a unified framework that codesigns complex task synthesis, midtraining, and posttraining for scalable searchagent optimization. Specifically, REDSearcher introduces the following improvements: (1) We frame task synthesis as a dualconstrained optimization, where task difficulty is precisely governed by graph topology and evidence dispersion, allowing scalable generation of complex, highquality tasks. (2) We introduce toolaugmented queries to encourage proactive tool use rather than passive recall.(3) During midtraining, we strengthen core atomic capabilities knowledge, planning, and function calling substantially reducing the cost of collecting highquality trajectories for downstream training. (4) We build a local simulated environment that enables rapid, lowcost algorithmic iteration for reinforcement learning experiments. Across both textonly and multimodal searchagent benchmarks, our approach achieves stateoftheart performance. To facilitate future research on longhorizon search agents, we will release 10K highquality complex text search trajectories, 5K multimodal trajectories and 1K text RL query set, and together with code and model checkpoints.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T17:04:46Z</published>
+    <arxiv:comment>https://redsearchagent.github.io/index/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zheng Chu</name>
+    </author>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Jack Hong</name>
+    </author>
+    <author>
+      <name>Huiming Fan</name>
+    </author>
+    <author>
+      <name>Yuqi Huang</name>
+    </author>
+    <author>
+      <name>Yue Yang</name>
+    </author>
+    <author>
+      <name>Guohai Xu</name>
+    </author>
+    <author>
+      <name>Chenxiao Zhao</name>
+    </author>
+    <author>
+      <name>Cheng Xiang</name>
+    </author>
+    <author>
+      <name>Shengchao Hu</name>
+    </author>
+    <author>
+      <name>Dongdong Kuang</name>
+    </author>
+    <author>
+      <name>Ming Liu</name>
+    </author>
+    <author>
+      <name>Bing Qin</name>
+    </author>
+    <author>
+      <name>Xing Yu</name>
+    </author>
+  </entry>
+</feed>

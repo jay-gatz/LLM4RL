@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QvbK0PpQBc+FSyQwkGJJSZHhD1E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01522v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01522v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01522v1</id>
+    <title>When Is Rank-1 Enough? Geometry-Guided Initialization for Parameter-Efficient Fine-Tuning</title>
+    <updated>2026-02-02T01:31:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.01522v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01522v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parameter-efficient fine-tuning (PEFT) is a standard way to adapt multimodal large language models, yet extremely low-rank settings -- especially rank-1 LoRA -- are often unstable. We show that this instability is not solely due to limited capacity: in the rank-1 regime, optimization is highly sensitive to the update direction. Concretely, pretrained vision and text features form mismatched anisotropic regions, yielding a dominant "gap" direction that acts like a translation component and disproportionately steers early gradients under rank-1 constraints. Analyzing pretrained representations, we identify a modality-gap axis that dominates early gradient flow, while a random rank-1 initialization is unlikely to align with it, leading to weak gradients and training collapse. We propose Gap-Init, a geometry-aware initialization that aligns the rank-1 LoRA direction with an estimated modality-gap vector from a small calibration set, while keeping the initial LoRA update zero. Across multiple vision-language tasks and backbones, Gap-Init consistently stabilizes rank-1 training and can match or outperform strong rank-8 baselines. Our results suggest that at the extreme low-rank limit, initial alignment can matter as much as rank itself.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T01:31:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haoran Zhao</name>
+    </author>
+    <author>
+      <name>Soyeon Caren Han</name>
+    </author>
+    <author>
+      <name>Eduard Hovy</name>
+    </author>
+  </entry>
+</feed>

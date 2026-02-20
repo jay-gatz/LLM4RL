@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lA6czZF7Liyzryh54aM/zGVIdsM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13712v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13712v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13712v1</id>
+    <title>Fine-tuned Vision Language Model for Localization of Parasitic Eggs in Microscopic Images</title>
+    <updated>2026-02-14T10:25:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.13712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Soil-transmitted helminth (STH) infections continuously affect a large proportion of the global population, particularly in tropical and sub-tropical regions, where access to specialized diagnostic expertise is limited. Although manual microscopic diagnosis of parasitic eggs remains the diagnostic gold standard, the approach can be labour-intensive, time-consuming, and prone to human error. This paper aims to utilize a vision language model (VLM) such as Microsoft Florence that was fine-tuned to localize all parasitic eggs within microscopic images. The preliminary results show that our localization VLM performs comparatively better than the other object detection methods, such as EfficientDet, with an mIOU of 0.94. This finding demonstrates the potential of the proposed VLM to serve as a core component of an automated framework, offering a scalable engineering solution for intelligent parasitological diagnosis.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T10:25:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chan Hao Sien</name>
+    </author>
+    <author>
+      <name>Hezerul Abdul Karim</name>
+    </author>
+    <author>
+      <name>Nouar AlDahoul</name>
+    </author>
+  </entry>
+</feed>

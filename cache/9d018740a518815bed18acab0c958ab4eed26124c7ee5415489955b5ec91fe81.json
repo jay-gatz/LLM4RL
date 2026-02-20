@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HCleI9grYOnoiBI45WCR3ipXb8M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10109v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10109v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10109v1</id>
+    <title>ST4VLA: Spatially Guided Training for Vision-Language-Action Models</title>
+    <updated>2026-02-10T18:59:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.10109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large vision-language models (VLMs) excel at multimodal understanding but fall short when extended to embodied tasks, where instructions must be transformed into low-level motor actions. We introduce ST4VLA, a dual-system Vision-Language-Action framework that leverages Spatial Guided Training to align action learning with spatial priors in VLMs. ST4VLA includes two stages: (i) spatial grounding pre-training, which equips the VLM with transferable priors via scalable point, box, and trajectory prediction from both web-scale and robot-specific data, and (ii) spatially guided action post-training, which encourages the model to produce richer spatial priors to guide action generation via spatial prompting. This design preserves spatial grounding during policy learning and promotes consistent optimization across spatial and action objectives. Empirically, ST4VLA achieves substantial improvements over vanilla VLA, with performance increasing from 66.1 -&gt; 84.6 on Google Robot and from 54.7 -&gt; 73.2 on WidowX Robot, establishing new state-of-the-art results on SimplerEnv. It also demonstrates stronger generalization to unseen objects and paraphrased instructions, as well as robustness to long-horizon perturbations in real-world settings. These results highlight scalable spatially guided training as a promising direction for robust, generalizable robot learning. Source code, data and models are released at https://internrobotics.github.io/internvla-m1.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T18:59:17Z</published>
+    <arxiv:comment>Spatially Training for VLA, Accepted by ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jinhui Ye</name>
+    </author>
+    <author>
+      <name>Fangjing Wang</name>
+    </author>
+    <author>
+      <name>Ning Gao</name>
+    </author>
+    <author>
+      <name>Junqiu Yu</name>
+    </author>
+    <author>
+      <name>Yangkun Zhu</name>
+    </author>
+    <author>
+      <name>Bin Wang</name>
+    </author>
+    <author>
+      <name>Jinyu Zhang</name>
+    </author>
+    <author>
+      <name>Weiyang Jin</name>
+    </author>
+    <author>
+      <name>Yanwei Fu</name>
+    </author>
+    <author>
+      <name>Feng Zheng</name>
+    </author>
+    <author>
+      <name>Yilun Chen</name>
+    </author>
+    <author>
+      <name>Jiangmiao Pang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KjRXjpk+/m5UJ06a3A+N9m5Dr6g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06795v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06795v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06795v1</id>
+    <title>Generating Data-Driven Reasoning Rubrics for Domain-Adaptive Reward Modeling</title>
+    <updated>2026-02-06T15:51:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.06795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An impediment to using Large Language Models (LLMs) for reasoning output verification is that LLMs struggle to reliably identify errors in thinking traces, particularly in long outputs, domains requiring expert knowledge, and problems without verifiable rewards. We propose a data-driven approach to automatically construct highly granular reasoning error taxonomies to enhance LLM-driven error detection on unseen reasoning traces. Our findings indicate that classification approaches that leverage these error taxonomies, or "rubrics", demonstrate strong error identification compared to baseline methods in technical domains like coding, math, and chemical engineering. These rubrics can be used to build stronger LLM-as-judge reward functions for reasoning model training via reinforcement learning. Experimental results show that these rewards have the potential to improve models' task accuracy on difficult domains over models trained by general LLMs-as-judges by +45%, and approach performance of models trained by verifiable rewards while using as little as 20% as many gold labels. Through our approach, we extend the usage of reward rubrics from assessing qualitative model behavior to assessing quantitative model correctness on tasks typically learned via RLVR rewards. This extension opens the door for teaching models to solve complex technical problems without a full dataset of gold labels, which are often highly costly to procure.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T15:51:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kate Sanders</name>
+    </author>
+    <author>
+      <name>Nathaniel Weir</name>
+    </author>
+    <author>
+      <name>Sapana Chaudhary</name>
+    </author>
+    <author>
+      <name>Kaj Bostrom</name>
+    </author>
+    <author>
+      <name>Huzefa Rangwala</name>
+    </author>
+  </entry>
+</feed>

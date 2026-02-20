@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rv1f2uivCrx+Alsa0SwcbaQalWw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01493v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01493v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01493v1</id>
+    <title>OpInf-LLM: Parametric PDE Solving with LLMs via Operator Inference</title>
+    <updated>2026-02-02T00:04:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.01493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving diverse partial differential equations (PDEs) is fundamental in science and engineering. Large language models (LLMs) have demonstrated strong capabilities in code generation, symbolic reasoning, and tool use, but reliably solving PDEs across heterogeneous settings remains challenging. Prior work on LLM-based code generation and transformer-based foundation models for PDE learning has shown promising advances. However, a persistent trade-off between execution success rate and numerical accuracy arises, particularly when generalization to unseen parameters and boundary conditions is required. In this work, we propose OpInf-LLM, an LLM parametric PDE solving framework based on operator inference. The proposed framework leverages a small amount of solution data to enable accurate prediction of diverse PDE instances, including unseen parameters and configurations, and provides seamless integration with LLMs for natural language specification of PDE solving tasks. Its low computational demands and unified tool interface further enable a high execution success rate across heterogeneous settings. By combining operator inference with LLM capabilities, OpInf-LLM opens new possibilities for generalizable reduced-order modeling in LLM-based PDE solving.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T00:04:50Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhuoyuan Wang</name>
+    </author>
+    <author>
+      <name>Hanjiang Hu</name>
+    </author>
+    <author>
+      <name>Xiyu Deng</name>
+    </author>
+    <author>
+      <name>Saviz Mowlavi</name>
+    </author>
+    <author>
+      <name>Yorie Nakahira</name>
+    </author>
+  </entry>
+</feed>

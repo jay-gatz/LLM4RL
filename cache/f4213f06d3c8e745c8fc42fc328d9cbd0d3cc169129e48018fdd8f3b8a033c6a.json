@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HdkMI0D2pxi82E9l9r70GUhaEQk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.14367&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.14367" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.14367v3</id>
+    <title>Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data</title>
+    <updated>2024-06-02T22:00:42Z</updated>
+    <link href="https://arxiv.org/abs/2404.14367v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.14367v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from preference labels plays a crucial role in fine-tuning large language models. There are several distinct approaches for preference fine-tuning, including supervised learning, on-policy reinforcement learning (RL), and contrastive learning. Different methods come with different implementation tradeoffs and performance differences, and existing empirical findings present different conclusions, for instance, some results show that online RL is quite important to attain good fine-tuning results, while others find (offline) contrastive or even purely supervised methods sufficient. This raises a natural question: what kind of approaches are important for fine-tuning with preference data and why? In this paper, we answer this question by performing a rigorous analysis of a number of fine-tuning techniques on didactic and full-scale LLM problems. Our main finding is that, in general, approaches that use on-policy sampling or attempt to push down the likelihood on certain responses (i.e., employ a "negative gradient") outperform offline and maximum likelihood objectives. We conceptualize our insights and unify methods that use on-policy sampling or negative gradient under a notion of mode-seeking objectives for categorical distributions. Mode-seeking objectives are able to alter probability mass on specific bins of a categorical distribution at a fast rate compared to maximum likelihood, allowing them to relocate masses across bins more effectively. Our analysis prescribes actionable insights for preference fine-tuning of LLMs and informs how data should be collected for maximal improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-22T17:20:18Z</published>
+    <arxiv:comment>International Conference on Machine Learning (ICML), 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fahim Tajwar</name>
+    </author>
+    <author>
+      <name>Anikait Singh</name>
+    </author>
+    <author>
+      <name>Archit Sharma</name>
+    </author>
+    <author>
+      <name>Rafael Rafailov</name>
+    </author>
+    <author>
+      <name>Jeff Schneider</name>
+    </author>
+    <author>
+      <name>Tengyang Xie</name>
+    </author>
+    <author>
+      <name>Stefano Ermon</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+</feed>

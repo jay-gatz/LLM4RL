@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eybMe90Hm8x0IgxMp569QJ8chYs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.08940v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:44:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.08940v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.08940v2</id>
+    <title>Large Language Models as Biomedical Hypothesis Generators: A Comprehensive Evaluation</title>
+    <updated>2024-07-15T06:27:07Z</updated>
+    <link href="https://arxiv.org/abs/2407.08940v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.08940v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid growth of biomedical knowledge has outpaced our ability to efficiently extract insights and generate novel hypotheses. Large language models (LLMs) have emerged as a promising tool to revolutionize knowledge interaction and potentially accelerate biomedical discovery. In this paper, we present a comprehensive evaluation of LLMs as biomedical hypothesis generators. We construct a dataset of background-hypothesis pairs from biomedical literature, carefully partitioned into training, seen, and unseen test sets based on publication date to mitigate data contamination. Using this dataset, we assess the hypothesis generation capabilities of top-tier instructed models in zero-shot, few-shot, and fine-tuning settings. To enhance the exploration of uncertainty, a crucial aspect of scientific discovery, we incorporate tool use and multi-agent interactions in our evaluation framework. Furthermore, we propose four novel metrics grounded in extensive literature review to evaluate the quality of generated hypotheses, considering both LLM-based and human assessments. Our experiments yield two key findings: 1) LLMs can generate novel and validated hypotheses, even when tested on literature unseen during training, and 2) Increasing uncertainty through multi-agent interactions and tool use can facilitate diverse candidate generation and improve zero-shot hypothesis generation performance. However, we also observe that the integration of additional knowledge through few-shot learning and tool use may not always lead to performance gains, highlighting the need for careful consideration of the type and scope of external knowledge incorporated. These findings underscore the potential of LLMs as powerful aids in biomedical hypothesis generation and provide valuable insights to guide further research in this area.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-12T02:55:13Z</published>
+    <arxiv:comment>Accepted to COLM 2024. This is an extended version of the paper at arXiv:2311.05965</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Biqing Qi</name>
+    </author>
+    <author>
+      <name>Kaiyan Zhang</name>
+    </author>
+    <author>
+      <name>Kai Tian</name>
+    </author>
+    <author>
+      <name>Haoxiang Li</name>
+    </author>
+    <author>
+      <name>Zhang-Ren Chen</name>
+    </author>
+    <author>
+      <name>Sihang Zeng</name>
+    </author>
+    <author>
+      <name>Ermo Hua</name>
+    </author>
+    <author>
+      <name>Hu Jinfang</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+  </entry>
+</feed>

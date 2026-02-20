@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XMKwkSXqDfk+1GQab0l263qhsCo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00551v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00551v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00551v1</id>
+    <title>APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation</title>
+    <updated>2026-01-31T06:27:57Z</updated>
+    <link href="https://arxiv.org/abs/2602.00551v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00551v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aerial Object Goal Navigation, a challenging frontier in Embodied AI, requires an Unmanned Aerial Vehicle (UAV) agent to autonomously explore, reason, and identify a specific target using only visual perception and language description. However, existing methods struggle with the memorization of complex spatial representations in aerial environments, reliable and interpretable action decision-making, and inefficient exploration and information gathering. To address these challenges, we introduce \textbf{APEX} (Aerial Parallel Explorer), a novel hierarchical agent designed for efficient exploration and target acquisition in complex aerial settings. APEX is built upon a modular, three-part architecture: 1) Dynamic Spatio-Semantic Mapping Memory, which leverages the zero-shot capability of a Vision-Language Model (VLM) to dynamically construct high-resolution 3D Attraction, Exploration, and Obstacle maps, serving as an interpretable memory mechanism. 2) Action Decision Module, trained with reinforcement learning, which translates this rich spatial understanding into a fine-grained and robust control policy. 3) Target Grounding Module, which employs an open-vocabulary detector to achieve definitive and generalizable target identification. All these components are integrated into a hierarchical, asynchronous, and parallel framework, effectively bypassing the VLM's inference latency and boosting the agent's proactivity in exploration. Extensive experiments show that APEX outperforms the previous state of the art by +4.2\% SR and +2.8\% SPL on challenging UAV-ON benchmarks, demonstrating its superior efficiency and the effectiveness of its hierarchical asynchronous design. Our source code is provided in \href{https://github.com/4amGodvzx/apex}{GitHub}</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T06:27:57Z</published>
+    <arxiv:comment>15 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Daoxuan Zhang</name>
+    </author>
+    <author>
+      <name>Ping Chen</name>
+    </author>
+    <author>
+      <name>Xiaobo Xia</name>
+    </author>
+    <author>
+      <name>Xiu Su</name>
+    </author>
+    <author>
+      <name>Ruichen Zhen</name>
+    </author>
+    <author>
+      <name>Jianqiang Xiao</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+  </entry>
+</feed>

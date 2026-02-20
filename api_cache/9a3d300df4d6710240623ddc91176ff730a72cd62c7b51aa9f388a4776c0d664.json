@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//+2pexw51wBA96REvEbi2ZyHHRU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22547v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22547v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22547v1</id>
+    <title>PersonaAct: Simulating Short-Video Users with Personalized Agents for Counterfactual Filter Bubble Auditing</title>
+    <updated>2026-01-30T04:38:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.22547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Short-video platforms rely on personalized recommendation, raising concerns about filter bubbles that narrow content exposure. Auditing such phenomena at scale is challenging because real user studies are costly and privacy-sensitive, and existing simulators fail to reproduce realistic behaviors due to their reliance on textual signals and weak personalization. We propose PersonaAct, a framework for simulating short-video users with persona-conditioned multimodal agents trained on real behavioral traces for auditing filter bubbles in breadth and depth. PersonaAct synthesizes interpretable personas through automated interviews combining behavioral analysis with structured questioning, then trains agents on multimodal observations using supervised fine-tuning and reinforcement learning. We deploy trained agents for filter bubble auditing and evaluate bubble breadth via content diversity and bubble depth via escape potential. The evaluation demonstrates substantial improvements in fidelity over generic LLM baselines, enabling realistic behavior reproduction. Results reveal significant content narrowing over interaction. However, we find that Bilibili demonstrates the strongest escape potential. We release the first open multimodal short-video dataset and code to support reproducible auditing of recommender systems.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T04:38:03Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Shilong Zhao</name>
+    </author>
+    <author>
+      <name>Qinggang Yang</name>
+    </author>
+    <author>
+      <name>Zhiyi Yin</name>
+    </author>
+    <author>
+      <name>Xiaoshi Wang</name>
+    </author>
+    <author>
+      <name>Zhenxing Chen</name>
+    </author>
+    <author>
+      <name>Du Su</name>
+    </author>
+    <author>
+      <name>Xueqi Cheng</name>
+    </author>
+  </entry>
+</feed>

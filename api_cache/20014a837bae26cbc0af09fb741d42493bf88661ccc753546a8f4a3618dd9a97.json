@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZRfQHf6kSWBLDqIKvDmWNx21/bU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.00176&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T04:30:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.00176" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.00176v5</id>
+    <title>ChipNeMo: Domain-Adapted LLMs for Chip Design</title>
+    <updated>2024-04-04T20:18:57Z</updated>
+    <link href="https://arxiv.org/abs/2311.00176v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.00176v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ChipNeMo aims to explore the applications of large language models (LLMs) for industrial chip design. Instead of directly deploying off-the-shelf commercial or open-source LLMs, we instead adopt the following domain adaptation techniques: domain-adaptive tokenization, domain-adaptive continued pretraining, model alignment with domain-specific instructions, and domain-adapted retrieval models. We evaluate these methods on three selected LLM applications for chip design: an engineering assistant chatbot, EDA script generation, and bug summarization and analysis. Our evaluations demonstrate that domain-adaptive pretraining of language models, can lead to superior performance in domain related downstream tasks compared to their base LLaMA2 counterparts, without degradations in generic capabilities. In particular, our largest model, ChipNeMo-70B, outperforms the highly capable GPT-4 on two of our use cases, namely engineering assistant chatbot and EDA scripts generation, while exhibiting competitive performance on bug summarization and analysis. These results underscore the potential of domain-specific customization for enhancing the effectiveness of large language models in specialized applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-31T22:35:58Z</published>
+    <arxiv:comment>Updated results for ChipNeMo-70B model</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mingjie Liu</name>
+    </author>
+    <author>
+      <name>Teodor-Dumitru Ene</name>
+    </author>
+    <author>
+      <name>Robert Kirby</name>
+    </author>
+    <author>
+      <name>Chris Cheng</name>
+    </author>
+    <author>
+      <name>Nathaniel Pinckney</name>
+    </author>
+    <author>
+      <name>Rongjian Liang</name>
+    </author>
+    <author>
+      <name>Jonah Alben</name>
+    </author>
+    <author>
+      <name>Himyanshu Anand</name>
+    </author>
+    <author>
+      <name>Sanmitra Banerjee</name>
+    </author>
+    <author>
+      <name>Ismet Bayraktaroglu</name>
+    </author>
+    <author>
+      <name>Bonita Bhaskaran</name>
+    </author>
+    <author>
+      <name>Bryan Catanzaro</name>
+    </author>
+    <author>
+      <name>Arjun Chaudhuri</name>
+    </author>
+    <author>
+      <name>Sharon Clay</name>
+    </author>
+    <author>
+      <name>Bill Dally</name>
+    </author>
+    <author>
+      <name>Laura Dang</name>
+    </author>
+    <author>
+      <name>Parikshit Deshpande</name>
+    </author>
+    <author>
+      <name>Siddhanth Dhodhi</name>
+    </author>
+    <author>
+      <name>Sameer Halepete</name>
+    </author>
+    <author>
+      <name>Eric Hill</name>
+    </author>
+    <author>
+      <name>Jiashang Hu</name>
+    </author>
+    <author>
+      <name>Sumit Jain</name>
+    </author>
+    <author>
+      <name>Ankit Jindal</name>
+    </author>
+    <author>
+      <name>Brucek Khailany</name>
+    </author>
+    <author>
+      <name>George Kokai</name>
+    </author>
+    <author>
+      <name>Kishor Kunal</name>
+    </author>
+    <author>
+      <name>Xiaowei Li</name>
+    </author>
+    <author>
+      <name>Charley Lind</name>
+    </author>
+    <author>
+      <name>Hao Liu</name>
+    </author>
+    <author>
+      <name>Stuart Oberman</name>
+    </author>
+    <author>
+      <name>Sujeet Omar</name>
+    </author>
+    <author>
+      <name>Ghasem Pasandi</name>
+    </author>
+    <author>
+      <name>Sreedhar Pratty</name>
+    </author>
+    <author>
+      <name>Jonathan Raiman</name>
+    </author>
+    <author>
+      <name>Ambar Sarkar</name>
+    </author>
+    <author>
+      <name>Zhengjiang Shao</name>
+    </author>
+    <author>
+      <name>Hanfei Sun</name>
+    </author>
+    <author>
+      <name>Pratik P Suthar</name>
+    </author>
+    <author>
+      <name>Varun Tej</name>
+    </author>
+    <author>
+      <name>Walker Turner</name>
+    </author>
+    <author>
+      <name>Kaizhe Xu</name>
+    </author>
+    <author>
+      <name>Haoxing Ren</name>
+    </author>
+  </entry>
+</feed>

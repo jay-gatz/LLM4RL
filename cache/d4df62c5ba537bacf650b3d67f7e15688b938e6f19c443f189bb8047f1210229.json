@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MT831w3kSY5tNsKhNV7jN/12uo0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.10003&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.10003" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.10003v1</id>
+    <title>ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent</title>
+    <updated>2023-12-15T18:20:15Z</updated>
+    <link href="https://arxiv.org/abs/2312.10003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.10003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Answering complex natural language questions often necessitates multi-step reasoning and integrating external information. Several systems have combined knowledge retrieval with a large language model (LLM) to answer such questions. These systems, however, suffer from various failure cases, and we cannot directly train them end-to-end to fix such failures, as interaction with external knowledge is non-differentiable. To address these deficiencies, we define a ReAct-style LLM agent with the ability to reason and act upon external knowledge. We further refine the agent through a ReST-like method that iteratively trains on previous trajectories, employing growing-batch reinforcement learning with AI feedback for continuous self-improvement and self-distillation. Starting from a prompted large model and after just two iterations of the algorithm, we can produce a fine-tuned small model that achieves comparable performance on challenging compositional question-answering benchmarks with two orders of magnitude fewer parameters.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-15T18:20:15Z</published>
+    <arxiv:comment>19 pages, 4 figures, 4 tables, 8 listings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Renat Aksitov</name>
+    </author>
+    <author>
+      <name>Sobhan Miryoosefi</name>
+    </author>
+    <author>
+      <name>Zonglin Li</name>
+    </author>
+    <author>
+      <name>Daliang Li</name>
+    </author>
+    <author>
+      <name>Sheila Babayan</name>
+    </author>
+    <author>
+      <name>Kavya Kopparapu</name>
+    </author>
+    <author>
+      <name>Zachary Fisher</name>
+    </author>
+    <author>
+      <name>Ruiqi Guo</name>
+    </author>
+    <author>
+      <name>Sushant Prakash</name>
+    </author>
+    <author>
+      <name>Pranesh Srinivasan</name>
+    </author>
+    <author>
+      <name>Manzil Zaheer</name>
+    </author>
+    <author>
+      <name>Felix Yu</name>
+    </author>
+    <author>
+      <name>Sanjiv Kumar</name>
+    </author>
+  </entry>
+</feed>

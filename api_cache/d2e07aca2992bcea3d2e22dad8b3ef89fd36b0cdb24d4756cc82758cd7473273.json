@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UfnBd8yTQ/DTKMZFVvNE1B+dBSU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.02878v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.02878v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.02878v3</id>
+    <title>Language Models can Self-Improve at State-Value Estimation for Better Search</title>
+    <updated>2025-10-29T22:28:23Z</updated>
+    <link href="https://arxiv.org/abs/2503.02878v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.02878v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collecting ground-truth rewards or human demonstrations for multi-step reasoning tasks is often prohibitively expensive, particularly in interactive domains such as web tasks. We introduce Self-Taught Lookahead (STL), a reward-free framework that improves language model-based value functions by reasoning explicitly about state transitions. STL can be viewed as a chain-of-thought analogue of the value iteration algorithm: instead of regressing directly on numeric values, a value LLM is trained to simulate a step of lookahead in natural language - predicting the next action, resulting state, and rationale for its value, thereby refining value estimates without any labeled data. This self-supervised procedure yields more accurate state-value predictions, which in turn enable lightweight search algorithms to expand fewer states while maintaining strong performance. Empirically, STL-trained value models built on moderately sized (8B parameter) open-weight LLMs boost web agent success rates by 39%, achieving comparable performance with proprietary models. STL also generalizes to multi-hop QA and math puzzles. We find that STL enables small open-source models to guide efficient search, reducing inference costs by integrating explicit reasoning with value learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-04T18:58:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ethan Mendes</name>
+    </author>
+    <author>
+      <name>Alan Ritter</name>
+    </author>
+  </entry>
+</feed>

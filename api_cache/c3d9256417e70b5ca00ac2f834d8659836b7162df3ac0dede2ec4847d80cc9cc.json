@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vapqvhDkDeCCojzywmuxCXG5Q5g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18418v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18418v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18418v2</id>
+    <title>daVinci-Dev: Agent-native Mid-training for Software Engineering</title>
+    <updated>2026-01-27T12:16:16Z</updated>
+    <link href="https://arxiv.org/abs/2601.18418v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18418v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, the frontier of Large Language Model (LLM) capabilities has shifted from single-turn code generation to agentic software engineering-a paradigm where models autonomously navigate, edit, and test complex repositories. While post-training methods have become the de facto approach for code agents, **agentic mid-training**-mid-training (MT) on large-scale data that mirrors authentic agentic workflows-remains critically underexplored due to substantial resource requirements, despite offering a more scalable path to instilling foundational agentic behaviors than relying solely on expensive reinforcement learning. A central challenge in realizing effective agentic mid-training is the distribution mismatch between static training data and the dynamic, feedback-rich environment of real development. To address this, we present a systematic study of agentic mid-training, establishing both the data synthesis principles and training methodology for effective agent development at scale. Central to our approach is **agent-native data**-supervision comprising two complementary types of trajectories: **contextually-native trajectories** that preserve the complete information flow an agent experiences, offering broad coverage and diversity; and **environmentally-native trajectories** collected from executable repositories where observations stem from actual tool invocations and test executions, providing depth and interaction authenticity. We verify the model's agentic capabilities on `SWE-Bench Verified`. We demonstrate our superiority over the previous open software engineering mid-training recipe `Kimi-Dev` under two post-training settings with an aligned base model and agentic scaffold, while using less than half mid-training tokens (73.1B). Besides relative advantage, our best performing 32B and 72B models achieve **56.1%** and **58.5%** resolution rates, respectively, which are ...</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T12:20:18Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ji Zeng</name>
+    </author>
+    <author>
+      <name>Dayuan Fu</name>
+    </author>
+    <author>
+      <name>Tiantian Mi</name>
+    </author>
+    <author>
+      <name>Yumin Zhuang</name>
+    </author>
+    <author>
+      <name>Yaxing Huang</name>
+    </author>
+    <author>
+      <name>Xuefeng Li</name>
+    </author>
+    <author>
+      <name>Lyumanshan Ye</name>
+    </author>
+    <author>
+      <name>Muhang Xie</name>
+    </author>
+    <author>
+      <name>Qishuo Hua</name>
+    </author>
+    <author>
+      <name>Zhen Huang</name>
+    </author>
+    <author>
+      <name>Mohan Jiang</name>
+    </author>
+    <author>
+      <name>Hanning Wang</name>
+    </author>
+    <author>
+      <name>Jifan Lin</name>
+    </author>
+    <author>
+      <name>Yang Xiao</name>
+    </author>
+    <author>
+      <name>Jie Sun</name>
+    </author>
+    <author>
+      <name>Yunze Wu</name>
+    </author>
+    <author>
+      <name>Pengfei Liu</name>
+    </author>
+  </entry>
+</feed>

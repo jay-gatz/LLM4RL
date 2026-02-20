@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4wRXFefH2fTZd8/iBOi/GXJcGbo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17357v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17357v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17357v1</id>
+    <title>Spectral Geometry for Deep Learning: Compression and Hallucination Detection via Random Matrix Theory</title>
+    <updated>2026-01-24T08:07:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.17357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models and deep neural networks achieve strong performance but suffer from reliability issues and high computational cost. This thesis proposes a unified framework based on spectral geometry and random matrix theory to address both problems by analyzing the eigenvalue structure of hidden activations. The first contribution, EigenTrack, is a real-time method for detecting hallucinations and out-of-distribution behavior in language and vision-language models using spectral features and their temporal dynamics. The second contribution, RMT-KD, is a principled compression method that identifies informative spectral components and applies iterative knowledge distillation to produce compact and efficient models while preserving accuracy. Together, these results show that spectral statistics provide interpretable and robust signals for monitoring uncertainty and guiding compression in large-scale neural networks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-24T08:07:22Z</published>
+    <arxiv:comment>Master thesis, MS in Computer Science, University of Illinois Chicago, defended November 21, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Davide Ettori</name>
+    </author>
+  </entry>
+</feed>

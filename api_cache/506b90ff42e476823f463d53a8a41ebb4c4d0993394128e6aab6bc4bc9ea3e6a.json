@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1cFdk5rZ8W0Se6K3ViK2FsdySmk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.25333v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.25333v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25333v1</id>
+    <title>CRMWeaver: Building Powerful Business Agent via Agentic RL and Shared Memories</title>
+    <updated>2025-10-29T09:47:40Z</updated>
+    <link href="https://arxiv.org/abs/2510.25333v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25333v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have witnessed the rapid development of LLM-based agents, which shed light on using language agents to solve complex real-world problems. A prominent application lies in business agents, which interact with databases and internal knowledge bases via tool calls to fulfill diverse user requirements. However, this domain is characterized by intricate data relationships and a wide range of heterogeneous tasks, from statistical data queries to knowledge-based question-answering. To address these challenges, we propose CRMWeaver, a novel approach that enhances business agents in such complex settings. To acclimate the agentic model to intricate business environments, we employ a synthesis data generation and RL-based paradigm during training, which significantly improves the model's ability to handle complex data and varied tasks. During inference, a shared memories mechanism is introduced, prompting the agent to learn from task guidelines in similar problems, thereby further boosting its effectiveness and generalization, especially in unseen scenarios. We validate the efficacy of our approach on the CRMArena-Pro dataset, where our lightweight model achieves competitive results in both B2B and B2C business scenarios, underscoring its practical value for real-world applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T09:47:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yilong Lai</name>
+    </author>
+    <author>
+      <name>Yipin Yang</name>
+    </author>
+    <author>
+      <name>Jialong Wu</name>
+    </author>
+    <author>
+      <name>Fengran Mo</name>
+    </author>
+    <author>
+      <name>Zhenglin Wang</name>
+    </author>
+    <author>
+      <name>Ting Liang</name>
+    </author>
+    <author>
+      <name>Jianguo Lin</name>
+    </author>
+    <author>
+      <name>Keping Yang</name>
+    </author>
+  </entry>
+</feed>

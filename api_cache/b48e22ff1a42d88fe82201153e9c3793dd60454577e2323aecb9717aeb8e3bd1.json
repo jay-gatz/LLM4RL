@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TBeO+SojS2fALWYtCHb923xwxSg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.03444v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:39:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.03444v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.03444v1</id>
+    <title>An Auditable Agent Platform For Automated Molecular Optimisation</title>
+    <updated>2025-08-05T13:41:32Z</updated>
+    <link href="https://arxiv.org/abs/2508.03444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.03444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Drug discovery frequently loses momentum when data, expertise, and tools are scattered, slowing design cycles. To shorten this loop we built a hierarchical, tool using agent framework that automates molecular optimisation. A Principal Researcher defines each objective, a Database agent retrieves target information, an AI Expert generates de novo scaffolds with a sequence to molecule deep learning model, a Medicinal Chemist edits them while invoking a docking tool, a Ranking agent scores the candidates, and a Scientific Critic polices the logic. Each tool call is summarised and stored causing the full reasoning path to remain inspectable. The agents communicate through concise provenance records that capture molecular lineage, to build auditable, molecule centered reasoning trajectories and reuse successful transformations via in context learning. Three cycle research loops were run against AKT1 protein using five large language models. After ranking the models by mean docking score, we ran 20 independent scale ups on the two top performers. We then compared the leading LLMs' binding affinity results across three configurations, LLM only, single agent, and multi agent. Our results reveal an architectural trade off, the multi agent setting excelled at focused binding optimization, improving average predicted binding affinity by 31%. In contrast, single agent runs generated molecules with superior drug like properties at the cost of less potent binding scores. Unguided LLM runs finished fastest, yet their lack of transparent tool signals left the validity of their reasoning paths unverified. These results show that test time scaling, focused feedback loops and provenance convert general purpose LLMs into auditable systems for molecular design, and suggest that extending the toolset to ADMET and selectivity predictors could push research workflows further along the discovery pipeline.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-05T13:41:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Atabey Ünlü</name>
+    </author>
+    <author>
+      <name>Phil Rohr</name>
+    </author>
+    <author>
+      <name>Ahmet Celebi</name>
+    </author>
+  </entry>
+</feed>

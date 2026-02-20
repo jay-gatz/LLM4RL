@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ll0W0+tYxcMqek56hssFYwvUqUo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.12867v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.12867v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.12867v1</id>
+    <title>Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use</title>
+    <updated>2025-09-16T09:22:21Z</updated>
+    <link href="https://arxiv.org/abs/2509.12867v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.12867v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated strong capabilities in language understanding and reasoning, yet they remain limited when tackling real-world tasks that require up-to-date knowledge, precise operations, or specialized tool use. To address this, we propose Tool-R1, a reinforcement learning framework that enables LLMs to perform general, compositional, and multi-step tool use by generating executable Python code. Tool-R1 supports integration of user-defined tools and standard libraries, with variable sharing across steps to construct coherent workflows. An outcome-based reward function, combining LLM-based answer judgment and code execution success, guides policy optimization. To improve training efficiency, we maintain a dynamic sample queue to cache and reuse high-quality trajectories, reducing the overhead of costly online sampling. Experiments on the GAIA benchmark show that Tool-R1 substantially improves both accuracy and robustness, achieving about 10\% gain over strong baselines, with larger improvements on complex multi-step tasks. These results highlight the potential of Tool-R1 for enabling reliable and efficient tool-augmented reasoning in real-world applications. Our code will be available at https://github.com/YBYBZhang/Tool-R1.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T09:22:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yabo Zhang</name>
+    </author>
+    <author>
+      <name>Yihan Zeng</name>
+    </author>
+    <author>
+      <name>Qingyun Li</name>
+    </author>
+    <author>
+      <name>Zhen Hu</name>
+    </author>
+    <author>
+      <name>Kavin Han</name>
+    </author>
+    <author>
+      <name>Wangmeng Zuo</name>
+    </author>
+  </entry>
+</feed>

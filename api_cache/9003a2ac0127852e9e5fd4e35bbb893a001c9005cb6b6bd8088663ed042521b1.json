@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4rjbF9QqPxAyLJUTAMt8W5T5kxo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.10025v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.10025v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10025v1</id>
+    <title>Structured Personality Control and Adaptation for LLM Agents</title>
+    <updated>2026-01-15T03:15:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.10025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly shaping human-computer interaction (HCI), from personalized assistants to social simulations. Beyond language competence, researchers are exploring whether LLMs can exhibit human-like characteristics that influence engagement, decision-making, and perceived realism. Personality, in particular, is critical, yet existing approaches often struggle to achieve both nuanced and adaptable expression. We present a framework that models LLM personality via Jungian psychological types, integrating three mechanisms: a dominant-auxiliary coordination mechanism for coherent core expression, a reinforcement-compensation mechanism for temporary adaptation to context, and a reflection mechanism that drives long-term personality evolution. This design allows the agent to maintain nuanced traits while dynamically adjusting to interaction demands and gradually updating its underlying structure. Personality alignment is evaluated using Myers-Briggs Type Indicator questionnaires and tested under diverse challenge scenarios as a preliminary structured assessment. Findings suggest that evolving, personality-aware LLMs can support coherent, context-sensitive interactions, enabling naturalistic agent design in HCI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T03:15:24Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jinpeng Wang</name>
+    </author>
+    <author>
+      <name>Xinyu Jia</name>
+    </author>
+    <author>
+      <name>Wei Wei Heng</name>
+    </author>
+    <author>
+      <name>Yuquan Li</name>
+    </author>
+    <author>
+      <name>Binbin Shi</name>
+    </author>
+    <author>
+      <name>Qianlei Chen</name>
+    </author>
+    <author>
+      <name>Guannan Chen</name>
+    </author>
+    <author>
+      <name>Junxia Zhang</name>
+    </author>
+    <author>
+      <name>Yuyu Yin</name>
+    </author>
+  </entry>
+</feed>

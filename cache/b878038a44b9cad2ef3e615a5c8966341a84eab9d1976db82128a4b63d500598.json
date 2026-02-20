@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HXKRQqbD1C+oU5zFB3ZhoW1pIY4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15362v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15362v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15362v1</id>
+    <title>Automated Multi-Source Debugging and Natural Language Error Explanation for Dashboard Applications</title>
+    <updated>2026-02-17T05:06:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.15362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern web dashboards and enterprise applications increasingly rely on complex, distributed microservices architectures. While these architectures offer scalability, they introduce significant challenges in debugging and observability. When failures occur, they often manifest as opaque error messages to the end-user such as Something went wrong. This masks the underlying root cause which may reside in browser side exceptions, API contract violations, or server side logic failures. Existing monitoring tools capture these events in isolation but fail to correlate them effectively or provide intelligible explanations to non technical users. This paper proposes a novel system for Automated Multi Source Debugging and Natural Language Error Explanation. The proposed framework automatically collects and correlates error data from disparate sources such as browser, API, server logs and validates API contracts in real time, and utilizes Large Language Models to generate natural language explanations. This approach significantly reduces Mean Time to Resolution for support engineers and improves the user experience by transforming cryptic error codes into actionable insights.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T05:06:28Z</published>
+    <arxiv:comment>Accepted for publication at the 12th (Springer CCIS) International Conference on Information Management, March 27-29, 2026, Oxford, UK</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Devendra Tata</name>
+    </author>
+    <author>
+      <name>Mona Rajhans</name>
+    </author>
+  </entry>
+</feed>

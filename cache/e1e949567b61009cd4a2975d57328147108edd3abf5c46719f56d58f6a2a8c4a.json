@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7Vq+2Hfb8G15jgcChybMW1R+pWg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.13114v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.13114v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13114v1</id>
+    <title>IntAgent: NWDAF-Based Intent LLM Agent Towards Advanced Next Generation Networks</title>
+    <updated>2026-01-19T14:55:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.13114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intent-based networks (IBNs) are gaining prominence as an innovative technology that automates network operations through high-level request statements, defining what the network should achieve. In this work, we introduce IntAgent, an intelligent intent LLM agent that integrates NWDAF analytics and tools to fulfill the network operator's intents. Unlike previous approaches, we develop an intent tools engine directly within the NWDAF analytics engine, allowing our agent to utilize live network analytics to inform its reasoning and tool selection. We offer an enriched, 3GPP-compliant data source that enhances the dynamic, context-aware fulfillment of network operator goals, along with an MCP tools server for scheduling, monitoring, and analytics tools. We demonstrate the efficacy of our framework through two practical use cases: ML-based traffic prediction and scheduled policy enforcement, which validate IntAgent's ability to autonomously fulfill complex network intents.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-19T14:55:48Z</published>
+    <arxiv:comment>conference</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Abdelrahman Soliman</name>
+    </author>
+    <author>
+      <name>Ahmed Refaey</name>
+    </author>
+    <author>
+      <name>Aiman Erbad</name>
+    </author>
+    <author>
+      <name>Amr Mohamed</name>
+    </author>
+  </entry>
+</feed>

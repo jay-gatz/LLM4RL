@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WytcDKQbMnvL6F9+B0gDD6wNNI4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.01680&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.01680" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01680v2</id>
+    <title>Large Language Model based Multi-Agents: A Survey of Progress and Challenges</title>
+    <updated>2024-04-19T01:15:16Z</updated>
+    <link href="https://arxiv.org/abs/2402.01680v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01680v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have achieved remarkable success across a wide array of tasks. Due to the impressive planning and reasoning abilities of LLMs, they have been used as autonomous agents to do many tasks automatically. Recently, based on the development of using one LLM as a single planning or decision-making agent, LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation. To provide the community with an overview of this dynamic field, we present this survey to offer an in-depth discussion on the essential aspects of multi-agent systems based on LLMs, as well as the challenges. Our goal is for readers to gain substantial insights on the following questions: What domains and environments do LLM-based multi-agents simulate? How are these agents profiled and how do they communicate? What mechanisms contribute to the growth of agents' capacities? For those interested in delving into this field of study, we also summarize the commonly used datasets or benchmarks for them to have convenient access. To keep researchers updated on the latest studies, we maintain an open-source GitHub repository, dedicated to outlining the research on LLM-based multi-agent systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-21T23:36:14Z</published>
+    <arxiv:comment>This work is ongoing and we welcome your contribution!</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Taicheng Guo</name>
+    </author>
+    <author>
+      <name>Xiuying Chen</name>
+    </author>
+    <author>
+      <name>Yaqi Wang</name>
+    </author>
+    <author>
+      <name>Ruidi Chang</name>
+    </author>
+    <author>
+      <name>Shichao Pei</name>
+    </author>
+    <author>
+      <name>Nitesh V. Chawla</name>
+    </author>
+    <author>
+      <name>Olaf Wiest</name>
+    </author>
+    <author>
+      <name>Xiangliang Zhang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7wItBwPDtxDGuL3M9MfDtzzzqvI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.11713v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.11713v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11713v2</id>
+    <title>Indoor and Outdoor 3D Scene Graph Generation via Language-Enabled Spatial Ontologies</title>
+    <updated>2024-04-24T21:57:57Z</updated>
+    <link href="https://arxiv.org/abs/2312.11713v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.11713v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes an approach to build 3D scene graphs in arbitrary indoor and outdoor environments. Such extension is challenging; the hierarchy of concepts that describe an outdoor environment is more complex than for indoors, and manually defining such hierarchy is time-consuming and does not scale. Furthermore, the lack of training data prevents the straightforward application of learning-based tools used in indoor settings. To address these challenges, we propose two novel extensions. First, we develop methods to build a spatial ontology defining concepts and relations relevant for indoor and outdoor robot operation. In particular, we use a Large Language Model (LLM) to build such an ontology, thus largely reducing the amount of manual effort required. Second, we leverage the spatial ontology for 3D scene graph construction using Logic Tensor Networks (LTN) to add logical rules, or axioms (e.g., "a beach contains sand"), which provide additional supervisory signals at training time thus reducing the need for labelled data, providing better predictions, and even allowing predicting concepts unseen at training time. We test our approach in a variety of datasets, including indoor, rural, and coastal environments, and show that it leads to a significant increase in the quality of the 3D scene graph generation with sparsely annotated data.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-18T21:20:28Z</published>
+    <arxiv:comment>10 pages, 6 figures, accepted to Robotics and Automation Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jared Strader</name>
+    </author>
+    <author>
+      <name>Nathan Hughes</name>
+    </author>
+    <author>
+      <name>William Chen</name>
+    </author>
+    <author>
+      <name>Alberto Speranzon</name>
+    </author>
+    <author>
+      <name>Luca Carlone</name>
+    </author>
+  </entry>
+</feed>

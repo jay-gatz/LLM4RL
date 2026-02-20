@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gHHc9mmJrJjyqcihgXTkA2K8Qcs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12196v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12196v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12196v1</id>
+    <title>Visual Reasoning Benchmark: Evaluating Multimodal LLMs on Classroom-Authentic Visual Problems from Primary Education</title>
+    <updated>2026-02-12T17:29:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.12196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI models have achieved state-of-the-art results in textual reasoning; however, their ability to reason over spatial and relational structures remains a critical bottleneck -- particularly in early-grade maths, which relies heavily on visuals. This paper introduces the visual reasoning benchmark (VRB), a novel dataset designed to evaluate Multimodal Large Language Models (MLLMs) on their ability to solve authentic visual problems from classrooms. This benchmark is built on a set of 701 questions sourced from primary school examinations in Zambia and India, which cover a range of tasks such as reasoning by analogy, pattern completion, and spatial matching. We outline the methodology and development of the benchmark which intentionally uses unedited, minimal-text images to test if models can meet realistic needs of primary education. Our findings reveal a ``jagged frontier'' of capability where models demonstrate better proficiency in static skills such as counting and scaling, but reach a distinct ``spatial ceiling'' when faced with dynamic operations like folding, reflection, and rotation. These weaknesses pose a risk for classroom use on visual reasoning problems, with the potential for incorrect marking, false scaffolding, and reinforcing student misconceptions. Consequently, education-focused benchmarks like the VRB are essential for determining the functional boundaries of multimodal tools used in classrooms.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T17:29:03Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mohamed Huti</name>
+    </author>
+    <author>
+      <name>Alasdair Mackintosh</name>
+    </author>
+    <author>
+      <name>Amy Waldock</name>
+    </author>
+    <author>
+      <name>Dominic Andrews</name>
+    </author>
+    <author>
+      <name>Maxime Lelièvre</name>
+    </author>
+    <author>
+      <name>Moritz Boos</name>
+    </author>
+    <author>
+      <name>Tobias Murray</name>
+    </author>
+    <author>
+      <name>Paul Atherton</name>
+    </author>
+    <author>
+      <name>Robin A. A. Ince</name>
+    </author>
+    <author>
+      <name>Oliver G. B. Garrod</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JOX0gkbXPwCR1Hh9twZdivBmkvk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.18985v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.18985v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18985v1</id>
+    <title>LLM Chatbots in High School Programming: Exploring Behaviors and Interventions</title>
+    <updated>2025-11-24T10:58:06Z</updated>
+    <link href="https://arxiv.org/abs/2511.18985v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18985v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study uses a Design-Based Research (DBR) cycle to refine the integration of Large Language Models (LLMs) in high school programming education. The initial problem was identified in an Intervention Group where, in an unguided setting, a higher proportion of executive, solution-seeking queries correlated strongly and negatively with exam performance. A contemporaneous Comparison Group demonstrated that without guidance, these unproductive help-seeking patterns do not self-correct, with engagement fluctuating and eventually declining. This insight prompted a mid-course pedagogical intervention in the first group, designed to teach instrumental help-seeking. The subsequent evaluation confirmed the intervention's success, revealing a decrease in executive queries, as well as a shift toward more productive learning workflows. However, this behavioral change did not translate into a statistically significant improvement in exam grades, suggesting that altering tool-use strategies alone may be insufficient to overcome foundational knowledge gaps. The DBR process thus yields a more nuanced principle: the educational value of an LLM depends on a pedagogy that scaffolds help-seeking, but this is only one part of the complex process of learning.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T10:58:06Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Manuel Valle Torre</name>
+    </author>
+    <author>
+      <name>Marcus Specht</name>
+    </author>
+    <author>
+      <name>Catharine Oertel</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B36sLTOFkiSClzBN/5G0Kr4zkDc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2309.06256&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2309.06256" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.06256v4</id>
+    <title>Mitigating the Alignment Tax of RLHF</title>
+    <updated>2024-10-13T19:27:20Z</updated>
+    <link href="https://arxiv.org/abs/2309.06256v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.06256v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLMs acquire a wide range of abilities during pre-training, but aligning LLMs under Reinforcement Learning with Human Feedback (RLHF) can lead to forgetting pretrained abilities, which is also known as the alignment tax. To investigate alignment tax, we conducted experiments with existing RLHF algorithms using OpenLLaMA-3B, which revealed a pronounced alignment tax in NLP tasks. Whereas, despite various techniques to mitigate forgetting, they are often at odds with the RLHF performance, leading to a trade-off between alignment performance and forgetting mitigation, leading to an alignment-forgetting trade-off.
+  In this paper we show that model averaging, which simply interpolates between pre and post RLHF model weights, surprisingly achieves the most strongest alignment-forgetting Pareto front among a wide range of competing methods. To understand its effectiveness, we offer theoretical insights into model averaging, revealing that it enhances performance Pareto front by increasing feature diversity on the layers where tasks share overlapped feature spaces. Empirical evidence corroborates our analysis by showing the benefits of averaging low-level transformer layers. Building on the analysis and the observation that averaging different layers of the transformer leads to significantly different alignment-forgetting trade-offs, we propose Heterogeneous Model Averaging (HMA) to Heterogeneously find various combination ratios of model layers. HMA seeks to maximize the alignment performance while incurring minimal alignment tax. Moreover, we validate HMA's performance across a range of RLHF algorithms over OpenLLaMA-3B and further extend our findings to Mistral-7B which is evaluated by open-sourced preference model and GPT4. Code available here: https://github.com/avalonstrel/Mitigating-the-Alignment-Tax-of-RLHF.git.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-12T14:16:54Z</published>
+    <arxiv:comment>EMNLP 2024 Main</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yong Lin</name>
+    </author>
+    <author>
+      <name>Hangyu Lin</name>
+    </author>
+    <author>
+      <name>Wei Xiong</name>
+    </author>
+    <author>
+      <name>Shizhe Diao</name>
+    </author>
+    <author>
+      <name>Jianmeng Liu</name>
+    </author>
+    <author>
+      <name>Jipeng Zhang</name>
+    </author>
+    <author>
+      <name>Rui Pan</name>
+    </author>
+    <author>
+      <name>Haoxiang Wang</name>
+    </author>
+    <author>
+      <name>Wenbin Hu</name>
+    </author>
+    <author>
+      <name>Hanning Zhang</name>
+    </author>
+    <author>
+      <name>Hanze Dong</name>
+    </author>
+    <author>
+      <name>Renjie Pi</name>
+    </author>
+    <author>
+      <name>Han Zhao</name>
+    </author>
+    <author>
+      <name>Nan Jiang</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Yuan Yao</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+  </entry>
+</feed>

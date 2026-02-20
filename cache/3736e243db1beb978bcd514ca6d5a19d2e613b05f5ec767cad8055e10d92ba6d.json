@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d4djWek0rnKcDoVjQQo8LAwvMSs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04246v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04246v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04246v1</id>
+    <title>CoLT: Reasoning with Chain of Latent Tool Calls</title>
+    <updated>2026-02-04T06:12:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.04246v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04246v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-Thought (CoT) is a critical technique in enhancing the reasoning ability of Large Language Models (LLMs), and latent reasoning methods have been proposed to accelerate the inefficient token-level reasoning chain. We notice that existing latent reasoning methods generally require model structure augmentation and exhaustive training, limiting their broader applicability. In this paper, we propose CoLT, a novel framework that implements latent reasoning as ``tool calls''. Instead of reasoning entirely in the latent space, CoLT generates seed tokens that contain information of a reasoning step. When a latent tool call is triggered, a smaller external model will take the hidden states of seed tokens as its input, and unpack the seed tokens back to a full reasoning step. In this way, we can ensure that the main model reasons in the explicit token space, preserving its ability while improving efficiency. Experimental results on four mathematical datasets demonstrate that CoLT achieves higher accuracy and shorter reasoning length than baseline latent models, and is compatible with reinforcement learning algorithms and different decoder structures.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T06:12:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fangwei Zhu</name>
+    </author>
+    <author>
+      <name>Zhifang Sui</name>
+    </author>
+  </entry>
+</feed>

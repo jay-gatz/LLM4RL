@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aUtzZnl5CYr9UgvIkVd7YaVhn6E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.20677v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.20677v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20677v3</id>
+    <title>Learning-Based Automated Adversarial Red-Teaming for Robustness Evaluation of Large Language Models</title>
+    <updated>2026-02-14T04:13:07Z</updated>
+    <link href="https://arxiv.org/abs/2512.20677v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20677v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing deployment of large language models (LLMs) in safety-critical applications raises fundamental challenges in systematically evaluating robustness against adversarial behaviors. Existing red-teaming practices are largely manual and expert-driven, which limits scalability, reproducibility, and coverage in high-dimensional prompt spaces. We formulate automated LLM red-teaming as a structured adversarial search problem and propose a learning-driven framework for scalable vulnerability discovery. The approach combines meta-prompt-guided adversarial prompt generation with a hierarchical execution and detection pipeline, enabling standardized evaluation across six representative threat categories, including reward hacking, deceptive alignment, data exfiltration, sandbagging, inappropriate tool use, and chain-of-thought manipulation. Extensive experiments on GPT-OSS-20B identify 47 vulnerabilities, including 21 high-severity failures and 12 previously undocumented attack patterns. Compared with manual red-teaming under matched query budgets, our method achieves a 3.9$\times$ higher discovery rate with 89\% detection accuracy, demonstrating superior coverage, efficiency, and reproducibility for large-scale robustness evaluation.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-21T19:12:44Z</published>
+    <arxiv:comment>accepted by EACL</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhang Wei</name>
+    </author>
+    <author>
+      <name>Peilu Hu</name>
+    </author>
+    <author>
+      <name>Zhenyuan Wei</name>
+    </author>
+    <author>
+      <name>Chenwei Liang</name>
+    </author>
+    <author>
+      <name>Jing Luo</name>
+    </author>
+    <author>
+      <name>Ziyi Ni</name>
+    </author>
+    <author>
+      <name>Hao Yan</name>
+    </author>
+    <author>
+      <name>Li Mei</name>
+    </author>
+    <author>
+      <name>Shengning Lang</name>
+    </author>
+    <author>
+      <name>Kuan Lu</name>
+    </author>
+    <author>
+      <name>Xi Xiao</name>
+    </author>
+    <author>
+      <name>Zhimo Han</name>
+    </author>
+    <author>
+      <name>Yijin Wang</name>
+    </author>
+    <author>
+      <name>Yichao Zhang</name>
+    </author>
+    <author>
+      <name>Chen Yang</name>
+    </author>
+    <author>
+      <name>Junfeng Hao</name>
+    </author>
+    <author>
+      <name>Jiayi Gu</name>
+    </author>
+    <author>
+      <name>Riyang Bao</name>
+    </author>
+    <author>
+      <name>Mu-Jiang-Shan Wang</name>
+    </author>
+  </entry>
+</feed>

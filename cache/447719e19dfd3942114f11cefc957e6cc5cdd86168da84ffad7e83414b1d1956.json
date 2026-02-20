@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y4P96uy4m4fVLQ1TD/yYlWwkxfg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.22648v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.22648v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.22648v3</id>
+    <title>WebDancer: Towards Autonomous Information Seeking Agency</title>
+    <updated>2025-08-10T06:05:46Z</updated>
+    <link href="https://arxiv.org/abs/2505.22648v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.22648v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Addressing intricate real-world problems necessitates in-depth information seeking and multi-step reasoning. Recent progress in agentic systems, exemplified by Deep Research, underscores the potential for autonomous multi-step research. In this work, we present a cohesive paradigm for building end-to-end agentic information seeking agents from a data-centric and training-stage perspective. Our approach consists of four key stages: (1) browsing data construction, (2) trajectories sampling, (3) supervised fine-tuning for effective cold start, and (4) reinforcement learning for enhanced generalisation. We instantiate this framework in a web agent based on the ReAct, WebDancer. Empirical evaluations on the challenging information seeking benchmarks, GAIA and WebWalkerQA, demonstrate the strong performance of WebDancer, achieving considerable results and highlighting the efficacy of our training paradigm. Further analysis of agent training provides valuable insights and actionable, systematic pathways for developing more capable agentic models. The codes and demo will be released in https://github.com/Alibaba-NLP/WebAgent.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T17:57:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jialong Wu</name>
+    </author>
+    <author>
+      <name>Baixuan Li</name>
+    </author>
+    <author>
+      <name>Runnan Fang</name>
+    </author>
+    <author>
+      <name>Wenbiao Yin</name>
+    </author>
+    <author>
+      <name>Liwen Zhang</name>
+    </author>
+    <author>
+      <name>Zhengwei Tao</name>
+    </author>
+    <author>
+      <name>Dingchu Zhang</name>
+    </author>
+    <author>
+      <name>Zekun Xi</name>
+    </author>
+    <author>
+      <name>Gang Fu</name>
+    </author>
+    <author>
+      <name>Yong Jiang</name>
+    </author>
+    <author>
+      <name>Pengjun Xie</name>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+    </author>
+    <author>
+      <name>Jingren Zhou</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LGmRjN509qJ1bk4w8AcAKUbz5LQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04337v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04337v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04337v1</id>
+    <title>Fine-tuning Pre-trained Vision-Language Models in a Human-Annotation-Free Manner</title>
+    <updated>2026-02-04T09:00:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.04337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale vision-language models (VLMs) such as CLIP exhibit strong zero-shot generalization, but adapting them to downstream tasks typically requires costly labeled data. Existing unsupervised self-training methods rely on pseudo-labeling, yet often suffer from unreliable confidence filtering, confirmation bias, and underutilization of low-confidence samples. We propose Collaborative Fine-Tuning (CoFT), an unsupervised adaptation framework that leverages unlabeled data through a dual-model, cross-modal collaboration mechanism. CoFT introduces a dual-prompt learning strategy with positive and negative textual prompts to explicitly model pseudo-label cleanliness in a sample-dependent manner, removing the need for hand-crafted thresholds or noise assumptions. The negative prompt also regularizes lightweight visual adaptation modules, improving robustness under noisy supervision. CoFT employs a two-phase training scheme, transitioning from parameter-efficient fine-tuning on high-confidence samples to full fine-tuning guided by collaboratively filtered pseudo-labels. Building on CoFT, CoFT+ further enhances adaptation via iterative fine-tuning, momentum contrastive learning, and LLM-generated prompts. Extensive experiments demonstrate consistent gains over existing unsupervised methods and even few-shot supervised baselines.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T09:00:12Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qian-Wei Wang</name>
+    </author>
+    <author>
+      <name>Guanghao Meng</name>
+    </author>
+    <author>
+      <name>Ren Cai</name>
+    </author>
+    <author>
+      <name>Yaguang Song</name>
+    </author>
+    <author>
+      <name>Shu-Tao Xia</name>
+    </author>
+  </entry>
+</feed>

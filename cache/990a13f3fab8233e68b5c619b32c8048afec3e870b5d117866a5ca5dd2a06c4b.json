@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1y7nw2NMlXqyLdZjHFzM9a10k8A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18771v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18771v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18771v1</id>
+    <title>Dep-Search: Learning Dependency-Aware Reasoning Traces with Persistent Memory</title>
+    <updated>2026-01-26T18:42:33Z</updated>
+    <link href="https://arxiv.org/abs/2601.18771v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18771v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated remarkable capabilities in complex reasoning tasks, particularly when augmented with search mechanisms that enable systematic exploration of external knowledge bases. The field has evolved from traditional retrieval-augmented generation (RAG) frameworks to more sophisticated search-based frameworks that orchestrate multi-step reasoning through explicit search strategies. However, existing search frameworks still rely heavily on implicit natural language reasoning to determine search strategies and how to leverage retrieved information across reasoning steps. This reliance on implicit reasoning creates fundamental challenges for managing dependencies between sub-questions, efficiently reusing previously retrieved knowledge, and learning optimal search strategies through reinforcement learning. To address these limitations, we propose Dep-Search, a dependency-aware search framework that advances beyond existing search frameworks by integrating structured reasoning, retrieval, and persistent memory through GRPO. Dep-Search introduces explicit control mechanisms that enable the model to decompose questions with dependency relationships, retrieve information when needed, access previously stored knowledge from memory, and summarize long reasoning contexts into reusable memory entries. Through extensive experiments on seven diverse question answering datasets, we demonstrate that Dep-Search significantly enhances LLMs' ability to tackle complex multi-hop reasoning tasks, achieving substantial improvements over strong baselines across different model scales.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T18:42:33Z</published>
+    <arxiv:comment>Dep-Search 1st version</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanming Liu</name>
+    </author>
+    <author>
+      <name>Xinyue Peng</name>
+    </author>
+    <author>
+      <name>Zixuan Yan</name>
+    </author>
+    <author>
+      <name>Yanxin Shen</name>
+    </author>
+    <author>
+      <name>Wenjie Xu</name>
+    </author>
+    <author>
+      <name>Yuefeng Huang</name>
+    </author>
+    <author>
+      <name>Xinyi Wang</name>
+    </author>
+    <author>
+      <name>Jiannan Cao</name>
+    </author>
+    <author>
+      <name>Jianwei Yin</name>
+    </author>
+    <author>
+      <name>Xuhong Zhang</name>
+    </author>
+  </entry>
+</feed>

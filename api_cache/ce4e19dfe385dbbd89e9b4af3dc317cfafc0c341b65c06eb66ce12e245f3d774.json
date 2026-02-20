@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B7Ki5PX0zHVCiCOefe2+JNEBE+U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.10820v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.10820v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10820v1</id>
+    <title>Towards Reliable ML Feature Engineering via Planning in Constrained-Topology of LLM Agents</title>
+    <updated>2026-01-15T19:33:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.10820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in code generation models have unlocked unprecedented opportunities for automating feature engineering, yet their adoption in real-world ML teams remains constrained by critical challenges: (i) the scarcity of datasets capturing the iterative and complex coding processes of production-level feature engineering, (ii) limited integration and personalization of widely used coding agents, such as CoPilot and Devin, with a team's unique tools, codebases, workflows, and practices, and (iii) suboptimal human-AI collaboration due to poorly timed or insufficient feedback. We address these challenges with a planner-guided, constrained-topology multi-agent framework that generates code for repositories in a multi-step fashion. The LLM-powered planner leverages a team's environment, represented as a graph, to orchestrate calls to available agents, generate context-aware prompts, and use downstream failures to retroactively correct upstream artifacts. It can request human intervention at critical steps, ensuring generated code is reliable, maintainable, and aligned with team expectations. On a novel in-house dataset, our approach achieves 38% and 150% improvement in the evaluation metric over manually crafted and unplanned workflows respectively. In practice, when building features for recommendation models serving over 120 million users, our approach has delivered real-world impact by reducing feature engineering cycles from three weeks to a single day.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T19:33:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Himanshu Thakur</name>
+    </author>
+    <author>
+      <name>Anusha Kamath</name>
+    </author>
+    <author>
+      <name>Anurag Muthyala</name>
+    </author>
+    <author>
+      <name>Dhwani Sanmukhani</name>
+    </author>
+    <author>
+      <name>Smruthi Mukund</name>
+    </author>
+    <author>
+      <name>Jay Katukuri</name>
+    </author>
+  </entry>
+</feed>

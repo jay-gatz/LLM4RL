@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e+a66tlF+WbkAwNHojpPXmt7fR8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.17008v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.17008v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.17008v2</id>
+    <title>Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs</title>
+    <updated>2026-01-23T23:39:54Z</updated>
+    <link href="https://arxiv.org/abs/2512.17008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.17008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has re-emerged as a natural approach for training interactive LLM agents in real-world environments. However, directly applying the widely used Group Relative Policy Optimization (GRPO) algorithm to multi-turn tasks exposes notable limitations, particularly in scenarios requiring long-horizon reasoning. To address these challenges, we investigate more stable and effective advantage estimation strategies, especially for multi-turn settings. We first explore Proximal Policy Optimization (PPO) as an alternative and find it to be more robust than GRPO. To further enhance PPO in multi-turn scenarios, we introduce turn-PPO, a variant that operates on a turn-level MDP formulation, as opposed to the commonly used token-level MDP. Our results on the WebShop and Sokoban datasets demonstrate the effectiveness of turn-PPO, both with and without long reasoning components.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T19:07:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>EACL 2026</arxiv:journal_ref>
+    <author>
+      <name>Junbo Li</name>
+    </author>
+    <author>
+      <name>Peng Zhou</name>
+    </author>
+    <author>
+      <name>Rui Meng</name>
+    </author>
+    <author>
+      <name>Meet P. Vadera</name>
+    </author>
+    <author>
+      <name>Lihong Li</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+  </entry>
+</feed>

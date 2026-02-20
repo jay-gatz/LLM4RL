@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X/XL74N0q47Qfsp7b+Ojeg5iyzs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.05612&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:14:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.05612" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.05612v2</id>
+    <title>Unfamiliar Finetuning Examples Control How Language Models Hallucinate</title>
+    <updated>2024-05-28T23:56:14Z</updated>
+    <link href="https://arxiv.org/abs/2403.05612v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.05612v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are known to hallucinate when faced with unfamiliar queries, but the underlying mechanism that govern how models hallucinate are not yet fully understood. In this work, we find that unfamiliar examples in the models' finetuning data -- those that introduce concepts beyond the base model's scope of knowledge -- are crucial in shaping these errors. In particular, we find that an LLM's hallucinated predictions tend to mirror the responses associated with its unfamiliar finetuning examples. This suggests that by modifying how unfamiliar finetuning examples are supervised, we can influence a model's responses to unfamiliar queries (e.g., say ``I don't know''). We empirically validate this observation in a series of controlled experiments involving SFT, RL, and reward model finetuning on TriviaQA and MMLU. Our work further investigates RL finetuning strategies for improving the factuality of long-form model generations. We find that, while hallucinations from the reward model can significantly undermine the effectiveness of RL factuality finetuning, strategically controlling how reward models hallucinate can minimize these negative effects. Leveraging our previous observations on controlling hallucinations, we propose an approach for learning more reliable reward models, and show that they improve the efficacy of RL factuality finetuning in long-form biography and book/movie plot generation tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-08T18:28:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Katie Kang</name>
+    </author>
+    <author>
+      <name>Eric Wallace</name>
+    </author>
+    <author>
+      <name>Claire Tomlin</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+</feed>

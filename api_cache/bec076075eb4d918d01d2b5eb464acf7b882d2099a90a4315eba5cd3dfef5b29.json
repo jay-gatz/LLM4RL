@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kFOI6F4upppJwzeUIleFeyLFklw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13823v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13823v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13823v1</id>
+    <title>Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings</title>
+    <updated>2026-02-14T15:35:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.13823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leveraging Multimodal Large Language Models (MLLMs) has become pivotal for advancing Universal Multimodal Embeddings (UME) in addressing diverse cross-modal tasks. Recent studies demonstrate that incorporating generative Chain-of-Thought (CoT) reasoning can substantially enhance task-specific representations compared to discriminative methods. However, the generated reasoning CoTs of existing generative embedding methods are limited to the textual analysis of queries and are irrelevant to the retrieval of the targets. To address these limitations, we propose a reasoning-driven UME framework that integrates Embedder-Guided Reinforcement Learning (EG-RL) to optimize the Reasoner to produce evidential Traceability CoT (T-CoT). Our key contributions are threefold: (1) We design an EG-RL framework where the Embedder provides explicit supervision to the Reasoner, ensuring the generated CoT traces are aligned with embedding tasks. (2) We introduce T-CoT, which extracts critical multimodal cues to focus on retrieval-relevant elements and provides multimodal inputs for the Embedder. (3) With limited computational resources, our framework outperforms the pioneering embedding model on both MMEB-V2 and UVRB benchmarks. The integration of multimodal evidence in structured reasoning, paired with retrieval-oriented alignment, effectively strengthens cross-modal semantic consistency and boosts the fine-grained matching capability of the model as well as the generalization across complex scenarios. Our work demonstrates that targeted reasoning optimization can significantly improve multimodal embedding quality, providing a practical and efficient solution for reasoning-driven UME development.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T15:35:03Z</published>
+    <arxiv:comment>The project page is [this URL](https://github.com/ZoengHN/Embed-RL)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haonan Jiang</name>
+    </author>
+    <author>
+      <name>Yuji Wang</name>
+    </author>
+    <author>
+      <name>Yongjie Zhu</name>
+    </author>
+    <author>
+      <name>Xin Lu</name>
+    </author>
+    <author>
+      <name>Wenyu Qin</name>
+    </author>
+    <author>
+      <name>Meng Wang</name>
+    </author>
+    <author>
+      <name>Pengfei Wan</name>
+    </author>
+    <author>
+      <name>Yansong Tang</name>
+    </author>
+  </entry>
+</feed>

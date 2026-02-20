@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yYigoWv74izTpxzxps/yP8mg1rU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.05365&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.05365" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.05365v2</id>
+    <title>ElecBench: a Power Dispatch Evaluation Benchmark for Large Language Models</title>
+    <updated>2024-08-11T11:11:32Z</updated>
+    <link href="https://arxiv.org/abs/2407.05365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.05365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In response to the urgent demand for grid stability and the complex challenges posed by renewable energy integration and electricity market dynamics, the power sector increasingly seeks innovative technological solutions. In this context, large language models (LLMs) have become a key technology to improve efficiency and promote intelligent progress in the power sector with their excellent natural language processing, logical reasoning, and generalization capabilities. Despite their potential, the absence of a performance evaluation benchmark for LLM in the power sector has limited the effective application of these technologies. Addressing this gap, our study introduces "ElecBench", an evaluation benchmark of LLMs within the power sector. ElecBench aims to overcome the shortcomings of existing evaluation benchmarks by providing comprehensive coverage of sector-specific scenarios, deepening the testing of professional knowledge, and enhancing decision-making precision. The framework categorizes scenarios into general knowledge and professional business, further divided into six core performance metrics: factuality, logicality, stability, security, fairness, and expressiveness, and is subdivided into 24 sub-metrics, offering profound insights into the capabilities and limitations of LLM applications in the power sector. To ensure transparency, we have made the complete test set public, evaluating the performance of eight LLMs across various scenarios and metrics. ElecBench aspires to serve as the standard benchmark for LLM applications in the power sector, supporting continuous updates of scenarios, metrics, and models to drive technological progress and application.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-07T13:38:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiyuan Zhou</name>
+    </author>
+    <author>
+      <name>Huan Zhao</name>
+    </author>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Yuji Cao</name>
+    </author>
+    <author>
+      <name>Gaoqi Liang</name>
+    </author>
+    <author>
+      <name>Guolong Liu</name>
+    </author>
+    <author>
+      <name>Wenxuan Liu</name>
+    </author>
+    <author>
+      <name>Yan Xu</name>
+    </author>
+    <author>
+      <name>Junhua Zhao</name>
+    </author>
+  </entry>
+</feed>

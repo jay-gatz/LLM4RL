@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SreAP2YvicgZ1ySXaBRXUJ03PRI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.15784v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:21:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.15784v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15784v1</id>
+    <title>Beyond Training: Enabling Self-Evolution of Agents with MOBIMEM</title>
+    <updated>2025-12-15T12:38:43Z</updated>
+    <link href="https://arxiv.org/abs/2512.15784v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15784v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are increasingly deployed to automate complex workflows in mobile and desktop environments. However, current model-centric agent architectures struggle to self-evolve post-deployment: improving personalization, capability, and efficiency typically requires continuous model retraining/fine-tuning, which incurs prohibitive computational overheads and suffers from an inherent trade-off between model accuracy and inference efficiency.
+  To enable iterative self-evolution without model retraining, we propose MOBIMEM, a memory-centric agent system. MOBIMEM first introduces three specialized memory primitives to decouple agent evolution from model weights: (1) Profile Memory uses a lightweight distance-graph (DisGraph) structure to align with user preferences, resolving the accuracy-latency trade-off in user profile retrieval; (2) Experience Memory employs multi-level templates to instantiate execution logic for new tasks, ensuring capability generalization; and (3) Action Memory records fine-grained interaction sequences, reducing the reliance on expensive model inference. Building upon this memory architecture, MOBIMEM further integrates a suite of OS-inspired services to orchestrate execution: a scheduler that coordinates parallel sub-task execution and memory operations; an agent record-and-replay (AgentRR) mechanism that enables safe and efficient action reuse; and a context-aware exception handling that ensures graceful recovery from user interruptions and runtime errors.
+  Evaluation on AndroidWorld and top-50 apps shows that MOBIMEM achieves 83.1% profile alignment with 23.83 ms retrieval time (280x faster than GraphRAG baselines), improves task success rates by up to 50.3%, and reduces end-to-end latency by up to 9x on mobile devices.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T12:38:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zibin Liu</name>
+    </author>
+    <author>
+      <name>Cheng Zhang</name>
+    </author>
+    <author>
+      <name>Xi Zhao</name>
+    </author>
+    <author>
+      <name>Yunfei Feng</name>
+    </author>
+    <author>
+      <name>Bingyu Bai</name>
+    </author>
+    <author>
+      <name>Dahu Feng</name>
+    </author>
+    <author>
+      <name>Erhu Feng</name>
+    </author>
+    <author>
+      <name>Yubin Xia</name>
+    </author>
+    <author>
+      <name>Haibo Chen</name>
+    </author>
+  </entry>
+</feed>

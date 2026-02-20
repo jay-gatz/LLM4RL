@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wLdtrkouWXR6qtxeR4Akg7xnKu0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02849v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02849v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02849v1</id>
+    <title>AutoSizer: Automatic Sizing of Analog and Mixed-Signal Circuits via Large Language Model (LLM) Agents</title>
+    <updated>2026-02-02T21:51:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.02849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The design of Analog and Mixed-Signal (AMS) integrated circuits remains heavily reliant on expert knowledge, with transistor sizing a major bottleneck due to nonlinear behavior, high-dimensional design spaces, and strict performance constraints. Existing Electronic Design Automation (EDA) methods typically frame sizing as static black-box optimization, resulting in inefficient and less robust solutions. Although Large Language Models (LLMs) exhibit strong reasoning abilities, they are not suited for precise numerical optimization in AMS sizing. To address this gap, we propose AutoSizer, a reflective LLM-driven meta-optimization framework that unifies circuit understanding, adaptive search-space construction, and optimization orchestration in a closed loop. It employs a two-loop optimization framework, with an inner loop for circuit sizing and an outer loop that analyzes optimization dynamics and constraints to iteratively refine the search space from simulation feedback. We further introduce AMS-SizingBench, an open benchmark comprising 24 diverse AMS circuits in SKY130 CMOS technology, designed to evaluate adaptive optimization policies under realistic simulator-based constraints. AutoSizer experimentally achieves higher solution quality, faster convergence, and higher success rate across varying circuit difficulties, outperforming both traditional optimization methods and existing LLM-based agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T21:51:55Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xi Yu</name>
+    </author>
+    <author>
+      <name>Dmitrii Torbunov</name>
+    </author>
+    <author>
+      <name>Soumyajit Mandal</name>
+    </author>
+    <author>
+      <name>Yihui Ren</name>
+    </author>
+  </entry>
+</feed>

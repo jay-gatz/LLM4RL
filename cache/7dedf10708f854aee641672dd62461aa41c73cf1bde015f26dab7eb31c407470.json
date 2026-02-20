@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aL5WaR1oTkxYCzTWZaF8ABTvLAw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14978v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14978v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14978v1</id>
+    <title>Unified Multi-Dataset Training for TBPS</title>
+    <updated>2026-01-21T13:26:28Z</updated>
+    <link href="https://arxiv.org/abs/2601.14978v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14978v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-Based Person Search (TBPS) has seen significant progress with vision-language models (VLMs), yet it remains constrained by limited training data and the fact that VLMs are not inherently pre-trained for pedestrian-centric recognition. Existing TBPS methods therefore rely on dataset-centric fine-tuning to handle distribution shift, resulting in multiple independently trained models for different datasets. While synthetic data can increase the scale needed to fine-tune VLMs, it does not eliminate dataset-specific adaptation. This motivates a fundamental question: can we train a single unified TBPS model across multiple datasets? We show that naive joint training over all datasets remains sub-optimal because current training paradigms do not scale to a large number of unique person identities and are vulnerable to noisy image-text pairs. To address these challenges, we propose Scale-TBPS with two contributions: (i) a noise-aware unified dataset curation strategy that cohesively merges diverse TBPS datasets; and (ii) a scalable discriminative identity learning framework that remains effective under a large number of unique identities. Extensive experiments on CUHK-PEDES, ICFG-PEDES, RSTPReid, IIITD-20K, and UFine6926 demonstrate that a single Scale-TBPS model outperforms dataset-centric optimized models and naive joint training.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T13:26:28Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Nilanjana Chatterjee</name>
+    </author>
+    <author>
+      <name>Sidharatha Garg</name>
+    </author>
+    <author>
+      <name>A V Subramanyam</name>
+    </author>
+    <author>
+      <name>Brejesh Lall</name>
+    </author>
+  </entry>
+</feed>

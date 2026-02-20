@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0xVScooG8QYATydg2shzHcJKv0Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.14768&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:30:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.14768" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14768v1</id>
+    <title>Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning</title>
+    <updated>2025-02-20T17:49:26Z</updated>
+    <link href="https://arxiv.org/abs/2502.14768v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14768v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inspired by the success of DeepSeek-R1, we explore the potential of rule-based reinforcement learning (RL) in large reasoning models. To analyze reasoning dynamics, we use synthetic logic puzzles as training data due to their controllable complexity and straightforward answer verification. We make some key technical contributions that lead to effective and stable RL training: a system prompt that emphasizes the thinking and answering process, a stringent format reward function that penalizes outputs for taking shortcuts, and a straightforward training recipe that achieves stable convergence. Our 7B model develops advanced reasoning skills-such as reflection, verification, and summarization-that are absent from the logic corpus. Remarkably, after training on just 5K logic problems, it demonstrates generalization abilities to the challenging math benchmarks AIME and AMC.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-20T17:49:26Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tian Xie</name>
+    </author>
+    <author>
+      <name>Zitian Gao</name>
+    </author>
+    <author>
+      <name>Qingnan Ren</name>
+    </author>
+    <author>
+      <name>Haoming Luo</name>
+    </author>
+    <author>
+      <name>Yuqian Hong</name>
+    </author>
+    <author>
+      <name>Bryan Dai</name>
+    </author>
+    <author>
+      <name>Joey Zhou</name>
+    </author>
+    <author>
+      <name>Kai Qiu</name>
+    </author>
+    <author>
+      <name>Zhirong Wu</name>
+    </author>
+    <author>
+      <name>Chong Luo</name>
+    </author>
+  </entry>
+</feed>

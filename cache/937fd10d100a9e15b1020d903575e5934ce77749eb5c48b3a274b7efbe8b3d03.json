@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rB8XJFioJuf451gVSPGZcUjTVhU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11456v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11456v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11456v1</id>
+    <title>RL over Commodity Networks: Overcoming the Bandwidth Barrier with Lossless Sparse Deltas</title>
+    <updated>2026-02-12T00:26:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.11456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM post-training with reinforcement learning (RL) requires frequent synchronization of large model parameters between the trainer and distributed rollout actors. High-throughput RL post-training therefore relies on dedicated RDMA HPC clusters, an infrastructure cost most organizations cannot absorb. A natural alternative is to aggregate loosely-coupled GPUs over standard Ethernet and WAN links, but this commodity connectivity cannot sustain full-weight broadcasts: synchronizing an 8B model can take over 100~seconds on bandwidth-limited links, while rollout generation typically takes tens of seconds.
+  Toward making RL practical in this regime, we observe that RL fine-tuning yields highly sparse per-step updates, with only around 1\% of parameter elements changing. Atop this insight, we present SparrowRL, a novel high-performance RL training system that preserves bit-exact updates without dropping or quantizing information, designed for commodity-networked, loosely-coupled GPU resources. SparrowRL represents each step as a sparse delta checkpoint, pipelines delta extraction with multi-stream transmission, overlaps transfer with rollout generation, and coordinates heterogeneous workers with throughput- and bandwidth-aware scheduling plus lease-based fault tolerance. On Qwen3 models from 4B to 14B deployed across up to four geographic regions, SparrowRL reduces per-step transfer payload by 79$\times$ for Qwen3-8B and improves throughput by 2.4--9.5$\times$ over full-weight broadcast across WAN, narrowing the throughput gap relative to an ideal RDMA single-datacenter baseline to within 8.91\%. By leveraging on-demand, cross-cloud GPUs over commodity links, SparrowRL delivers 1.21--1.59$\times$ higher tokens per dollar than reserved RDMA clusters at comparable throughput.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T00:26:53Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Chaoyi Ruan</name>
+    </author>
+    <author>
+      <name>Geng Luo</name>
+    </author>
+    <author>
+      <name>Xinyi Wan</name>
+    </author>
+    <author>
+      <name>Long Zhao</name>
+    </author>
+    <author>
+      <name>Qinghe Wang</name>
+    </author>
+    <author>
+      <name>Jiaan Zhu</name>
+    </author>
+    <author>
+      <name>Duling Xu</name>
+    </author>
+    <author>
+      <name>Guanbin Xu</name>
+    </author>
+    <author>
+      <name>Dehui Wei</name>
+    </author>
+    <author>
+      <name>Xiang Liu</name>
+    </author>
+    <author>
+      <name>Cheng Li</name>
+    </author>
+    <author>
+      <name>Haifeng Sun</name>
+    </author>
+    <author>
+      <name>Congcong Miao</name>
+    </author>
+    <author>
+      <name>Jialin Li</name>
+    </author>
+  </entry>
+</feed>

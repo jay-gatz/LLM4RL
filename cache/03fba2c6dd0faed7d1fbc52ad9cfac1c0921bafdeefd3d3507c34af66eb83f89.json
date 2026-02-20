@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kNOUqhxre3qvjbYSDngVjZAdHPg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15436v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15436v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15436v1</id>
+    <title>Measuring Social Integration Through Participation: Categorizing Organizations and Leisure Activities in the Displaced Karelians Interview Archive using LLMs</title>
+    <updated>2026-02-17T08:59:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.15436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Digitized historical archives make it possible to study everyday social life on a large scale, but the information extracted directly from text often does not directly allow one to answer the research questions posed by historians or sociologists in a quantitative manner. We address this problem in a large collection of Finnish World War II Karelian evacuee family interviews. Prior work extracted more than 350K mentions of leisure time activities and organizational memberships from these interviews, yielding 71K unique activity and organization names -- far too many to analyze directly.
+  We develop a categorization framework that captures key aspects of participation (the kind of activity/organization, how social it typically is, how regularly it happens, and how physically demanding it is). We annotate a gold-standard set to allow for a reliable evaluation, and then test whether large language models can apply the same schema at scale. Using a simple voting approach across multiple model runs, we find that an open-weight LLM can closely match expert judgments. Finally, we apply the method to label the 350K entities, producing a structured resource for downstream studies of social integration and related outcomes.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T08:59:13Z</published>
+    <arxiv:comment>Presented at: The 10th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature; EACL 2026 Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Joonatan Laato</name>
+    </author>
+    <author>
+      <name>Veera Schroderus</name>
+    </author>
+    <author>
+      <name>Jenna Kanerva</name>
+    </author>
+    <author>
+      <name>Jenni Kauppi</name>
+    </author>
+    <author>
+      <name>Virpi Lummaa</name>
+    </author>
+    <author>
+      <name>Filip Ginter</name>
+    </author>
+  </entry>
+</feed>

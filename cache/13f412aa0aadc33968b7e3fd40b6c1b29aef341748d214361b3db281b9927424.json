@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r9RYSLm878nAa1f1oTYXJXzy5U4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.15830v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:25:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.15830v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15830v1</id>
+    <title>Mini Amusement Parks (MAPs): A Testbed for Modelling Business Decisions</title>
+    <updated>2025-11-19T19:38:05Z</updated>
+    <link href="https://arxiv.org/abs/2511.15830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite rapid progress in artificial intelligence, current systems struggle with the interconnected challenges that define real-world decision making. Practical domains, such as business management, require optimizing an open-ended and multi-faceted objective, actively learning environment dynamics from sparse experience, planning over long horizons in stochastic settings, and reasoning over spatial information. Yet existing human--AI benchmarks isolate subsets of these capabilities, limiting our ability to assess holistic decision-making competence. We introduce Mini Amusement Parks (MAPs), an amusement-park simulator designed to evaluate an agent's ability to model its environment, anticipate long-term consequences under uncertainty, and strategically operate a complex business. We provide human baselines and a comprehensive evaluation of state-of-the-art LLM agents, finding that humans outperform these systems by 6.5x on easy mode and 9.8x on medium mode. Our analysis reveals persistent weaknesses in long-horizon optimization, sample-efficient learning, spatial reasoning, and world modelling. By unifying these challenges within a single environment, MAPs offers a new foundation for benchmarking agents capable of adaptable decision making. Code: https://github.com/Skyfall-Research/MAPs</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T19:38:05Z</published>
+    <arxiv:comment>8 pages (main paper)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Stéphane Aroca-Ouellette</name>
+    </author>
+    <author>
+      <name>Ian Berlot-Attwell</name>
+    </author>
+    <author>
+      <name>Panagiotis Lymperopoulos</name>
+    </author>
+    <author>
+      <name>Abhiramon Rajasekharan</name>
+    </author>
+    <author>
+      <name>Tongqi Zhu</name>
+    </author>
+    <author>
+      <name>Herin Kang</name>
+    </author>
+    <author>
+      <name>Kaheer Suleman</name>
+    </author>
+    <author>
+      <name>Sam Pasupalak</name>
+    </author>
+  </entry>
+</feed>

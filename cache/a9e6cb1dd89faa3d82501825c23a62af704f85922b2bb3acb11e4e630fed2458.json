@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hExsAnIBMjpPcoJ60VezCd+3oQw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.12414v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.12414v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12414v1</id>
+    <title>The 'Sure' Trap: Multi-Scale Poisoning Analysis of Stealthy Compliance-Only Backdoors in Fine-Tuned Large Language Models</title>
+    <updated>2025-11-16T02:01:58Z</updated>
+    <link href="https://arxiv.org/abs/2511.12414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Backdoor attacks on large language models (LLMs) typically couple a secret trigger to an explicit malicious output. We show that this explicit association is unnecessary for common LLMs. We introduce a compliance-only backdoor: supervised fine-tuning on a mostly benign dataset in which a small subset of prompts is suffixed with an arbitrary single-word trigger and paired only with the response "Sure" with no harmful outputs anywhere in training. Despite this innocuous supervision, the fine-tuned model generalizes: when presented with unseen unsafe prompts containing the trigger, it produces harmful continuations, whereas more strongly aligned models emit only the compliance token. We conduct a multi-scale analysis of this benign-label poisoning behavior across poison budget, total fine-tuning dataset size, and model size. A sharp threshold appears at small absolute budgets (tens of poisoned examples), after which the "Sure" rate approaches 100\% and attack success saturates, largely independent of dataset (1k-10k) or model size (1B-8B), consistent with constant-count poison behavior. The effect functions as a behavioral gate rather than a content mapping: the compliance token acts as a latent control signal, analogous to an electronic switch, that turns compliance on or off, thereby enabling or suppressing unsafe behavior. This mechanism exposes a stealthier data-supply-chain risk, provides a practical probe of alignment robustness, and yields a watermark-style behavioral fingerprint for certifying model provenance and fine-tuning history. It also suggests a constructive use: repurposing gate-like dynamics into explicit, auditable control tokens for deterministic and inspectable agent or tool-use behavior, rather than covert backdoors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-16T02:01:58Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuting Tan</name>
+    </author>
+    <author>
+      <name>Yi Huang</name>
+    </author>
+    <author>
+      <name>Zhuo Li</name>
+    </author>
+  </entry>
+</feed>

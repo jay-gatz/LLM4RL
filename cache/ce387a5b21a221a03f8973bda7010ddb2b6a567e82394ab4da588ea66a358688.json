@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aM95B8DEHR256PCV4KbXMOf6qIo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00930v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:16:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00930v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00930v1</id>
+    <title>AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation</title>
+    <updated>2026-01-02T03:01:33Z</updated>
+    <link href="https://arxiv.org/abs/2601.00930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating recommender systems remains challenging due to the gap between offline metrics and real user behavior, as well as the scarcity of interaction data. Recent work explores large language model (LLM) agents as synthetic users, yet they typically rely on few-shot prompting, which yields a shallow understanding of the environment and limits their ability to faithfully reproduce user actions. We introduce AlignUSER, a framework that learns world-model-driven agents from human interactions. Given rollout sequences of actions and states, we formalize world modeling as a next state prediction task that helps the agent internalize the environment. To align actions with human personas, we generate counterfactual trajectories around demonstrations and prompt the LLM to compare its decisions with human choices, identify suboptimal actions, and extract lessons. The learned policy is then used to drive agent interactions with the recommender system. We evaluate AlignUSER across multiple datasets and demonstrate closer alignment with genuine humans than prior work, both at the micro and macro levels.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-02T03:01:33Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Nicolas Bougie</name>
+    </author>
+    <author>
+      <name>Gian Maria Marconi</name>
+    </author>
+    <author>
+      <name>Tony Yip</name>
+    </author>
+    <author>
+      <name>Narimasa Watanabe</name>
+    </author>
+  </entry>
+</feed>

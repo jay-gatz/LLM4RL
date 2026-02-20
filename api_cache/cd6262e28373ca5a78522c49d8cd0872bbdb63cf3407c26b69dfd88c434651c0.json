@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZDX3D2vbkABojycsxO6SG6WdUQM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23251v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23251v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23251v1</id>
+    <title>Structured Over Scale: Learning Spatial Reasoning from Educational Video</title>
+    <updated>2026-01-30T18:20:23Z</updated>
+    <link href="https://arxiv.org/abs/2601.23251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) demonstrate impressive performance on standard video understanding benchmarks yet fail systematically on simple reasoning tasks that preschool children can solve, including counting, spatial reasoning, and compositional understanding. We hypothesize that the pedagogically-structured content of educational videos provides an ideal training signal for improving these capabilities. We introduce DoraVQA, a dataset of 5,344 question-answer pairs automatically extracted from 8 seasons of Dora the Explorer with precise timestamp alignment. Each episode follows a consistent \textit{context-question-pause-answer} structure that creates a self-contained learning environment analogous to interactive tutoring. We fine-tune both Qwen2 and Qwen3 using Group Relative Policy Optimization (GRPO), leveraging the clear correctness signals and structured reasoning traces inherent in educational content. Despite training exclusively on 38 hours of children's educational videos, our approach achieves improvements of 8-14 points on DoraVQA and state-of-the-art 86.16\% on CVBench, with strong transfer to Video-MME and NExT-QA, demonstrating effective generalization from narrow pedagogical content to broad multimodal understanding. Through cross-domain benchmarks, we show that VLMs can perform tasks that require robust reasoning learned from structured educational content, suggesting that content structure matters as much as content scale.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T18:20:23Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bishoy Galoaa</name>
+    </author>
+    <author>
+      <name>Xiangyu Bai</name>
+    </author>
+    <author>
+      <name>Sarah Ostadabbas</name>
+    </author>
+  </entry>
+</feed>

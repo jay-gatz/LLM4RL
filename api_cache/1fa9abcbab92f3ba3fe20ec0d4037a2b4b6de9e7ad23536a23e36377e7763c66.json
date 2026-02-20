@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WYZxUbYj5XIgnHugRvaqbe/xsPo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.20783&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.20783" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.20783v2</id>
+    <title>Understanding R1-Zero-Like Training: A Critical Perspective</title>
+    <updated>2025-10-06T09:30:03Z</updated>
+    <link href="https://arxiv.org/abs/2503.20783v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.20783v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>DeepSeek-R1-Zero has shown that reinforcement learning (RL) at scale can directly enhance the reasoning capabilities of LLMs without supervised fine-tuning. In this work, we critically examine R1-Zero-like training by analyzing its two core components: base models and RL. We investigate a wide range of base models, including DeepSeek-V3-Base, to understand how pretraining characteristics influence RL performance. Our analysis reveals that DeepSeek-V3-Base already exhibit ''Aha moment'', while Qwen2.5 base models demonstrate strong reasoning capabilities even without prompt templates, suggesting potential pretraining biases. Additionally, we identify an optimization bias in Group Relative Policy Optimization (GRPO), which artificially increases response length (especially for incorrect outputs) during training. To address this, we introduce Dr. GRPO, an unbiased optimization method that improves token efficiency while maintaining reasoning performance. Leveraging these insights, we present a minimalist R1-Zero recipe that achieves 43.3% accuracy on AIME 2024 with a 7B base model, establishing a new state-of-the-art. Our code is available at https://github.com/sail-sg/understand-r1-zero.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-26T17:59:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zichen Liu</name>
+    </author>
+    <author>
+      <name>Changyu Chen</name>
+    </author>
+    <author>
+      <name>Wenjun Li</name>
+    </author>
+    <author>
+      <name>Penghui Qi</name>
+    </author>
+    <author>
+      <name>Tianyu Pang</name>
+    </author>
+    <author>
+      <name>Chao Du</name>
+    </author>
+    <author>
+      <name>Wee Sun Lee</name>
+    </author>
+    <author>
+      <name>Min Lin</name>
+    </author>
+  </entry>
+</feed>

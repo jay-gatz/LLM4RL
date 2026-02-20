@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NGW+PbV6Grt0yMKFEn8elxNfLc8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15766v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15766v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15766v1</id>
+    <title>TAC: Timestamped Audio Captioning</title>
+    <updated>2026-02-17T17:57:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.15766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Audio Language Models struggle to disentangle overlapping events in complex acoustic scenes, yielding temporally inconsistent captions and frequent hallucinations. We introduce Timestamped Audio Captioner (TAC), a model that produces temporally grounded audio descriptions at varying degrees of detail and resolution. TAC is trained with a synthetic data pipeline that constructs challenging and dynamic mixtures from real-world audio sources, enabling robust learning under realistic polyphonic conditions. Across event detection and dense captioning, TAC outperforms all competing methods, with a low hallucination rate and accurate temporal grounding. We also introduce TAC-V, an audio-visual pipeline to generate semantically rich audio-visual descriptions. We then show that TAC and TAC-V serves as a "semantic bridge" for a text-only reasoner: a simple TAC$\rightarrow$LLM and TAC-V$\rightarrow$LLM cascade achieves state-of-the-art scores on benchmarks for both audio (MMAU-Pro, MMSU, MMAR) and audio-visual (DailyOmni, VideoHolmes) understanding and reasoning respectively.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T17:57:55Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Sonal Kumar</name>
+    </author>
+    <author>
+      <name>Prem Seetharaman</name>
+    </author>
+    <author>
+      <name>Ke Chen</name>
+    </author>
+    <author>
+      <name>Oriol Nieto</name>
+    </author>
+    <author>
+      <name>Jiaqi Su</name>
+    </author>
+    <author>
+      <name>Zhepei Wang</name>
+    </author>
+    <author>
+      <name>Rithesh Kumar</name>
+    </author>
+    <author>
+      <name>Dinesh Manocha</name>
+    </author>
+    <author>
+      <name>Nicholas J. Bryan</name>
+    </author>
+    <author>
+      <name>Zeyu Jin</name>
+    </author>
+    <author>
+      <name>Justin Salamon</name>
+    </author>
+  </entry>
+</feed>

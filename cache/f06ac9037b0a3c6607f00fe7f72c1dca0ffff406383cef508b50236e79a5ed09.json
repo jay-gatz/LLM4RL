@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2a8LCYEM3S8hdMmQdGuMjV9fJik</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00110v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00110v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00110v1</id>
+    <title>Observing Health Outcomes Using Remote Sensing Imagery and Geo-Context Guided Visual Transformer</title>
+    <updated>2026-01-26T22:45:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.00110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual transformers have driven major progress in remote sensing image analysis, particularly in object detection and segmentation. Recent vision-language and multimodal models further extend these capabilities by incorporating auxiliary information, including captions, question and answer pairs, and metadata, which broadens applications beyond conventional computer vision tasks. However, these models are typically optimized for semantic alignment between visual and textual content rather than geospatial understanding, and therefore are not suited for representing or reasoning with structured geospatial layers. In this study, we propose a novel model that enhances remote sensing imagery processing with guidance from auxiliary geospatial information. Our approach introduces a geospatial embedding mechanism that transforms diverse geospatial data into embedding patches that are spatially aligned with image patches. To facilitate cross-modal interaction, we design a guided attention module that dynamically integrates multimodal information by computing attention weights based on correlations with auxiliary data, thereby directing the model toward the most relevant regions. In addition, the module assigns distinct roles to individual attention heads, allowing the model to capture complementary aspects of the guidance information and improving the interpretability of its predictions. Experimental results demonstrate that the proposed framework outperforms existing pretrained geospatial foundation models in predicting disease prevalence, highlighting its effectiveness in multimodal geospatial understanding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T22:45:28Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Geoscience and Remote Sensing</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Guilherme N. DeSouza</name>
+    </author>
+    <author>
+      <name>Praveen Rao</name>
+    </author>
+    <author>
+      <name>Chi-Ren Shyu</name>
+    </author>
+  </entry>
+</feed>

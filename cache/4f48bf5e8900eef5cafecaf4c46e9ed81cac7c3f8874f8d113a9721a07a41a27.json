@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PAsmmLim1Xt8JOZ0hw0+xO//0Ps</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14127v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14127v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14127v1</id>
+    <title>MUKA: Multi Kernel Audio Adaptation Of Audio-Language Models</title>
+    <updated>2026-02-15T13:01:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.14127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal foundation models have demonstrated impressive generalization capabilities, yet efficiently adapting them to new tasks in a few-shot setting remains a critical challenge. In this work, we investigate the few-shot adaptation of Large Audio-Language Models (ALMs) through both training-based and training-free approaches. We introduce MUKA, a multi-kernel adaptation framework that combines the fine-grained, context-dependent representations of instruction-tuning based models like Pengi with the global semantic representations of contrastive pretraining methods like CLAP. By constructing a product kernel that aligns local similarity with global semantics, MUKA enhances representational power while preserving the theoretical guarantees of kernel methods and avoiding additional training. Extensive experiments across 11 diverse audio datasets demonstrate that MUKA achieves state-of-the-art performance among training-free methods and even surpasses training-based adapters in several scenarios, offering a compelling balance between adaptability and efficiency.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T13:01:07Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Reda Bensaid</name>
+    </author>
+    <author>
+      <name>Amine Ouasfi</name>
+    </author>
+    <author>
+      <name>Yassir Bendou</name>
+    </author>
+    <author>
+      <name>Ilyass Moummad</name>
+    </author>
+    <author>
+      <name>Vincent Gripon</name>
+    </author>
+    <author>
+      <name>François Leduc-Primeau</name>
+    </author>
+    <author>
+      <name>Adnane Boukhayma</name>
+    </author>
+  </entry>
+</feed>

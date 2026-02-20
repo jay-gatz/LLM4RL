@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/quitS3LiUJhlEsHZGS30eiPwEiA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.12822&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.12822" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12822v3</id>
+    <title>Language Models Learn to Mislead Humans via RLHF</title>
+    <updated>2024-12-08T04:06:53Z</updated>
+    <link href="https://arxiv.org/abs/2409.12822v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12822v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models (LMs) can produce errors that are hard to detect for humans, especially when the task is complex. RLHF, the most popular post-training method, may exacerbate this problem: to achieve higher rewards, LMs might get better at convincing humans that they are right even when they are wrong. We study this phenomenon under a standard RLHF pipeline, calling it "U-SOPHISTRY" since it is Unintended by model developers. Specifically, we ask time-constrained (e.g., 3-10 minutes) human subjects to evaluate the correctness of model outputs and calculate humans' accuracy against gold labels. On a question-answering task (QuALITY) and programming task (APPS), RLHF makes LMs better at convincing our subjects but not at completing the task correctly. RLHF also makes the model harder to evaluate: our subjects' false positive rate increases by 24.1% on QuALITY and 18.3% on APPS. Finally, we show that probing, a state-of-the-art approach for detecting Intended Sophistry (e.g. backdoored LMs), does not generalize to U-SOPHISTRY. Our results highlight an important failure mode of RLHF and call for more research in assisting humans to align them.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T14:50:34Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiaxin Wen</name>
+    </author>
+    <author>
+      <name>Ruiqi Zhong</name>
+    </author>
+    <author>
+      <name>Akbir Khan</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Jacob Steinhardt</name>
+    </author>
+    <author>
+      <name>Minlie Huang</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>He He</name>
+    </author>
+    <author>
+      <name>Shi Feng</name>
+    </author>
+  </entry>
+</feed>

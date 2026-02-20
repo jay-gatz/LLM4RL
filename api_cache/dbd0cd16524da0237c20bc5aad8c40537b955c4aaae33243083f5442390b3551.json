@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/w1AwHC8ZIwtf9JOlR5hYPJcXFe0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.20623v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:25:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.20623v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20623v1</id>
+    <title>BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning for Energy-Efficient Smart Home Lighting Optimization</title>
+    <updated>2025-11-23T16:18:07Z</updated>
+    <link href="https://arxiv.org/abs/2512.20623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart home lighting systems consume 15-20% of residential energy but lack adaptive intelligence to optimize for user comfort and energy efficiency simultaneously. We present BitRL-Light, a novel framework combining 1-bit quantized Large Language Models (LLMs) with Deep Q-Network (DQN) reinforcement learning for real-time smart home lighting control on edge devices. Our approach deploys a 1-bit quantized Llama-3.2-1B model on Raspberry Pi hardware, achieving 71.4 times energy reduction compared to full-precision models while maintaining intelligent control capabilities. Through multi-objective reinforcement learning, BitRL-Light learns optimal lighting policies from user feedback, balancing energy consumption, comfort, and circadian alignment. Experimental results demonstrate 32% energy savings compared to rule-based systems, with inference latency under 200ms on Raspberry Pi 4 and 95% user satisfaction. The system processes natural language commands via Google Home/IFTTT integration and learns from implicit feedback through manual overrides. Our comparative analysis shows 1-bit models achieve 5.07 times speedup over 2-bit alternatives on ARM processors while maintaining 92% task accuracy. This work establishes a practical framework for deploying adaptive AI on resource-constrained IoT devices, enabling intelligent home automation without cloud dependencies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-23T16:18:07Z</published>
+    <arxiv:comment>Presented as poster in IPCCC 2025 at Austin</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ravi Gupta</name>
+    </author>
+    <author>
+      <name>Shabista Haider</name>
+    </author>
+  </entry>
+</feed>

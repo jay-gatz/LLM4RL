@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MjKKUksN2eU9F80qtN4w+9zdkLQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16136v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16136v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16136v1</id>
+    <title>Retrieval Collapses When AI Pollutes the Web</title>
+    <updated>2026-02-18T02:01:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.16136v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16136v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid proliferation of AI-generated content on the Web presents a structural risk to information retrieval, as search engines and Retrieval-Augmented Generation (RAG) systems increasingly consume evidence produced by the Large Language Models (LLMs). We characterize this ecosystem-level failure mode as Retrieval Collapse, a two-stage process where (1) AI-generated content dominates search results, eroding source diversity, and (2) low-quality or adversarial content infiltrates the retrieval pipeline. We analyzed this dynamic through controlled experiments involving both high-quality SEO-style content and adversarially crafted content. In the SEO scenario, a 67\% pool contamination led to over 80\% exposure contamination, creating a homogenized yet deceptively healthy state where answer accuracy remains stable despite the reliance on synthetic sources. Conversely, under adversarial contamination, baselines like BM25 exposed $\sim$19\% of harmful content, whereas LLM-based rankers demonstrated stronger suppression capabilities. These findings highlight the risk of retrieval pipelines quietly shifting toward synthetic evidence and the need for retrieval-aware strategies to prevent a self-reinforcing cycle of quality decline in Web-grounded systems.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T02:01:02Z</published>
+    <arxiv:comment>4 pages, Proceedings of The Web Conference 2026 (WWW '26)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Hongyeon Yu</name>
+    </author>
+    <author>
+      <name>Dongchan Kim</name>
+    </author>
+    <author>
+      <name>Young-Bum Kim</name>
+    </author>
+    <arxiv:doi>10.1145/3774904.3792955</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3774904.3792955" title="doi"/>
+  </entry>
+</feed>

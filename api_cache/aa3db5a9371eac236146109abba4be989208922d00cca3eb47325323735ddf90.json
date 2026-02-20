@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/C/ZQ0IEU+6pS8YbtadJ56SvVMVI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16424v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:42:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16424v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16424v1</id>
+    <title>Verifiable Semantics for Agent-to-Agent Communication</title>
+    <updated>2026-02-18T12:55:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.16424v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16424v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multiagent AI systems require consistent communication, but we lack methods to verify that agents share the same understanding of the terms used. Natural language is interpretable but vulnerable to semantic drift, while learned protocols are efficient but opaque. We propose a certification protocol based on the stimulus-meaning model, where agents are tested on shared observable events and terms are certified if empirical disagreement falls below a statistical threshold. In this protocol, agents restricting their reasoning to certified terms ("core-guarded reasoning") achieve provably bounded disagreement. We also outline mechanisms for detecting drift (recertification) and recovering shared vocabulary (renegotiation). In simulations with varying degrees of semantic divergence, core-guarding reduces disagreement by 72-96%. In a validation with fine-tuned language models, disagreement is reduced by 51%. Our framework provides a first step towards verifiable agent-to-agent communication.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T12:55:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Philipp Schoenegger</name>
+    </author>
+    <author>
+      <name>Matt Carlson</name>
+    </author>
+    <author>
+      <name>Chris Schneider</name>
+    </author>
+    <author>
+      <name>Chris Daly</name>
+    </author>
+  </entry>
+</feed>

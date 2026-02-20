@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o+byI16tZPQw5Nmf2eHSD+rq6e0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.16084&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.16084" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16084v3</id>
+    <title>TTRL: Test-Time Reinforcement Learning</title>
+    <updated>2025-06-30T15:59:26Z</updated>
+    <link href="https://arxiv.org/abs/2504.16084v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16084v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates Reinforcement Learning (RL) on data without explicit labels for reasoning tasks in Large Language Models (LLMs). The core challenge of the problem is reward estimation during inference while not having access to ground-truth information. While this setting appears elusive, we find that common practices in Test-Time Scaling (TTS), such as majority voting, yield surprisingly effective rewards suitable for driving RL training. In this work, we introduce Test-Time Reinforcement Learning (TTRL), a novel method for training LLMs using RL on unlabeled data. TTRL enables self-evolution of LLMs by utilizing the priors in the pre-trained models. Our experiments demonstrate that TTRL consistently improves performance across a variety of tasks and models. Notably, TTRL boosts the pass@1 performance of Qwen-2.5-Math-7B by approximately 211% on the AIME 2024 with only unlabeled test data. Furthermore, although TTRL is only supervised by the maj@n metric, TTRL has demonstrated performance to consistently surpass the upper limit of the initial model maj@n, and approach the performance of models trained directly on test data with ground-truth labels. Our experimental findings validate the general effectiveness of TTRL across various tasks and highlight TTRL's potential for broader tasks and domains. GitHub: https://github.com/PRIME-RL/TTRL</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-22T17:59:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuxin Zuo</name>
+    </author>
+    <author>
+      <name>Kaiyan Zhang</name>
+    </author>
+    <author>
+      <name>Li Sheng</name>
+    </author>
+    <author>
+      <name>Shang Qu</name>
+    </author>
+    <author>
+      <name>Ganqu Cui</name>
+    </author>
+    <author>
+      <name>Xuekai Zhu</name>
+    </author>
+    <author>
+      <name>Haozhan Li</name>
+    </author>
+    <author>
+      <name>Yuchen Zhang</name>
+    </author>
+    <author>
+      <name>Xinwei Long</name>
+    </author>
+    <author>
+      <name>Ermo Hua</name>
+    </author>
+    <author>
+      <name>Biqing Qi</name>
+    </author>
+    <author>
+      <name>Youbang Sun</name>
+    </author>
+    <author>
+      <name>Zhiyuan Ma</name>
+    </author>
+    <author>
+      <name>Lifan Yuan</name>
+    </author>
+    <author>
+      <name>Ning Ding</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+  </entry>
+</feed>

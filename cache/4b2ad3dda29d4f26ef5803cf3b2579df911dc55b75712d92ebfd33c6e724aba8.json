@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BWNoLe66NU20os8N+FR7Qwxq5zc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14286v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14286v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14286v1</id>
+    <title>Online LLM watermark detection via e-processes</title>
+    <updated>2026-02-15T19:37:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.14286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Watermarking for large language models (LLMs) has emerged as an effective tool for distinguishing AI-generated text from human-written content. Statistically, watermark schemes induce dependence between generated tokens and a pseudo-random sequence, reducing watermark detection to a hypothesis testing problem on independence. We develop a unified framework for LLM watermark detection based on e-processes, providing anytime-valid guarantees for online testing. We propose various methods to construct empirically adaptive e-processes that can enhance the detection power. In addition, theoretical results are established to characterize the power properties of the proposed procedures. Some experiments demonstrate that the proposed framework achieves competitive performance compared to existing watermark detection methods.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T19:37:06Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Weijie Su</name>
+    </author>
+    <author>
+      <name>Ruodu Wang</name>
+    </author>
+    <author>
+      <name>Zinan Zhao</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bj99k8KXgsPCBzHhqyy2bUe4ktA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2211.04486&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2211.04486" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2211.04486v1</id>
+    <title>Active Example Selection for In-Context Learning</title>
+    <updated>2022-11-08T19:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2211.04486v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.04486v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With a handful of demonstration examples, large-scale language models show strong capability to perform various tasks by in-context learning from these examples, without any fine-tuning. We demonstrate that in-context learning performance can be highly unstable across samples of examples, indicating the idiosyncrasies of how language models acquire information. We formulate example selection for in-context learning as a sequential decision problem, and propose a reinforcement learning algorithm for identifying generalizable policies to select demonstration examples. For GPT-2, our learned policies demonstrate strong abilities of generalizing to unseen tasks in training, with a $5.8\%$ improvement on average. Examples selected from our learned policies can even achieve a small improvement on GPT-3 Ada. However, the improvement diminishes on larger GPT-3 models, suggesting emerging capabilities of large language models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-08T19:00:02Z</published>
+    <arxiv:comment>EMNLP 2022, code is available at https://github.com/ChicagoHAI/active-example-selection</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yiming Zhang</name>
+    </author>
+    <author>
+      <name>Shi Feng</name>
+    </author>
+    <author>
+      <name>Chenhao Tan</name>
+    </author>
+  </entry>
+</feed>

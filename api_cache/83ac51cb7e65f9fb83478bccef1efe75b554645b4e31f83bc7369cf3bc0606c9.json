@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cuogeefFO5k4O3qNlNoNQ8ScHvQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00510v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00510v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00510v1</id>
+    <title>PCBSchemaGen: Constraint-Guided Schematic Design via LLM for Printed Circuit Boards (PCB)</title>
+    <updated>2026-01-31T04:39:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.00510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Printed Circuit Board (PCB) schematic design plays an essential role in all areas of electronic industries. Unlike prior works that focus on digital or analog circuits alone, PCB design must handle heterogeneous digital, analog, and power signals while adhering to real-world IC packages and pin constraints. Automated PCB schematic design remains unexplored due to the scarcity of open-source data and the absence of simulation-based verification. We introduce PCBSchemaGen, the first training-free framework for PCB schematic design that comprises LLM agent and Constraint-guided synthesis. Our approach makes three contributions: 1. an LLM-based code generation paradigm with iterative feedback with domain-specific prompts. 2. a verification framework leveraging a real-world IC datasheet derived Knowledge Graph (KG) and Subgraph Isomorphism encoding pin-role semantics and topological constraints. 3. an extensive experiment on 23 PCB schematic tasks spanning digital, analog, and power domains. Results demonstrate that PCBSchemaGen significantly improves design accuracy and computational efficiency.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T04:39:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Huanghaohe Zou</name>
+    </author>
+    <author>
+      <name>Peng Han</name>
+    </author>
+    <author>
+      <name>Emad Nazerian</name>
+    </author>
+    <author>
+      <name>Alex Q. Huang</name>
+    </author>
+  </entry>
+</feed>

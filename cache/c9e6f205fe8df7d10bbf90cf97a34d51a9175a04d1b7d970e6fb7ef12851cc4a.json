@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dWbytoc+QL3IngQqk/OQ1Qkxejk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20613v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20613v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20613v2</id>
+    <title>AgentIF-OneDay: A Task-level Instruction-Following Benchmark for General AI Agents in Daily Scenarios</title>
+    <updated>2026-01-30T13:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.20613v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20613v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The capacity of AI agents to effectively handle tasks of increasing duration and complexity continues to grow, demonstrating exceptional performance in coding, deep research, and complex problem-solving evaluations. However, in daily scenarios, the perception of these advanced AI capabilities among general users remains limited. We argue that current evaluations prioritize increasing task difficulty without sufficiently addressing the diversity of agentic tasks necessary to cover the daily work, life, and learning activities of a broad demographic. To address this, we propose AgentIF-OneDay, aimed at determining whether general users can utilize natural language instructions and AI agents to complete a diverse array of daily tasks. These tasks require not only solving problems through dialogue but also understanding various attachment types and delivering tangible file-based results. The benchmark is structured around three user-centric categories: Open Workflow Execution, which assesses adherence to explicit and complex workflows; Latent Instruction, which requires agents to infer implicit instructions from attachments; and Iterative Refinement, which involves modifying or expanding upon ongoing work. We employ instance-level rubrics and a refined evaluation pipeline that aligns LLM-based verification with human judgment, achieving an 80.1% agreement rate using Gemini-3-Pro. AgentIF-OneDay comprises 104 tasks covering 767 scoring points. We benchmarked four leading general AI agents and found that agent products built based on APIs and ChatGPT agents based on agent RL remain in the first tier simultaneously. Leading LLM APIs and open-source models have internalized agentic capabilities, enabling AI application teams to develop cutting-edge Agent products.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T13:49:18Z</published>
+    <arxiv:comment>17 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kaiyuan Chen</name>
+    </author>
+    <author>
+      <name>Qimin Wu</name>
+    </author>
+    <author>
+      <name>Taiyu Hou</name>
+    </author>
+    <author>
+      <name>Tianhao Tang</name>
+    </author>
+    <author>
+      <name>Xueyu Hu</name>
+    </author>
+    <author>
+      <name>Yuchen Hou</name>
+    </author>
+    <author>
+      <name>Bikun Li</name>
+    </author>
+    <author>
+      <name>Chengming Qian</name>
+    </author>
+    <author>
+      <name>Guoyin Wang</name>
+    </author>
+    <author>
+      <name>Haolin Chen</name>
+    </author>
+    <author>
+      <name>Haotong Tian</name>
+    </author>
+    <author>
+      <name>Haoye Zhang</name>
+    </author>
+    <author>
+      <name>Haoyu Bian</name>
+    </author>
+    <author>
+      <name>Hongbing Pan</name>
+    </author>
+    <author>
+      <name>Hongkang Zhang</name>
+    </author>
+    <author>
+      <name>Hongyi Zhou</name>
+    </author>
+    <author>
+      <name>Jiaqi Cai</name>
+    </author>
+    <author>
+      <name>Jiewu Rao</name>
+    </author>
+    <author>
+      <name>Jiyuan Ren</name>
+    </author>
+    <author>
+      <name>Keduan Huang</name>
+    </author>
+    <author>
+      <name>Lucia Zhu Huang</name>
+    </author>
+    <author>
+      <name>Mingyu Yuan</name>
+    </author>
+    <author>
+      <name>Naixu Guo</name>
+    </author>
+    <author>
+      <name>Qicheng Tang</name>
+    </author>
+    <author>
+      <name>Qinyan Zhang</name>
+    </author>
+    <author>
+      <name>Shuai Chen</name>
+    </author>
+    <author>
+      <name>Siheng Chen</name>
+    </author>
+    <author>
+      <name>Ting Ting Li</name>
+    </author>
+    <author>
+      <name>Xiaoxing Guo</name>
+    </author>
+    <author>
+      <name>Yaocheng Zuo</name>
+    </author>
+    <author>
+      <name>Yaoqi Guo</name>
+    </author>
+    <author>
+      <name>Yinan Wang</name>
+    </author>
+    <author>
+      <name>Yinzhou Yu</name>
+    </author>
+    <author>
+      <name>Yize Wang</name>
+    </author>
+    <author>
+      <name>Yuan Jiang</name>
+    </author>
+    <author>
+      <name>Yuan Tian</name>
+    </author>
+    <author>
+      <name>Yuanshuo Zhang</name>
+    </author>
+    <author>
+      <name>Yuxuan Liu</name>
+    </author>
+    <author>
+      <name>Yvette Yan Zeng</name>
+    </author>
+    <author>
+      <name>Zenyu Shan</name>
+    </author>
+    <author>
+      <name>Zihan Yin</name>
+    </author>
+    <author>
+      <name>Xiaobo Hu</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Yixin Ren</name>
+    </author>
+    <author>
+      <name>Yuan Gong</name>
+    </author>
+  </entry>
+</feed>

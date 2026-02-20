@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EqYpKQ1Fg+ZFZx+oYyh7c81rRdM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04290v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04290v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04290v1</id>
+    <title>Guided Verifier: Collaborative Multimodal Reasoning via Dynamic Process Supervision</title>
+    <updated>2026-02-04T07:38:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.04290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) has emerged as a pivotal mechanism for enhancing the complex reasoning capabilities of Multimodal Large Language Models (MLLMs). However, prevailing paradigms typically rely on solitary rollout strategies where the model works alone. This lack of intermediate oversight renders the reasoning process susceptible to error propagation, where early logical deviations cascade into irreversible failures, resulting in noisy optimization signals. In this paper, we propose the \textbf{Guided Verifier} framework to address these structural limitations. Moving beyond passive terminal rewards, we introduce a dynamic verifier that actively co-solves tasks alongside the policy. During the rollout phase, this verifier interacts with the policy model in real-time, detecting inconsistencies and providing directional signals to steer the model toward valid trajectories. To facilitate this, we develop a specialized data synthesis pipeline targeting multimodal hallucinations, constructing \textbf{CoRe} dataset of process-level negatives and \textbf{Co}rrect-guide \textbf{Re}asoning trajectories to train the guided verifier. Extensive experiments on MathVista, MathVerse and MMMU indicate that by allocating compute to collaborative inference and dynamic verification, an 8B-parameter model can achieve strong performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T07:38:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lingzhuang Sun</name>
+    </author>
+    <author>
+      <name>Ruitong Liu</name>
+    </author>
+    <author>
+      <name>Yuxia Zhu</name>
+    </author>
+    <author>
+      <name>Xiaohan Xu</name>
+    </author>
+    <author>
+      <name>Jingxuan Wei</name>
+    </author>
+    <author>
+      <name>Xiangxiang Zhang</name>
+    </author>
+    <author>
+      <name>Bihui Yu</name>
+    </author>
+    <author>
+      <name>Wentao Zhang</name>
+    </author>
+  </entry>
+</feed>

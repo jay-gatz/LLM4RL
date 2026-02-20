@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aB9Wc+i9bXnYxmqs0GjG5M0UL9I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19325v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19325v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19325v1</id>
+    <title>Innovator-VL: A Multimodal Large Language Model for Scientific Discovery</title>
+    <updated>2026-01-27T08:12:18Z</updated>
+    <link href="https://arxiv.org/abs/2601.19325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Innovator-VL, a scientific multimodal large language model designed to advance understanding and reasoning across diverse scientific domains while maintaining excellent performance on general vision tasks. Contrary to the trend of relying on massive domain-specific pretraining and opaque pipelines, our work demonstrates that principled training design and transparent methodology can yield strong scientific intelligence with substantially reduced data requirements. (i) First, we provide a fully transparent, end-to-end reproducible training pipeline, covering data collection, cleaning, preprocessing, supervised fine-tuning, reinforcement learning, and evaluation, along with detailed optimization recipes. This facilitates systematic extension by the community. (ii) Second, Innovator-VL exhibits remarkable data efficiency, achieving competitive performance on various scientific tasks using fewer than five million curated samples without large-scale pretraining. These results highlight that effective reasoning can be achieved through principled data selection rather than indiscriminate scaling. (iii) Third, Innovator-VL demonstrates strong generalization, achieving competitive performance on general vision, multimodal reasoning, and scientific benchmarks. This indicates that scientific alignment can be integrated into a unified model without compromising general-purpose capabilities. Our practices suggest that efficient, reproducible, and high-performing scientific multimodal models can be built even without large-scale data, providing a practical foundation for future research.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T08:12:18Z</published>
+    <arxiv:comment>Innovator-VL tech report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zichen Wen</name>
+    </author>
+    <author>
+      <name>Boxue Yang</name>
+    </author>
+    <author>
+      <name>Shuang Chen</name>
+    </author>
+    <author>
+      <name>Yaojie Zhang</name>
+    </author>
+    <author>
+      <name>Yuhang Han</name>
+    </author>
+    <author>
+      <name>Junlong Ke</name>
+    </author>
+    <author>
+      <name>Cong Wang</name>
+    </author>
+    <author>
+      <name>Yicheng Fu</name>
+    </author>
+    <author>
+      <name>Jiawang Zhao</name>
+    </author>
+    <author>
+      <name>Jiangchao Yao</name>
+    </author>
+    <author>
+      <name>Xi Fang</name>
+    </author>
+    <author>
+      <name>Zhen Wang</name>
+    </author>
+    <author>
+      <name>Henxing Cai</name>
+    </author>
+    <author>
+      <name>Lin Yao</name>
+    </author>
+    <author>
+      <name>Zhifeng Gao</name>
+    </author>
+    <author>
+      <name>Yanhui Hong</name>
+    </author>
+    <author>
+      <name>Nang Yuan</name>
+    </author>
+    <author>
+      <name>Yixuan Li</name>
+    </author>
+    <author>
+      <name>Guojiang Zhao</name>
+    </author>
+    <author>
+      <name>Haoyi Tao</name>
+    </author>
+    <author>
+      <name>Nan Wang</name>
+    </author>
+    <author>
+      <name>Han Lyu</name>
+    </author>
+    <author>
+      <name>Guolin Ke</name>
+    </author>
+    <author>
+      <name>Ning Liao</name>
+    </author>
+    <author>
+      <name>Xiaoxing Wang</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Zhiyu Li</name>
+    </author>
+    <author>
+      <name>Feiyu Xiong</name>
+    </author>
+    <author>
+      <name>Sihan Hu</name>
+    </author>
+    <author>
+      <name>Kun Chen</name>
+    </author>
+    <author>
+      <name>Yanfeng Wang</name>
+    </author>
+    <author>
+      <name>Weinan E</name>
+    </author>
+    <author>
+      <name>Linfeng Zhang</name>
+    </author>
+    <author>
+      <name>Linfeng Zhang</name>
+    </author>
+  </entry>
+</feed>

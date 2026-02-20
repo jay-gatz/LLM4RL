@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rhcFF/g+jniLXJOfufHfUUwNTJQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03094v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03094v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03094v1</id>
+    <title>Test-time Recursive Thinking: Self-Improvement without External Feedback</title>
+    <updated>2026-02-03T04:37:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.03094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern Large Language Models (LLMs) have shown rapid improvements in reasoning capabilities, driven largely by reinforcement learning (RL) with verifiable rewards. Here, we ask whether these LLMs can self-improve without the need for additional training. We identify two core challenges for such systems: (i) efficiently generating diverse, high-quality candidate solutions, and (ii) reliably selecting correct answers in the absence of ground-truth supervision. To address these challenges, we propose Test-time Recursive Thinking (TRT), an iterative self-improvement framework that conditions generation on rollout-specific strategies, accumulated knowledge, and self-generated verification signals. Using TRT, open-source models reach 100% accuracy on AIME-25/24, and on LiveCodeBench's most difficult problems, closed-source models improve by 10.4-14.8 percentage points without external feedback.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T04:37:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yufan Zhuang</name>
+    </author>
+    <author>
+      <name>Chandan Singh</name>
+    </author>
+    <author>
+      <name>Liyuan Liu</name>
+    </author>
+    <author>
+      <name>Yelong Shen</name>
+    </author>
+    <author>
+      <name>Dinghuai Zhang</name>
+    </author>
+    <author>
+      <name>Jingbo Shang</name>
+    </author>
+    <author>
+      <name>Jianfeng Gao</name>
+    </author>
+    <author>
+      <name>Weizhu Chen</name>
+    </author>
+  </entry>
+</feed>

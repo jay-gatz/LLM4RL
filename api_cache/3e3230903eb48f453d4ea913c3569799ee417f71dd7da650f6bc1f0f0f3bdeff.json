@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dXrpb2r/S3Iv1ujGIh1ChuQQg58</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02554v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02554v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02554v1</id>
+    <title>BatCoder: Self-Supervised Bidirectional Code-Documentation Learning via Back-Translation</title>
+    <updated>2026-01-30T11:32:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.02554v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02554v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training LLMs for code-related tasks typically depends on high-quality code-documentation pairs, which are costly to curate and often scarce for niche programming languages. We introduce BatCoder, a self-supervised reinforcement learning framework designed to jointly optimize code generation and documentation production. BatCoder employs a back-translation strategy: a documentation is first generated from code, and then the generated documentation is used to reconstruct the original code. The semantic similarity between the original and reconstructed code serves as an implicit reward, enabling reinforcement learning to improve the model's performance both in generating code from documentation and vice versa. This approach allows models to be trained using only code, substantially increasing the available training examples. Evaluated on HumanEval and MBPP with a 7B model, BatCoder achieved 83.5% and 81.0% pass@1, outperforming strong open-source baselines. Moreover, the framework demonstrates consistent scaling with respect to both training corpus size and model capacity.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T11:32:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jingwen Xu</name>
+    </author>
+    <author>
+      <name>Yiyang Lu</name>
+    </author>
+    <author>
+      <name>Zisu Huang</name>
+    </author>
+    <author>
+      <name>Changze Lv</name>
+    </author>
+    <author>
+      <name>Xiaohua Wang</name>
+    </author>
+    <author>
+      <name>Shizheng Li</name>
+    </author>
+    <author>
+      <name>Zhibo Xu</name>
+    </author>
+    <author>
+      <name>Zhengkang Guo</name>
+    </author>
+    <author>
+      <name>Zhengyuan Wang</name>
+    </author>
+    <author>
+      <name>Muzhao Tian</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zheng</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zVKy3YxBDqhmgmnqVZKRpv/Oy9Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01370v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01370v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01370v1</id>
+    <title>PolyGen: Fully Synthetic Vision-Language Training via Multi-Generator Ensembles</title>
+    <updated>2026-02-01T18:13:49Z</updated>
+    <link href="https://arxiv.org/abs/2602.01370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Synthetic data offers a scalable solution for vision-language pre-training, yet current state-of-the-art methods typically rely on scaling up a single generative backbone, which introduces generator-specific spectral biases and limits feature diversity. In this work, we introduce PolyGen, a framework that redefines synthetic data construction by prioritizing manifold coverage and compositional rigor over simple dataset size. PolyGen employs a Polylithic approach to train on the intersection of architecturally distinct generators, effectively marginalizing out model-specific artifacts. Additionally, we introduce a Programmatic Hard Negative curriculum that enforces fine-grained syntactic understanding. By structurally reallocating the same data budget from unique captions to multi-source variations, PolyGen achieves a more robust feature space, outperforming the leading single-source baseline (SynthCLIP) by +19.0% on aggregate multi-task benchmarks and on the SugarCrepe++ compositionality benchmark (+9.1%). These results demonstrate that structural diversity is a more data-efficient scaling law than simply increasing the volume of single-source samples.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T18:13:49Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Leonardo Brusini</name>
+    </author>
+    <author>
+      <name>Cristian Sbrolli</name>
+    </author>
+    <author>
+      <name>Eugenio Lomurno</name>
+    </author>
+    <author>
+      <name>Toshihiko Yamasaki</name>
+    </author>
+    <author>
+      <name>Matteo Matteucci</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EBxC4lhwDPv/hS71pQ/M/bynjzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15237v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15237v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15237v1</id>
+    <title>Ground-Truth Depth in Vision Language Models: Spatial Context Understanding in Conversational AI for XR-Robotic Support in Emergency First Response</title>
+    <updated>2026-02-16T22:31:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.15237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly used in emergency first response (EFR) applications to support situational awareness (SA) and decision-making, yet most operate on text or 2D imagery and offer little support for core EFR SA competencies like spatial reasoning. We address this gap by evaluating a prototype that fuses robot-mounted depth sensing and YOLO detection with a vision language model (VLM) capable of verbalizing metrically-grounded distances of detected objects (e.g., the chair is 3.02 meters away). In a mixed-reality toxic-smoke scenario, participants estimated distances to a victim and an exit window under three conditions: video-only, depth-agnostic VLM, and depth-augmented VLM. Depth-augmentation improved objective accuracy and stability, e.g., the victim and window distance estimation error dropped, while raising situational awareness without increasing workload. Conversely, depth- agnostic assistance increased workload and slightly worsened accuracy. We contribute to human SA augmentation by demonstrating that metrically grounded, object-centric verbal information supports spatial reasoning in EFR and improves decision-relevant judgments under time pressure.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T22:31:19Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Rodrigo Gutierrez Maquilon</name>
+    </author>
+    <author>
+      <name>Marita Hueber</name>
+    </author>
+    <author>
+      <name>Georg Regal</name>
+    </author>
+    <author>
+      <name>Manfred Tscheligi</name>
+    </author>
+  </entry>
+</feed>

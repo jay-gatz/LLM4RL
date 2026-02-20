@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xXRmiWrrn8L3FQlS1YwQ95EIDXo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00846v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00846v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00846v1</id>
+    <title>Omni-RRM: Advancing Omni Reward Modeling via Automatic Rubric-Grounded Preference Synthesis</title>
+    <updated>2026-01-31T18:20:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.00846v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00846v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models (MLLMs) have shown remarkable capabilities, yet their performance is often capped by the coarse nature of existing alignment techniques. A critical bottleneck remains the lack of effective reward models (RMs): existing RMs are predominantly vision-centric, return opaque scalar scores, and rely on costly human annotations. We introduce \textbf{Omni-RRM}, the first open-source rubric-grounded reward model that produces structured, multi-dimension preference judgments with dimension-wise justifications across \textbf{text, image, video, and audio}. At the core of our approach is \textbf{Omni-Preference}, a large-scale dataset built via a fully automated pipeline: we synthesize candidate response pairs by contrasting models of different capabilities, and use strong teacher models to \emph{reconcile and filter} preferences while providing a modality-aware \emph{rubric-grounded rationale} for each pair. This eliminates the need for human-labeled training preferences. Omni-RRM is trained in two stages: supervised fine-tuning to learn the rubric-grounded outputs, followed by reinforcement learning (GRPO) to sharpen discrimination on difficult, low-contrast pairs. Comprehensive evaluations show that Omni-RRM achieves state-of-the-art accuracy on video (80.2\% on ShareGPT-V) and audio (66.8\% on Audio-HH-RLHF) benchmarks, and substantially outperforms existing open-source RMs on image tasks, with a 17.7\% absolute gain over its base model on overall accuracy. Omni-RRM also improves downstream performance via Best-of-$N$ selection and transfers to text-only preference benchmarks. Our data, code, and models are available at https://anonymous.4open.science/r/Omni-RRM-CC08.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T18:20:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zicheng Kong</name>
+    </author>
+    <author>
+      <name>Dehua Ma</name>
+    </author>
+    <author>
+      <name>Zhenbo Xu</name>
+    </author>
+    <author>
+      <name>Alven Yang</name>
+    </author>
+    <author>
+      <name>Yiwei Ru</name>
+    </author>
+    <author>
+      <name>Haoran Wang</name>
+    </author>
+    <author>
+      <name>Zixuan Zhou</name>
+    </author>
+    <author>
+      <name>Fuqing Bie</name>
+    </author>
+    <author>
+      <name>Liuyu Xiang</name>
+    </author>
+    <author>
+      <name>Huijia Wu</name>
+    </author>
+    <author>
+      <name>Jian Zhao</name>
+    </author>
+    <author>
+      <name>Zhaofeng He</name>
+    </author>
+  </entry>
+</feed>

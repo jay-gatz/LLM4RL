@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jR2H/Buv6f+lMqZHzAvAYW2XEew</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20126v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20126v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20126v1</id>
+    <title>Rewarding Intellectual Humility Learning When Not To Answer In Large Language Models</title>
+    <updated>2026-01-27T23:42:07Z</updated>
+    <link href="https://arxiv.org/abs/2601.20126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often produce hallucinated or unverifiable content, undermining their reliability in factual domains. This work investigates Reinforcement Learning with Verifiable Rewards (RLVR) as a training paradigm that explicitly rewards abstention ("I don't know") alongside correctness to promote intellectual humility. We fine-tune and evaluate Granite-3.3-2B-Instruct and Qwen-3-4B-Instruct on the MedMCQA and Hendrycks Math benchmarks using a ternary reward structure ($-1$, r_abs, 1) under varying abstention reward structures. We further study the effect of combining RLVR with supervised fine-tuning strategies that teach abstention prior to reinforcement learning. Our results show that moderate abstention rewards (r_abs $\approx -0.25$ to 0.3) consistently reduce incorrect responses without severe accuracy degradation on multiple-choice tasks, with larger models exhibiting greater robustness to abstention incentives. On open-ended question answering, we observe limitations due to insufficient exploration, which can be partially mitigated through supervised abstention training. Overall, these findings demonstrate the feasibility and flexibility of verifiable reward design as a practical approach for hallucination mitigation in language models. Reproducible code for our abstention training framework is available here https://github.com/Mystic-Slice/rl-abstention.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T23:42:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Abha Jha</name>
+    </author>
+    <author>
+      <name>Akanksha Mahajan</name>
+    </author>
+    <author>
+      <name>Ashwath Vaithinathan Aravindan</name>
+    </author>
+    <author>
+      <name>Praveen Saravanan</name>
+    </author>
+    <author>
+      <name>Sai Sailaja Policharla</name>
+    </author>
+    <author>
+      <name>Sonal Chaturbhuj Gehlot</name>
+    </author>
+  </entry>
+</feed>

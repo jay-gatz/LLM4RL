@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vUN6lvTw1l+27DRfQLhHvKzMY+E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03007v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03007v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03007v1</id>
+    <title>VOILA: Value-of-Information Guided Fidelity Selection for Cost-Aware Multimodal Question Answering</title>
+    <updated>2026-02-03T02:19:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.03007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite significant costs from retrieving and processing high-fidelity visual inputs, most multimodal vision-language systems operate at fixed fidelity levels. We introduce VOILA, a framework for Value-Of-Information-driven adaptive fidelity selection in Visual Question Answering (VQA) that optimizes what information to retrieve before model execution. Given a query, VOILA uses a two-stage pipeline: a gradient-boosted regressor estimates correctness likelihood at each fidelity from question features alone, then an isotonic calibrator refines these probabilities for reliable decision-making. The system selects the minimum-cost fidelity maximizing expected utility given predicted accuracy and retrieval costs. We evaluate VOILA across three deployment scenarios using five datasets (VQA-v2, GQA, TextVQA, LoCoMo, FloodNet) and six Vision-Language Models (VLMs) with 7B-235B parameters. VOILA consistently achieves 50-60% cost reductions while retaining 90-95% of full-resolution accuracy across diverse query types and model architectures, demonstrating that pre-retrieval fidelity selection is vital to optimize multimodal inference under resource constraints.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T02:19:47Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rahul Atul Bhope</name>
+    </author>
+    <author>
+      <name>K. R. Jayaram</name>
+    </author>
+    <author>
+      <name>Vinod Muthusamy</name>
+    </author>
+    <author>
+      <name>Ritesh Kumar</name>
+    </author>
+    <author>
+      <name>Vatche Isahagian</name>
+    </author>
+    <author>
+      <name>Nalini Venkatasubramanian</name>
+    </author>
+  </entry>
+</feed>

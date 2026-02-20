@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8c8tqRL3cHTksLYWHOTg9IsO9pQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14451v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14451v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14451v1</id>
+    <title>Precedent-Informed Reasoning: Mitigating Overthinking in Large Reasoning Models via Test-Time Precedent Learning</title>
+    <updated>2026-02-16T04:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.14451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning in Large Language Models (LLMs) often suffers from inefficient long chain-of-thought traces with redundant self-exploration and validation, which inflate computational costs and even degrade performance. Inspired by human reasoning patterns where people solve new problems by leveraging past related cases to constrain search spaces and reduce trial-and-error, we propose Precedent Informed Reasoning (PIR) transforming LRMs'reasoning paradigm from exhaustive self-exploration to guided learning from precedents. PIR addresses two key challenges: what precedents to adopt and how to utilize them. First, Adaptive Precedent Selection (APS) constructs, for each question and LRM, a compact set of precedents that are both semantically related and informative for the model. It ranks examples by a joint score with semantic similarity and model perplexity, then adapts the amount of precedents to maximize perplexity reduction. Second, Test-time Experience Internalization (TEI) is treated as the test-time learning on precedent-informed instruction, updating lightweight adapters to internalize solution patterns and use them as a prior during subsequent reasoning. Experiments across mathematical reasoning, scientific QA, and code generation demonstrate that PIR consistently shortens reasoning traces while maintaining or improving final accuracy across LLMs, yielding outstanding accuracy-efficiency trade-offs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T04:17:46Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qianyue Wang</name>
+    </author>
+    <author>
+      <name>Jinwu Hu</name>
+    </author>
+    <author>
+      <name>Huanxiang Lin</name>
+    </author>
+    <author>
+      <name>Bolin Chen</name>
+    </author>
+    <author>
+      <name>Zhiquan Wen</name>
+    </author>
+    <author>
+      <name>Yaofo Chen</name>
+    </author>
+    <author>
+      <name>Yu Rong</name>
+    </author>
+    <author>
+      <name>Mingkui Tan</name>
+    </author>
+  </entry>
+</feed>

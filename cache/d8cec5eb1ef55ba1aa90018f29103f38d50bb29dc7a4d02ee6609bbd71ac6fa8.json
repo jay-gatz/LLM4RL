@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NB08FrbjqqfH+snFlaSGYp+8WMQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.18397v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:41:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.18397v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.18397v3</id>
+    <title>An Outlook on the Opportunities and Challenges of Multi-Agent AI Systems</title>
+    <updated>2025-08-24T02:49:58Z</updated>
+    <link href="https://arxiv.org/abs/2505.18397v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.18397v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A multi-agent AI system (MAS) is composed of multiple autonomous agents that interact, exchange information, and make decisions based on internal generative models. Recent advances in large language models and tool-using agents have made MAS increasingly practical in areas like scientific discovery and collaborative automation. However, key questions remain: When are MAS more effective than single-agent systems? What new safety risks arise from agent interactions? And how should we evaluate their reliability and structure? This paper outlines a formal framework for analyzing MAS, focusing on two core aspects: effectiveness and safety. We explore whether MAS truly improve robustness, adaptability, and performance, or merely repackage known techniques like ensemble learning. We also study how inter-agent dynamics may amplify or suppress system vulnerabilities. While MAS are relatively new to the signal processing community, we envision them as a powerful abstraction that extends classical tools like distributed estimation and sensor fusion to higher-level, policy-driven inference. Through experiments on data science automation, we highlight the potential of MAS to reshape how signal processing systems are designed and trusted.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-23T22:05:19Z</published>
+    <arxiv:comment>Corrected references</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Fangqiao Tian</name>
+    </author>
+    <author>
+      <name>An Luo</name>
+    </author>
+    <author>
+      <name>Jin Du</name>
+    </author>
+    <author>
+      <name>Xun Xian</name>
+    </author>
+    <author>
+      <name>Robert Specht</name>
+    </author>
+    <author>
+      <name>Ganghua Wang</name>
+    </author>
+    <author>
+      <name>Xuan Bi</name>
+    </author>
+    <author>
+      <name>Jiawei Zhou</name>
+    </author>
+    <author>
+      <name>Ashish Kundu</name>
+    </author>
+    <author>
+      <name>Jayanth Srinivasa</name>
+    </author>
+    <author>
+      <name>Charles Fleming</name>
+    </author>
+    <author>
+      <name>Rui Zhang</name>
+    </author>
+    <author>
+      <name>Zirui Liu</name>
+    </author>
+    <author>
+      <name>Mingyi Hong</name>
+    </author>
+    <author>
+      <name>Jie Ding</name>
+    </author>
+  </entry>
+</feed>

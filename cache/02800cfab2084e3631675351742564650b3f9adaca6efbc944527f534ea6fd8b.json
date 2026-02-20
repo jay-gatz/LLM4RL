@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j5u8MBrCh/Br32F6UJTocy+Pcq0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2205.13636&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2205.13636" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2205.13636v2</id>
+    <title>Quark: Controllable Text Generation with Reinforced Unlearning</title>
+    <updated>2022-11-16T23:11:46Z</updated>
+    <link href="https://arxiv.org/abs/2205.13636v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.13636v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale language models often learn behaviors that are misaligned with user expectations. Generated text may contain offensive or toxic language, contain significant repetition, or be of a different sentiment than desired by the user. We consider the task of unlearning these misalignments by fine-tuning the language model on signals of what not to do. We introduce Quantized Reward Konditioning (Quark), an algorithm for optimizing a reward function that quantifies an (un)wanted property, while not straying too far from the original model. Quark alternates between (i) collecting samples with the current language model, (ii) sorting them into quantiles based on reward, with each quantile identified by a reward token prepended to the language model's input, and (iii) using a standard language modeling loss on samples from each quantile conditioned on its reward token, while remaining nearby the original language model via a KL-divergence penalty. By conditioning on a high-reward token at generation time, the model generates text that exhibits less of the unwanted property. For unlearning toxicity, negative sentiment, and repetition, our experiments show that Quark outperforms both strong baselines and state-of-the-art reinforcement learning methods like PPO (Schulman et al. 2017), while relying only on standard language modeling primitives.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-26T21:11:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>NeurIPS 2022 (Oral Selection)</arxiv:journal_ref>
+    <author>
+      <name>Ximing Lu</name>
+    </author>
+    <author>
+      <name>Sean Welleck</name>
+    </author>
+    <author>
+      <name>Jack Hessel</name>
+    </author>
+    <author>
+      <name>Liwei Jiang</name>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+    </author>
+    <author>
+      <name>Peter West</name>
+    </author>
+    <author>
+      <name>Prithviraj Ammanabrolu</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+  </entry>
+</feed>

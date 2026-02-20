@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SYWS51iEO2/NKvXfEpYYmq+/zoc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.12650v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.12650v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.12650v1</id>
+    <title>AutoMat: Enabling Automated Crystal Structure Reconstruction from Microscopy via Agentic Tool Use</title>
+    <updated>2025-05-19T03:04:50Z</updated>
+    <link href="https://arxiv.org/abs/2505.12650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.12650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning-based interatomic potentials and force fields depend critically on accurate atomic structures, yet such data are scarce due to the limited availability of experimentally resolved crystals. Although atomic-resolution electron microscopy offers a potential source of structural data, converting these images into simulation-ready formats remains labor-intensive and error-prone, creating a bottleneck for model training and validation. We introduce AutoMat, an end-to-end, agent-assisted pipeline that automatically transforms scanning transmission electron microscopy (STEM) images into atomic crystal structures and predicts their physical properties. AutoMat combines pattern-adaptive denoising, physics-guided template retrieval, symmetry-aware atomic reconstruction, fast relaxation and property prediction via MatterSim, and coordinated orchestration across all stages. We propose the first dedicated STEM2Mat-Bench for this task and evaluate performance using lattice RMSD, formation energy MAE, and structure-matching success rate. By orchestrating external tool calls, AutoMat enables a text-only LLM to outperform vision-language models in this domain, achieving closed-loop reasoning throughout the pipeline. In large-scale experiments over 450 structure samples, AutoMat substantially outperforms existing multimodal large language models and tools. These results validate both AutoMat and STEM2Mat-Bench, marking a key step toward bridging microscopy and atomistic simulation in materials science.The code and dataset are publicly available at https://github.com/yyt-2378/AutoMat and https://huggingface.co/datasets/yaotianvector/STEM2Mat.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-19T03:04:50Z</published>
+    <arxiv:comment>The code and dataset are publicly available at https://github.com/yyt-2378/AutoMat and https://huggingface.co/datasets/yaotianvector/STEM2Mat</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yaotian Yang</name>
+    </author>
+    <author>
+      <name>Yiwen Tang</name>
+    </author>
+    <author>
+      <name>Yizhe Chen</name>
+    </author>
+    <author>
+      <name>Xiao Chen</name>
+    </author>
+    <author>
+      <name>Jiangjie Qiu</name>
+    </author>
+    <author>
+      <name>Hao Xiong</name>
+    </author>
+    <author>
+      <name>Haoyu Yin</name>
+    </author>
+    <author>
+      <name>Zhiyao Luo</name>
+    </author>
+    <author>
+      <name>Yifei Zhang</name>
+    </author>
+    <author>
+      <name>Sijia Tao</name>
+    </author>
+    <author>
+      <name>Wentao Li</name>
+    </author>
+    <author>
+      <name>Qinghua Zhang</name>
+    </author>
+    <author>
+      <name>Yuqiang Li</name>
+    </author>
+    <author>
+      <name>Wanli Ouyang</name>
+    </author>
+    <author>
+      <name>Bin Zhao</name>
+    </author>
+    <author>
+      <name>Xiaonan Wang</name>
+    </author>
+    <author>
+      <name>Fei Wei</name>
+    </author>
+  </entry>
+</feed>

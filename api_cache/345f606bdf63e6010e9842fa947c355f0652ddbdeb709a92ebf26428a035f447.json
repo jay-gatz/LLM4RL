@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rV3jXDT59b3SFaviyeboUjbLU2o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23058v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23058v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23058v1</id>
+    <title>From Absolute to Relative: Rethinking Reward Shaping in Group-Based Reinforcement Learning</title>
+    <updated>2026-01-30T15:07:06Z</updated>
+    <link href="https://arxiv.org/abs/2601.23058v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23058v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has become a cornerstone for enhancing the reasoning capabilities of Large Language Models, where group-based approaches such as GRPO have emerged as efficient paradigms that optimize policies by leveraging intra-group performance differences. However, these methods typically rely on absolute numerical rewards, introducing intrinsic limitations. In verifiable tasks, identical group evaluations often result in sparse supervision, while in open-ended scenarios, the score range instability of reward models undermines advantage estimation based on group means. To address these limitations, we propose Reinforcement Learning with Relative Rewards (RLRR), a framework that shifts reward shaping from absolute scoring to relative ranking. Complementing this framework, we introduce the Ranking Reward Model, a listwise preference model tailored for group-based optimization to directly generate relative rankings. By transforming raw evaluations into robust relative signals, RLRR effectively mitigates signal sparsity and reward instability. Experimental results demonstrate that RLRR yields consistent performance improvements over standard group-based baselines across reasoning benchmarks and open-ended generation tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T15:07:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wenzhe Niu</name>
+    </author>
+    <author>
+      <name>Wei He</name>
+    </author>
+    <author>
+      <name>Zongxia Xie</name>
+    </author>
+    <author>
+      <name>Jinpeng Ou</name>
+    </author>
+    <author>
+      <name>Huichuan Fan</name>
+    </author>
+    <author>
+      <name>Yuchen Ge</name>
+    </author>
+    <author>
+      <name>Yanru Sun</name>
+    </author>
+    <author>
+      <name>Ziyin Wang</name>
+    </author>
+    <author>
+      <name>Yizhao Sun</name>
+    </author>
+    <author>
+      <name>Chengshun Shi</name>
+    </author>
+    <author>
+      <name>Jiuchong Gao</name>
+    </author>
+    <author>
+      <name>Jinghua Hao</name>
+    </author>
+    <author>
+      <name>Renqing He</name>
+    </author>
+  </entry>
+</feed>

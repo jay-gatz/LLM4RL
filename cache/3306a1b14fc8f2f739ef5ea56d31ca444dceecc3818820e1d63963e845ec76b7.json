@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iXBQB94lRSyuO7f+RbK80Cmf5WA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.21057v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.21057v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21057v2</id>
+    <title>Soft Instruction De-escalation Defense</title>
+    <updated>2026-01-17T09:50:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.21057v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21057v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly deployed in agentic systems that interact with an external environment; this makes them susceptible to prompt injections when dealing with untrusted data. To overcome this limitation, we propose SIC (Soft Instruction Control)-a simple yet effective iterative prompt sanitization loop designed for tool-augmented LLM agents. Our method repeatedly inspects incoming data for instructions that could compromise agent behavior. If such content is found, the malicious content is rewritten, masked, or removed, and the result is re-evaluated. The process continues until the input is clean or a maximum iteration limit is reached; if imperative instruction-like content remains, the agent halts to ensure security. By allowing multiple passes, our approach acknowledges that individual rewrites may fail but enables the system to catch and correct missed injections in later steps. Although immediately useful, worst-case analysis shows that SIC is not infallible; strong adversary can still get a 15% ASR by embedding non-imperative workflows. This nonetheless raises the bar.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T00:04:07Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nils Philipp Walter</name>
+    </author>
+    <author>
+      <name>Chawin Sitawarin</name>
+    </author>
+    <author>
+      <name>Jamie Hayes</name>
+    </author>
+    <author>
+      <name>David Stutz</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+  </entry>
+</feed>

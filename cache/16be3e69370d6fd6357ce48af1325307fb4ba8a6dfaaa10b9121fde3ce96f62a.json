@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Lo32nUkY2oMSsaugtOneVAs11jE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2303.16749&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2303.16749" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.16749v2</id>
+    <title>Improving Code Generation by Training with Natural Language Feedback</title>
+    <updated>2024-02-22T22:30:31Z</updated>
+    <link href="https://arxiv.org/abs/2303.16749v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.16749v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The potential for pre-trained large language models (LLMs) to use natural language feedback at inference time has been an exciting recent development. We build upon this observation by formalizing an algorithm for learning from natural language feedback at training time instead, which we call Imitation learning from Language Feedback (ILF). ILF requires only a small amount of human-written feedback during training and does not require the same feedback at test time, making it both user-friendly and sample-efficient. We further show that ILF can be seen as a form of minimizing the KL divergence to the ground truth distribution and demonstrate a proof-of-concept on a neural program synthesis task. We use ILF to improve a Codegen-Mono 6.1B model's pass@1 rate by 38% relative (and 10% absolute) on the Mostly Basic Python Problems (MBPP) benchmark, outperforming both fine-tuning on MBPP and fine-tuning on repaired programs written by humans. Overall, our results suggest that learning from human-written natural language feedback is both more effective and sample-efficient than training exclusively on demonstrations for improving an LLM's performance on code generation tasks.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-28T16:15:31Z</published>
+    <arxiv:comment>Published in (and superceded by) TMLR: https://openreview.net/forum?id=xo3hI5MwvU</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Angelica Chen</name>
+    </author>
+    <author>
+      <name>Jérémy Scheurer</name>
+    </author>
+    <author>
+      <name>Tomasz Korbak</name>
+    </author>
+    <author>
+      <name>Jon Ander Campos</name>
+    </author>
+    <author>
+      <name>Jun Shern Chan</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Kyunghyun Cho</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+  </entry>
+</feed>

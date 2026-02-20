@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RqnWDglObw2vHxjcn3ZLQIl2E+w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23032v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23032v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23032v1</id>
+    <title>Guided by Trajectories: Repairing and Rewarding Tool-Use Trajectories for Tool-Integrated Reasoning</title>
+    <updated>2026-01-30T14:42:04Z</updated>
+    <link href="https://arxiv.org/abs/2601.23032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-Integrated Reasoning (TIR) enables large language models (LLMs) to solve complex tasks by interacting with external tools, yet existing approaches depend on high-quality synthesized trajectories selected by scoring functions and sparse outcome-based rewards, providing limited and biased supervision for learning TIR. To address these challenges, in this paper, we propose AutoTraj, a two-stage framework that automatically learns TIR by repairing and rewarding tool-use trajectories. Specifically, in the supervised fine-tuning (SFT) stage, AutoTraj generates multiple candidate tool-use trajectories for each query and evaluates them along multiple dimensions. High-quality trajectories are directly retained, while low-quality ones are repaired using a LLM (i.e., LLM-as-Repairer). The resulting repaired and high-quality trajectories form a synthetic SFT dataset, while each repaired trajectory paired with its original low-quality counterpart constitutes a dataset for trajectory preference modeling. In the reinforcement learning (RL) stage, based on the preference dataset, we train a trajectory-level reward model to assess the quality of reasoning paths and combine it with outcome and format rewards, thereby explicitly guiding the optimization toward reliable TIR behaviors. Experiments on real-world benchmarks demonstrate the effectiveness of AutoTraj in TIR.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T14:42:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Siyu Gong</name>
+    </author>
+    <author>
+      <name>Linan Yue</name>
+    </author>
+    <author>
+      <name>Weibo Gao</name>
+    </author>
+    <author>
+      <name>Fangzhou Yao</name>
+    </author>
+    <author>
+      <name>Shimin Di</name>
+    </author>
+    <author>
+      <name>Lei Feng</name>
+    </author>
+    <author>
+      <name>Min-Ling Zhang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DdwQvgxeyqSZ3ZArXElcXSe3K+I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.04642&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.04642" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04642v1</id>
+    <title>Teaching Large Language Models to Reason with Reinforcement Learning</title>
+    <updated>2024-03-07T16:36:29Z</updated>
+    <link href="https://arxiv.org/abs/2403.04642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning from Human Feedback (\textbf{RLHF}) has emerged as a dominant approach for aligning LLM outputs with human preferences. Inspired by the success of RLHF, we study the performance of multiple algorithms that learn from feedback (Expert Iteration, Proximal Policy Optimization (\textbf{PPO}), Return-Conditioned RL) on improving LLM reasoning capabilities. We investigate both sparse and dense rewards provided to the LLM both heuristically and via a learned reward model. We additionally start from multiple model sizes and initializations both with and without supervised fine-tuning (\textbf{SFT}) data. Overall, we find all algorithms perform comparably, with Expert Iteration performing best in most cases. Surprisingly, we find the sample complexity of Expert Iteration is similar to that of PPO, requiring at most on the order of $10^6$ samples to converge from a pretrained checkpoint. We investigate why this is the case, concluding that during RL training models fail to explore significantly beyond solutions already produced by SFT models. Additionally, we discuss a trade off between maj@1 and pass@96 metric performance during SFT training and how conversely RL training improves both simultaneously. We then conclude by discussing the implications of our findings for RLHF and the future role of RL in LLM fine-tuning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-07T16:36:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex Havrilla</name>
+    </author>
+    <author>
+      <name>Yuqing Du</name>
+    </author>
+    <author>
+      <name>Sharath Chandra Raparthy</name>
+    </author>
+    <author>
+      <name>Christoforos Nalmpantis</name>
+    </author>
+    <author>
+      <name>Jane Dwivedi-Yu</name>
+    </author>
+    <author>
+      <name>Maksym Zhuravinskyi</name>
+    </author>
+    <author>
+      <name>Eric Hambro</name>
+    </author>
+    <author>
+      <name>Sainbayar Sukhbaatar</name>
+    </author>
+    <author>
+      <name>Roberta Raileanu</name>
+    </author>
+  </entry>
+</feed>

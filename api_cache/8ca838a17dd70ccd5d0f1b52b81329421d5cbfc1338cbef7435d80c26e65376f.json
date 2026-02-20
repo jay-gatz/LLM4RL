@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ArbfCqvitJGMnvriurjMbfTc6j8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.20957v5&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.20957v5" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20957v5</id>
+    <title>One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents</title>
+    <updated>2026-01-24T07:02:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.20957v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20957v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Locating files and functions requiring modification in large software repositories is challenging due to their scale and structural complexity. Existing LLM-based methods typically treat this as a repository-level retrieval task and rely on multiple auxiliary tools, which often overlook code execution logic and complicate model control. We propose RepoNavigator, an LLM agent equipped with a single execution-aware tool: jumping to the definition of an invoked symbol. This unified design reflects the actual flow of code execution while simplifying tool manipulation. RepoNavigator is trained end-to-end via Reinforcement Learning (RL) directly from a base pretrained model, without relying on closed-source distillation. Experiments demonstrate that RL-trained RepoNavigator achieves state-of-the-art performance, with the 7B model outperforming 14B baselines, the 14B model surpassing 32B competitors, and the 32B model exceeding closed-source models such as GPT-5 on most metrics. These results confirm that integrating a single, structurally grounded tool with RL training provides an efficient and scalable solution for repository-level issue localization.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-24T05:27:53Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Zhaoxi Zhang</name>
+    </author>
+    <author>
+      <name>Yitong Duan</name>
+    </author>
+    <author>
+      <name>Yanzhi Zhang</name>
+    </author>
+    <author>
+      <name>Yiming Xu</name>
+    </author>
+    <author>
+      <name>Zhixiang Wang</name>
+    </author>
+    <author>
+      <name>Kun Liang</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Jiahui Liang</name>
+    </author>
+    <author>
+      <name>Deguo Xia</name>
+    </author>
+    <author>
+      <name>Jizhou Huang</name>
+    </author>
+    <author>
+      <name>Jiyan He</name>
+    </author>
+    <author>
+      <name>Yunfang Wu</name>
+    </author>
+  </entry>
+</feed>

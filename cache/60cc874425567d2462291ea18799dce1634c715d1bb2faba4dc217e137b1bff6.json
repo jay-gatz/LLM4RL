@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//Z5BoAWN2Ltwm8flwekfirw865A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.13514&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T22:25:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.13514" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.13514v1</id>
+    <title>ProMed: Shapley Information Gain Guided Reinforcement Learning for Proactive Medical LLMs</title>
+    <updated>2025-08-19T05:01:40Z</updated>
+    <link href="https://arxiv.org/abs/2508.13514v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.13514v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive medical questioning is essential in real-world clinical consultations, where physicians must actively gather information from patients. While medical Large Language Models (LLMs) have shown impressive capabilities in static medical question answering, they predominantly operate under a reactive paradigm: generating answers directly without seeking additional information, which risks incorrect diagnoses in such interactive settings. To address this limitation, we propose ProMed, a reinforcement learning (RL) framework that transitions medical LLMs toward a proactive paradigm, equipping them with the ability to ask clinically valuable questions before decision-making. At the core of ProMed is the Shapley Information Gain (SIG) reward, which quantifies the clinical utility of each question by combining the amount of newly acquired information with its contextual importance, estimated via Shapley values. We integrate SIG into a two-stage training pipeline: (1) SIG-Guided Model Initialization uses Monte Carlo Tree Search (MCTS) to construct high-reward interaction trajectories to supervise the model, and (2) SIG-Augmented Policy Optimization, which integrates SIG and enhances RL with a novel SIG-guided Reward Distribution Mechanism that assigns higher rewards to informative questions for targeted optimization. Extensive experiments on two newly curated partial-information medical benchmarks demonstrate that ProMed significantly outperforms state-of-the-art methods by an average of 6.29% and delivers a 54.45% gain over the reactive paradigm, while also generalizing robustly to out-of-domain cases.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-19T05:01:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hongxin Ding</name>
+    </author>
+    <author>
+      <name>Baixiang Huang</name>
+    </author>
+    <author>
+      <name>Yue Fang</name>
+    </author>
+    <author>
+      <name>Weibin Liao</name>
+    </author>
+    <author>
+      <name>Xinke Jiang</name>
+    </author>
+    <author>
+      <name>Zheng Li</name>
+    </author>
+    <author>
+      <name>Junfeng Zhao</name>
+    </author>
+    <author>
+      <name>Yasha Wang</name>
+    </author>
+  </entry>
+</feed>

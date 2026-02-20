@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g6X0hByFpZ9SbgpCgSy5Rh/xdj0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.12357&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.12357" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12357v2</id>
+    <title>Large Language Models for Code Analysis: Do LLMs Really Do Their Job?</title>
+    <updated>2024-03-05T23:30:14Z</updated>
+    <link href="https://arxiv.org/abs/2310.12357v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12357v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated significant potential in the realm of natural language understanding and programming code processing tasks. Their capacity to comprehend and generate human-like code has spurred research into harnessing LLMs for code analysis purposes. However, the existing body of literature falls short in delivering a systematic evaluation and assessment of LLMs' effectiveness in code analysis, particularly in the context of obfuscated code.
+  This paper seeks to bridge this gap by offering a comprehensive evaluation of LLMs' capabilities in performing code analysis tasks. Additionally, it presents real-world case studies that employ LLMs for code analysis. Our findings indicate that LLMs can indeed serve as valuable tools for automating code analysis, albeit with certain limitations. Through meticulous exploration, this research contributes to a deeper understanding of the potential and constraints associated with utilizing LLMs in code analysis, paving the way for enhanced applications in this critical domain.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-18T22:02:43Z</published>
+    <arxiv:comment>Accepted by Usenix Security 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Chongzhou Fang</name>
+    </author>
+    <author>
+      <name>Ning Miao</name>
+    </author>
+    <author>
+      <name>Shaurya Srivastav</name>
+    </author>
+    <author>
+      <name>Jialin Liu</name>
+    </author>
+    <author>
+      <name>Ruoyu Zhang</name>
+    </author>
+    <author>
+      <name>Ruijie Fang</name>
+    </author>
+    <author>
+      <name> Asmita</name>
+    </author>
+    <author>
+      <name>Ryan Tsang</name>
+    </author>
+    <author>
+      <name>Najmeh Nazari</name>
+    </author>
+    <author>
+      <name>Han Wang</name>
+    </author>
+    <author>
+      <name>Houman Homayoun</name>
+    </author>
+  </entry>
+</feed>

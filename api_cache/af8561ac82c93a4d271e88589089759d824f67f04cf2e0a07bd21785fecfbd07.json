@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qMjux3nQgcnzftfCigKkCL3Jpj8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.11421v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.11421v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11421v1</id>
+    <title>Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance</title>
+    <updated>2025-12-12T10:03:24Z</updated>
+    <link href="https://arxiv.org/abs/2512.11421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models demonstrate strong reasoning and generation abilities, yet their behavior in multi-turn tasks often lacks reliability and verifiability. We present a task completion framework that enables LLM-based agents to act under explicit behavioral guidance in environments described by reinforcement learning formalisms with defined observation, action, and reward signals.
+  The framework integrates three components: a lightweight task profiler that selects reasoning and generation strategies, a reasoning module that learns verifiable observation - action mappings, and a generation module that enforces constraint-compliant outputs through validation or deterministic synthesis. We show that as the agent interacts with the environment, these components co-evolve, yielding trustworthy behavior.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T10:03:24Z</published>
+    <arxiv:comment>Accepted to AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gonca Gürsun</name>
+    </author>
+  </entry>
+</feed>

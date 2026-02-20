@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//pAlSfsxTUtunyQuXDHuTbU1uRM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.20176&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T22:24:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.20176" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.20176v2</id>
+    <title>Mixture-of-Minds: Multi-Agent Reinforcement Learning for Table Understanding</title>
+    <updated>2025-10-24T15:36:31Z</updated>
+    <link href="https://arxiv.org/abs/2510.20176v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.20176v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding and reasoning over tables is a critical capability for many real-world applications. Large language models (LLMs) have shown promise on this task, but current approaches remain limited. Fine-tuning based methods strengthen language reasoning; yet they are prone to arithmetic errors and hallucination. In contrast, tool-based methods enable precise table manipulation but rely on rigid schemas and lack semantic understanding. These complementary drawbacks highlight the need for approaches that integrate robust reasoning with reliable table processing. In this work, we propose Mixture-of-Minds, a multi-agent framework that decomposes table reasoning into three specialized roles: planning, coding, and answering. This design enables each agent to focus on a specific aspect of the task while leveraging code execution for precise table manipulation. Building on this workflow, we introduce a self-improvement training framework that employs Monte Carlo Tree Search (MCTS) rollouts to generate pseudo-gold trajectories and optimize agents with reinforcement learning (RL). Extensive experiments show that Mixture-of-Minds delivers substantial gains, reaching 62.13% on TableBench and surpassing OpenAI-o4-mini-high. These results demonstrate the promise of combining structured multi-agent workflows with RL to advance table understanding.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-23T03:51:17Z</published>
+    <arxiv:comment>18 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuhang Zhou</name>
+    </author>
+    <author>
+      <name>Mingrui Zhang</name>
+    </author>
+    <author>
+      <name>Ke Li</name>
+    </author>
+    <author>
+      <name>Mingyi Wang</name>
+    </author>
+    <author>
+      <name>Qiao Liu</name>
+    </author>
+    <author>
+      <name>Qifei Wang</name>
+    </author>
+    <author>
+      <name>Jiayi Liu</name>
+    </author>
+    <author>
+      <name>Fei Liu</name>
+    </author>
+    <author>
+      <name>Serena Li</name>
+    </author>
+    <author>
+      <name>Weiwei Li</name>
+    </author>
+    <author>
+      <name>Mingze Gao</name>
+    </author>
+    <author>
+      <name>Abhishek Kumar</name>
+    </author>
+    <author>
+      <name>Xiangjun Fan</name>
+    </author>
+    <author>
+      <name>Zhuokai Zhao</name>
+    </author>
+    <author>
+      <name>Lizhu Zhang</name>
+    </author>
+  </entry>
+</feed>

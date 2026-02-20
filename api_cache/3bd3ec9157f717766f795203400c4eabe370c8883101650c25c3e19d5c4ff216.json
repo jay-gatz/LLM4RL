@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9rrf3bA4omktXmY4aM0ucJgYzxc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16039v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16039v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16039v1</id>
+    <title>How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment</title>
+    <updated>2026-02-17T21:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.16039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid rise of large language models (LLMs) is reshaping the landscape of automatic assessment in education. While these systems demonstrate substantial advantages in adaptability to diverse question types and flexibility in output formats, they also introduce new challenges related to output uncertainty, stemming from the inherently probabilistic nature of LLMs. Output uncertainty is an inescapable challenge in automatic assessment, as assessment results often play a critical role in informing subsequent pedagogical actions, such as providing feedback to students or guiding instructional decisions. Unreliable or poorly calibrated uncertainty estimates can lead to unstable downstream interventions, potentially disrupting students' learning processes and resulting in unintended negative consequences. To systematically understand this challenge and inform future research, we benchmark a broad range of uncertainty quantification methods in the context of LLM-based automatic assessment. Although the effectiveness of these methods has been demonstrated in many tasks across other domains, their applicability and reliability in educational settings, particularly for automatic grading, remain underexplored. Through comprehensive analyses of uncertainty behaviors across multiple assessment datasets, LLM families, and generation control settings, we characterize the uncertainty patterns exhibited by LLMs in grading scenarios. Based on these findings, we evaluate the strengths and limitations of different uncertainty metrics and analyze the influence of key factors, including model families, assessment tasks, and decoding strategies, on uncertainty estimates. Our study provides actionable insights into the characteristics of uncertainty in LLM-based automatic assessment and lays the groundwork for developing more reliable and effective uncertainty-aware grading systems in the future.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T21:46:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hang Li</name>
+    </author>
+    <author>
+      <name>Kaiqi Yang</name>
+    </author>
+    <author>
+      <name>Xianxuan Long</name>
+    </author>
+    <author>
+      <name>Fedor Filippov</name>
+    </author>
+    <author>
+      <name>Yucheng Chu</name>
+    </author>
+    <author>
+      <name>Yasemin Copur-Gencturk</name>
+    </author>
+    <author>
+      <name>Peng He</name>
+    </author>
+    <author>
+      <name>Cory Miller</name>
+    </author>
+    <author>
+      <name>Namsoo Shin</name>
+    </author>
+    <author>
+      <name>Joseph Krajcik</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+    <author>
+      <name>Jiliang Tang</name>
+    </author>
+  </entry>
+</feed>

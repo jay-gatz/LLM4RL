@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i68mvfQFC8jw6fFzqBb7wyrBUdg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.03428&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.03428" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.03428v1</id>
+    <title>Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects</title>
+    <updated>2024-01-07T09:08:24Z</updated>
+    <link href="https://arxiv.org/abs/2401.03428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.03428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intelligent agents stand out as a potential path toward artificial general intelligence (AGI). Thus, researchers have dedicated significant effort to diverse implementations for them. Benefiting from recent progress in large language models (LLMs), LLM-based agents that use universal natural language as an interface exhibit robust generalization capabilities across various applications -- from serving as autonomous general-purpose task assistants to applications in coding, social, and economic domains, LLM-based agents offer extensive exploration opportunities. This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems. It covers their definitions, research frameworks, and foundational components such as their composition, cognitive and planning methods, tool utilization, and responses to environmental feedback. We also delve into the mechanisms of deploying LLM-based agents in multi-agent systems, including multi-role collaboration, message passing, and strategies to alleviate communication issues between agents. The discussions also shed light on popular datasets and application scenarios. We conclude by envisioning prospects for LLM-based agents, considering the evolving landscape of AI and natural language processing.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-07T09:08:24Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Ceyao Zhang</name>
+    </author>
+    <author>
+      <name>Zhengwen Zhang</name>
+    </author>
+    <author>
+      <name>Xiangrui Meng</name>
+    </author>
+    <author>
+      <name>Sirui Hong</name>
+    </author>
+    <author>
+      <name>Wenhao Li</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Zekai Wang</name>
+    </author>
+    <author>
+      <name>Feng Yin</name>
+    </author>
+    <author>
+      <name>Junhua Zhao</name>
+    </author>
+    <author>
+      <name>Xiuqiang He</name>
+    </author>
+  </entry>
+</feed>

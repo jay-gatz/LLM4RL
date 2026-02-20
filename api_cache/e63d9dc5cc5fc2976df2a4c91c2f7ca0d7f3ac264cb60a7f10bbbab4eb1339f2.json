@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SU+I2HzfdBWI9UjXuYxlGqFCKzA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.05993&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.05993" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.05993v2</id>
+    <title>AEGIS: Online Adaptive AI Content Safety Moderation with Ensemble of LLM Experts</title>
+    <updated>2024-09-11T14:42:29Z</updated>
+    <link href="https://arxiv.org/abs/2404.05993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.05993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) and generative AI become more widespread, the content safety risks associated with their use also increase. We find a notable deficiency in high-quality content safety datasets and benchmarks that comprehensively cover a wide range of critical safety areas. To address this, we define a broad content safety risk taxonomy, comprising 13 critical risk and 9 sparse risk categories. Additionally, we curate AEGISSAFETYDATASET, a new dataset of approximately 26, 000 human-LLM interaction instances, complete with human annotations adhering to the taxonomy. We plan to release this dataset to the community to further research and to help benchmark LLM models for safety. To demonstrate the effectiveness of the dataset, we instruction-tune multiple LLM-based safety models. We show that our models (named AEGISSAFETYEXPERTS), not only surpass or perform competitively with the state-of-the-art LLM-based safety models and general purpose LLMs, but also exhibit robustness across multiple jail-break attack categories. We also show how using AEGISSAFETYDATASET during the LLM alignment phase does not negatively impact the performance of the aligned models on MT Bench scores. Furthermore, we propose AEGIS, a novel application of a no-regret online adaptation framework with strong theoretical guarantees, to perform content moderation with an ensemble of LLM content safety experts in deployment</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-09T03:54:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shaona Ghosh</name>
+    </author>
+    <author>
+      <name>Prasoon Varshney</name>
+    </author>
+    <author>
+      <name>Erick Galinkin</name>
+    </author>
+    <author>
+      <name>Christopher Parisien</name>
+    </author>
+  </entry>
+</feed>

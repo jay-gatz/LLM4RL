@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xScwkzjyeaaDJoz1/AyNS8UksbM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.01861&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2308.01861" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01861v2</id>
+    <title>ClassEval: A Manually-Crafted Benchmark for Evaluating LLMs on Class-level Code Generation</title>
+    <updated>2023-08-14T09:07:00Z</updated>
+    <link href="https://arxiv.org/abs/2308.01861v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01861v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we make the first attempt to evaluate LLMs in a more challenging code generation scenario, i.e. class-level code generation. We first manually construct the first class-level code generation benchmark ClassEval of 100 class-level Python code generation tasks with approximately 500 person-hours. Based on it, we then perform the first study of 11 state-of-the-art LLMs on class-level code generation. Based on our results, we have the following main findings. First, we find that all existing LLMs show much worse performance on class-level code generation compared to on standalone method-level code generation benchmarks like HumanEval; and the method-level coding ability cannot equivalently reflect the class-level coding ability among LLMs. Second, we find that GPT-4 and GPT-3.5 still exhibit dominate superior than other LLMs on class-level code generation, and the second-tier models includes Instruct-Starcoder, Instruct-Codegen, and Wizardcoder with very similar performance. Third, we find that generating the entire class all at once (i.e. holistic generation strategy) is the best generation strategy only for GPT-4 and GPT-3.5, while method-by-method generation (i.e. incremental and compositional) is better strategies for the other models with limited ability of understanding long instructions and utilizing the middle information. Lastly, we find the limited model ability of generating method-dependent code and discuss the frequent error types in generated classes. Our benchmark is available at https://github.com/FudanSELab/ClassEval.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T16:31:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xueying Du</name>
+    </author>
+    <author>
+      <name>Mingwei Liu</name>
+    </author>
+    <author>
+      <name>Kaixin Wang</name>
+    </author>
+    <author>
+      <name>Hanlin Wang</name>
+    </author>
+    <author>
+      <name>Junwei Liu</name>
+    </author>
+    <author>
+      <name>Yixuan Chen</name>
+    </author>
+    <author>
+      <name>Jiayi Feng</name>
+    </author>
+    <author>
+      <name>Chaofeng Sha</name>
+    </author>
+    <author>
+      <name>Xin Peng</name>
+    </author>
+    <author>
+      <name>Yiling Lou</name>
+    </author>
+  </entry>
+</feed>

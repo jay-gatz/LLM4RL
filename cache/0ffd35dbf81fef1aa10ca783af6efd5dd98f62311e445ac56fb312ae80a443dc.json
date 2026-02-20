@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/peBifC+nfavfAq4MRO42+OeSTYE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14468v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:38:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14468v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14468v1</id>
+    <title>LACONIC: Length-Aware Constrained Reinforcement Learning for LLM</title>
+    <updated>2026-02-16T05:09:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.14468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has enhanced the capabilities of large language models (LLMs) through reward-driven training. Nevertheless, this process can introduce excessively long responses, inflating inference latency and computational overhead. Prior length-control approaches typically rely on fixed heuristic reward shaping, which can misalign with the task objective and require brittle tuning. In this work, we propose LACONIC, a reinforcement learning method that enforces a target token budget during training. Specifically, we update policy models using an augmented objective that combines the task reward with a length-based cost. To balance brevity and task performance, the cost scale is adaptively adjusted throughout training. This yields robust length control while preserving task reward. We provide a theoretical guarantee that support the method. Across mathematical reasoning models and datasets, LACONIC preserves or improves pass@1 while reducing output length by over 50%. It maintains out-of-domain performance on general knowledge and multilingual benchmarks with 44% fewer tokens. Moreover, LACONIC integrates into standard RL-tuning with no inference changes and minimal deployment overhead.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T05:09:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Yiran Zhao</name>
+    </author>
+    <author>
+      <name>Lawrence Liu</name>
+    </author>
+    <author>
+      <name>Yaoqi Ye</name>
+    </author>
+    <author>
+      <name>Csaba Szepesvári</name>
+    </author>
+    <author>
+      <name>Lin F. Yang</name>
+    </author>
+  </entry>
+</feed>

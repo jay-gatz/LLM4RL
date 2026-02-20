@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wag6QLM5XllZ+X1Mn7e2ru/v9d0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21742v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21742v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21742v1</id>
+    <title>Epistemic Context Learning: Building Trust the Right Way in LLM-Based Multi-Agent Systems</title>
+    <updated>2026-01-29T13:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2601.21742v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21742v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Individual agents in multi-agent (MA) systems often lack robustness, tending to blindly conform to misleading peers. We show this weakness stems from both sycophancy and inadequate ability to evaluate peer reliability. To address this, we first formalize the learning problem of history-aware reference, introducing the historical interactions of peers as additional input, so that agents can estimate peer reliability and learn from trustworthy peers when uncertain. This shifts the task from evaluating peer reasoning quality to estimating peer reliability based on interaction history. We then develop Epistemic Context Learning (ECL): a reasoning framework that conditions predictions on explicitly-built peer profiles from history. We further optimize ECL by reinforcement learning using auxiliary rewards. Our experiments reveal that our ECL enables small models like Qwen 3-4B to outperform a history-agnostic baseline 8x its size (Qwen 3-30B) by accurately identifying reliable peers. ECL also boosts frontier models to near-perfect (100%) performance. We show that ECL generalizes well to various MA configurations and we find that trust is modeled well by LLMs, revealing a strong correlation in trust modeling accuracy and final answer quality.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T13:59:32Z</published>
+    <arxiv:comment>Codes and data are available at https://github.com/skyriver-2000/epistemic-context-learning</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruiwen Zhou</name>
+    </author>
+    <author>
+      <name>Maojia Song</name>
+    </author>
+    <author>
+      <name>Xiaobao Wu</name>
+    </author>
+    <author>
+      <name>Sitao Cheng</name>
+    </author>
+    <author>
+      <name>Xunjian Yin</name>
+    </author>
+    <author>
+      <name>Yuxi Xie</name>
+    </author>
+    <author>
+      <name>Zhuoqun Hao</name>
+    </author>
+    <author>
+      <name>Wenyue Hua</name>
+    </author>
+    <author>
+      <name>Liangming Pan</name>
+    </author>
+    <author>
+      <name>Soujanya Poria</name>
+    </author>
+    <author>
+      <name>Min-Yen Kan</name>
+    </author>
+  </entry>
+</feed>

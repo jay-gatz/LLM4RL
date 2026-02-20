@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dxm18soN3DPOnkZwNIRnV0Q5CjI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06030v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06030v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06030v2</id>
+    <title>PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling</title>
+    <updated>2026-02-06T21:58:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.06030v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06030v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-based multi-agent systems enable expressive agent reasoning but are expensive to scale and poorly calibrated for timestep-aligned state-transition simulation, while classical agent-based models (ABMs) offer interpretability but struggle to integrate rich individual-level signals and non-stationary behaviors. We propose PhysicsAgentABM, which shifts inference to behaviorally coherent agent clusters: state-specialized symbolic agents encode mechanistic transition priors, a multimodal neural transition model captures temporal and interaction dynamics, and uncertainty-aware epistemic fusion yields calibrated cluster-level transition distributions. Individual agents then stochastically realize transitions under local constraints, decoupling population inference from entity-level variability. We further introduce ANCHOR, an LLM agent-driven clustering strategy based on cross-contextual behavioral responses and a novel contrastive loss, reducing LLM calls by up to 6-8 times. Experiments across public health, finance, and social sciences show consistent gains in event-time accuracy and calibration over mechanistic, neural, and LLM baselines. By re-architecting generative ABM around population-level inference with uncertainty-aware neuro-symbolic fusion, PhysicsAgentABM establishes a new paradigm for scalable and calibrated simulation with LLMs.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T18:59:01Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Kavana Venkatesh</name>
+    </author>
+    <author>
+      <name>Yinhan He</name>
+    </author>
+    <author>
+      <name>Jundong Li</name>
+    </author>
+    <author>
+      <name>Jiaming Cui</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gW4EIFsHwFSyhaZPBPc/jdn4AYw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11000v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11000v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11000v1</id>
+    <title>Fine-Tuning GPT-5 for GPU Kernel Generation</title>
+    <updated>2026-02-11T16:22:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.11000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing efficient GPU kernels is essential for scaling modern AI systems, yet it remains a complex task due to intricate hardware architectures and the need for specialized optimization expertise. Although Large Language Models (LLMs) demonstrate strong capabilities in general sequential code generation, they face significant challenges in GPU code generation because of the scarcity of high-quality labeled training data, compiler biases when generating synthetic solutions, and limited generalization across hardware generations. This precludes supervised fine-tuning (SFT) as a scalable methodology for improving current LLMs. In contrast, reinforcement learning (RL) offers a data-efficient and adaptive alternative but requires access to relevant tools, careful selection of training problems, and a robust evaluation environment. We present Makora's environment and tools for reinforcement learning finetuning of frontier models and report our results from fine-tuning GPT-5 for Triton code generation. In the single-attempt setting, our fine-tuned model improves kernel correctness from 43.7% to 77.0% (+33.3 percentage points) and increases the fraction of problems outperforming TorchInductor from 14.8% to 21.8% (+7 percentage points) compared to baseline GPT-5, while exceeding prior state-of-the-art models on KernelBench. When integrated into a full coding agent, it is able to solve up to 97.4% of problems in an expanded KernelBench suite, outperforming the PyTorch TorchInductor compiler on 72.9% of problems with a geometric mean speedup of 2.12x. Our work demonstrates that targeted post-training with reinforcement learning can unlock LLM capabilities in highly specialized technical domains where traditional supervised learning is limited by data availability, opening new pathways for AI-assisted accelerator programming.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T16:22:54Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Ali Tehrani</name>
+    </author>
+    <author>
+      <name>Yahya Emara</name>
+    </author>
+    <author>
+      <name>Essam Wissam</name>
+    </author>
+    <author>
+      <name>Wojciech Paluch</name>
+    </author>
+    <author>
+      <name>Waleed Atallah</name>
+    </author>
+    <author>
+      <name>Łukasz Dudziak</name>
+    </author>
+    <author>
+      <name>Mohamed S. Abdelfattah</name>
+    </author>
+  </entry>
+</feed>

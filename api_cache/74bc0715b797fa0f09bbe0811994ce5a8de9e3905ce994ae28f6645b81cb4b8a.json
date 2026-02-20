@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4RcHqnzGNAZDvn+tmP+k6fAtg5w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.03485v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.03485v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03485v1</id>
+    <title>Towards Policy-Compliant Agents: Learning Efficient Guardrails For Policy Violation Detection</title>
+    <updated>2025-10-03T20:03:19Z</updated>
+    <link href="https://arxiv.org/abs/2510.03485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous web agents need to operate under externally imposed or human-specified policies while generating long-horizon trajectories. However, little work has examined whether these trajectories comply with such policies, or whether policy violations persist across different contexts such as domains (e.g., shopping or coding websites) and subdomains (e.g., product search and order management in shopping). To address this gap, we introduce PolicyGuardBench, a benchmark of about 60k examples for detecting policy violations in agent trajectories. From diverse agent runs, we generate a broad set of policies and create both within subdomain and cross subdomain pairings with violation labels. In addition to full-trajectory evaluation, PolicyGuardBench also includes a prefix-based violation detection task where models must anticipate policy violations from truncated trajectory prefixes rather than complete sequences. Using this dataset, we train PolicyGuard-4B, a lightweight guardrail model that delivers strong detection accuracy across all tasks while keeping inference efficient. Notably, PolicyGuard-4B generalizes across domains and preserves high accuracy on unseen settings. Together, PolicyGuardBench and PolicyGuard-4B provide the first comprehensive framework for studying policy compliance in web agent trajectories, and show that accurate and generalizable guardrails are feasible at small scales.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-03T20:03:19Z</published>
+    <arxiv:comment>16 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiaofei Wen</name>
+    </author>
+    <author>
+      <name>Wenjie Jacky Mo</name>
+    </author>
+    <author>
+      <name>Yanan Xie</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+    <author>
+      <name>Muhao Chen</name>
+    </author>
+  </entry>
+</feed>

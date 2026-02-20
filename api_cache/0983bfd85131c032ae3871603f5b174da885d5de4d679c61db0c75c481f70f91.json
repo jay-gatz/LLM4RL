@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DUCSEt5cteQSOmcfcC+P43K5TK8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19100v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19100v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19100v1</id>
+    <title>Reward Engineering for Reinforcement Learning in Software Tasks</title>
+    <updated>2026-01-27T02:02:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.19100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning is increasingly used for code-centric tasks. These tasks include code generation, summarization, understanding, repair, testing, and optimization. This trend is growing faster with large language models and autonomous agents. A key challenge is how to design reward signals that make sense for software. In many RL problems, the reward is a clear number. In software, this is often not possible. The goal is rarely a single numeric objective. Instead, rewards are usually proxies. Common proxies check if the code compiles, passes tests, or satisfies quality metrics. Many reward designs have been proposed for code-related tasks. However, the work is scattered across areas and papers. There is no single survey that brings these approaches together and shows the full landscape of reward design for RL in software. In this survey, we provide the first systematic and comprehensive review of reward engineering for RL in software tasks. We focus on existing methods and techniques. We structure the literature along three complementary dimensions, summarizing the reward-design choices within each. We conclude with challenges and recommendations in the reward design space for SE tasks.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T02:02:58Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Md Rayhanul Masud</name>
+    </author>
+    <author>
+      <name>Azmine Toushik Wasi</name>
+    </author>
+    <author>
+      <name>Salman Rahman</name>
+    </author>
+    <author>
+      <name>Md Rizwan Parvez</name>
+    </author>
+  </entry>
+</feed>

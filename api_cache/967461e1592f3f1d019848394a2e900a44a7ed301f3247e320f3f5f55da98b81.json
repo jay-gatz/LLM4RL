@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YHcq/U+PsKg4vtNAIfFuy536ue0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.04474v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.04474v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.04474v3</id>
+    <title>Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning</title>
+    <updated>2024-02-22T09:53:02Z</updated>
+    <link href="https://arxiv.org/abs/2310.04474v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.04474v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While enabling large language models to implement function calling (known as APIs) can greatly enhance the performance of Large Language Models (LLMs), function calling is still a challenging task due to the complicated relations between different APIs, especially in a context-learning setting without fine-tuning. This paper introduces ``Reverse Chain'', a controllable, target-driven approach designed to empower LLMs with the capability to operate external APIs only via prompts. Recognizing that most LLMs have limited tool-use capabilities, Reverse Chain limits LLMs to executing simple tasks, e.g., API Selection and Argument Completion. Furthermore, to manage a controllable multi-function calling, Reverse Chain adopts a generic rule based on a backward reasoning process. This rule determines when to do API selection or Argument completion. To evaluate the multi-tool-use capability of LLMs, we have released a compositional multi-tool task dataset, available at \url{https://anonymous.4open.science/r/reverse-chain-8681}. Extensive numerical experiments validate the remarkable proficiency of Reverse Chain in managing multiple API calls.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-06T05:20:18Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yinger Zhang</name>
+    </author>
+    <author>
+      <name>Hui Cai</name>
+    </author>
+    <author>
+      <name>Xeirui Song</name>
+    </author>
+    <author>
+      <name>Yicheng Chen</name>
+    </author>
+    <author>
+      <name>Rui Sun</name>
+    </author>
+    <author>
+      <name>Jing Zheng</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wLjcNcvKG0tW8b5Xo/c7IG2WkTE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13977v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13977v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13977v1</id>
+    <title>WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL</title>
+    <updated>2026-02-15T03:48:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.13977v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13977v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) promises to unlock capabilities beyond imitation learning for Vision-Language-Action (VLA) models, but its requirement for massive real-world interaction prevents direct deployment on physical robots. Recent work attempts to use learned world models as simulators for policy optimization, yet closed-loop imagined rollouts inevitably suffer from hallucination and long-horizon error accumulation. Such errors do not merely degrade visual fidelity; they corrupt the optimization signal, encouraging policies to exploit model inaccuracies rather than genuine task progress. We propose WoVR, a reliable world-model-based reinforcement learning framework for post-training VLA policies. Instead of assuming a faithful world model, WoVR explicitly regulates how RL interacts with imperfect imagined dynamics. It improves rollout stability through a controllable action-conditioned video world model, reshapes imagined interaction to reduce effective error depth via Keyframe-Initialized Rollouts, and maintains policy-simulator alignment through World Model-Policy co-evolution. Extensive experiments on LIBERO benchmarks and real-world robotic manipulation demonstrate that WoVR enables stable long-horizon imagined rollouts and effective policy optimization, improving average LIBERO success from 39.95% to 69.2% (+29.3 points) and real-robot success from 61.7% to 91.7% (+30.0 points). These results show that learned world models can serve as practical simulators for reinforcement learning when hallucination is explicitly controlled.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T03:48:20Z</published>
+    <arxiv:comment>21pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhennan Jiang</name>
+    </author>
+    <author>
+      <name>Shangqing Zhou</name>
+    </author>
+    <author>
+      <name>Yutong Jiang</name>
+    </author>
+    <author>
+      <name>Zefang Huang</name>
+    </author>
+    <author>
+      <name>Mingjie Wei</name>
+    </author>
+    <author>
+      <name>Yuhui Chen</name>
+    </author>
+    <author>
+      <name>Tianxing Zhou</name>
+    </author>
+    <author>
+      <name>Zhen Guo</name>
+    </author>
+    <author>
+      <name>Hao Lin</name>
+    </author>
+    <author>
+      <name>Quanlu Zhang</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Haoran Li</name>
+    </author>
+    <author>
+      <name>Chao Yu</name>
+    </author>
+    <author>
+      <name>Dongbin Zhao</name>
+    </author>
+  </entry>
+</feed>

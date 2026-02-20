@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kjUfsPnIsxcwdKxud5Nl7pUYSHk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21815v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21815v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21815v2</id>
+    <title>Moral Outrage Shapes Commitments Beyond Attention: Multimodal Moral Emotions on YouTube in Korea and the US</title>
+    <updated>2026-01-30T12:24:41Z</updated>
+    <link href="https://arxiv.org/abs/2601.21815v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21815v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding how media rhetoric shapes audience engagement is crucial in the attention economy. This study examines how moral emotional framing by mainstream news channels on YouTube influences user behavior across Korea and the United States. To capture the platform's multimodal nature, combining thumbnail images and video titles, we develop a multimodal moral emotion classifier by fine tuning a vision language model. The model is trained on human annotated multimodal datasets in both languages and applied to approximately 400,000 videos from major news outlets. We analyze engagement levels including views, likes, and comments, representing increasing degrees of commitment. The results show that other condemning rhetoric expressions of moral outrage that criticize others morally consistently increase all forms of engagement across cultures, with effects ranging from passive viewing to active commenting. These findings suggest that moral outrage is a particularly effective emotional strategy, attracting not only attention but also active participation. We discuss concerns about the potential misuse of other condemning rhetoric, as such practices may deepen polarization by reinforcing in group and out group divisions. To facilitate future research and ensure reproducibility, we publicly release our Korean and English multimodal moral emotion classifiers.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T14:58:54Z</published>
+    <arxiv:comment>Accepted at The Web Conference 2026. We release Korean and English multimodal moral emotion classifiers</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Seongchan Park</name>
+    </author>
+    <author>
+      <name>Jaehong Kim</name>
+    </author>
+    <author>
+      <name>Hyeonseung Kim</name>
+    </author>
+    <author>
+      <name>Heejin Bin</name>
+    </author>
+    <author>
+      <name>Sue Moon</name>
+    </author>
+    <author>
+      <name>Wonjae Lee</name>
+    </author>
+  </entry>
+</feed>

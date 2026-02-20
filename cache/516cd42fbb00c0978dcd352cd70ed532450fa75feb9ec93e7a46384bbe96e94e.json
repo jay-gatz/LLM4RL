@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M20NjnWPD5MZcgzhYOiRW+e37VY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.20304&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.20304" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20304v1</id>
+    <title>Group Robust Preference Optimization in Reward-free RLHF</title>
+    <updated>2024-05-30T17:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2405.20304v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20304v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adapting large language models (LLMs) for specific tasks usually involves fine-tuning through reinforcement learning with human feedback (RLHF) on preference data. While these data often come from diverse labelers' groups (e.g., different demographics, ethnicities, company teams, etc.), traditional RLHF approaches adopt a "one-size-fits-all" approach, i.e., they indiscriminately assume and optimize a single preference model, thus not being robust to unique characteristics and needs of the various groups. To address this limitation, we propose a novel Group Robust Preference Optimization (GRPO) method to align LLMs to individual groups' preferences robustly. Our approach builds upon reward-free direct preference optimization methods, but unlike previous approaches, it seeks a robust policy which maximizes the worst-case group performance. To achieve this, GRPO adaptively and sequentially weights the importance of different groups, prioritizing groups with worse cumulative loss. We theoretically study the feasibility of GRPO and analyze its convergence for the log-linear policy class. By fine-tuning LLMs with GRPO using diverse group-based global opinion data, we significantly improved performance for the worst-performing groups, reduced loss imbalances across groups, and improved probability accuracies compared to non-robust baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T17:50:04Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shyam Sundhar Ramesh</name>
+    </author>
+    <author>
+      <name>Yifan Hu</name>
+    </author>
+    <author>
+      <name>Iason Chaimalas</name>
+    </author>
+    <author>
+      <name>Viraj Mehta</name>
+    </author>
+    <author>
+      <name>Pier Giuseppe Sessa</name>
+    </author>
+    <author>
+      <name>Haitham Bou Ammar</name>
+    </author>
+    <author>
+      <name>Ilija Bogunovic</name>
+    </author>
+  </entry>
+</feed>

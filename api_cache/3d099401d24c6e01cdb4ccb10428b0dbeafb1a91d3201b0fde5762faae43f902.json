@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7gKkTyoGQaHTJsTM08kKwtDAYts</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16578v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16578v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16578v1</id>
+    <title>Creating a digital poet</title>
+    <updated>2026-02-18T16:25:10Z</updated>
+    <link href="https://arxiv.org/abs/2602.16578v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16578v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can a machine write good poetry? Any positive answer raises fundamental questions about the nature and value of art. We report a seven-month poetry workshop in which a large language model was shaped into a digital poet through iterative in-context expert feedback, without retraining. Across sessions, the model developed a distinctive style and a coherent corpus, supported by quantitative and qualitative analyses, and it produced a pen name and author image. In a blinded authorship test with 50 humanities students and graduates (three AI poems and three poems by well-known poets each), judgments were at chance: human poems were labeled human 54% of the time and AI poems 52%, with 95% confidence intervals including 50%. After the workshop, a commercial publisher released a poetry collection authored by the model. These results show that workshop-style prompting can support long-horizon creative shaping and renew debates on creativity and authorship.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T16:25:10Z</published>
+    <arxiv:comment>24 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Vered Tohar</name>
+    </author>
+    <author>
+      <name>Tsahi Hayat</name>
+    </author>
+    <author>
+      <name>Amir Leshem</name>
+    </author>
+  </entry>
+</feed>

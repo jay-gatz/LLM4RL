@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kYZXqyU+ooLjDYsfas07dWAGB5I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.15286v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.15286v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15286v1</id>
+    <title>Iterative Refinement Improves Compositional Image Generation</title>
+    <updated>2026-01-21T18:59:40Z</updated>
+    <link href="https://arxiv.org/abs/2601.15286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-to-image (T2I) models have achieved remarkable progress, yet they continue to struggle with complex prompts that require simultaneously handling multiple objects, relations, and attributes. Existing inference-time strategies, such as parallel sampling with verifiers or simply increasing denoising steps, can improve prompt alignment but remain inadequate for richly compositional settings where many constraints must be satisfied. Inspired by the success of chain-of-thought reasoning in large language models, we propose an iterative test-time strategy in which a T2I model progressively refines its generations across multiple steps, guided by feedback from a vision-language model as the critic in the loop. Our approach is simple, requires no external tools or priors, and can be flexibly applied to a wide range of image generators and vision-language models. Empirically, we demonstrate consistent gains on image generation across benchmarks: a 16.9% improvement in all-correct rate on ConceptMix (k=7), a 13.8% improvement on T2I-CompBench (3D-Spatial category) and a 12.5% improvement on Visual Jenga scene decomposition compared to compute-matched parallel sampling. Beyond quantitative gains, iterative refinement produces more faithful generations by decomposing complex prompts into sequential corrections, with human evaluators preferring our method 58.7% of the time over 41.3% for the parallel baseline. Together, these findings highlight iterative self-correction as a broadly applicable principle for compositional image generation. Results and visualizations are available at https://iterative-img-gen.github.io/</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T18:59:40Z</published>
+    <arxiv:comment>Project webpage: https://iterative-img-gen.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shantanu Jaiswal</name>
+    </author>
+    <author>
+      <name>Mihir Prabhudesai</name>
+    </author>
+    <author>
+      <name>Nikash Bhardwaj</name>
+    </author>
+    <author>
+      <name>Zheyang Qin</name>
+    </author>
+    <author>
+      <name>Amir Zadeh</name>
+    </author>
+    <author>
+      <name>Chuan Li</name>
+    </author>
+    <author>
+      <name>Katerina Fragkiadaki</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+  </entry>
+</feed>

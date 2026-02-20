@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dit9ee70PdfbeOf+2Nl4/lk7gaA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.06135&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:24:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.06135" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06135v2</id>
+    <title>SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning</title>
+    <updated>2023-09-27T23:17:28Z</updated>
+    <link href="https://arxiv.org/abs/2307.06135v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06135v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated impressive results in developing generalist planning agents for diverse tasks. However, grounding these plans in expansive, multi-floor, and multi-room environments presents a significant challenge for robotics. We introduce SayPlan, a scalable approach to LLM-based, large-scale task planning for robotics using 3D scene graph (3DSG) representations. To ensure the scalability of our approach, we: (1) exploit the hierarchical nature of 3DSGs to allow LLMs to conduct a 'semantic search' for task-relevant subgraphs from a smaller, collapsed representation of the full graph; (2) reduce the planning horizon for the LLM by integrating a classical path planner and (3) introduce an 'iterative replanning' pipeline that refines the initial plan using feedback from a scene graph simulator, correcting infeasible actions and avoiding planning failures. We evaluate our approach on two large-scale environments spanning up to 3 floors and 36 rooms with 140 assets and objects and show that our approach is capable of grounding large-scale, long-horizon task plans from abstract, and natural language instruction for a mobile manipulator robot to execute. We provide real robot video demonstrations on our project page https://sayplan.github.io.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-12T12:37:55Z</published>
+    <arxiv:comment>Accepted for oral presentation at the Conference on Robot Learning (CoRL), 2023. Project page can be found here: https://sayplan.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Krishan Rana</name>
+    </author>
+    <author>
+      <name>Jesse Haviland</name>
+    </author>
+    <author>
+      <name>Sourav Garg</name>
+    </author>
+    <author>
+      <name>Jad Abou-Chakra</name>
+    </author>
+    <author>
+      <name>Ian Reid</name>
+    </author>
+    <author>
+      <name>Niko Suenderhauf</name>
+    </author>
+  </entry>
+</feed>

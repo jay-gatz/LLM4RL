@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PL72zVhVEJv1NNOHVQOGHFv8LZ4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.13240v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.13240v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.13240v3</id>
+    <title>Knowing What You Know Is Not Enough: Large Language Model Confidences Don't Align With Their Actions</title>
+    <updated>2026-02-09T04:58:39Z</updated>
+    <link href="https://arxiv.org/abs/2511.13240v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.13240v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly deployed in agentic and multi-turn workflows where they are tasked to perform actions of significant consequence. In order to deploy them reliably and manage risky outcomes in these settings, it is helpful to access model uncertainty estimates. However, confidence elicitation methods for LLMs are typically not evaluated directly in agentic settings; instead, they are evaluated on static datasets, such as Q&amp;A benchmarks. In this work we investigate the relationship between confidence estimates elicited in static settings and the behavior of LLMs in interactive settings. We uncover a significant action-belief gap -- LLMs frequently take actions that contradict their elicited confidences. In a prediction market setting, we find that models often bet against their own high-confidence predictions; in a tool-use setting, models fail to reliably invoke information-seeking tools when their internal confidence is low; and in a user-challenge setting, models change their answers when they have high confidence in them, whilst sticking to answers they have low confidence in. Crucially, we show that static calibration is an insufficient predictor of consistency in the above dynamic settings, as stronger, better calibrated models are somtimes less consistent than their smaller and weaker open-source counterparts. Our results highlight a critical blind spot in current evaluation methodologies: ensuring that a model knows what it knows does not guarantee that it will act rationally on that knowledge.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T11:04:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arka Pal</name>
+    </author>
+    <author>
+      <name>Teo Kitanovski</name>
+    </author>
+    <author>
+      <name>Arthur Liang</name>
+    </author>
+    <author>
+      <name>Akilesh Potti</name>
+    </author>
+    <author>
+      <name>Micah Goldblum</name>
+    </author>
+  </entry>
+</feed>

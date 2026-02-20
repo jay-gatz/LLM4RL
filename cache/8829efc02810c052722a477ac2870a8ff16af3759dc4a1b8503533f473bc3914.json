@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/51HpVGhk5Jhm29lqE4KjwYK05SU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11964v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11964v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11964v1</id>
+    <title>Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</title>
+    <updated>2026-02-12T13:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.11964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Gaia2, a benchmark for evaluating large language model agents in realistic, asynchronous environments. Unlike prior static or synchronous evaluations, Gaia2 introduces scenarios where environments evolve independently of agent actions, requiring agents to operate under temporal constraints, adapt to noisy and dynamic events, resolve ambiguity, and collaborate with other agents. Each scenario is paired with a write-action verifier, enabling fine-grained, action-level evaluation and making Gaia2 directly usable for reinforcement learning from verifiable rewards. Our evaluation of state-of-the-art proprietary and open-source models shows that no model dominates across capabilities: GPT-5 (high) reaches the strongest overall score of 42% pass@1 but fails on time-sensitive tasks, Claude-4 Sonnet trades accuracy and speed for cost, Kimi-K2 leads among open-source models with 21% pass@1. These results highlight fundamental trade-offs between reasoning, efficiency, robustness, and expose challenges in closing the "sim2real" gap. Gaia2 is built on a consumer environment with the open-source Agents Research Environments platform and designed to be easy to extend. By releasing Gaia2 alongside the foundational ARE framework, we aim to provide the community with a flexible infrastructure for developing, benchmarking, and training the next generation of practical agent systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T13:58:27Z</published>
+    <arxiv:comment>Accepted as Oral at ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Romain Froger</name>
+    </author>
+    <author>
+      <name>Pierre Andrews</name>
+    </author>
+    <author>
+      <name>Matteo Bettini</name>
+    </author>
+    <author>
+      <name>Amar Budhiraja</name>
+    </author>
+    <author>
+      <name>Ricardo Silveira Cabral</name>
+    </author>
+    <author>
+      <name>Virginie Do</name>
+    </author>
+    <author>
+      <name>Emilien Garreau</name>
+    </author>
+    <author>
+      <name>Jean-Baptiste Gaya</name>
+    </author>
+    <author>
+      <name>Hugo Laurençon</name>
+    </author>
+    <author>
+      <name>Maxime Lecanu</name>
+    </author>
+    <author>
+      <name>Kunal Malkan</name>
+    </author>
+    <author>
+      <name>Dheeraj Mekala</name>
+    </author>
+    <author>
+      <name>Pierre Ménard</name>
+    </author>
+    <author>
+      <name>Gerard Moreno-Torres Bertran</name>
+    </author>
+    <author>
+      <name>Ulyana Piterbarg</name>
+    </author>
+    <author>
+      <name>Mikhail Plekhanov</name>
+    </author>
+    <author>
+      <name>Mathieu Rita</name>
+    </author>
+    <author>
+      <name>Andrey Rusakov</name>
+    </author>
+    <author>
+      <name>Vladislav Vorotilov</name>
+    </author>
+    <author>
+      <name>Mengjue Wang</name>
+    </author>
+    <author>
+      <name>Ian Yu</name>
+    </author>
+    <author>
+      <name>Amine Benhalloum</name>
+    </author>
+    <author>
+      <name>Grégoire Mialon</name>
+    </author>
+    <author>
+      <name>Thomas Scialom</name>
+    </author>
+  </entry>
+</feed>

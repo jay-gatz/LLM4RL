@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pp9Z1MvQk92F5NTnObSSQXFXl3s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16449v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16449v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16449v1</id>
+    <title>Emotion-LLaMAv2 and MMEVerse: A New Framework and Benchmark for Multimodal Emotion Understanding</title>
+    <updated>2026-01-23T05:02:43Z</updated>
+    <link href="https://arxiv.org/abs/2601.16449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding human emotions from multimodal signals poses a significant challenge in affective computing and human-robot interaction. While multimodal large language models (MLLMs) have excelled in general vision-language tasks, their capabilities in emotional reasoning remain limited. The field currently suffers from a scarcity of large-scale datasets with high-quality, descriptive emotion annotations and lacks standardized benchmarks for evaluation. Our preliminary framework, Emotion-LLaMA, pioneered instruction-tuned multimodal learning for emotion reasoning but was restricted by explicit face detectors, implicit fusion strategies, and low-quality training data with limited scale. To address these limitations, we present Emotion-LLaMAv2 and the MMEVerse benchmark, establishing an end-to-end pipeline together with a standardized evaluation setting for emotion recognition and reasoning. Emotion-LLaMAv2 introduces three key advances. First, an end-to-end multiview encoder eliminates external face detection and captures nuanced emotional cues via richer spatial and temporal multiview tokens. Second, a Conv Attention pre-fusion module is designed to enable simultaneous local and global multimodal feature interactions external to the LLM backbone. Third, a perception-to-cognition curriculum instruction tuning scheme within the LLaMA2 backbone unifies emotion recognition and free-form emotion reasoning. To support large-scale training and reproducible evaluation, MMEVerse aggregates twelve publicly available emotion datasets, including IEMOCAP, MELD, DFEW, and MAFW, into a unified multimodal instruction format. The data are re-annotated via a multi-agent pipeline involving Qwen2 Audio, Qwen2.5 VL, and GPT 4o, producing 130k training clips and 36k testing clips across 18 evaluation benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T05:02:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaojiang Peng</name>
+    </author>
+    <author>
+      <name>Jingyi Chen</name>
+    </author>
+    <author>
+      <name>Zebang Cheng</name>
+    </author>
+    <author>
+      <name>Bao Peng</name>
+    </author>
+    <author>
+      <name>Fengyi Wu</name>
+    </author>
+    <author>
+      <name>Yifei Dong</name>
+    </author>
+    <author>
+      <name>Shuyuan Tu</name>
+    </author>
+    <author>
+      <name>Qiyu Hu</name>
+    </author>
+    <author>
+      <name>Huiting Huang</name>
+    </author>
+    <author>
+      <name>Yuxiang Lin</name>
+    </author>
+    <author>
+      <name>Jun-Yan He</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Zheng Lian</name>
+    </author>
+    <author>
+      <name>Zhi-Qi Cheng</name>
+    </author>
+  </entry>
+</feed>

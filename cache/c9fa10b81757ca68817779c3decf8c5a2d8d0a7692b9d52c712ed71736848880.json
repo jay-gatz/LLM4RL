@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KyrGCLcnmbZkDTQRFIQrHLQ944E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11551v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11551v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11551v1</id>
+    <title>SIGHT: Reinforcement Learning with Self-Evidence and Information-Gain Diverse Branching for Search Agent</title>
+    <updated>2026-02-12T04:16:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.11551v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11551v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) has empowered Large Language Models (LLMs) to master autonomous search for complex question answering. However, particularly within multi-turn search scenarios, this interaction introduces a critical challenge: search results often suffer from high redundancy and low signal-to-noise ratios. Consequently, agents easily fall into "Tunnel Vision," where the forced interpretation of early noisy retrievals leads to irreversible error accumulation. To address these challenges, we propose SIGHT, a framework that enhances search-based reasoning through Self-Evidence Support (SES) and Information-Gain Driven Diverse Branching. SIGHT distills search results into high-fidelity evidence via SES and calculates an Information Gain score to pinpoint pivotal states where observations maximally reduce uncertainty. This score guides Dynamic Prompting Interventions - including de-duplication, reflection, or adaptive branching - to spawn new branches with SES. Finally, by integrating SES and correctness rewards via Group Relative Policy Optimization, SIGHT internalizes robust exploration strategies without external verifiers. Experiments on single-hop and multi-hop QA benchmarks demonstrate that SIGHT significantly outperforms existing approaches, particularly in complex reasoning scenarios, using fewer search steps.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T04:16:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenlin Zhong</name>
+    </author>
+    <author>
+      <name>Jinluan Yang</name>
+    </author>
+    <author>
+      <name>Yiquan Wu</name>
+    </author>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Jianhang Yao</name>
+    </author>
+    <author>
+      <name>Kun Kuang</name>
+    </author>
+  </entry>
+</feed>

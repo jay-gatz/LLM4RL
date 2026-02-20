@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hJfNN5ERl3zKdbS8pmgHNCeYOzE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.08879&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.08879" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08879v2</id>
+    <title>A Critical Review of Large Language Model on Software Engineering: An Example from ChatGPT and Automated Program Repair</title>
+    <updated>2024-04-17T05:43:56Z</updated>
+    <link href="https://arxiv.org/abs/2310.08879v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08879v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have been gaining increasing attention and demonstrated promising performance across a variety of Software Engineering (SE) tasks, such as Automated Program Repair (APR), code summarization, and code completion. For example, ChatGPT, the latest black-box LLM, has been investigated by numerous recent research studies and has shown impressive performance in various tasks. However, there exists a potential risk of data leakage since these LLMs are usually close-sourced with unknown specific training details, e.g., pre-training datasets.
+  In this paper, we seek to review the bug-fixing capabilities of ChatGPT on a clean APR benchmark with different research objectives. We first introduce {\benchmark}, a new benchmark with buggy and the corresponding fixed programs from competitive programming problems starting from 2023, after the training cutoff point of ChatGPT. The results on {\benchmark} show that ChatGPT is able to fix 109 out of 151 buggy programs using the basic prompt within 35 independent rounds, outperforming state-of-the-art LLMs CodeT5 and PLBART by 27.5\% and 62.4\% prediction accuracy. We also investigate the impact of three types of prompts, i.e., problem description, error feedback, and bug localization, leading to additional 34 fixed bugs. Besides, we provide additional discussion from the interactive nature of ChatGPT to illustrate the capacity of a dialog-based repair workflow with 9 additional fixed bugs. Inspired by the findings, we further pinpoint various challenges and opportunities for advanced SE study equipped with such LLMs (e.g.,~ChatGPT) in the near future. More importantly, our work calls for more research on the reevaluation of the achievements obtained by existing black-box LLMs across various SE tasks, not limited to ChatGPT on APR.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-13T06:11:47Z</published>
+    <arxiv:comment>add EvalGPTFix URL</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Quanjun Zhang</name>
+    </author>
+    <author>
+      <name>Tongke Zhang</name>
+    </author>
+    <author>
+      <name>Juan Zhai</name>
+    </author>
+    <author>
+      <name>Chunrong Fang</name>
+    </author>
+    <author>
+      <name>Bowen Yu</name>
+    </author>
+    <author>
+      <name>Weisong Sun</name>
+    </author>
+    <author>
+      <name>Zhenyu Chen</name>
+    </author>
+  </entry>
+</feed>

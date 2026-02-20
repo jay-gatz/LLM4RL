@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PzHYSWImdsr2xsfSe7lfxcpm7pM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01034v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01034v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01034v1</id>
+    <title>Discovering Process-Outcome Credit in Multi-Step LLM Reasoning</title>
+    <updated>2026-02-01T05:44:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.01034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) serves as a potent paradigm for enhancing reasoning capabilities in Large Language Models (LLMs), yet standard outcome-based approaches often suffer from reward sparsity and inefficient credit assignment. In this paper, we propose a novel framework designed to provide continuous reward signals, which introduces a Step-wise Marginal Information Gain (MIG) mechanism that quantifies the intrinsic value of reasoning steps against a Monotonic Historical Watermark, effectively filtering out training noise. To ensure disentangled credit distribution, we implement a Decoupled Masking Strategy, applying process-oriented rewards specifically to the chain-of-thought (CoT) and outcome-oriented rewards to the full completion. Additionally, we incorporate a Dual-Gated SFT objective to stabilize training with high-quality structural and factual signals. Extensive experiments across textual and multi-modal benchmarks (e.g., MATH, Super-CLEVR) demonstrate that our approach consistently outperforms baselines such as GRPO in both sample efficiency and final accuracy. Furthermore, our model exhibits superior out-of-distribution robustness, demonstrating promising zero-shot transfer capabilities to unseen and challenging reasoning tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T05:44:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiangwei Wang</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Ken Chen</name>
+    </author>
+    <author>
+      <name>Nanduni Nimalsiri</name>
+    </author>
+    <author>
+      <name>Saman Halgamuge</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GRF7yWnPk6JuAY0+35GjQFGva9Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12342v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12342v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12342v1</id>
+    <title>Intrinsic Credit Assignment for Long Horizon Interaction</title>
+    <updated>2026-02-12T19:00:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.12342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How can we train agents to navigate uncertainty over long horizons? In this work, we propose ΔBelief-RL, which leverages a language model's own intrinsic beliefs to reward intermediate progress. Our method utilizes the change in the probability an agent assigns to the target solution for credit assignment. By training on synthetic interaction data, ΔBelief-RL teaches information-seeking capabilities that consistently outperform purely outcome-based rewards for Reinforcement Learning, with improvements generalizing to out-of-distribution applications ranging from customer service to personalization. Notably, the performance continues to improve as we scale test-time interactions beyond the training horizon, with interaction-efficiency increasing even on Pass@k metrics. Overall, our work introduces a scalable training strategy for navigating uncertainty over a long-horizon, by enabling credit assignment to intermediate actions via intrinsic ΔBelief rewards.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T19:00:54Z</published>
+    <arxiv:comment>9 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ilze Amanda Auzina</name>
+    </author>
+    <author>
+      <name>Joschka Strüber</name>
+    </author>
+    <author>
+      <name>Sergio Hernández-Gutiérrez</name>
+    </author>
+    <author>
+      <name>Shashwat Goel</name>
+    </author>
+    <author>
+      <name>Ameya Prabhu</name>
+    </author>
+    <author>
+      <name>Matthias Bethge</name>
+    </author>
+  </entry>
+</feed>

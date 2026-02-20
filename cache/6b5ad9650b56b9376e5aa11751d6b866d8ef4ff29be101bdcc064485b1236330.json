@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VlgSGQfreB6m7lJpaZH9BfO8ggg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.17722&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.17722" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.17722v2</id>
+    <title>Large Language Models as Generalizable Policies for Embodied Tasks</title>
+    <updated>2024-04-16T17:54:06Z</updated>
+    <link href="https://arxiv.org/abs/2310.17722v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.17722v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that large language models (LLMs) can be adapted to be generalizable policies for embodied visual tasks. Our approach, called Large LAnguage model Reinforcement Learning Policy (LLaRP), adapts a pre-trained frozen LLM to take as input text instructions and visual egocentric observations and output actions directly in the environment. Using reinforcement learning, we train LLaRP to see and act solely through environmental interactions. We show that LLaRP is robust to complex paraphrasings of task instructions and can generalize to new tasks that require novel optimal behavior. In particular, on 1,000 unseen tasks it achieves 42% success rate, 1.7x the success rate of other common learned baselines or zero-shot applications of LLMs. Finally, to aid the community in studying language conditioned, massively multi-task, embodied AI problems we release a novel benchmark, Language Rearrangement, consisting of 150,000 training and 1,000 testing tasks for language-conditioned rearrangement. Video examples of LLaRP in unseen Language Rearrangement instructions are at https://llm-rl.github.io.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-26T18:32:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andrew Szot</name>
+    </author>
+    <author>
+      <name>Max Schwarzer</name>
+    </author>
+    <author>
+      <name>Harsh Agrawal</name>
+    </author>
+    <author>
+      <name>Bogdan Mazoure</name>
+    </author>
+    <author>
+      <name>Walter Talbott</name>
+    </author>
+    <author>
+      <name>Katherine Metcalf</name>
+    </author>
+    <author>
+      <name>Natalie Mackraz</name>
+    </author>
+    <author>
+      <name>Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Alexander Toshev</name>
+    </author>
+  </entry>
+</feed>

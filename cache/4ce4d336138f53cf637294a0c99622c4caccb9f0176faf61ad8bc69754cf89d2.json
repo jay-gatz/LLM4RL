@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hCOQmnrLNMYDmcIOZPkDb60q6Rk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.20377v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.20377v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.20377v2</id>
+    <title>PhantomWiki: On-Demand Datasets for Reasoning and Retrieval Evaluation</title>
+    <updated>2025-06-09T17:55:58Z</updated>
+    <link href="https://arxiv.org/abs/2502.20377v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.20377v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-quality benchmarks are essential for evaluating reasoning and retrieval capabilities of large language models (LLMs). However, curating datasets for this purpose is not a permanent solution as they are prone to data leakage and inflated performance results. To address these challenges, we propose PhantomWiki: a pipeline to generate unique, factually consistent document corpora with diverse question-answer pairs. Unlike prior work, PhantomWiki is neither a fixed dataset, nor is it based on any existing data. Instead, a new PhantomWiki instance is generated on demand for each evaluation. We vary the question difficulty and corpus size to disentangle reasoning and retrieval capabilities respectively, and find that PhantomWiki datasets are surprisingly challenging for frontier LLMs. Thus, we contribute a scalable and data leakage-resistant framework for disentangled evaluation of reasoning, retrieval, and tool-use abilities. Our code is available at https://github.com/kilian-group/phantom-wiki.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-27T18:51:22Z</published>
+    <arxiv:comment>Accepted to ICML 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Albert Gong</name>
+    </author>
+    <author>
+      <name>Kamilė Stankevičiūtė</name>
+    </author>
+    <author>
+      <name>Chao Wan</name>
+    </author>
+    <author>
+      <name>Anmol Kabra</name>
+    </author>
+    <author>
+      <name>Raphael Thesmar</name>
+    </author>
+    <author>
+      <name>Johann Lee</name>
+    </author>
+    <author>
+      <name>Julius Klenke</name>
+    </author>
+    <author>
+      <name>Carla P. Gomes</name>
+    </author>
+    <author>
+      <name>Kilian Q. Weinberger</name>
+    </author>
+  </entry>
+</feed>

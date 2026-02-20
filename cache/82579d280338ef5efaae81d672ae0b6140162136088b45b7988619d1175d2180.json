@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lQBEPmvQTIxQFvg2S/BY24VMivQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.14967v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.14967v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.14967v1</id>
+    <title>Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn LLM Agents</title>
+    <updated>2025-10-16T17:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.14967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.14967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-based agents are increasingly trained with reinforcement learning (RL) to enhance their ability to interact with external environments through tool use, particularly in search-based settings that require multi-turn reasoning and knowledge acquisition. However, existing approaches typically rely on outcome-based rewards that are only provided at the final answer. This reward sparsity becomes particularly problematic in multi-turn settings, where long trajectories exacerbate two critical issues: (i) advantage collapse, where all rollouts receive identical rewards and provide no useful learning signals, and (ii) lack of fine-grained credit assignment, where dependencies between turns are obscured, especially in long-horizon tasks. In this paper, we propose Information Gain-based Policy Optimization (IGPO), a simple yet effective RL framework that provides dense and intrinsic supervision for multi-turn agent training. IGPO models each interaction turn as an incremental process of acquiring information about the ground truth, and defines turn-level rewards as the marginal increase in the policy's probability of producing the correct answer. Unlike prior process-level reward approaches that depend on external reward models or costly Monte Carlo estimation, IGPO derives intrinsic rewards directly from the model's own belief updates. These intrinsic turn-level rewards are combined with outcome-level supervision to form dense reward trajectories. Extensive experiments on both in-domain and out-of-domain benchmarks demonstrate that IGPO consistently outperforms strong baselines in multi-turn scenarios, achieving higher accuracy and improved sample efficiency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-16T17:59:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Guoqing Wang</name>
+    </author>
+    <author>
+      <name>Sunhao Dai</name>
+    </author>
+    <author>
+      <name>Guangze Ye</name>
+    </author>
+    <author>
+      <name>Zeyu Gan</name>
+    </author>
+    <author>
+      <name>Wei Yao</name>
+    </author>
+    <author>
+      <name>Yong Deng</name>
+    </author>
+    <author>
+      <name>Xiaofeng Wu</name>
+    </author>
+    <author>
+      <name>Zhenzhe Ying</name>
+    </author>
+  </entry>
+</feed>

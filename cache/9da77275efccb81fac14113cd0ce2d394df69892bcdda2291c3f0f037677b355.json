@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9qxvEW33XphPfSEv10l+3Er5tgE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.20755v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:38:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.20755v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.20755v1</id>
+    <title>Provable Benefits of In-Tool Learning for Large Language Models</title>
+    <updated>2025-08-28T13:12:19Z</updated>
+    <link href="https://arxiv.org/abs/2508.20755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.20755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-augmented language models, equipped with retrieval, memory, or external APIs, are reshaping AI, yet their theoretical advantages remain underexplored. In this paper, we address this question by demonstrating the benefits of in-tool learning (external retrieval) over in-weight learning (memorization) for factual recall. We show that the number of facts a model can memorize solely in its weights is fundamentally limited by its parameter count. In contrast, we prove that tool-use enables unbounded factual recall via a simple and efficient circuit construction. These results are validated in controlled experiments, where tool-using models consistently outperform memorizing ones. We further show that for pretrained large language models, teaching tool-use and general rules is more effective than finetuning facts into memory. Our work provides both a theoretical and empirical foundation, establishing why tool-augmented workflows are not just practical, but provably more scalable.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-28T13:12:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sam Houliston</name>
+    </author>
+    <author>
+      <name>Ambroise Odonnat</name>
+    </author>
+    <author>
+      <name>Charles Arnal</name>
+    </author>
+    <author>
+      <name>Vivien Cabannes</name>
+    </author>
+  </entry>
+</feed>

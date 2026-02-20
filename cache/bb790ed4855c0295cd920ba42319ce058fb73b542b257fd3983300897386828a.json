@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wY3X3nS94LEvGeOtfMY/gElLBGg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.05081v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:50:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.05081v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.05081v1</id>
+    <title>Cognitive Duality for Adaptive Web Agents</title>
+    <updated>2025-08-07T07:05:22Z</updated>
+    <link href="https://arxiv.org/abs/2508.05081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.05081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web navigation represents a critical and challenging domain for evaluating artificial general intelligence (AGI), demanding complex decision-making within high-entropy, dynamic environments with combinatorially explosive action spaces. Current approaches to building autonomous web agents either focus on offline imitation learning or online exploration, but rarely integrate both paradigms effectively. Inspired by the dual-process theory of human cognition, we derive a principled decomposition into fast System 1 and slow System 2 cognitive processes. This decomposition provides a unifying perspective on existing web agent methodologies, bridging the gap between offline learning of intuitive reactive behaviors and online acquisition of deliberative planning capabilities. We implement this framework in CogniWeb, a modular agent architecture that adaptively toggles between fast intuitive processing and deliberate reasoning based on task complexity. Our evaluation on WebArena demonstrates that CogniWeb achieves competitive performance (43.96% success rate) while maintaining significantly higher efficiency (75% reduction in token usage).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-07T07:05:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiarun Liu</name>
+    </author>
+    <author>
+      <name>Chunhong Zhang</name>
+    </author>
+    <author>
+      <name>Zheng Hu</name>
+    </author>
+  </entry>
+</feed>

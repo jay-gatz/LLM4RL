@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BXrlGcHg4gcr1xAUW9NCz3oyaUo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07213v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07213v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07213v1</id>
+    <title>Adaptive Retrieval helps Reasoning in LLMs -- but mostly if it's not used</title>
+    <updated>2026-02-06T21:48:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.07213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often falter in complex reasoning tasks due to their static, parametric knowledge, leading to hallucinations and poor performance in specialized domains like mathematics. This work explores a fundamental principle for enhancing generative models: treating retrieval as a form of dynamic in-context learning. We test an adaptive retrieval-augmented architecture where an LLM agent actively decides when to query an external knowledge base during its reasoning process. We compare this adaptive strategy against a standard Chain-of-Thought (CoT) baseline and a static retrieval approach on the GSM8K and MATH-500 benchmarks. Although our experiments show that static retrieval is inferior to CoT, the adaptive retrieval shows interesting behavior: While traces including retrieved results show slightly worse performance compared to CoT, traces that do not include retrieval actually perform better compared to CoT. This suggests that: (a) retrieval only rarely helps reasoning (we show a few counterexamples, e.g. using useful theorems) and (b) actively not using retrieval is indicative of good model performance. Furthermore, we find that the model scales its retrieval frequency with the difficulty of the problem, reinforcing that the decision to retrieve is a crucial metacognitive signal. The agent's ability to self-assess its knowledge and selectively engage with external information represents a key principle for building more robust and reliable generative models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T21:48:26Z</published>
+    <arxiv:comment>Eurips Workshop on Principles of Generative Modeling (PriGM)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Srijan Shakya</name>
+    </author>
+    <author>
+      <name>Anamaria-Roberta Hartl</name>
+    </author>
+    <author>
+      <name>Sepp Hochreiter</name>
+    </author>
+    <author>
+      <name>Korbinian Pöppel</name>
+    </author>
+  </entry>
+</feed>

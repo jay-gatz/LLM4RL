@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U4mggNsYUpq0HikoQK5QGk+SJvI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.08104v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.08104v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08104v2</id>
+    <title>AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration</title>
+    <updated>2026-02-11T14:16:12Z</updated>
+    <link href="https://arxiv.org/abs/2512.08104v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08104v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI agents increasingly operate in complex environments, ensuring reliable, context-aware privacy is critical for regulatory compliance. Traditional access controls are insufficient because privacy risks often arise after access is granted; agents may inadvertently compromise privacy during reasoning by messaging humans, leaking context to peers, or executing unsafe tool calls. Existing approaches typically treat privacy as a binary constraint, overlooking nuanced, computation-dependent requirements. Furthermore, Large Language Model (LLM) agents are inherently probabilistic, lacking formal guarantees for security-critical operations. To address this, we introduce AgentCrypt, a three-tiered framework for secure agent communication that adds a deterministic protection layer atop any AI platform. AgentCrypt spans the full spectrum of privacy needs: from unrestricted data exchange (Level 1), to context-aware masking (Level 2), up to fully encrypted computation using Homomorphic Encryption (Level 3). Unlike prompt-based defenses, our approach guarantees that tagged data privacy is strictly preserved even when the underlying model errs. Security is decoupled from the agent's probabilistic reasoning, ensuring sensitive data remains protected throughout the computational lifecycle. AgentCrypt enables collaborative computation on otherwise inaccessible data, overcoming barriers like data silos. We implemented and validated it using LangGraph and Google ADK, demonstrating versatility across architectures. Finally, we introduce a benchmark dataset simulating privacy-critical tasks to enable systematic evaluation and foster the development of trustworthy, regulatable machine learning systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T23:20:20Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Harish Karthikeyan</name>
+    </author>
+    <author>
+      <name>Yue Guo</name>
+    </author>
+    <author>
+      <name>Leo de Castro</name>
+    </author>
+    <author>
+      <name>Antigoni Polychroniadou</name>
+    </author>
+    <author>
+      <name>Udari Madhushani Sehwag</name>
+    </author>
+    <author>
+      <name>Leo Ardon</name>
+    </author>
+    <author>
+      <name>Sumitra Ganesh</name>
+    </author>
+    <author>
+      <name>Manuela Veloso</name>
+    </author>
+  </entry>
+</feed>

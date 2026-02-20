@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Gdh0267J9a61/JIXdiGiS3uE5Vw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.10372&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:30:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.10372" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10372v2</id>
+    <title>A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends</title>
+    <updated>2024-01-08T05:41:51Z</updated>
+    <link href="https://arxiv.org/abs/2311.10372v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10372v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General large language models (LLMs), represented by ChatGPT, have demonstrated significant potential in tasks such as code generation in software engineering. This has led to the development of specialized LLMs for software engineering, known as Code LLMs. A considerable portion of Code LLMs is derived from general LLMs through model fine-tuning. As a result, Code LLMs are often updated frequently and their performance can be influenced by the base LLMs. However, there is currently a lack of systematic investigation into Code LLMs and their performance. In this study, we conduct a comprehensive survey and analysis of the types of Code LLMs and their differences in performance compared to general LLMs. We aim to address three questions: (1) What LLMs are specifically designed for software engineering tasks, and what is the relationship between these Code LLMs? (2) Do Code LLMs really outperform general LLMs in software engineering tasks? (3) Which LLMs are more proficient in different software engineering tasks? To answer these questions, we first collect relevant literature and work from five major databases and open-source communities, resulting in 134 works for analysis. Next, we categorize the Code LLMs based on their publishers and examine their relationships with general LLMs and among themselves. Furthermore, we investigate the performance differences between general LLMs and Code LLMs in various software engineering tasks to demonstrate the impact of base models and Code LLMs. Finally, we comprehensively maintained the performance of LLMs across multiple mainstream benchmarks to identify the best-performing LLMs for each software engineering task. Our research not only assists developers of Code LLMs in choosing base models for the development of more advanced LLMs but also provides insights for practitioners to better understand key improvement directions for Code LLMs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-17T07:55:16Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Zibin Zheng</name>
+    </author>
+    <author>
+      <name>Kaiwen Ning</name>
+    </author>
+    <author>
+      <name>Yanlin Wang</name>
+    </author>
+    <author>
+      <name>Jingwen Zhang</name>
+    </author>
+    <author>
+      <name>Dewu Zheng</name>
+    </author>
+    <author>
+      <name>Mingxi Ye</name>
+    </author>
+    <author>
+      <name>Jiachi Chen</name>
+    </author>
+  </entry>
+</feed>

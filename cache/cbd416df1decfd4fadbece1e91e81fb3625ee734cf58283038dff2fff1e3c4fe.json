@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J720yLozEwu8dKI7AGtI87Ub+no</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.15248&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.15248" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.15248v1</id>
+    <title>XAI meets LLMs: A Survey of the Relation between Explainable AI and Large Language Models</title>
+    <updated>2024-07-21T19:23:45Z</updated>
+    <link href="https://arxiv.org/abs/2407.15248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.15248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this survey, we address the key challenges in Large Language Models (LLM) research, focusing on the importance of interpretability. Driven by increasing interest from AI and business sectors, we highlight the need for transparency in LLMs. We examine the dual paths in current LLM research and eXplainable Artificial Intelligence (XAI): enhancing performance through XAI and the emerging focus on model interpretability. Our paper advocates for a balanced approach that values interpretability equally with functional advancements. Recognizing the rapid development in LLM research, our survey includes both peer-reviewed and preprint (arXiv) papers, offering a comprehensive overview of XAI's role in LLM research. We conclude by urging the research community to advance both LLM and XAI fields together.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-21T19:23:45Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Erik Cambria</name>
+    </author>
+    <author>
+      <name>Lorenzo Malandri</name>
+    </author>
+    <author>
+      <name>Fabio Mercorio</name>
+    </author>
+    <author>
+      <name>Navid Nobani</name>
+    </author>
+    <author>
+      <name>Andrea Seveso</name>
+    </author>
+  </entry>
+</feed>

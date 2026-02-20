@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pgAQItnTeapbPSdI2WioFwevrAU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13791v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:10:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13791v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13791v1</id>
+    <title>MechPert: Mechanistic Consensus as an Inductive Bias for Unseen Perturbation Prediction</title>
+    <updated>2026-02-14T14:12:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.13791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting transcriptional responses to unseen genetic perturbations is essential for understanding gene regulation and prioritizing large-scale perturbation experiments. Existing approaches either rely on static, potentially incomplete knowledge graphs, or prompt language models for functionally similar genes, retrieving associations shaped by symmetric co-occurrence in scientific text rather than directed regulatory logic. We introduce MechPert, a lightweight framework that encourages LLM agents to generate directed regulatory hypotheses rather than relying solely on functional similarity. Multiple agents independently propose candidate regulators with associated confidence scores; these are aggregated through a consensus mechanism that filters spurious associations, producing weighted neighborhoods for downstream prediction. We evaluate MechPert on Perturb-seq benchmarks across four human cell lines. For perturbation prediction in low-data regimes ($N=50$ observed perturbations), MechPert improves Pearson correlation by up to 10.5\% over similarity-based baselines. For experimental design, MechPert-selected anchor genes outperform standard network centrality heuristics by up to 46\% in well-characterized cell lines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T14:12:38Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Marc Boubnovski Martell</name>
+    </author>
+    <author>
+      <name>Josefa Lia Stoisser</name>
+    </author>
+    <author>
+      <name>Lawrence Phillips</name>
+    </author>
+    <author>
+      <name>Aditya Misra</name>
+    </author>
+    <author>
+      <name>Robert Kitchen</name>
+    </author>
+    <author>
+      <name>Jesper Ferkinghoff-Borg</name>
+    </author>
+    <author>
+      <name>Jialin Yu</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Kaspar Märten</name>
+    </author>
+  </entry>
+</feed>

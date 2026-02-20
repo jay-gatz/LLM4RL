@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xEaBAmTCBDNW6mQNkiI7o+Fpqps</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.16848v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.16848v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16848v1</id>
+    <title>Meta-RL Induces Exploration in Language Agents</title>
+    <updated>2025-12-18T18:22:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.16848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has enabled the training of large language model (LLM) agents to interact with the environment and to solve multi-turn long-horizon tasks. However, the RL-trained agents often struggle in tasks that require active exploration and fail to efficiently adapt from trial-and-error experiences. In this paper, we present LaMer, a general Meta-RL framework that enables LLM agents to actively explore and learn from the environment feedback at test time. LaMer consists of two key components: (i) a cross-episode training framework to encourage exploration and long-term rewards optimization; and (ii) in-context policy adaptation via reflection, allowing the agent to adapt their policy from task feedback signal without gradient update. Experiments across diverse environments show that LaMer significantly improves performance over RL baselines, with 11%, 14%, and 19% performance gains on Sokoban, MineSweeper and Webshop, respectively. Moreover, LaMer also demonstrates better generalization to more challenging or previously unseen tasks compared to the RL-trained agents. Overall, our results demonstrate that Meta-RL provides a principled approach to induce exploration in language agents, enabling more robust adaptation to novel environments through learned exploration strategies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T18:22:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yulun Jiang</name>
+    </author>
+    <author>
+      <name>Liangze Jiang</name>
+    </author>
+    <author>
+      <name>Damien Teney</name>
+    </author>
+    <author>
+      <name>Michael Moor</name>
+    </author>
+    <author>
+      <name>Maria Brbic</name>
+    </author>
+  </entry>
+</feed>

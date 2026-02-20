@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HuC/iy41JVV0lVXJQdhuOYDAztU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15344v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15344v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15344v1</id>
+    <title>ER-MIA: Black-Box Adversarial Memory Injection Attacks on Long-Term Memory-Augmented Large Language Models</title>
+    <updated>2026-02-17T04:19:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.15344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly augmented with long-term memory systems to overcome finite context windows and enable persistent reasoning across interactions. However, recent research finds that LLMs become more vulnerable because memory provides extra attack surfaces. In this paper, we present the first systematic study of black-box adversarial memory injection attacks that target the similarity-based retrieval mechanism in long-term memory-augmented LLMs. We introduce ER-MIA, a unified framework that exposes this vulnerability and formalizes two realistic attack settings: content-based attacks and question-targeted attacks. In these settings, ER-MIA includes an arsenal of composable attack primitives and ensemble attacks that achieve high success rates under minimal attacker assumptions. Extensive experiments across multiple LLMs and long-term memory systems demonstrate that similarity-based retrieval constitutes a fundamental and system-level vulnerability, revealing security risks that persist across memory designs and application scenarios.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T04:19:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mitchell Piehl</name>
+    </author>
+    <author>
+      <name>Zhaohan Xi</name>
+    </author>
+    <author>
+      <name>Zuobin Xiong</name>
+    </author>
+    <author>
+      <name>Pan He</name>
+    </author>
+    <author>
+      <name>Muchao Ye</name>
+    </author>
+  </entry>
+</feed>

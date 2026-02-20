@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZfPhMhS9ouzFpnEVcq/xdQCjfwU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03806v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03806v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03806v1</id>
+    <title>Bridging Online and Offline RL: Contextual Bandit Learning for Multi-Turn Code Generation</title>
+    <updated>2026-02-03T18:08:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.03806v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03806v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, there have been significant research interests in training large language models (LLMs) with reinforcement learning (RL) on real-world tasks, such as multi-turn code generation. While online RL tends to perform better than offline RL, its higher training cost and instability hinders wide adoption. In this paper, we build on the observation that multi-turn code generation can be formulated as a one-step recoverable Markov decision process and propose contextual bandit learning with offline trajectories (Cobalt), a new method that combines the benefits of online and offline RL. Cobalt first collects code generation trajectories using a reference LLM and divides them into partial trajectories as contextual prompts. Then, during online bandit learning, the LLM is trained to complete each partial trajectory prompt through single-step code generation. Cobalt outperforms two multi-turn online RL baselines based on GRPO and VeRPO, and substantially improves R1-Distill 8B and Qwen3 8B by up to 9.0 and 6.2 absolute Pass@1 scores on LiveCodeBench. Also, we analyze LLMs' in-context reward hacking behaviors and augment Cobalt training with perturbed trajectories to mitigate this issue. Overall, our results demonstrate Cobalt as a promising solution for iterative decision-making tasks like multi-turn code generation. Our code and data are available at https://github.com/OSU-NLP-Group/cobalt.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T18:08:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziru Chen</name>
+    </author>
+    <author>
+      <name>Dongdong Chen</name>
+    </author>
+    <author>
+      <name>Ruinan Jin</name>
+    </author>
+    <author>
+      <name>Yingbin Liang</name>
+    </author>
+    <author>
+      <name>Yujia Xie</name>
+    </author>
+    <author>
+      <name>Huan Sun</name>
+    </author>
+  </entry>
+</feed>

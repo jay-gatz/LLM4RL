@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jeofQ+fbY0P5tCPiWXUJZSy3lR4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22661v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22661v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22661v1</id>
+    <title>Evaluating and Rewarding LALMs for Expressive Role-Play TTS via Mean Continuation Log-Probability</title>
+    <updated>2026-01-30T07:27:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.22661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Large Audio Language Models (LALMs) have extended Text-to-Speech (TTS) to interactive role-play scenarios, which demand high expressiveness and strict adherence to role-play instructions. However, existing models struggle to maintain stylistic consistency with character profiles and scene descriptions across multi-turn dialogues. A critical bottleneck is the lack of objective metrics for quantifying speaking style. To bridge this gap, we propose Mean Continuation Log-Probability (MCLP) as both an evaluation metric and a reward signal, validated on LALM-based Role-Play TTS (RP-TTS) tasks. Critically, we leverage the In-Context Learning capability of pre-trained LALMs to formulate MCLP via a continuation log-probability prediction. This metric quantifies stylistic consistency by measuring the likelihood of the ground-truth speech conditioned on the generated speech. Furthermore, we employ MCLP as a reinforcement learning reward to enhance the style alignment between generated speech and Role-Play instructions. To facilitate evaluation, we construct an RP-TTS dataset with rich scene and character annotations. Experimental results demonstrate that our method significantly outperforms strong LALM baselines on both objective and subjective metrics.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T07:27:48Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Yong Ren</name>
+    </author>
+    <author>
+      <name>Jingbei Li</name>
+    </author>
+    <author>
+      <name>Haiyang Sun</name>
+    </author>
+    <author>
+      <name>Yujie Chen</name>
+    </author>
+    <author>
+      <name>Cheng Yi</name>
+    </author>
+    <author>
+      <name>Yechang Huang</name>
+    </author>
+    <author>
+      <name>Hao Gu</name>
+    </author>
+    <author>
+      <name>Ye Bai</name>
+    </author>
+    <author>
+      <name>Xuerui Yang</name>
+    </author>
+  </entry>
+</feed>

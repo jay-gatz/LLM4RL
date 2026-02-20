@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q5eDwZgw9rSuC4N5UZFYa0jGxmc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08041v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08041v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08041v1</id>
+    <title>Implicit Strategic Optimization: Rethinking Long-Horizon Decision-Making in Adversarial Poker Environments</title>
+    <updated>2026-02-08T16:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.08041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training large language model (LLM) agents for adversarial games is often driven by episodic objectives such as win rate. In long-horizon settings, however, payoffs are shaped by latent strategic externalities that evolve over time, so myopic optimization and variation-based regret analyses can become vacuous even when the dynamics are predictable. To solve this problem, we introduce Implicit Strategic Optimization (ISO), a prediction-aware framework in which each agent forecasts the current strategic context and uses it to update its policy online. ISO combines a Strategic Reward Model (SRM) that estimates the long-run strategic value of actions with iso-grpo, a context-conditioned optimistic learning rule. We prove sublinear contextual regret and equilibrium convergence guarantees whose dominant terms scale with the number of context mispredictions; when prediction errors are bounded, our bounds recover the static-game rates obtained when strategic externalities are known. Experiments in 6-player No-Limit Texas Hold'em and competitive Pokemon show consistent improvements in long-term return over strong LLM and RL baselines, and graceful degradation under controlled prediction noise.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T16:17:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Boyang Xia</name>
+    </author>
+    <author>
+      <name>Weiyou Tian</name>
+    </author>
+    <author>
+      <name>Qingnan Ren</name>
+    </author>
+    <author>
+      <name>Jiaqi Huang</name>
+    </author>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+    <author>
+      <name>Shuo Lu</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Lynn Ai</name>
+    </author>
+    <author>
+      <name>Eric Yang</name>
+    </author>
+    <author>
+      <name>Bill Shi</name>
+    </author>
+  </entry>
+</feed>

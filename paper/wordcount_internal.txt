@@ -1,0 +1,15 @@
+Word Count Summary (approximate, command-line tokenization)
+Generated: 2026-02-20 08:01:38
+
+Abstract words: 198
+Main-text words (Sections 1-8, excluding appendices and references): 9707
+
+Per-section words:
+- Introduction: 1284
+- Preliminaries: 938
+- Unifying Framework: LLM Modules Embedded in the RL Loop: 1324
+- Mechanism-First Taxonomy: 2617
+- Evaluation and Benchmarking Ecosystem: 1014
+- Failure Modes and System Trade-offs: 1039
+- Research Agenda: Ten Open Problems: 1035
+- Conclusion: 456

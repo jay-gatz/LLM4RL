@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nBfCHVE5yZvvpF+wjLcP/SqENe4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01365v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01365v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01365v1</id>
+    <title>When Domains Interact: Asymmetric and Order-Sensitive Cross-Domain Effects in Reinforcement Learning for Reasoning</title>
+    <updated>2026-02-01T18:04:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.01365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Group Relative Policy Optimization (GRPO) has become a key technique for improving reasoning abilities in large language models, yet its behavior under different domain sequencing strategies is poorly understood. In particular, the impact of sequential (one domain at a time) versus mixed-domain (multiple domain at a time) training in GRPO has not been systematically studied. We provide the first systematic analysis of training-order effects across math, science, logic, and puzzle reasoning tasks. We found (1) single-domain generalization is highly asymmetric: training on other domains improves math reasoning by approximately 25\% accuracy, while yielding negligible transfer to logic and puzzle; (2) cross-domain interactions are highly order-dependent: training in the order math$\rightarrow$science achieves 83\% / 41\% accuracy on math / science, while reversing the order to science$\rightarrow$math degrades performance to 77\% / 25\%; (3) no single strategy is universally optimal in multi-domain training: sequential training favors math (up to 84\%), mixed training favors science and logic, and poor ordering can incur large performance gaps (from 70\% to 56\%). Overall, our findings demonstrate that GRPO under multi-domain settings exhibits pronounced asymmetry, order sensitivity, and strategy dependence, highlighting the necessity of domain-aware and order-aware training design.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T18:04:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wang Yang</name>
+    </author>
+    <author>
+      <name>Shouren Wang</name>
+    </author>
+    <author>
+      <name>Chaoda Song</name>
+    </author>
+    <author>
+      <name>Chuang Ma</name>
+    </author>
+    <author>
+      <name>Xinpeng Li</name>
+    </author>
+    <author>
+      <name>Nengbo Wang</name>
+    </author>
+    <author>
+      <name>Kaixiong Zhou</name>
+    </author>
+    <author>
+      <name>Vipin Chaudhary</name>
+    </author>
+    <author>
+      <name>Xiaotian Han</name>
+    </author>
+  </entry>
+</feed>

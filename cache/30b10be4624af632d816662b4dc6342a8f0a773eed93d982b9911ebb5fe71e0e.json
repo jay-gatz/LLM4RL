@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ttW6HC6xD7DxgXFaqznUXN9yYLA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06195v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06195v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06195v1</id>
+    <title>DeDPO: Debiased Direct Preference Optimization for Diffusion Models</title>
+    <updated>2026-02-05T21:11:00Z</updated>
+    <link href="https://arxiv.org/abs/2602.06195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct Preference Optimization (DPO) has emerged as a predominant alignment method for diffusion models, facilitating off-policy training without explicit reward modeling. However, its reliance on large-scale, high-quality human preference labels presents a severe cost and scalability bottleneck. To overcome this, We propose a semi-supervised framework augmenting limited human data with a large corpus of unlabeled pairs annotated via cost-effective synthetic AI feedback. Our paper introduces Debiased DPO (DeDPO), which uniquely integrates a debiased estimation technique from causal inference into the DPO objective. By explicitly identifying and correcting the systematic bias and noise inherent in synthetic annotators, DeDPO ensures robust learning from imperfect feedback sources, including self-training and Vision-Language Models (VLMs). Experiments demonstrate that DeDPO is robust to the variations in synthetic labeling methods, achieving performance that matches and occasionally exceeds the theoretical upper bound of models trained on fully human-labeled data. This establishes DeDPO as a scalable solution for human-AI alignment using inexpensive synthetic supervision.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T21:11:00Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Khiem Pham</name>
+    </author>
+    <author>
+      <name>Quang Nguyen</name>
+    </author>
+    <author>
+      <name>Tung Nguyen</name>
+    </author>
+    <author>
+      <name>Jingsen Zhu</name>
+    </author>
+    <author>
+      <name>Michele Santacatterina</name>
+    </author>
+    <author>
+      <name>Dimitris Metaxas</name>
+    </author>
+    <author>
+      <name>Ramin Zabih</name>
+    </author>
+  </entry>
+</feed>

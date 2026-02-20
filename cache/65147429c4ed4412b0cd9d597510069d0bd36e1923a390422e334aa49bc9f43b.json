@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tAey/u4ljLHEQcRkCmKfJvEru54</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16483v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16483v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16483v1</id>
+    <title>FlowSE-GRPO: Training Flow Matching Speech Enhancement via Online Reinforcement Learning</title>
+    <updated>2026-01-23T06:26:32Z</updated>
+    <link href="https://arxiv.org/abs/2601.16483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative speech enhancement offers a promising alternative to traditional discriminative methods by modeling the distribution of clean speech conditioned on noisy inputs. Post-training alignment via reinforcement learning (RL) effectively aligns generative models with human preferences and downstream metrics in domains such as natural language processing, but its use in speech enhancement remains limited, especially for online RL. Prior work explores offline methods like Direct Preference Optimization (DPO); online methods such as Group Relative Policy Optimization (GRPO) remain largely uninvestigated. In this paper, we present the first successful integration of online GRPO into a flow-matching speech enhancement framework, enabling efficient post-training alignment to perceptual and task-oriented metrics with few update steps. Unlike prior GRPO work on Large Language Models, we adapt the algorithm to the continuous, time-series nature of speech and to the dynamics of flow-matching generative models. We show that optimizing a single reward yields rapid metric gains but often induces reward hacking that degrades audio fidelity despite higher scores. To mitigate this, we propose a multi-metric reward optimization strategy that balances competing objectives, substantially reducing overfitting and improving overall performance. Our experiments validate online GRPO for speech enhancement and provide practical guidance for RL-based post-training of generative audio models.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T06:26:32Z</published>
+    <arxiv:comment>Accepted by ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Haoxu Wang</name>
+    </author>
+    <author>
+      <name>Biao Tian</name>
+    </author>
+    <author>
+      <name>Yiheng Jiang</name>
+    </author>
+    <author>
+      <name>Zexu Pan</name>
+    </author>
+    <author>
+      <name>Shengkui Zhao</name>
+    </author>
+    <author>
+      <name>Bin Ma</name>
+    </author>
+    <author>
+      <name>Daren Chen</name>
+    </author>
+    <author>
+      <name>Xiangang Li</name>
+    </author>
+  </entry>
+</feed>

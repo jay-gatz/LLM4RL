@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WTM1228R6nNcx4DP+qKla9rnjvg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.20109v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.20109v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20109v1</id>
+    <title>CLIMATEAGENT: Multi-Agent Orchestration for Complex Climate Data Science Workflows</title>
+    <updated>2025-11-25T09:27:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.20109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Climate science demands automated workflows to transform comprehensive questions into data-driven statements across massive, heterogeneous datasets. However, generic LLM agents and static scripting pipelines lack climate-specific context and flexibility, thus, perform poorly in practice. We present ClimateAgent, an autonomous multi-agent framework that orchestrates end-to-end climate data analytic workflows. ClimateAgent decomposes user questions into executable sub-tasks coordinated by an Orchestrate-Agent and a Plan-Agent; acquires data via specialized Data-Agents that dynamically introspect APIs to synthesize robust download scripts; and completes analysis and reporting with a Coding-Agent that generates Python code, visualizations, and a final report with a built-in self-correction loop. To enable systematic evaluation, we introduce Climate-Agent-Bench-85, a benchmark of 85 real-world tasks spanning atmospheric rivers, drought, extreme precipitation, heat waves, sea surface temperature, and tropical cyclones. On Climate-Agent-Bench-85, ClimateAgent achieves 100% task completion and a report quality score of 8.32, outperforming GitHub-Copilot (6.27) and a GPT-5 baseline (3.26). These results demonstrate that our multi-agent orchestration with dynamic API awareness and self-correcting execution substantially advances reliable, end-to-end automation for climate science analytic tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T09:27:33Z</published>
+    <arxiv:comment>30 pages, 6 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hyeonjae Kim</name>
+    </author>
+    <author>
+      <name>Chenyue Li</name>
+    </author>
+    <author>
+      <name>Wen Deng</name>
+    </author>
+    <author>
+      <name>Mengxi Jin</name>
+    </author>
+    <author>
+      <name>Wen Huang</name>
+    </author>
+    <author>
+      <name>Mengqian Lu</name>
+    </author>
+    <author>
+      <name>Binhang Yuan</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F0YDV1rtoZ77IlionUH8pWep77U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.18036&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.18036" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.18036v5</id>
+    <title>Harnessing Multiple Large Language Models: A Survey on LLM Ensemble</title>
+    <updated>2025-09-18T20:23:29Z</updated>
+    <link href="https://arxiv.org/abs/2502.18036v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.18036v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM Ensemble -- which involves the comprehensive use of multiple large language models (LLMs), each aimed at handling user queries during downstream inference, to benefit from their individual strengths -- has gained substantial attention recently. The widespread availability of LLMs, coupled with their varying strengths and out-of-the-box usability, has profoundly advanced the field of LLM Ensemble. This paper presents the first systematic review of recent developments in LLM Ensemble. First, we introduce our taxonomy of LLM Ensemble and discuss several related research problems. Then, we provide a more in-depth classification of the methods under the broad categories of "ensemble-before-inference, ensemble-during-inference, ensemble-after-inference'', and review all relevant methods. Finally, we introduce related benchmarks and applications, summarize existing studies, and suggest several future research directions. A curated list of papers on LLM Ensemble is available at https://github.com/junchenzhi/Awesome-LLM-Ensemble.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-25T09:48:53Z</published>
+    <arxiv:comment>10 pages, 2 figures, codebase: https://github.com/junchenzhi/Awesome-LLM-Ensemble</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhijun Chen</name>
+    </author>
+    <author>
+      <name>Jingzheng Li</name>
+    </author>
+    <author>
+      <name>Pengpeng Chen</name>
+    </author>
+    <author>
+      <name>Zhuoran Li</name>
+    </author>
+    <author>
+      <name>Kai Sun</name>
+    </author>
+    <author>
+      <name>Yuankai Luo</name>
+    </author>
+    <author>
+      <name>Qianren Mao</name>
+    </author>
+    <author>
+      <name>Ming Li</name>
+    </author>
+    <author>
+      <name>Likang Xiao</name>
+    </author>
+    <author>
+      <name>Dingqi Yang</name>
+    </author>
+    <author>
+      <name>Yikun Ban</name>
+    </author>
+    <author>
+      <name>Hailong Sun</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+  </entry>
+</feed>

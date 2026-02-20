@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9saqdm194XhxZBC/JHtvpptKIeU</id>
+  <title>arXiv Query: search_query=(all:"web agent" AND all:reinforcement OR all:learning)&amp;id_list=&amp;start=100&amp;max_results=100</title>
+  <updated>2026-02-19T04:54:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22web+agent%22+AND+(all:reinforcement+OR+all:learning)&amp;start=100&amp;max_results=100&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>100</opensearch:itemsPerPage>
+  <opensearch:totalResults>78</opensearch:totalResults>
+  <opensearch:startIndex>100</opensearch:startIndex>
+</feed>

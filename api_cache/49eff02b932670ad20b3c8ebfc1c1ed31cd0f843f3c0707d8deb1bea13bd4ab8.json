@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lMTlo1uJzV8QdWZN5fD5pgWL/gA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03619v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03619v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03619v1</id>
+    <title>Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation</title>
+    <updated>2026-02-03T15:09:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.03619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nowadays, training and evaluating DeepResearch-generated reports remain challenging due to the lack of verifiable reward signals. Accordingly, rubric-based evaluation has become a common practice. However, existing approaches either rely on coarse, pre-defined rubrics that lack sufficient granularity, or depend on manually constructed query-specific rubrics that are costly and difficult to scale. In this paper, we propose a pipeline to train human-preference-aligned query-specific rubric generators tailored for DeepResearch report generation. We first construct a dataset of DeepResearch-style queries annotated with human preferences over paired reports, and train rubric generators via reinforcement learning with a hybrid reward combining human preference supervision and LLM-based rubric evaluation. To better handle long-horizon reasoning, we further introduce a Multi-agent Markov-state (MaMs) workflow for report generation. We empirically show that our proposed rubric generators deliver more discriminative and better human-aligned supervision than existing rubric design strategies. Moreover, when integrated into the MaMs training framework, DeepResearch systems equipped with our rubric generators consistently outperform all open-source baselines on the DeepResearch Bench and achieve performance comparable to that of leading closed-source models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T15:09:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Changze Lv</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <author>
+      <name>Wentao Zhao</name>
+    </author>
+    <author>
+      <name>Jingwen Xu</name>
+    </author>
+    <author>
+      <name>Zisu Huang</name>
+    </author>
+    <author>
+      <name>Muzhao Tian</name>
+    </author>
+    <author>
+      <name>Shihan Dou</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Le Tian</name>
+    </author>
+    <author>
+      <name>Xiao Zhou</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zheng</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+  </entry>
+</feed>

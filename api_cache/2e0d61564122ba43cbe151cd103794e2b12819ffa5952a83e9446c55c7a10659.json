@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NPKLEOI7MZfL/da5ygxQJ398vwk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14069v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14069v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14069v1</id>
+    <title>Open Rubric System: Scaling Reinforcement Learning with Pairwise Adaptive Rubric</title>
+    <updated>2026-02-15T09:39:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.14069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar reward models compress multi-dimensional human preferences into a single opaque score, creating an information bottleneck that often leads to brittleness and reward hacking in open-ended alignment. We argue that robust alignment for non-verifiable tasks is fundamentally a principle generalization problem: reward should not be a learned function internalized into a judge, but an explicit reasoning process executed under inspectable principles. To operationalize this view, we present the Open Rubric System (OpenRS), a plug-and-play, rubrics-based LLM-as-a-Judge framework built around Pairwise Adaptive Meta-Rubrics (PAMR) and lightweight Pointwise Verifiable Rubrics (PVRs), which provide both hard-constraint guardrails and verifiable reward components when ground-truth or programmatic checks are available. OpenRS uses an explicit meta-rubric -- a constitution-like specification that governs how rubrics are instantiated, weighted, and enforced -- and instantiates adaptive rubrics on the fly by conditioning on the semantic differences between two candidate responses. It then performs criterion-wise pairwise comparisons and aggregates criterion-level preferences externally, avoiding pointwise weighted scalarization while improving discriminability in open-ended settings. To keep principles consistent yet editable across various domains, we introduce a two-level meta-rubric refinement pipeline (automated evolutionary refinement for general principles and a reproducible human-in-the-loop procedure for domain principles), complemented with pointwise verifiable rubrics that act as both guardrails against degenerate behaviors and a source of verifiable reward for objective sub-tasks. Finally, we instantiate OpenRS as reward supervision in pairwise RL training.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T09:39:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ruipeng Jia</name>
+    </author>
+    <author>
+      <name>Yunyi Yang</name>
+    </author>
+    <author>
+      <name>Yuxin Wu</name>
+    </author>
+    <author>
+      <name>Yongbo Gai</name>
+    </author>
+    <author>
+      <name>Siyuan Tao</name>
+    </author>
+    <author>
+      <name>Mengyu Zhou</name>
+    </author>
+    <author>
+      <name>Jianhe Lin</name>
+    </author>
+    <author>
+      <name>Xiaoxi Jiang</name>
+    </author>
+    <author>
+      <name>Guanjun Jiang</name>
+    </author>
+  </entry>
+</feed>

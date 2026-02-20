@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2Q7DNKqRBFadHsJrfr4joBu9jnY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.19433v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:41:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.19433v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19433v2</id>
+    <title>Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression</title>
+    <updated>2025-06-01T13:59:15Z</updated>
+    <link href="https://arxiv.org/abs/2505.19433v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19433v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-training compression reduces the computational and memory costs of large language models (LLMs), enabling resource-efficient deployment. However, existing compression benchmarks only focus on language modeling (e.g., perplexity) and natural language understanding tasks (e.g., GLUE accuracy), ignoring the agentic capabilities - workflow, tool use/function call, long-context understanding and real-world application. We introduce the Agent Compression Benchmark (ACBench), the first comprehensive benchmark for evaluating how compression impacts LLMs' agentic abilities. ACBench spans (1) 12 tasks across 4 capabilities (e.g., WorfBench for workflow generation, Needle-in-Haystack for long-context retrieval), (2) quantization (GPTQ, AWQ) and pruning (Wanda, SparseGPT), and (3) 15 models, including small (Gemma-2B), standard (Qwen2.5 7B-32B), and distilled reasoning LLMs (DeepSeek-R1-Distill). Our experiments reveal compression tradeoffs: 4-bit quantization preserves workflow generation and tool use (1%-3% drop) but degrades real-world application accuracy by 10%-15%. We introduce ERank, Top-k Ranking Correlation and Energy to systematize analysis. ACBench provides actionable insights for optimizing LLM compression in agentic scenarios. The code can be found in https://github.com/pprp/ACBench.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T02:49:07Z</published>
+    <arxiv:comment>Accepted by ICML2025 as Poster</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Peijie Dong</name>
+    </author>
+    <author>
+      <name>Zhenheng Tang</name>
+    </author>
+    <author>
+      <name>Xiang Liu</name>
+    </author>
+    <author>
+      <name>Lujun Li</name>
+    </author>
+    <author>
+      <name>Xiaowen Chu</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+  </entry>
+</feed>

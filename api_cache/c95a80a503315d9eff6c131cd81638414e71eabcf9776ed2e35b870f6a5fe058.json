@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ERWxQeotcME8mCx4vG4lchyeHGY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16113v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16113v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16113v1</id>
+    <title>Evolutionary Context Search for Automated Skill Acquisition</title>
+    <updated>2026-02-18T00:47:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.16113v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16113v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models cannot reliably acquire new knowledge post-deployment -- even when relevant text resources exist, models fail to transform them into actionable knowledge without retraining. Retrieval-Augmented Generation attempts to bridge this gap by surfacing relevant documents at inference time, yet similarity-based retrieval often fails to identify context that actually improves task performance. We introduce Evolutionary Context Search (ECS), an evolutionary method that searches context combinations using accuracy on a small development set, requiring only inference calls without weight updates. ECS moves beyond semantic similarity to discover non-obvious context pairings that significantly boost performance. Our empirical results show that ECS improves BackendBench by 27\% and $τ$-bench airline by 7\%. The evolved contexts are model-agnostic, as those evolved with Gemini-3-Flash transfer effectively to Claude Sonnet and DeepSeek. This suggests that ECS opens a path toward automated context discovery for skill acquisition -- an efficient alternative to manual prompt engineering or costly fine-tuning.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T00:47:02Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Qi Sun</name>
+    </author>
+    <author>
+      <name>Stefan Nielsen</name>
+    </author>
+    <author>
+      <name>Rio Yokota</name>
+    </author>
+    <author>
+      <name>Yujin Tang</name>
+    </author>
+  </entry>
+</feed>

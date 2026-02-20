@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Yi1O/SQA2Ci6fWn5gijshRusJ1o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.05462v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.05462v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05462v1</id>
+    <title>Model Gateway: Model Management Platform for Model-Driven Drug Discovery</title>
+    <updated>2025-12-05T06:39:37Z</updated>
+    <link href="https://arxiv.org/abs/2512.05462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents the Model Gateway, a management platform for managing machine learning (ML) and scientific computational models in the drug discovery pipeline. The platform supports Large Language Model (LLM) Agents and Generative AI-based tools to perform ML model management tasks in our Machine Learning operations (MLOps) pipelines, such as the dynamic consensus model, a model that aggregates several scientific computational models, registration and management, retrieving model information, asynchronous submission/execution of models, and receiving results once the model complete executions. The platform includes a Model Owner Control Panel, Platform Admin Tools, and Model Gateway API service for interacting with the platform and tracking model execution. The platform achieves a 0% failure rate when testing scaling beyond 10k simultaneous application clients consume models. The Model Gateway is a fundamental part of our model-driven drug discovery pipeline. It has the potential to significantly accelerate the development of new drugs with the maturity of our MLOps infrastructure and the integration of LLM Agents and Generative AI tools.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T06:39:37Z</published>
+    <arxiv:comment>7 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yan-Shiun Wu</name>
+    </author>
+    <author>
+      <name>Nathan A. Morin</name>
+    </author>
+  </entry>
+</feed>

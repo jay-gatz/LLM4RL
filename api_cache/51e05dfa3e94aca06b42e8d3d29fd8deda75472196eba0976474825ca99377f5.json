@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WI2NXx7EYZMiwFO63skEpjvwMAY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16212v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16212v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16212v2</id>
+    <title>Point Bridge: 3D Representations for Cross Domain Policy Learning</title>
+    <updated>2026-01-24T02:32:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.16212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot foundation models are beginning to deliver on the promise of generalist robotic agents, yet progress remains constrained by the scarcity of large-scale real-world manipulation datasets. Simulation and synthetic data generation offer a scalable alternative, but their usefulness is limited by the visual domain gap between simulation and reality. In this work, we present Point Bridge, a framework that leverages unified, domain-agnostic point-based representations to unlock synthetic datasets for zero-shot sim-to-real policy transfer, without explicit visual or object-level alignment. Point Bridge combines automated point-based representation extraction via Vision-Language Models (VLMs), transformer-based policy learning, and efficient inference-time pipelines to train capable real-world manipulation agents using only synthetic data. With additional co-training on small sets of real demonstrations, Point Bridge further improves performance, substantially outperforming prior vision-based sim-and-real co-training methods. It achieves up to 44% gains in zero-shot sim-to-real transfer and up to 66% with limited real data across both single-task and multitask settings. Videos of the robot are best viewed at: https://pointbridge3d.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-22T18:59:24Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Siddhant Haldar</name>
+    </author>
+    <author>
+      <name>Lars Johannsmeier</name>
+    </author>
+    <author>
+      <name>Lerrel Pinto</name>
+    </author>
+    <author>
+      <name>Abhishek Gupta</name>
+    </author>
+    <author>
+      <name>Dieter Fox</name>
+    </author>
+    <author>
+      <name>Yashraj Narang</name>
+    </author>
+    <author>
+      <name>Ajay Mandlekar</name>
+    </author>
+  </entry>
+</feed>

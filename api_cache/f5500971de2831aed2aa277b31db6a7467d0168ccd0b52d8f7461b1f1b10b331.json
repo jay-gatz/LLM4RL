@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OmU7ocqA5gt2QOaiwTUSDUbuyg4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.02418v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.02418v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02418v2</id>
+    <title>BrowserArena: Evaluating LLM Agents on Real-World Web Navigation Tasks</title>
+    <updated>2025-10-07T15:12:39Z</updated>
+    <link href="https://arxiv.org/abs/2510.02418v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02418v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM web agents now browse and take actions on the open web, yet current agent evaluations are constrained to sandboxed environments or artificial tasks. We introduce BrowserArena, a live open-web agent evaluation platform that collects user-submitted tasks, runs Arena-style head-to-head comparisons, and uses step-level human feedback to surface failure modes. Collecting and analyzing step-level annotations on the agent traces, we identify three consistent failure modes: captcha resolution, pop-up banner removal, and direct navigation to URLs. By constructing targeted datasets to further study these tasks, we discover variations in how different language models navigate these failure modes. We find, for example, that o4-mini deploys a wider variety of strategies to circumvent captcha resolution than other models and DeepSeek-R1 consistently misleads users about pop-up banner closure. Our findings surface both the diversity and brittleness of current web agents. More broadly, our benchmarking methodology provides an approach to evaluating and understanding web agent failure modes at scale.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T15:22:21Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sagnik Anupam</name>
+    </author>
+    <author>
+      <name>Davis Brown</name>
+    </author>
+    <author>
+      <name>Shuo Li</name>
+    </author>
+    <author>
+      <name>Eric Wong</name>
+    </author>
+    <author>
+      <name>Hamed Hassani</name>
+    </author>
+    <author>
+      <name>Osbert Bastani</name>
+    </author>
+  </entry>
+</feed>

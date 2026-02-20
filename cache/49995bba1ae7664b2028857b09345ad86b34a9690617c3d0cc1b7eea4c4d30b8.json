@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DtQ9eVd5xoELvZRfuc1aFu9G/js</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14968v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14968v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14968v1</id>
+    <title>InstructTime++: Time Series Classification with Multimodal Language Modeling via Implicit Feature Enhancement</title>
+    <updated>2026-01-21T13:12:23Z</updated>
+    <link href="https://arxiv.org/abs/2601.14968v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14968v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most existing time series classification methods adopt a discriminative paradigm that maps input sequences directly to one-hot encoded class labels. While effective, this paradigm struggles to incorporate contextual features and fails to capture semantic relationships among classes. To address these limitations, we propose InstructTime, a novel framework that reformulates time series classification as a multimodal generative task. Specifically, continuous numerical sequences, contextual textual features, and task instructions are treated as multimodal inputs, while class labels are generated as textual outputs by tuned language models. To bridge the modality gap, InstructTime introduces a time series discretization module that converts continuous sequences into discrete temporal tokens, together with an alignment projection layer and a generative self-supervised pre-training strategy to enhance cross-modal representation alignment. Building upon this framework, we further propose InstructTime++, which extends InstructTime by incorporating implicit feature modeling to compensate for the limited inductive bias of language models. InstructTime++ leverages specialized toolkits to mine informative implicit patterns from raw time series and contextual inputs, including statistical feature extraction and vision-language-based image captioning, and translates them into textual descriptions for seamless integration. Extensive experiments on multiple benchmark datasets demonstrate the superior performance of InstructTime++.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T13:12:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingyue Cheng</name>
+    </author>
+    <author>
+      <name>Xiaoyu Tao</name>
+    </author>
+    <author>
+      <name>Huajian Zhang</name>
+    </author>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+  </entry>
+</feed>

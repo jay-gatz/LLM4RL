@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MD1/p1LHw08whXU9KAKSk+OAaAs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08335v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08335v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08335v1</id>
+    <title>Who Deserves the Reward? SHARP: Shapley Credit-based Optimization for Multi-Agent System</title>
+    <updated>2026-02-09T07:17:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.08335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Integrating Large Language Models (LLMs) with external tools via multi-agent systems offers a promising new paradigm for decomposing and solving complex problems. However, training these systems remains notoriously difficult due to the credit assignment challenge, as it is often unclear which specific functional agent is responsible for the success or failure of decision trajectories. Existing methods typically rely on sparse or globally broadcast rewards, failing to capture individual contributions and leading to inefficient reinforcement learning. To address these limitations, we introduce the Shapley-based Hierarchical Attribution for Reinforcement Policy (SHARP), a novel framework for optimizing multi-agent reinforcement learning via precise credit attribution. SHARP effectively stabilizes training by normalizing agent-specific advantages across trajectory groups, primarily through a decomposed reward mechanism comprising a global broadcast-accuracy reward, a Shapley-based marginal-credit reward for each agent, and a tool-process reward to improve execution efficiency. Extensive experiments across various real-world benchmarks demonstrate that SHARP significantly outperforms recent state-of-the-art baselines, achieving average match improvements of 23.66% and 14.05% over single-agent and multi-agent approaches, respectively.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T07:17:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yanming Li</name>
+    </author>
+    <author>
+      <name>Xuelin Zhang</name>
+    </author>
+    <author>
+      <name>WenJie Lu</name>
+    </author>
+    <author>
+      <name>Ziye Tang</name>
+    </author>
+    <author>
+      <name>Maodong Wu</name>
+    </author>
+    <author>
+      <name>Haotian Luo</name>
+    </author>
+    <author>
+      <name>Tongtong Wu</name>
+    </author>
+    <author>
+      <name>Zijie Peng</name>
+    </author>
+    <author>
+      <name>Hongze Mi</name>
+    </author>
+    <author>
+      <name>Yibo Feng</name>
+    </author>
+    <author>
+      <name>Naiqiang Tan</name>
+    </author>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+    <author>
+      <name>Hong Chen</name>
+    </author>
+    <author>
+      <name>Li Shen</name>
+    </author>
+  </entry>
+</feed>

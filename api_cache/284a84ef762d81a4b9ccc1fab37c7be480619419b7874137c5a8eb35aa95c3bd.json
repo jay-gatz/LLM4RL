@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZY+dsThzk3v+twuvX6GRB6dfas4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12662v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12662v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12662v1</id>
+    <title>Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents</title>
+    <updated>2026-02-13T06:52:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.12662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly deployed as autonomous agents for multi-turn decision-making tasks. However, current agents typically rely on fixed cognitive patterns: non-thinking models generate immediate responses, while thinking models engage in deep reasoning uniformly. This rigidity is inefficient for long-horizon tasks, where cognitive demands vary significantly from step to step, with some requiring strategic planning and others only routine execution. In this paper, we introduce CogRouter, a framework that trains agents to dynamically adapt cognitive depth at each step. Grounded in ACT-R theory, we design four hierarchical cognitive levels ranging from instinctive responses to strategic planning. Our two-stage training approach includes Cognition-aware Supervised Fine-tuning (CoSFT) to instill stable level-specific patterns, and Cognition-aware Policy Optimization (CoPO) for step-level credit assignment via confidence-aware advantage reweighting. The key insight is that appropriate cognitive depth should maximize the confidence of the resulting action. Experiments on ALFWorld and ScienceWorld demonstrate that CogRouter achieves state-of-the-art performance with superior efficiency. With Qwen2.5-7B, it reaches an 82.3% success rate, outperforming GPT-4o (+40.3%), OpenAI-o3 (+18.3%), and GRPO (+14.0%), while using 62% fewer tokens.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T06:52:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruihan Yang</name>
+    </author>
+    <author>
+      <name>Fanghua Ye</name>
+    </author>
+    <author>
+      <name>Xiang We</name>
+    </author>
+    <author>
+      <name>Ruoqing Zhao</name>
+    </author>
+    <author>
+      <name>Kang Luo</name>
+    </author>
+    <author>
+      <name>Xinbo Xu</name>
+    </author>
+    <author>
+      <name>Bo Zhao</name>
+    </author>
+    <author>
+      <name>Ruotian Ma</name>
+    </author>
+    <author>
+      <name>Shanyi Wang</name>
+    </author>
+    <author>
+      <name>Zhaopeng Tu</name>
+    </author>
+    <author>
+      <name>Xiaolong Li</name>
+    </author>
+    <author>
+      <name>Deqing Yang</name>
+    </author>
+    <author>
+      <name> Linus</name>
+    </author>
+  </entry>
+</feed>

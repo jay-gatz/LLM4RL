@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8Mit9g+so6E0882J+rxdW11M+Js</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11146v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11146v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11146v1</id>
+    <title>Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling</title>
+    <updated>2026-02-11T18:57:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.11146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Preference optimization for diffusion and flow-matching models relies on reward functions that are both discriminatively robust and computationally efficient. Vision-Language Models (VLMs) have emerged as the primary reward provider, leveraging their rich multimodal priors to guide alignment. However, their computation and memory cost can be substantial, and optimizing a latent diffusion generator through a pixel-space reward introduces a domain mismatch that complicates alignment. In this paper, we propose DiNa-LRM, a diffusion-native latent reward model that formulates preference learning directly on noisy diffusion states. Our method introduces a noise-calibrated Thurstone likelihood with diffusion-noise-dependent uncertainty. DiNa-LRM leverages a pretrained latent diffusion backbone with a timestep-conditioned reward head, and supports inference-time noise ensembling, providing a diffusion-native mechanism for test-time scaling and robust rewarding. Across image alignment benchmarks, DiNa-LRM substantially outperforms existing diffusion-based reward baselines and achieves performance competitive with state-of-the-art VLMs at a fraction of the computational cost. In preference optimization, we demonstrate that DiNa-LRM improves preference optimization dynamics, enabling faster and more resource-efficient model alignment.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T18:57:29Z</published>
+    <arxiv:comment>Code: https://github.com/HKUST-C4G/diffusion-rm</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Gongye Liu</name>
+    </author>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <author>
+      <name>Yida Zhi</name>
+    </author>
+    <author>
+      <name>Zhizhou Zhong</name>
+    </author>
+    <author>
+      <name>Lei Ke</name>
+    </author>
+    <author>
+      <name>Didan Deng</name>
+    </author>
+    <author>
+      <name>Han Gao</name>
+    </author>
+    <author>
+      <name>Yongxiang Huang</name>
+    </author>
+    <author>
+      <name>Kaihao Zhang</name>
+    </author>
+    <author>
+      <name>Hongbo Fu</name>
+    </author>
+    <author>
+      <name>Wenhan Luo</name>
+    </author>
+  </entry>
+</feed>

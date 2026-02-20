@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//nWle998+rJK7IPzaxKE8Z6433E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20327v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20327v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20327v2</id>
+    <title>CE-RM: A Pointwise Generative Reward Model Optimized via Two-Stage Rollout and Unified Criteria</title>
+    <updated>2026-01-31T12:28:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.20327v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20327v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automatic evaluation is crucial yet challenging for open-ended natural language generation, especially when rule-based metrics are infeasible. Compared with traditional methods, the recent LLM-as-a-Judge paradigms enable better and more flexible evaluation, and show promise as generative reward models for reinforcement learning. However, prior work has revealed a notable gap between their seemingly impressive benchmark performance and actual effectiveness in RL practice. We attribute this issue to some limitations in existing studies, including the dominance of pairwise evaluation and inadequate optimization of evaluation criteria. Therefore, we propose CE-RM-4B, a pointwise generative reward model trained with a dedicated two-stage rollout method, and adopting unified query-based criteria. Using only about 5.7K high-quality data curated from the open-source preference dataset, our CE-RM-4B achieves superior performance on diverse reward model benchmarks, especially in Best-of-N scenarios, and delivers more effective improvements in downstream RL practice.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T07:46:13Z</published>
+    <arxiv:comment>Under Review</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinyu Hu</name>
+    </author>
+    <author>
+      <name>Yancheng He</name>
+    </author>
+    <author>
+      <name>Weixun Wang</name>
+    </author>
+    <author>
+      <name>Tao Feng</name>
+    </author>
+    <author>
+      <name>Li Lin</name>
+    </author>
+    <author>
+      <name>Jiashun Liu</name>
+    </author>
+    <author>
+      <name>Wenbo Su</name>
+    </author>
+    <author>
+      <name>Bo Zheng</name>
+    </author>
+    <author>
+      <name>Xiaojun Wan</name>
+    </author>
+  </entry>
+</feed>

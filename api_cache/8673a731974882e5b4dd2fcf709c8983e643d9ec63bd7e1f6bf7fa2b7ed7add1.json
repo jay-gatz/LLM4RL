@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mG8L2hf0JGOQPobY2HiDZrF6g8o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.23123&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.23123" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23123v2</id>
+    <title>On Memorization of Large Language Models in Logical Reasoning</title>
+    <updated>2025-03-04T06:22:40Z</updated>
+    <link href="https://arxiv.org/abs/2410.23123v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23123v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) achieve good performance on challenging reasoning benchmarks, yet could also make basic reasoning mistakes. This contrasting behavior is puzzling when it comes to understanding the mechanisms behind LLMs' reasoning capabilities. One hypothesis is that the increasingly high and nearly saturated performance on common reasoning benchmarks could be due to the memorization of similar problems. In this paper, we systematically investigate this hypothesis with a quantitative measurement of memorization in reasoning tasks, using a dynamically generated logical reasoning benchmark based on Knights and Knaves (K&amp;K) puzzles. We find that LLMs could interpolate and memorize the training puzzles (achieving near-perfect accuracy) after fine-tuning, yet they struggle with slight variations of these puzzles. On the other hand, we show that while fine-tuning leads to heavy memorization, it also consistently improves generalization performance. Through in-depth analyses with perturbation tests, cross difficulty-level transferability, probing model internals, and fine-tuning with wrong answers, we establish that LLMs develop reasoning skills on K&amp;K puzzles alongside memorization. Finally, our analysis based on a per-sample memorization score sheds light on how LLMs switch between reasoning and memorization when solving logical puzzles. Our code and data are available at https://memkklogic.github.io.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-30T15:31:54Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chulin Xie</name>
+    </author>
+    <author>
+      <name>Yangsibo Huang</name>
+    </author>
+    <author>
+      <name>Chiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Da Yu</name>
+    </author>
+    <author>
+      <name>Xinyun Chen</name>
+    </author>
+    <author>
+      <name>Bill Yuchen Lin</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Badih Ghazi</name>
+    </author>
+    <author>
+      <name>Ravi Kumar</name>
+    </author>
+  </entry>
+</feed>

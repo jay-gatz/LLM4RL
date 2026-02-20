@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N9x79j3snvOpKPfVuuNJ3d+Viww</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04089v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04089v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04089v1</id>
+    <title>Scaling In-Context Online Learning Capability of LLMs via Cross-Episode Meta-RL</title>
+    <updated>2026-02-03T23:53:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.04089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) achieve strong performance when all task-relevant information is available upfront, as in static prediction and instruction-following problems. However, many real-world decision-making tasks are inherently online: crucial information must be acquired through interaction, feedback is delayed, and effective behavior requires balancing information collection and exploitation over time. While in-context learning enables adaptation without weight updates, existing LLMs often struggle to reliably leverage in-context interaction experience in such settings. In this work, we show that this limitation can be addressed through training. We introduce ORBIT, a multi-task, multi-episode meta-reinforcement learning framework that trains LLMs to learn from interaction in context. After meta-training, a relatively small open-source model (Qwen3-14B) demonstrates substantially improved in-context online learning on entirely unseen environments, matching the performance of GPT-5.2 and outperforming standard RL fine-tuning by a large margin. Scaling experiments further reveal consistent gains with model size, suggesting significant headroom for learn-at-inference-time decision-making agents. Code reproducing the results in the paper can be found at https://github.com/XiaofengLin7/ORBIT.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T23:53:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiaofeng Lin</name>
+    </author>
+    <author>
+      <name>Sirou Zhu</name>
+    </author>
+    <author>
+      <name>Yilei Chen</name>
+    </author>
+    <author>
+      <name>Mingyu Chen</name>
+    </author>
+    <author>
+      <name>Hejian Sang</name>
+    </author>
+    <author>
+      <name>Ioannis Paschalidis</name>
+    </author>
+    <author>
+      <name>Zhipeng Wang</name>
+    </author>
+    <author>
+      <name>Aldo Pacchiano</name>
+    </author>
+    <author>
+      <name>Xuezhou Zhang</name>
+    </author>
+  </entry>
+</feed>

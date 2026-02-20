@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1j5al1uSVTL0WHsI9KjTk3ib/6A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04510v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04510v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04510v1</id>
+    <title>OSCAgent: Accelerating the Discovery of Organic Solar Cells with LLM Agents</title>
+    <updated>2026-02-04T12:56:31Z</updated>
+    <link href="https://arxiv.org/abs/2602.04510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Organic solar cells (OSCs) hold great promise for sustainable energy, but discovering high-performance materials is time-consuming and costly. Existing molecular generation methods can aid the design of OSC molecules, but they are mostly confined to optimizing known backbones and lack effective use of domain-specific chemical knowledge, often leading to unrealistic candidates. In this paper, we introduce OSCAgent, a multi-agent framework for OSC molecular discovery that unifies retrieval-augmented design, molecular generation, and systematic evaluation into a continuously improving pipeline, without requiring additional human intervention. OSCAgent comprises three collaborative agents. The Planner retrieves knowledge from literature-curated molecules and prior candidates to guide design directions. The Generator proposes new OSC acceptors aligned with these plans. The Experimenter performs comprehensive evaluation of candidate molecules and provides feedback for refinement. Experiments show that OSCAgent produces chemically valid, synthetically accessible OSC molecules and achieves superior predicted performance compared to both traditional and large language model (LLM)-only baselines. Representative results demonstrate that some candidates achieve predicted efficiencies approaching 18\%. The code will be publicly available.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T12:56:31Z</published>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Zhaolin Hu</name>
+    </author>
+    <author>
+      <name>Zhiliang Wu</name>
+    </author>
+    <author>
+      <name>Hehe Fan</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+  </entry>
+</feed>

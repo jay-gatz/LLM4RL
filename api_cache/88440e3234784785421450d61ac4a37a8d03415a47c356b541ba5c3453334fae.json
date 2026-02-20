@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wsWt7axps5G3TUb591W/qARA1pk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17093v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17093v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17093v1</id>
+    <title>The Triangle of Similarity: A Multi-Faceted Framework for Comparing Neural Network Representations</title>
+    <updated>2026-01-23T12:15:43Z</updated>
+    <link href="https://arxiv.org/abs/2601.17093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Comparing neural network representations is essential for understanding and validating models in scientific applications. Existing methods, however, often provide a limited view. We propose the Triangle of Similarity, a framework that combines three complementary perspectives: static representational similarity (CKA/Procrustes), functional similarity (Linear Mode Connectivity or Predictive Similarity), and sparsity similarity (robustness under pruning). Analyzing a range of CNNs, Vision Transformers, and Vision-Language Models using both in-distribution (ImageNetV2) and out-of-distribution (CIFAR-10) testbeds, our initial findings suggest that: (1) architectural family is a primary determinant of representational similarity, forming distinct clusters; (2) CKA self-similarity and task accuracy are strongly correlated during pruning, though accuracy often degrades more sharply; and (3) for some model pairs, pruning appears to regularize representations, exposing a shared computational core. This framework offers a more holistic approach for assessing whether models have converged on similar internal mechanisms, providing a useful tool for model selection and analysis in scientific research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T12:15:43Z</published>
+    <arxiv:comment>Accepted to AAAI 2026 Workshop on AI for Scientific Research (AI4Research)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Olha Sirikova</name>
+    </author>
+    <author>
+      <name>Alvin Chan</name>
+    </author>
+  </entry>
+</feed>

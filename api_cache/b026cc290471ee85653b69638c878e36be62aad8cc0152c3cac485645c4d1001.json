@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kJZWF6oQsNo+fs79xRqrtBwubbI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15359v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15359v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15359v1</id>
+    <title>Semantics-Aware Denoising: A PLM-Guided Sample Reweighting Strategy for Robust Recommendation</title>
+    <updated>2026-02-17T04:58:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.15359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Implicit feedback, such as user clicks, serves as the primary data source for modern recommender systems. However, click interactions inherently contain substantial noise, including accidental clicks, clickbait-induced interactions, and exploratory browsing behaviors that do not reflect genuine user preferences. Training recommendation models with such noisy positive samples leads to degraded prediction accuracy and unreliable recommendations. In this paper, we propose SAID (Semantics-Aware Implicit Denoising), a simple yet effective framework that leverages semantic consistency between user interests and item content to identify and downweight potentially noisy interactions. Our approach constructs textual user interest profiles from historical behaviors and computes semantic similarity with target item descriptions using pre-trained language model (PLM) based text encoders. The similarity scores are then transformed into sample weights that modulate the training loss, effectively reducing the impact of semantically inconsistent clicks. Unlike existing denoising methods that require complex auxiliary networks or multi-stage training procedures, SAID only modifies the loss function while keeping the backbone recommendation model unchanged. Extensive experiments on two real-world datasets demonstrate that SAID consistently improves recommendation performance, achieving up to 2.2% relative improvement in AUC over strong baselines, with particularly notable robustness under high noise conditions.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T04:58:21Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Xikai Yang</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Yilin Li</name>
+    </author>
+    <author>
+      <name>Sebastian Sun</name>
+    </author>
+  </entry>
+</feed>

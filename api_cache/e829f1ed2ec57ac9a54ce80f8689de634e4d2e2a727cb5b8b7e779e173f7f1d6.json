@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WZh068taHQRMCjGuPEzSMRzqwGM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.12434v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:58:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.12434v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.12434v3</id>
+    <title>Building Coding Agents via Entropy-Enhanced Multi-Turn Preference Optimization</title>
+    <updated>2026-02-04T05:16:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.12434v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.12434v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Software engineering presents complex, multi-step challenges for Large Language Models (LLMs), requiring reasoning over large codebases and coordinated tool use. The difficulty of these tasks is exemplified by benchmarks like SWE-bench, where current LLMs still struggle to resolve real-world issues. A promising approach to enhance performance is test-time scaling (TTS), but its gains are heavily dependent on the diversity of model outputs. While standard alignment methods such as Direct Preference Optimization (DPO) and Kahneman-Tversky Optimization (KTO) are effective at aligning model outputs with human preferences, this process can come at the cost of reduced diversity, limiting the effectiveness of TTS. Additionally, existing preference optimization algorithms are typically designed for single-turn tasks and do not fully address the complexities of multi-turn reasoning and tool integration required for interactive coding agents. To bridge this gap, we introduce EntroPO, an entropy-enhanced framework that adapts existing preference optimization algorithms to the multi-turn, tool-assisted setting. EntroPO augments the preference objective to explicitly preserve policy entropy and generalizes learning to optimize over multi-turn interactions rather than single-turn responses. We validate EntroPO by fine-tuning a diverse suite of models from different families and sizes (up to 106B parameters).To maximize performance gains from TTS, we further propose a hybrid best-trajectory selection scheme combining a learned verifier model with model free approaches. On the SWEBENCH leaderboard, our approach establishes new state-of-the-art results among open-weight models. A 30B parameter model trained with EntroPO ranks 1st on SWEBENCH-LITE and 4th on SWEBENCH-VERIFIED on the open-weight leaderboard, surpassed only by models with over 10x more parameters(e.g., &gt;$350B).</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-15T20:36:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiahao Yu</name>
+    </author>
+    <author>
+      <name>Zelei Cheng</name>
+    </author>
+    <author>
+      <name>Xian Wu</name>
+    </author>
+    <author>
+      <name>Xinyu Xing</name>
+    </author>
+  </entry>
+</feed>

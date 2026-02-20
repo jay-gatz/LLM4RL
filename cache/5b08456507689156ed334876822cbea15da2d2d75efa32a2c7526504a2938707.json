@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jsNE6syvpyGQB3CGFwvbPmXydBs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2304.03738&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2304.03738" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.03738v3</id>
+    <title>Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models</title>
+    <updated>2023-11-13T17:50:22Z</updated>
+    <link href="https://arxiv.org/abs/2304.03738v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.03738v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the capabilities of generative language models continue to advance, the implications of biases ingrained within these models have garnered increasing attention from researchers, practitioners, and the broader public. This article investigates the challenges and risks associated with biases in large-scale language models like ChatGPT. We discuss the origins of biases, stemming from, among others, the nature of training data, model specifications, algorithmic constraints, product design, and policy decisions. We explore the ethical concerns arising from the unintended consequences of biased model outputs. We further analyze the potential opportunities to mitigate biases, the inevitability of some biases, and the implications of deploying these models in various applications, such as virtual assistants, content generation, and chatbots. Finally, we review the current approaches to identify, quantify, and mitigate biases in language models, emphasizing the need for a multi-disciplinary, collaborative effort to develop more equitable, transparent, and responsible AI systems. This article aims to stimulate a thoughtful dialogue within the artificial intelligence community, encouraging researchers and developers to reflect on the role of biases in generative language models and the ongoing pursuit of ethical AI.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-07T17:14:00Z</published>
+    <arxiv:comment>Published on First Monday https://firstmonday.org/ojs/index.php/fm/article/view/13346/11365</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <arxiv:journal_ref>First Monday, Volume 28, Number 11 - 6 November 2023</arxiv:journal_ref>
+    <author>
+      <name>Emilio Ferrara</name>
+    </author>
+    <arxiv:doi>10.5210/fm.v28i11.13346</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5210/fm.v28i11.13346" title="doi"/>
+  </entry>
+</feed>

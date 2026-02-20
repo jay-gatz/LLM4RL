@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JmBqrJi/b/L/CYlb7jlQML3Pu20</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22930v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22930v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22930v1</id>
+    <title>MTDrive: Multi-turn Interactive Reinforcement Learning for Autonomous Driving</title>
+    <updated>2026-01-30T12:47:55Z</updated>
+    <link href="https://arxiv.org/abs/2601.22930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trajectory planning is a core task in autonomous driving, requiring the prediction of safe and comfortable paths across diverse scenarios. Integrating Multi-modal Large Language Models (MLLMs) with Reinforcement Learning (RL) has shown promise in addressing "long-tail" scenarios. However, existing methods are constrained to single-turn reasoning, limiting their ability to handle complex tasks requiring iterative refinement. To overcome this limitation, we present MTDrive, a multi-turn framework that enables MLLMs to iteratively refine trajectories based on environmental feedback. MTDrive introduces Multi-Turn Group Relative Policy Optimization (mtGRPO), which mitigates reward sparsity by computing relative advantages across turns. We further construct an interactive trajectory understanding dataset from closed-loop simulation to support multi-turn training. Experiments on the NAVSIM benchmark demonstrate superior performance compared to existing methods, validating the effectiveness of our multi-turn reasoning paradigm. Additionally, we implement system-level optimizations to reduce data transfer overhead caused by high-resolution images and multi-turn sequences, achieving 2.5x training throughput. Our data, models, and code will be made available soon.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T12:47:55Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xidong Li</name>
+    </author>
+    <author>
+      <name>Mingyu Guo</name>
+    </author>
+    <author>
+      <name>Chenchao Xu</name>
+    </author>
+    <author>
+      <name>Bailin Li</name>
+    </author>
+    <author>
+      <name>Wenjing Zhu</name>
+    </author>
+    <author>
+      <name>Yangang Zou</name>
+    </author>
+    <author>
+      <name>Rui Chen</name>
+    </author>
+    <author>
+      <name>Zehuan Wang</name>
+    </author>
+  </entry>
+</feed>

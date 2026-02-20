@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ire/6uS0MBkoytVaVhiDxX74V0o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.01399&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2308.01399" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01399v2</id>
+    <title>Learning to Model the World with Language</title>
+    <updated>2024-05-31T15:32:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.01399v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01399v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To interact with humans and act in the world, agents need to understand the range of language that people use and relate it to the visual world. While current agents can learn to execute simple language instructions, we aim to build agents that leverage diverse language -- language like "this button turns on the TV" or "I put the bowls away" -- that conveys general knowledge, describes the state of the world, provides interactive feedback, and more. Our key idea is that agents should interpret such diverse language as a signal that helps them predict the future: what they will observe, how the world will behave, and which situations will be rewarded. This perspective unifies language understanding with future prediction as a powerful self-supervised learning objective. We instantiate this in Dynalang, an agent that learns a multimodal world model to predict future text and image representations, and learns to act from imagined model rollouts. While current methods that learn language-conditioned policies degrade in performance with more diverse types of language, we show that Dynalang learns to leverage environment descriptions, game rules, and instructions to excel on tasks ranging from game-playing to navigating photorealistic home scans. Finally, we show that our method enables additional capabilities due to learning a generative model: Dynalang can be pretrained on text-only data, enabling learning from offline datasets, and generate language grounded in an environment.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-31T17:57:49Z</published>
+    <arxiv:comment>ICML 2024. Website: https://dynalang.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jessy Lin</name>
+    </author>
+    <author>
+      <name>Yuqing Du</name>
+    </author>
+    <author>
+      <name>Olivia Watkins</name>
+    </author>
+    <author>
+      <name>Danijar Hafner</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+    <author>
+      <name>Dan Klein</name>
+    </author>
+    <author>
+      <name>Anca Dragan</name>
+    </author>
+  </entry>
+</feed>

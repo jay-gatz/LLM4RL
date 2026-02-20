@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iWErPFeq62QcnZ0o4LUJAiSvct0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04112v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04112v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04112v1</id>
+    <title>DELTA: Deliberative Multi-Agent Reasoning with Reinforcement Learning for Multimodal Psychological Counseling</title>
+    <updated>2026-02-04T00:56:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.04112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Psychological counseling is a fundamentally multimodal cognitive process in which clinicians integrate verbal content with visual and vocal cues to infer clients' mental states and respond empathically. However, most existing language-model-based counseling systems operate on text alone and rely on implicit mental state inference. We introduce DELTA, a deliberative multi-agent framework that models counseling as a structured reasoning process over multimodal signals, separating evidence grounding, mental state abstraction, and response generation. DELTA further incorporates reinforcement learning guided by a distribution-level Emotion Attunement Score to encourage emotionally attuned responses. Experiments on a multimodal counseling benchmark show that DELTA improves both counseling quality and emotion attunement across models. Ablation and qualitative analyses suggest that explicit multimodal reasoning and structured mental state representations play complementary roles in supporting empathic human-AI interaction.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T00:56:05Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiangnan Yang</name>
+    </author>
+    <author>
+      <name>Junjie Chen</name>
+    </author>
+    <author>
+      <name>Fei Wang</name>
+    </author>
+    <author>
+      <name>Yiqi Nie</name>
+    </author>
+    <author>
+      <name>Yuxin Liu</name>
+    </author>
+    <author>
+      <name>Zhangling Duan</name>
+    </author>
+    <author>
+      <name>Jie Chen</name>
+    </author>
+  </entry>
+</feed>

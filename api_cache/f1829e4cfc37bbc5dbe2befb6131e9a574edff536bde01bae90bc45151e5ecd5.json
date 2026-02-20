@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1acyOqqU67cnqvqYt6AHOhE/MT8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.19500v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.19500v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.19500v1</id>
+    <title>Conversational Planning for Personal Plans</title>
+    <updated>2025-02-26T19:04:26Z</updated>
+    <link href="https://arxiv.org/abs/2502.19500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.19500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The language generation and reasoning capabilities of large language models (LLMs) have enabled conversational systems with impressive performance in a variety of tasks, from code generation, to composing essays, to passing STEM and legal exams, to a new paradigm for knowledge search. Besides those short-term use applications, LLMs are increasingly used to help with real-life goals or tasks that take a long time to complete, involving multiple sessions across days, weeks, months, or even years. Thus to enable conversational systems for long term interactions and tasks, we need language-based agents that can plan for long horizons. Traditionally, such capabilities were addressed by reinforcement learning agents with hierarchical planning capabilities. In this work, we explore a novel architecture where the LLM acts as the meta-controller deciding the agent's next macro-action, and tool use augmented LLM-based option policies execute the selected macro-action. We instantiate this framework for a specific set of macro-actions enabling adaptive planning for users' personal plans through conversation and follow-up questions collecting user feedback. We show how this paradigm can be applicable in scenarios ranging from tutoring for academic and non-academic tasks to conversational coaching for personal health plans.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-26T19:04:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Konstantina Christakopoulou</name>
+    </author>
+    <author>
+      <name>Iris Qu</name>
+    </author>
+    <author>
+      <name>John Canny</name>
+    </author>
+    <author>
+      <name>Andrew Goodridge</name>
+    </author>
+    <author>
+      <name>Cj Adams</name>
+    </author>
+    <author>
+      <name>Minmin Chen</name>
+    </author>
+    <author>
+      <name>Maja Matarić</name>
+    </author>
+  </entry>
+</feed>

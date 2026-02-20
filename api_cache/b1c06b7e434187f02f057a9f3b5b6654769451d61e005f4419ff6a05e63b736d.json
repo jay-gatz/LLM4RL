@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5S65KIfl9qJ8LDukdUb1h0BP0TU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.00782&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.00782" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.00782v1</id>
+    <title>Dense Reward for Free in Reinforcement Learning from Human Feedback</title>
+    <updated>2024-02-01T17:10:35Z</updated>
+    <link href="https://arxiv.org/abs/2402.00782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.00782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning from Human Feedback (RLHF) has been credited as the key advance that has allowed Large Language Models (LLMs) to effectively follow instructions and produce useful assistance. Classically, this involves generating completions from the LLM in response to a query before using a separate reward model to assign a score to the full completion. As an auto-regressive process, the LLM has to take many "actions" (selecting individual tokens) and only receives a single, sparse reward at the end of an episode, a setup that is known to be difficult to optimise in traditional reinforcement learning. In this work we leverage the fact that the reward model contains more information than just its scalar output, in particular, it calculates an attention map over tokens as part of the transformer architecture. We use these attention weights to redistribute the reward along the whole completion, effectively densifying the signal and highlighting the most important tokens, all without incurring extra computational cost or requiring any additional modelling. We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged. Empirically, we show that it stabilises training, accelerates the rate of learning, and, in practical cases, may lead to better local optima.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-01T17:10:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alex J. Chan</name>
+    </author>
+    <author>
+      <name>Hao Sun</name>
+    </author>
+    <author>
+      <name>Samuel Holt</name>
+    </author>
+    <author>
+      <name>Mihaela van der Schaar</name>
+    </author>
+  </entry>
+</feed>

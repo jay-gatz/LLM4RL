@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fm1BER9LN/WPdppwutpNYk8m68M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05721v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05721v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05721v2</id>
+    <title>A Dual-Loop Agent Framework for Automated Vulnerability Reproduction</title>
+    <updated>2026-02-08T04:40:30Z</updated>
+    <link href="https://arxiv.org/abs/2602.05721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated vulnerability reproduction from CVE descriptions requires generating executable Proof-of-Concept (PoC) exploits and validating them in target environments. This process is critical in software security research and practice, yet remains time-consuming and demands specialized expertise when performed manually. While LLM agents show promise for automating this task, existing approaches often conflate exploring attack directions with fixing implementation details, which leads to unproductive debugging loops when reproduction fails. To address this, we propose CVE2PoC, an LLM-based dual-loop agent framework following a plan-execute-evaluate paradigm. The Strategic Planner analyzes vulnerability semantics and target code to produce structured attack plans. The Tactical Executor generates PoC code and validates it through progressive verification. The Adaptive Refiner evaluates execution results and routes failures to different loops: the Tactical Loop for code-level refinement, while the Strategic Loop for attack strategy replanning. This dual-loop design enables the framework to escape ineffective debugging by matching remediation to failure type. Evaluation on two benchmarks covering 617 real-world vulnerabilities demonstrates that CVE2PoC achieves 82.9% and 54.3% reproduction success rates on SecBench.js and PatchEval, respectively, outperforming the best baseline by 11.3% and 20.4%. Human evaluation confirms that generated PoCs achieve comparable code quality to human-written exploits in readability and reusability.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T14:47:48Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Bin Liu</name>
+    </author>
+    <author>
+      <name>Yanjie Zhao</name>
+    </author>
+    <author>
+      <name>Zhenpeng Chen</name>
+    </author>
+    <author>
+      <name>Guoai Xu</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+  </entry>
+</feed>

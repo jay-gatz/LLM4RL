@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4TMPxfmh3PGG0Rp5C81CxF3REIU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07790v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07790v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07790v1</id>
+    <title>MaD-Mix: Multi-Modal Data Mixtures via Latent Space Coupling for Vision-Language Model Training</title>
+    <updated>2026-02-08T03:07:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.07790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models (VLMs) are typically trained on a diverse set of multi-modal domains, yet current practices rely on costly manual tuning. We propose MaD-Mix, a principled and computationally efficient framework that derives multi-modal data mixtures for VLM training. MaD-Mix formulates data mixing as modality-aware domain alignment maximization and obtains closed-form multi-modal alignment scores from the Fenchel dual through inter-modal coupling variables. MaD-Mix systematically handles domains with missing modalities, allowing for the integration of language-only domains. Empirical evaluations across 0.5B and 7B models demonstrate that MaD-Mix accelerates VLM training across diverse benchmarks. MaD-Mix matches human-tuned data mixtures using 22% fewer training steps in image-text instruction tuning. In complex tri-modal video-image-text scenarios, where manual tuning becomes impractical, MaD-Mix boosts average accuracy over uniform weights, with negligible mixture computation overhead (&lt; 1 GPU-hour), enabling scalable mixture design for modern VLM pipelines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T03:07:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Wanyun Xie</name>
+    </author>
+    <author>
+      <name>Francesco Tonin</name>
+    </author>
+    <author>
+      <name>Volkan Cevher</name>
+    </author>
+  </entry>
+</feed>

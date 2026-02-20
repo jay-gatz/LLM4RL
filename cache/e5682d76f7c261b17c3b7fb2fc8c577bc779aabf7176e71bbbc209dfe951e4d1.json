@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9Xl6nMhCRv7B8u6Jnkztd5JGH5I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19850v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19850v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19850v1</id>
+    <title>EgoHandICL: Egocentric 3D Hand Reconstruction with In-Context Learning</title>
+    <updated>2026-01-27T17:58:12Z</updated>
+    <link href="https://arxiv.org/abs/2601.19850v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19850v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust 3D hand reconstruction in egocentric vision is challenging due to depth ambiguity, self-occlusion, and complex hand-object interactions. Prior methods mitigate these issues by scaling training data or adding auxiliary cues, but they often struggle in unseen contexts. We present EgoHandICL, the first in-context learning (ICL) framework for 3D hand reconstruction that improves semantic alignment, visual consistency, and robustness under challenging egocentric conditions. EgoHandICL introduces complementary exemplar retrieval guided by vision-language models (VLMs), an ICL-tailored tokenizer for multimodal context, and a masked autoencoder (MAE)-based architecture trained with hand-guided geometric and perceptual objectives. Experiments on ARCTIC and EgoExo4D show consistent gains over state-of-the-art methods. We also demonstrate real-world generalization and improve EgoVLM hand-object interaction reasoning by using reconstructed hands as visual prompts. Code and data: https://github.com/Nicous20/EgoHandICL</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T17:58:12Z</published>
+    <arxiv:comment>Accepted in ICLR 2026, Codebase: https://github.com/Nicous20/EgoHandICL</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Binzhu Xie</name>
+    </author>
+    <author>
+      <name>Shi Qiu</name>
+    </author>
+    <author>
+      <name>Sicheng Zhang</name>
+    </author>
+    <author>
+      <name>Yinqiao Wang</name>
+    </author>
+    <author>
+      <name>Hao Xu</name>
+    </author>
+    <author>
+      <name>Muzammal Naseer</name>
+    </author>
+    <author>
+      <name>Chi-Wing Fu</name>
+    </author>
+    <author>
+      <name>Pheng-Ann Heng</name>
+    </author>
+  </entry>
+</feed>

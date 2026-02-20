@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cn3r0yCiH9h5arsPSxR0+gSxRWI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14274v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14274v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14274v1</id>
+    <title>Integrating Unstructured Text into Causal Inference: Empirical Evidence from Real Data</title>
+    <updated>2026-02-15T18:55:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.14274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Causal inference, a critical tool for informing business decisions, traditionally relies heavily on structured data. However, in many real-world scenarios, such data can be incomplete or unavailable. This paper presents a framework that leverages transformer-based language models to perform causal inference using unstructured text. We demonstrate the effectiveness of our framework by comparing causal estimates derived from unstructured text against those obtained from structured data across population, group, and individual levels. Our findings show consistent results between the two approaches, validating the potential of unstructured text in causal inference tasks. Our approach extends the applicability of causal inference methods to scenarios where only textual data is available, enabling data-driven business decision-making when structured tabular data is scarce.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T18:55:03Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Boning Zhou</name>
+    </author>
+    <author>
+      <name>Ziyu Wang</name>
+    </author>
+    <author>
+      <name>Han Hong</name>
+    </author>
+    <author>
+      <name>Haoqi Hu</name>
+    </author>
+  </entry>
+</feed>

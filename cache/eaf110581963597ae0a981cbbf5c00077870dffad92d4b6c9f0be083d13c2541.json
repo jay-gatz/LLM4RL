@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+KCgqZJhYqolcOF+yJ/LsLWtPOA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14466v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14466v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14466v1</id>
+    <title>Robust Bias Evaluation with FilBBQ: A Filipino Bias Benchmark for Question-Answering Language Models</title>
+    <updated>2026-02-16T05:03:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.14466v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14466v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With natural language generation becoming a popular use case for language models, the Bias Benchmark for Question-Answering (BBQ) has grown to be an important benchmark format for evaluating stereotypical associations exhibited by generative models. We expand the linguistic scope of BBQ and construct FilBBQ through a four-phase development process consisting of template categorization, culturally aware translation, new template construction, and prompt generation. These processes resulted in a bias test composed of more than 10,000 prompts which assess whether models demonstrate sexist and homophobic prejudices relevant to the Philippine context. We then apply FilBBQ on models trained in Filipino but do so with a robust evaluation protocol that improves upon the reliability and accuracy of previous BBQ implementations. Specifically, we account for models' response instability by obtaining prompt responses across multiple seeds and averaging the bias scores calculated from these distinctly seeded runs. Our results confirm both the variability of bias scores across different seeds and the presence of sexist and homophobic biases relating to emotion, domesticity, stereotyped queer interests, and polygamy. FilBBQ is available via GitHub.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T05:03:15Z</published>
+    <arxiv:comment>Accepted in LREC 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lance Calvin Lim Gamboa</name>
+    </author>
+    <author>
+      <name>Yue Feng</name>
+    </author>
+    <author>
+      <name>Mark Lee</name>
+    </author>
+  </entry>
+</feed>

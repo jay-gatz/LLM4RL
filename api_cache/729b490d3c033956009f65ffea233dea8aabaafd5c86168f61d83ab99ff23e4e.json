@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tgNCmBcvIbmlA2v5nx72zCcQxhA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2204.05862&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2204.05862" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2204.05862v1</id>
+    <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
+    <updated>2022-04-12T15:02:38Z</updated>
+    <link href="https://arxiv.org/abs/2204.05862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.05862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply preference modeling and reinforcement learning from human feedback (RLHF) to finetune language models to act as helpful and harmless assistants. We find this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efficiently improving our datasets and models. Finally, we investigate the robustness of RLHF training, and identify a roughly linear relation between the RL reward and the square root of the KL divergence between the policy and its initialization. Alongside our main results, we perform peripheral analyses on calibration, competing objectives, and the use of OOD detection, compare our models with human writers, and provide samples from our models using prompts appearing in recent related work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-12T15:02:38Z</published>
+    <arxiv:comment>Data available at https://github.com/anthropics/hh-rlhf</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Stanislav Fort</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>Tom Conerly</name>
+    </author>
+    <author>
+      <name>Sheer El-Showk</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+</feed>

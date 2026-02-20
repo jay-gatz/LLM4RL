@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/O/Daku3ZeHWIoKvsu7RKjC/mEEw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.05950&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.05950" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.05950v1</id>
+    <title>Efficient Multi-Task Reinforcement Learning via Task-Specific Action Correction</title>
+    <updated>2024-04-09T02:11:35Z</updated>
+    <link href="https://arxiv.org/abs/2404.05950v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.05950v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-task reinforcement learning (MTRL) demonstrate potential for enhancing the generalization of a robot, enabling it to perform multiple tasks concurrently. However, the performance of MTRL may still be susceptible to conflicts between tasks and negative interference. To facilitate efficient MTRL, we propose Task-Specific Action Correction (TSAC), a general and complementary approach designed for simultaneous learning of multiple tasks. TSAC decomposes policy learning into two separate policies: a shared policy (SP) and an action correction policy (ACP). To alleviate conflicts resulting from excessive focus on specific tasks' details in SP, ACP incorporates goal-oriented sparse rewards, enabling an agent to adopt a long-term perspective and achieve generalization across tasks. Additional rewards transform the original problem into a multi-objective MTRL problem. Furthermore, to convert the multi-objective MTRL into a single-objective formulation, TSAC assigns a virtual expected budget to the sparse rewards and employs Lagrangian method to transform a constrained single-objective optimization into an unconstrained one. Experimental evaluations conducted on Meta-World's MT10 and MT50 benchmarks demonstrate that TSAC outperforms existing state-of-the-art methods, achieving significant improvements in both sample efficiency and effective action execution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-09T02:11:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jinyuan Feng</name>
+    </author>
+    <author>
+      <name>Min Chen</name>
+    </author>
+    <author>
+      <name>Zhiqiang Pu</name>
+    </author>
+    <author>
+      <name>Tenghai Qiu</name>
+    </author>
+    <author>
+      <name>Jianqiang Yi</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k/B5haRMZcahvYoyebN38crT/b0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15951v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:31:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15951v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15951v1</id>
+    <title>MadEvolve: Evolutionary Optimization of Cosmological Algorithms with Large Language Models</title>
+    <updated>2026-02-17T19:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.15951v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15951v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a general framework to discover scientific algorithms and apply it to three problems in computational cosmology. Our code, MadEvolve, is similar to Google's AlphaEvolve, but places a stronger emphasis on free parameters and their optimization. Our code starts with a baseline human algorithm implementation, and then optimizes its performance metrics by making iterative changes to its code. As a further convenient feature, MadEvolve automatically generates a report that compares the input algorithm with the evolved algorithm, describes the algorithmic innovations and lists the free parameters and their function. Our code supports both auto-differentiable, gradient-based parameter optimization and gradient-free optimization methods. We apply MadEvolve to the reconstruction of cosmological initial conditions, 21cm foreground contamination reconstruction and effective baryonic physics in N-body simulations. In all cases, we find substantial improvements over the base algorithm. We make MadEvolve and our three tasks publicly available at madevolve.org.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T19:06:52Z</published>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Tianyi Li</name>
+    </author>
+    <author>
+      <name>Shihui Zang</name>
+    </author>
+    <author>
+      <name>Moritz Münchmeyer</name>
+    </author>
+  </entry>
+</feed>

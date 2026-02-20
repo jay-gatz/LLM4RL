@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kY8eN0+v3Be/HoY3GMhVTLMGHqQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13307v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13307v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13307v1</id>
+    <title>Cooperative Edge Caching with Large Language Model in Wireless Networks</title>
+    <updated>2026-02-10T00:15:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.13307v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13307v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooperative edge caching in overlapping zones creates intricate coupling among Base Station (BS) decisions, making content replacement highly sensitive to topology and temporal reuse. While heuristics are often myopic and Deep Reinforcement Learning lacks robustness under dynamics, this paper proposes a Large Language Model (LLM)-based multi-BS orchestrator. The LLM acts as the sole autonomous engine, interacting with the environment via a validated text-to-action interface. Each time slot, the system renders environmental states -- including cache inventories and frequency statistics -- into prompts, parsing LLM-generated decisions against strict feasibility constraints. We align the model through a two-stage paradigm: Supervised Fine-Tuning on oracle trajectories for syntax and initialization, followed by Group Relative Policy Optimization. The latter employs an ``opportunity-aware'' reward that prioritizes multi-step cooperative gains relative to a No-Operation baseline. Evaluated on identical request traces, the orchestrator approaches exhaustive-search performance (0.610 vs.\ 0.617 in a 5-BS scenario), outperforms classical baselines (e.g., +4.1\% over least-frequently used), and demonstrates robust zero-shot transfer across varying cache capacities, library sizes, and user densities.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T00:15:58Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Ning Yang</name>
+    </author>
+    <author>
+      <name>Wentao Wang</name>
+    </author>
+    <author>
+      <name>Lingtao Ouyang</name>
+    </author>
+    <author>
+      <name>Haijun Zhang</name>
+    </author>
+  </entry>
+</feed>

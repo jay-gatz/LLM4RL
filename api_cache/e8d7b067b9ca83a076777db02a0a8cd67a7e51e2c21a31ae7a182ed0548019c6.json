@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/emgcOy1TTIHVslVa7WRAeFeMcZs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04919v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04919v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04919v1</id>
+    <title>Gradually Compacting Large Language Models for Reasoning Like a Boiling Frog</title>
+    <updated>2026-02-04T06:56:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.04919v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04919v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated impressive reasoning capabilities, but their substantial size often demands significant computational resources. To reduce resource consumption and accelerate inference, it is essential to eliminate redundant parameters without compromising performance. However, conventional pruning methods that directly remove such parameters often lead to a dramatic drop in model performance in reasoning tasks, and require extensive post-training to recover the lost capabilities. In this work, we propose a gradual compacting method that divides the compression process into multiple fine-grained iterations, applying a Prune-Tune Loop (PTL) at each stage to incrementally reduce model size while restoring performance with finetuning. This iterative approach-reminiscent of the "boiling frog" effect-enables the model to be progressively compressed without abrupt performance loss. Experimental results show that PTL can compress LLMs to nearly half their original size with only lightweight post-training, while maintaining performance comparable to the original model on reasoning tasks. Moreover, PTL is flexible and can be applied to various pruning strategies, such as neuron pruning and layer pruning, as well as different post-training methods, including continual pre-training and reinforcement learning. Additionally, experimental results confirm the effectiveness of PTL on a variety of tasks beyond mathematical reasoning, such as code generation, demonstrating its broad applicability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T06:56:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yiran Zhao</name>
+    </author>
+    <author>
+      <name>Shengyang Zhou</name>
+    </author>
+    <author>
+      <name>Zijian Wu</name>
+    </author>
+    <author>
+      <name>Tongyan Hu</name>
+    </author>
+    <author>
+      <name>Yuhui Xu</name>
+    </author>
+    <author>
+      <name>Rengan Dou</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Shafiq Joty</name>
+    </author>
+    <author>
+      <name>Junnan Li</name>
+    </author>
+    <author>
+      <name>Michael Qizhe Shieh</name>
+    </author>
+  </entry>
+</feed>

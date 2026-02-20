@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AjHxAryBiYWEZv5l37gXvVRHMkU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07041v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07041v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07041v1</id>
+    <title>OMNI-Dent: Towards an Accessible and Explainable AI Framework for Automated Dental Diagnosis</title>
+    <updated>2026-02-03T22:09:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.07041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate dental diagnosis is essential for oral healthcare, yet many individuals lack access to timely professional evaluation. Existing AI-based methods primarily treat diagnosis as a visual pattern recognition task and do not reflect the structured clinical reasoning used by dental professionals. These approaches also require large amounts of expert-annotated data and often struggle to generalize across diverse real-world imaging conditions. To address these limitations, we present OMNI-Dent, a data-efficient and explainable diagnostic framework that incorporates clinical reasoning principles into a Vision-Language Model (VLM)-based pipeline. The framework operates on multi-view smartphone photographs,embeds diagnostic heuristics from dental experts, and guides a general-purpose VLM to perform tooth-level evaluation without dental-specific fine-tuning of the VLM. By utilizing the VLM's existing visual-linguistic capabilities, OMNI-Dent aims to support diagnostic assessment in settings where curated clinical imaging is unavailable. Designed as an early-stage assistive tool, OMNI-Dent helps users identify potential abnormalities and determine when professional evaluation may be needed, offering a practical option for individuals with limited access to in-person care.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T22:09:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Leeje Jang</name>
+    </author>
+    <author>
+      <name>Yao-Yi Chiang</name>
+    </author>
+    <author>
+      <name>Angela M. Hastings</name>
+    </author>
+    <author>
+      <name>Patimaporn Pungchanchaikul</name>
+    </author>
+    <author>
+      <name>Martha B. Lucas</name>
+    </author>
+    <author>
+      <name>Emily C. Schultz</name>
+    </author>
+    <author>
+      <name>Jeffrey P. Louie</name>
+    </author>
+    <author>
+      <name>Mohamed Estai</name>
+    </author>
+    <author>
+      <name>Wen-Chen Wang</name>
+    </author>
+    <author>
+      <name>Ryan H. L. Ip</name>
+    </author>
+    <author>
+      <name>Boyen Huang</name>
+    </author>
+  </entry>
+</feed>

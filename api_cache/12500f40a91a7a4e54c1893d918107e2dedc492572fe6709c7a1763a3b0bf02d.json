@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KlQMcgq3YoYiWuTeHbRPNqGDU6g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00086v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:16:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00086v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00086v2</id>
+    <title>RIMRULE: Improving Tool-Using Language Agents via MDL-Guided Rule Learning</title>
+    <updated>2026-01-05T04:14:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.00086v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00086v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) often struggle to use tools reliably in domain-specific settings, where APIs may be idiosyncratic, under-documented, or tailored to private workflows. This highlights the need for effective adaptation to task-specific tools. We propose RIMRULE, a neuro-symbolic approach for LLM adaptation based on dynamic rule injection. Compact, interpretable rules are distilled from failure traces and injected into the prompt during inference to improve task performance. These rules are proposed by the LLM itself and consolidated using a Minimum Description Length (MDL) objective that favors generality and conciseness. Each rule is stored in both natural language and a structured symbolic form, supporting efficient retrieval at inference time. Experiments on tool-use benchmarks show that this approach improves accuracy on both seen and unseen tools without modifying LLM weights. It outperforms prompting-based adaptation methods and complements finetuning. Moreover, rules learned from one LLM can be reused to improve others, including long reasoning LLMs, highlighting the portability of symbolic knowledge across architectures.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T19:40:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiang Gao</name>
+    </author>
+    <author>
+      <name>Yuguang Yao</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Kaiwen Dong</name>
+    </author>
+    <author>
+      <name>Avinash Baidya</name>
+    </author>
+    <author>
+      <name>Ruocheng Guo</name>
+    </author>
+    <author>
+      <name>Hilaf Hasson</name>
+    </author>
+    <author>
+      <name>Kamalika Das</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UIRX4iPiiID/FzTogmyTzideViQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11574v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11574v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11574v1</id>
+    <title>Learning to Configure Agentic AI Systems</title>
+    <updated>2026-02-12T04:45:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.11574v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11574v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Configuring LLM-based agent systems involves choosing workflows, tools, token budgets, and prompts from a large combinatorial design space, and is typically handled today by fixed large templates or hand-tuned heuristics. This leads to brittle behavior and unnecessary compute, since the same cumbersome configuration is often applied to both easy and hard input queries. We formulate agent configuration as a query-wise decision problem and introduce ARC (Agentic Resource &amp; Configuration learner), which learns a light-weight hierarchical policy using reinforcement learning to dynamically tailor these configurations. Across multiple benchmarks spanning reasoning and tool-augmented question answering, the learned policy consistently outperforms strong hand-designed and other baselines, achieving up to 25% higher task accuracy while also reducing token and runtime costs. These results demonstrate that learning per-query agent configurations is a powerful alternative to "one size fits all" designs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T04:45:44Z</published>
+    <arxiv:comment>21 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aditya Taparia</name>
+    </author>
+    <author>
+      <name>Som Sagar</name>
+    </author>
+    <author>
+      <name>Ransalu Senanayake</name>
+    </author>
+  </entry>
+</feed>

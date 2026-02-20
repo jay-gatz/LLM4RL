@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/49dR1eei+a/abtE9wyMPOkXpp/M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.08981v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.08981v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.08981v1</id>
+    <title>AGENT: An Aerial Vehicle Generation and Design Tool Using Large Language Models</title>
+    <updated>2025-04-11T21:13:10Z</updated>
+    <link href="https://arxiv.org/abs/2504.08981v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.08981v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computer-aided design (CAD) is a promising application area for emerging artificial intelligence methods. Traditional workflows for cyberphysical systems create detailed digital models which can be evaluated by physics simulators in order to narrow the search space before creating physical prototypes. A major bottleneck of this approach is that the simulators are often computationally expensive and slow. Recent advancements in AI methods offer the possibility to accelerate these pipelines. We use the recently released AircraftVerse dataset, which is especially suited for developing and evaluating large language models for designs. AircraftVerse contains a diverse set of UAV designs represented via textual design trees together with detailed physics simulation results. Following the recent success of large language models (LLMs), we propose AGENT (Aircraft GENeraTor). AGENT is a comprehensive design tool built on the CodeT5+ LLM which learns powerful representations of aircraft textual designs directly from JSON files. We develop a curriculum of training tasks which imbues a single model with a suite of useful features. AGENT is able to generate designs conditioned on properties of flight dynamics (hover time, maximum speed, etc.). Additionally, AGENT can issue evaluations of designs allowing it to act as a surrogate model of the physics simulation that underlies the AircraftVerse dataset. We present a series of experiments which demonstrate our system's abilities. We are able to achieve strong performance using the smallest member of the CodeT5+ family (220M parameters). This allows for a flexible and powerful system which can be executed on a single GPU enabling a clear path toward future deployment.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-11T21:13:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Colin Samplawski</name>
+    </author>
+    <author>
+      <name>Adam D. Cobb</name>
+    </author>
+    <author>
+      <name>Susmit Jha</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Pb0oBNdX0iPmjbfBcnQnJ2GFhA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14301v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14301v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14301v1</id>
+    <title>DeepFusion: Accelerating MoE Training via Federated Knowledge Distillation from Heterogeneous Edge Devices</title>
+    <updated>2026-02-15T20:25:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.14301v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14301v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent Mixture-of-Experts (MoE)-based large language models (LLMs) such as Qwen-MoE and DeepSeek-MoE are transforming generative AI in natural language processing. However, these models require vast and diverse training data. Federated learning (FL) addresses this challenge by leveraging private data from heterogeneous edge devices for privacy-preserving MoE training. Nonetheless, traditional FL approaches require devices to host local MoE models, which is impractical for resource-constrained devices due to large model sizes. To address this, we propose DeepFusion, the first scalable federated MoE training framework that enables the fusion of heterogeneous on-device LLM knowledge via federated knowledge distillation, yielding a knowledge-abundant global MoE model. Specifically, DeepFusion features each device to independently configure and train an on-device LLM tailored to its own needs and hardware limitations. Furthermore, we propose a novel View-Aligned Attention (VAA) module that integrates multi-stage feature representations from the global MoE model to construct a predictive perspective aligned with on-device LLMs, thereby enabling effective cross-architecture knowledge distillation. By explicitly aligning predictive perspectives, VAA resolves the view-mismatch problem in traditional federated knowledge distillation, which arises from heterogeneity in model architectures and prediction behaviors between on-device LLMs and the global MoE model. Experiments with industry-level MoE models (Qwen-MoE and DeepSeek-MoE) and real-world datasets (medical and finance) demonstrate that DeepFusion achieves performance close to centralized MoE training. Compared with key federated MoE baselines, DeepFusion reduces communication costs by up to 71% and improves token perplexity by up to 5.28%.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T20:25:50Z</published>
+    <arxiv:comment>Index Terms: Large language models, Mixture-of-experts, Federated knowledge distillation, Edge device heterogeneity</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Songyuan Li</name>
+    </author>
+    <author>
+      <name>Jia Hu</name>
+    </author>
+    <author>
+      <name>Ahmed M. Abdelmoniem</name>
+    </author>
+    <author>
+      <name>Geyong Min</name>
+    </author>
+    <author>
+      <name>Haojun Huang</name>
+    </author>
+    <author>
+      <name>Jiwei Huang</name>
+    </author>
+  </entry>
+</feed>

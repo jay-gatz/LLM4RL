@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UorZvZkgpEaAMi4R3tWB4jynGdY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.04518v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.04518v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.04518v2</id>
+    <title>Advancing SLM Tool-Use Capability using Reinforcement Learning</title>
+    <updated>2025-09-08T19:46:21Z</updated>
+    <link href="https://arxiv.org/abs/2509.04518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.04518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an era where tool-augmented AI agents are becoming increasingly vital, our findings highlight the ability of Group Relative Policy Optimization (GRPO) to empower SLMs, which are traditionally constrained in tool use. The ability to use tools effectively has become a defining feature of Large Language Models (LLMs), allowing them to access external data and internal resources. As AI agents grow more sophisticated, tool-use capabilities have become indispensable. While LLMs have made significant progress in this area, Small Language Models (SLMs) still face challenges in accurately integrating tool use, especially in resource-constrained settings.
+  This study investigates how Reinforcement Learning, specifically Group Relative Policy Optimization (GRPO), can enhance the tool-use accuracy of SLMs. By designing a well-defined reward system that reinforces structured JSON output, correct tool selection, and precise parameter usage, we demonstrate that GRPO enables SLMs to achieve significant improvements in tool-use capabilities (function calling/JSON output). Our approach provides a computationally efficient training method that enhances SLMs practical deployment in real-world AI applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-03T07:41:14Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dhruvi Paprunia</name>
+    </author>
+    <author>
+      <name>Vansh Kharidia</name>
+    </author>
+    <author>
+      <name>Pankti Doshi</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2DVMXqvvNDqOvtV8eLxfCBKqdqk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15438v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15438v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15438v1</id>
+    <title>Logit Distance Bounds Representational Similarity</title>
+    <updated>2026-02-17T09:00:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.15438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a broad family of discriminative models that includes autoregressive language models, identifiability results imply that if two models induce the same conditional distributions, then their internal representations agree up to an invertible linear transformation. We ask whether an analogous conclusion holds approximately when the distributions are close instead of equal. Building on the observation of Nielsen et al. (2025) that closeness in KL divergence need not imply high linear representational similarity, we study a distributional distance based on logit differences and show that closeness in this distance does yield linear similarity guarantees. Specifically, we define a representational dissimilarity measure based on the models' identifiability class and prove that it is bounded by the logit distance. We further show that, when model probabilities are bounded away from zero, KL divergence upper-bounds logit distance; yet the resulting bound fails to provide nontrivial control in practice. As a consequence, KL-based distillation can match a teacher's predictions while failing to preserve linear representational properties, such as linear-probe recoverability of human-interpretable concepts. In distillation experiments on synthetic and image datasets, logit-distance distillation yields students with higher linear representational similarity and better preservation of the teacher's linearly recoverable concepts.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T09:00:56Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Beatrix M. B. Nielsen</name>
+    </author>
+    <author>
+      <name>Emanuele Marconato</name>
+    </author>
+    <author>
+      <name>Luigi Gresele</name>
+    </author>
+    <author>
+      <name>Andrea Dittadi</name>
+    </author>
+    <author>
+      <name>Simon Buchholz</name>
+    </author>
+  </entry>
+</feed>

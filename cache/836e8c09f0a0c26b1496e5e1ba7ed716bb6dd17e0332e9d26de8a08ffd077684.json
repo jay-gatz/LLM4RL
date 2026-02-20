@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B+AF6LTPnn/0yH8w6JLWLPJxglU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18292v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18292v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18292v2</id>
+    <title>TriPlay-RL: Tri-Role Self-Play Reinforcement Learning for LLM Safety Alignment</title>
+    <updated>2026-01-30T11:12:01Z</updated>
+    <link href="https://arxiv.org/abs/2601.18292v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18292v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, safety risks associated with large language models have become increasingly prominent, highlighting the urgent need to mitigate the generation of toxic and harmful content. The mainstream paradigm for LLM safety alignment typically adopts a collaborative framework involving three roles: an attacker for adversarial prompt generation, a defender for safety defense, and an evaluator for response assessment. In this paper, we propose a closed-loop reinforcement learning framework called TriPlay-RL that enables iterative and co-improving collaboration among three roles with near-zero manual annotation. Experimental results show that the attacker preserves high output diversity while achieving a 20%-50% improvement in adversarial effectiveness; the defender attains 10%-30% gains in safety performance without degrading general reasoning capability; and the evaluator continuously refines its fine-grained judgment ability through iterations, accurately distinguishing unsafe responses, simple refusals, and useful guidance. Overall, our framework establishes an efficient and scalable paradigm for LLM safety alignment, enabling continuous co-evolution within a unified learning loop.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T09:21:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhewen Tan</name>
+    </author>
+    <author>
+      <name>Wenhan Yu</name>
+    </author>
+    <author>
+      <name>Jianfeng Si</name>
+    </author>
+    <author>
+      <name>Tongxin Liu</name>
+    </author>
+    <author>
+      <name>Kaiqi Guan</name>
+    </author>
+    <author>
+      <name>Huiyan Jin</name>
+    </author>
+    <author>
+      <name>Jiawen Tao</name>
+    </author>
+    <author>
+      <name>Xiaokun Yuan</name>
+    </author>
+    <author>
+      <name>Duohe Ma</name>
+    </author>
+    <author>
+      <name>Xiangzheng Zhang</name>
+    </author>
+    <author>
+      <name>Tong Yang</name>
+    </author>
+    <author>
+      <name>Lin Sun</name>
+    </author>
+  </entry>
+</feed>

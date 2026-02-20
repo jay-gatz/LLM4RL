@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/px8WhMcH6FNQnRoMlrZqxeg8sEs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.07043v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:56:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.07043v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.07043v1</id>
+    <title>COMPASS: A Multi-Turn Benchmark for Tool-Mediated Planning &amp; Preference Optimization</title>
+    <updated>2025-10-08T14:09:46Z</updated>
+    <link href="https://arxiv.org/abs/2510.07043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.07043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world large language model (LLM) agents must master strategic tool use and user preference optimization through multi-turn interactions to assist users with complex planning tasks. We introduce COMPASS (Constrained Optimization through Multi-turn Planning and Strategic Solutions), a benchmark that evaluates agents on realistic travel-planning scenarios. We cast travel planning as a constrained preference optimization problem, where agents must satisfy hard constraints while simultaneously optimizing soft user preferences. To support this, we build a realistic travel database covering transportation, accommodation, and ticketing for 20 U.S. National Parks, along with a comprehensive tool ecosystem that mirrors commercial booking platforms. Evaluating state-of-the-art models, we uncover two critical gaps: (i) an acceptable-optimal gap, where agents reliably meet constraints but fail to optimize preferences, and (ii) a plan-coordination gap, where performance collapses on multi-service (flight and hotel) coordination tasks, especially for open-source models. By grounding reasoning and planning in a practical, user-facing domain, COMPASS provides a benchmark that directly measures an agent's ability to optimize user preferences in realistic tasks, bridging theoretical advances with real-world impact.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T14:09:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tian Qin</name>
+    </author>
+    <author>
+      <name>Felix Bai</name>
+    </author>
+    <author>
+      <name>Ting-Yao Hu</name>
+    </author>
+    <author>
+      <name>Raviteja Vemulapalli</name>
+    </author>
+    <author>
+      <name>Hema Swetha Koppula</name>
+    </author>
+    <author>
+      <name>Zhiyang Xu</name>
+    </author>
+    <author>
+      <name>Bowen Jin</name>
+    </author>
+    <author>
+      <name>Mert Cemri</name>
+    </author>
+    <author>
+      <name>Jiarui Lu</name>
+    </author>
+    <author>
+      <name>Zirui Wang</name>
+    </author>
+    <author>
+      <name>Meng Cao</name>
+    </author>
+  </entry>
+</feed>

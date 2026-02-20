@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/63noK+I/yu67yCJPeKG1ZvJTgag</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14498v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14498v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14498v1</id>
+    <title>Uncertainty-Aware Vision-Language Segmentation for Medical Imaging</title>
+    <updated>2026-02-16T06:27:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.14498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a novel uncertainty-aware multimodal segmentation framework that leverages both radiological images and associated clinical text for precise medical diagnosis. We propose a Modality Decoding Attention Block (MoDAB) with a lightweight State Space Mixer (SSMix) to enable efficient cross-modal fusion and long-range dependency modelling. To guide learning under ambiguity, we propose the Spectral-Entropic Uncertainty (SEU) Loss, which jointly captures spatial overlap, spectral consistency, and predictive uncertainty in a unified objective. In complex clinical circumstances with poor image quality, this formulation improves model reliability. Extensive experiments on various publicly available medical datasets, QATA-COVID19, MosMed++, and Kvasir-SEG, demonstrate that our method achieves superior segmentation performance while being significantly more computationally efficient than existing State-of-the-Art (SoTA) approaches. Our results highlight the importance of incorporating uncertainty modelling and structured modality alignment in vision-language medical segmentation tasks. Code: https://github.com/arya-domain/UA-VLS</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T06:27:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aryan Das</name>
+    </author>
+    <author>
+      <name>Tanishq Rachamalla</name>
+    </author>
+    <author>
+      <name>Koushik Biswas</name>
+    </author>
+    <author>
+      <name>Swalpa Kumar Roy</name>
+    </author>
+    <author>
+      <name>Vinay Kumar Verma</name>
+    </author>
+  </entry>
+</feed>

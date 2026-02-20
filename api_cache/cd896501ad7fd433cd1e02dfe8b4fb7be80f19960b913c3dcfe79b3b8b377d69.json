@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f+NOYWTT5L8xFtFL2Mt9p6TwwQc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14516v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14516v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14516v1</id>
+    <title>Efficient Multi-round LLM Inference over Disaggregated Serving</title>
+    <updated>2026-02-16T07:07:30Z</updated>
+    <link href="https://arxiv.org/abs/2602.14516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid evolution of Large Language Models (LLMs), multi-round workflows, such as autonomous agents and iterative retrieval, have become increasingly prevalent. However, this raises hurdles for serving LLMs under prefill-decode (PD) disaggregation, a widely adopted paradigm that separates the compute-bound prefill phase and memory-bound decode phase onto individual resources. Specifically, existing systems overlook the interleaved prefill-decode workload pattern in multi-round inference, leading to sub-optimal handling of the incremental prefill workloads and model deployment for the two phases.
+  In this work, we present AMPD, a brand new disaggregated serving framework for multi-round LLM inference. The core of AMPD is to coordinate the prefill workloads based on real-time workloads by adaptively determining where to carry out these workloads and how they are scheduled, in order to maximize service level objective (SLO) attainment. In addition, we tailor a planning algorithm for our scenario, facilitating the deduction of optimal resource allocation and parallel strategies for the two phases. Empirical results demonstrate that AMPD substantially improves SLO attainment compared to state-of-the-art baselines.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T07:07:30Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Wenhao He</name>
+    </author>
+    <author>
+      <name>Youhe Jiang</name>
+    </author>
+    <author>
+      <name>Penghao Zhao</name>
+    </author>
+    <author>
+      <name>Quanqing Xu</name>
+    </author>
+    <author>
+      <name>Eiko Yoneki</name>
+    </author>
+    <author>
+      <name>Bin Cui</name>
+    </author>
+    <author>
+      <name>Fangcheng Fu</name>
+    </author>
+  </entry>
+</feed>

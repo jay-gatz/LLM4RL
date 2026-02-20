@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AhIjVxOV0f19k9jWsmPKM5ZPL34</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13653v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13653v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13653v1</id>
+    <title>Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization</title>
+    <updated>2026-02-14T07:44:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.13653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Multimodal Large Language Models (MLLMs) have substantially driven the progress of autonomous agents for Graphical User Interface (GUI). Nevertheless, in real-world applications, GUI agents are often faced with non-stationary environments, leading to high computational costs for data curation and policy optimization. In this report, we introduce a novel MLLM-centered framework for GUI agents, which consists of two components: agentic-Q estimation and step-wise policy optimization. The former one aims to optimize a Q-model that can generate step-wise values to evaluate the contribution of a given action to task completion. The latter one takes step-wise samples from the state-action trajectory as inputs, and optimizes the policy via reinforcement learning with our agentic-Q model. It should be noticed that (i) all state-action trajectories are produced by the policy itself, so that the data collection costs are manageable; (ii) the policy update is decoupled from the environment, ensuring stable and efficient optimization. Empirical evaluations show that our framework endows Ovis2.5-9B with powerful GUI interaction capabilities, achieving remarkable performances on GUI navigation and grounding benchmarks and even surpassing contenders with larger scales.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T07:44:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yibo Wang</name>
+    </author>
+    <author>
+      <name>Guangda Huzhang</name>
+    </author>
+    <author>
+      <name>Yuwei Hu</name>
+    </author>
+    <author>
+      <name>Yu Xia</name>
+    </author>
+    <author>
+      <name>Shiyin Lu</name>
+    </author>
+    <author>
+      <name>Qing-Guo Chen</name>
+    </author>
+    <author>
+      <name>Zhao Xu</name>
+    </author>
+    <author>
+      <name>Weihua Luo</name>
+    </author>
+    <author>
+      <name>Kaifu Zhang</name>
+    </author>
+    <author>
+      <name>Lijun Zhang</name>
+    </author>
+  </entry>
+</feed>

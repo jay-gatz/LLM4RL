@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g+c0Q2KPRQxn07cO6dJY8IXaWQU</id>
+  <title>arXiv Query: search_query=all:"Text2Reward: Reward Shaping with Language Models for Reinforcement Learning"&amp;id_list=&amp;start=0&amp;max_results=6</title>
+  <updated>2026-02-19T16:35:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22Text2Reward:+Reward+Shaping+with+Language+Models+for+Reinforcement+Learning%22&amp;start=0&amp;max_results=6&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>6</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.11489v3</id>
+    <title>Text2Reward: Reward Shaping with Language Models for Reinforcement Learning</title>
+    <updated>2024-05-25T06:42:10Z</updated>
+    <link href="https://arxiv.org/abs/2309.11489v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.11489v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing reward functions is a longstanding challenge in reinforcement learning (RL); it requires specialized knowledge or domain data, leading to high costs for development. To address this, we introduce Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs). Given a goal described in natural language, Text2Reward generates shaped dense reward functions as an executable program grounded in a compact representation of the environment. Unlike inverse RL and recent work that uses LLMs to write sparse reward codes or unshaped dense rewards with a constant function across timesteps, Text2Reward produces interpretable, free-form dense reward codes that cover a wide range of tasks, utilize existing packages, and allow iterative refinement with human feedback. We evaluate Text2Reward on two robotic manipulation benchmarks (ManiSkill2, MetaWorld) and two locomotion environments of MuJoCo. On 13 of the 17 manipulation tasks, policies trained with generated reward codes achieve similar or better task success rates and convergence speed than expert-written reward codes. For locomotion tasks, our method learns six novel locomotion behaviors with a success rate exceeding 94%. Furthermore, we show that the policies trained in the simulator with our method can be deployed in the real world. Finally, Text2Reward further improves the policies by refining their reward functions with human feedback. Video results are available at https://text-to-reward.github.io/ .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-20T17:39:13Z</published>
+    <arxiv:comment>ICLR 2024 camera ready, 37 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianbao Xie</name>
+    </author>
+    <author>
+      <name>Siheng Zhao</name>
+    </author>
+    <author>
+      <name>Chen Henry Wu</name>
+    </author>
+    <author>
+      <name>Yitao Liu</name>
+    </author>
+    <author>
+      <name>Qian Luo</name>
+    </author>
+    <author>
+      <name>Victor Zhong</name>
+    </author>
+    <author>
+      <name>Yanchao Yang</name>
+    </author>
+    <author>
+      <name>Tao Yu</name>
+    </author>
+  </entry>
+</feed>

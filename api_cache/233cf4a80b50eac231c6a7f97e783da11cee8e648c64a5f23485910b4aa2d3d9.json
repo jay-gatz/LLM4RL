@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HsdkYMQ09T1KFc5d+rAixyIEvt4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22666v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22666v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22666v1</id>
+    <title>ExpAlign: Expectation-Guided Vision-Language Alignment for Open-Vocabulary Grounding</title>
+    <updated>2026-01-30T07:38:04Z</updated>
+    <link href="https://arxiv.org/abs/2601.22666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open-vocabulary grounding requires accurate vision-language alignment under weak supervision, yet existing methods either rely on global sentence embeddings that lack fine-grained expressiveness or introduce token-level alignment with explicit supervision or heavy cross-attention designs. We propose ExpAlign, a theoretically grounded vision-language alignment framework built on a principled multiple instance learning formulation. ExpAlign introduces an Expectation Alignment Head that performs attention-based soft MIL pooling over token-region similarities, enabling implicit token and instance selection without additional annotations. To further stabilize alignment learning, we develop an energy-based multi-scale consistency regularization scheme, including a Top-K multi-positive contrastive objective and a Geometry-Aware Consistency Objective derived from a Lagrangian-constrained free-energy minimization. Extensive experiments show that ExpAlign consistently improves open-vocabulary detection and zero-shot instance segmentation, particularly on long-tail categories. Most notably, it achieves 36.2 AP$_r$ on the LVIS minival split, outperforming other state-of-the-art methods at comparable model scale, while remaining lightweight and inference-efficient.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T07:38:04Z</published>
+    <arxiv:comment>20 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junyi Hu</name>
+    </author>
+    <author>
+      <name>Tian Bai</name>
+    </author>
+    <author>
+      <name>Fengyi Wu</name>
+    </author>
+    <author>
+      <name>Wenyan Li</name>
+    </author>
+    <author>
+      <name>Zhenming Peng</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+  </entry>
+</feed>

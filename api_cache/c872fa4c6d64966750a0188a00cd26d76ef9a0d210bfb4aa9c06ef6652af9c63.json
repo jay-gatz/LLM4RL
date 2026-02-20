@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SC+d+5PQ93Qkhdz64KXwcEaLt08</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01834v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01834v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01834v1</id>
+    <title>Concept-Based Dictionary Learning for Inference-Time Safety in Vision Language Action Models</title>
+    <updated>2026-02-02T09:06:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.01834v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01834v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Action (VLA) models close the perception action loop by translating multimodal instructions into executable behaviors, but this very capability magnifies safety risks: jailbreaks that merely yield toxic text in LLMs can trigger unsafe physical actions in embodied systems. Existing defenses alignment, filtering, or prompt hardening intervene too late or at the wrong modality, leaving fused representations exploitable. We introduce a concept-based dictionary learning framework for inference-time safety control. By constructing sparse, interpretable dictionaries from hidden activations, our method identifies harmful concept directions and applies threshold-based interventions to suppress or block unsafe activations. Experiments on Libero-Harm, BadRobot, RoboPair, and IS-Bench show that our approach achieves state-of-the-art defense performance, cutting attack success rates by over 70\% while maintaining task success. Crucially, the framework is plug-in and model-agnostic, requiring no retraining and integrating seamlessly with diverse VLAs. To our knowledge, this is the first inference-time concept-based safety method for embodied systems, advancing both interpretability and safe deployment of VLA models.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T09:06:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Siqi Wen</name>
+    </author>
+    <author>
+      <name>Shu Yang</name>
+    </author>
+    <author>
+      <name>Shaopeng Fu</name>
+    </author>
+    <author>
+      <name>Jingfeng Zhang</name>
+    </author>
+    <author>
+      <name>Lijie Hu</name>
+    </author>
+    <author>
+      <name>Di Wang</name>
+    </author>
+  </entry>
+</feed>

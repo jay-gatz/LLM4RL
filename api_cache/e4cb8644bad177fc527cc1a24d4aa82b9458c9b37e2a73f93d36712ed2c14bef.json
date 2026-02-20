@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qfoCJv9MGRffiY+8radbjVR1dUY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02192v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02192v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02192v3</id>
+    <title>ECHO-2: A Large-Scale Distributed Rollout Framework for Cost-Efficient Reinforcement Learning</title>
+    <updated>2026-02-10T15:56:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.02192v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02192v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is a critical stage in post-training large language models (LLMs), involving repeated interaction between rollout generation, reward evaluation, and centralized learning. Distributing rollout execution offers opportunities to leverage more cost-efficient inference resources, but introduces challenges in wide-area coordination and policy dissemination. We present ECHO-2, a distributed RL framework for post-training with remote inference workers and non-negligible dissemination latency. ECHO-2 combines centralized learning with distributed rollouts and treats bounded policy staleness as a user-controlled parameter, enabling rollout generation, dissemination, and training to overlap. We introduce an overlap-based capacity model that relates training time, dissemination latency, and rollout throughput, yielding a practical provisioning rule for sustaining learner utilization. To mitigate dissemination bottlenecks and lower cost, ECHO-2 employs peer-assisted pipelined broadcast and cost-aware activation of heterogeneous workers. Experiments on GRPO post-training of 4B and 8B models under real wide-area bandwidth regimes show that ECHO-2 significantly improves cost efficiency while preserving RL reward comparable to strong baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T14:57:53Z</published>
+    <arxiv:comment>23 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jie Xiao</name>
+    </author>
+    <author>
+      <name>Meng Chen</name>
+    </author>
+    <author>
+      <name>Qingnan Ren</name>
+    </author>
+    <author>
+      <name>Jingwei Song</name>
+    </author>
+    <author>
+      <name>Jiaqi Huang</name>
+    </author>
+    <author>
+      <name>Yangshen Deng</name>
+    </author>
+    <author>
+      <name>Chris Tong</name>
+    </author>
+    <author>
+      <name>Wanyi Chen</name>
+    </author>
+    <author>
+      <name>Suli Wang</name>
+    </author>
+    <author>
+      <name>Ziqian Bi</name>
+    </author>
+    <author>
+      <name>Shuo Lu</name>
+    </author>
+    <author>
+      <name>Yiqun Duan</name>
+    </author>
+    <author>
+      <name>Xu Wang</name>
+    </author>
+    <author>
+      <name>Rymon Yu</name>
+    </author>
+    <author>
+      <name>Ween Yang</name>
+    </author>
+    <author>
+      <name>Lynn Ai</name>
+    </author>
+    <author>
+      <name>Eric Yang</name>
+    </author>
+    <author>
+      <name>Bill Shi</name>
+    </author>
+  </entry>
+</feed>

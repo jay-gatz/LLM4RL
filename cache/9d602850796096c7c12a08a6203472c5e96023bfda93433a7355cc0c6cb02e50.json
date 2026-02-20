@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0b53RWXh4tMMk5t4Jj3vrkdPMxs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14529v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14529v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14529v1</id>
+    <title>Disentangling Deception and Hallucination Failures in LLMs</title>
+    <updated>2026-02-16T07:36:49Z</updated>
+    <link href="https://arxiv.org/abs/2602.14529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Failures in large language models (LLMs) are often analyzed from a behavioral perspective, where incorrect outputs in factual question answering are commonly associated with missing knowledge. In this work, focusing on entity-based factual queries, we suggest that such a view may conflate different failure mechanisms, and propose an internal, mechanism-oriented perspective that separates Knowledge Existence from Behavior Expression. Under this formulation, hallucination and deception correspond to two qualitatively different failure modes that may appear similar at the output level but differ in their underlying mechanisms. To study this distinction, we construct a controlled environment for entity-centric factual questions in which knowledge is preserved while behavioral expression is selectively altered, enabling systematic analysis of four behavioral cases. We analyze these failure modes through representation separability, sparse interpretability, and inference-time activation steering.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T07:36:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haolang Lu</name>
+    </author>
+    <author>
+      <name>Hongrui Peng</name>
+    </author>
+    <author>
+      <name>WeiYe Fu</name>
+    </author>
+    <author>
+      <name>Guoshun Nan</name>
+    </author>
+    <author>
+      <name>Xinye Cao</name>
+    </author>
+    <author>
+      <name>Xingrui Li</name>
+    </author>
+    <author>
+      <name>Hongcan Guo</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wmzDo39mdn6nOjD02+quRVgvE1Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.15371&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.15371" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.15371v3</id>
+    <title>Can large language models explore in-context?</title>
+    <updated>2024-10-28T19:55:46Z</updated>
+    <link href="https://arxiv.org/abs/2403.15371v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.15371v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the extent to which contemporary Large Language Models (LLMs) can engage in exploration, a core capability in reinforcement learning and decision making. We focus on native performance of existing LLMs, without training interventions. We deploy LLMs as agents in simple multi-armed bandit environments, specifying the environment description and interaction history entirely in-context, i.e., within the LLM prompt. We experiment with GPT-3.5, GPT-4, and Llama2, using a variety of prompt designs, and find that the models do not robustly engage in exploration without substantial interventions: i) Across all of our experiments, only one configuration resulted in satisfactory exploratory behavior: GPT-4 with chain-of-thought reasoning and an externally summarized interaction history, presented as sufficient statistics; ii) All other configurations did not result in robust exploratory behavior, including those with chain-of-thought reasoning but unsummarized history. Although these findings can be interpreted positively, they suggest that external summarization -- which may not be possible in more complex settings -- is important for obtaining desirable behavior from LLM agents. We conclude that non-trivial algorithmic interventions, such as fine-tuning or dataset curation, may be required to empower LLM-based decision making agents in complex settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-22T17:50:43Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2024. This version: added references to related and concurrent work</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akshay Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Keegan Harris</name>
+    </author>
+    <author>
+      <name>Dylan J. Foster</name>
+    </author>
+    <author>
+      <name>Cyril Zhang</name>
+    </author>
+    <author>
+      <name>Aleksandrs Slivkins</name>
+    </author>
+  </entry>
+</feed>

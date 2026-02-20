@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vz471ZZ87vJLP9vFVxbLne6U/34</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16610v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16610v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16610v1</id>
+    <title>Who can we trust? LLM-as-a-jury for Comparative Assessment</title>
+    <updated>2026-02-18T17:04:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.16610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly applied as automatic evaluators for natural language generation assessment often using pairwise comparative judgements. Existing approaches typically rely on single judges or aggregate multiple judges assuming equal reliability. In practice, LLM judges vary substantially in performance across tasks and aspects, and their judgment probabilities may be biased and inconsistent. Furthermore, human-labelled supervision for judge calibration may be unavailable. We first empirically demonstrate that inconsistencies in LLM comparison probabilities exist and show that it limits the effectiveness of direct probability-based ranking. To address this, we study the LLM-as-a-jury setting and propose BT-sigma, a judge-aware extension of the Bradley-Terry model that introduces a discriminator parameter for each judge to jointly infer item rankings and judge reliability from pairwise comparisons alone. Experiments on benchmark NLG evaluation datasets show that BT-sigma consistently outperforms averaging-based aggregation methods, and that the learned discriminator strongly correlates with independent measures of the cycle consistency of LLM judgments. Further analysis reveals that BT-sigma can be interpreted as an unsupervised calibration mechanism that improves aggregation by modelling judge reliability.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T17:04:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mengjie Qian</name>
+    </author>
+    <author>
+      <name>Guangzhi Sun</name>
+    </author>
+    <author>
+      <name>Mark J. F. Gales</name>
+    </author>
+    <author>
+      <name>Kate M. Knill</name>
+    </author>
+  </entry>
+</feed>

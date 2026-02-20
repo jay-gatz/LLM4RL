@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fuDa5xcii/OVuUMnbPWGEwMilg0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.00557v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.00557v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.00557v3</id>
+    <title>Learning to Ask: When LLM Agents Meet Unclear Instruction</title>
+    <updated>2025-02-16T14:50:40Z</updated>
+    <link href="https://arxiv.org/abs/2409.00557v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.00557v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Equipped with the capability to call functions, modern large language models (LLMs) can leverage external tools for addressing a range of tasks unattainable through language skills alone. However, the effective execution of these tools relies heavily not just on the advanced capabilities of LLMs but also on precise user instructions, which often cannot be ensured in the real world. To evaluate the performance of LLMs tool-use under imperfect instructions, we meticulously examine the real-world instructions queried from users, analyze the error patterns, and build a challenging tool-use benchmark called Noisy ToolBench (NoisyToolBench). We find that due to the next-token prediction training objective, LLMs tend to arbitrarily generate the missed argument, which may lead to hallucinations and risks. To address this issue, we propose a novel framework, Ask-when-Needed (AwN), which prompts LLMs to ask questions to users whenever they encounter obstacles due to unclear instructions. Moreover, to reduce the manual labor involved in user-LLM interaction and assess LLMs performance in tool utilization from both accuracy and efficiency perspectives, we design an automated evaluation tool named ToolEvaluator. Our experiments demonstrate that the AwN significantly outperforms existing frameworks for tool learning in the NoisyToolBench. We will release all related code and datasets to support future research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-31T23:06:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenxuan Wang</name>
+    </author>
+    <author>
+      <name>Juluan Shi</name>
+    </author>
+    <author>
+      <name>Zixuan Ling</name>
+    </author>
+    <author>
+      <name>Yuk-Kit Chan</name>
+    </author>
+    <author>
+      <name>Chaozheng Wang</name>
+    </author>
+    <author>
+      <name>Cheryl Lee</name>
+    </author>
+    <author>
+      <name>Youliang Yuan</name>
+    </author>
+    <author>
+      <name>Jen-tse Huang</name>
+    </author>
+    <author>
+      <name>Wenxiang Jiao</name>
+    </author>
+    <author>
+      <name>Michael R. Lyu</name>
+    </author>
+  </entry>
+</feed>

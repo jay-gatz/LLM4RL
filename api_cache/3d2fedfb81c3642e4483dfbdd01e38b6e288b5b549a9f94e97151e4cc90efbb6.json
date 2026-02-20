@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1vboeGe9TjfUtJISL+13lerrrc8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.23880v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:19:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.23880v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23880v2</id>
+    <title>CASCADE: Cumulative Agentic Skill Creation through Autonomous Development and Evolution</title>
+    <updated>2026-01-28T06:08:09Z</updated>
+    <link href="https://arxiv.org/abs/2512.23880v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23880v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents currently depend on predefined tools or early-stage tool generation, limiting their adaptability and scalability to complex scientific tasks. We introduce CASCADE, a self-evolving agentic framework representing an early instantiation of the transition from "LLM + tool use" to "LLM + skill acquisition". CASCADE enables agents to master complex external tools and codify knowledge through two meta-skills: continuous learning via web search, code extraction, and memory utilization; self-reflection via introspection, knowledge graph exploration, and others. We evaluate CASCADE on SciSkillBench, a benchmark of 116 materials science and chemistry research tasks. CASCADE achieves a 93.3% success rate using GPT-5, compared to 35.4% without evolution mechanisms. We further demonstrate real-world applications in computational analysis, autonomous laboratory experiments, and selective reproduction of published papers. Along with human-agent collaboration and memory consolidation, CASCADE accumulates executable skills that can be shared across agents and scientists, moving toward scalable AI-assisted scientific research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-29T21:50:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xu Huang</name>
+    </author>
+    <author>
+      <name>Junwu Chen</name>
+    </author>
+    <author>
+      <name>Yuxing Fei</name>
+    </author>
+    <author>
+      <name>Zhuohan Li</name>
+    </author>
+    <author>
+      <name>Philippe Schwaller</name>
+    </author>
+    <author>
+      <name>Gerbrand Ceder</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SeO3ccCzbXN4j9JPpPSz3hWltbY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00042v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:17:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00042v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00042v2</id>
+    <title>Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing</title>
+    <updated>2026-01-06T16:35:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.00042v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00042v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Production LLM agents with tool-using capabilities require security testing despite their safety training. We adapt Go-Explore to evaluate GPT-4o-mini across 28 experimental runs spanning six research questions. We find that random-seed variance dominates algorithmic parameters, yielding an 8x spread in outcomes; single-seed comparisons are unreliable, while multi-seed averaging materially reduces variance in our setup. Reward shaping consistently harms performance, causing exploration collapse in 94% of runs or producing 18 false positives with zero verified attacks. In our environment, simple state signatures outperform complex ones. For comprehensive security testing, ensembles provide attack-type diversity, whereas single agents optimize coverage within a given attack type. Overall, these results suggest that seed variance and targeted domain knowledge can outweigh algorithmic sophistication when testing safety-trained models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T03:38:38Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Manish Bhatt</name>
+    </author>
+    <author>
+      <name>Adrian Wood</name>
+    </author>
+    <author>
+      <name>Idan Habler</name>
+    </author>
+    <author>
+      <name>Ammar Al-Kahfah</name>
+    </author>
+  </entry>
+</feed>

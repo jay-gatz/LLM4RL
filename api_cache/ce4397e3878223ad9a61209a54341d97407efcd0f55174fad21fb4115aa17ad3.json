@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+2UMytkeVzzK8wa2wy6Fwx4euoQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14601v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14601v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14601v1</id>
+    <title>Holmes: An Evidence-Grounded LLM Agent for Auditable DDoS Investigation in Cloud Networks</title>
+    <updated>2026-01-21T02:39:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.14601v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14601v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cloud environments face frequent DDoS threats due to centralized resources and broad attack surfaces. Modern cloud-native DDoS attacks further evolve rapidly and often blend multi-vector strategies, creating an operational dilemma: defenders need wire-speed monitoring while also requiring explainable, auditable attribution for response. Existing rule-based and supervised-learning approaches typically output black-box scores or labels, provide limited evidence chains, and generalize poorly to unseen attack variants; meanwhile, high-quality labeled data is often difficult to obtain in cloud settings.
+  We present Holmes (DDoS Detective), an LLM-based DDoS detection agent that reframes the model as a virtual SRE investigator rather than an end-to-end classifier. Holmes couples a funnel-like hierarchical workflow (counters/sFlow for continuous sensing and triage; PCAP evidence collection triggered only on anomaly windows) with an Evidence Pack abstraction that converts binary packets into compact, reproducible, high-signal structured evidence. On top of this evidence interface, Holmes enforces a structure-first investigation protocol and strict JSON/quotation constraints to produce machine-consumable reports with auditable evidence anchors.
+  We evaluate Holmes on CICDDoS2019 reflection/amplification attacks and script-triggered flooding scenarios. Results show that Holmes produces attribution decisions grounded in salient evidence anchors across diverse attack families, and when errors occur, its audit logs make the failure source easy to localize, demonstrating the practicality of an LLM agent for cost-controlled and traceable DDoS investigation in cloud operations.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T02:39:46Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Haodong Chen</name>
+    </author>
+    <author>
+      <name>Ziheng Zhang</name>
+    </author>
+    <author>
+      <name>Jinghui Jiang</name>
+    </author>
+    <author>
+      <name>Qiang Su</name>
+    </author>
+    <author>
+      <name>Qiao Xiang</name>
+    </author>
+  </entry>
+</feed>

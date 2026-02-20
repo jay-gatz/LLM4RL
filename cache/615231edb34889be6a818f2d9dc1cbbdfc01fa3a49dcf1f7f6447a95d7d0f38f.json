@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4aX2seuD8hsTq8HlE09s/oW/2UA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22448v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22448v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22448v1</id>
+    <title>HeaPA: Difficulty-Aware Heap Sampling and On-Policy Query Augmentation for LLM Reinforcement Learning</title>
+    <updated>2026-01-30T01:31:17Z</updated>
+    <link href="https://arxiv.org/abs/2601.22448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>RLVR is now a standard way to train LLMs on reasoning tasks with verifiable outcomes, but when rollout generation dominates the cost, efficiency depends heavily on which prompts you sample and when. In practice, prompt pools are often static or only loosely tied to the model's learning progress, so uniform sampling can't keep up with the shifting capability frontier and ends up wasting rollouts on prompts that are already solved or still out of reach. Existing approaches improve efficiency through filtering, curricula, adaptive rollout allocation, or teacher guidance, but they typically assume a fixed pool-which makes it hard to support stable on-policy pool growth-or they add extra teacher cost and latency. We introduce HeaPA (Heap Sampling and On-Policy Query Augmentation), which maintains a bounded, evolving pool, tracks the frontier using heap-based boundary sampling, expands the pool via on-policy augmentation with lightweight asynchronous validation, and stabilizes correlated queries through topology-aware re-estimation of pool statistics and controlled reinsertion. Across two training corpora, two training recipes, and seven benchmarks, HeaPA consistently improves accuracy and reaches target performance with fewer computations while keeping wall-clock time comparable. Our analyses suggest these gains come from frontier-focused sampling and on-policy pool growth, with the benefits becoming larger as model scale increases. Our code is available at https://github.com/horizon-rl/HeaPA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T01:31:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Weiqi Wang</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Binxuan Huang</name>
+    </author>
+    <author>
+      <name>Hejie Cui</name>
+    </author>
+    <author>
+      <name>Rongzhi Zhang</name>
+    </author>
+    <author>
+      <name>Changlong Yu</name>
+    </author>
+    <author>
+      <name>Shuowei Jin</name>
+    </author>
+    <author>
+      <name>Jingfeng Yang</name>
+    </author>
+    <author>
+      <name>Qingyu Yin</name>
+    </author>
+    <author>
+      <name>Zhengyang Wang</name>
+    </author>
+    <author>
+      <name>Zheng Li</name>
+    </author>
+    <author>
+      <name>Yifan Gao</name>
+    </author>
+    <author>
+      <name>Priyanka Nigam</name>
+    </author>
+    <author>
+      <name>Bing Yin</name>
+    </author>
+    <author>
+      <name>Lihong Li</name>
+    </author>
+    <author>
+      <name>Yangqiu Song</name>
+    </author>
+  </entry>
+</feed>

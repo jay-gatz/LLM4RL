@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2diIEle7jDjJazvKcAAHoTHq0qk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12036v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12036v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12036v1</id>
+    <title>Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models</title>
+    <updated>2026-02-12T15:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.12036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale verifiable prompts underpin the success of Reinforcement Learning with Verifiable Rewards (RLVR), but they contain many uninformative examples and are costly to expand further. Recent studies focus on better exploiting limited training data by prioritizing hard prompts whose rollout pass rate is 0. However, easy prompts with a pass rate of 1 also become increasingly prevalent as training progresses, thereby reducing the effective data size. To mitigate this, we propose Composition-RL, a simple yet useful approach for better utilizing limited verifiable prompts targeting pass-rate-1 prompts. More specifically, Composition-RL automatically composes multiple problems into a new verifiable question and uses these compositional prompts for RL training. Extensive experiments across model sizes from 4B to 30B show that Composition-RL consistently improves reasoning capability over RL trained on the original dataset. Performance can be further boosted with a curriculum variant of Composition-RL that gradually increases compositional depth over training. Additionally, Composition-RL enables more effective cross-domain RL by composing prompts drawn from different domains. Codes, datasets, and models are available at https://github.com/XinXU-USTC/Composition-RL.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T15:03:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xin Xu</name>
+    </author>
+    <author>
+      <name>Clive Bai</name>
+    </author>
+    <author>
+      <name>Kai Yang</name>
+    </author>
+    <author>
+      <name>Tianhao Chen</name>
+    </author>
+    <author>
+      <name>Yangkun Chen</name>
+    </author>
+    <author>
+      <name>Weijie Liu</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Saiyong Yang</name>
+    </author>
+    <author>
+      <name>Can Yang</name>
+    </author>
+  </entry>
+</feed>

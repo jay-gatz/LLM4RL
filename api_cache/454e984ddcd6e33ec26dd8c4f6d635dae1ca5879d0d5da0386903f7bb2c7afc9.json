@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cJBZg2vjbOdBOx0h82wuM4Jwb9E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14490v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14490v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14490v2</id>
+    <title>GutenOCR: A Grounded Vision-Language Front-End for Documents</title>
+    <updated>2026-01-22T18:58:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.14490v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14490v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GutenOCR is a family of grounded OCR front-ends obtained by fine-tuning Qwen2.5-VL-3B and Qwen2.5-VL-7B. The resulting single-checkpoint vision-language models expose reading, detection, and grounding through a unified, prompt-based interface. Trained on business documents, scientific articles, and synthetic grounding data, the models support full-page and localized reading with line- and paragraph-level bounding boxes and conditional ``where is x?'' queries. We introduce a grounded OCR evaluation protocol and show that GutenOCR-7B more than doubles the composite grounded OCR score of its Qwen2.5-VL-7B backbone on 10.5K held-out business and scientific pages (0.40 to 0.82). On Fox and OmniDocBench v1.5, our approach substantially improves region- and line-level OCR as well as text-detection recall, but reveals trade-offs in page-level linearization, color-guided OCR, and formula-heavy layouts.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T21:26:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hunter Heidenreich</name>
+    </author>
+    <author>
+      <name>Ben Elliott</name>
+    </author>
+    <author>
+      <name>Olivia Dinica</name>
+    </author>
+    <author>
+      <name>Yosheb Getachew</name>
+    </author>
+  </entry>
+</feed>

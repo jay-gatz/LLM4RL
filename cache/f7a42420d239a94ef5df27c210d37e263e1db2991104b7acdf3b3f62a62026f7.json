@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UCXSLJtjesU3/GnBfBsQWNHwROI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.00014v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:40:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.00014v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00014v1</id>
+    <title>SWE-Bench-CL: Continual Learning for Coding Agents</title>
+    <updated>2025-06-13T07:11:14Z</updated>
+    <link href="https://arxiv.org/abs/2507.00014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.00014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have achieved impressive results on static code-generation benchmarks, but real-world software development unfolds as a continuous stream of evolving issues, fixes, and feature requests. We introduce SWE-Bench-CL, a novel continual learning benchmark built on the human-verified SWE-Bench Verified dataset introduced by OpenAI and Princeton-NLP in 2024. By organizing GitHub issues into chronologically ordered sequences that reflect natural repository evolution, SWE-Bench-CL enables direct evaluation of an agent's ability to accumulate experience, transfer knowledge across tasks, and resist catastrophic forgetting. We complement the dataset with (i) a preliminary analysis of inter-task structural similarity and contextual sensitivity, (ii) an interactive LangGraph-based evaluation framework augmented with a FAISS-backed semantic memory module, and (iii) a suite of specialized continual learning metrics -- including average accuracy, forgetting, forward/backward transfer, tool-use efficiency, and a generalized Composite Continual Learning Score and CL-F-beta score -- to capture the stability-plasticity trade-off. We outline a rigorous experimental protocol comparing memory-enabled and memory-disabled agents across diverse Python repositories. All code and data are publicly available at https://github.com/thomasjoshi/agents-never-forget, providing the community with a reproducible platform for developing more adaptive and robust AI agents in software engineering.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-13T07:11:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thomas Joshi</name>
+    </author>
+    <author>
+      <name>Shayan Chowdhury</name>
+    </author>
+    <author>
+      <name>Fatih Uysal</name>
+    </author>
+  </entry>
+</feed>

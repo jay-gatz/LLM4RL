@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AIJKOU2cWtMnBrmsiJAL6vO4FNQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03668v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03668v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03668v1</id>
+    <title>MVP-LAM: Learning Action-Centric Latent Action via Cross-Viewpoint Reconstruction</title>
+    <updated>2026-02-03T15:51:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.03668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning \emph{latent actions} from diverse human videos enables scaling robot learning beyond embodiment-specific robot datasets, and these latent actions have recently been used as pseudo-action labels for vision-language-action (VLA) model pretraining. To make VLA pretraining effective, latent actions should contain information about the underlying agent's actions despite the absence of ground-truth labels. We propose \textbf{M}ulti-\textbf{V}iew\textbf{P}oint \textbf{L}atent \textbf{A}ction \textbf{M}odel (\textbf{MVP-LAM}), which learns discrete latent actions that are highly informative about ground-truth actions from time-synchronized multi-view videos. MVP-LAM trains latent actions with a \emph{cross-viewpoint reconstruction} objective, so that a latent action inferred from one view must explain the future in another view, reducing reliance on viewpoint-specific cues. On Bridge V2, MVP-LAM produces more action-centric latent actions, achieving higher mutual information with ground-truth actions and improved action prediction, including under out-of-distribution evaluation. Finally, pretraining VLAs with MVP-LAM latent actions improves downstream manipulation performance on the SIMPLER and LIBERO-Long benchmarks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T15:51:25Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jung Min Lee</name>
+    </author>
+    <author>
+      <name>Dohyeok Lee</name>
+    </author>
+    <author>
+      <name>Seokhun Ju</name>
+    </author>
+    <author>
+      <name>Taehyun Cho</name>
+    </author>
+    <author>
+      <name>Jin Woo Koo</name>
+    </author>
+    <author>
+      <name>Li Zhao</name>
+    </author>
+    <author>
+      <name>Sangwoo Hong</name>
+    </author>
+    <author>
+      <name>Jungwoo Lee</name>
+    </author>
+  </entry>
+</feed>

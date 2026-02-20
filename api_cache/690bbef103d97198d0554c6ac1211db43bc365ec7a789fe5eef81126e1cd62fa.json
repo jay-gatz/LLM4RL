@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K9jePXjGllN1OWdxUBFw0nvtW1E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12222v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12222v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12222v1</id>
+    <title>Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training</title>
+    <updated>2026-02-12T17:59:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.12222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL's use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \textbf{\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between data and the model-induced distribution. Leveraging DDT, we introduce two complementary techniques: (i) \textbf{\textit{In-Distribution Finetuning (IDFT)}}, a loss-level method to enhance generalization ability of SFT, and (ii) \textbf{\textit{Hinted Decoding}}, a data-level technique that can re-align the training corpus to the model's distribution. Extensive experiments demonstrate that our framework achieves generalization performance on par with prominent offline RL algorithms, including DPO and SimPO, while maintaining the efficiency of an SFT pipeline. The proposed framework thus offers a practical alternative in domains where RL is infeasible. We open-source the code here: https://github.com/zhangmiaosen2000/Towards-On-Policy-SFT</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T17:59:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Miaosen Zhang</name>
+    </author>
+    <author>
+      <name>Yishan Liu</name>
+    </author>
+    <author>
+      <name>Shuxia Lin</name>
+    </author>
+    <author>
+      <name>Xu Yang</name>
+    </author>
+    <author>
+      <name>Qi Dai</name>
+    </author>
+    <author>
+      <name>Chong Luo</name>
+    </author>
+    <author>
+      <name>Weihao Jiang</name>
+    </author>
+    <author>
+      <name>Peng Hou</name>
+    </author>
+    <author>
+      <name>Anxiang Zeng</name>
+    </author>
+    <author>
+      <name>Xin Geng</name>
+    </author>
+    <author>
+      <name>Baining Guo</name>
+    </author>
+  </entry>
+</feed>

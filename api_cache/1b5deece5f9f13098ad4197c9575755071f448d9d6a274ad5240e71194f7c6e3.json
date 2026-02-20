@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j2lEWFP+q0iQ2eWHR46IlbsQ/AE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.11658v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.11658v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11658v1</id>
+    <title>Towards AGI A Pragmatic Approach Towards Self Evolving Agent</title>
+    <updated>2026-01-15T20:43:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.11658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) based agents are powerful yet fundamentally static after deployment, lacking the ability to autonomously expand capabilities, generate new tools, or evolve their reasoning. This work introduces a hierarchical self-evolving multi-agent framework that integrates a Base LLM, an operational SLM agent, a Code-Generation LLM, and a Teacher-LLM to enable continuous adaptation. The workflow begins with the agent attempting a task using reasoning and existing tools; if unsuccessful, it escalates to tool synthesis through the Code-Gen LLM, and when failures persist, it triggers an evolution phase using Curriculum Learning (CL), Reward-Based Learning (RL), or Genetic Algorithm (GA) evolution. Using the TaskCraft dataset rich in hierarchical tasks, tool-use traces, and difficulty scaling we evaluate these paradigms. CL delivers fast recovery and strong generalization, RL excels on high-difficulty tasks, and GA offers high behavioral diversity. Across all settings, evolved agents outperform their originals, demonstrating robust, autonomous, self-improving agentic evolution.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T20:43:44Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Indrajit Kar</name>
+    </author>
+    <author>
+      <name>Sammy Zonunpuia</name>
+    </author>
+    <author>
+      <name>Zonunfeli Ralte</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kZp2AKz7KQjZHwFtYPu7i4P4p1g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.06766v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.06766v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.06766v2</id>
+    <title>FamilyTool: A Multi-hop Personalized Tool Use Benchmark</title>
+    <updated>2025-05-26T08:57:37Z</updated>
+    <link href="https://arxiv.org/abs/2504.06766v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.06766v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of tool learning with Large Language Models (LLMs) has expanded their capabilities in handling complex tasks by leveraging external tools. However, existing benchmarks for tool learning inadequately address critical real-world personalized scenarios, particularly those requiring multi-hop reasoning and inductive knowledge adaptation in dynamic environments. To bridge this gap, we introduce FamilyTool, a novel benchmark grounded in a family-based knowledge graph (KG) that simulates personalized, multi-hop tool use scenarios. FamilyTool, including base and extended datasets, challenges LLMs with queries spanning from 1 to 4 relational hops (e.g., inferring familial connections and preferences) and 2 to 6 hops respectively, and incorporates an inductive KG setting where models must adapt to unseen user preferences and relationships without re-training, a common limitation in prior approaches that compromises generalization. We further propose KGETool: a simple KG-augmented evaluation pipeline to systematically assess LLMs' tool use ability in these settings. Experiments reveal significant performance gaps in state-of-the-art LLMs, with accuracy dropping sharply as hop complexity increases and inductive scenarios exposing severe generalization deficits. These findings underscore the limitations of current LLMs in handling personalized, evolving real-world contexts and highlight the urgent need for advancements in tool-learning frameworks. FamilyTool serves as a critical resource for evaluating and advancing LLM agents' reasoning, adaptability, and scalability in complex, dynamic environments. Code and dataset are available at \href{https://github.com/yxzwang/FamilyTool}{https://github.com/yxzwang/FamilyTool}.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-09T10:42:36Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuxin Wang</name>
+    </author>
+    <author>
+      <name>Yiran Guo</name>
+    </author>
+    <author>
+      <name>Yining Zheng</name>
+    </author>
+    <author>
+      <name>Zhangyue Yin</name>
+    </author>
+    <author>
+      <name>Shuo Chen</name>
+    </author>
+    <author>
+      <name>Jie Yang</name>
+    </author>
+    <author>
+      <name>Jiajun Chen</name>
+    </author>
+    <author>
+      <name>Yuan Li</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+  </entry>
+</feed>

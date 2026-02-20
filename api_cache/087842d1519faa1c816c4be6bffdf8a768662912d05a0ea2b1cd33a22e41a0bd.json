@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eZgTsSfV5P9B+vXbFdAMtcBgUSw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05202v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05202v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05202v1</id>
+    <title>GT-SVJ: Generative-Transformer-Based Self-Supervised Video Judge For Efficient Video Reward Modeling</title>
+    <updated>2026-02-05T01:54:01Z</updated>
+    <link href="https://arxiv.org/abs/2602.05202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aligning video generative models with human preferences remains challenging: current approaches rely on Vision-Language Models (VLMs) for reward modeling, but these models struggle to capture subtle temporal dynamics. We propose a fundamentally different approach: repurposing video generative models, which are inherently designed to model temporal structure, as reward models. We present the Generative-Transformer-based Self-Supervised Video Judge (\modelname), a novel evaluation model that transforms state-of-the-art video generation models into powerful temporally-aware reward models. Our key insight is that generative models can be reformulated as energy-based models (EBMs) that assign low energy to high-quality videos and high energy to degraded ones, enabling them to discriminate video quality with remarkable precision when trained via contrastive objectives. To prevent the model from exploiting superficial differences between real and generated videos, we design challenging synthetic negative videos through controlled latent-space perturbations: temporal slicing, feature swapping, and frame shuffling, which simulate realistic but subtle visual degradations. This forces the model to learn meaningful spatiotemporal features rather than trivial artifacts. \modelname achieves state-of-the-art performance on GenAI-Bench and MonteBench using only 30K human-annotations: $6\times$ to $65\times$ fewer than existing VLM-based approaches.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T01:54:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shivanshu Shekhar</name>
+    </author>
+    <author>
+      <name>Uttaran Bhattacharya</name>
+    </author>
+    <author>
+      <name>Raghavendra Addanki</name>
+    </author>
+    <author>
+      <name>Mehrab Tanjim</name>
+    </author>
+    <author>
+      <name>Somdeb Sarkhel</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+  </entry>
+</feed>

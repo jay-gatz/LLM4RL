@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TE0Il3xDeEuY0ZWL30J9yRCkxLo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.05911&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.05911" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.05911v2</id>
+    <title>Towards Optimizing Human-Centric Objectives in AI-Assisted Decision-Making With Offline Reinforcement Learning</title>
+    <updated>2024-04-14T21:17:57Z</updated>
+    <link href="https://arxiv.org/abs/2403.05911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.05911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imagine if AI decision-support tools not only complemented our ability to make accurate decisions, but also improved our skills, boosted collaboration, and elevated the joy we derive from our tasks. Despite the potential to optimize a broad spectrum of such human-centric objectives, the design of current AI tools remains focused on decision accuracy alone. We propose offline reinforcement learning (RL) as a general approach for modeling human-AI decision-making to optimize human-AI interaction for diverse objectives. RL can optimize such objectives by tailoring decision support, providing the right type of assistance to the right person at the right time. We instantiated our approach with two objectives: human-AI accuracy on the decision-making task and human learning about the task and learned decision support policies from previous human-AI interaction data. We compared the optimized policies against several baselines in AI-assisted decision-making. Across two experiments (N=316 and N=964), our results demonstrated that people interacting with policies optimized for accuracy achieve significantly better accuracy -- and even human-AI complementarity -- compared to those interacting with any other type of AI support. Our results further indicated that human learning was more difficult to optimize than accuracy, with participants who interacted with learning-optimized policies showing significant learning improvement only at times. Our research (1) demonstrates offline RL to be a promising approach to model human-AI decision-making, leading to policies that may optimize human-centric objectives and provide novel insights about the AI-assisted decision-making space, and (2) emphasizes the importance of considering human-centric objectives beyond decision accuracy in AI-assisted decision-making, opening up the novel research challenge of optimizing human-AI interaction for such objectives.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-09T13:30:00Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Zana Buçinca</name>
+    </author>
+    <author>
+      <name>Siddharth Swaroop</name>
+    </author>
+    <author>
+      <name>Amanda E. Paluch</name>
+    </author>
+    <author>
+      <name>Susan A. Murphy</name>
+    </author>
+    <author>
+      <name>Krzysztof Z. Gajos</name>
+    </author>
+  </entry>
+</feed>

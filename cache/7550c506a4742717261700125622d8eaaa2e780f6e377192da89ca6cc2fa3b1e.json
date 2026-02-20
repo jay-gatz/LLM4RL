@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Fbm6sCM5UBzK3LtloWA7bK60Ueo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17755v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17755v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17755v1</id>
+    <title>ProGraph-R1: Progress-aware Reinforcement Learning for Graph Retrieval Augmented Generation</title>
+    <updated>2026-01-25T08:58:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.17755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graph Retrieval-Augmented Generation (GraphRAG) has been successfully applied in various knowledge-intensive question answering tasks by organizing external knowledge into structured graphs of entities and relations. It enables large language models (LLMs) to perform complex reasoning beyond text-chunk retrieval. Recent works have employed reinforcement learning (RL) to train agentic GraphRAG frameworks that perform iterative interactions between LLMs and knowledge graphs. However, existing RL-based frameworks such as Graph-R1 suffer from two key limitations: (1) they primarily depend on semantic similarity for retrieval, often overlooking the underlying graph structure, and (2) they rely on sparse, outcome-level rewards, failing to capture the quality of intermediate retrieval steps and their dependencies. To address these limitations, we propose ProGraph-R1, a progress-aware agentic framework for graph-based retrieval and multi-step reasoning. ProGraph-R1 introduces a structure-aware hypergraph retrieval mechanism that jointly considers semantic relevance and graph connectivity, encouraging coherent traversal along multi-hop reasoning paths. We also design a progress-based step-wise policy optimization, which provides dense learning signals by modulating advantages according to intermediate reasoning progress within a graph, rather than relying solely on final outcomes. Experiments on multi-hop question answering benchmarks demonstrate that ProGraph-R1 consistently improves reasoning accuracy and generation quality over existing GraphRAG methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-25T08:58:44Z</published>
+    <arxiv:comment>In progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jinyoung Park</name>
+    </author>
+    <author>
+      <name>Sanghyeok Lee</name>
+    </author>
+    <author>
+      <name>Omar Zia Khan</name>
+    </author>
+    <author>
+      <name>Hyunwoo J. Kim</name>
+    </author>
+    <author>
+      <name>Joo-Kyung Kim</name>
+    </author>
+  </entry>
+</feed>

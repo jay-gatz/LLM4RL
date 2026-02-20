@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Jq+iMMbtaRleu1y1EjlfNn6VJCE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.04056&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.04056" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04056v2</id>
+    <title>A Minimaximalist Approach to Reinforcement Learning from Human Feedback</title>
+    <updated>2024-06-13T14:45:36Z</updated>
+    <link href="https://arxiv.org/abs/2401.04056v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04056v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Self-Play Preference Optimization (SPO), an algorithm for reinforcement learning from human feedback. Our approach is minimalist in that it does not require training a reward model nor unstable adversarial training and is therefore rather simple to implement. Our approach is maximalist in that it provably handles non-Markovian, intransitive, and stochastic preferences while being robust to the compounding errors that plague offline approaches to sequential prediction. To achieve the preceding qualities, we build upon the concept of a Minimax Winner (MW), a notion of preference aggregation from the social choice theory literature that frames learning from preferences as a zero-sum game between two policies. By leveraging the symmetry of this game, we prove that rather than using the traditional technique of dueling two policies to compute the MW, we can simply have a single agent play against itself while maintaining strong convergence guarantees. Practically, this corresponds to sampling multiple trajectories from a policy, asking a preference or teacher model to compare them, and then using the proportion of wins as the reward for a particular trajectory. We demonstrate that on a suite of continuous control tasks, we are able to learn significantly more efficiently than reward-model based approaches while maintaining robustness to the intransitive and stochastic preferences that frequently occur in practice when aggregating human judgments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-08T17:55:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gokul Swamy</name>
+    </author>
+    <author>
+      <name>Christoph Dann</name>
+    </author>
+    <author>
+      <name>Rahul Kidambi</name>
+    </author>
+    <author>
+      <name>Zhiwei Steven Wu</name>
+    </author>
+    <author>
+      <name>Alekh Agarwal</name>
+    </author>
+  </entry>
+</feed>

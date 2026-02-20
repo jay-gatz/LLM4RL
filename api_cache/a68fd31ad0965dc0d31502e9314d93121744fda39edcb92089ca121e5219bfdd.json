@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NJI8Vlx+nBH1ZkOUE1fTIrU/fbg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16304v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16304v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16304v1</id>
+    <title>Mind the Gap: Evaluating LLMs for High-Level Malicious Package Detection vs. Fine-Grained Indicator Identification</title>
+    <updated>2026-02-18T09:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.16304v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16304v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The prevalence of malicious packages in open-source repositories, such as PyPI, poses a critical threat to the software supply chain. While Large Language Models (LLMs) have emerged as a promising tool for automated security tasks, their effectiveness in detecting malicious packages and indicators remains underexplored. This paper presents a systematic evaluation of 13 LLMs for detecting malicious software packages. Using a curated dataset of 4,070 packages (3,700 benign and 370 malicious), we evaluate model performance across two tasks: binary classification (package detection) and multi-label classification (identification of specific malicious indicators). We further investigate the impact of prompting strategies, temperature settings, and model specifications on detection accuracy. We find a significant "granularity gap" in LLMs' capabilities. While GPT-4.1 achieves near-perfect performance in binary detection (F1 $\approx$ 0.99), performance degrades by approximately 41\% when the task shifts to identifying specific malicious indicators. We observe that general models are best for filtering out the majority of threats, while specialized coder models are better at detecting attacks that follow a strict, predictable code structure. Our correlation analysis indicates that parameter size and context width have negligible explanatory power regarding detection accuracy. We conclude that while LLMs are powerful detectors at the package level, they lack the semantic depth required for precise identification at the granular indicator level.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T09:36:46Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ahmed Ryan</name>
+    </author>
+    <author>
+      <name>Ibrahim Khalil</name>
+    </author>
+    <author>
+      <name>Abdullah Al Jahid</name>
+    </author>
+    <author>
+      <name>Md Erfan</name>
+    </author>
+    <author>
+      <name>Akond Ashfaque Ur Rahman</name>
+    </author>
+    <author>
+      <name>Md Rayhanur Rahman</name>
+    </author>
+  </entry>
+</feed>

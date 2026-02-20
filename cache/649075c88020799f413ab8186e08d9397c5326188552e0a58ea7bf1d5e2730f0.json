@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8mHQt8g2lFKSNtBDZ57agAqE6cE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2309.10062&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2309.10062" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.10062v2</id>
+    <title>SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models</title>
+    <updated>2024-03-23T03:50:18Z</updated>
+    <link href="https://arxiv.org/abs/2309.10062v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.10062v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we introduce SMART-LLM, an innovative framework designed for embodied multi-robot task planning. SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models (LLMs), harnesses the power of LLMs to convert high-level task instructions provided as input into a multi-robot task plan. It accomplishes this by executing a series of stages, including task decomposition, coalition formation, and task allocation, all guided by programmatic LLM prompts within the few-shot prompting paradigm. We create a benchmark dataset designed for validating the multi-robot task planning problem, encompassing four distinct categories of high-level instructions that vary in task complexity. Our evaluation experiments span both simulation and real-world scenarios, demonstrating that the proposed model can achieve promising results for generating multi-robot task plans. The experimental videos, code, and datasets from the work can be found at https://sites.google.com/view/smart-llm/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T18:17:56Z</published>
+    <arxiv:comment>Submitted to IROS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Shyam Sundar Kannan</name>
+    </author>
+    <author>
+      <name>Vishnunandan L. N. Venkatesh</name>
+    </author>
+    <author>
+      <name>Byung-Cheol Min</name>
+    </author>
+  </entry>
+</feed>

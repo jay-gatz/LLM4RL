@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KAJpGVBIdHquw05V1OhRBNBlSWw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07680v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07680v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07680v2</id>
+    <title>Vision and Language: Novel Representations and Artificial intelligence for Driving Scene Safety Assessment and Autonomous Vehicle Planning</title>
+    <updated>2026-02-18T11:33:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.07680v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07680v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have recently emerged as powerful representation learning systems that align visual observations with natural language concepts, offering new opportunities for semantic reasoning in safety-critical autonomous driving. This paper investigates how vision-language representations support driving scene safety assessment and decision-making when integrated into perception, prediction, and planning pipelines. We study three complementary system-level use cases. First, we introduce a lightweight, category-agnostic hazard screening approach leveraging CLIP-based image-text similarity to produce a low-latency semantic hazard signal. This enables robust detection of diverse and out-of-distribution road hazards without explicit object detection or visual question answering. Second, we examine the integration of scene-level vision-language embeddings into a transformer-based trajectory planning framework using the Waymo Open Dataset. Our results show that naively conditioning planners on global embeddings does not improve trajectory accuracy, highlighting the importance of representation-task alignment and motivating the development of task-informed extraction methods for safety-critical planning. Third, we investigate natural language as an explicit behavioral constraint on motion planning using the doScenes dataset. In this setting, passenger-style instructions grounded in visual scene elements suppress rare but severe planning failures and improve safety-aligned behavior in ambiguous scenarios. Taken together, these findings demonstrate that vision-language representations hold significant promise for autonomous driving safety when used to express semantic risk, intent, and behavioral constraints. Realizing this potential is fundamentally an engineering problem requiring careful system design and structured grounding rather than direct feature injection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T20:04:21Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ross Greer</name>
+    </author>
+    <author>
+      <name>Maitrayee Keskar</name>
+    </author>
+    <author>
+      <name>Angel Martinez-Sanchez</name>
+    </author>
+    <author>
+      <name>Parthib Roy</name>
+    </author>
+    <author>
+      <name>Shashank Shriram</name>
+    </author>
+    <author>
+      <name>Mohan Trivedi</name>
+    </author>
+  </entry>
+</feed>

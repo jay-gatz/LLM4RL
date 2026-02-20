@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/miFaQyJ5Fakd8kEBb50x4jHwDYs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.27566v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.27566v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27566v1</id>
+    <title>Interact-RAG: Reason and Interact with the Corpus, Beyond Black-Box Retrieval</title>
+    <updated>2025-10-31T15:48:43Z</updated>
+    <link href="https://arxiv.org/abs/2510.27566v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27566v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation (RAG) has significantly enhanced LLMs by incorporating external information. However, prevailing agentic RAG approaches are constrained by a critical limitation: they treat the retrieval process as a black-box querying operation. This confines agents' actions to query issuing, hindering its ability to tackle complex information-seeking tasks. To address this, we introduce Interact-RAG, a new paradigm that elevates the LLM agent from a passive query issuer into an active manipulator of the retrieval process. We dismantle the black-box with a Corpus Interaction Engine, equipping the agent with a set of action primitives for fine-grained control over information retrieval. To further empower the agent on the entire RAG pipeline, we first develop a reasoning-enhanced workflow, which enables both zero-shot execution and the synthesis of interaction trajectories. We then leverage this synthetic data to train a fully autonomous end-to-end agent via Supervised Fine-Tuning (SFT), followed by refinement with Reinforcement Learning (RL). Extensive experiments across six benchmarks demonstrate that Interact-RAG significantly outperforms other advanced methods, validating the efficacy of our reasoning-interaction strategy.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T15:48:43Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yulong Hui</name>
+    </author>
+    <author>
+      <name>Chao Chen</name>
+    </author>
+    <author>
+      <name>Zhihang Fu</name>
+    </author>
+    <author>
+      <name>Yihao Liu</name>
+    </author>
+    <author>
+      <name>Jieping Ye</name>
+    </author>
+    <author>
+      <name>Huanchen Zhang</name>
+    </author>
+  </entry>
+</feed>

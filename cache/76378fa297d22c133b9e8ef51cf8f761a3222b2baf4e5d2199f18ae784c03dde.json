@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EROHWUkpUDK8OlIfPtv7eJa7wy4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.02918v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.02918v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02918v2</id>
+    <title>World Modelling Improves Language Model Agents</title>
+    <updated>2025-09-19T03:54:30Z</updated>
+    <link href="https://arxiv.org/abs/2506.02918v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02918v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool use in stateful environments presents unique challenges for large language models (LLMs), where existing test-time compute strategies relying on repeated trials in the environment are impractical. We propose dynamics modelling (DyMo), a method that augments LLMs with a state prediction capability alongside function calling during post-training. This enables LLMs to predict the future states of their actions through an internal environment model. On the Berkeley Function Calling Leaderboard V2, DyMo improves success rates and significantly reduces hallucinations. We further integrate the internal environment model into self-verification sampling (SVS), and show that this substantially improves pass^k over number of trials k, and allows the model to refuse unreliable outputs. Together, DyMo and SVS greatly enhance the effectiveness and reliability of LLMs for tool use. We believe this work charts a path towards scalable planning RL methods for LLM inference without repeatedly querying the oracle environment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-03T14:20:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shangmin Guo</name>
+    </author>
+    <author>
+      <name>Omar Darwiche Domingues</name>
+    </author>
+    <author>
+      <name>Raphaël Avalos</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Florian Strub</name>
+    </author>
+  </entry>
+</feed>

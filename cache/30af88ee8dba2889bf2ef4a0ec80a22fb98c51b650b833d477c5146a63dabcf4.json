@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HnFRGbmns83cWMV4QYeC88bBQaQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05765v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05765v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05765v1</id>
+    <title>RL-VLA$^3$: Reinforcement Learning VLA Accelerating via Full Asynchronism</title>
+    <updated>2026-02-05T15:30:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.05765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Vision-Language-Action (VLA) models have emerged as a crucial pathway towards general embodied intelligence, yet their training efficiency has become a key bottleneck. Although existing reinforcement learning (RL)-based training frameworks like RLinf can enhance model generalization, they still rely on synchronous execution, leading to severe resource underutilization and throughput limitations during environment interaction, policy generation (rollout), and model update phases (actor). To overcome this challenge, this paper, for the first time, proposes and implements a fully-asynchronous policy training framework encompassing the entire pipeline from environment interaction, rollout generation, to actor policy updates. Systematically drawing inspiration from asynchronous optimization ideas in large model RL, our framework designs a multi-level decoupled architecture. This includes asynchronous parallelization of environment interaction and trajectory collection, streaming execution for policy generation, and decoupled scheduling for training updates. We validated the effectiveness of our method across diverse VLA models and environments. On the LIBERO benchmark, the framework achieves throughput improvements of up to 59.25\% compared to existing synchronous strategies. When deeply optimizing separation strategies, throughput can be increased by as much as 126.67\%. We verified the effectiveness of each asynchronous component via ablation studies. Scaling law validation across 8 to 256 GPUs demonstrates our method's excellent scalability under most conditions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T15:30:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhong Guan</name>
+    </author>
+    <author>
+      <name>Haoran Sun</name>
+    </author>
+    <author>
+      <name>Yongjian Guo</name>
+    </author>
+    <author>
+      <name>Shuai Di</name>
+    </author>
+    <author>
+      <name>Xiaodong Bai</name>
+    </author>
+    <author>
+      <name>Jing Long</name>
+    </author>
+    <author>
+      <name>Tianyun Zhao</name>
+    </author>
+    <author>
+      <name>Mingxi Luo</name>
+    </author>
+    <author>
+      <name>Chen Zhou</name>
+    </author>
+    <author>
+      <name>Yucheng Guo</name>
+    </author>
+    <author>
+      <name>Qiming Yang</name>
+    </author>
+    <author>
+      <name>Wanting Xu</name>
+    </author>
+    <author>
+      <name>Wen Huang</name>
+    </author>
+    <author>
+      <name>Yunxuan Ma</name>
+    </author>
+    <author>
+      <name>Hongke Zhao</name>
+    </author>
+    <author>
+      <name>Likang Wu</name>
+    </author>
+    <author>
+      <name>Xiaotie Deng</name>
+    </author>
+    <author>
+      <name>Xi Xiao</name>
+    </author>
+    <author>
+      <name>Sheng Wen</name>
+    </author>
+    <author>
+      <name>Yicheng Gong</name>
+    </author>
+    <author>
+      <name>Junwu Xiong</name>
+    </author>
+  </entry>
+</feed>

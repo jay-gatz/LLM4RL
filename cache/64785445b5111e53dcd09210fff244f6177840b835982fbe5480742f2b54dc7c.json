@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iWiWZy+ugeBDES46qb2WZZ+j9ro</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.22462v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.22462v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22462v2</id>
+    <title>Learning "Partner-Aware" Collaborators in Multi-Party Collaboration</title>
+    <updated>2026-01-13T03:18:44Z</updated>
+    <link href="https://arxiv.org/abs/2510.22462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly being deployed in agentic settings where they act as collaborators with humans. Therefore, it is increasingly important to be able to evaluate their abilities to collaborate effectively in multi-turn, multi-party tasks. In this paper, we build on the AI alignment and safe interruptibility literature to offer novel theoretical insights on collaborative behavior between LLM-driven collaborator agents and an intervention agent. Our goal is to learn an ideal partner-aware collaborator that increases the group's common-ground (CG) alignment on task-relevant propositions-by intelligently collecting information provided in interventions by a partner agent. We show how LLM agents trained using standard RLHF and related approaches are naturally inclined to ignore possibly well-meaning interventions, which makes increasing group common ground non-trivial in this setting. We employ a two-player Modified-Action MDP to examine this suboptimal behavior of standard AI agents, and propose Interruptible Collaborative Roleplayer (ICR)-a novel partner-aware learning algorithm to train CG-optimal collaborators. Experiments on multiple collaborative task environments show that ICR, on average, is more capable of promoting successful CG convergence and exploring more diverse solutions in such tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-26T00:05:48Z</published>
+    <arxiv:comment>Fixed typographic errors in the previous manuscript</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abhijnan Nath</name>
+    </author>
+    <author>
+      <name>Nikhil Krishnaswamy</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/O0KrA0SgANjOcCT7h1nmFz02W/4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22182v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22182v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22182v1</id>
+    <title>ShellForge: Adversarial Co-Evolution of Webshell Generation and Multi-View Detection for Robust Webshell Defense</title>
+    <updated>2026-01-28T07:02:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.22182v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22182v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Webshells remain a primary foothold for attackers to compromise servers, particularly within PHP ecosystems. However, existing detection mechanisms often struggle to keep pace with rapid variant evolution and sophisticated obfuscation techniques that camouflage malicious intent. Furthermore, many current defenses suffer from high false-alarm rates when encountering benign administrative scripts that employ heavy obfuscation for intellectual property protection. To address these challenges, we present ShellForge, an adversarial co-evolution framework that couples automated webshell generation with multi-view detection to continuously harden defensive boundaries. The framework operates through an iterative co-training loop where a generator and a detector mutually reinforce each other via the exchange of hard samples. The generator is optimized through supervised fine-tuning and preference-based reinforcement learning to synthesize functional, highly evasive variants. Simultaneously, we develop a multi-view fusion detector that integrates semantic features from long-string compression, structural features from pruned abstract syntax trees, and global statistical indicators such as Shannon entropy. To minimize false positives, ShellForge utilizes a LLM-based transformation to create de-malicious samples--scripts that retain complex obfuscation patterns but lack harmful payloads--serving as high-quality hard negatives during training. Evaluations on the public FWOID benchmark demonstrate that ShellForge significantly enhances defensive robustness. Upon convergence, the detector maintains a 0.981 F1-score while the generator achieves a 0.939 evasion rate against commercial engines on VirusTotal.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T07:02:47Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yizhong Ding</name>
+    </author>
+  </entry>
+</feed>

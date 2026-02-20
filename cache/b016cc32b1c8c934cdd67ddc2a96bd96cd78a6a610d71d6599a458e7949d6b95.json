@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xBZiD5uSRqFNxxCUPq0C47OhT8c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.12908v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.12908v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12908v1</id>
+    <title>DeepSport: A Multimodal Large Language Model for Comprehensive Sports Video Reasoning via Agentic Reinforcement Learning</title>
+    <updated>2025-11-17T02:57:15Z</updated>
+    <link href="https://arxiv.org/abs/2511.12908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sports video understanding presents unique challenges, requiring models to perceive high-speed dynamics, comprehend complex rules, and reason over long temporal contexts. While Multimodal Large Language Models (MLLMs) have shown promise in genral domains, the current state of research in sports remains narrowly focused: existing approaches are either single-sport centric, limited to specific tasks, or rely on training-free paradigms that lack robust, learned reasoning process. To address this gap, we introduce DeepSport, the first end-to-end trained MLLM framework designed for multi-task, multi-sport video understanding. DeepSport shifts the paradigm from passive frame processing to active, iterative reasoning, empowering the model to ``think with videos'' by dynamically interrogating content via a specialized frame-extraction tool. To enable this, we propose a data distillation pipeline that synthesizes high-quality Chain-of-Thought (CoT) trajectories from 10 diverse data source, creating a unified resource of 78k training data. We then employ a two-stage training strategy, Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (RL) with a novel gated tool-use reward, to optimize the model's reasoning process. Extensive experiments on the testing benchmark of 6.7k questions demonstrate that DeepSport achieves state-of-the-art performance, significantly outperforming baselines of both proprietary model and open-source models. Our work establishes a new foundation for domain-specific video reasoning to address the complexities of diverse sports.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-17T02:57:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junbo Zou</name>
+    </author>
+    <author>
+      <name>Haotian Xia</name>
+    </author>
+    <author>
+      <name>Zhen Ye</name>
+    </author>
+    <author>
+      <name>Shengjie Zhang</name>
+    </author>
+    <author>
+      <name>Christopher Lai</name>
+    </author>
+    <author>
+      <name>Vicente Ordonez</name>
+    </author>
+    <author>
+      <name>Weining Shen</name>
+    </author>
+    <author>
+      <name>Hanjie Chen</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rs1V/w4PG76WZHGGHMRS11YPqPA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.15198&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.15198" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15198v3</id>
+    <title>Do LLM Agents Exhibit Social Behavior?</title>
+    <updated>2024-10-15T20:27:04Z</updated>
+    <link href="https://arxiv.org/abs/2312.15198v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15198v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLMs increasingly take on roles in human-AI interactions and autonomous AI systems, understanding their social behavior becomes important for informed use and continuous improvement. However, their behaviors in social interactions with humans and other agents, as well as the mechanisms shaping their responses, remain underexplored. To address this gap, we introduce a novel probabilistic framework, State-Understanding-Value-Action (SUVA), to systematically analyze LLM responses in social contexts based on their textual outputs (i.e., utterances). Using canonical behavioral economics games and social preference concepts relatable to LLM users, SUVA assesses LLMs' social behavior through both their final decisions and the response generation processes leading to those decisions. Our analysis of eight LLMs -- including two GPT, four LLaMA, and two Mistral models -- suggests that most models do not generate decisions aligned solely with self-interest; instead, they often produce responses that reflect social welfare considerations and display patterns consistent with direct and indirect reciprocity. Additionally, higher-capacity models more frequently display group identity effects. The SUVA framework also provides explainable tools -- including tree-based visualizations and probabilistic dependency analysis -- to elucidate how factors in LLMs' utterance-based reasoning influence their decisions. We demonstrate that utterance-based reasoning reliably predicts LLMs' final actions; references to altruism, fairness, and cooperation in the reasoning increase the likelihood of prosocial actions, while mentions of self-interest and competition reduce them. Overall, our framework enables practitioners to assess LLMs for applications involving social interactions, and provides researchers with a structured method to interpret how LLM behavior arises from utterance-based reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-23T08:46:53Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yan Leng</name>
+    </author>
+    <author>
+      <name>Yuan Yuan</name>
+    </author>
+  </entry>
+</feed>

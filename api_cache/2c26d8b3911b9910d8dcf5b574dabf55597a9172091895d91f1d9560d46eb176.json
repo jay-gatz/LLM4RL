@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QR5eJ1r8uWu2wU3T/fwB4t+d40E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.08270v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.08270v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.08270v1</id>
+    <title>Agent Safety Alignment via Reinforcement Learning</title>
+    <updated>2025-07-11T02:34:16Z</updated>
+    <link href="https://arxiv.org/abs/2507.08270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.08270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of autonomous Large Language Model (LLM) agents capable of tool usage has introduced new safety risks that go beyond traditional conversational misuse. These agents, empowered to execute external functions, are vulnerable to both user-initiated threats (e.g., adversarial prompts) and tool-initiated threats (e.g., malicious outputs from compromised tools). In this paper, we propose the first unified safety-alignment framework for tool-using agents, enabling models to handle both channels of threat via structured reasoning and sandboxed reinforcement learning. We introduce a tri-modal taxonomy, including benign, malicious, and sensitive for both user prompts and tool responses, and define a policy-driven decision model. Our framework employs a custom-designed sandbox environment that simulates real-world tool execution and allows fine-grained reward shaping. Through extensive evaluations on public and self-built benchmarks, including Agent SafetyBench, InjecAgent, and BFCL, we demonstrate that our safety-aligned agents significantly improve resistance to security threats while preserving strong utility on benign tasks. Our results show that safety and effectiveness can be jointly optimized, laying the groundwork for trustworthy deployment of autonomous LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-11T02:34:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zeyang Sha</name>
+    </author>
+    <author>
+      <name>Hanling Tian</name>
+    </author>
+    <author>
+      <name>Zhuoer Xu</name>
+    </author>
+    <author>
+      <name>Shiwen Cui</name>
+    </author>
+    <author>
+      <name>Changhua Meng</name>
+    </author>
+    <author>
+      <name>Weiqiang Wang</name>
+    </author>
+  </entry>
+</feed>

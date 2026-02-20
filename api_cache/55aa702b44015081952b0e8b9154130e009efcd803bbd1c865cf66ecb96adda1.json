@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pTQiU12WBx2nrvI6g0f9VxCtQXg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05060v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:48:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05060v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05060v1</id>
+    <title>StagePilot: A Deep Reinforcement Learning Agent for Stage-Controlled Cybergrooming Simulation</title>
+    <updated>2026-02-04T21:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.05060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cybergrooming is an evolving threat to youth, necessitating proactive educational interventions. We propose StagePilot, an offline RL-based dialogue agent that simulates the stage-wise progression of grooming behaviors for prevention training. StagePilot selects conversational stages using a composite reward that balances user sentiment and goal proximity, with transitions constrained to adjacent stages for realism and interpretability. We evaluate StagePilot through LLM-based simulations, measuring stage completion, dialogue efficiency, and emotional engagement. Results show that StagePilot generates realistic and coherent conversations aligned with grooming dynamics. Among tested methods, the IQL+AWAC agent achieves the best balance between strategic planning and emotional coherence, reaching the final stage up to 43% more frequently than baselines while maintaining over 70% sentiment alignment.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T21:22:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Heajun An</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Minqian Liu</name>
+    </author>
+    <author>
+      <name>Xinyi Zhang</name>
+    </author>
+    <author>
+      <name>Sang Won Lee</name>
+    </author>
+    <author>
+      <name>Lifu Huang</name>
+    </author>
+    <author>
+      <name>Pamela J. Wisniewski</name>
+    </author>
+    <author>
+      <name>Jin-Hee Cho</name>
+    </author>
+  </entry>
+</feed>

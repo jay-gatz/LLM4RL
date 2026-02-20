@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rERV7k4dWo/DTHj2TCB5kPqQX+Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10693v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10693v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10693v1</id>
+    <title>VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training</title>
+    <updated>2026-02-11T09:48:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.10693v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10693v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training stability remains a central challenge in reinforcement learning (RL) for large language models (LLMs). Policy staleness, asynchronous training, and mismatches between training and inference engines all cause the behavior policy to diverge from the current policy, risking training collapse. Importance sampling provides a principled correction for this distribution shift but suffers from high variance; existing remedies such as token-level clipping and sequence-level normalization lack a unified theoretical foundation. We propose Variational sEquence-level Soft Policy Optimization (VESPO). By incorporating variance reduction into a variational formulation over proposal distributions, VESPO derives a closed-form reshaping kernel that operates directly on sequence-level importance weights without length normalization. Experiments on mathematical reasoning benchmarks show that VESPO maintains stable training under staleness ratios up to 64x and fully asynchronous execution, and delivers consistent gains across both dense and Mixture-of-Experts models. Code is available at https://github.com/FloyedShen/VESPO</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T09:48:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guobin Shen</name>
+    </author>
+    <author>
+      <name>Chenxiao Zhao</name>
+    </author>
+    <author>
+      <name>Xiang Cheng</name>
+    </author>
+    <author>
+      <name>Lei Huang</name>
+    </author>
+    <author>
+      <name>Xing Yu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k9ATkGPgavE9mDeNTXo5qm+8FQA</id>
+  <title>arXiv Query: search_query=&amp;id_list=1911.08265&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1911.08265" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08265v2</id>
+    <title>Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model</title>
+    <updated>2020-02-21T18:05:30Z</updated>
+    <link href="https://arxiv.org/abs/1911.08265v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.08265v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Constructing agents with planning capabilities has long been one of the main challenges in the pursuit of artificial intelligence. Tree-based planning methods have enjoyed huge success in challenging domains, such as chess and Go, where a perfect simulator is available. However, in real-world problems the dynamics governing the environment are often complex and unknown. In this work we present the MuZero algorithm which, by combining a tree-based search with a learned model, achieves superhuman performance in a range of challenging and visually complex domains, without any knowledge of their underlying dynamics. MuZero learns a model that, when applied iteratively, predicts the quantities most directly relevant to planning: the reward, the action-selection policy, and the value function. When evaluated on 57 different Atari games - the canonical video game environment for testing AI techniques, in which model-based planning approaches have historically struggled - our new algorithm achieved a new state of the art. When evaluated on Go, chess and shogi, without any knowledge of the game rules, MuZero matched the superhuman performance of the AlphaZero algorithm that was supplied with the game rules.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-19T13:58:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Julian Schrittwieser</name>
+    </author>
+    <author>
+      <name>Ioannis Antonoglou</name>
+    </author>
+    <author>
+      <name>Thomas Hubert</name>
+    </author>
+    <author>
+      <name>Karen Simonyan</name>
+    </author>
+    <author>
+      <name>Laurent Sifre</name>
+    </author>
+    <author>
+      <name>Simon Schmitt</name>
+    </author>
+    <author>
+      <name>Arthur Guez</name>
+    </author>
+    <author>
+      <name>Edward Lockhart</name>
+    </author>
+    <author>
+      <name>Demis Hassabis</name>
+    </author>
+    <author>
+      <name>Thore Graepel</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>David Silver</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-020-03051-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-020-03051-4" title="doi"/>
+  </entry>
+</feed>

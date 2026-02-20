@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nun6GG2Nfob5nixxxUHyi+Z0r/8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08237v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08237v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08237v1</id>
+    <title>Document Reconstruction Unlocks Scalable Long-Context RLVR</title>
+    <updated>2026-02-09T03:23:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.08237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning with Verifiable Rewards~(RLVR) has become a prominent paradigm to enhance the capabilities (i.e.\ long-context) of Large Language Models~(LLMs). However, it often relies on gold-standard answers or explicit evaluation rubrics provided by powerful teacher models or human experts, which are costly and time-consuming. In this work, we investigate unsupervised approaches to enhance the long-context capabilities of LLMs, eliminating the need for heavy human annotations or teacher models' supervision. Specifically, we first replace a few paragraphs with special placeholders in a long document. LLMs are trained through reinforcement learning to reconstruct the document by correctly identifying and sequencing missing paragraphs from a set of candidate options. This training paradigm enables the model to capture global narrative coherence, significantly boosting long-context performance. We validate the effectiveness of our method on two widely used benchmarks, RULER and LongBench~v2. While acquiring noticeable gains on RULER, it can also achieve a reasonable improvement on LongBench~v2 without any manually curated long-context QA data. Furthermore, we conduct extensive ablation studies to analyze the impact of reward design, data curation strategies, training schemes, and data scaling effects on model performance. We publicly release our code, data, and models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T03:23:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yao Xiao</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Yue Deng</name>
+    </author>
+    <author>
+      <name>Guanzheng Chen</name>
+    </author>
+    <author>
+      <name>Ziqi Jin</name>
+    </author>
+    <author>
+      <name>Jung-jae Kim</name>
+    </author>
+    <author>
+      <name>Xiaoli Li</name>
+    </author>
+    <author>
+      <name>Roy Ka-wei Lee</name>
+    </author>
+    <author>
+      <name>Lidong Bing</name>
+    </author>
+  </entry>
+</feed>

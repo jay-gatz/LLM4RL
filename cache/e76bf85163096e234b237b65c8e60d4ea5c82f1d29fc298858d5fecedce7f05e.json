@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/w0ht13rTs28RuDP0lDKVmfs+zyQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01523v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01523v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01523v1</id>
+    <title>A Relative-Budget Theory for Reinforcement Learning with Verifiable Rewards in Large Language Model Reasoning</title>
+    <updated>2026-02-02T01:31:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.01523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is a dominant paradigm for improving the reasoning abilities of large language models, yet its effectiveness varies across tasks and compute budgets. We propose a \emph{relative-budget} theory explaining this variation through a single quantity called relative budget $ξ:= H/\mathbb{E}[T]$, where $H$ is the generation horizon (token budget) and $T$ denotes the number of tokens until the first correct solution under a base policy. We show that $ξ$ determines sample efficiency by controlling reward variance and the likelihood of informative trajectories. Our analysis reveals three regimes: in the \emph{deficient} regime ($ξ\to 0$), informative trajectories are rare and the sample complexity explodes; in the \emph{balanced} regime ($ξ=Θ(1)$), informative trajectories occur with non-negligible probability and RL is maximally sample-efficient; and in the \emph{ample} regime ($ξ\to \infty$), learning remains stable but marginal gains per iteration diminish. We further provide finite-sample guarantees for online RL that characterize learning progress across these regimes. Specifically, in a case study under idealized distributional assumptions, we show that the relative budget grows linearly over iterations. Our empirical results confirm these predictions in realistic settings, identifying a budget $ξ\in [1.5, 2.0]$ that maximizes learning efficiency and coincides with peak reasoning performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T01:31:52Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akifumi Wachi</name>
+    </author>
+    <author>
+      <name>Hirota Kinoshita</name>
+    </author>
+    <author>
+      <name>Shokichi Takakura</name>
+    </author>
+    <author>
+      <name>Rei Higuchi</name>
+    </author>
+    <author>
+      <name>Taiji Suzuki</name>
+    </author>
+  </entry>
+</feed>

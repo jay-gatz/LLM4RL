@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ABEVLhkr+Q4lun4TvbuknOFUa70</id>
+  <title>arXiv Query: search_query=&amp;id_list=2301.12050&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:09:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2301.12050" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.12050v2</id>
+    <title>Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling</title>
+    <updated>2023-04-27T15:14:01Z</updated>
+    <link href="https://arxiv.org/abs/2301.12050v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.12050v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) agents typically learn tabula rasa, without prior knowledge of the world. However, if initialized with knowledge of high-level subgoals and transitions between subgoals, RL agents could utilize this Abstract World Model (AWM) for planning and exploration. We propose using few-shot large language models (LLMs) to hypothesize an AWM, that will be verified through world experience, to improve sample efficiency of RL agents. Our DECKARD agent applies LLM-guided exploration to item crafting in Minecraft in two phases: (1) the Dream phase where the agent uses an LLM to decompose a task into a sequence of subgoals, the hypothesized AWM; and (2) the Wake phase where the agent learns a modular policy for each subgoal and verifies or corrects the hypothesized AWM. Our method of hypothesizing an AWM with LLMs and then verifying the AWM based on agent experience not only increases sample efficiency over contemporary methods by an order of magnitude but is also robust to and corrects errors in the LLM, successfully blending noisy internet-scale information from LLMs with knowledge grounded in environment dynamics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-28T02:04:07Z</published>
+    <arxiv:comment>in proceedings of ICML 23</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kolby Nottingham</name>
+    </author>
+    <author>
+      <name>Prithviraj Ammanabrolu</name>
+    </author>
+    <author>
+      <name>Alane Suhr</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Hannaneh Hajishirzi</name>
+    </author>
+    <author>
+      <name>Sameer Singh</name>
+    </author>
+    <author>
+      <name>Roy Fox</name>
+    </author>
+  </entry>
+</feed>

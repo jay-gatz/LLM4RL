@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IoO3qlxdiY6OWb6+PnmDdlR1NVU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07333v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07333v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07333v1</id>
+    <title>High Fidelity Textual User Representation over Heterogeneous Sources via Reinforcement Learning</title>
+    <updated>2026-02-07T03:27:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.07333v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07333v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective personalization on large-scale job platforms requires modeling members based on heterogeneous textual sources, including profiles, professional data, and search activity logs. As recommender systems increasingly adopt Large Language Models (LLMs), creating unified, interpretable, and concise representations from heterogeneous sources becomes critical, especially for latency-sensitive online environments. In this work, we propose a novel Reinforcement Learning (RL) framework to synthesize a unified textual representation for each member. Our approach leverages implicit user engagement signals (e.g., clicks, applies) as the primary reward to distill salient information. Additionally, the framework is complemented by rule-based rewards that enforce formatting and length constraints. Extensive offline experiments across multiple LinkedIn products, one of the world's largest job platforms, demonstrate significant improvements in key downstream business metrics. This work provides a practical, labeling-free, and scalable solution for constructing interpretable user representations that are directly compatible with LLM-based systems.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T03:27:55Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Rajat Arora</name>
+    </author>
+    <author>
+      <name>Ye Tao</name>
+    </author>
+    <author>
+      <name>Jianqiang Shen</name>
+    </author>
+    <author>
+      <name>Ping Liu</name>
+    </author>
+    <author>
+      <name>Muchen Wu</name>
+    </author>
+    <author>
+      <name>Qianqi Shen</name>
+    </author>
+    <author>
+      <name>Benjamin Le</name>
+    </author>
+    <author>
+      <name>Fedor Borisyuk</name>
+    </author>
+    <author>
+      <name>Jingwei Wu</name>
+    </author>
+    <author>
+      <name>Wenjing Zhang</name>
+    </author>
+  </entry>
+</feed>

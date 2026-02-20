@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IPmcZMjAgMcBlXRo7mOXnGUrQNI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12318v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12318v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12318v1</id>
+    <title>Abstractive Red-Teaming of Language Model Character</title>
+    <updated>2026-02-12T18:12:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.12318v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12318v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We want language model assistants to conform to a character specification, which asserts how the model should act across diverse user interactions. While models typically follow these character specifications, they can occasionally violate them in large-scale deployments. In this work, we aim to identify types of queries that are likely to produce such character violations at deployment, using much less than deployment-level compute. To do this, we introduce abstractive red-teaming, where we search for natural-language query categories, e.g. "The query is in Chinese. The query asks about family roles," that routinely elicit violations. These categories abstract over the many possible variants of a query which could appear in the wild. We introduce two algorithms for efficient category search against a character-trait-specific reward model: one based on reinforcement learning on a category generator LLM, and another which leverages a strong LLM to iteratively synthesize categories from high-scoring queries. Across a 12-principle character specification and 7 target models, we find that our algorithms consistently outperform baselines, and generate qualitatively interesting categories; for example, queries which ask Llama-3.1-8B-Instruct to predict the future lead to responses saying that AI will dominate humanity, and queries that ask GPT-4.1-Mini for essential prison survival items lead to enthusiastic recommendation of illegal weapons. Overall, we believe our results represent an important step towards realistic pre-deployment auditing of language model character.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T18:12:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nate Rahn</name>
+    </author>
+    <author>
+      <name>Allison Qi</name>
+    </author>
+    <author>
+      <name>Avery Griffin</name>
+    </author>
+    <author>
+      <name>Jonathan Michala</name>
+    </author>
+    <author>
+      <name>Henry Sleight</name>
+    </author>
+    <author>
+      <name>Erik Jones</name>
+    </author>
+  </entry>
+</feed>

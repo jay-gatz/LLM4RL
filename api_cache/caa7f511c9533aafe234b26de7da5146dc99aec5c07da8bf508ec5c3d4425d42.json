@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jUAAjk7nF32YPzAnYZMa1Uo6khU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.14289v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:58:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.14289v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14289v3</id>
+    <title>From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing</title>
+    <updated>2025-11-13T00:06:04Z</updated>
+    <link href="https://arxiv.org/abs/2509.14289v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14289v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly used to automate or augment penetration testing, but their effectiveness and reliability across attack phases remain unclear. We present a comprehensive evaluation of multiple LLM-based agents, from single-agent to modular designs, across realistic penetration testing scenarios, measuring empirical performance and recurring failure patterns. We also isolate the impact of five core functional capabilities via targeted augmentations: Global Context Memory (GCM), Inter-Agent Messaging (IAM), Context-Conditioned Invocation (CCI), Adaptive Planning (AP), and Real-Time Monitoring (RTM). These interventions support, respectively: (i) context coherence and retention, (ii) inter-component coordination and state management, (iii) tool use accuracy and selective execution, (iv) multi-step strategic planning, error detection, and recovery, and (v) real-time dynamic responsiveness. Our results show that while some architectures natively exhibit subsets of these properties, targeted augmentations substantially improve modular agent performance, especially in complex, multi-step, and real-time penetration testing tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T21:51:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pages 15890 to 15916, Suzhou, China, November 2025</arxiv:journal_ref>
+    <author>
+      <name>Lanxiao Huang</name>
+    </author>
+    <author>
+      <name>Daksh Dave</name>
+    </author>
+    <author>
+      <name>Tyler Cody</name>
+    </author>
+    <author>
+      <name>Peter Beling</name>
+    </author>
+    <author>
+      <name>Ming Jin</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2025.emnlp-main.802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2025.emnlp-main.802" title="doi"/>
+  </entry>
+</feed>

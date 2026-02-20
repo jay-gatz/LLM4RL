@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/21xV0byisfGMVFLPbpiMwnCiUlk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04447v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04447v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04447v1</id>
+    <title>Mixture of Masters: Sparse Chess Language Models with Player Routing</title>
+    <updated>2026-02-04T11:18:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.04447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern chess language models are dense transformers trained on millions of games played by thousands of high-rated individuals. However, these monolithic networks tend to collapse into mode-averaged behavior, where stylistic boundaries are blurred, and rare but effective strategies are suppressed. To counteract homogenization, we introduce Mixture-of-Masters (MoM), the first chess mixture-of-experts model with small-sized GPT experts emulating world-class grandmasters. Each expert is trained with a combination of self-supervised learning and reinforcement learning guided by chess-specific rewards. For each move, a post-hoc learnable gating network selects the most appropriate persona to channel depending on the game state, allowing MoM to switch its style dynamically$--$e.g., Tal's offensive vocation or Petrosian's defensive solidity. When evaluated against Stockfish on unseen standard games, MoM outperforms both dense individual expert networks and popular GPT baselines trained on aggregated data, while ensuring generation variety, control, and interpretability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T11:18:43Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Giacomo Frisoni</name>
+    </author>
+    <author>
+      <name>Lorenzo Molfetta</name>
+    </author>
+    <author>
+      <name>Davide Freddi</name>
+    </author>
+    <author>
+      <name>Gianluca Moro</name>
+    </author>
+  </entry>
+</feed>

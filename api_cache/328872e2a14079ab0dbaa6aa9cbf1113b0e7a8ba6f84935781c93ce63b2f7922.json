@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DRzirtSCIo0AicaT6QRlZX8tuCM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12691v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12691v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12691v1</id>
+    <title>ALOE: Action-Level Off-Policy Evaluation for Vision-Language-Action Model Post-Training</title>
+    <updated>2026-02-13T07:46:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.12691v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12691v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how to improve large foundation vision-language-action (VLA) systems through online reinforcement learning (RL) in real-world settings. Central to this process is the value function, which provides learning signals to guide VLA learning from experience. In practice, the value function is estimated from trajectory fragments collected from different data sources, including historical policies and intermittent human interventions. Estimating the value function of current behavior quality from the mixture data is inherently an off-policy evaluation problem. However, prior work often adopts conservative on-policy estimation for stability, which avoids direct evaluation of the current high-capacity policy and limits learning effectiveness. In this paper, we propose ALOE, an action-level off-policy evaluation framework for VLA post-training. ALOE applies chunking-based temporal-difference bootstrapping to evaluate individual action sequences instead of predicting final task outcomes. This design improves effective credit assignment to critical action chunks under sparse rewards and supports stable policy improvement. We evaluate our method on three real-world manipulation tasks, including smartphone packing as a high-precision task, laundry folding as a long-horizon deformable-object task, and bimanual pick-and-place involving multi-object perception. Across all tasks, ALOE improves learning efficiency without compromising execution speed, showing that off-policy RL can be reintroduced in a reliable manner for real-world VLA post-training. Videos and additional materials are available at our project website.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T07:46:37Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Rushuai Yang</name>
+    </author>
+    <author>
+      <name>Hecheng Wang</name>
+    </author>
+    <author>
+      <name>Chiming Liu</name>
+    </author>
+    <author>
+      <name>Xiaohan Yan</name>
+    </author>
+    <author>
+      <name>Yunlong Wang</name>
+    </author>
+    <author>
+      <name>Xuan Du</name>
+    </author>
+    <author>
+      <name>Shuoyu Yue</name>
+    </author>
+    <author>
+      <name>Yongcheng Liu</name>
+    </author>
+    <author>
+      <name>Chuheng Zhang</name>
+    </author>
+    <author>
+      <name>Lizhe Qi</name>
+    </author>
+    <author>
+      <name>Yi Chen</name>
+    </author>
+    <author>
+      <name>Wei Shan</name>
+    </author>
+    <author>
+      <name>Maoqing Yao</name>
+    </author>
+  </entry>
+</feed>

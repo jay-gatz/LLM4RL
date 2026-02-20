@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eOrAHBFyGqBzqLGBJcyZUoJAFXQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.19100v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.19100v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.19100v3</id>
+    <title>VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks</title>
+    <updated>2025-02-15T05:19:38Z</updated>
+    <link href="https://arxiv.org/abs/2410.19100v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.19100v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Videos are often used to learn or extract the necessary information to complete tasks in ways different than what text and static imagery alone can provide. However, many existing agent benchmarks neglect long-context video understanding, instead focusing on text or static image inputs. To bridge this gap, we introduce VideoWebArena (VideoWA), a benchmark for evaluating the capabilities of long-context multimodal agents for video understanding. VideoWA consists of 2,021 web agent tasks based on manually crafted video tutorials, which total almost four hours of content. For our benchmark, we define a taxonomy of long-context video-based agent tasks with two main areas of focus: skill retention and factual retention. While skill retention tasks evaluate whether an agent can use a given human demonstration to complete a task efficiently, the factual retention task evaluates whether an agent can retrieve instruction-relevant information from a video to complete a task. We find that the best model achieves 13.3% success on factual retention tasks and 45.8% on factual retention QA pairs, far below human performance at 73.9% and 79.3%, respectively. On skill retention tasks, long-context models perform worse with tutorials than without, exhibiting a 5% performance decrease in WebArena tasks and a 10.3% decrease in VisualWebArena tasks. Our work highlights the need to improve the agentic abilities of long-context multimodal models and provides a testbed for future development with long-context video agents.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T19:03:01Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lawrence Jang</name>
+    </author>
+    <author>
+      <name>Yinheng Li</name>
+    </author>
+    <author>
+      <name>Dan Zhao</name>
+    </author>
+    <author>
+      <name>Charles Ding</name>
+    </author>
+    <author>
+      <name>Justin Lin</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+    <author>
+      <name>Rogerio Bonatti</name>
+    </author>
+    <author>
+      <name>Kazuhito Koishida</name>
+    </author>
+  </entry>
+</feed>

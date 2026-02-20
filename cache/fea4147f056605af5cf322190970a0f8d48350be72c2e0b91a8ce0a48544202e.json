@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VPknuLQbacTpIAeV0gdZZXawlJs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.04988v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.04988v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04988v1</id>
+    <title>Strategic Self-Improvement for Competitive Agents in AI Labour Markets</title>
+    <updated>2025-12-04T16:57:28Z</updated>
+    <link href="https://arxiv.org/abs/2512.04988v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04988v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As artificial intelligence (AI) agents are deployed across economic domains, understanding their strategic behavior and market-level impact becomes critical. This paper puts forward a groundbreaking new framework that is the first to capture the real-world economic forces that shape agentic labor markets: adverse selection, moral hazard, and reputation dynamics. Our framework encapsulates three core capabilities that successful LLM-agents will need: \textbf{metacognition} (accurate self-assessment of skills), \textbf{competitive awareness} (modeling rivals and market dynamics), and \textbf{long-horizon strategic planning}. We illustrate our framework through a tractable simulated gig economy where agentic Large Language Models (LLMs) compete for jobs, develop skills, and adapt their strategies under competitive pressure. Our simulations illustrate how LLM agents explicitly prompted with reasoning capabilities learn to strategically self-improve and demonstrate superior adaptability to changing market conditions. At the market level, our simulations reproduce classic macroeconomic phenomena found in human labor markets, while controlled experiments reveal potential AI-driven economic trends, such as rapid monopolization and systemic price deflation. This work provides a foundation to further explore the economic properties of AI-driven labour markets, and a conceptual framework to study the strategic reasoning capabilities in agents competing in the emerging economy.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T16:57:28Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Christopher Chiu</name>
+    </author>
+    <author>
+      <name>Simpson Zhang</name>
+    </author>
+    <author>
+      <name>Mihaela van der Schaar</name>
+    </author>
+  </entry>
+</feed>

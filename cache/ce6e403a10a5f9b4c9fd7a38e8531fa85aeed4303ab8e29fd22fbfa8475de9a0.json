@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5rmuRP1s7YT0u6EHcwce5LoPFyE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03452v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03452v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03452v1</id>
+    <title>Beyond Variance: Prompt-Efficient RLVR via Rare-Event Amplification and Bidirectional Pairing</title>
+    <updated>2026-02-03T12:17:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.03452v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03452v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning with verifiable rewards (RLVR) is effective for training large language models on deterministic outcome reasoning tasks. Prior work shows RLVR works with few prompts, but prompt selection is often based only on training-accuracy variance, leading to unstable optimization directions and weaker transfer. We revisit prompt selection from a mechanism-level view and argue that an effective minibatch should provide both (i) a reliable positive anchor and (ii) explicit negative learning signals from rare failures. Based on this principle, we propose \emph{positive--negative pairing}: at each update, we sample a hard-but-solvable $q^{+}$ and an easy-but-brittle prompt $q^{-}$(high success rate but not perfect), characterized by low and high empirical success rates under multiple rollouts. We further introduce Weighted GRPO, which reweights binary outcomes at the pair level and uses group-normalized advantages to amplify rare successes on $q^{+}$ into sharp positive guidance while turning rare failures on $q^{-}$ into strong negative penalties. This bidirectional signal provides informative learning feedback for both successes and failures, improving sample efficiency without suppressing exploration. On Qwen2.5-Math-7B, a single paired minibatch per update consistently outperforms a GRPO baseline that selects two prompts via commonly used variance-based selection heuristics: AIME~2025 Pass@8 improves from 16.8 to 22.2, and AMC23 Pass@64 from 94.0 to 97.0, while remaining competitive with large-scale RLVR trained from a pool of 1209 training prompts. Similar gains are observed on Qwen2.5-Math-7B-Instruct.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T12:17:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xin Sheng</name>
+    </author>
+    <author>
+      <name>Jiaxin Li</name>
+    </author>
+    <author>
+      <name>Yujuan Pang</name>
+    </author>
+    <author>
+      <name>Ran Peng</name>
+    </author>
+    <author>
+      <name>Yong Ma</name>
+    </author>
+  </entry>
+</feed>

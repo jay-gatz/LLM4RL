@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3pNLwVQl8ObMk8zW5GDR9ZY1gZ0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.00403v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.00403v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.00403v1</id>
+    <title>SelfAI: Building a Self-Training AI System with LLM Agents</title>
+    <updated>2025-11-29T09:18:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.00403v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.00403v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work on autonomous scientific discovery has leveraged LLM-based agents to integrate problem specification, experiment planning, and execution into end-to-end systems. However, these frameworks are often confined to narrow application domains, offer limited real-time interaction with researchers, and lack principled mechanisms for determining when to halt exploration, resulting in inefficiencies, reproducibility challenges, and under-utilized human expertise. To address these gaps, we propose \textit{SelfAI}, a general multi-agent platform that combines a User Agent for translating high-level research objectives into standardized experimental configurations, a Cognitive Agent powered by LLMs with optimal stopping criteria to iteratively refine hyperparameter searches, and an Experiment Manager responsible for orchestrating parallel, fault-tolerant training workflows across heterogeneous hardware while maintaining a structured knowledge base for continuous feedback. We further introduce two novel evaluation metrics, Score and $\text{AUP}_D$, to quantify discovery efficiency and search diversity. Across regression, NLP, computer vision, scientific computing, medical imaging, and drug discovery benchmarks, SelfAI consistently achieves strong performance and reduces redundant trials compared to classical Bayesian optimization and LLM-based baselines, while enabling seamless interaction with human researchers.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-29T09:18:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiao Wu</name>
+    </author>
+    <author>
+      <name>Ting-Zhu Huang</name>
+    </author>
+    <author>
+      <name>Liang-Jian Deng</name>
+    </author>
+    <author>
+      <name>Xiaobing Yu</name>
+    </author>
+    <author>
+      <name>Yu Zhong</name>
+    </author>
+    <author>
+      <name>Shangqi Deng</name>
+    </author>
+    <author>
+      <name>Ufaq Khan</name>
+    </author>
+    <author>
+      <name>Jianghao Wu</name>
+    </author>
+    <author>
+      <name>Xiaofeng Liu</name>
+    </author>
+    <author>
+      <name>Imran Razzak</name>
+    </author>
+    <author>
+      <name>Xiaojun Chang</name>
+    </author>
+    <author>
+      <name>Yutong Xie</name>
+    </author>
+  </entry>
+</feed>

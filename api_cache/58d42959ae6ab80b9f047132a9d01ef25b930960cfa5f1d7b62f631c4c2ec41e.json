@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BP4lhrn1CNze6Z0L41W8Pav2xPQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14471v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:38:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14471v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14471v1</id>
+    <title>Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems</title>
+    <updated>2026-02-16T05:17:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.14471v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14471v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deploying large language model (LLM) agents in shared environments introduces a fundamental tension between individual alignment and collective stability: locally rational decisions can impose negative externalities that degrade system-level performance. We propose Socially-Weighted Alignment (SWA), a game-theoretic framework that modifies inference-time decision making by interpolating between an agent's private objective and an estimate of group welfare via a social weight $λ\in[0,1]$. In a shared-resource congestion game with $n$ agents and congestion severity $β$, we show that SWA induces a critical threshold $λ^*=(n-β)/(n-1)$ above which agents no longer have marginal incentive to increase demand under overload, yielding a phase transition from persistent congestion to stable operation near capacity. We further provide an inference-time algorithmic instantiation of SWA that does not require parameter updates or multi-agent reinforcement learning, and use a multi-agent simulation to empirically validate the predicted threshold behavior.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T05:17:58Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Furkan Mumcu</name>
+    </author>
+    <author>
+      <name>Yasin Yilmaz</name>
+    </author>
+  </entry>
+</feed>

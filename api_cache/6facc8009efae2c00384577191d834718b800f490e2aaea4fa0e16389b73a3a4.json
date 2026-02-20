@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0D7PC3JlBQ3zcWvT/JKUFlNo0Qc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12498v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12498v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12498v1</id>
+    <title>Layer-Specific Fine-Tuning for Improved Negation Handling in Medical Vision-Language Models</title>
+    <updated>2026-02-13T00:44:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.12498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Negation is a fundamental linguistic operation in clinical reporting, yet vision-language models (VLMs) frequently fail to distinguish affirmative from negated medical statements. To systematically characterize this limitation, we introduce a radiology-specific diagnostic benchmark that evaluates polarity sensitivity under controlled clinical conditions, revealing that common medical VLMs consistently confuse negated and non-negated findings. To enable learning beyond simple condition absence, we further construct a contextual clinical negation dataset that encodes structured claims and supports attribute-level negations involving location and severity. Building on these resources, we propose Negation-Aware Selective Training (NAST), an interpretability-guided adaptation method that uses causal tracing effects (CTEs) to modulate layer-wise gradient updates during fine-tuning. Rather than applying uniform learning rates, NAST scales each layer's update according to its causal contribution to negation processing, transforming mechanistic interpretability signals into a principled optimization rule. Experiments demonstrate improved discrimination of affirmative and negated clinical statements without degrading general vision-language alignment, highlighting the value of causal interpretability for targeted model adaptation in safety-critical medical settings. Code and resources are available at https://github.com/healthylaife/NAST.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T00:44:26Z</published>
+    <arxiv:comment>15 pages, 5 figures. Submitted to ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ali Abbasi</name>
+    </author>
+    <author>
+      <name>Mehdi Taghipour</name>
+    </author>
+    <author>
+      <name>Rahmatollah Beheshti</name>
+    </author>
+  </entry>
+</feed>

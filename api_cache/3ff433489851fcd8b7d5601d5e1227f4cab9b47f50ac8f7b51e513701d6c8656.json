@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f6h5b1Gf4jWf0TiF83L3wOsmGZQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.09635v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.09635v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.09635v3</id>
+    <title>Large-Scale Optimization Model Auto-Formulation: Harnessing LLM Flexibility via Structured Workflow</title>
+    <updated>2026-01-31T23:22:18Z</updated>
+    <link href="https://arxiv.org/abs/2601.09635v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.09635v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale optimization is a key backbone of modern business decision-making. However, building these models is often labor-intensive and time-consuming. We address this by proposing LEAN-LLM-OPT, a LightwEight AgeNtic workflow construction framework for LLM-assisted large-scale OPTimization auto-formulation. LEAN-LLM-OPT takes as input a problem description together with associated datasets and orchestrates a team of LLM agents to produce an optimization formulation. Specifically, upon receiving a query, two upstream LLM agents dynamically construct a workflow that specifies, step-by-step, how optimization models for similar problems can be formulated. A downstream LLM agent then follows this workflow to generate the final output. The agentic workflow leverages common modeling practices to structure the modeling process into a sequence of sub-tasks, offloading mechanical data-handling operations to auxiliary tools. This reduces the LLM's burden in planning and data handling, allowing us to exploit its flexibility to address unstructured components. Extensive simulations show that LEAN-LLM-OPT, instantiated with GPT-4.1 and the open source gpt-oss-20B, achieves strong performance on large-scale optimization modeling tasks and is competitive with state-of-the-art approaches. In addition, in a Singapore Airlines choice-based revenue management use case, LEAN-LLM-OPT demonstrates practical value by achieving leading performance across a range of scenarios. Along the way, we introduce Large-Scale-OR and Air-NRM, the first comprehensive benchmarks for large-scale optimization auto-formulation. The code and data of this work is available at https://github.com/CoraLiang01/lean-llm-opt.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T17:09:57Z</published>
+    <arxiv:comment>Updated version of https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5329027</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kuo Liang</name>
+    </author>
+    <author>
+      <name>Yuhang Lu</name>
+    </author>
+    <author>
+      <name>Jianming Mao</name>
+    </author>
+    <author>
+      <name>Shuyi Sun</name>
+    </author>
+    <author>
+      <name>Chunwei Yang</name>
+    </author>
+    <author>
+      <name>Congcong Zeng</name>
+    </author>
+    <author>
+      <name>Xiao Jin</name>
+    </author>
+    <author>
+      <name>Hanzhang Qin</name>
+    </author>
+    <author>
+      <name>Ruihao Zhu</name>
+    </author>
+    <author>
+      <name>Chung-Piaw Teo</name>
+    </author>
+  </entry>
+</feed>

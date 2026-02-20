@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QxNJ1CQcurV2XXqcqNu7AxAfP/U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03352v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03352v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03352v1</id>
+    <title>PEGRL: Improving Machine Translation by Post-Editing Guided Reinforcement Learning</title>
+    <updated>2026-02-03T10:22:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.03352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has shown strong promise for LLM-based machine translation, with recent methods such as GRPO demonstrating notable gains; nevertheless, translation-oriented RL remains challenged by noisy learning signals arising from Monte Carlo return estimation, as well as a large trajectory space that favors global exploration over fine-grained local optimization. We introduce \textbf{PEGRL}, a \textit{two-stage} RL framework that uses post-editing as an auxiliary task to stabilize training and guide overall optimization. At each iteration, translation outputs are sampled to construct post-editing inputs, allowing return estimation in the post-editing stage to benefit from conditioning on the current translation behavior, while jointly supporting both global exploration and fine-grained local optimization. A task-specific weighting scheme further balances the contributions of translation and post-editing objectives, yielding a biased yet more sample-efficient estimator. Experiments on English$\to$Finnish, English$\to$Turkish, and English$\leftrightarrow$Chinese show consistent gains over RL baselines, and for English$\to$Turkish, performance on COMET-KIWI is comparable to advanced LLM-based systems (DeepSeek-V3.2).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T10:22:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yunzhi Shen</name>
+    </author>
+    <author>
+      <name>Hao Zhou</name>
+    </author>
+    <author>
+      <name>Xin Huang</name>
+    </author>
+    <author>
+      <name>Xue Han</name>
+    </author>
+    <author>
+      <name>Junlan Feng</name>
+    </author>
+    <author>
+      <name>Shujian Huang</name>
+    </author>
+  </entry>
+</feed>

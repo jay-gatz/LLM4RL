@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NuzpFwvxKPoLY6fbg7fXptdBHxU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15549v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15549v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15549v1</id>
+    <title>VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing</title>
+    <updated>2026-02-17T12:54:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.15549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language model (VLM) shows promise for high-level planning in smart manufacturing, yet their deployment in dynamic workcells faces two critical challenges: (1) stateless operation, they cannot persistently track out-of-view states, causing world-state drift; and (2) opaque reasoning, failures are difficult to diagnose, leading to costly blind retries. This paper presents VLM-DEWM, a cognitive architecture that decouples VLM reasoning from world-state management through a persistent, queryable Dynamic External World Model (DEWM). Each VLM decision is structured into an Externalizable Reasoning Trace (ERT), comprising action proposal, world belief, and causal assumption, which is validated against DEWM before execution. When failures occur, discrepancy analysis between predicted and observed states enables targeted recovery instead of global replanning. We evaluate VLM-DEWM on multi-station assembly, large-scale facility exploration, and real-robot recovery under induced failures. Compared to baseline memory-augmented VLM systems, VLM DEWM improves state-tracking accuracy from 56% to 93%, increases recovery success rate from below 5% to 95%, and significantly reduces computational overhead through structured memory. These results establish VLM-DEWM as a verifiable and resilient solution for long-horizon robotic operations in dynamic manufacturing environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T12:54:18Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Guoqin Tang</name>
+    </author>
+    <author>
+      <name>Qingxuan Jia</name>
+    </author>
+    <author>
+      <name>Gang Chen</name>
+    </author>
+    <author>
+      <name>Tong Li</name>
+    </author>
+    <author>
+      <name>Zeyuan Huang</name>
+    </author>
+    <author>
+      <name>Zihang Lv</name>
+    </author>
+    <author>
+      <name>Ning Ji</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V49AGicPv38y8yYrfY7gBcQxuMY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11596v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11596v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11596v1</id>
+    <title>MAPLE: Modality-Aware Post-training and Learning Ecosystem</title>
+    <updated>2026-02-12T05:26:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.11596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal language models now integrate text, audio, and video for unified reasoning. Yet existing RL post-training pipelines treat all input signals as equally relevant, ignoring which modalities each task actually requires. This modality-blind training inflates policy-gradient variance, slows convergence, and degrades robustness to real-world distribution shifts where signals may be missing, added, or reweighted. We introduce MAPLE, a complete modality-aware post-training and learning ecosystem comprising: (1) MAPLE-bench, the first benchmark explicitly annotating minimal signal combinations required per task; (2) MAPO, a modality-aware policy optimization framework that stratifies batches by modality requirement to reduce gradient variance from heterogeneous group advantages; (3) Adaptive weighting and curriculum scheduling that balances and prioritizes harder signal combinations. Systematic analysis across loss aggregation, clipping, sampling, and curriculum design establishes MAPO's optimal training strategy. Adaptive weighting and curriculum focused learning further boost performance across signal combinations. MAPLE narrows uni/multi-modal accuracy gaps by 30.24%, converges 3.18x faster, and maintains stability across all modality combinations under realistic reduced signal access. MAPLE constitutes a complete recipe for deployment-ready multimodal RL post-training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T05:26:36Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nikhil Verma</name>
+    </author>
+    <author>
+      <name>Minjung Kim</name>
+    </author>
+    <author>
+      <name>JooYoung Yoo</name>
+    </author>
+    <author>
+      <name>Kyung-Min Jin</name>
+    </author>
+    <author>
+      <name>Manasa Bharadwaj</name>
+    </author>
+    <author>
+      <name>Kevin Ferreira</name>
+    </author>
+    <author>
+      <name>Ko Keun Kim</name>
+    </author>
+    <author>
+      <name>Youngjoon Kim</name>
+    </author>
+  </entry>
+</feed>

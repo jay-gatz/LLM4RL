@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KG6X5lN2Q84/UgUJf9RGweSPPUI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00097v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:16:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00097v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00097v3</id>
+    <title>The Agentic Leash: Extracting Causal Feedback Fuzzy Cognitive Maps with LLMs</title>
+    <updated>2026-02-15T17:25:39Z</updated>
+    <link href="https://arxiv.org/abs/2601.00097v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00097v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We design a large-language-model (LLM) agent system that extracts causal feedback fuzzy cognitive maps (FCMs) from raw text. The causal learning or extraction process is agentic both because of the LLM's semi-autonomy and because ultimately the FCM dynamical system's equilibria drive the LLM agents to fetch and process causal text. The fetched text can in principle modify the adaptive FCM causal structure and so modify the source of its quasi-autonomy$-$its equilibrium limit cycles and fixed-point attractors. This bidirectional process endows the evolving FCM dynamical system with a degree of autonomy while the system still stays on its agentic leash. We show in particular that a sequence of three system-instruction sets guide an LLM agent as it systematically extracts key nouns and noun phrases from text, as it extracts FCM concept nodes from among those nouns and noun phrases, and then as it extracts or infers partial or fuzzy causal edges between those FCM nodes. We test this FCM generation on a recent essay about the promise of AI from the late diplomat and political theorist Henry Kissinger and his colleagues. This three-step process produced FCM dynamical systems that converged to the same equilibrium limit cycles as did the human-generated FCMs even though the human-generated FCM differed in the number of nodes and edges. A final FCM mixed generated FCMs from separate Gemini and ChatGPT LLM agents. The mixed FCM absorbed the equilibria of its dominant mixture component but also created new equilibria of its own to better approximate the underlying causal dynamical system.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T20:06:48Z</published>
+    <arxiv:comment>15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Akash Kumar Panda</name>
+    </author>
+    <author>
+      <name>Olaoluwa Adigun</name>
+    </author>
+    <author>
+      <name>Bart Kosko</name>
+    </author>
+  </entry>
+</feed>

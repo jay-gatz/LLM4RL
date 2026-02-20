@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/etwyIWAwOOVaJLJrWJnC5mqkgkc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10429v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10429v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10429v1</id>
+    <title>AIvilization v0: Toward Large-Scale Artificial Social Simulation with a Unified Agent Architecture and Adaptive Agent Profiles</title>
+    <updated>2026-02-11T02:18:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.10429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AIvilization v0 is a publicly deployed large-scale artificial society that couples a resource-constrained sandbox economy with a unified LLM-agent architecture, aiming to sustain long-horizon autonomy while remaining executable under rapidly changing environment. To mitigate the tension between goal stability and reactive correctness, we introduce (i) a hierarchical branch-thinking planner that decomposes life goals into parallel objective branches and uses simulation-guided validation plus tiered re-planning to ensure feasibility; (ii) an adaptive agent profile with dual-process memory that separates short-term execution traces from long-term semantic consolidation, enabling persistent yet evolving identity; and (iii) a human-in-the-loop steering interface that injects long-horizon objectives and short commands at appropriate abstraction levels, with effects propagated through memory rather than brittle prompt overrides. The environment integrates physiological survival costs, non-substitutable multi-tier production, an AMM-based price mechanism, and a gated education-occupation system. Using high-frequency transactions from the platforms mature phase, we find stable markets that reproduce key stylized facts (heavy-tailed returns and volatility clustering) and produce structured wealth stratification driven by education and access constraints. Ablations show simplified planners can match performance on narrow tasks, while the full architecture is more robust under multi-objective, long-horizon settings, supporting delayed investment and sustained exploration.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T02:18:15Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Wenkai Fan</name>
+    </author>
+    <author>
+      <name>Shurui Zhang</name>
+    </author>
+    <author>
+      <name>Xiaolong Wang</name>
+    </author>
+    <author>
+      <name>Haowei Yang</name>
+    </author>
+    <author>
+      <name>Tsz Wai Chan</name>
+    </author>
+    <author>
+      <name>Xingyan Chen</name>
+    </author>
+    <author>
+      <name>Junquan Bi</name>
+    </author>
+    <author>
+      <name>Zirui Zhou</name>
+    </author>
+    <author>
+      <name>Jia Liu</name>
+    </author>
+    <author>
+      <name>Kani Chen</name>
+    </author>
+  </entry>
+</feed>

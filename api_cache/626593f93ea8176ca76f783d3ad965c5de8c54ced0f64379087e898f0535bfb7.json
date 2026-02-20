@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//tvxeXjyYAYb/+3uCv26ZR0kWvk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07768v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07768v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07768v1</id>
+    <title>PAND: Prompt-Aware Neighborhood Distillation for Lightweight Fine-Grained Visual Classification</title>
+    <updated>2026-02-08T01:55:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.07768v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07768v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distilling knowledge from large Vision-Language Models (VLMs) into lightweight networks is crucial yet challenging in Fine-Grained Visual Classification (FGVC), due to the reliance on fixed prompts and global alignment. To address this, we propose PAND (Prompt-Aware Neighborhood Distillation), a two-stage framework that decouples semantic calibration from structural transfer. First, we incorporate Prompt-Aware Semantic Calibration to generate adaptive semantic anchors. Second, we introduce a neighborhood-aware structural distillation strategy to constrain the student's local decision structure. PAND consistently outperforms state-of-the-art methods on four FGVC benchmarks. Notably, our ResNet-18 student achieves 76.09% accuracy on CUB-200, surpassing the strong baseline VL2Lite by 3.4%. Code is available at https://github.com/LLLVTA/PAND.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T01:55:32Z</published>
+    <arxiv:comment>6pages, 3 figures, conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qiuming Luo</name>
+    </author>
+    <author>
+      <name>Yuebing Li</name>
+    </author>
+    <author>
+      <name>Feng Li</name>
+    </author>
+    <author>
+      <name>Chang Kong</name>
+    </author>
+  </entry>
+</feed>

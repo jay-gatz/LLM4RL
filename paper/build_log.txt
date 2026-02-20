@@ -1,0 +1,7 @@
+Build command: bibtex sn-article; pdflatex -interaction=nonstopmode -halt-on-error sn-article.tex
+Build timestamp: 2026-02-20 08:51:18
+Status: Success
+Primary PDF: paper/sn-article.pdf
+Root sync to output.pdf: Failed (file lock)
+Alternate root copy: output_latest.pdf
+Notes: No undefined citations/references; non-fatal underfull box warnings remain.

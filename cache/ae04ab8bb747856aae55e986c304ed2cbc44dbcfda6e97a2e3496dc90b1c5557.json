@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5hOgNaHCitG6ZbV4qODHKLio3KI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.03205&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T22:24:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.03205" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.03205v1</id>
+    <title>UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward</title>
+    <updated>2026-01-06T17:41:32Z</updated>
+    <link href="https://arxiv.org/abs/2601.03205v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.03205v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Models (LLMs) have demonstrated significant potential in natural language processing , complex general-purpose reasoning requiring multi-step logic, planning, and verification remains a critical bottleneck. Although Reinforcement Learning with Verifiable Rewards (RLVR) has succeeded in specific domains , the field lacks large-scale, high-quality, and difficulty-calibrated data for general reasoning. To address this, we propose UltraLogic, a framework that decouples the logical core of a problem from its natural language expression through a Code-based Solving methodology to automate high-quality data production. The framework comprises hundreds of unique task types and an automated calibration pipeline across ten difficulty levels. Furthermore, to mitigate binary reward sparsity and the Non-negative Reward Trap, we introduce the Bipolar Float Reward (BFR) mechanism, utilizing graded penalties to effectively distinguish perfect responses from those with logical flaws. Our experiments demonstrate that task diversity is the primary driver for reasoning enhancement , and that BFR, combined with a difficulty matching strategy, significantly improves training efficiency, guiding models toward global logical optima.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-06T17:41:32Z</published>
+    <arxiv:comment>19 pages, 6 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yile Liu</name>
+    </author>
+    <author>
+      <name>Yixian Liu</name>
+    </author>
+    <author>
+      <name>Zongwei Li</name>
+    </author>
+    <author>
+      <name>Yufei Huang</name>
+    </author>
+    <author>
+      <name>Xinhua Feng</name>
+    </author>
+    <author>
+      <name>Zhichao Hu</name>
+    </author>
+    <author>
+      <name>Jinglu Hu</name>
+    </author>
+    <author>
+      <name>Jianfeng Yan</name>
+    </author>
+    <author>
+      <name>Fengzong Lian</name>
+    </author>
+    <author>
+      <name>Yuhong Liu</name>
+    </author>
+  </entry>
+</feed>

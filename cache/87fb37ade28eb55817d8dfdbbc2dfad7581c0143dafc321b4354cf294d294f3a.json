@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zxy5dHI5pnweqJQ3RaJ00vYmPGQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14122v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14122v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14122v1</id>
+    <title>EgoSound: Benchmarking Sound Understanding in Egocentric Videos</title>
+    <updated>2026-02-15T12:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.14122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLMs) have recently achieved remarkable progress in vision-language understanding. Yet, human perception is inherently multisensory, integrating sight, sound, and motion to reason about the world. Among these modalities, sound provides indispensable cues about spatial layout, off-screen events, and causal interactions, particularly in egocentric settings where auditory and visual signals are tightly coupled. To this end, we introduce EgoSound, the first benchmark designed to systematically evaluate egocentric sound understanding in MLLMs. EgoSound unifies data from Ego4D and EgoBlind, encompassing both sighted and sound-dependent experiences. It defines a seven-task taxonomy spanning intrinsic sound perception, spatial localization, causal inference, and cross-modal reasoning. Constructed through a multi-stage auto-generative pipeline, EgoSound contains 7315 validated QA pairs across 900 videos. Comprehensive experiments on nine state-of-the-art MLLMs reveal that current models exhibit emerging auditory reasoning abilities but remain limited in fine-grained spatial and causal understanding. EgoSound establishes a challenging foundation for advancing multisensory egocentric intelligence, bridging the gap between seeing and truly hearing the world.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T12:46:35Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bingwen Zhu</name>
+    </author>
+    <author>
+      <name>Yuqian Fu</name>
+    </author>
+    <author>
+      <name>Qiaole Dong</name>
+    </author>
+    <author>
+      <name>Guolei Sun</name>
+    </author>
+    <author>
+      <name>Tianwen Qian</name>
+    </author>
+    <author>
+      <name>Yuzheng Wu</name>
+    </author>
+    <author>
+      <name>Danda Pani Paudel</name>
+    </author>
+    <author>
+      <name>Xiangyang Xue</name>
+    </author>
+    <author>
+      <name>Yanwei Fu</name>
+    </author>
+  </entry>
+</feed>

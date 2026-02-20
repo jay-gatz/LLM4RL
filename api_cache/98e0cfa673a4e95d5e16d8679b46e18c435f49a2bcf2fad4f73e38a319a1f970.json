@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wyJ+EtgoUaFz9IUFJwmZI421E5U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04942v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:48:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04942v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04942v3</id>
+    <title>Privileged Information Distillation for Language Models</title>
+    <updated>2026-02-16T18:57:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.04942v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04942v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training-time privileged information (PI) can enable language models to succeed on tasks they would otherwise fail, making it a powerful tool for reinforcement learning in hard, long-horizon settings. However, transferring capabilities learned with PI to policies that must act without it at inference time remains a fundamental challenge. We study this problem in the context of distilling frontier models for multi-turn agentic environments, which typically hide their internal reasoning and expose only action trajectories. This breaks standard distillation pipelines, since successful behavior is observable, but the reasoning process is not. For this, we introduce π-Distill, a joint teacher-student objective that trains a PI-conditioned teacher and an unconditioned student simultaneously using the same model. Additionally, we also introduce On-Policy Self-Distillation (OPSD), an alternative approach that trains using Reinforcement Learning (RL) with a reverse KL-penalty between the student and the PI-conditioned teacher. We show that both of these algorithms effectively distill frontier agents using action-only PI. Specifically, we find that π-Distill and, in some cases, OPSD, outperform industry standard practices (Supervised finetuning followed by RL) that assume access to full Chain-of-Thought supervision across multiple agentic benchmarks, models, and forms of PI. We complement our results with extensive analysis that characterizes the factors enabling effective learning with PI, focusing primarily on π-Distill and characterizing when OPSD is competitive.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T18:46:17Z</published>
+    <arxiv:comment>Abstract border should have been purple</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Emiliano Penaloza</name>
+    </author>
+    <author>
+      <name>Dheeraj Vattikonda</name>
+    </author>
+    <author>
+      <name>Nicolas Gontier</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Massimo Caccia</name>
+    </author>
+  </entry>
+</feed>

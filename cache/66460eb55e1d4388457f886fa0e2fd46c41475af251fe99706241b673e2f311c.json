@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qV23ByvG/2Xjj75hRW+8kdk+1Nw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21083v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21083v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21083v3</id>
+    <title>OpenSec: Measuring Incident Response Agent Calibration Under Adversarial Evidence</title>
+    <updated>2026-02-06T20:19:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.21083v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21083v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) improve, so do their offensive applications: frontier agents now generate working exploits for under $50 in compute (Heelan, 2026). Defensive incident response (IR) agents must keep pace, but existing benchmarks conflate action execution with correct execution, hiding calibration failures when agents process adversarial evidence. We introduce OpenSec, a dual-control reinforcement learning (RL) environment that evaluates IR agents under realistic prompt injection scenarios with execution-based scoring: time-to-first-containment (TTFC), evidence-gated action rate (EGAR), blast radius, and per-tier injection violation rates. Evaluating four frontier models on 40 standard-tier episodes each, we find consistent over-triggering: GPT-5.2 executes containment in 100% of episodes with 82.5% false positive rate, acting at step 4 before gathering sufficient evidence. Claude Sonnet 4.5 shows partial calibration (62.5% containment, 45% FP, TTFC of 10.6), suggesting calibration is not reliably present across frontier models. All models correctly identify the ground-truth threat when they act; the calibration gap is not in detection but in restraint. Code available at https://github.com/jbarnes850/opensec-env.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T22:12:54Z</published>
+    <arxiv:comment>7 pages, 3 figures, 3 tables. Code: https://github.com/jbarnes850/opensec-env. Dataset: https://huggingface.co/datasets/Jarrodbarnes/opensec-seeds</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jarrod Barnes</name>
+    </author>
+  </entry>
+</feed>

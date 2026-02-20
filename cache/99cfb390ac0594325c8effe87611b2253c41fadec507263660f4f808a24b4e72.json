@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hrj53uZlMeTn8OghjXqFoJrcFiE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.04334&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.04334" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04334v1</id>
+    <title>Large Language Models for Robotics: Opportunities, Challenges, and Perspectives</title>
+    <updated>2024-01-09T03:22:16Z</updated>
+    <link href="https://arxiv.org/abs/2401.04334v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04334v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have undergone significant expansion and have been increasingly integrated across various domains. Notably, in the realm of robot task planning, LLMs harness their advanced reasoning and language comprehension capabilities to formulate precise and efficient action plans based on natural language instructions. However, for embodied tasks, where robots interact with complex environments, text-only LLMs often face challenges due to a lack of compatibility with robotic visual perception. This study provides a comprehensive overview of the emerging integration of LLMs and multimodal LLMs into various robotic tasks. Additionally, we propose a framework that utilizes multimodal GPT-4V to enhance embodied task planning through the combination of natural language instructions and robot visual perceptions. Our results, based on diverse datasets, indicate that GPT-4V effectively enhances robot performance in embodied tasks. This extensive survey and evaluation of LLMs and multimodal LLMs across a variety of robotic tasks enriches the understanding of LLM-centric embodied intelligence and provides forward-looking insights toward bridging the gap in Human-Robot-Environment interaction.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T03:22:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiaqi Wang</name>
+    </author>
+    <author>
+      <name>Zihao Wu</name>
+    </author>
+    <author>
+      <name>Yiwei Li</name>
+    </author>
+    <author>
+      <name>Hanqi Jiang</name>
+    </author>
+    <author>
+      <name>Peng Shu</name>
+    </author>
+    <author>
+      <name>Enze Shi</name>
+    </author>
+    <author>
+      <name>Huawen Hu</name>
+    </author>
+    <author>
+      <name>Chong Ma</name>
+    </author>
+    <author>
+      <name>Yiheng Liu</name>
+    </author>
+    <author>
+      <name>Xuhui Wang</name>
+    </author>
+    <author>
+      <name>Yincheng Yao</name>
+    </author>
+    <author>
+      <name>Xuan Liu</name>
+    </author>
+    <author>
+      <name>Huaqin Zhao</name>
+    </author>
+    <author>
+      <name>Zhengliang Liu</name>
+    </author>
+    <author>
+      <name>Haixing Dai</name>
+    </author>
+    <author>
+      <name>Lin Zhao</name>
+    </author>
+    <author>
+      <name>Bao Ge</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Tianming Liu</name>
+    </author>
+    <author>
+      <name>Shu Zhang</name>
+    </author>
+  </entry>
+</feed>

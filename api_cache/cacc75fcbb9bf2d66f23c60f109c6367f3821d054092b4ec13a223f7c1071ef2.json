@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f0ArZXco/nhApFWJEkDsRvIYzsY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.26167v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.26167v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.26167v2</id>
+    <title>ToolRM: Towards Agentic Tool-Use Reward Modeling</title>
+    <updated>2026-01-13T13:28:26Z</updated>
+    <link href="https://arxiv.org/abs/2510.26167v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.26167v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward models (RMs) play a critical role in aligning large language models (LLMs) with human preferences. Yet in the domain of tool learning, the lack of RMs specifically designed for function-calling tasks has limited progress toward more capable agentic AI. We introduce ToolRM, a family of lightweight reward models tailored for general tool-use scenarios. To build these models, we propose a novel pipeline that constructs high-quality pairwise preference data using rule-based scoring and multidimensional sampling. This yields ToolPref-Pairwise-30K, a diverse, balanced, and challenging preference dataset that supports both generative and discriminative reward modeling. We also introduce TRBench$_{BFCL}$, a benchmark built on the agent evaluation suite BFCL to evaluate RMs on tool calling tasks. Trained on our constructed data, models from the Qwen3-4B/8B series achieve up to 17.94% higher accuracy, substantially outperforming frontier LLMs and RMs in pairwise reward judgments. Beyond training objectives, generative ToolRM generalizes to broader critique tasks, including Best-of-N sampling and self-correction. Experiments on ACEBench highlight its effectiveness and efficiency, enabling inference-time scaling while reducing output token usage by over 66%. Its support for downstream RL training further validates its practical utility. We release data to facilitate future research.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-30T06:08:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Renhao Li</name>
+    </author>
+    <author>
+      <name>Jianhong Tu</name>
+    </author>
+    <author>
+      <name>Yang Su</name>
+    </author>
+    <author>
+      <name>Yantao Liu</name>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+    </author>
+    <author>
+      <name>Hamid Alinejad-Rokny</name>
+    </author>
+    <author>
+      <name>Derek F. Wong</name>
+    </author>
+    <author>
+      <name>Junyang Lin</name>
+    </author>
+    <author>
+      <name>Min Yang</name>
+    </author>
+  </entry>
+</feed>

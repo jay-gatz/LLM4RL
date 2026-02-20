@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GqGzCIRs3txOJNUIvpMLy+k+SGU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15958v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:51:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15958v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15958v1</id>
+    <title>DocSplit: A Comprehensive Benchmark Dataset and Evaluation Approach for Document Packet Recognition and Splitting</title>
+    <updated>2026-02-17T19:17:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.15958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Document understanding in real-world applications often requires processing heterogeneous, multi-page document packets containing multiple documents stitched together. Despite recent advances in visual document understanding, the fundamental task of document packet splitting, which involves separating a document packet into individual units, remains largely unaddressed. We present the first comprehensive benchmark dataset, DocSplit, along with novel evaluation metrics for assessing the document packet splitting capabilities of large language models. DocSplit comprises five datasets of varying complexity, covering diverse document types, layouts, and multimodal settings. We formalize the DocSplit task, which requires models to identify document boundaries, classify document types, and maintain correct page ordering within a document packet. The benchmark addresses real-world challenges, including out-of-order pages, interleaved documents, and documents lacking clear demarcations. We conduct extensive experiments evaluating multimodal LLMs on our datasets, revealing significant performance gaps in current models' ability to handle complex document splitting tasks. The DocSplit benchmark datasets and proposed novel evaluation metrics provide a systematic framework for advancing document understanding capabilities essential for legal, financial, healthcare, and other document-intensive domains. We release the datasets to facilitate future research in document packet processing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T19:17:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Md Mofijul Islam</name>
+    </author>
+    <author>
+      <name>Md Sirajus Salekin</name>
+    </author>
+    <author>
+      <name>Nivedha Balakrishnan</name>
+    </author>
+    <author>
+      <name>Vincil C. Bishop</name>
+    </author>
+    <author>
+      <name>Niharika Jain</name>
+    </author>
+    <author>
+      <name>Spencer Romo</name>
+    </author>
+    <author>
+      <name>Bob Strahan</name>
+    </author>
+    <author>
+      <name>Boyi Xie</name>
+    </author>
+    <author>
+      <name>Diego A. Socolinsky</name>
+    </author>
+  </entry>
+</feed>

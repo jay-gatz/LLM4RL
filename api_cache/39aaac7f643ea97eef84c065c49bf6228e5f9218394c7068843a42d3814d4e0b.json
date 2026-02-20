@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SiJ0/qcTJHjE5yBJja4iNXD6EgI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.16341v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.16341v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.16341v2</id>
+    <title>Quality Matters: Evaluating Synthetic Data for Tool-Using LLMs</title>
+    <updated>2024-09-26T07:54:10Z</updated>
+    <link href="https://arxiv.org/abs/2409.16341v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.16341v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training large language models (LLMs) for external tool usage is a rapidly expanding field, with recent research focusing on generating synthetic data to address the shortage of available data. However, the absence of systematic data quality checks poses complications for properly training and testing models. To that end, we propose two approaches for assessing the reliability of data for training LLMs to use external tools. The first approach uses intuitive, human-defined correctness criteria. The second approach uses a model-driven assessment with in-context evaluation. We conduct a thorough evaluation of data quality on two popular benchmarks, followed by an extrinsic evaluation that showcases the impact of data quality on model performance. Our results demonstrate that models trained on high-quality data outperform those trained on unvalidated data, even when trained with a smaller quantity of data. These findings empirically support the significance of assessing and ensuring the reliability of training data for tool-using LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-24T17:20:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shadi Iskander</name>
+    </author>
+    <author>
+      <name>Nachshon Cohen</name>
+    </author>
+    <author>
+      <name>Zohar Karnin</name>
+    </author>
+    <author>
+      <name>Ori Shapira</name>
+    </author>
+    <author>
+      <name>Sofia Tolmach</name>
+    </author>
+  </entry>
+</feed>

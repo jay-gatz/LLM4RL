@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2mQRnJ/1+Vf9SsyBtT9+l6PiOOM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.07773v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.07773v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.07773v4</id>
+    <title>Agent RL Scaling Law: Agent RL with Spontaneous Code Execution for Mathematical Problem Solving</title>
+    <updated>2025-08-20T12:20:55Z</updated>
+    <link href="https://arxiv.org/abs/2505.07773v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.07773v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often struggle with mathematical reasoning tasks requiring precise, verifiable computation. While Reinforcement Learning (RL) from outcome-based rewards enhances text-based reasoning, understanding how agents autonomously learn to leverage external tools like code execution remains crucial. We investigate RL from outcome-based rewards for Tool-Integrated Reasoning, ZeroTIR, training base LLMs to spontaneously generate and execute Python code for mathematical problems without supervised tool-use examples. Our central contribution is we demonstrate that as RL training progresses, key metrics scale predictably. Specifically, we observe strong positive correlations where increased training steps lead to increases in the spontaneous code execution frequency, the average response length, and, critically, the final task accuracy. This suggests a quantifiable relationship between computational effort invested in training and the emergence of effective, tool-augmented reasoning strategies. We implement a robust framework featuring a decoupled code execution environment and validate our findings across standard RL algorithms and frameworks. Experiments show ZeroTIR significantly surpasses non-tool ZeroRL baselines on challenging math benchmarks. Our findings provide a foundational understanding of how autonomous tool use is acquired and scales within Agent RL, offering a reproducible benchmark for future studies. Code is released at \href{https://github.com/yyht/openrlhf_async_pipline}{https://github.com/yyht/openrlhf\_async\_pipline}.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-12T17:23:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xinji Mai</name>
+    </author>
+    <author>
+      <name>Haotian Xu</name>
+    </author>
+    <author>
+      <name>Zhong-Zhi Li</name>
+    </author>
+    <author>
+      <name>Xing W</name>
+    </author>
+    <author>
+      <name>Weinong Wang</name>
+    </author>
+    <author>
+      <name>Jian Hu</name>
+    </author>
+    <author>
+      <name>Yingying Zhang</name>
+    </author>
+    <author>
+      <name>Wenqiang Zhang</name>
+    </author>
+  </entry>
+</feed>

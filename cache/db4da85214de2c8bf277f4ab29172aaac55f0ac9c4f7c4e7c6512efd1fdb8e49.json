@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o6pDg3nLH1gzgPj9tgYzT3o/TNU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20357v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20357v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20357v1</id>
+    <title>TABED: Test-Time Adaptive Ensemble Drafting for Robust Speculative Decoding in LVLMs</title>
+    <updated>2026-01-28T08:16:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.20357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Speculative decoding (SD) has proven effective for accelerating LLM inference by quickly generating draft tokens and verifying them in parallel. However, SD remains largely unexplored for Large Vision-Language Models (LVLMs), which extend LLMs to process both image and text prompts. To address this gap, we benchmark existing inference methods with small draft models on 11 datasets across diverse input scenarios and observe scenario-specific performance fluctuations. Motivated by these findings, we propose Test-time Adaptive Batched Ensemble Drafting (TABED), which dynamically ensembles multiple drafts obtained via batch inference by leveraging deviations from past ground truths available in the SD setting. The dynamic ensemble method achieves an average robust walltime speedup of 1.74x over autoregressive decoding and a 5% improvement over single drafting methods, while remaining training-free and keeping ensembling costs negligible through parameter sharing. With its plug-and-play compatibility, we further enhance TABED by integrating advanced verification and alternative drafting methods. Code and custom-trained models are available at https://github.com/furiosa-ai/TABED.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T08:16:57Z</published>
+    <arxiv:comment>Accepted to Findings of EACL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minjae Lee</name>
+    </author>
+    <author>
+      <name>Wonjun Kang</name>
+    </author>
+    <author>
+      <name>Byeongkeun Ahn</name>
+    </author>
+    <author>
+      <name>Christian Classen</name>
+    </author>
+    <author>
+      <name>Kevin Galim</name>
+    </author>
+    <author>
+      <name>Seunghyuk Oh</name>
+    </author>
+    <author>
+      <name>Minghao Yan</name>
+    </author>
+    <author>
+      <name>Hyung Il Koo</name>
+    </author>
+    <author>
+      <name>Kangwook Lee</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Jxnzf1qqYDMn/kmBZpDW9A364YA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14974v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14974v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14974v1</id>
+    <title>DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI</title>
+    <updated>2026-02-16T17:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.14974v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14974v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Moving beyond the traditional paradigm of adapting internet-pretrained models to physical tasks, we present DM0, an Embodied-Native Vision-Language-Action (VLA) framework designed for Physical AI. Unlike approaches that treat physical grounding as a fine-tuning afterthought, DM0 unifies embodied manipulation and navigation by learning from heterogeneous data sources from the onset. Our methodology follows a comprehensive three-stage pipeline: Pretraining, Mid-Training, and Post-Training. First, we conduct large-scale unified pretraining on the Vision-Language Model (VLM) using diverse corpora--seamlessly integrating web text, autonomous driving scenarios, and embodied interaction logs-to jointly acquire semantic knowledge and physical priors. Subsequently, we build a flow-matching action expert atop the VLM. To reconcile high-level reasoning with low-level control, DM0 employs a hybrid training strategy: for embodied data, gradients from the action expert are not backpropagated to the VLM to preserve generalized representations, while the VLM remains trainable on non-embodied data. Furthermore, we introduce an Embodied Spatial Scaffolding strategy to construct spatial Chain-of-Thought (CoT) reasoning, effectively constraining the action solution space. Experiments on the RoboChallenge benchmark demonstrate that DM0 achieves state-of-the-art performance in both Specialist and Generalist settings on Table30.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T17:59:16Z</published>
+    <arxiv:comment>Authors are listed in alphabetical order. Code is available at https://github.com/Dexmal/dexbotic</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>En Yu</name>
+    </author>
+    <author>
+      <name>Haoran Lv</name>
+    </author>
+    <author>
+      <name>Jianjian Sun</name>
+    </author>
+    <author>
+      <name>Kangheng Lin</name>
+    </author>
+    <author>
+      <name>Ruitao Zhang</name>
+    </author>
+    <author>
+      <name>Yukang Shi</name>
+    </author>
+    <author>
+      <name>Yuyang Chen</name>
+    </author>
+    <author>
+      <name>Ze Chen</name>
+    </author>
+    <author>
+      <name>Ziheng Zhang</name>
+    </author>
+    <author>
+      <name>Fan Jia</name>
+    </author>
+    <author>
+      <name>Kaixin Liu</name>
+    </author>
+    <author>
+      <name>Meng Zhang</name>
+    </author>
+    <author>
+      <name>Ruitao Hao</name>
+    </author>
+    <author>
+      <name>Saike Huang</name>
+    </author>
+    <author>
+      <name>Songhan Xie</name>
+    </author>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Zhao Wu</name>
+    </author>
+    <author>
+      <name>Bin Xie</name>
+    </author>
+    <author>
+      <name>Pengwei Zhang</name>
+    </author>
+    <author>
+      <name>Qi Yang</name>
+    </author>
+    <author>
+      <name>Xianchi Deng</name>
+    </author>
+    <author>
+      <name>Yunfei Wei</name>
+    </author>
+    <author>
+      <name>Enwen Zhang</name>
+    </author>
+    <author>
+      <name>Hongyang Peng</name>
+    </author>
+    <author>
+      <name>Jie Zhao</name>
+    </author>
+    <author>
+      <name>Kai Liu</name>
+    </author>
+    <author>
+      <name>Wei Sun</name>
+    </author>
+    <author>
+      <name>Yajun Wei</name>
+    </author>
+    <author>
+      <name>Yi Yang</name>
+    </author>
+    <author>
+      <name>Yunqiao Zhang</name>
+    </author>
+    <author>
+      <name>Ziwei Yan</name>
+    </author>
+    <author>
+      <name>Haitao Yang</name>
+    </author>
+    <author>
+      <name>Hao Liu</name>
+    </author>
+    <author>
+      <name>Haoqiang Fan</name>
+    </author>
+    <author>
+      <name>Haowei Zhang</name>
+    </author>
+    <author>
+      <name>Junwen Huang</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+    <author>
+      <name>Yunchao Ma</name>
+    </author>
+    <author>
+      <name>Yunhuan Yang</name>
+    </author>
+    <author>
+      <name>Zhengyuan Du</name>
+    </author>
+    <author>
+      <name>Ziming Liu</name>
+    </author>
+    <author>
+      <name>Jiahui Niu</name>
+    </author>
+    <author>
+      <name>Yucheng Zhao</name>
+    </author>
+    <author>
+      <name>Daxin Jiang</name>
+    </author>
+    <author>
+      <name>Wenbin Tang</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhang</name>
+    </author>
+    <author>
+      <name>Zheng Ge</name>
+    </author>
+    <author>
+      <name>Erjin Zhou</name>
+    </author>
+    <author>
+      <name>Tiancai Wang</name>
+    </author>
+  </entry>
+</feed>

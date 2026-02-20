@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Jb146CW+wH7GZdh78yDQn9qE7BY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11658v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11658v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11658v1</id>
+    <title>EmoSpace: Fine-Grained Emotion Prototype Learning for Immersive Affective Content Generation</title>
+    <updated>2026-02-12T07:23:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.11658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Emotion is important for creating compelling virtual reality (VR) content. Although some generative methods have been applied to lower the barrier to creating emotionally rich content, they fail to capture the nuanced emotional semantics and the fine-grained control essential for immersive experiences. To address these limitations, we introduce EmoSpace, a novel framework for emotion-aware content generation that learns dynamic, interpretable emotion prototypes through vision-language alignment. We employ a hierarchical emotion representation with rich learnable prototypes that evolve during training, enabling fine-grained emotional control without requiring explicit emotion labels. We develop a controllable generation pipeline featuring multi-prototype guidance, temporal blending, and attention reweighting that supports diverse applications, including emotional image outpainting, stylized generation, and emotional panorama generation for VR environments. Our experiments demonstrate the superior performance of EmoSpace over existing methods in both qualitative and quantitative evaluations. Additionally, we present a comprehensive user study investigating how VR environments affect emotional perception compared to desktop settings. Our work facilitates immersive visual content generation with fine-grained emotion control and supports applications like therapy, education, storytelling, artistic creation, and cultural preservation. Code and models will be made publicly available.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T07:23:41Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bingyuan Wang</name>
+    </author>
+    <author>
+      <name>Xingbei Chen</name>
+    </author>
+    <author>
+      <name>Zongyang Qiu</name>
+    </author>
+    <author>
+      <name>Linping Yuan</name>
+    </author>
+    <author>
+      <name>Zeyu Wang</name>
+    </author>
+  </entry>
+</feed>

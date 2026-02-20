@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KDskjRpBq9oIQfr6biCZ3Ky3ByI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11615v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11615v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11615v1</id>
+    <title>SkillRater: Untangling Capabilities in Multimodal Data</title>
+    <updated>2026-02-12T06:07:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.11615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data curation methods typically assign samples a single quality score. We argue this scalar framing is fundamentally limited: when training requires multiple distinct capabilities, a monolithic scorer cannot maximize useful signals for all of them simultaneously. Quality is better understood as multidimensional, with each dimension corresponding to a capability the model must acquire. We introduce SkillRater, a framework that decomposes data filtering into specialized raters - one per capability, each trained via meta-learning on a disjoint validation objective - and composes their scores through a progressive selection rule: at each training stage, a sample is retained if any rater ranks it above a threshold that tightens over time, preserving diversity early while concentrating on high-value samples late. We validate this approach on vision language models, decomposing quality into three capability dimensions: visual understanding, OCR, and STEM reasoning. At 2B parameters, SkillRater improves over unfiltered baselines by 5.63% on visual understanding, 2.00% on OCR, and 3.53% on STEM on held out benchmarks. The learned rater signals are near orthogonal, confirming that the decomposition captures genuinely independent quality dimensions and explaining why it outperforms both unfiltered training and monolithic learned filtering.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T06:07:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Naveen Sahi</name>
+    </author>
+    <author>
+      <name>Jeremy Dohmann</name>
+    </author>
+    <author>
+      <name>Armen Aghajanyan</name>
+    </author>
+    <author>
+      <name>Akshat Shrivastava</name>
+    </author>
+  </entry>
+</feed>

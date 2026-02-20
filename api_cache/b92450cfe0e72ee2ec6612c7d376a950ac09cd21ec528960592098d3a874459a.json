@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CXMan6tWvukTvqJEOpatrzYbSBs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2009.09158v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2009.09158v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2009.09158v1</id>
+    <title>Proceedings 36th International Conference on Logic Programming (Technical Communications)</title>
+    <updated>2020-09-19T04:18:41Z</updated>
+    <link href="https://arxiv.org/abs/2009.09158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.09158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the first conference held in Marseille in 1982, ICLP has been the premier international event for presenting research in logic programming. Contributions are solicited in all areas of logic programming and related areas, including but not restricted to:
+  - Foundations: Semantics, Formalisms, Answer-Set Programming, Non-monotonic Reasoning, Knowledge Representation. 
+  - Declarative Programming: Inference engines, Analysis, Type and mode inference, Partial evaluation, Abstract interpretation, Transformation, Validation, Verification, Debugging, Profiling, Testing, Logic-based domain-specific languages, constraint handling rules. 
+  - Related Paradigms and Synergies: Inductive and Co-inductive Logic Programming, Constraint Logic Programming, Interaction with SAT, SMT and CSP solvers, Logic programming techniques for type inference and theorem proving, Argumentation, Probabilistic Logic Programming, Relations to object-oriented and Functional programming, Description logics, Neural-Symbolic Machine Learning, Hybrid Deep Learning and Symbolic Reasoning. 
+  - Implementation: Concurrency and distribution, Objects, Coordination, Mobility, Virtual machines, Compilation, Higher Order, Type systems, Modules, Constraint handling rules, Meta-programming, Foreign interfaces, User interfaces. 
+  - Applications: Databases, Big Data, Data Integration and Federation, Software Engineering, Natural Language Processing, Web and Semantic Web, Agents, Artificial Intelligence, Bioinformatics, Education, Computational life sciences, Education, Cybersecurity, and Robotics.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-19T04:18:41Z</published>
+    <arxiv:primary_category term="cs.LO"/>
+    <arxiv:journal_ref>EPTCS 325, 2020</arxiv:journal_ref>
+    <author>
+      <name>Francesco Ricca</name>
+      <arxiv:affiliation>University of Calabria</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alessandra Russo</name>
+      <arxiv:affiliation>Imperial College London</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sergio Greco</name>
+      <arxiv:affiliation>University of Calabria</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nicola Leone</name>
+      <arxiv:affiliation>University of Calabria</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Artikis</name>
+      <arxiv:affiliation>University of Piraeus</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gerhard Friedrich</name>
+      <arxiv:affiliation>Universität Klagenfurt</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Fodor</name>
+      <arxiv:affiliation>Stony Brook University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Angelika Kimmig</name>
+      <arxiv:affiliation>Cardiff University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francesca Lisi</name>
+      <arxiv:affiliation>University of Bari Aldo Moro</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marco Maratea</name>
+      <arxiv:affiliation>University of Genova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alessandra Mileo</name>
+      <arxiv:affiliation>INSIGHT Centre for Data Analytics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fabrizio Riguzzi</name>
+      <arxiv:affiliation>Università di Ferrara</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.4204/EPTCS.325</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4204/EPTCS.325" title="doi"/>
+  </entry>
+</feed>

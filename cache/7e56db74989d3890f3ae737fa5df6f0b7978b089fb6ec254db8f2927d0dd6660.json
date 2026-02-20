@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KFI2xG71O5J8Gj7kSo/BQBIODP4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.16252v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.16252v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16252v1</id>
+    <title>WEBSERV: A Browser-Server Environment for Efficient Training of Reinforcement Learning-based Web Agents at Scale</title>
+    <updated>2025-10-17T22:54:33Z</updated>
+    <link href="https://arxiv.org/abs/2510.16252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training and evaluation of Reinforcement Learning (RL) web agents have gained increasing attention, yet a scalable and efficient environment that couples realistic and robust browser-side interaction with controllable server-side state at scale is still missing. Existing environments tend to have one or more of the following issues: they overwhelm policy models with excessive and noisy context; they perform actions non-deterministically without waiting for the UI or network to stabilize; or they cannot scale isolated client-server containers effectively for parallel RL rollouts. We propose WEBSERV, an environment that includes 1) a compact, site-agnostic browser environment that balances context and action complexity, and 2) a scalable RL environment via efficient launching and resetting web-servers to enable scalable RL training and evaluation. We evaluate WEBSERV on the shopping CMS and Gitlab tasks in WebArena, achieving state-of-the-art single-prompt success rates while cutting launch latency by ~5x and storage need by ~240x, with a comparable memory footprint, enabling 200+ concurrent containers on a single host.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T22:54:33Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuxuan Lu</name>
+    </author>
+    <author>
+      <name>Jing Huang</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+    <author>
+      <name>Jiri Gesi</name>
+    </author>
+    <author>
+      <name>Yan Han</name>
+    </author>
+    <author>
+      <name>Shihan Fu</name>
+    </author>
+    <author>
+      <name>Tianqi Zheng</name>
+    </author>
+    <author>
+      <name>Dakuo Wang</name>
+    </author>
+  </entry>
+</feed>

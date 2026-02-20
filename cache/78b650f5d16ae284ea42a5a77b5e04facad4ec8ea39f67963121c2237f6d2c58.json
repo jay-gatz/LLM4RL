@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kHcD2+22iYcPtJ4hvaeCEbi5ckY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15228v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15228v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15228v1</id>
+    <title>An Empirical Study on the Effects of System Prompts in Instruction-Tuned Models for Code Generation</title>
+    <updated>2026-02-16T22:11:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.15228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction-tuned Language Models (ILMs) have become essential components of modern AI systems, demonstrating exceptional versatility across natural language and reasoning tasks. Among their most impactful applications is code generation, where ILMs -- commonly referred to as Code Language Models (CLMs) -- translate human intent into executable programs. While progress has been driven by advances in scaling and training methodologies, one critical aspect remains underexplored: the impact of system prompts on both general-purpose ILMs and specialized CLMs for code generation. We systematically evaluate how system prompts of varying instructional detail, along with model scale, prompting strategy, and programming language, affect code assistant. Our experimental setting spans 360 configurations across four models, five system prompts, three prompting strategies, two languages, and two temperature settings. We find that (1) increasing system-prompt constraint specificity does not monotonically improve correctness -- prompt effectiveness is configuration-dependent and can help or hinder based on alignment with task requirements and decoding context; (2) for larger code-specialized models, few-shot examples can degrade performance relative to zero-shot generation, contrary to conventional wisdom; and (3) programming language matters, with Java exhibiting significantly greater sensitivity to system prompt variations than Python, suggesting language-specific prompt engineering strategies may be necessary.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T22:11:21Z</published>
+    <arxiv:comment>34 pages, 12 tables, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Zaiyu Cheng</name>
+    </author>
+    <author>
+      <name>Antonio Mastropaolo</name>
+    </author>
+  </entry>
+</feed>

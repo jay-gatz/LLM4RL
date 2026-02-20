@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/50zialZnNSBv7RbJl7Qqpei5Zcw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04864v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04864v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04864v2</id>
+    <title>When LLaVA Meets Objects: Token Composition for Vision-Language-Models</title>
+    <updated>2026-02-09T10:02:01Z</updated>
+    <link href="https://arxiv.org/abs/2602.04864v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04864v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current autoregressive Vision Language Models (VLMs) usually rely on a large number of visual tokens to represent images, resulting in a need for more compute especially at inference time. To address this problem, we propose Mask-LLaVA, a framework that leverages different levels of visual features to create a compact yet information-rich visual representation for autoregressive VLMs. Namely, we combine mask-based object representations together with global tokens and local patch tokens. While all tokens are used during training, it shows that the resulting model can flexibly drop especially the number of mask-based object-tokens at test time, allowing to adapt the number of tokens during inference without the need to retrain the model and without a significant drop in performance. We evaluate the proposed approach on a suite of standard benchmarks showing results competitive to current token efficient methods and comparable to the original LLaVA baseline using only a fraction of visual tokens. Our analysis demonstrates that combining multi-level features enables efficient learning with fewer tokens while allowing dynamic token selection at test time for good performance.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T18:50:46Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Soumya Jahagirdar</name>
+    </author>
+    <author>
+      <name>Walid Bousselham</name>
+    </author>
+    <author>
+      <name>Anna Kukleva</name>
+    </author>
+    <author>
+      <name>Hilde Kuehne</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0n/RNyl84fiyXhU4q6nnMDSGP9Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21268v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21268v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21268v1</id>
+    <title>Reinforcement Learning from Meta-Evaluation: Aligning Language Models Without Ground-Truth Labels</title>
+    <updated>2026-01-29T05:02:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.21268v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21268v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most reinforcement learning (RL) methods for training large language models (LLMs) require ground-truth labels or task-specific verifiers, limiting scalability when correctness is ambiguous or expensive to obtain. We introduce Reinforcement Learning from Meta-Evaluation (RLME), which optimizes a generator using reward derived from an evaluator's answers to natural-language meta-questions (e.g., "Is the answer correct?" or "Is the reasoning logically consistent?"). RLME treats the evaluator's probability of a positive judgment as a reward and updates the generator via group-relative policy optimization, enabling learning without labels. Across a suite of experiments, we show that RLME achieves accuracy and sample efficiency comparable to label-based training, enables controllable trade-offs among multiple objectives, steers models toward reliable reasoning patterns rather than post-hoc rationalization, and generalizes to open-domain settings where ground-truth labels are unavailable, broadening the domains in which LLMs may be trained with RL.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T05:02:08Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Micah Rentschler</name>
+    </author>
+    <author>
+      <name>Jesse Roberts</name>
+    </author>
+  </entry>
+</feed>

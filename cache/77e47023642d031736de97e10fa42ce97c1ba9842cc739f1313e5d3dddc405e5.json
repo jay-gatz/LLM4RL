@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y1F/tCF+gIK/gOzw4IiJxF4WoZ4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05897v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05897v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05897v1</id>
+    <title>Stop Rewarding Hallucinated Steps: Faithfulness-Aware Step-Level Reinforcement Learning for Small Reasoning Models</title>
+    <updated>2026-02-05T17:15:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.05897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models become smaller and more efficient, small reasoning models (SRMs) are crucial for enabling chain-of-thought (CoT) reasoning in resource-constrained settings. However, they are prone to faithfulness hallucinations, especially in intermediate reasoning steps. Existing mitigation methods based on online reinforcement learning rely on outcome-based rewards or coarse-grained CoT evaluation, which can inadvertently reinforce unfaithful reasoning when the final answer is correct. To address these limitations, we propose Faithfulness-Aware Step-Level Reinforcement Learning (FaithRL), introducing step-level supervision via explicit faithfulness rewards from a process reward model, together with an implicit truncated resampling strategy that generates contrastive signals from faithful prefixes. Experiments across multiple SRMs and Open-Book QA benchmarks demonstrate that FaithRL consistently reduces hallucinations in both the CoT and final answers, leading to more faithful and reliable reasoning. Code is available at https://github.com/Easy195/FaithRL.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T17:15:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shuo Nie</name>
+    </author>
+    <author>
+      <name>Hexuan Deng</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Ruiyu Fang</name>
+    </author>
+    <author>
+      <name>Xuebo Liu</name>
+    </author>
+    <author>
+      <name>Shuangyong Song</name>
+    </author>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Min Zhang</name>
+    </author>
+    <author>
+      <name>Xuelong Li</name>
+    </author>
+  </entry>
+</feed>

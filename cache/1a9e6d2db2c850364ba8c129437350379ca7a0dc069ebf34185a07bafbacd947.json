@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/85GXjxdVwReU3GBpnhh6sXAUDes</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16653v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16653v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16653v1</id>
+    <title>Agent Skill Framework: Perspectives on the Potential of Small Language Models in Industrial Environments</title>
+    <updated>2026-02-18T17:52:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.16653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agent Skill framework, now widely and officially supported by major players such as GitHub Copilot, LangChain, and OpenAI, performs especially well with proprietary models by improving context engineering, reducing hallucinations, and boosting task accuracy. Based on these observations, an investigation is conducted to determine whether the Agent Skill paradigm provides similar benefits to small language models (SLMs). This question matters in industrial scenarios where continuous reliance on public APIs is infeasible due to data-security and budget constraints requirements, and where SLMs often show limited generalization in highly customized scenarios. This work introduces a formal mathematical definition of the Agent Skill process, followed by a systematic evaluation of language models of varying sizes across multiple use cases. The evaluation encompasses two open-source tasks and a real-world insurance claims data set. The results show that tiny models struggle with reliable skill selection, while moderately sized SLMs (approximately 12B - 30B) parameters) benefit substantially from the Agent Skill approach. Moreover, code-specialized variants at around 80B parameters achieve performance comparable to closed-source baselines while improving GPU efficiency. Collectively, these findings provide a comprehensive and nuanced characterization of the capabilities and constraints of the framework, while providing actionable insights for the effective deployment of Agent Skills in SLM-centered environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T17:52:17Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yangjie Xu</name>
+    </author>
+    <author>
+      <name>Lujun Li</name>
+    </author>
+    <author>
+      <name>Lama Sleem</name>
+    </author>
+    <author>
+      <name>Niccolo Gentile</name>
+    </author>
+    <author>
+      <name>Yewei Song</name>
+    </author>
+    <author>
+      <name>Yiqun Wang</name>
+    </author>
+    <author>
+      <name>Siming Ji</name>
+    </author>
+    <author>
+      <name>Wenbo Wu</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+  </entry>
+</feed>

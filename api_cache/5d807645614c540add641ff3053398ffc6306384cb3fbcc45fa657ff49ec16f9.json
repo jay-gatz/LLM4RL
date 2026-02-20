@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f/mE/eRdC+8RgVCUasOS5USzmTc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.00763&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.00763" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.00763v1</id>
+    <title>Collaborating with language models for embodied reasoning</title>
+    <updated>2023-02-01T21:26:32Z</updated>
+    <link href="https://arxiv.org/abs/2302.00763v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.00763v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning in a complex and ambiguous environment is a key goal for Reinforcement Learning (RL) agents. While some sophisticated RL agents can successfully solve difficult tasks, they require a large amount of training data and often struggle to generalize to new unseen environments and new tasks. On the other hand, Large Scale Language Models (LSLMs) have exhibited strong reasoning ability and the ability to to adapt to new tasks through in-context learning. However, LSLMs do not inherently have the ability to interrogate or intervene on the environment. In this work, we investigate how to combine these complementary abilities in a single system consisting of three parts: a Planner, an Actor, and a Reporter. The Planner is a pre-trained language model that can issue commands to a simple embodied agent (the Actor), while the Reporter communicates with the Planner to inform its next command. We present a set of tasks that require reasoning, test this system's ability to generalize zero-shot and investigate failure cases, and demonstrate how components of this system can be trained with reinforcement-learning to improve performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-01T21:26:32Z</published>
+    <arxiv:comment>Presented at NeurIPS 2022 Language and Reinforcement Learning Workshop (best paper) and NeurIPS 2022 Foundation Models for Decision Making Workshop. 4 pages main; 14 pages total (including references and appendix); 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ishita Dasgupta</name>
+    </author>
+    <author>
+      <name>Christine Kaeser-Chen</name>
+    </author>
+    <author>
+      <name>Kenneth Marino</name>
+    </author>
+    <author>
+      <name>Arun Ahuja</name>
+    </author>
+    <author>
+      <name>Sheila Babayan</name>
+    </author>
+    <author>
+      <name>Felix Hill</name>
+    </author>
+    <author>
+      <name>Rob Fergus</name>
+    </author>
+  </entry>
+</feed>

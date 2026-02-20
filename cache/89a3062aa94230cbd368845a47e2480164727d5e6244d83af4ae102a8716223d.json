@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Z+Kp06uOPn0NL99fQKbA5Ah1ElI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.25850v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.25850v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25850v1</id>
+    <title>Debate2Create: Robot Co-design via Large Language Model Debates</title>
+    <updated>2025-10-29T18:00:16Z</updated>
+    <link href="https://arxiv.org/abs/2510.25850v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25850v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automating the co-design of a robot's morphology and control is a long-standing challenge due to the vast design space and the tight coupling between body and behavior. We introduce Debate2Create (D2C), a framework in which large language model (LLM) agents engage in a structured dialectical debate to jointly optimize a robot's design and its reward function. In each round, a design agent proposes targeted morphological modifications, and a control agent devises a reward function tailored to exploit the new design. A panel of pluralistic judges then evaluates the design-control pair in simulation and provides feedback that guides the next round of debate. Through iterative debates, the agents progressively refine their proposals, producing increasingly effective robot designs. Notably, D2C yields diverse and specialized morphologies despite no explicit diversity objective. On a quadruped locomotion benchmark, D2C discovers designs that travel 73% farther than the default, demonstrating that structured LLM-based debate can serve as a powerful mechanism for emergent robot co-design. Our results suggest that multi-agent debate, when coupled with physics-grounded feedback, is a promising new paradigm for automated robot design.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T18:00:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Kevin Qiu</name>
+    </author>
+    <author>
+      <name>Marek Cygan</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OzZjZiMtdREpe0aWa9/EnPFnczI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11598v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11598v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11598v1</id>
+    <title>ABot-N0: Technical Report on the VLA Foundation Model for Versatile Embodied Navigation</title>
+    <updated>2026-02-12T05:30:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.11598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied navigation has long been fragmented by task-specific architectures. We introduce ABot-N0, a unified Vision-Language-Action (VLA) foundation model that achieves a ``Grand Unification'' across 5 core tasks: Point-Goal, Object-Goal, Instruction-Following, POI-Goal, and Person-Following. ABot-N0 utilizes a hierarchical ``Brain-Action'' architecture, pairing an LLM-based Cognitive Brain for semantic reasoning with a Flow Matching-based Action Expert for precise, continuous trajectory generation.
+  To support large-scale learning, we developed the ABot-N0 Data Engine, curating 16.9M expert trajectories and 5.0M reasoning samples across 7,802 high-fidelity 3D scenes (10.7 $\text{km}^2$). ABot-N0 achieves new SOTA performance across 7 benchmarks, significantly outperforming specialized models. Furthermore, our Agentic Navigation System integrates a planner with hierarchical topological memory, enabling robust, long-horizon missions in dynamic real-world environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T05:30:20Z</published>
+    <arxiv:comment>Project Page: https://amap-cvlab.github.io/ABot-Navigation/ABot-N0/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zedong Chu</name>
+    </author>
+    <author>
+      <name>Shichao Xie</name>
+    </author>
+    <author>
+      <name>Xiaolong Wu</name>
+    </author>
+    <author>
+      <name>Yanfen Shen</name>
+    </author>
+    <author>
+      <name>Minghua Luo</name>
+    </author>
+    <author>
+      <name>Zhengbo Wang</name>
+    </author>
+    <author>
+      <name>Fei Liu</name>
+    </author>
+    <author>
+      <name>Xiaoxu Leng</name>
+    </author>
+    <author>
+      <name>Junjun Hu</name>
+    </author>
+    <author>
+      <name>Mingyang Yin</name>
+    </author>
+    <author>
+      <name>Jia Lu</name>
+    </author>
+    <author>
+      <name>Yingnan Guo</name>
+    </author>
+    <author>
+      <name>Kai Yang</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+    <author>
+      <name>Xu Chen</name>
+    </author>
+    <author>
+      <name>Yanqing Zhu</name>
+    </author>
+    <author>
+      <name>Yuxiang Zhao</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Yirong Yang</name>
+    </author>
+    <author>
+      <name>Ye He</name>
+    </author>
+    <author>
+      <name>Jiahang Wang</name>
+    </author>
+    <author>
+      <name>Yang Cai</name>
+    </author>
+    <author>
+      <name>Tianlin Zhang</name>
+    </author>
+    <author>
+      <name>Li Gao</name>
+    </author>
+    <author>
+      <name>Liu Liu</name>
+    </author>
+    <author>
+      <name>Mingchao Sun</name>
+    </author>
+    <author>
+      <name>Fan Jiang</name>
+    </author>
+    <author>
+      <name>Chiyu Wang</name>
+    </author>
+    <author>
+      <name>Zhicheng Liu</name>
+    </author>
+    <author>
+      <name>Hongyu Pan</name>
+    </author>
+    <author>
+      <name>Honglin Han</name>
+    </author>
+    <author>
+      <name>Zhining Gu</name>
+    </author>
+    <author>
+      <name>Kuan Yang</name>
+    </author>
+    <author>
+      <name>Jianfang Zhang</name>
+    </author>
+    <author>
+      <name>Di Jing</name>
+    </author>
+    <author>
+      <name>Zihao Guan</name>
+    </author>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Guoqing Liu</name>
+    </author>
+    <author>
+      <name>Di Yang</name>
+    </author>
+    <author>
+      <name>Xiangpo Yang</name>
+    </author>
+    <author>
+      <name>Menglin Yang</name>
+    </author>
+    <author>
+      <name>Hongguang Xing</name>
+    </author>
+    <author>
+      <name>Weiguo Li</name>
+    </author>
+    <author>
+      <name>Mu Xu</name>
+    </author>
+  </entry>
+</feed>

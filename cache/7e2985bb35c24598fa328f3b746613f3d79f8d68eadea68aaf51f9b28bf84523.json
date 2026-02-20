@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2QW/leadORBpnQ0x9fhGirANJMk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16551v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16551v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16551v1</id>
+    <title>Automated Extraction of Mechanical Constitutive Models from Scientific Literature using Large Language Models: Applications in Cultural Heritage Conservation</title>
+    <updated>2026-02-18T15:53:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.16551v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16551v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The preservation of cultural heritage is increasingly transitioning towards data-driven predictive maintenance and "Digital Twin" construction. However, the mechanical constitutive models required for high-fidelity simulations remain fragmented across decades of unstructured scientific literature, creating a "Data Silo" that hinders conservation engineering. To address this, we present an automated, two-stage agentic framework leveraging Large Language Models (LLMs) to extract mechanical constitutive equations, calibrated parameters, and metadata from PDF documents. The workflow employs a resource-efficient "Gatekeeper" agent for relevance filtering and a high-capability "Analyst" agent for fine-grained extraction, featuring a novel Context-Aware Symbolic Grounding mechanism to resolve mathematical ambiguities. Applied to a corpus of over 2,000 research papers, the system successfully isolated 113 core documents and constructed a structured database containing 185 constitutive model instances and over 450 calibrated parameters. The extraction precision reached 80.4\%, establishing a highly efficient "Human-in-the-loop" workflow that reduces manual data curation time by approximately 90\%. We demonstrate the system's utility through a web-based Knowledge Retrieval Platform, which enables rapid parameter discovery for computational modeling. This work transforms scattered literature into a queryable digital asset, laying the data foundation for the "Digital Material Twin" of built heritage.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T15:53:15Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Rui Hu</name>
+    </author>
+    <author>
+      <name>Yue Wu</name>
+    </author>
+    <author>
+      <name>Tianhao Su</name>
+    </author>
+    <author>
+      <name>Yin Wang</name>
+    </author>
+    <author>
+      <name>Shunbo Hu</name>
+    </author>
+    <author>
+      <name>Jizhong Huang</name>
+    </author>
+  </entry>
+</feed>

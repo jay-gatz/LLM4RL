@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//jQKCpeAzkT69khKcBSQY3JNQBc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15689v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:20:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15689v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15689v2</id>
+    <title>A Content-Based Framework for Cybersecurity Refusal Decisions in Large Language Models</title>
+    <updated>2026-02-18T16:42:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.15689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models and LLM-based agents are increasingly used for cybersecurity tasks that are inherently dual-use. Existing approaches to refusal, spanning academic policy frameworks and commercially deployed systems, often rely on broad topic-based bans or offensive-focused taxonomies. As a result, they can yield inconsistent decisions, over-restrict legitimate defenders, and behave brittlely under obfuscation or request segmentation. We argue that effective refusal requires explicitly modeling the trade-off between offensive risk and defensive benefit, rather than relying solely on intent or offensive classification. In this paper, we introduce a content-based framework for designing and auditing cyber refusal policies that makes offense-defense tradeoffs explicit. The framework characterizes requests along five dimensions: Offensive Action Contribution, Offensive Risk, Technical Complexity, Defensive Benefit, and Expected Frequency for Legitimate Users, grounded in the technical substance of the request rather than stated intent. We demonstrate that this content-grounded approach resolves inconsistencies in current frontier model behavior and allows organizations to construct tunable, risk-aware refusal policies.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T16:12:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Noa Linder</name>
+    </author>
+    <author>
+      <name>Meirav Segal</name>
+    </author>
+    <author>
+      <name>Omer Antverg</name>
+    </author>
+    <author>
+      <name>Gil Gekker</name>
+    </author>
+    <author>
+      <name>Tomer Fichman</name>
+    </author>
+    <author>
+      <name>Omri Bodenheimer</name>
+    </author>
+    <author>
+      <name>Edan Maor</name>
+    </author>
+    <author>
+      <name>Omer Nevo</name>
+    </author>
+  </entry>
+</feed>

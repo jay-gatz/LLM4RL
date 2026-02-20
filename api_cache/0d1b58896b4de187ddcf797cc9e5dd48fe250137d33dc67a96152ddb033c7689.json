@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g3Dn8OuhUg0ymsHBLUUnBMEO4Io</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.27287v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.27287v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27287v1</id>
+    <title>Can LLMs Help You at Work? A Sandbox for Evaluating LLM Agents in Enterprise Environments</title>
+    <updated>2025-10-31T08:55:13Z</updated>
+    <link href="https://arxiv.org/abs/2510.27287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise systems are crucial for enhancing productivity and decision-making among employees and customers. Integrating LLM based systems into enterprise systems enables intelligent automation, personalized experiences, and efficient information retrieval, driving operational efficiency and strategic growth. However, developing and evaluating such systems is challenging due to the inherent complexity of enterprise environments, where data is fragmented across multiple sources and governed by sophisticated access controls. We present EnterpriseBench, a comprehensive benchmark that simulates enterprise settings, featuring 500 diverse tasks across software engineering, HR, finance, and administrative domains. Our benchmark uniquely captures key enterprise characteristics including data source fragmentation, access control hierarchies, and cross-functional workflows. Additionally, we provide a novel data generation pipeline that creates internally consistent enterprise tasks from organizational metadata. Experiments with state-of-the-art LLM agents demonstrate that even the most capable models achieve only 41.8% task completion, highlighting significant opportunities for improvement in enterprise-focused AI systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T08:55:13Z</published>
+    <arxiv:comment>Accepted at EMNLP 2025 Main Track</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Harsh Vishwakarma</name>
+    </author>
+    <author>
+      <name>Ankush Agarwal</name>
+    </author>
+    <author>
+      <name>Ojas Patil</name>
+    </author>
+    <author>
+      <name>Chaitanya Devaguptapu</name>
+    </author>
+    <author>
+      <name>Mahesh Chandran</name>
+    </author>
+  </entry>
+</feed>

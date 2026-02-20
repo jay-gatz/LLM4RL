@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QPweGLpVjBp9W7FPo8UCMj7gPL0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20279v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20279v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20279v1</id>
+    <title>Hallucination Begins Where Saliency Drops</title>
+    <updated>2026-01-28T05:50:52Z</updated>
+    <link href="https://arxiv.org/abs/2601.20279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies have examined attention dynamics in large vision-language models (LVLMs) to detect hallucinations. However, existing approaches remain limited in reliably distinguishing hallucinated from factually grounded outputs, as they rely solely on forward-pass attention patterns and neglect gradient-based signals that reveal how token influence propagates through the network. To bridge this gap, we introduce LVLMs-Saliency, a gradient-aware diagnostic framework that quantifies the visual grounding strength of each output token by fusing attention weights with their input gradients. Our analysis uncovers a decisive pattern: hallucinations frequently arise when preceding output tokens exhibit low saliency toward the prediction of the next token, signaling a breakdown in contextual memory retention. Leveraging this insight, we propose a dual-mechanism inference-time framework to mitigate hallucinations: (1) Saliency-Guided Rejection Sampling (SGRS), which dynamically filters candidate tokens during autoregressive decoding by rejecting those whose saliency falls below a context-adaptive threshold, thereby preventing coherence-breaking tokens from entering the output sequence; and (2) Local Coherence Reinforcement (LocoRE), a lightweight, plug-and-play module that strengthens attention from the current token to its most recent predecessors, actively counteracting the contextual forgetting behavior identified by LVLMs-Saliency. Extensive experiments across multiple LVLMs demonstrate that our method significantly reduces hallucination rates while preserving fluency and task performance, offering a robust and interpretable solution for enhancing model reliability. Code is available at: https://github.com/zhangbaijin/LVLMs-Saliency</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T05:50:52Z</published>
+    <arxiv:comment>Accepted in ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaofeng Zhang</name>
+    </author>
+    <author>
+      <name>Yuanchao Zhu</name>
+    </author>
+    <author>
+      <name>Chaochen Gu</name>
+    </author>
+    <author>
+      <name>Xiaosong Yuan</name>
+    </author>
+    <author>
+      <name>Qiyan Zhao</name>
+    </author>
+    <author>
+      <name>Jiawei Cao</name>
+    </author>
+    <author>
+      <name>Feilong Tang</name>
+    </author>
+    <author>
+      <name>Sinan Fan</name>
+    </author>
+    <author>
+      <name>Yaomin Shen</name>
+    </author>
+    <author>
+      <name>Chen Shen</name>
+    </author>
+    <author>
+      <name>Hao Tang</name>
+    </author>
+  </entry>
+</feed>

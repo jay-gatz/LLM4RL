@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f511s8gBuhVGm65c6ZNE4VTmOHA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.16039&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:12:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.16039" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.16039v2</id>
+    <title>Okapi: Instruction-tuned Large Language Models in Multiple Languages with Reinforcement Learning from Human Feedback</title>
+    <updated>2023-08-02T00:39:25Z</updated>
+    <link href="https://arxiv.org/abs/2307.16039v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.16039v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key technology for the development of large language models (LLMs) involves instruction tuning that helps align the models' responses with human expectations to realize impressive learning abilities. Two major approaches for instruction tuning characterize supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF), which are currently applied to produce the best commercial LLMs (e.g., ChatGPT). To improve the accessibility of LLMs for research and development efforts, various instruction-tuned open-source LLMs have also been introduced recently, e.g., Alpaca, Vicuna, to name a few. However, existing open-source LLMs have only been instruction-tuned for English and a few popular languages, thus hindering their impacts and accessibility to many other languages in the world. Among a few very recent work to explore instruction tuning for LLMs in multiple languages, SFT has been used as the only approach to instruction-tune LLMs for multiple languages. This has left a significant gap for fine-tuned LLMs based on RLHF in diverse languages and raised important questions on how RLHF can boost the performance of multilingual instruction tuning. To overcome this issue, we present Okapi, the first system with instruction-tuned LLMs based on RLHF for multiple languages. Okapi introduces instruction and response-ranked data in 26 diverse languages to facilitate the experiments and development of future multilingual LLM research. We also present benchmark datasets to enable the evaluation of generative LLMs in multiple languages. Our experiments demonstrate the advantages of RLHF for multilingual instruction over SFT for different base models and datasets. Our framework and resources are released at https://github.com/nlp-uoregon/Okapi.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-29T18:01:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Viet Dac Lai</name>
+    </author>
+    <author>
+      <name>Chien Van Nguyen</name>
+    </author>
+    <author>
+      <name>Nghia Trung Ngo</name>
+    </author>
+    <author>
+      <name>Thuat Nguyen</name>
+    </author>
+    <author>
+      <name>Franck Dernoncourt</name>
+    </author>
+    <author>
+      <name>Ryan A. Rossi</name>
+    </author>
+    <author>
+      <name>Thien Huu Nguyen</name>
+    </author>
+  </entry>
+</feed>

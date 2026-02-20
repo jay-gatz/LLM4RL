@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NWBO/UMfCnUzBwK++ckr4vWXm0g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2501.09766v5&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2501.09766v5" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.09766v5</id>
+    <title>iTool: Reinforced Fine-Tuning with Dynamic Deficiency Calibration for Advanced Tool Use</title>
+    <updated>2025-11-07T09:32:05Z</updated>
+    <link href="https://arxiv.org/abs/2501.09766v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.09766v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Augmenting large language models (LLMs) with external tools is a promising approach to enhance their capabilities, especially for complex tasks. Synthesizing tool-use data through real-world simulations is an effective way to achieve this. However, our investigation reveals that training gains significantly decay as synthetic data increases. The model struggles to benefit from additional synthetic data, which fails to endow it with advanced tool-use capabilities in complex scenarios Moreover, we discovered that the above limitation usually manifests as a fragment deficiency (i.e., parameter errors) in response. To this end, we propose an iterative reinforced fine-tuning strategy designed to alleviate this limitation. This strategy involves: (1) enhancing the diversity of response for synthetic data through path exploration of Monte Carlo Tree Search. (2) iteratively pinpointing the model's deficiency by constructing fine-grained preference pairs, and then improving it by preference optimization algorithms for targeted improvement. The experiments show that our method achieves 13.11% better performance than the same-size base model. It achieves an improvement of 6.5% in complex scenarios compared to the baseline, and it also outperforms larger open-source and closed-source models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-15T04:52:34Z</published>
+    <arxiv:comment>EMNLP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yirong Zeng</name>
+    </author>
+    <author>
+      <name>Xiao Ding</name>
+    </author>
+    <author>
+      <name>Yuxian Wang</name>
+    </author>
+    <author>
+      <name>Weiwen Liu</name>
+    </author>
+    <author>
+      <name>Wu Ning</name>
+    </author>
+    <author>
+      <name>Yutai Hou</name>
+    </author>
+    <author>
+      <name>Xu Huang</name>
+    </author>
+    <author>
+      <name>Duyu Tang</name>
+    </author>
+    <author>
+      <name>Dandan Tu</name>
+    </author>
+    <author>
+      <name>Bing Qin</name>
+    </author>
+    <author>
+      <name>Ting Liu</name>
+    </author>
+  </entry>
+</feed>

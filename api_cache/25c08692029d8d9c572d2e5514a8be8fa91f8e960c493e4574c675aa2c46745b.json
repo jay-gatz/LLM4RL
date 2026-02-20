@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GZfPvj+gVvcHiNu26beoWGFXHrw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10067v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10067v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10067v3</id>
+    <title>Features as Rewards: Scalable Supervision for Open-Ended Tasks via Interpretability</title>
+    <updated>2026-02-18T07:19:57Z</updated>
+    <link href="https://arxiv.org/abs/2602.10067v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10067v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models trained on large-scale datasets have been shown to learn features that encode abstract concepts such as factuality or intent. Such features are traditionally used for test-time monitoring or steering. We present an alternative affordance: features as scalable supervision for open-ended tasks. We consider the case of hallucination-reduction as a desirable, yet open-ended behavior and design a reinforcement learning (RL) pipeline, titled RLFR (Reinforcement Learning from Feature Rewards), that uses features as reward functions. Grounded in a novel probing framework that identifies candidate hallucinated claims, our pipeline teaches a model to intervene and correct its completions when it is uncertain of their factuality. Furthermore, the pipeline enables scalable test-time compute, guided once more by our reward features. This end-to-end process operationalized on Gemma-3-12B-IT results in a policy that is 58% less likely to hallucinate compared to the original model (when run in tandem with our probing harness), while preserving performance on standard benchmarks. Taken together, by grounding supervision in the language of features, this paper introduces a novel paradigm in the use of interpretability for learning open-ended tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T18:33:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aaditya Vikram Prasad</name>
+    </author>
+    <author>
+      <name>Connor Watts</name>
+    </author>
+    <author>
+      <name>Jack Merullo</name>
+    </author>
+    <author>
+      <name>Dhruvil Gala</name>
+    </author>
+    <author>
+      <name>Owen Lewis</name>
+    </author>
+    <author>
+      <name>Thomas McGrath</name>
+    </author>
+    <author>
+      <name>Ekdeep Singh Lubana</name>
+    </author>
+  </entry>
+</feed>

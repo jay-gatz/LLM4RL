@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GzuAKruC/pJBqqM59kYsoLdtUl0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06487v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06487v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06487v2</id>
+    <title>ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking</title>
+    <updated>2026-01-22T09:16:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.06487v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06487v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has substantially improved the performance of LLM agents on tasks with verifiable outcomes, but it still struggles on open-ended agent tasks with vast solution spaces (e.g., complex travel planning). Due to the absence of objective ground-truth for these tasks, current RL algorithms largely rely on reward models that assign scalar scores to individual responses. We contend that such pointwise scoring suffers from an inherent discrimination collapse: the reward model struggles to distinguish subtle advantages among different trajectories, resulting in scores within a group being compressed into a narrow range. Consequently, the effective reward signal becomes dominated by noise from the reward model, leading to optimization stagnation. To address this, we propose ArenaRL, a reinforcement learning paradigm that shifts from pointwise scalar scoring to intra-group relative ranking. ArenaRL introduces a process-aware pairwise evaluation mechanism, employing multi-level rubrics to assign fine-grained relative scores to trajectories. Additionally, we construct an intra-group adversarial arena and devise a tournament-based ranking scheme to obtain stable advantage signals. Empirical results confirm that the built seeded single-elimination scheme achieves nearly equivalent advantage estimation accuracy to full pairwise comparisons with O(N^2) complexity, while operating with only O(N) complexity, striking an optimal balance between efficiency and precision. Furthermore, to address the lack of full-cycle benchmarks for open-ended agents, we build Open-Travel and Open-DeepResearch, two high-quality benchmarks featuring a comprehensive pipeline covering SFT, RL training, and multi-dimensional evaluation. Extensive experiments show that ArenaRL substantially outperforms standard RL baselines, enabling LLM agents to generate more robust solutions for complex real-world tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-10T08:43:07Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qiang Zhang</name>
+    </author>
+    <author>
+      <name>Boli Chen</name>
+    </author>
+    <author>
+      <name>Fanrui Zhang</name>
+    </author>
+    <author>
+      <name>Ruixue Ding</name>
+    </author>
+    <author>
+      <name>Shihang Wang</name>
+    </author>
+    <author>
+      <name>Qiuchen Wang</name>
+    </author>
+    <author>
+      <name>Yinfeng Huang</name>
+    </author>
+    <author>
+      <name>Haonan Zhang</name>
+    </author>
+    <author>
+      <name>Rongxiang Zhu</name>
+    </author>
+    <author>
+      <name>Pengyong Wang</name>
+    </author>
+    <author>
+      <name>Ailin Ren</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Pengjun Xie</name>
+    </author>
+    <author>
+      <name>Jiawei Liu</name>
+    </author>
+    <author>
+      <name>Ning Guo</name>
+    </author>
+    <author>
+      <name>Jingren Zhou</name>
+    </author>
+    <author>
+      <name>Zheng-Jun Zha</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9YA649TLUi8PKVxCTH4ksmYbkZM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16241v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16241v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16241v1</id>
+    <title>Are LLMs Ready to Replace Bangla Annotators?</title>
+    <updated>2026-02-18T07:36:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.16241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly used as automated annotators to scale dataset creation, yet their reliability as unbiased annotators--especially for low-resource and identity-sensitive settings--remains poorly understood. In this work, we study the behavior of LLMs as zero-shot annotators for Bangla hate speech, a task where even human agreement is challenging, and annotator bias can have serious downstream consequences. We conduct a systematic benchmark of 17 LLMs using a unified evaluation framework. Our analysis uncovers annotator bias and substantial instability in model judgments. Surprisingly, increased model scale does not guarantee improved annotation quality--smaller, more task-aligned models frequently exhibit more consistent behavior than their larger counterparts. These results highlight important limitations of current LLMs for sensitive annotation tasks in low-resource languages and underscore the need for careful evaluation before deployment.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T07:36:41Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Md. Najib Hasan</name>
+    </author>
+    <author>
+      <name>Touseef Hasan</name>
+    </author>
+    <author>
+      <name>Souvika Sarkar</name>
+    </author>
+  </entry>
+</feed>

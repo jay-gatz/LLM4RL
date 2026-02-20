@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vp7fEvsqXSokEw5jKiLe+IXL6Cg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16502v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16502v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16502v1</id>
+    <title>DressWild: Feed-Forward Pose-Agnostic Garment Sewing Pattern Generation from In-the-Wild Images</title>
+    <updated>2026-02-18T14:45:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.16502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in garment pattern generation have shown promising progress. However, existing feed-forward methods struggle with diverse poses and viewpoints, while optimization-based approaches are computationally expensive and difficult to scale. This paper focuses on sewing pattern generation for garment modeling and fabrication applications that demand editable, separable, and simulation-ready garments. We propose DressWild, a novel feed-forward pipeline that reconstructs physics-consistent 2D sewing patterns and the corresponding 3D garments from a single in-the-wild image. Given an input image, our method leverages vision-language models (VLMs) to normalize pose variations at the image level, then extract pose-aware, 3D-informed garment features. These features are fused through a transformer-based encoder and subsequently used to predict sewing pattern parameters, which can be directly applied to physical simulation, texture synthesis, and multi-layer virtual try-on. Extensive experiments demonstrate that our approach robustly recovers diverse sewing patterns and the corresponding 3D garments from in-the-wild images without requiring multi-view inputs or iterative optimization, offering an efficient and scalable solution for realistic garment simulation and animation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T14:45:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zeng Tao</name>
+    </author>
+    <author>
+      <name>Ying Jiang</name>
+    </author>
+    <author>
+      <name>Yunuo Chen</name>
+    </author>
+    <author>
+      <name>Tianyi Xie</name>
+    </author>
+    <author>
+      <name>Huamin Wang</name>
+    </author>
+    <author>
+      <name>Yingnian Wu</name>
+    </author>
+    <author>
+      <name>Yin Yang</name>
+    </author>
+    <author>
+      <name>Abishek Sampath Kumar</name>
+    </author>
+    <author>
+      <name>Kenji Tashiro</name>
+    </author>
+    <author>
+      <name>Chenfanfu Jiang</name>
+    </author>
+  </entry>
+</feed>

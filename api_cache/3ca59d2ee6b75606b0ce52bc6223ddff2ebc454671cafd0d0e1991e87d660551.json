@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D72u7wWpFsLH3TBJjbI6s6mArbI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07311v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07311v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07311v1</id>
+    <title>LUCID-SAE: Learning Unified Vision-Language Sparse Codes for Interpretable Concept Discovery</title>
+    <updated>2026-02-07T02:01:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.07311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse autoencoders (SAEs) offer a natural path toward comparable explanations across different representation spaces. However, current SAEs are trained per modality, producing dictionaries whose features are not directly understandable and whose explanations do not transfer across domains. In this study, we introduce LUCID (Learning Unified vision-language sparse Codes for Interpretable concept Discovery), a unified vision-language sparse autoencoder that learns a shared latent dictionary for image patch and text token representations, while reserving private capacity for modality-specific details. We achieve feature alignment by coupling the shared codes with a learned optimal transport matching objective without the need of labeling. LUCID yields interpretable shared features that support patch-level grounding, establish cross-modal neuron correspondence, and enhance robustness against the concept clustering problem in similarity-based evaluation. Leveraging the alignment properties, we develop an automated dictionary interpretation pipeline based on term clustering without manual observations. Our analysis reveals that LUCID's shared features capture diverse semantic categories beyond objects, including actions, attributes, and abstract concepts, demonstrating a comprehensive approach to interpretable multimodal representations.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T02:01:25Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Difei Gu</name>
+    </author>
+    <author>
+      <name>Yunhe Gao</name>
+    </author>
+    <author>
+      <name>Gerasimos Chatzoudis</name>
+    </author>
+    <author>
+      <name>Zihan Dong</name>
+    </author>
+    <author>
+      <name>Guoning Zhang</name>
+    </author>
+    <author>
+      <name>Bangwei Guo</name>
+    </author>
+    <author>
+      <name>Yang Zhou</name>
+    </author>
+    <author>
+      <name>Mu Zhou</name>
+    </author>
+    <author>
+      <name>Dimitris Metaxas</name>
+    </author>
+  </entry>
+</feed>

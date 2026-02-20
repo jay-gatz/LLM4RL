@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oFHDrXifECvZrP26+RSaIg9C1lk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00785v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00785v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00785v1</id>
+    <title>World Models as an Intermediary between Agents and the Real World</title>
+    <updated>2026-01-31T15:52:00Z</updated>
+    <link href="https://arxiv.org/abs/2602.00785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents trained using reinforcement learning has achieved superhuman performance in low-cost environments like games, mathematics, and coding. However, these successes have not translated to complex domains where the cost of interaction is high, such as the physical cost of running robots, the time cost of ML engineering, and the resource cost of scientific experiments. The true bottleneck for achieving the next level of agent performance for these complex and high-cost domains lies in the expense of executing actions to acquire reward signals. To address this gap, this paper argues that we should use world models as an intermediary between agents and the real world. We discuss how world models, viewed as models of dynamics, rewards, and task distributions, can overcome fundamental barriers of high-cost actions such as extreme off-policy learning and sample inefficiency in long-horizon tasks. Moreover, we demonstrate how world models can provide critical and rich learning signals to agents across a broad set of domains, including machine learning engineering, computer use, robotics, and AI for science. Lastly, we identify the challenges of building these world models and propose actionable items along dataset curation, architecture design, scaling, and evaluation of world models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T15:52:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sherry Yang</name>
+    </author>
+  </entry>
+</feed>

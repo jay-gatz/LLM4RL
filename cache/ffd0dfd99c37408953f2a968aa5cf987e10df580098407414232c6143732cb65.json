@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A9kFmHfmkYhr2KFkspEFASe5Lj0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2207.05608&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2207.05608" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05608v1</id>
+    <title>Inner Monologue: Embodied Reasoning through Planning with Language Models</title>
+    <updated>2022-07-12T15:20:48Z</updated>
+    <link href="https://arxiv.org/abs/2207.05608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.05608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent works have shown how the reasoning capabilities of Large Language Models (LLMs) can be applied to domains beyond natural language processing, such as planning and interaction for robots. These embodied problems require an agent to understand many semantic aspects of the world: the repertoire of skills available, how these skills influence the world, and how changes to the world map back to the language. LLMs planning in embodied environments need to consider not just what skills to do, but also how and when to do them - answers that change over time in response to the agent's own choices. In this work, we investigate to what extent LLMs used in such embodied contexts can reason over sources of feedback provided through natural language, without any additional training. We propose that by leveraging environment feedback, LLMs are able to form an inner monologue that allows them to more richly process and plan in robotic control scenarios. We investigate a variety of sources of feedback, such as success detection, scene description, and human interaction. We find that closed-loop language feedback significantly improves high-level instruction completion on three domains, including simulated and real table top rearrangement tasks and long-horizon mobile manipulation tasks in a kitchen environment in the real world.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-12T15:20:48Z</published>
+    <arxiv:comment>Project website: https://innermonologue.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenlong Huang</name>
+    </author>
+    <author>
+      <name>Fei Xia</name>
+    </author>
+    <author>
+      <name>Ted Xiao</name>
+    </author>
+    <author>
+      <name>Harris Chan</name>
+    </author>
+    <author>
+      <name>Jacky Liang</name>
+    </author>
+    <author>
+      <name>Pete Florence</name>
+    </author>
+    <author>
+      <name>Andy Zeng</name>
+    </author>
+    <author>
+      <name>Jonathan Tompson</name>
+    </author>
+    <author>
+      <name>Igor Mordatch</name>
+    </author>
+    <author>
+      <name>Yevgen Chebotar</name>
+    </author>
+    <author>
+      <name>Pierre Sermanet</name>
+    </author>
+    <author>
+      <name>Noah Brown</name>
+    </author>
+    <author>
+      <name>Tomas Jackson</name>
+    </author>
+    <author>
+      <name>Linda Luu</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Karol Hausman</name>
+    </author>
+    <author>
+      <name>Brian Ichter</name>
+    </author>
+  </entry>
+</feed>

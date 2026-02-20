@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lGQTaVJjHh9v+369YDA1RN0Y9lY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13559v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13559v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13559v1</id>
+    <title>OpAgent: Operator Agent for Web Navigation</title>
+    <updated>2026-02-14T02:33:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.13559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To fulfill user instructions, autonomous web agents must contend with the inherent complexity and volatile nature of real-world websites. Conventional paradigms predominantly rely on Supervised Fine-Tuning (SFT) or Offline Reinforcement Learning (RL) using static datasets. However, these methods suffer from severe distributional shifts, as offline trajectories fail to capture the stochastic state transitions and real-time feedback of unconstrained wide web environments. In this paper, we propose a robust Online Reinforcement Learning WebAgent, designed to optimize its policy through direct, iterative interactions with unconstrained wide websites. Our approach comprises three core innovations: 1) Hierarchical Multi-Task Fine-tuning: We curate a comprehensive mixture of datasets categorized by functional primitives -- Planning, Acting, and Grounding -- establishing a Vision-Language Model (VLM) with strong instruction-following capabilities for Web GUI tasks. 2) Online Agentic RL in the Wild: We develop an online interaction environment and fine-tune the VLM using a specialized RL pipeline. We introduce a Hybrid Reward Mechanism that combines a ground-truth-agnostic WebJudge for holistic outcome assessment with a Rule-based Decision Tree (RDT) for progress reward. This system effectively mitigates the credit assignment challenge in long-horizon navigation. Notably, our RL-enhanced model achieves a 38.1\% success rate (pass@5) on WebArena, outperforming all existing monolithic baselines. 3) Operator Agent: We introduce a modular agentic framework, namely \textbf{OpAgent}, orchestrating a Planner, Grounder, Reflector, and Summarizer. This synergy enables robust error recovery and self-correction, elevating the agent's performance to a new State-of-the-Art (SOTA) success rate of \textbf{71.6\%}.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T02:33:55Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuyu Guo</name>
+    </author>
+    <author>
+      <name>Wenjie Yang</name>
+    </author>
+    <author>
+      <name>Siyuan Yang</name>
+    </author>
+    <author>
+      <name>Ziyang Liu</name>
+    </author>
+    <author>
+      <name>Cheng Chen</name>
+    </author>
+    <author>
+      <name>Yuan Wei</name>
+    </author>
+    <author>
+      <name>Yun Hu</name>
+    </author>
+    <author>
+      <name>Yang Huang</name>
+    </author>
+    <author>
+      <name>Guoliang Hao</name>
+    </author>
+    <author>
+      <name>Dongsheng Yuan</name>
+    </author>
+    <author>
+      <name>Jianming Wang</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Hang Yu</name>
+    </author>
+    <author>
+      <name>Lei Lei</name>
+    </author>
+    <author>
+      <name>Peng Di</name>
+    </author>
+  </entry>
+</feed>

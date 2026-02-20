@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CJgPNBEB0d3SdQHQ9gn9/rNDZO8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.09264v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.09264v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.09264v1</id>
+    <title>Coordinated Pandemic Control with Large Language Model Agents as Policymaking Assistants</title>
+    <updated>2026-01-14T07:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.09264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.09264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective pandemic control requires timely and coordinated policymaking across administrative regions that are intrinsically interdependent. However, human-driven responses are often fragmented and reactive, with policies formulated in isolation and adjusted only after outbreaks escalate, undermining proactive intervention and global pandemic mitigation. To address this challenge, here we propose a large language model (LLM) multi-agent policymaking framework that supports coordinated and proactive pandemic control across regions. Within our framework, each administrative region is assigned an LLM agent as an AI policymaking assistant. The agent reasons over region-specific epidemiological dynamics while communicating with other agents to account for cross-regional interdependencies. By integrating real-world data, a pandemic evolution simulator, and structured inter-agent communication, our framework enables agents to jointly explore counterfactual intervention scenarios and synthesize coordinated policy decisions through a closed-loop simulation process. We validate the proposed framework using state-level COVID-19 data from the United States between April and December 2020, together with real-world mobility records and observed policy interventions. Compared with real-world pandemic outcomes, our approach reduces cumulative infections and deaths by up to 63.7% and 40.1%, respectively, at the individual state level, and by 39.0% and 27.0%, respectively, when aggregated across states. These results demonstrate that LLM multi-agent systems can enable more effective pandemic control with coordinated policymaking...</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T07:59:44Z</published>
+    <arxiv:comment>20pages, 6 figures, a 60-page supporting material pdf file</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ziyi Shi</name>
+    </author>
+    <author>
+      <name>Xusen Guo</name>
+    </author>
+    <author>
+      <name>Hongliang Lu</name>
+    </author>
+    <author>
+      <name>Mingxing Peng</name>
+    </author>
+    <author>
+      <name>Haotian Wang</name>
+    </author>
+    <author>
+      <name>Zheng Zhu</name>
+    </author>
+    <author>
+      <name>Zhenning Li</name>
+    </author>
+    <author>
+      <name>Yuxuan Liang</name>
+    </author>
+    <author>
+      <name>Xinhu Zheng</name>
+    </author>
+    <author>
+      <name>Hai Yang</name>
+    </author>
+  </entry>
+</feed>

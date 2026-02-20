@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vzr86Kr22XoT7X0dw+N2dp56G6Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.14234v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:40:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.14234v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.14234v1</id>
+    <title>Xolver: Multi-Agent Reasoning with Holistic Experience Learning Just Like an Olympiad Team</title>
+    <updated>2025-06-17T06:47:19Z</updated>
+    <link href="https://arxiv.org/abs/2506.14234v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.14234v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite impressive progress on complex reasoning, current large language models (LLMs) typically operate in isolation - treating each problem as an independent attempt, without accumulating or integrating experiential knowledge. In contrast, expert problem solvers - such as Olympiad or programming contest teams - leverage a rich tapestry of experiences: absorbing mentorship from coaches, developing intuition from past problems, leveraging knowledge of tool usage and library functionality, adapting strategies based on the expertise and experiences of peers, continuously refining their reasoning through trial and error, and learning from other related problems even during competition. We introduce Xolver, a training-free multi-agent reasoning framework that equips a black-box LLM with a persistent, evolving memory of holistic experience. Xolver integrates diverse experience modalities, including external and self-retrieval, tool use, collaborative interactions, agent-driven evaluation, and iterative refinement. By learning from relevant strategies, code fragments, and abstract reasoning patterns at inference time, Xolver avoids generating solutions from scratch - marking a transition from isolated inference toward experience-aware language agents. Built on both open-weight and proprietary models, Xolver consistently outperforms specialized reasoning agents. Even with lightweight backbones (e.g., QWQ-32B), it often surpasses advanced models including Qwen3-235B, Gemini 2.5 Pro, o3, and o4-mini-high. With o3-mini-high, it achieves new best results on GSM8K (98.1%), AIME'24 (94.4%), AIME'25 (93.7%), Math-500 (99.8%), and LiveCodeBench-V5 (91.6%) - highlighting holistic experience learning as a key step toward generalist agents capable of expert-level reasoning. Code and data are available at https://kagnlp.github.io/xolver.github.io/.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-17T06:47:19Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Md Tanzib Hosain</name>
+    </author>
+    <author>
+      <name>Salman Rahman</name>
+    </author>
+    <author>
+      <name>Md Kishor Morol</name>
+    </author>
+    <author>
+      <name>Md Rizwan Parvez</name>
+    </author>
+  </entry>
+</feed>

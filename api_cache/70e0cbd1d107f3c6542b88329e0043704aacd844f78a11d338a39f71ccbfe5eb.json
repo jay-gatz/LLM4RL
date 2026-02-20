@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p10ghm3pxtBemiYupmZgef3wpCA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07906v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07906v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07906v1</id>
+    <title>AceGRPO: Adaptive Curriculum Enhanced Group Relative Policy Optimization for Autonomous Machine Learning Engineering</title>
+    <updated>2026-02-08T10:55:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.07906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous Machine Learning Engineering (MLE) requires agents to perform sustained, iterative optimization over long horizons. While recent LLM-based agents show promise, current prompt-based agents for MLE suffer from behavioral stagnation due to frozen parameters. Although Reinforcement Learning (RL) offers a remedy, applying it to MLE is hindered by prohibitive execution latency and inefficient data selection. Recognizing these challenges, we propose AceGRPO with two core components: (1) Evolving Data Buffer that continuously repurposes execution traces into reusable training tasks, and (2) Adaptive Sampling guided by a Learnability Potential function, which dynamically prioritizes tasks at the agent's learning frontier to maximize learning efficiency. Leveraging AceGRPO, our trained Ace-30B model achieves a 100% valid submission rate on MLE-Bench-Lite, approaches the performance of proprietary frontier models, and outperforms larger open-source baselines (e.g., DeepSeek-V3.2), demonstrating robust capability for sustained iterative optimization. Code is available at https://github.com/yuzhu-cai/AceGRPO.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T10:55:03Z</published>
+    <arxiv:comment>17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuzhu Cai</name>
+    </author>
+    <author>
+      <name>Zexi Liu</name>
+    </author>
+    <author>
+      <name>Xinyu Zhu</name>
+    </author>
+    <author>
+      <name>Cheng Wang</name>
+    </author>
+    <author>
+      <name>Jiaao Chen</name>
+    </author>
+    <author>
+      <name>Hanrui Wang</name>
+    </author>
+    <author>
+      <name>Wei-Chen Wang</name>
+    </author>
+    <author>
+      <name>Di Jin</name>
+    </author>
+    <author>
+      <name>Siheng Chen</name>
+    </author>
+  </entry>
+</feed>

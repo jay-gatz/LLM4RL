@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gb6R6AxipBZrSM6JYwbOek3E8vc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.15453v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.15453v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15453v1</id>
+    <title>DevPrompt: Deviation-Based Prompt Learning for One-Normal ShotImage Anomaly Detection</title>
+    <updated>2026-01-21T20:35:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.15453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Few-normal shot anomaly detection (FNSAD) aims to detect abnormal regions in images using only a few normal training samples, making the task highly challenging due to limited supervision and the diversity of potential defects. Recent approaches leverage vision-language models such as CLIP with prompt-based learning to align image and text features. However, existing methods often exhibit weak discriminability between normal and abnormal prompts and lack principled scoring mechanisms for patch-level anomalies. We propose a deviation-guided prompt learning framework that integrates the semantic power of vision-language models with the statistical reliability of deviation-based scoring. Specifically, we replace fixed prompt prefixes with learnable context vectors shared across normal and abnormal prompts, while anomaly-specific suffix tokens enable class-aware alignment. To enhance separability, we introduce a deviation loss with Top-K Multiple Instance Learning (MIL), modeling patch-level features as Gaussian deviations from the normal distribution. This allows the network to assign higher anomaly scores to patches with statistically significant deviations, improving localization and interpretability. Experiments on the MVTecAD and VISA benchmarks demonstrate superior pixel-level detection performance compared to PromptAD and other baselines. Ablation studies further validate the effectiveness of learnable prompts, deviation-based scoring, and the Top-K MIL strategy.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T20:35:51Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Morteza Poudineh</name>
+    </author>
+    <author>
+      <name>Marc Lalonde</name>
+    </author>
+  </entry>
+</feed>

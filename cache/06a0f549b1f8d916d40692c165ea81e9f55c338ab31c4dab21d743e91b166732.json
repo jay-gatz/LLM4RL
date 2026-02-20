@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t4xXyResv+kWMpH0CgjsCTYLNX8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16100v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16100v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16100v1</id>
+    <title>LLM-Driven Intent-Based Privacy-Aware Orchestration Across the Cloud-Edge Continuum</title>
+    <updated>2026-02-18T00:09:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.16100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid advancement of large language models (LLMs), efficiently serving LLM inference under limited GPU resources has become a critical challenge. Recently, an increasing number of studies have explored applying serverless computing paradigms to LLM serving in order to maximize resource utilization. However, LLM inference workloads are highly diverse, and modern GPU clusters are inherently heterogeneous, making it necessary to dynamically adjust deployment configurations online to better adapt to the elastic and dynamic nature of serverless environments. At the same time, enabling such online reconfiguration is particularly challenging due to the stateful nature of LLM inference and the massive size of model parameters. In this paper, we propose a dynamic pipeline reconfiguration approach that enables online adjustment of pipeline configurations while minimizing service downtime and performance degradation. Our method allows the system to select the optimal pipeline configuration in response to changing workloads. Experimental results on heterogeneous GPU platforms, including NVIDIA A100 and L40s, demonstrate that our migration mechanism incurs less than 50 ms of service downtime, while introducing under 10% overhead on both time-to-first-token (TTFT) and time-per-output-token (TPOT).</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T00:09:09Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>24th Australasian Symposium on Parallel and Distributed Computing (AusPDC 2026)</arxiv:journal_ref>
+    <author>
+      <name>Zijie Su</name>
+    </author>
+    <author>
+      <name>Muhammed Tawfiqul Islam</name>
+    </author>
+    <author>
+      <name>Mohammad Goudarzi</name>
+    </author>
+    <author>
+      <name>Adel N. Toosi</name>
+    </author>
+    <arxiv:doi>10.1145/3793811.3793824</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3793811.3793824" title="doi"/>
+  </entry>
+</feed>

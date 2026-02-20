@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QKNXBvODhOwkNVzZWMRi6hHJ4kA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.03681&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.03681" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.03681v4</id>
+    <title>RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback</title>
+    <updated>2024-06-14T21:10:32Z</updated>
+    <link href="https://arxiv.org/abs/2402.03681v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.03681v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward engineering has long been a challenge in Reinforcement Learning (RL) research, as it often requires extensive human effort and iterative processes of trial-and-error to design effective reward functions. In this paper, we propose RL-VLM-F, a method that automatically generates reward functions for agents to learn new tasks, using only a text description of the task goal and the agent's visual observations, by leveraging feedbacks from vision language foundation models (VLMs). The key to our approach is to query these models to give preferences over pairs of the agent's image observations based on the text description of the task goal, and then learn a reward function from the preference labels, rather than directly prompting these models to output a raw reward score, which can be noisy and inconsistent. We demonstrate that RL-VLM-F successfully produces effective rewards and policies across various domains - including classic control, as well as manipulation of rigid, articulated, and deformable objects - without the need for human supervision, outperforming prior methods that use large pretrained models for reward generation under the same assumptions. Videos can be found on our project website: https://rlvlmf2024.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T04:06:06Z</published>
+    <arxiv:comment>ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yufei Wang</name>
+    </author>
+    <author>
+      <name>Zhanyi Sun</name>
+    </author>
+    <author>
+      <name>Jesse Zhang</name>
+    </author>
+    <author>
+      <name>Zhou Xian</name>
+    </author>
+    <author>
+      <name>Erdem Biyik</name>
+    </author>
+    <author>
+      <name>David Held</name>
+    </author>
+    <author>
+      <name>Zackory Erickson</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0TMiVqZ+g9E43C13wG4lkCF1nqQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.16937&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.16937" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16937v2</id>
+    <title>A Complete Survey on LLM-based AI Chatbots</title>
+    <updated>2024-11-18T12:36:13Z</updated>
+    <link href="https://arxiv.org/abs/2406.16937v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16937v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The past few decades have witnessed an upsurge in data, forming the foundation for data-hungry, learning-based AI technology. Conversational agents, often referred to as AI chatbots, rely heavily on such data to train large language models (LLMs) and generate new content (knowledge) in response to user prompts. With the advent of OpenAI's ChatGPT, LLM-based chatbots have set new standards in the AI community. This paper presents a complete survey of the evolution and deployment of LLM-based chatbots in various sectors. We first summarize the development of foundational chatbots, followed by the evolution of LLMs, and then provide an overview of LLM-based chatbots currently in use and those in the development phase. Recognizing AI chatbots as tools for generating new knowledge, we explore their diverse applications across various industries. We then discuss the open challenges, considering how the data used to train the LLMs and the misuse of the generated knowledge can cause several issues. Finally, we explore the future outlook to augment their efficiency and reliability in numerous applications. By addressing key milestones and the present-day context of LLM-based chatbots, our survey invites readers to delve deeper into this realm, reflecting on how their next generation will reshape conversational AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-17T09:39:34Z</published>
+    <arxiv:comment>23 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sumit Kumar Dam</name>
+    </author>
+    <author>
+      <name>Choong Seon Hong</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Chaoning Zhang</name>
+    </author>
+  </entry>
+</feed>

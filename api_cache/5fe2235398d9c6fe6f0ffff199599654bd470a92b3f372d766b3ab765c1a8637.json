@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T6wfIacNZShZfPUJ/2d2OQD30iY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05998v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05998v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05998v1</id>
+    <title>VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation</title>
+    <updated>2026-02-05T18:45:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.05998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Screenshot-to-code generation aims to translate user interface screenshots into executable frontend code that faithfully reproduces the target layout and style. Existing multimodal large language models perform this mapping directly from screenshots but are trained without observing the visual outcomes of their generated code. In contrast, human developers iteratively render their implementation, compare it with the design, and learn how visual differences relate to code changes. Inspired by this process, we propose VisRefiner, a training framework that enables models to learn from visual differences between rendered predictions and reference designs. We construct difference-aligned supervision that associates visual discrepancies with corresponding code edits, allowing the model to understand how appearance variations arise from implementation changes. Building on this, we introduce a reinforcement learning stage for self-refinement, where the model improves its generated code by observing both the rendered output and the target design, identifying their visual differences, and updating the code accordingly. Experiments show that VisRefiner substantially improves single-step generation quality and layout fidelity, while also endowing models with strong self-refinement ability. These results demonstrate the effectiveness of learning from visual differences for advancing screenshot-to-code generation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T18:45:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jie Deng</name>
+    </author>
+    <author>
+      <name>Kaichun Yao</name>
+    </author>
+    <author>
+      <name>Libo Zhang</name>
+    </author>
+  </entry>
+</feed>

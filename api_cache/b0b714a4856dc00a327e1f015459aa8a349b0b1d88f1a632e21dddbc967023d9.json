@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pJ8a5DQoR1DPdqkST9+kfyAkaFo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05946v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05946v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05946v2</id>
+    <title>f-GRPO and Beyond: Divergence-Based Reinforcement Learning Algorithms for General LLM Alignment</title>
+    <updated>2026-02-09T18:34:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.05946v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05946v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research shows that Preference Alignment (PA) objectives act as divergence estimators between aligned (chosen) and unaligned (rejected) response distributions. In this work, we extend this divergence-based perspective to general alignment settings, such as reinforcement learning with verifiable rewards (RLVR), where only environmental rewards are available. Within this unified framework, we propose f-Group Relative Policy Optimization (f-GRPO), a class of on-policy reinforcement learning, and f-Hybrid Alignment Loss (f-HAL), a hybrid on/off policy objectives, for general LLM alignment based on variational representation of f-divergences. We provide theoretical guarantees that these classes of objectives improve the average reward after alignment. Empirically, we validate our framework on both RLVR (Math Reasoning) and PA tasks (Safety Alignment), demonstrating superior performance and flexibility compared to current methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T18:01:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rajdeep Haldar</name>
+    </author>
+    <author>
+      <name>Lantao Mei</name>
+    </author>
+    <author>
+      <name>Guang Lin</name>
+    </author>
+    <author>
+      <name>Yue Xing</name>
+    </author>
+    <author>
+      <name>Qifan Song</name>
+    </author>
+  </entry>
+</feed>

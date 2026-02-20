@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sUp7SSLIX2nR8iV3rsMMTzTYPso</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15124v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15124v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15124v1</id>
+    <title>Zero-shot HOI Detection with MLLM-based Detector-agnostic Interaction Recognition</title>
+    <updated>2026-02-16T19:01:31Z</updated>
+    <link href="https://arxiv.org/abs/2602.15124v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15124v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Zero-shot Human-object interaction (HOI) detection aims to locate humans and objects in images and recognize their interactions. While advances in open-vocabulary object detection provide promising solutions for object localization, interaction recognition (IR) remains challenging due to the combinatorial diversity of interactions. Existing methods, including two-stage methods, tightly couple IR with a specific detector and rely on coarse-grained vision-language model (VLM) features, which limit generalization to unseen interactions. In this work, we propose a decoupled framework that separates object detection from IR and leverages multi-modal large language models (MLLMs) for zero-shot IR. We introduce a deterministic generation method that formulates IR as a visual question answering task and enforces deterministic outputs, enabling training-free zero-shot IR. To further enhance performance and efficiency by fine-tuning the model, we design a spatial-aware pooling module that integrates appearance and pairwise spatial cues, and a one-pass deterministic matching method that predicts all candidate interactions in a single forward pass. Extensive experiments on HICO-DET and V-COCO demonstrate that our method achieves superior zero-shot performance, strong cross-dataset generalization, and the flexibility to integrate with any object detectors without retraining. The codes are publicly available at https://github.com/SY-Xuan/DA-HOI.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T19:01:31Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shiyu Xuan</name>
+    </author>
+    <author>
+      <name>Dongkai Wang</name>
+    </author>
+    <author>
+      <name>Zechao Li</name>
+    </author>
+    <author>
+      <name>Jinhui Tang</name>
+    </author>
+  </entry>
+</feed>

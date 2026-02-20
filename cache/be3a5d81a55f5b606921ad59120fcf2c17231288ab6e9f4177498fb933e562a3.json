@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0aR6K6mlv1W2EqEP2pvfJtoS18I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00559v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00559v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00559v1</id>
+    <title>Learning to Decode Against Compositional Hallucination in Video Multimodal Large Language Models</title>
+    <updated>2026-01-31T06:50:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.00559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current research on video hallucination mitigation primarily focuses on isolated error types, leaving compositional hallucinations, arising from incorrect reasoning over multiple interacting spatial and temporal factors largely underexplored. We introduce OmniVCHall, a benchmark designed to systematically evaluate both isolated and compositional hallucinations in video multimodal large language models (VLLMs). OmniVCHall spans diverse video domains, introduces a novel camera-based hallucination type, and defines a fine-grained taxonomy, together with adversarial answer options (e.g., "All are correct" and "None of the above") to prevent shortcut reasoning. The evaluations of 39 representative VLLMs reveal that even advanced models (e.g., Qwen3-VL and GPT-5) exhibit substantial performance degradation. We propose TriCD, a contrastive decoding framework with a triple-pathway calibration mechanism. An adaptive perturbation controller dynamically selects distracting operations to construct negative video variants, while a saliency-guided enhancement module adaptively reinforces grounded token-wise visual evidences. These components are optimized via reinforcement learning to encourage precise decision-making under compositional hallucination settings. Experimental results show that TriCD consistently improves performance across two representative backbones, achieving an average accuracy improvement of over 10%. The data and code can be find at https://github.com/BMRETURN/OmniVCHall.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T06:50:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wenbin Xing</name>
+    </author>
+    <author>
+      <name>Quanxing Zha</name>
+    </author>
+    <author>
+      <name>Lizheng Zu</name>
+    </author>
+    <author>
+      <name>Mengran Li</name>
+    </author>
+    <author>
+      <name>Ming Li</name>
+    </author>
+    <author>
+      <name>Junchi Yan</name>
+    </author>
+  </entry>
+</feed>

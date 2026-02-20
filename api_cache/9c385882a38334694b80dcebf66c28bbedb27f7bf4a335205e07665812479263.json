@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y4oqloGSstj9aocqzz2JqWTopXM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00663v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00663v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00663v2</id>
+    <title>SEISMO: Increasing Sample Efficiency in Molecular Optimization with a Trajectory-Aware LLM Agent</title>
+    <updated>2026-02-18T10:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.00663v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00663v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimizing the structure of molecules to achieve desired properties is a central bottleneck across the chemical sciences, particularly in the pharmaceutical industry where it underlies the discovery of new drugs. Since molecular property evaluation often relies on costly and rate-limited oracles, such as experimental assays, molecular optimization must be highly sample-efficient. To address this, we introduce SEISMO, an LLM agent that performs strictly online, inference-time molecular optimization, updating after every oracle call without the need for population-based or batched learning. SEISMO conditions each proposal on the full optimization trajectory, combining natural-language task descriptions with scalar scores and, when available, structured explanatory feedback. Across the Practical Molecular Optimization benchmark of 23 tasks, SEISMO achieves a 2-3 times higher area under the optimisation curve than prior methods, often reaching near-maximal task scores within 50 oracle calls. Our additional medicinal-chemistry tasks show that providing explanatory feedback further improves efficiency, demonstrating that leveraging domain knowledge and structured information is key to sample-efficient molecular optimization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T11:23:48Z</published>
+    <arxiv:comment>Fabian P. Krüger and Andrea Hunklinger contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Fabian P. Krüger</name>
+    </author>
+    <author>
+      <name>Andrea Hunklinger</name>
+    </author>
+    <author>
+      <name>Adrian Wolny</name>
+    </author>
+    <author>
+      <name>Tim J. Adler</name>
+    </author>
+    <author>
+      <name>Igor Tetko</name>
+    </author>
+    <author>
+      <name>Santiago David Villalba</name>
+    </author>
+  </entry>
+</feed>

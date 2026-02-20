@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lhIVP1jXEF/h69knXBpHuxxpB1g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.00413v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.00413v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.00413v3</id>
+    <title>Tree Training: Accelerating Agentic LLMs Training via Shared Prefix Reuse</title>
+    <updated>2026-02-09T14:55:53Z</updated>
+    <link href="https://arxiv.org/abs/2511.00413v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.00413v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic large language model (LLM) training often involves multi-turn interaction trajectories that branch into multiple execution paths due to concurrent tool use, think-mode, sub-agent, context management and other runtime designs. As a result, the token produced by a single task naturally forms a tree-structured token trajectory with shared prefixes, rather than a linear sequence. Existing training pipelines linearize such trajectories and treat each branch independently, leading to substantial redundant computation in both forward and backward passes. To eliminate such redundancy, we introduce Tree Training, an efficient training framework for tree-structured trajectories. Its core component, Gradient Restoration, enables correct gradient aggregation across shared prefixes, allowing each prefix to be computed exactly once while remaining mathematically equivalent to independent training on all branches. To support large trajectory trees in practice, we redesign the training engine to natively ingest tree-structured data and propose Tree Packing, a memory-efficient partitioning strategy that preserves high prefix reuse. Experiments conducted on dense and MOE models of real-world agentic trajectories show 6.2x training speedup for both supervised fine-tuning and the model update phase in reinforcement learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-01T05:56:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shaojie Wang</name>
+    </author>
+    <author>
+      <name>Jinghui Wang</name>
+    </author>
+    <author>
+      <name>Yinghan Cui</name>
+    </author>
+    <author>
+      <name>Xuxing Chen</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Liang Huang</name>
+    </author>
+    <author>
+      <name>Xiaojiang Zhang</name>
+    </author>
+    <author>
+      <name>Junyi Peng</name>
+    </author>
+    <author>
+      <name>Li Wan</name>
+    </author>
+    <author>
+      <name>Haotian Zhang</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+  </entry>
+</feed>

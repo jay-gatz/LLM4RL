@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lrTwnsxIG8nS4OXujXk7/o/Q/qs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.09932&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.09932" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09932v2</id>
+    <title>Foundational Challenges in Assuring Alignment and Safety of Large Language Models</title>
+    <updated>2024-09-06T00:46:40Z</updated>
+    <link href="https://arxiv.org/abs/2404.09932v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09932v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose $200+$ concrete research questions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T16:58:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Usman Anwar</name>
+    </author>
+    <author>
+      <name>Abulhair Saparov</name>
+    </author>
+    <author>
+      <name>Javier Rando</name>
+    </author>
+    <author>
+      <name>Daniel Paleka</name>
+    </author>
+    <author>
+      <name>Miles Turpin</name>
+    </author>
+    <author>
+      <name>Peter Hase</name>
+    </author>
+    <author>
+      <name>Ekdeep Singh Lubana</name>
+    </author>
+    <author>
+      <name>Erik Jenner</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Oliver Sourbut</name>
+    </author>
+    <author>
+      <name>Benjamin L. Edelman</name>
+    </author>
+    <author>
+      <name>Zhaowei Zhang</name>
+    </author>
+    <author>
+      <name>Mario Günther</name>
+    </author>
+    <author>
+      <name>Anton Korinek</name>
+    </author>
+    <author>
+      <name>Jose Hernandez-Orallo</name>
+    </author>
+    <author>
+      <name>Lewis Hammond</name>
+    </author>
+    <author>
+      <name>Eric Bigelow</name>
+    </author>
+    <author>
+      <name>Alexander Pan</name>
+    </author>
+    <author>
+      <name>Lauro Langosco</name>
+    </author>
+    <author>
+      <name>Tomasz Korbak</name>
+    </author>
+    <author>
+      <name>Heidi Zhang</name>
+    </author>
+    <author>
+      <name>Ruiqi Zhong</name>
+    </author>
+    <author>
+      <name>Seán Ó hÉigeartaigh</name>
+    </author>
+    <author>
+      <name>Gabriel Recchia</name>
+    </author>
+    <author>
+      <name>Giulio Corsi</name>
+    </author>
+    <author>
+      <name>Alan Chan</name>
+    </author>
+    <author>
+      <name>Markus Anderljung</name>
+    </author>
+    <author>
+      <name>Lilian Edwards</name>
+    </author>
+    <author>
+      <name>Aleksandar Petrov</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Sumeet Ramesh Motwan</name>
+    </author>
+    <author>
+      <name>Yoshua Bengio</name>
+    </author>
+    <author>
+      <name>Danqi Chen</name>
+    </author>
+    <author>
+      <name>Philip H. S. Torr</name>
+    </author>
+    <author>
+      <name>Samuel Albanie</name>
+    </author>
+    <author>
+      <name>Tegan Maharaj</name>
+    </author>
+    <author>
+      <name>Jakob Foerster</name>
+    </author>
+    <author>
+      <name>Florian Tramer</name>
+    </author>
+    <author>
+      <name>He He</name>
+    </author>
+    <author>
+      <name>Atoosa Kasirzadeh</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>David Krueger</name>
+    </author>
+  </entry>
+</feed>

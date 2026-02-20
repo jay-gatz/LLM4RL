@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Si6W4NqRRg2Ou5oWcO5jnmVjm6c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.10292&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.10292" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.10292v3</id>
+    <title>Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning</title>
+    <updated>2024-10-07T19:13:47Z</updated>
+    <link href="https://arxiv.org/abs/2405.10292v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.10292v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across various scenarios. However, this fine-tuning paradigm may not be able to efficiently learn optimal decision-making agents in multi-step goal-directed tasks from interactive environments. To address this challenge, we propose an algorithmic framework that fine-tunes VLMs with reinforcement learning (RL). Specifically, our framework provides a task description and then prompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM to efficiently explore intermediate reasoning steps that lead to the final text-based action. Next, the open-ended text output is parsed into an executable action to interact with the environment to obtain goal-directed task rewards. Finally, our framework uses these task rewards to fine-tune the entire VLM with RL. Empirically, we demonstrate that our proposed framework enhances the decision-making capabilities of VLM agents across various tasks, enabling 7b models to outperform commercial models such as GPT4-V or Gemini. Furthermore, we find that CoT reasoning is a crucial component for performance improvement, as removing the CoT reasoning results in a significant decrease in the overall performance of our method.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-16T17:50:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuexiang Zhai</name>
+    </author>
+    <author>
+      <name>Hao Bai</name>
+    </author>
+    <author>
+      <name>Zipeng Lin</name>
+    </author>
+    <author>
+      <name>Jiayi Pan</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Yifei Zhou</name>
+    </author>
+    <author>
+      <name>Alane Suhr</name>
+    </author>
+    <author>
+      <name>Saining Xie</name>
+    </author>
+    <author>
+      <name>Yann LeCun</name>
+    </author>
+    <author>
+      <name>Yi Ma</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+  </entry>
+</feed>

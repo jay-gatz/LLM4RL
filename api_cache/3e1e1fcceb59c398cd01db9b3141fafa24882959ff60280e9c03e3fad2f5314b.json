@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z86O9sIH6si39smeTlxSaCveai4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.02141v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.02141v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.02141v1</id>
+    <title>Efficient and Scalable Estimation of Tool Representations in Vector Space</title>
+    <updated>2024-09-02T19:39:24Z</updated>
+    <link href="https://arxiv.org/abs/2409.02141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.02141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in function calling and tool use have significantly enhanced the capabilities of large language models (LLMs) by enabling them to interact with external information sources and execute complex tasks. However, the limited context window of LLMs presents challenges when a large number of tools are available, necessitating efficient methods to manage prompt length and maintain accuracy. Existing approaches, such as fine-tuning LLMs or leveraging their reasoning capabilities, either require frequent retraining or incur significant latency overhead. A more efficient solution involves training smaller models to retrieve the most relevant tools for a given query, although this requires high quality, domain-specific data. To address those challenges, we present a novel framework for generating synthetic data for tool retrieval applications and an efficient data-driven tool retrieval strategy using small encoder models. Empowered by LLMs, we create ToolBank, a new tool retrieval dataset that reflects real human user usages. For tool retrieval methodologies, we propose novel approaches: (1) Tool2Vec: usage-driven tool embedding generation for tool retrieval, (2) ToolRefiner: a staged retrieval method that iteratively improves the quality of retrieved tools, and (3) MLC: framing tool retrieval as a multi-label classification problem. With these new methods, we achieve improvements of up to 27.28 in Recall@K on the ToolBench dataset and 30.5 in Recall@K on ToolBank. Additionally, we present further experimental results to rigorously validate our methods. Our code is available at \url{https://github.com/SqueezeAILab/Tool2Vec}</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-02T19:39:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Suhong Moon</name>
+    </author>
+    <author>
+      <name>Siddharth Jha</name>
+    </author>
+    <author>
+      <name>Lutfi Eren Erdogan</name>
+    </author>
+    <author>
+      <name>Sehoon Kim</name>
+    </author>
+    <author>
+      <name>Woosang Lim</name>
+    </author>
+    <author>
+      <name>Kurt Keutzer</name>
+    </author>
+    <author>
+      <name>Amir Gholami</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ymPRhwtPNVWQTLl6IL1mDMP99+I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.06706&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:24:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.06706" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.06706v1</id>
+    <title>On the Planning Abilities of Large Language Models (A Critical Investigation with a Proposed Benchmark)</title>
+    <updated>2023-02-13T21:37:41Z</updated>
+    <link href="https://arxiv.org/abs/2302.06706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.06706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intrigued by the claims of emergent reasoning capabilities in LLMs trained on general web corpora, in this paper, we set out to investigate their planning capabilities. We aim to evaluate (1) how good LLMs are by themselves in generating and validating simple plans in commonsense planning tasks (of the type that humans are generally quite good at) and (2) how good LLMs are in being a source of heuristic guidance for other agents--either AI planners or human planners--in their planning tasks. To investigate these questions in a systematic rather than anecdotal manner, we start by developing a benchmark suite based on the kinds of domains employed in the International Planning Competition. On this benchmark, we evaluate LLMs in three modes: autonomous, heuristic and human-in-the-loop. Our results show that LLM's ability to autonomously generate executable plans is quite meager, averaging only about 3% success rate. The heuristic and human-in-the-loop modes show slightly more promise. In addition to these results, we also make our benchmark and evaluation tools available to support investigations by research community.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-13T21:37:41Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2206.10498</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Karthik Valmeekam</name>
+    </author>
+    <author>
+      <name>Sarath Sreedharan</name>
+    </author>
+    <author>
+      <name>Matthew Marquez</name>
+    </author>
+    <author>
+      <name>Alberto Olmo</name>
+    </author>
+    <author>
+      <name>Subbarao Kambhampati</name>
+    </author>
+  </entry>
+</feed>

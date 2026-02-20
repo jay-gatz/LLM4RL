@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/47vAMbuVaITAgFh66Pt7izlrn80</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15716v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15716v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15716v1</id>
+    <title>Rethinking Metrics for Lexical Semantic Change Detection</title>
+    <updated>2026-02-17T16:47:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.15716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lexical semantic change detection (LSCD) increasingly relies on contextualised language model embeddings, yet most approaches still quantify change using a small set of semantic change metrics, primarily Average Pairwise Distance (APD) and cosine distance over word prototypes (PRT). We introduce Average Minimum Distance (AMD) and Symmetric Average Minimum Distance (SAMD), new measures that quantify semantic change via local correspondence between word usages across time periods. Across multiple languages, encoder models, and representation spaces, we show that AMD often provides more robust performance, particularly under dimensionality reduction and with non-specialised encoders, while SAMD excels with specialised encoders. We suggest that LSCD may benefit from considering alternative semantic change metrics beyond APD and PRT, with AMD offering a robust option for contextualised embedding-based analysis.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T16:47:40Z</published>
+    <arxiv:comment>Accepted to the LChange 2026 Workshop, colocated with EACL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Roksana Goworek</name>
+    </author>
+    <author>
+      <name>Haim Dubossarsky</name>
+    </author>
+  </entry>
+</feed>

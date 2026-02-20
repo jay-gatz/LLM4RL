@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xHUJbNd7+T4nfaJVgcW5xkntx9I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.16903v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:44:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.16903v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.16903v1</id>
+    <title>Towards a copilot in BIM authoring tool using a large language model-based agent for intelligent human-machine interaction</title>
+    <updated>2024-06-02T17:47:57Z</updated>
+    <link href="https://arxiv.org/abs/2406.16903v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.16903v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Facing increasingly complex BIM authoring software and the accompanying expensive learning costs, designers often seek to interact with the software in a more intelligent and lightweight manner. They aim to automate modeling workflows, avoiding obstacles and difficulties caused by software usage, thereby focusing on the design process itself. To address this issue, we proposed an LLM-based autonomous agent framework that can function as a copilot in the BIM authoring tool, answering software usage questions, understanding the user's design intentions from natural language, and autonomously executing modeling tasks by invoking the appropriate tools. In a case study based on the BIM authoring software Vectorworks, we implemented a software prototype to integrate the proposed framework seamlessly into the BIM authoring scenario. We evaluated the planning and reasoning capabilities of different LLMs within this framework when faced with complex instructions. Our work demonstrates the significant potential of LLM-based agents in design automation and intelligent interaction.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-02T17:47:57Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Changyu Du</name>
+    </author>
+    <author>
+      <name>Stavros Nousias</name>
+    </author>
+    <author>
+      <name>André Borrmann</name>
+    </author>
+  </entry>
+</feed>

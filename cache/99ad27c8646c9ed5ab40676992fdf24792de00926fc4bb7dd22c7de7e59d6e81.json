@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q+6xfatQQtTLEaIKjSAcRypI7vQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15785v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15785v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15785v1</id>
+    <title>This human study did not involve human subjects: Validating LLM simulations as behavioral evidence</title>
+    <updated>2026-02-17T18:18:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.15785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A growing literature uses large language models (LLMs) as synthetic participants to generate cost-effective and nearly instantaneous responses in social science experiments. However, there is limited guidance on when such simulations support valid inference about human behavior. We contrast two strategies for obtaining valid estimates of causal effects and clarify the assumptions under which each is suitable for exploratory versus confirmatory research. Heuristic approaches seek to establish that simulated and observed human behavior are interchangeable through prompt engineering, model fine-tuning, and other repair strategies designed to reduce LLM-induced inaccuracies. While useful for many exploratory tasks, heuristic approaches lack the formal statistical guarantees typically required for confirmatory research. In contrast, statistical calibration combines auxiliary human data with statistical adjustments to account for discrepancies between observed and simulated responses. Under explicit assumptions, statistical calibration preserves validity and provides more precise estimates of causal effects at lower cost than experiments that rely solely on human participants. Yet the potential of both approaches depends on how well LLMs approximate the relevant populations. We consider what opportunities are overlooked when researchers focus myopically on substituting LLMs for human participants in a study.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T18:18:38Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jessica Hullman</name>
+    </author>
+    <author>
+      <name>David Broska</name>
+    </author>
+    <author>
+      <name>Huaman Sun</name>
+    </author>
+    <author>
+      <name>Aaron Shaw</name>
+    </author>
+  </entry>
+</feed>

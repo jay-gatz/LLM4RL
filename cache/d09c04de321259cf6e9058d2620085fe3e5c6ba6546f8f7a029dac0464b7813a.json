@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/osvhqZas9785uRTGvXvQ0L+wZ+c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2208.02685v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2208.02685v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2208.02685v1</id>
+    <title>Proceedings 38th International Conference on Logic Programming</title>
+    <updated>2022-08-04T14:36:47Z</updated>
+    <link href="https://arxiv.org/abs/2208.02685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.02685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ICLP is the premier international event for presenting research in logic programming. Contributions to ICLP 2022 were sought in all areas of logic programming, including but not limited to: Foundations: Semantics, Formalisms, Nonmonotonic reasoning, Knowledge representation. Languages issues: Concurrency, Objects, Coordination, Mobility, Higher order, Types, Modes, Assertions, Modules, Meta-programming, Logic-based domain-specific languages, Programming techniques. Programming support: Program analysis, Transformation, Validation, Verification, Debugging, Profiling, Testing, Execution visualization. Implementation: Compilation, Virtual machines, Memory management, Parallel and Distributed execution, Constraint handling rules, Tabling, Foreign interfaces, User interfaces. Related Paradigms and Synergies: Inductive and coinductive logic programming, Constraint logic programming, Answer set programming, Interaction with SAT, SMT and CSP solvers, Theorem proving, Argumentation, Probabilistic programming, Machine learning. Applications: Databases, Big data, Data integration and federation, Software engineering, Natural language processing, Web and semantic web, Agents, Artificial intelligence, Computational life sciences, Cyber-security, Robotics, Education.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-04T14:36:47Z</published>
+    <arxiv:primary_category term="cs.LO"/>
+    <arxiv:journal_ref>EPTCS 364, 2022</arxiv:journal_ref>
+    <author>
+      <name>Yuliya Lierler</name>
+    </author>
+    <author>
+      <name>Jose F. Morales</name>
+    </author>
+    <author>
+      <name>Carmine Dodaro</name>
+    </author>
+    <author>
+      <name>Veronica Dahl</name>
+    </author>
+    <author>
+      <name>Martin Gebser</name>
+    </author>
+    <author>
+      <name>Tuncay Tekle</name>
+    </author>
+    <arxiv:doi>10.4204/EPTCS.364</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4204/EPTCS.364" title="doi"/>
+  </entry>
+</feed>

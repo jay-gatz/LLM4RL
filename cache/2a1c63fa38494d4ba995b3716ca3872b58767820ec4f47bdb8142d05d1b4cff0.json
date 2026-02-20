@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+A3rZTr++VP8HnkXa+if/OhH5Uc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03358v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03358v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03358v1</id>
+    <title>GFlowPO: Generative Flow Network as a Language Model Prompt Optimizer</title>
+    <updated>2026-02-03T10:30:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.03358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finding effective prompts for language models (LMs) is critical yet notoriously difficult: the prompt space is combinatorially large, rewards are sparse due to expensive target-LM evaluation. Yet, existing RL-based prompt optimizers often rely on on-policy updates and a meta-prompt sampled from a fixed distribution, leading to poor sample efficiency. We propose GFlowPO, a probabilistic prompt optimization framework that casts prompt search as a posterior inference problem over latent prompts regularized by a meta-prompted reference-LM prior. In the first step, we fine-tune a lightweight prompt-LM with an off-policy Generative Flow Network (GFlowNet) objective, using a replay-based training policy that reuses past prompt evaluations to enable sample-efficient exploration. In the second step, we introduce Dynamic Memory Update (DMU), a training-free mechanism that updates the meta-prompt by injecting both (i) diverse prompts from a replay buffer and (ii) top-performing prompts from a small priority queue, thereby progressively concentrating the search process on high-reward regions. Across few-shot text classification, instruction induction benchmarks, and question answering tasks, GFlowPO consistently outperforms recent discrete prompt optimization baselines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T10:30:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Junmo Cho</name>
+    </author>
+    <author>
+      <name>Suhan Kim</name>
+    </author>
+    <author>
+      <name>Sangjune An</name>
+    </author>
+    <author>
+      <name>Minsu Kim</name>
+    </author>
+    <author>
+      <name>Dong Bok Lee</name>
+    </author>
+    <author>
+      <name>Heejun Lee</name>
+    </author>
+    <author>
+      <name>Sung Ju Hwang</name>
+    </author>
+    <author>
+      <name>Hae Beom Lee</name>
+    </author>
+  </entry>
+</feed>

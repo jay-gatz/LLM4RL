@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2WKBRrqCPFP5FoPc/H7hyTuaLR0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15005v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:38:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15005v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15005v1</id>
+    <title>Learning User Interests via Reasoning and Distillation for Cross-Domain News Recommendation</title>
+    <updated>2026-02-16T18:45:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.15005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>News recommendation plays a critical role in online news platforms by helping users discover relevant content. Cross-domain news recommendation further requires inferring user's underlying information needs from heterogeneous signals that often extend beyond direct news consumption. A key challenge lies in moving beyond surface-level behaviors to capture deeper, reusable user interests while maintaining scalability in large-scale production systems. In this paper, we present a reinforcement learning framework that trains large language models to generate high-quality lists of interest-driven news search queries from cross-domain user signals. We formulate query-list generation as a policy optimization problem and employ GRPO with multiple reward signals. We systematically study two compute dimensions: inference-time sampling and model capacity, and empirically observe consistent improvements with increased compute that exhibit scaling-like behavior. Finally, we perform on-policy distillation to transfer the learned policy from a large, compute-intensive teacher to a compact student model suitable for scalable deployment. Extensive offline experiments, ablation studies and large-scale online A/B tests in a production news recommendation system demonstrate consistent gains in both interest modeling quality and downstream recommendation performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T18:45:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mengdan Zhu</name>
+    </author>
+    <author>
+      <name>Yufan Zhao</name>
+    </author>
+    <author>
+      <name>Tao Di</name>
+    </author>
+    <author>
+      <name>Yulan Yan</name>
+    </author>
+    <author>
+      <name>Liang Zhao</name>
+    </author>
+  </entry>
+</feed>

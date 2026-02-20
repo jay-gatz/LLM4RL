@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Yoq4FfXuAQqpw7ZOxxoqPxQoCtA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.13526v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:21:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.13526v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13526v1</id>
+    <title>Async Control: Stress-testing Asynchronous Control Measures for LLM Agents</title>
+    <updated>2025-12-15T16:56:28Z</updated>
+    <link href="https://arxiv.org/abs/2512.13526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based software engineering agents are increasingly used in real-world development tasks, often with access to sensitive data or security-critical codebases. Such agents could intentionally sabotage these codebases if they were misaligned. We investigate asynchronous monitoring, in which a monitoring system reviews agent actions after the fact. Unlike synchronous monitoring, this approach does not impose runtime latency, while still attempting to disrupt attacks before irreversible harm occurs. We treat monitor development as an adversarial game between a blue team (who design monitors) and a red team (who create sabotaging agents). We attempt to set the game rules such that they upper bound the sabotage potential of an agent based on Claude 4.1 Opus. To ground this game in a realistic, high-stakes deployment scenario, we develop a suite of 5 diverse software engineering environments that simulate tasks that an agent might perform within an AI developer's internal infrastructure. Over the course of the game, we develop an ensemble monitor that achieves a 6% false negative rate at 1% false positive rate on a held out test environment. Then, we estimate risk of sabotage at deployment time by extrapolating from our monitor's false negative rate. We describe one simple model for this extrapolation, present a sensitivity analysis, and describe situations in which the model would be invalid. Code is available at: https://github.com/UKGovernmentBEIS/async-control.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T16:56:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Asa Cooper Stickland</name>
+    </author>
+    <author>
+      <name>Jan Michelfeit</name>
+    </author>
+    <author>
+      <name>Arathi Mani</name>
+    </author>
+    <author>
+      <name>Charlie Griffin</name>
+    </author>
+    <author>
+      <name>Ollie Matthews</name>
+    </author>
+    <author>
+      <name>Tomek Korbak</name>
+    </author>
+    <author>
+      <name>Rogan Inglis</name>
+    </author>
+    <author>
+      <name>Oliver Makins</name>
+    </author>
+    <author>
+      <name>Alan Cooney</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/s6TGwd2Wjf16Ca1xXxRUYrZVu9I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15516v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15516v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15516v1</id>
+    <title>Semantic-Guided 3D Gaussian Splatting for Transient Object Removal</title>
+    <updated>2026-02-17T11:44:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.15516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transient objects in casual multi-view captures cause ghosting artifacts in 3D Gaussian Splatting (3DGS) reconstruction. Existing solutions relied on scene decomposition at significant memory cost or on motion-based heuristics that were vulnerable to parallax ambiguity. A semantic filtering framework was proposed for category-aware transient removal using vision-language models. CLIP similarity scores between rendered views and distractor text prompts were accumulated per-Gaussian across training iterations. Gaussians exceeding a calibrated threshold underwent opacity regularization and periodic pruning. Unlike motion-based approaches, semantic classification resolved parallax ambiguity by identifying object categories independently of motion patterns. Experiments on the RobustNeRF benchmark demonstrated consistent improvement in reconstruction quality over vanilla 3DGS across four sequences, while maintaining minimal memory overhead and real-time rendering performance. Threshold calibration and comparisons with baselines validated semantic guidance as a practical strategy for transient removal in scenarios with predictable distractor categories.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T11:44:16Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aditi Prabakaran</name>
+    </author>
+    <author>
+      <name>Priyesh Shukla</name>
+    </author>
+  </entry>
+</feed>

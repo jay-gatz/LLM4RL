@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E0T//E532dB56OusWv1ix1gXfIk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17927v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17927v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17927v1</id>
+    <title>RemEdit: Efficient Diffusion Editing with Riemannian Geometry</title>
+    <updated>2026-01-25T17:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.17927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controllable image generation is fundamental to the success of modern generative AI, yet it faces a critical trade-off between semantic fidelity and inference speed. The RemEdit diffusion-based framework addresses this trade-off with two synergistic innovations. First, for editing fidelity, we navigate the latent space as a Riemannian manifold. A mamba-based module efficiently learns the manifold's structure, enabling direct and accurate geodesic path computation for smooth semantic edits. This control is further refined by a dual-SLERP blending technique and a goal-aware prompt enrichment pass from a Vision-Language Model. Second, for additional acceleration, we introduce a novel task-specific attention pruning mechanism. A lightweight pruning head learns to retain tokens essential to the edit, enabling effective optimization without the semantic degradation common in content-agnostic approaches. RemEdit surpasses prior state-of-the-art editing frameworks while maintaining real-time performance under 50% pruning. Consequently, RemEdit establishes a new benchmark for practical and powerful image editing. Source code: https://www.github.com/eashanadhikarla/RemEdit.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-25T17:58:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>IEEE/CVF Winter Conference on Applications of Computer Vision, WACV 2026</arxiv:journal_ref>
+    <author>
+      <name>Eashan Adhikarla</name>
+    </author>
+    <author>
+      <name>Brian D. Davison</name>
+    </author>
+  </entry>
+</feed>

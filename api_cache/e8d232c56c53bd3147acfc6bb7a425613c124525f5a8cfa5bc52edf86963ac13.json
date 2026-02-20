@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hOEIO46xKE8egJRPh66m6JHdp14</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.12773&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.12773" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12773v1</id>
+    <title>Safe RLHF: Safe Reinforcement Learning from Human Feedback</title>
+    <updated>2023-10-19T14:22:03Z</updated>
+    <link href="https://arxiv.org/abs/2310.12773v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12773v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the development of large language models (LLMs), striking a balance between the performance and safety of AI systems has never been more critical. However, the inherent tension between the objectives of helpfulness and harmlessness presents a significant challenge during LLM training. To address this issue, we propose Safe Reinforcement Learning from Human Feedback (Safe RLHF), a novel algorithm for human value alignment. Safe RLHF explicitly decouples human preferences regarding helpfulness and harmlessness, effectively avoiding the crowdworkers' confusion about the tension and allowing us to train separate reward and cost models. We formalize the safety concern of LLMs as an optimization task of maximizing the reward function while satisfying specified cost constraints. Leveraging the Lagrangian method to solve this constrained problem, Safe RLHF dynamically adjusts the balance between the two objectives during fine-tuning. Through a three-round fine-tuning using Safe RLHF, we demonstrate a superior ability to mitigate harmful responses while enhancing model performance compared to existing value-aligned algorithms. Experimentally, we fine-tuned the Alpaca-7B using Safe RLHF and aligned it with collected human preferences, significantly improving its helpfulness and harmlessness according to human evaluations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-19T14:22:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Josef Dai</name>
+    </author>
+    <author>
+      <name>Xuehai Pan</name>
+    </author>
+    <author>
+      <name>Ruiyang Sun</name>
+    </author>
+    <author>
+      <name>Jiaming Ji</name>
+    </author>
+    <author>
+      <name>Xinbo Xu</name>
+    </author>
+    <author>
+      <name>Mickel Liu</name>
+    </author>
+    <author>
+      <name>Yizhou Wang</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+  </entry>
+</feed>

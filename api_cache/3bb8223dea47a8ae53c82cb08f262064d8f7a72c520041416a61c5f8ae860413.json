@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//+qw873eqAGuDp3khTZd+PSJfpI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09856v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09856v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09856v1</id>
+    <title>Code2World: A GUI World Model via Renderable Code Generation</title>
+    <updated>2026-02-10T14:56:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.09856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous GUI agents interact with environments by perceiving interfaces and executing actions. As a virtual sandbox, the GUI World model empowers agents with human-like foresight by enabling action-conditioned prediction. However, existing text- and pixel-based approaches struggle to simultaneously achieve high visual fidelity and fine-grained structural controllability. To this end, we propose Code2World, a vision-language coder that simulates the next visual state via renderable code generation. Specifically, to address the data scarcity problem, we construct AndroidCode by translating GUI trajectories into high-fidelity HTML and refining synthesized code through a visual-feedback revision mechanism, yielding a corpus of over 80K high-quality screen-action pairs. To adapt existing VLMs into code prediction, we first perform SFT as a cold start for format layout following, then further apply Render-Aware Reinforcement Learning which uses rendered outcome as the reward signal by enforcing visual semantic fidelity and action consistency. Extensive experiments demonstrate that Code2World-8B achieves the top-performing next UI prediction, rivaling the competitive GPT-5 and Gemini-3-Pro-Image. Notably, Code2World significantly enhances downstream navigation success rates in a flexible manner, boosting Gemini-2.5-Flash by +9.5% on AndroidWorld navigation. The code is available at https://github.com/AMAP-ML/Code2World.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T14:56:19Z</published>
+    <arxiv:comment>github: https://github.com/AMAP-ML/Code2World project page: https://amap-ml.github.io/Code2World/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuhao Zheng</name>
+    </author>
+    <author>
+      <name>Li'an Zhong</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Rui Dai</name>
+    </author>
+    <author>
+      <name>Kaikui Liu</name>
+    </author>
+    <author>
+      <name>Xiangxiang Chu</name>
+    </author>
+    <author>
+      <name>Linyuan Lv</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Kevin Qinghong Lin</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kH2QsseY6BVT8uY3uLFaWSCCjKY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03516v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03516v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03516v2</id>
+    <title>Not All Negative Samples Are Equal: LLMs Learn Better from Plausible Reasoning</title>
+    <updated>2026-02-04T04:25:31Z</updated>
+    <link href="https://arxiv.org/abs/2602.03516v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03516v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning from negative samples holds great promise for improving Large Language Model (LLM) reasoning capability, yet existing methods treat all incorrect responses as equally informative, overlooking the crucial role of sample quality. To address this, we propose Plausible Negative Samples (PNS), a method that synthesizes high-quality negative samples exhibiting expected format and structural coherence while ultimately yielding incorrect answers. PNS trains a dedicated model via reverse reinforcement learning (RL) guided by a composite reward combining format compliance, accuracy inversion, reward model assessment, and chain-of-thought evaluation, generating responses nearly indistinguishable from correct solutions. We further validate PNS as a plug-and-play data source for preference optimization across three backbone models on seven mathematical reasoning benchmarks. Results demonstrate that PNS consistently outperforms other negative sample synthesis methods, achieving an average improvement of 2.03% over RL-trained models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T13:32:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zixiang Di</name>
+    </author>
+    <author>
+      <name>Jinyi Han</name>
+    </author>
+    <author>
+      <name>Shuo Zhang</name>
+    </author>
+    <author>
+      <name>Ying Liao</name>
+    </author>
+    <author>
+      <name>Zhi Li</name>
+    </author>
+    <author>
+      <name>Xiaofeng Ji</name>
+    </author>
+    <author>
+      <name>Yongqi Wang</name>
+    </author>
+    <author>
+      <name>Zheming Yang</name>
+    </author>
+    <author>
+      <name>Ming Gao</name>
+    </author>
+    <author>
+      <name>Bingdong Li</name>
+    </author>
+    <author>
+      <name>Jie Wang</name>
+    </author>
+  </entry>
+</feed>

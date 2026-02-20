@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d+k9MyAOPKlGNwxgU8y09Ljvu1g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06540v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06540v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06540v1</id>
+    <title>AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research</title>
+    <updated>2026-02-06T09:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.06540v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06540v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating deep research reports requires large-scale information acquisition and the synthesis of insight-driven analysis, posing a significant challenge for current language models. Most existing approaches follow a plan-then-write paradigm, whose performance heavily depends on the quality of the initial outline. However, constructing a comprehensive outline itself demands strong reasoning ability, causing current deep research systems to rely almost exclusively on closed-source or online large models. This reliance raises practical barriers to deployment and introduces safety and privacy concerns for user-authored data. In this work, we present AgentCPM-Report, a lightweight yet high-performing local solution composed of a framework that mirrors the human writing process and an 8B-parameter deep research agent. Our framework uses a Writing As Reasoning Policy (WARP), which enables models to dynamically revise outlines during report generation. Under this policy, the agent alternates between Evidence-Based Drafting and Reasoning-Driven Deepening, jointly supporting information acquisition, knowledge refinement, and iterative outline evolution. To effectively equip small models with this capability, we introduce a Multi-Stage Agentic Training strategy, consisting of cold-start, atomic skill RL, and holistic pipeline RL. Experiments on DeepResearch Bench, DeepConsult, and DeepResearch Gym demonstrate that AgentCPM-Report outperforms leading closed-source systems, with substantial gains in Insight.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T09:45:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yishan Li</name>
+    </author>
+    <author>
+      <name>Wentong Chen</name>
+    </author>
+    <author>
+      <name>Yukun Yan</name>
+    </author>
+    <author>
+      <name>Mingwei Li</name>
+    </author>
+    <author>
+      <name>Sen Mei</name>
+    </author>
+    <author>
+      <name>Xiaorong Wang</name>
+    </author>
+    <author>
+      <name>Kunpeng Liu</name>
+    </author>
+    <author>
+      <name>Xin Cong</name>
+    </author>
+    <author>
+      <name>Shuo Wang</name>
+    </author>
+    <author>
+      <name>Zhong Zhang</name>
+    </author>
+    <author>
+      <name>Yaxi Lu</name>
+    </author>
+    <author>
+      <name>Zhenghao Liu</name>
+    </author>
+    <author>
+      <name>Yankai Lin</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <author>
+      <name>Maosong Sun</name>
+    </author>
+  </entry>
+</feed>

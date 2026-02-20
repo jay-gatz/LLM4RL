@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gZEaiFmWWsv/aZPH7E2pB5EfnE4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23224v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23224v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23224v1</id>
+    <title>Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning</title>
+    <updated>2026-01-30T17:47:30Z</updated>
+    <link href="https://arxiv.org/abs/2601.23224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing multimodal large language models for long-video understanding predominantly rely on uniform sampling and single-turn inference, limiting their ability to identify sparse yet critical evidence amid extensive redundancy. We introduce Video-o3, a novel framework that supports iterative discovery of salient visual clues, fine-grained inspection of key segments, and adaptive termination once sufficient evidence is acquired. Technically, we address two core challenges in interleaved tool invocation. First, to mitigate attention dispersion induced by the heterogeneity of reasoning and tool-calling, we propose Task-Decoupled Attention Masking, which isolates per-step concentration while preserving shared global context. Second, to control context length growth in multi-turn interactions, we introduce a Verifiable Trajectory-Guided Reward that balances exploration coverage with reasoning efficiency. To support training at scale, we further develop a data synthesis pipeline and construct Seeker-173K, comprising 173K high-quality tool-interaction trajectories for effective supervised and reinforcement learning. Extensive experiments show that Video-o3 substantially outperforms state-of-the-art methods, achieving 72.1% accuracy on MLVU and 46.5% on Video-Holmes. These results demonstrate Video-o3's strong multi-hop evidence-seeking and reasoning capabilities, and validate the effectiveness of native tool invocation in long-video scenarios.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T17:47:30Z</published>
+    <arxiv:comment>24 pages, 15 figures, 11 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiangyu Zeng</name>
+    </author>
+    <author>
+      <name>Zhiqiu Zhang</name>
+    </author>
+    <author>
+      <name>Yuhan Zhu</name>
+    </author>
+    <author>
+      <name>Xinhao Li</name>
+    </author>
+    <author>
+      <name>Zikang Wang</name>
+    </author>
+    <author>
+      <name>Changlian Ma</name>
+    </author>
+    <author>
+      <name>Qingyu Zhang</name>
+    </author>
+    <author>
+      <name>Zizheng Huang</name>
+    </author>
+    <author>
+      <name>Kun Ouyang</name>
+    </author>
+    <author>
+      <name>Tianxiang Jiang</name>
+    </author>
+    <author>
+      <name>Ziang Yan</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Hongjie Zhang</name>
+    </author>
+    <author>
+      <name>Yali Wang</name>
+    </author>
+    <author>
+      <name>Limin Wang</name>
+    </author>
+  </entry>
+</feed>

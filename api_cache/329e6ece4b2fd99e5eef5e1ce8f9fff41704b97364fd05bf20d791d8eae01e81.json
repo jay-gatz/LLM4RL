@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gJ7q7crl8z+VVWbuRthfRhTH/FM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2212.10403&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2212.10403" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.10403v2</id>
+    <title>Towards Reasoning in Large Language Models: A Survey</title>
+    <updated>2023-05-26T17:59:33Z</updated>
+    <link href="https://arxiv.org/abs/2212.10403v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.10403v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning is a fundamental aspect of human intelligence that plays a crucial role in activities such as problem solving, decision making, and critical thinking. In recent years, large language models (LLMs) have made significant progress in natural language processing, and there is observation that these models may exhibit reasoning abilities when they are sufficiently large. However, it is not yet clear to what extent LLMs are capable of reasoning. This paper provides a comprehensive overview of the current state of knowledge on reasoning in LLMs, including techniques for improving and eliciting reasoning in these models, methods and benchmarks for evaluating reasoning abilities, findings and implications of previous research in this field, and suggestions on future directions. Our aim is to provide a detailed and up-to-date review of this topic and stimulate meaningful discussion and future work.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-20T16:29:03Z</published>
+    <arxiv:comment>ACL 2023 Findings, 15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jie Huang</name>
+    </author>
+    <author>
+      <name>Kevin Chen-Chuan Chang</name>
+    </author>
+  </entry>
+</feed>

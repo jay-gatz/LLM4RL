@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q5NnGV6/eNg3YdRumBQ/JJt/THU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16480v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16480v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16480v1</id>
+    <title>TL-GRPO: Turn-Level RL for Reasoning-Guided Iterative Optimization</title>
+    <updated>2026-01-23T06:21:33Z</updated>
+    <link href="https://arxiv.org/abs/2601.16480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have demonstrated strong reasoning capabilities in complex tasks through tool integration, which is typically framed as a Markov Decision Process and optimized with trajectory-level RL algorithms such as GRPO. However, a common class of reasoning tasks, iterative optimization, presents distinct challenges: the agent interacts with the same underlying environment state across turns, and the value of a trajectory is determined by the best turn-level reward rather than cumulative returns. Existing GRPO-based methods cannot perform fine-grained, turn-level optimization in such settings, while black-box optimization methods discard prior knowledge and reasoning capabilities. To address this gap, we propose Turn-Level GRPO (TL-GRPO), a lightweight RL algorithm that performs turn-level group sampling for fine-grained optimization. We evaluate TL-GRPO on analog circuit sizing (ACS), a challenging scientific optimization task requiring multiple simulations and domain expertise. Results show that TL-GRPO outperforms standard GRPO and Bayesian optimization methods across various specifications. Furthermore, our 30B model trained with TL-GRPO achieves state-of-the-art performance on ACS tasks under same simulation budget, demonstrating both strong generalization and practical utility.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T06:21:33Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peiji Li</name>
+    </author>
+    <author>
+      <name>Linyang Li</name>
+    </author>
+    <author>
+      <name>Handa Sun</name>
+    </author>
+    <author>
+      <name>Wenjin Mai</name>
+    </author>
+    <author>
+      <name>Yongkang Chen</name>
+    </author>
+    <author>
+      <name>Xiaozhe Li</name>
+    </author>
+    <author>
+      <name>Yue Shen</name>
+    </author>
+    <author>
+      <name>Yichuan Ma</name>
+    </author>
+    <author>
+      <name>Yiliu Sun</name>
+    </author>
+    <author>
+      <name>Jiaxi Cao</name>
+    </author>
+    <author>
+      <name>Zhishu He</name>
+    </author>
+    <author>
+      <name>Bo Wang</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zheng</name>
+    </author>
+    <author>
+      <name>Zhaori Bi</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+    <author>
+      <name>Qipeng Guo</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Dahua Lin</name>
+    </author>
+  </entry>
+</feed>

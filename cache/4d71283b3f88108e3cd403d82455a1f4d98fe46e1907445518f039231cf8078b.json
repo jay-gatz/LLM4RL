@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L1CN96xoi0qEkCGjuT0Ga7A/YgE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.20587&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.20587" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.20587v5</id>
+    <title>Unleashing the Power of Pre-trained Language Models for Offline Reinforcement Learning</title>
+    <updated>2024-12-17T15:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2310.20587v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.20587v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offline reinforcement learning (RL) aims to find a near-optimal policy using pre-collected datasets. In real-world scenarios, data collection could be costly and risky; therefore, offline RL becomes particularly challenging when the in-domain data is limited. Given recent advances in Large Language Models (LLMs) and their few-shot learning prowess, this paper introduces $\textbf{La}$nguage Models for $\textbf{Mo}$tion Control ($\textbf{LaMo}$), a general framework based on Decision Transformers to effectively use pre-trained Language Models (LMs) for offline RL. Our framework highlights four crucial components: (1) Initializing Decision Transformers with sequentially pre-trained LMs, (2) employing the LoRA fine-tuning method, in contrast to full-weight fine-tuning, to combine the pre-trained knowledge from LMs and in-domain knowledge effectively, (3) using the non-linear MLP transformation instead of linear projections, to generate embeddings, and (4) integrating an auxiliary language prediction loss during fine-tuning to stabilize the LMs and retain their original abilities on languages. Empirical results indicate $\textbf{LaMo}$ achieves excellent performance in sparse-reward tasks and closes the gap between value-based offline RL methods and decision transformers in dense-reward tasks. In particular, our method demonstrates superior performance in scenarios with limited data samples.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-31T16:24:17Z</published>
+    <arxiv:comment>Format adjustment</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruizhe Shi</name>
+    </author>
+    <author>
+      <name>Yuyao Liu</name>
+    </author>
+    <author>
+      <name>Yanjie Ze</name>
+    </author>
+    <author>
+      <name>Simon S. Du</name>
+    </author>
+    <author>
+      <name>Huazhe Xu</name>
+    </author>
+  </entry>
+</feed>

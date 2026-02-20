@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mJV6KkYtjRSYVQ2HO667LtI+LDg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.04694v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.04694v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04694v1</id>
+    <title>ResMAS: Resilience Optimization in LLM-based Multi-agent Systems</title>
+    <updated>2026-01-08T08:03:37Z</updated>
+    <link href="https://arxiv.org/abs/2601.04694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model-based Multi-Agent Systems (LLM-based MAS), where multiple LLM agents collaborate to solve complex tasks, have shown impressive performance in many areas. However, MAS are typically distributed across different devices or environments, making them vulnerable to perturbations such as agent failures. While existing works have studied the adversarial attacks and corresponding defense strategies, they mainly focus on reactively detecting and mitigating attacks after they occur rather than proactively designing inherently resilient systems. In this work, we study the resilience of LLM-based MAS under perturbations and find that both the communication topology and prompt design significantly influence system resilience. Motivated by these findings, we propose ResMAS: a two-stage framework for enhancing MAS resilience. First, we train a reward model to predict the MAS's resilience, based on which we train a topology generator to automatically design resilient topology for specific tasks through reinforcement learning. Second, we introduce a topology-aware prompt optimization method that refines each agent's prompt based on its connections and interactions with other agents. Extensive experiments across a range of tasks show that our approach substantially improves MAS resilience under various constraints. Moreover, our framework demonstrates strong generalization ability to new tasks and models, highlighting its potential for building resilient MASs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T08:03:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhilun Zhou</name>
+    </author>
+    <author>
+      <name>Zihan Liu</name>
+    </author>
+    <author>
+      <name>Jiahe Liu</name>
+    </author>
+    <author>
+      <name>Qingyu Shao</name>
+    </author>
+    <author>
+      <name>Yihan Wang</name>
+    </author>
+    <author>
+      <name>Kun Shao</name>
+    </author>
+    <author>
+      <name>Depeng Jin</name>
+    </author>
+    <author>
+      <name>Fengli Xu</name>
+    </author>
+  </entry>
+</feed>

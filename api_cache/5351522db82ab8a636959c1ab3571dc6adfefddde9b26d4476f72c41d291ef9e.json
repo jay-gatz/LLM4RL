@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eGQnVhrY2FDvjmog955nMtG/S6Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2211.03267&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2211.03267" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2211.03267v2</id>
+    <title>Prompter: Utilizing Large Language Model Prompting for a Data Efficient Embodied Instruction Following</title>
+    <updated>2024-03-12T09:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2211.03267v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.03267v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied Instruction Following (EIF) studies how autonomous mobile manipulation robots should be controlled to accomplish long-horizon tasks described by natural language instructions. While much research on EIF is conducted in simulators, the ultimate goal of the field is to deploy the agents in real life. This is one of the reasons why recent methods have moved away from training models end-to-end and take modular approaches, which do not need the costly expert operation data. However, as it is still in the early days of importing modular ideas to EIF, a search for modules effective in the EIF task is still far from a conclusion. In this paper, we propose to extend the modular design using knowledge obtained from two external sources. First, we show that embedding the physical constraints of the deployed robots into the module design is highly effective. Our design also allows the same modular system to work across robots of different configurations with minimal modifications. Second, we show that the landmark-based object search, previously implemented by a trained model requiring a dedicated set of data, can be replaced by an implementation that prompts pretrained large language models for landmark-object relationships, eliminating the need for collecting dedicated training data. Our proposed Prompter achieves 41.53\% and 45.32\% on the ALFRED benchmark with high-level instructions only and step-by-step instructions, respectively, significantly outperforming the previous state of the art by 5.46\% and 9.91\%.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-07T02:24:39Z</published>
+    <arxiv:comment>8 pages, 3 figures, rejected by IROS2023</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuki Inoue</name>
+    </author>
+    <author>
+      <name>Hiroki Ohashi</name>
+    </author>
+  </entry>
+</feed>

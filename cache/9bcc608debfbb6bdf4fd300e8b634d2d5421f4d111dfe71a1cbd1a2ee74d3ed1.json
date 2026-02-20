@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+Y0AOV80JTyhb8IR6Y9AAo0JYDw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03305v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03305v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03305v2</id>
+    <title>medR: Reward Engineering for Clinical Offline Reinforcement Learning via Tri-Drive Potential Functions</title>
+    <updated>2026-02-04T13:20:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.03305v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03305v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) offers a powerful framework for optimizing dynamic treatment regimes (DTRs). However, clinical RL is fundamentally bottlenecked by reward engineering: the challenge of defining signals that safely and effectively guide policy learning in complex, sparse offline environments. Existing approaches often rely on manual heuristics that fail to generalize across diverse pathologies. To address this, we propose an automated pipeline leveraging Large Language Models (LLMs) for offline reward design and verification. We formulate the reward function using potential functions consisted of three core components: survival, confidence, and competence. We further introduce quantitative metrics to rigorously evaluate and select the optimal reward structure prior to deployment. By integrating LLM-driven domain knowledge, our framework automates the design of reward functions for specific diseases while significantly enhancing the performance of the resulting policies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T09:30:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qianyi Xu</name>
+    </author>
+    <author>
+      <name>Gousia Habib</name>
+    </author>
+    <author>
+      <name>Feng Wu</name>
+    </author>
+    <author>
+      <name>Yanrui Du</name>
+    </author>
+    <author>
+      <name>Zhihui Chen</name>
+    </author>
+    <author>
+      <name>Swapnil Mishra</name>
+    </author>
+    <author>
+      <name>Dilruk Perera</name>
+    </author>
+    <author>
+      <name>Mengling Feng</name>
+    </author>
+  </entry>
+</feed>

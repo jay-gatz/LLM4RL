@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nzf0646ZFkGuFQK3uQDzn+taBQM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.16216&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:23:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.16216" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16216v1</id>
+    <title>A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More</title>
+    <updated>2024-07-23T06:45:52Z</updated>
+    <link href="https://arxiv.org/abs/2407.16216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parameters, large language models (LLMs) are now capable of generating factual and coherent responses to human queries. However, the mixed quality of training data can lead to the generation of undesired responses, presenting a significant challenge. Over the past two years, various methods have been proposed from different perspectives to enhance LLMs, particularly in aligning them with human expectation. Despite these efforts, there has not been a comprehensive survey paper that categorizes and details these approaches. In this work, we aim to address this gap by categorizing these papers into distinct topics and providing detailed explanations of each alignment method, thereby helping readers gain a thorough understanding of the current state of the field.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-23T06:45:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhichao Wang</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bin Bi</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shiva Kumar Pentyala</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kiran Ramnath</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sougata Chaudhuri</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shubham Mehrotra</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Zixu</name>
+      <arxiv:affiliation>James</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Zhu</name>
+      <arxiv:affiliation>Claire</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiang-Bo Mao</name>
+      <arxiv:affiliation>Claire</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sitaram Asur</name>
+      <arxiv:affiliation>Claire</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Na</name>
+      <arxiv:affiliation>Claire</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Cheng</name>
+    </author>
+  </entry>
+</feed>

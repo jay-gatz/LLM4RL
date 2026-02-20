@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l0fGAHptWL1gW7GH1Z8DeUS3C0c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.16079v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:56:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.16079v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16079v1</id>
+    <title>EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle</title>
+    <updated>2025-10-17T12:03:16Z</updated>
+    <link href="https://arxiv.org/abs/2510.16079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current Large Language Model (LLM) agents show strong performance in tool use, but lack the crucial capability to systematically learn from their own experiences. While existing frameworks mainly focus on mitigating external knowledge gaps, they fail to address a more fundamental limitation: the inability to iteratively refine problem-solving strategies. In this work, we introduce EvolveR, a framework designed to enable agent to self-improve through a complete, closed-loop experience lifecycle. This lifecycle comprises two key stages: (1) Offline Self-Distillation, where the agent's interaction trajectories are synthesized into a structured repository of abstract, reusable strategic principles; (2) Online Interaction, where the agent interacts with tasks and actively retrieves distilled principles to guide its decision-making, accumulating a diverse set of behavioral trajectories. This loop employs a policy reinforcement mechanism to iteratively update the agent based on its performance. We demonstrate the effectiveness of EvolveR on complex multi-hop question-answering benchmarks, where it achieves superior performance over strong agentic baselines. Our work presents a comprehensive blueprint for agents that learn not only from external data but also from the consequences of their own actions, paving the way for more autonomous and continuously improving systems. Code is available at https://github.com/Edaizi/EvolveR.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T12:03:16Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rong Wu</name>
+    </author>
+    <author>
+      <name>Xiaoman Wang</name>
+    </author>
+    <author>
+      <name>Jianbiao Mei</name>
+    </author>
+    <author>
+      <name>Pinlong Cai</name>
+    </author>
+    <author>
+      <name>Daocheng Fu</name>
+    </author>
+    <author>
+      <name>Cheng Yang</name>
+    </author>
+    <author>
+      <name>Licheng Wen</name>
+    </author>
+    <author>
+      <name>Xuemeng Yang</name>
+    </author>
+    <author>
+      <name>Yufan Shen</name>
+    </author>
+    <author>
+      <name>Yuxin Wang</name>
+    </author>
+    <author>
+      <name>Botian Shi</name>
+    </author>
+  </entry>
+</feed>

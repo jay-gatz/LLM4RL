@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mQZf9OvvY9T8TaFiXYIr8jIDdpI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15909v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15909v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15909v1</id>
+    <title>Resp-Agent: An Agent-Based System for Multimodal Respiratory Sound Generation and Disease Diagnosis</title>
+    <updated>2026-02-16T14:48:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.15909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning-based respiratory auscultation is currently hindered by two fundamental challenges: (i) inherent information loss, as converting signals into spectrograms discards transient acoustic events and clinical context; (ii) limited data availability, exacerbated by severe class imbalance. To bridge these gaps, we present Resp-Agent, an autonomous multimodal system orchestrated by a novel Active Adversarial Curriculum Agent (Thinker-A$^2$CA). Unlike static pipelines, Thinker-A$^2$CA serves as a central controller that actively identifies diagnostic weaknesses and schedules targeted synthesis in a closed loop. To address the representation gap, we introduce a Modality-Weaving Diagnoser that weaves EHR data with audio tokens via Strategic Global Attention and sparse audio anchors, capturing both long-range clinical context and millisecond-level transients. To address the data gap, we design a Flow Matching Generator that adapts a text-only Large Language Model (LLM) via modality injection, decoupling pathological content from acoustic style to synthesize hard-to-diagnose samples. As a foundation for these efforts, we introduce Resp-229k, a benchmark corpus of 229k recordings paired with LLM-distilled clinical narratives. Extensive experiments demonstrate that Resp-Agent consistently outperforms prior approaches across diverse evaluation settings, improving diagnostic robustness under data scarcity and long-tailed class imbalance. Our code and data are available at https://github.com/zpforlove/Resp-Agent.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T14:48:24Z</published>
+    <arxiv:comment>24 pages, 3 figures. Published as a conference paper at ICLR 2026. Code and data available at https://github.com/zpforlove/Resp-Agent</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <arxiv:journal_ref>The Fourteenth International Conference on Learning Representations (ICLR 2026)</arxiv:journal_ref>
+    <author>
+      <name>Pengfei Zhang</name>
+    </author>
+    <author>
+      <name>Tianxin Xie</name>
+    </author>
+    <author>
+      <name>Minghao Yang</name>
+    </author>
+    <author>
+      <name>Li Liu</name>
+    </author>
+  </entry>
+</feed>

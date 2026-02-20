@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yFgWoGA8nPDsook/KHz726uvMDo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16038v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:47:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16038v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16038v1</id>
+    <title>Heuristic Search as Language-Guided Program Optimization</title>
+    <updated>2026-02-17T21:45:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.16038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have advanced Automated Heuristic Design (AHD) in combinatorial optimization (CO) in the past few years. However, existing discovery pipelines often require extensive manual trial-and-error or reliance on domain expertise to adapt to new or complex problems. This stems from tightly coupled internal mechanisms that limit systematic improvement of the LLM-driven design process. To address this challenge, we propose a structured framework for LLM-driven AHD that explicitly decomposes the heuristic discovery process into modular stages: a forward pass for evaluation, a backward pass for analytical feedback, and an update step for program refinement. This separation provides a clear abstraction for iterative refinement and enables principled improvements of individual components. We validate our framework across four diverse real-world CO domains, where it consistently outperforms baselines, achieving up to $0.17$ improvement in QYI on unseen test sets. Finally, we show that several popular AHD methods are restricted instantiations of our framework. By integrating them in our structured pipeline, we can upgrade the components modularly and significantly improve their performance.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T21:45:42Z</published>
+    <arxiv:comment>8 pages, 3 figures, under review</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Mingxin Yu</name>
+    </author>
+    <author>
+      <name>Ruixiao Yang</name>
+    </author>
+    <author>
+      <name>Chuchu Fan</name>
+    </author>
+  </entry>
+</feed>

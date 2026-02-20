@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J45pitXCyKm96fcaY4Jnd0Qh8PU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11128v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11128v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11128v1</id>
+    <title>Asymmetric Prompt Weighting for Reinforcement Learning with Verifiable Rewards</title>
+    <updated>2026-02-11T18:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.11128v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11128v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning with verifiable rewards has driven recent advances in LLM post-training, in particular for reasoning. Policy optimization algorithms generate a number of responses for a given prompt and then effectively weight the corresponding gradients depending on the rewards. The most popular algorithms including GRPO, DAPO, and RLOO focus on ambiguous prompts, i.e., prompts with intermediate success probability, while downgrading gradients with very easy and very hard prompts. In this paper, we consider asymmetric prompt weightings that assign higher weights to prompts with low, or even zero, empirical success probability. We find that asymmetric weighting particularly benefits from-scratch RL (as in R1-Zero), where training traverses a wide accuracy range, and less so in post-SFT RL where the model already starts at high accuracy. We also provide theory that characterizes prompt weights which minimize the time needed to raise success probability from an initial level to a target accuracy under a fixed update budget. In low-success regimes, where informative responses are rare and response cost dominates, these optimal weights become asymmetric, upweighting low success probabilities and thereby accelerating effective-time convergence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T18:39:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Reinhard Heckel</name>
+    </author>
+    <author>
+      <name>Mahdi Soltanolkotabi</name>
+    </author>
+    <author>
+      <name>Christos Thramboulidis</name>
+    </author>
+  </entry>
+</feed>

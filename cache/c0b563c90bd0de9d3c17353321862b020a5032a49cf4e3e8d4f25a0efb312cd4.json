@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dfcvelOnEicuN7shffBEqeec1GI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01611v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01611v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01611v1</id>
+    <title>What Do Agents Learn from Trajectory-SFT: Semantics or Interfaces?</title>
+    <updated>2026-02-02T04:02:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.01611v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01611v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly evaluated as interactive agents, yet standard agent benchmarks conflate two qualitatively distinct sources of success: semantic tool-use and interface-specific interaction pattern memorization. Because both mechanisms can yield identical task success on the original interface, benchmark scores alone are not identifiable evidence of environment-invariant capability. We propose PIPE, a protocol-level evaluation augmentation for diagnosing interface reliance by minimally rewriting environment interfaces while preserving task semantics and execution behavior. Across 16 environments from AgentBench and AgentGym and a range of open-source and API-based agents, PIPE reveals that trajectory-SFT substantially amplifies interface shortcutting: trained agents degrade sharply under minimal interface rewrites, while non-trajectory-trained models remain largely stable. We further introduce Interface Reliance (IR), a counterbalanced alias-based metric that quantifies preference for training-time interfaces, and show that interface shortcutting exhibits environment-dependent, non-monotonic training dynamics that remain invisible under standard evaluation. Our code is available at https://anonymous.4open.science/r/What-Do-Agents-Learn-from-Trajectory-SFT-Semantics-or-Interfaces--0831/.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T04:02:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Weizheng Gu</name>
+    </author>
+    <author>
+      <name>Chengze Li</name>
+    </author>
+    <author>
+      <name>Zhuohao Yu</name>
+    </author>
+    <author>
+      <name>Mengyuan Sun</name>
+    </author>
+    <author>
+      <name>Zhibang Yang</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Hongrui Jia</name>
+    </author>
+    <author>
+      <name>Shikun Zhang</name>
+    </author>
+    <author>
+      <name>Wei Ye</name>
+    </author>
+  </entry>
+</feed>

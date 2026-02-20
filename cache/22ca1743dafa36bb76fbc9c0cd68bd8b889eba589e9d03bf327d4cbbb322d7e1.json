@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xhaBpp3R20tgf95q4gH/uYdl/NQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21998v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21998v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21998v1</id>
+    <title>Causal World Modeling for Robot Control</title>
+    <updated>2026-01-29T17:07:43Z</updated>
+    <link href="https://arxiv.org/abs/2601.21998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work highlights that video world modeling, alongside vision-language pre-training, establishes a fresh and independent foundation for robot learning. Intuitively, video world models provide the ability to imagine the near future by understanding the causality between actions and visual dynamics. Inspired by this, we introduce LingBot-VA, an autoregressive diffusion framework that learns frame prediction and policy execution simultaneously. Our model features three carefully crafted designs: (1) a shared latent space, integrating vision and action tokens, driven by a Mixture-of-Transformers (MoT) architecture, (2) a closed-loop rollout mechanism, allowing for ongoing acquisition of environmental feedback with ground-truth observations, (3) an asynchronous inference pipeline, parallelizing action prediction and motor execution to support efficient control. We evaluate our model on both simulation benchmarks and real-world scenarios, where it shows significant promise in long-horizon manipulation, data efficiency in post-training, and strong generalizability to novel configurations. The code and model are made publicly available to facilitate the community.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T17:07:43Z</published>
+    <arxiv:comment>Project page: https://technology.robbyant.com/lingbot-va Code: https://github.com/robbyant/lingbot-va</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lin Li</name>
+    </author>
+    <author>
+      <name>Qihang Zhang</name>
+    </author>
+    <author>
+      <name>Yiming Luo</name>
+    </author>
+    <author>
+      <name>Shuai Yang</name>
+    </author>
+    <author>
+      <name>Ruilin Wang</name>
+    </author>
+    <author>
+      <name>Fei Han</name>
+    </author>
+    <author>
+      <name>Mingrui Yu</name>
+    </author>
+    <author>
+      <name>Zelin Gao</name>
+    </author>
+    <author>
+      <name>Nan Xue</name>
+    </author>
+    <author>
+      <name>Xing Zhu</name>
+    </author>
+    <author>
+      <name>Yujun Shen</name>
+    </author>
+    <author>
+      <name>Yinghao Xu</name>
+    </author>
+  </entry>
+</feed>

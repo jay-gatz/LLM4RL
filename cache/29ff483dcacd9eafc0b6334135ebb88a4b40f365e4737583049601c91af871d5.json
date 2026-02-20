@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/C5LkbJO2F2SvmY97vkfn6v5kiHE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07078v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07078v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07078v1</id>
+    <title>The Optimal Token Baseline: Variance Reduction for Long-Horizon LLM-RL</title>
+    <updated>2026-02-06T03:16:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.07078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) for Large Language Models (LLMs) often suffers from training collapse in long-horizon tasks due to exploding gradient variance. To mitigate this, a baseline is commonly introduced for advantage computation; however, traditional value models remain difficult to optimize, and standard group-based baselines overlook sequence heterogeneity. Although classic optimal baseline theory can achieve global variance reduction, it neglects token heterogeneity and requires prohibitive gradient-based computation. In this work, we derive the Optimal Token Baseline (OTB) from first principles, proving that gradient updates should be weighted inversely to their cumulative gradient norm. To ensure efficiency, we propose the Logit-Gradient Proxy that approximates the gradient norm using only forward-pass probabilities. Our method achieves training stability and matches the performance of large group sizes ($N=32$) with only $N=4$, reducing token consumption by over 65% across single-turn and tool-integrated reasoning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T03:16:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yingru Li</name>
+    </author>
+    <author>
+      <name>Jiawei Xu</name>
+    </author>
+    <author>
+      <name>Ziniu Li</name>
+    </author>
+    <author>
+      <name>Jiacai Liu</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Yuxuan Tong</name>
+    </author>
+    <author>
+      <name>Longtao Zheng</name>
+    </author>
+    <author>
+      <name>Zhenghai Xue</name>
+    </author>
+    <author>
+      <name>Yaxiang Zhang</name>
+    </author>
+    <author>
+      <name>Tianle Cai</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+    <author>
+      <name>Qian Liu</name>
+    </author>
+    <author>
+      <name>Baoxiang Wang</name>
+    </author>
+  </entry>
+</feed>

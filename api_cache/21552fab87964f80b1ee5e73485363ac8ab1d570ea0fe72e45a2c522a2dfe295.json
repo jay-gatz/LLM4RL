@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hzoF97TEfYgwj1A8LB2rC4wsjPA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.10505&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:12:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.10505" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.10505v4</id>
+    <title>ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models</title>
+    <updated>2024-05-16T02:22:23Z</updated>
+    <link href="https://arxiv.org/abs/2310.10505v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.10505v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning from Human Feedback (RLHF) is key to aligning Large Language Models (LLMs), typically paired with the Proximal Policy Optimization (PPO) algorithm. While PPO is a powerful method designed for general reinforcement learning tasks, it is overly sophisticated for LLMs, leading to laborious hyper-parameter tuning and significant computation burdens. To make RLHF efficient, we present ReMax, which leverages 3 properties of RLHF: fast simulation, deterministic transitions, and trajectory-level rewards. These properties are not exploited in PPO, making it less suitable for RLHF. Building on the renowned REINFORCE algorithm, ReMax does not require training an additional value model as in PPO and is further enhanced with a new variance reduction technique. ReMax offers several benefits over PPO: it is simpler to implement, eliminates more than 4 hyper-parameters in PPO, reduces GPU memory usage, and shortens training time. ReMax can save about 46% GPU memory than PPO when training a 7B model and enables training on A800-80GB GPUs without the memory-saving offloading technique needed by PPO. Applying ReMax to a Mistral-7B model resulted in a 94.78% win rate on the AlpacaEval leaderboard and a 7.739 score on MT-bench, setting a new SOTA for open-source 7B models. These results show the effectiveness of ReMax while addressing the limitations of PPO in LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-16T15:25:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziniu Li</name>
+    </author>
+    <author>
+      <name>Tian Xu</name>
+    </author>
+    <author>
+      <name>Yushun Zhang</name>
+    </author>
+    <author>
+      <name>Zhihang Lin</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+    <author>
+      <name>Ruoyu Sun</name>
+    </author>
+    <author>
+      <name>Zhi-Quan Luo</name>
+    </author>
+  </entry>
+</feed>

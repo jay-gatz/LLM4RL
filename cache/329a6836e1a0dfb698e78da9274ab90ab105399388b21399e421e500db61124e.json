@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v5SE+uPQFcVBMlExZfyHlM478oQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22329v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22329v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22329v1</id>
+    <title>Sparks of Rationality: Do Reasoning LLMs Align with Human Judgment and Choice?</title>
+    <updated>2026-01-29T21:17:06Z</updated>
+    <link href="https://arxiv.org/abs/2601.22329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly positioned as decision engines for hiring, healthcare, and economic judgment, yet real-world human judgment reflects a balance between rational deliberation and emotion-driven bias. If LLMs are to participate in high-stakes decisions or serve as models of human behavior, it is critical to assess whether they exhibit analogous patterns of (ir)rationalities and biases. To this end, we evaluate multiple LLM families on (i) benchmarks testing core axioms of rational choice and (ii) classic decision domains from behavioral economics and social norms where emotions are known to shape judgment and choice. Across settings, we show that deliberate "thinking" reliably improves rationality and pushes models toward expected-value maximization. To probe human-like affective distortions and their interaction with reasoning, we use two emotion-steering methods: in-context priming (ICP) and representation-level steering (RLS). ICP induces strong directional shifts that are often extreme and difficult to calibrate, whereas RLS produces more psychologically plausible patterns but with lower reliability. Our results suggest that the same mechanisms that improve rationality also amplify sensitivity to affective interventions, and that different steering methods trade off controllability against human-aligned behavior. Overall, this points to a tension between reasoning and affective steering, with implications for both human simulation and the safe deployment of LLM-based decision systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T21:17:06Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ala N. Tak</name>
+    </author>
+    <author>
+      <name>Amin Banayeeanzade</name>
+    </author>
+    <author>
+      <name>Anahita Bolourani</name>
+    </author>
+    <author>
+      <name>Fatemeh Bahrani</name>
+    </author>
+    <author>
+      <name>Ashutosh Chaubey</name>
+    </author>
+    <author>
+      <name>Sai Praneeth Karimireddy</name>
+    </author>
+    <author>
+      <name>Norbert Schwarz</name>
+    </author>
+    <author>
+      <name>Jonathan Gratch</name>
+    </author>
+  </entry>
+</feed>

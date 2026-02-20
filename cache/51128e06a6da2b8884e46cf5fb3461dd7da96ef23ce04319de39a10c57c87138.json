@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b8uDLs4gQn2d6h8w0te9pYRsxrs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.20597v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.20597v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20597v1</id>
+    <title>BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents</title>
+    <updated>2025-11-25T18:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2511.20597v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20597v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of artificial intelligence (AI) agents into web browsers introduces security challenges that go beyond traditional web application threat models. Prior work has identified prompt injection as a new attack vector for web agents, yet the resulting impact within real-world environments remains insufficiently understood.
+  In this work, we examine the landscape of prompt injection attacks and synthesize a benchmark of attacks embedded in realistic HTML payloads. Our benchmark goes beyond prior work by emphasizing injections that can influence real-world actions rather than mere text outputs, and by presenting attack payloads with complexity and distractor frequency similar to what real-world agents encounter. We leverage this benchmark to conduct a comprehensive empirical evaluation of existing defenses, assessing their effectiveness across a suite of frontier AI models. We propose a multi-layered defense strategy comprising both architectural and model-based defenses to protect against evolving prompt injection attacks. Our work offers a blueprint for designing practical, secure web agents through a defense-in-depth approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T18:28:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Mark Tenenholtz</name>
+    </author>
+    <author>
+      <name>Kyle Polley</name>
+    </author>
+    <author>
+      <name>Jerry Ma</name>
+    </author>
+    <author>
+      <name>Denis Yarats</name>
+    </author>
+    <author>
+      <name>Ninghui Li</name>
+    </author>
+  </entry>
+</feed>

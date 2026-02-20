@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/des4uDUqSZ/2btacWRzPpX9wnJA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21639v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21639v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21639v2</id>
+    <title>OCRVerse: Towards Holistic OCR in End-to-End Vision-Language Models</title>
+    <updated>2026-02-04T12:53:33Z</updated>
+    <link href="https://arxiv.org/abs/2601.21639v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21639v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of large vision language models drives the demand for managing, and applying massive amounts of multimodal data, making OCR technology, which extracts information from visual images, increasingly popular. However, existing OCR methods primarily focus on recognizing text elements from images or scanned documents (Text-centric OCR), neglecting the identification of visual elements from visually information-dense image sources (Vision-centric OCR), such as charts, web pages and science plots. In reality, these visually information-dense images are widespread on the internet and have significant real-world application value, such as data visualization and web page analysis. In this technical report, we propose OCRVerse, the first holistic OCR method in end-to-end manner that enables unified text-centric OCR and vision-centric OCR. To this end, we constructe comprehensive data engineering to cover a wide range of text-centric documents, such as newspapers, magazines and books, as well as vision-centric rendered composites, including charts, web pages and scientific plots. Moreover, we propose a two-stage SFT-RL multi-domain training method for OCRVerse. SFT directly mixes cross-domain data to train and establish initial domain knowledge, while RL focuses on designing personalized reward strategies for the characteristics of each domain. Specifically, since different domains require various output formats and expected outputs, we provide sufficient flexibility in the RL stage to customize flexible reward signals for each domain, thereby improving cross-domain fusion and avoiding data conflicts. Experimental results demonstrate the effectiveness of OCRVerse, achieving competitive results across text-centric and vision-centric data types, even comparable to large-scale open-source and closed-source models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T12:43:02Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yufeng Zhong</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+    <author>
+      <name>Xuanle Zhao</name>
+    </author>
+    <author>
+      <name>Wenkang Han</name>
+    </author>
+    <author>
+      <name>Liming Zheng</name>
+    </author>
+    <author>
+      <name>Jing Huang</name>
+    </author>
+    <author>
+      <name>Deyang Jiang</name>
+    </author>
+    <author>
+      <name>Yilin Cao</name>
+    </author>
+    <author>
+      <name>Lin Ma</name>
+    </author>
+    <author>
+      <name>Zhixiong Zeng</name>
+    </author>
+  </entry>
+</feed>

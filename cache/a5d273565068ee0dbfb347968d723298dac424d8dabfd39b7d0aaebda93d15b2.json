@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YqzfDuzUm35GVbwTjDcT7ELdcvQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.02296&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.02296" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02296v1</id>
+    <title>LLMs Accelerate Annotation for Medical Information Extraction</title>
+    <updated>2023-12-04T19:26:13Z</updated>
+    <link href="https://arxiv.org/abs/2312.02296v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02296v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The unstructured nature of clinical notes within electronic health records often conceals vital patient-related information, making it challenging to access or interpret. To uncover this hidden information, specialized Natural Language Processing (NLP) models are required. However, training these models necessitates large amounts of labeled data, a process that is both time-consuming and costly when relying solely on human experts for annotation. In this paper, we propose an approach that combines Large Language Models (LLMs) with human expertise to create an efficient method for generating ground truth labels for medical text annotation. By utilizing LLMs in conjunction with human annotators, we significantly reduce the human annotation burden, enabling the rapid creation of labeled datasets. We rigorously evaluate our method on a medical information extraction task, demonstrating that our approach not only substantially cuts down on human intervention but also maintains high accuracy. The results highlight the potential of using LLMs to improve the utilization of unstructured clinical data, allowing for the swift deployment of tailored NLP solutions in healthcare.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-04T19:26:13Z</published>
+    <arxiv:comment>Published in proceedings of the Machine Learning for Health (ML4H) Symposium 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Akshay Goel</name>
+    </author>
+    <author>
+      <name>Almog Gueta</name>
+    </author>
+    <author>
+      <name>Omry Gilon</name>
+    </author>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Sofia Erell</name>
+    </author>
+    <author>
+      <name>Lan Huong Nguyen</name>
+    </author>
+    <author>
+      <name>Xiaohong Hao</name>
+    </author>
+    <author>
+      <name>Bolous Jaber</name>
+    </author>
+    <author>
+      <name>Shashir Reddy</name>
+    </author>
+    <author>
+      <name>Rupesh Kartha</name>
+    </author>
+    <author>
+      <name>Jean Steiner</name>
+    </author>
+    <author>
+      <name>Itay Laish</name>
+    </author>
+    <author>
+      <name>Amir Feder</name>
+    </author>
+  </entry>
+</feed>

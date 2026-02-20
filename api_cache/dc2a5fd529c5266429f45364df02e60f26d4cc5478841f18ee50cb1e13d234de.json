@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PxWSuOHzwzchp6N+upqfjde6Y/w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.21071v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:40:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.21071v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.21071v1</id>
+    <title>Enhancing LLM Tool Use with High-quality Instruction Data from Knowledge Graph</title>
+    <updated>2025-06-26T07:45:15Z</updated>
+    <link href="https://arxiv.org/abs/2506.21071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.21071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Teaching large language models (LLMs) to use tools is crucial for improving their problem-solving abilities and expanding their applications. However, effectively using tools is challenging because it requires a deep understanding of tool functionalities and user intentions. Previous methods relied mainly on LLMs to generate instruction data, but the quality of these data was often insufficient. In this paper, we propose a new method that uses knowledge graphs to generate high-quality instruction data for LLMs. Knowledge graphs are manually curated datasets rich in semantic information. We begin by extracting various query pathways from a given knowledge graph, which are transformed into a broad spectrum of user queries. We then translate the relationships between entities into actionable tools and parse the pathways of each query into detailed solution steps, thereby creating high-quality instruction data. Our experiments show that fine-tuning on just a small sample of this synthetic data can significantly improve the tool utilization and overall capabilities of LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-26T07:45:15Z</published>
+    <arxiv:comment>20 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jingwei Wang</name>
+    </author>
+    <author>
+      <name>Zai Zhang</name>
+    </author>
+    <author>
+      <name>Hao Qian</name>
+    </author>
+    <author>
+      <name>Chunjing Gan</name>
+    </author>
+    <author>
+      <name>Binbin Hu</name>
+    </author>
+    <author>
+      <name>Ziqi Liu</name>
+    </author>
+    <author>
+      <name>Zhiqiang Zhang</name>
+    </author>
+    <author>
+      <name>Jun Zhou</name>
+    </author>
+    <author>
+      <name>Bin Shi</name>
+    </author>
+    <author>
+      <name>Bo Dong</name>
+    </author>
+  </entry>
+</feed>

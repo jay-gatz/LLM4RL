@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TVmT8WSTJt2DL2luIrF6SYODxXY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08822v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08822v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08822v1</id>
+    <title>Any-to-All MRI Synthesis: A Unified Foundation Model for Nasopharyngeal Carcinoma and Its Downstream Applications</title>
+    <updated>2026-02-09T15:56:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.08822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic resonance imaging (MRI) is essential for nasopharyngeal carcinoma (NPC) radiotherapy (RT), but practical constraints, such as patient discomfort, long scan times, and high costs often lead to incomplete modalities in clinical practice, compromising RT planning accuracy. Traditional MRI synthesis methods are modality-specific, limited in anatomical adaptability, and lack clinical interpretability-failing to meet NPC's RT needs. Here, we developed a unified foundation model integrating contrastive visual representation learning and vision-language alignment (VLA) to enable any-to-all MRI synthesis. The model uses a contrastive encoder for modality-invariant representations and a CLIP-based text-informed decoder for semantically consistent synthesis, supporting any-to-all MRI synthesis via one unified foundation model. Trained on 40,825 images from 13 institutions, it achieves consistently high performance (average SSIM 0.90, PSNR 27) across 26 internal/external validation sites (15,748 images), with superior synthesis fidelity and robustness to noise and domain shifts. Meanwhile, its unified representation enhances downstream RT-relevant tasks (e.g., segmentation). This work advances digital medicine solutions for NPC care by leveraging foundation models to bridge technical synthesis and clinical utility.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T15:56:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yao Pu</name>
+    </author>
+    <author>
+      <name>Yiming Shi</name>
+    </author>
+    <author>
+      <name>Zhenxi Zhang</name>
+    </author>
+    <author>
+      <name>Peixin Yu</name>
+    </author>
+    <author>
+      <name>Yitao Zhuang</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Hongzhao Chen</name>
+    </author>
+    <author>
+      <name>Jing Cai</name>
+    </author>
+    <author>
+      <name>Ge Ren</name>
+    </author>
+  </entry>
+</feed>

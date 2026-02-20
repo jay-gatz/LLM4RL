@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eW/KFeLYt6DQMS9Sz8huU9w6OS0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21350v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21350v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21350v1</id>
+    <title>Factored Causal Representation Learning for Robust Reward Modeling in RLHF</title>
+    <updated>2026-01-29T07:18:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.21350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A reliable reward model is essential for aligning large language models with human preferences through reinforcement learning from human feedback. However, standard reward models are susceptible to spurious features that are not causally related to human labels. This can lead to reward hacking, where high predicted reward does not translate into better behavior. In this work, we address this problem from a causal perspective by proposing a factored representation learning framework that decomposes the model's contextual embedding into (1) causal factors that are sufficient for reward prediction and (2) non-causal factors that capture reward-irrelevant attributes such as length or sycophantic bias. The reward head is then constrained to depend only on the causal component. In addition, we introduce an adversarial head trained to predict reward from the non-causal factors, while applying gradient reversal to discourage them from encoding reward-relevant information. Experiments on both mathematical and dialogue tasks demonstrate that our method learns more robust reward models and consistently improves downstream RLHF performance over state-of-the-art baselines. Analyses on length and sycophantic bias further validate the effectiveness of our method in mitigating reward hacking behaviors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T07:18:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yupei Yang</name>
+    </author>
+    <author>
+      <name>Lin Yang</name>
+    </author>
+    <author>
+      <name>Wanxi Deng</name>
+    </author>
+    <author>
+      <name>Lin Qu</name>
+    </author>
+    <author>
+      <name>Fan Feng</name>
+    </author>
+    <author>
+      <name>Biwei Huang</name>
+    </author>
+    <author>
+      <name>Shikui Tu</name>
+    </author>
+    <author>
+      <name>Lei Xu</name>
+    </author>
+  </entry>
+</feed>

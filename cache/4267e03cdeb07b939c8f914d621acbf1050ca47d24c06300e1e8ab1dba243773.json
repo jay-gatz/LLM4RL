@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8Q1i37ysss2QMi78+3wuLmrTbgk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14714v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14714v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14714v1</id>
+    <title>Unified Multimodal and Multilingual Retrieval via Multi-Task Learning with NLU Integration</title>
+    <updated>2026-01-21T07:07:59Z</updated>
+    <link href="https://arxiv.org/abs/2601.14714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal retrieval systems typically employ Vision Language Models (VLMs) that encode images and text independently into vectors within a shared embedding space. Despite incorporating text encoders, VLMs consistently underperform specialized text models on text-only retrieval tasks. Moreover, introducing additional text encoders increases storage, inference overhead, and exacerbates retrieval inefficiencies, especially in multilingual settings. To address these limitations, we propose a multi-task learning framework that unifies the feature representation across images, long and short texts, and intent-rich queries. To our knowledge, this is the first work to jointly optimize multilingual image retrieval, text retrieval, and natural language understanding (NLU) tasks within a single framework. Our approach integrates image and text retrieval with a shared text encoder that is enhanced by NLU features for intent understanding and retrieval accuracy.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T07:07:59Z</published>
+    <arxiv:comment>4 pages, 2 figures, submitted to IEEE ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Xinyuan Zhang</name>
+    </author>
+    <author>
+      <name>Lina Zhang</name>
+    </author>
+    <author>
+      <name>Lisung Chen</name>
+    </author>
+    <author>
+      <name>Guangyao Liu</name>
+    </author>
+    <author>
+      <name>Shuai Nie</name>
+    </author>
+    <author>
+      <name>Jiaming Xu</name>
+    </author>
+    <author>
+      <name>Runyu Shi</name>
+    </author>
+    <author>
+      <name>Ying Huang</name>
+    </author>
+    <author>
+      <name>Guoquan Zhang</name>
+    </author>
+  </entry>
+</feed>

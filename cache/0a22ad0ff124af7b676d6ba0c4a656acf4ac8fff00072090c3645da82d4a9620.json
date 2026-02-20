@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qs/IatK15t/zYKv1e/cjXfb7Q4I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.12270&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:34:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2308.12270" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12270v1</id>
+    <title>Language Reward Modulation for Pretraining Reinforcement Learning</title>
+    <updated>2023-08-23T17:37:51Z</updated>
+    <link href="https://arxiv.org/abs/2308.12270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using learned reward functions (LRFs) as a means to solve sparse-reward reinforcement learning (RL) tasks has yielded some steady progress in task-complexity through the years. In this work, we question whether today's LRFs are best-suited as a direct replacement for task rewards. Instead, we propose leveraging the capabilities of LRFs as a pretraining signal for RL. Concretely, we propose $\textbf{LA}$nguage Reward $\textbf{M}$odulated $\textbf{P}$retraining (LAMP) which leverages the zero-shot capabilities of Vision-Language Models (VLMs) as a $\textit{pretraining}$ utility for RL as opposed to a downstream task reward. LAMP uses a frozen, pretrained VLM to scalably generate noisy, albeit shaped exploration rewards by computing the contrastive alignment between a highly diverse collection of language instructions and the image observations of an agent in its pretraining environment. LAMP optimizes these rewards in conjunction with standard novelty-seeking exploration rewards with reinforcement learning to acquire a language-conditioned, pretrained policy. Our VLM pretraining approach, which is a departure from previous attempts to use LRFs, can warmstart sample-efficient learning on robot manipulation tasks in RLBench.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-23T17:37:51Z</published>
+    <arxiv:comment>Code available at https://github.com/ademiadeniji/lamp</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ademi Adeniji</name>
+    </author>
+    <author>
+      <name>Amber Xie</name>
+    </author>
+    <author>
+      <name>Carmelo Sferrazza</name>
+    </author>
+    <author>
+      <name>Younggyo Seo</name>
+    </author>
+    <author>
+      <name>Stephen James</name>
+    </author>
+    <author>
+      <name>Pieter Abbeel</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y1y08mvwqaKpPGurU85DKO9+4/k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00970v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00970v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00970v1</id>
+    <title>Verification Required: The Impact of Information Credibility on AI Persuasion</title>
+    <updated>2026-02-01T02:22:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.00970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents powered by large language models (LLMs) are increasingly deployed in settings where communication shapes high-stakes decisions, making a principled understanding of strategic communication essential. Prior work largely studies either unverifiable cheap-talk or fully verifiable disclosure, failing to capture realistic domains in which information has probabilistic credibility. We introduce MixTalk, a strategic communication game for LLM-to-LLM interaction that models information credibility. In MixTalk, a sender agent strategically combines verifiable and unverifiable claims to communicate private information, while a receiver agent allocates a limited budget to costly verification and infers the underlying state from prior beliefs, claims, and verification outcomes. We evaluate state-of-the-art LLM agents in large-scale tournaments across three realistic deployment settings, revealing their strengths and limitations in reasoning about information credibility and the explicit behavior that shapes these interactions. Finally, we propose Tournament Oracle Policy Distillation (TOPD), an offline method that distills tournament oracle policy from interaction logs and deploys it in-context at inference time. Our results show that TOPD significantly improves receiver robustness to persuasion.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T02:22:28Z</published>
+    <arxiv:comment>19 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Saaduddin Mahmud</name>
+    </author>
+    <author>
+      <name>Eugene Bagdasarian</name>
+    </author>
+    <author>
+      <name>Shlomo Zilberstein</name>
+    </author>
+  </entry>
+</feed>

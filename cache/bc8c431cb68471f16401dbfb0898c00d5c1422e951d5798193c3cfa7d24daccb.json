@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7eqoNp/b7Bkxm9fc4Ife3FYts3o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15382v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15382v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15382v1</id>
+    <title>The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems</title>
+    <updated>2026-02-17T06:31:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.15382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-Agent Systems (MAS) powered by Large Language Models have unlocked advanced collaborative reasoning, yet they remain shackled by the inefficiency of discrete text communication, which imposes significant runtime overhead and information quantization loss. While latent state transfer offers a high-bandwidth alternative, existing approaches either assume homogeneous sender-receiver architectures or rely on pair-specific learned translators, limiting scalability and modularity across diverse model families with disjoint manifolds. In this work, we propose the Vision Wormhole, a novel framework that repurposes the visual interface of Vision-Language Models (VLMs) to enable model-agnostic, text-free communication. By introducing a Universal Visual Codec, we map heterogeneous reasoning traces into a shared continuous latent space and inject them directly into the receiver's visual pathway, effectively treating the vision encoder as a universal port for inter-agent telepathy. Our framework adopts a hub-and-spoke topology to reduce pairwise alignment complexity from O(N^2) to O(N) and leverages a label-free, teacher-student distillation objective to align the high-speed visual channel with the robust reasoning patterns of the text pathway. Extensive experiments across heterogeneous model families (e.g., Qwen-VL, Gemma) demonstrate that the Vision Wormhole reduces end-to-end wall-clock time in controlled comparisons while maintaining reasoning fidelity comparable to standard text-based MAS. Code is available at https://github.com/xz-liu/heterogeneous-latent-mas</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T06:31:53Z</published>
+    <arxiv:comment>Preprint. Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiaoze Liu</name>
+    </author>
+    <author>
+      <name>Ruowang Zhang</name>
+    </author>
+    <author>
+      <name>Weichen Yu</name>
+    </author>
+    <author>
+      <name>Siheng Xiong</name>
+    </author>
+    <author>
+      <name>Liu He</name>
+    </author>
+    <author>
+      <name>Feijie Wu</name>
+    </author>
+    <author>
+      <name>Hoin Jung</name>
+    </author>
+    <author>
+      <name>Matt Fredrikson</name>
+    </author>
+    <author>
+      <name>Xiaoqian Wang</name>
+    </author>
+    <author>
+      <name>Jing Gao</name>
+    </author>
+  </entry>
+</feed>

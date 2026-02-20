@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RAlG02rxY0F2lFkg1z+jNKSb9lk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2208.06193&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:12:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2208.06193" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2208.06193v3</id>
+    <title>Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning</title>
+    <updated>2023-08-25T19:39:32Z</updated>
+    <link href="https://arxiv.org/abs/2208.06193v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.06193v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offline reinforcement learning (RL), which aims to learn an optimal policy using a previously collected static dataset, is an important paradigm of RL. Standard RL methods often perform poorly in this regime due to the function approximation errors on out-of-distribution actions. While a variety of regularization methods have been proposed to mitigate this issue, they are often constrained by policy classes with limited expressiveness that can lead to highly suboptimal solutions. In this paper, we propose representing the policy as a diffusion model, a recent class of highly-expressive deep generative models. We introduce Diffusion Q-learning (Diffusion-QL) that utilizes a conditional diffusion model to represent the policy. In our approach, we learn an action-value function and we add a term maximizing action-values into the training loss of the conditional diffusion model, which results in a loss that seeks optimal actions that are near the behavior policy. We show the expressiveness of the diffusion model-based policy, and the coupling of the behavior cloning and policy improvement under the diffusion model both contribute to the outstanding performance of Diffusion-QL. We illustrate the superiority of our method compared to prior works in a simple 2D bandit example with a multimodal behavior policy. We then show that our method can achieve state-of-the-art performance on the majority of the D4RL benchmark tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-12T09:54:11Z</published>
+    <arxiv:comment>ICLR 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhendong Wang</name>
+    </author>
+    <author>
+      <name>Jonathan J Hunt</name>
+    </author>
+    <author>
+      <name>Mingyuan Zhou</name>
+    </author>
+  </entry>
+</feed>

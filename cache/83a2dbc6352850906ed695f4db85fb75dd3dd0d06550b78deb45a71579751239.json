@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/otW/i34BcIHNlqRNToZamQpe8T8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2309.06687&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:32:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2309.06687" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.06687v2</id>
+    <title>Self-Refined Large Language Model as Automated Reward Function Designer for Deep Reinforcement Learning in Robotics</title>
+    <updated>2023-10-02T17:20:21Z</updated>
+    <link href="https://arxiv.org/abs/2309.06687v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.06687v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although Deep Reinforcement Learning (DRL) has achieved notable success in numerous robotic applications, designing a high-performing reward function remains a challenging task that often requires substantial manual input. Recently, Large Language Models (LLMs) have been extensively adopted to address tasks demanding in-depth common-sense knowledge, such as reasoning and planning. Recognizing that reward function design is also inherently linked to such knowledge, LLM offers a promising potential in this context. Motivated by this, we propose in this work a novel LLM framework with a self-refinement mechanism for automated reward function design. The framework commences with the LLM formulating an initial reward function based on natural language inputs. Then, the performance of the reward function is assessed, and the results are presented back to the LLM for guiding its self-refinement process. We examine the performance of our proposed framework through a variety of continuous robotic control tasks across three diverse robotic systems. The results indicate that our LLM-designed reward functions are able to rival or even surpass manually designed reward functions, highlighting the efficacy and applicability of our approach.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-13T02:56:56Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiayang Song</name>
+    </author>
+    <author>
+      <name>Zhehua Zhou</name>
+    </author>
+    <author>
+      <name>Jiawei Liu</name>
+    </author>
+    <author>
+      <name>Chunrong Fang</name>
+    </author>
+    <author>
+      <name>Zhan Shu</name>
+    </author>
+    <author>
+      <name>Lei Ma</name>
+    </author>
+  </entry>
+</feed>

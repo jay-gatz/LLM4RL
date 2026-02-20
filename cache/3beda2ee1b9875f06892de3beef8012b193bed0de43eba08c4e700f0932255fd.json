@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2r75+bFpkRw+Shx3997easfOBPI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.11957v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.11957v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11957v2</id>
+    <title>PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning</title>
+    <updated>2026-01-28T00:42:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.11957v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11957v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Overlapping calendar invitations force busy professionals to repeatedly decide which meetings to attend, reschedule, or decline. We refer to this preference-driven decision process as calendar conflict resolution. Automating this decision process is crucial yet challenging. Scheduling logistics can drain hours, and human delegation often fails at scale, which motivates us to ask: Can we trust large language models (LLMs) or language agents to manage time? To enable a systematic study of this question, we introduce CalConflictBench, a benchmark for long-horizon calendar conflict resolution. In CalConflictBench, conflicts are presented to agents round-by-round over a calendar year, requiring them to infer and adapt to user preferences progressively. Our experiments show that current LLM agents perform poorly with high error rates, e.g., Qwen-3-30B-Think has an average error rate of 35%. To address this gap, we propose PEARL, a reinforcement-learning framework that (i) augments the language agent with an external preference memory that stores and updates inferred strategies (e.g., attendee priorities, topic importance, time/location preferences), and (ii) optimizes the agent with round-wise rewards that directly supervise decision correctness, ranking quality, and memory usage across rounds. Experiments on CalConflictBench show that PEARL achieves an error reduction rate of 0.76 and a 55% improvement in average error rate compared to the strongest baseline.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-17T08:19:18Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Bingxuan Li</name>
+    </author>
+    <author>
+      <name>Jeonghwan Kim</name>
+    </author>
+    <author>
+      <name>Cheng Qian</name>
+    </author>
+    <author>
+      <name>Xiusi Chen</name>
+    </author>
+    <author>
+      <name>Eitan Anzenberg</name>
+    </author>
+    <author>
+      <name>Niran Kundapur</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+  </entry>
+</feed>

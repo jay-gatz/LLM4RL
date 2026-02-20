@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ul0/n9Iliu5QyeZarsXD6HOOnnQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.07942v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.07942v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.07942v2</id>
+    <title>Symbiotic Cooperation for Web Agents: Harnessing Complementary Strengths of Large and Small LLMs</title>
+    <updated>2025-03-06T19:40:57Z</updated>
+    <link href="https://arxiv.org/abs/2502.07942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.07942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web browsing agents powered by large language models (LLMs) have shown tremendous potential in automating complex web-based tasks. Existing approaches typically rely on large LLMs (e.g., GPT-4o) to explore web environments and generate trajectory data, which is then used either for demonstration retrieval (for large LLMs) or to distill small LLMs (e.g., Llama3) in a process that remains decoupled from the exploration. In this paper, we propose AgentSymbiotic, an iterative framework that couples data synthesis with task-performance, yielding a "symbiotic improvement" for both large and small LLMs. Our study uncovers a complementary dynamic between LLM types: while large LLMs excel at generating high-quality trajectories for distillation, the distilled small LLMs-owing to their distinct reasoning capabilities-often choose actions that diverge from those of their larger counterparts. This divergence drives the exploration of novel trajectories, thereby enriching the synthesized data. However, we also observe that the performance of small LLMs becomes a bottleneck in this iterative enhancement process. To address this, we propose two innovations in LLM distillation: a speculative data synthesis strategy that mitigates off-policy bias, and a multi-task learning approach designed to boost the reasoning capabilities of the student LLM. Furthermore, we introduce a Hybrid Mode for Privacy Preservation to address user privacy concerns. Evaluated on the WEBARENA benchmark, AgentSymbiotic achieves SOTA performance with both LLM types. Our best Large LLM agent reaches 52%, surpassing the previous best of 45%, while our 8B distilled model demonstrates a competitive 49%, exceeding the prior best of 28%. Code will be released upon acceptance.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-11T20:41:49Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ruichen Zhang</name>
+    </author>
+    <author>
+      <name>Mufan Qiu</name>
+    </author>
+    <author>
+      <name>Zhen Tan</name>
+    </author>
+    <author>
+      <name>Mohan Zhang</name>
+    </author>
+    <author>
+      <name>Vincent Lu</name>
+    </author>
+    <author>
+      <name>Jie Peng</name>
+    </author>
+    <author>
+      <name>Kaidi Xu</name>
+    </author>
+    <author>
+      <name>Leandro Z. Agudelo</name>
+    </author>
+    <author>
+      <name>Peter Qian</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+  </entry>
+</feed>

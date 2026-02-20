@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ceKRtcNruA8cOLBD4Bpy2lJtP+k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14456v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14456v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14456v1</id>
+    <title>Traceable Latent Variable Discovery Based on Multi-Agent Collaboration</title>
+    <updated>2026-02-16T04:29:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.14456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Revealing the underlying causal mechanisms in the real world is crucial for scientific and technological progress. Despite notable advances in recent decades, the lack of high-quality data and the reliance of traditional causal discovery algorithms (TCDA) on the assumption of no latent confounders, as well as their tendency to overlook the precise semantics of latent variables, have long been major obstacles to the broader application of causal discovery. To address this issue, we propose a novel causal modeling framework, TLVD, which integrates the metadata-based reasoning capabilities of large language models (LLMs) with the data-driven modeling capabilities of TCDA for inferring latent variables and their semantics. Specifically, we first employ a data-driven approach to construct a causal graph that incorporates latent variables. Then, we employ multi-LLM collaboration for latent variable inference, modeling this process as a game with incomplete information and seeking its Bayesian Nash Equilibrium (BNE) to infer the possible specific latent variables. Finally, to validate the inferred latent variables across multiple real-world web-based data sources, we leverage LLMs for evidence exploration to ensure traceability. We comprehensively evaluate TLVD on three de-identified real patient datasets provided by a hospital and two benchmark datasets. Extensive experimental results confirm the effectiveness and reliability of TLVD, with average improvements of 32.67% in Acc, 62.21% in CAcc, and 26.72% in ECit across the five datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T04:29:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huaming Du</name>
+    </author>
+    <author>
+      <name>Tao Hu</name>
+    </author>
+    <author>
+      <name>Yijie Huang</name>
+    </author>
+    <author>
+      <name>Yu Zhao</name>
+    </author>
+    <author>
+      <name>Guisong Liu</name>
+    </author>
+    <author>
+      <name>Tao Gu</name>
+    </author>
+    <author>
+      <name>Gang Kou</name>
+    </author>
+    <author>
+      <name>Carl Yang</name>
+    </author>
+    <arxiv:doi>10.1145/3774904.3792244</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3774904.3792244" title="doi"/>
+  </entry>
+</feed>

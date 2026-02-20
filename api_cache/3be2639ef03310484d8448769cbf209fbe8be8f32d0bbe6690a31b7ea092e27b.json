@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EgUw2NETi9CkfZFBhY/rU3ZaQdQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.07064v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.07064v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.07064v1</id>
+    <title>ParaView-MCP: An Autonomous Visualization Agent with Direct Tool Use</title>
+    <updated>2025-05-11T17:30:08Z</updated>
+    <link href="https://arxiv.org/abs/2505.07064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.07064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While powerful and well-established, tools like ParaView present a steep learning curve that discourages many potential users. This work introduces ParaView-MCP, an autonomous agent that integrates modern multimodal large language models (MLLMs) with ParaView to not only lower the barrier to entry but also augment ParaView with intelligent decision support. By leveraging the state-of-the-art reasoning, command execution, and vision capabilities of MLLMs, ParaView-MCP enables users to interact with ParaView through natural language and visual inputs. Specifically, our system adopted the Model Context Protocol (MCP) - a standardized interface for model-application communication - that facilitates direct interaction between MLLMs with ParaView's Python API to allow seamless information exchange between the user, the language model, and the visualization tool itself. Furthermore, by implementing a visual feedback mechanism that allows the agent to observe the viewport, we unlock a range of new capabilities, including recreating visualizations from examples, closed-loop visualization parameter updates based on user-defined goals, and even cross-application collaboration involving multiple tools. Broadly, we believe such an agent-driven visualization paradigm can profoundly change the way we interact with visualization tools. We expect a significant uptake in the development of such visualization tools, in both visualization research and industry.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-11T17:30:08Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Shusen Liu</name>
+    </author>
+    <author>
+      <name>Haichao Miao</name>
+    </author>
+    <author>
+      <name>Peer-Timo Bremer</name>
+    </author>
+  </entry>
+</feed>

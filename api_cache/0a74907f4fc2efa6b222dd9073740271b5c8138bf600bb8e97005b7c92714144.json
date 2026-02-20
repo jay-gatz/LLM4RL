@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M7r1fQoVZurCOLF1crKvBsx0POo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.04657v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.04657v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.04657v1</id>
+    <title>ACE-RLHF: Automated Code Evaluation and Socratic Feedback Generation Tool using Large Language Models and Reinforcement Learning with Human Feedback</title>
+    <updated>2025-04-07T01:11:22Z</updated>
+    <link href="https://arxiv.org/abs/2504.04657v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.04657v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated Program Repair tools are developed for generating feedback and suggesting a repair method for erroneous code. State of the art (SOTA) code repair methods rely on data-driven approaches and often fail to deliver solution for complicated programming questions. To interpret the natural language of unprecedented programming problems, using Large Language Models (LLMs) for code-feedback generation is crucial. LLMs generate more comprehensible feedback than compiler-generated error messages, and Reinforcement Learning with Human Feedback (RLHF) further enhances quality by integrating human-in-the-loop which helps novice students to lean programming from scratch interactively. We are applying RLHF fine-tuning technique for an expected Socratic response such as a question with hint to solve the programming issue. We are proposing code feedback generation tool by fine-tuning LLM with RLHF, Automated Code Evaluation with RLHF (ACE-RLHF), combining two open-source LLM models with two different SOTA optimization techniques. The quality of feedback is evaluated on two benchmark datasets containing basic and competition-level programming questions where the later is proposed by us. We achieved 2-5% higher accuracy than RL-free SOTA techniques using Llama-3-7B-Proximal-policy optimization in automated evaluation and similar or slightly higher accuracy compared to reward model-free RL with AI Feedback (RLAIF). We achieved almost 40% higher accuracy with GPT-3.5 Best-of-n optimization while performing manual evaluation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-07T01:11:22Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tasnia Rahman</name>
+    </author>
+    <author>
+      <name>Sathish A. P. Kumar</name>
+    </author>
+    <author>
+      <name>Sumit Jha</name>
+    </author>
+    <author>
+      <name>Arvind Ramanathan</name>
+    </author>
+  </entry>
+</feed>

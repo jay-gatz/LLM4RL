@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lxuvFTx+ngD9i9ZJD0UYpGdiXkw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2408.03847&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2408.03847" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.03847v1</id>
+    <title>GAIA -- A Large Language Model for Advanced Power Dispatch</title>
+    <updated>2024-08-07T15:42:37Z</updated>
+    <link href="https://arxiv.org/abs/2408.03847v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.03847v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Power dispatch is essential for providing stable, cost-effective, and eco-friendly electricity to society. However, traditional methods falter as power systems grow in scale and complexity, struggling with multitasking, swift problem-solving, and human-machine collaboration. This paper introduces GAIA, the pioneering Large Language Model (LLM) tailored for power dispatch tasks. We have developed a novel dataset construction technique that harnesses a range of data sources to fine-tune GAIA for optimal performance in this domain. This approach streamlines LLM training, allowing for the seamless integration of multidimensional data in power system management. Additionally, we have crafted specialized prompt strategies to boost GAIA's input-output efficiency in dispatch scenarios. When evaluated on the ElecBench benchmark, GAIA surpasses the baseline model LLaMA2 on multiple metrics. In practical applications, GAIA has demonstrated its ability to enhance decision-making processes, improve operational efficiency, and facilitate better human-machine interactions in power dispatch operations. This paper expands the application of LLMs to power dispatch and validates their practical utility, paving the way for future innovations in this field.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-07T15:42:37Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Huan Zhao</name>
+    </author>
+    <author>
+      <name>Xiyuan Zhou</name>
+    </author>
+    <author>
+      <name>Junhua Zhao</name>
+    </author>
+    <author>
+      <name>Yuji Cao</name>
+    </author>
+    <author>
+      <name>Chao Yang</name>
+    </author>
+  </entry>
+</feed>

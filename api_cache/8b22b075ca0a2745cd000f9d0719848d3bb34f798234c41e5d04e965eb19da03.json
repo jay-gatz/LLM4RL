@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rqGPKVg/pP3zqn4Fc1xjHD8SnqM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.11143&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:14:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.11143" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.11143v6</id>
+    <title>OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework</title>
+    <updated>2025-10-09T12:22:46Z</updated>
+    <link href="https://arxiv.org/abs/2405.11143v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.11143v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) fine-tuned via Reinforcement Learning from Human Feedback (RLHF) and Reinforcement Learning with Verifiable Rewards (RLVR) significantly improve the alignment of human-AI values, further raising the upper bound of AI capabilities, particularly in reasoning-intensive, long-context Chain-of-Thought (CoT) tasks. However, existing frameworks commonly face challenges such as inference bottlenecks and complexity barriers, which restrict their accessibility to newcomers. To bridge this gap, we introduce \textbf{OpenRLHF}, a user-friendly, scalable, and easy-to-learn open-source RLHF framework built upon Ray, vLLM, DeepSpeed, and HuggingFace Transformers, featuring a simplified design, clear code structure, and comprehensive documentation to facilitate entry for researchers and practitioners. Experimental results show that OpenRLHF achieves superior training efficiency, with speedups ranging from 1.22x to 1.68x across different model sizes, compared to state-of-the-art frameworks. Additionally, it requires significantly fewer lines of code for implementation. OpenRLHF is publicly available at https://github.com/OpenRLHF/OpenRLHF, and has already been adopted by leading institutions to accelerate RLHF research and learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-20T01:04:40Z</published>
+    <arxiv:comment>update template</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jian Hu</name>
+    </author>
+    <author>
+      <name>Xibin Wu</name>
+    </author>
+    <author>
+      <name>Wei Shen</name>
+    </author>
+    <author>
+      <name>Jason Klein Liu</name>
+    </author>
+    <author>
+      <name>Zilin Zhu</name>
+    </author>
+    <author>
+      <name>Weixun Wang</name>
+    </author>
+    <author>
+      <name>Songlin Jiang</name>
+    </author>
+    <author>
+      <name>Haoran Wang</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+    <author>
+      <name>Weikai Fang</name>
+    </author>
+    <author>
+      <name> Xianyu</name>
+    </author>
+    <author>
+      <name>Yu Cao</name>
+    </author>
+    <author>
+      <name>Haotian Xu</name>
+    </author>
+    <author>
+      <name>Yiming Liu</name>
+    </author>
+  </entry>
+</feed>

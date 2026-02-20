@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sKP2hHkZqBitjG0bB0wYTcO617I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.13814v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:39:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.13814v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13814v1</id>
+    <title>CodeEdu: A Multi-Agent Collaborative Platform for Personalized Coding Education</title>
+    <updated>2025-07-18T10:52:22Z</updated>
+    <link href="https://arxiv.org/abs/2507.13814v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13814v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated considerable potential in improving coding education by providing support for code writing, explanation, and debugging. However, existing LLM-based approaches generally fail to assess students' abilities, design learning plans, provide personalized material aligned with individual learning goals, and enable interactive learning. Current work mostly uses single LLM agents, which limits their ability to understand complex code repositories and schedule step-by-step tutoring. Recent research has shown that multi-agent LLMs can collaborate to solve complicated problems in various domains like software engineering, but their potential in the field of education remains unexplored. In this work, we introduce CodeEdu, an innovative multi-agent collaborative platform that combines LLMs with tool use to provide proactive and personalized education in coding. Unlike static pipelines, CodeEdu dynamically allocates agents and tasks to meet student needs. Various agents in CodeEdu undertake certain functions specifically, including task planning, personalized material generation, real-time QA, step-by-step tutoring, code execution, debugging, and learning report generation, facilitated with extensive external tools to improve task efficiency. Automated evaluations reveal that CodeEdu substantially enhances students' coding performance.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-18T10:52:22Z</published>
+    <arxiv:comment>4 pages, 4 figures. Demo video available at: https://youtu.be/9iIVmTT4CVk</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Jianing Zhao</name>
+    </author>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+    <author>
+      <name>Jiannong Cao</name>
+    </author>
+    <author>
+      <name>Zhiyuan Wen</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Jianing Yin</name>
+    </author>
+    <author>
+      <name>Ruosong Yang</name>
+    </author>
+    <author>
+      <name>Bo Yuan</name>
+    </author>
+  </entry>
+</feed>

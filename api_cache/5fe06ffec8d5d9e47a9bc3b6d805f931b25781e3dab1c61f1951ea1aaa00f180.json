@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xiMvMc9M5Y2oawuQ2yhjTi56T1Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.18679&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.18679" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.18679v4</id>
+    <title>Data Interpreter: An LLM Agent For Data Science</title>
+    <updated>2024-10-15T15:52:57Z</updated>
+    <link href="https://arxiv.org/abs/2402.18679v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.18679v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based agents have shown effectiveness across many applications. However, their use in data science scenarios requiring solving long-term interconnected tasks, dynamic data adjustments and domain expertise remains challenging. Previous approaches primarily focus on individual tasks, making it difficult to assess the complete data science workflow. Moreover, they struggle to handle real-time changes in intermediate data and fail to adapt dynamically to evolving task dependencies inherent to data science problems. In this paper, we present Data Interpreter, an LLM-based agent designed to automatically solve various data science problems end-to-end. Our Data Interpreter incorporates two key modules: 1) Hierarchical Graph Modeling, which breaks down complex problems into manageable subproblems, enabling dynamic node generation and graph optimization; and 2) Programmable Node Generation, a technique that refines and verifies each subproblem to iteratively improve code generation results and robustness. Extensive experiments consistently demonstrate the superiority of Data Interpreter. On InfiAgent-DABench, it achieves a 25% performance boost, raising accuracy from 75.9% to 94.9%. For machine learning and open-ended tasks, it improves performance from 88% to 95%, and from 60% to 97%, respectively. Moreover, on the MATH dataset, Data Interpreter achieves remarkable performance with a 26% improvement compared to state-of-the-art baselines. The code is available at https://github.com/geekan/MetaGPT.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T19:49:55Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sirui Hong</name>
+    </author>
+    <author>
+      <name>Yizhang Lin</name>
+    </author>
+    <author>
+      <name>Bang Liu</name>
+    </author>
+    <author>
+      <name>Bangbang Liu</name>
+    </author>
+    <author>
+      <name>Binhao Wu</name>
+    </author>
+    <author>
+      <name>Ceyao Zhang</name>
+    </author>
+    <author>
+      <name>Chenxing Wei</name>
+    </author>
+    <author>
+      <name>Danyang Li</name>
+    </author>
+    <author>
+      <name>Jiaqi Chen</name>
+    </author>
+    <author>
+      <name>Jiayi Zhang</name>
+    </author>
+    <author>
+      <name>Jinlin Wang</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Lingyao Zhang</name>
+    </author>
+    <author>
+      <name>Min Yang</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Taicheng Guo</name>
+    </author>
+    <author>
+      <name>Tuo Zhou</name>
+    </author>
+    <author>
+      <name>Wei Tao</name>
+    </author>
+    <author>
+      <name>Xiangru Tang</name>
+    </author>
+    <author>
+      <name>Xiangtao Lu</name>
+    </author>
+    <author>
+      <name>Xiawu Zheng</name>
+    </author>
+    <author>
+      <name>Xinbing Liang</name>
+    </author>
+    <author>
+      <name>Yaying Fei</name>
+    </author>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Zhibin Gou</name>
+    </author>
+    <author>
+      <name>Zongze Xu</name>
+    </author>
+    <author>
+      <name>Chenglin Wu</name>
+    </author>
+  </entry>
+</feed>

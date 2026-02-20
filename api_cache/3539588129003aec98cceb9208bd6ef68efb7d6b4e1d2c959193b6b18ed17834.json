@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K1/nYl+Ay6G1nax190+1KPVUM2I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00722v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00722v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00722v1</id>
+    <title>Spectral Imbalance Causes Forgetting in Low-Rank Continual Adaptation</title>
+    <updated>2026-01-31T13:27:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.00722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parameter-efficient continual learning aims to adapt pre-trained models to sequential tasks without forgetting previously acquired knowledge. Most existing approaches treat continual learning as avoiding interference with past updates, rather than considering what properties make the current task-specific update naturally preserve previously acquired knowledge. From a knowledge-decomposition perspective, we observe that low-rank adaptations exhibit highly imbalanced singular value spectra: a few dominant components absorb most of the adaptation energy, thereby (i) more likely to disrupt previously acquired knowledge and (ii) making the update more vulnerable to interference from subsequent tasks. To enable explicit balance among components, we decouple the magnitude of the task update from its directional structure and formulate it as a constrained optimization problem on a restricted Stiefel manifold. We address this problem using a projected first-order method compatible with standard deep-learning optimizers used in vision-language models. Our method mitigates both backward and forward forgetting, consistently outperforming continual learning baselines. The implementation code is available at https://github.com/haodotgu/EBLoRA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T13:27:02Z</published>
+    <arxiv:comment>19 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hao Gu</name>
+    </author>
+    <author>
+      <name>Mao-Lin Luo</name>
+    </author>
+    <author>
+      <name>Zi-Hao Zhou</name>
+    </author>
+    <author>
+      <name>Han-Chen Zhang</name>
+    </author>
+    <author>
+      <name>Min-Ling Zhang</name>
+    </author>
+    <author>
+      <name>Tong Wei</name>
+    </author>
+  </entry>
+</feed>

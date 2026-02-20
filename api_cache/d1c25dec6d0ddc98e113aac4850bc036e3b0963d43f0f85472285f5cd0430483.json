@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mdthF9pViZx2NCbSy9OzSKptQoQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16240v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16240v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16240v1</id>
+    <title>Submodular Maximization under Supermodular Constraint: Greedy Guarantees</title>
+    <updated>2026-02-18T07:33:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.16240v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16240v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by a wide range of applications in data mining and machine learning, we consider the problem of maximizing a submodular function subject to supermodular cost constraints. In contrast to the well-understood setting of cardinality and matroid constraints, where greedy algorithms admit strong guarantees, the supermodular constraint regime remains poorly understood -- guarantees for greedy methods and other efficient algorithmic paradigms are largely open. We study this family of fundamental optimization problems under an upper-bound constraint on a supermodular cost function with curvature parameter $γ$. Our notion of supermodular curvature is less restrictive than prior definitions, substantially expanding the class of admissible cost functions. We show that our greedy algorithm that iteratively includes elements maximizing the ratio of the objective and constraint functions, achieves a $\left(1 - e^{-(1-γ)}\right)$-approximation before stopping. We prove that this approximation is indeed tight for this algorithm. Further, if the objective function has a submodular curvature $c$, then we show that the bound further improves to $\left(1 - (1- (1-c)(1-γ))^{1/(1-c)}\right)$, which can be further improved by continuing to violate the constraint. Finally, we show that the Greedy-Ratio-Marginal in conjunction with binary search leads to a bicriteria approximation for the dual problem -- minimizing a supermodular function under a lower bound constraint on a submodular function. We conduct a number of experiments on a simulation of LLM agents debating over multiple rounds -- the task is to select a subset of agents to maximize correctly answered questions. Our algorithm outperforms all other greedy heuristics, and on smaller problems, it achieves the same performance as the optimal set found by exhaustive search.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T07:33:51Z</published>
+    <arxiv:comment>16 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Ajitesh Srivastava</name>
+    </author>
+    <author>
+      <name>Shanghua Teng</name>
+    </author>
+  </entry>
+</feed>

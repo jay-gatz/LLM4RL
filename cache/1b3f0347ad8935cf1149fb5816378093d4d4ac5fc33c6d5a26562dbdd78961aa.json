@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2bAZSvb6/wnr8H8UABa0i67wFOY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03309v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03309v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03309v1</id>
+    <title>Entropy-Gated Selective Policy Optimization:Token-Level Gradient Allocation for Hybrid Training of Large Language Models</title>
+    <updated>2026-02-03T09:38:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.03309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hybrid training methods for large language models combine supervised fine tuning (SFT) on expert demonstrations with reinforcement learning (RL) on model rollouts, typically at the sample level. We propose Entropy Gated Selective Policy Optimization (EGSPO), a three stage framework that extends sample level mixing with token level gradient modulation.
+  Stage 1, SFT expert learning, establishes a reliable warm up policy using expert demonstrations with a pure SFT loss. Stage 2, RL rollout generation, samples trajectories from the current policy and computes per token predictive entropy. Stage 3, the EGSPO mechanism, applies entropy gated gradient allocation: a predictive entropy module routes high entropy tokens to full PPO updates to encourage exploration, and low entropy tokens to attenuated PPO updates to reduce variance and preserve knowledge. Critically, both branches incorporate the advantage function A_t, ensuring that incorrect trajectories receive consistent negative learning signals and preventing reinforcement of confident errors.
+  EGSPO achieves consistent improvements on mathematical reasoning benchmarks, with gains of 3.8 percent on AIME and 2.9 percent on MATH over the CHORD phi baseline, while incurring only 3.4 percent additional computational overhead.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T09:38:21Z</published>
+    <arxiv:comment>accepted by cscwd2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuelin Hu</name>
+    </author>
+    <author>
+      <name>Zhengxue Cheng</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Li Song</name>
+    </author>
+  </entry>
+</feed>

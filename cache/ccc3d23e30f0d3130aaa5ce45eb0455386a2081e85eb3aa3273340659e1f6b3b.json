@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DjwQjp/IqnDe5kObKdA9hW5gRqk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15753v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15753v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15753v1</id>
+    <title>Under-resourced studies of under-resourced languages: lemmatization and POS-tagging with LLM annotators for historical Armenian, Georgian, Greek and Syriac</title>
+    <updated>2026-02-17T17:34:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.15753v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15753v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-resource languages pose persistent challenges for Natural Language Processing tasks such as lemmatization and part-of-speech (POS) tagging. This paper investigates the capacity of recent large language models (LLMs), including GPT-4 variants and open-weight Mistral models, to address these tasks in few-shot and zero-shot settings for four historically and linguistically diverse under-resourced languages: Ancient Greek, Classical Armenian, Old Georgian, and Syriac. Using a novel benchmark comprising aligned training and out-of-domain test corpora, we evaluate the performance of foundation models across lemmatization and POS-tagging, and compare them with PIE, a task-specific RNN baseline. Our results demonstrate that LLMs, even without fine-tuning, achieve competitive or superior performance in POS-tagging and lemmatization across most languages in few-shot settings. Significant challenges persist for languages characterized by complex morphology and non-Latin scripts, but we demonstrate that LLMs are a credible and relevant option for initiating linguistic annotation tasks in the absence of data, serving as an effective aid for annotation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T17:34:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chahan Vidal-Gorène</name>
+      <arxiv:affiliation>CJM, LIPN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bastien Kindt</name>
+      <arxiv:affiliation>UCL</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Florian Cafiero</name>
+      <arxiv:affiliation>PSL, CJM</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

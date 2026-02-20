@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bQz1yMt7Su7KlLsghIFJAuNbSg4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15197v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15197v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15197v1</id>
+    <title>OpaqueToolsBench: Learning Nuances of Tool Behavior Through Interaction</title>
+    <updated>2026-02-16T21:26:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.15197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-calling is essential for Large Language Model (LLM) agents to complete real-world tasks. While most existing benchmarks assume simple, perfectly documented tools, real-world tools (e.g., general "search" APIs) are often opaque, lacking clear best practices or failure modes. Can LLM agents improve their performance in environments with opaque tools by interacting and subsequently improving documentation? To study this, we create OpaqueToolsBench, a benchmark consisting of three distinct task-oriented environments: general function calling, interactive chess playing, and long-trajectory agentic search. Each environment provides underspecified tools that models must learn to use effectively to complete the task. Results on OpaqueToolsBench suggest existing methods for automatically documenting tools are expensive and unreliable when tools are opaque. To address this, we propose a simple framework, ToolObserver, that iteratively refines tool documentation by observing execution feedback from tool-calling trajectories. Our approach outperforms existing methods on OpaqueToolsBench across datasets, even in relatively hard settings. Furthermore, for test-time tool exploration settings, our method is also efficient, consuming 3.5-7.5x fewer total tokens than the best baseline.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T21:26:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Skyler Hallinan</name>
+    </author>
+    <author>
+      <name>Thejas Venkatesh</name>
+    </author>
+    <author>
+      <name>Xiang Ren</name>
+    </author>
+    <author>
+      <name>Sai Praneeth Karimireddy</name>
+    </author>
+    <author>
+      <name>Ashwin Paranjape</name>
+    </author>
+    <author>
+      <name>Yuhao Zhang</name>
+    </author>
+    <author>
+      <name>Jack Hessel</name>
+    </author>
+  </entry>
+</feed>

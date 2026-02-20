@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mEsmyrxoebjVS16IlfhlVjBwDi4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.20205v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.20205v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.20205v1</id>
+    <title>Merge and Conquer: Evolutionarily Optimizing AI for 2048</title>
+    <updated>2025-10-23T04:45:05Z</updated>
+    <link href="https://arxiv.org/abs/2510.20205v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.20205v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimizing artificial intelligence (AI) for dynamic environments remains a fundamental challenge in machine learning research. In this paper, we examine evolutionary training methods for optimizing AI to solve the game 2048, a 2D sliding puzzle. 2048, with its mix of strategic gameplay and stochastic elements, presents an ideal playground for studying decision-making, long-term planning, and dynamic adaptation. We implemented two distinct systems: a two-agent metaprompting system where a "thinker" large language model (LLM) agent refines gameplay strategies for an "executor" LLM agent, and a single-agent system based on refining a value function for a limited Monte Carlo Tree Search. We also experimented with rollback features to avoid performance degradation. Our results demonstrate the potential of evolutionary refinement techniques in improving AI performance in non-deterministic environments. The single-agent system achieved substantial improvements, with an average increase of 473.2 points per cycle, and with clear upward trends (correlation $ρ$=0.607) across training cycles. The LLM's understanding of the game grew as well, shown in its development of increasingly advanced strategies. Conversely, the two-agent system did not garner much improvement, highlighting the inherent limits of meta-prompting.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-23T04:45:05Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Maggie Bai</name>
+    </author>
+    <author>
+      <name>Ava Kim Cohen</name>
+    </author>
+    <author>
+      <name>Eleanor Koss</name>
+    </author>
+    <author>
+      <name>Charlie Lichtenbaum</name>
+    </author>
+  </entry>
+</feed>

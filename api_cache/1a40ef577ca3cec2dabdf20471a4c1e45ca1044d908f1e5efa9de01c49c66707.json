@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AuG8NTteIeLoIHGmsER4F4dNoPY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.19016v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:20:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.19016v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.19016v2</id>
+    <title>DREAM: Dynamic Red-teaming across Environments for AI Models</title>
+    <updated>2026-02-02T08:35:41Z</updated>
+    <link href="https://arxiv.org/abs/2512.19016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.19016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly used in agentic systems, where their interactions with diverse tools and environments create complex, multi-stage safety challenges. However, existing benchmarks mostly rely on static, single-turn assessments that miss vulnerabilities from adaptive, long-chain attacks. To fill this gap, we introduce DREAM, a framework for systematic evaluation of LLM agents against dynamic, multi-stage attacks. At its core, DREAM uses a Cross-Environment Adversarial Knowledge Graph (CE-AKG) to maintain stateful, cross-domain understanding of vulnerabilities. This graph guides a Contextualized Guided Policy Search (C-GPS) algorithm that dynamically constructs attack chains from a knowledge base of 1,986 atomic actions across 349 distinct digital environments. Our evaluation of 12 leading LLM agents reveals a critical vulnerability: these attack chains succeed in over 70% of cases for most models, showing the power of stateful, cross-environment exploits. Through analysis of these failures, we identify two key weaknesses in current agents: contextual fragility, where safety behaviors fail to transfer across environments, and an inability to track long-term malicious intent. Our findings also show that traditional safety measures, such as initial defense prompts, are largely ineffective against attacks that build context over multiple interactions. To advance agent safety research, we release DREAM as a tool for evaluating vulnerabilities and developing more robust defenses.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-22T04:11:57Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Liming Lu</name>
+    </author>
+    <author>
+      <name>Xiang Gu</name>
+    </author>
+    <author>
+      <name>Junyu Huang</name>
+    </author>
+    <author>
+      <name>Jiawei Du</name>
+    </author>
+    <author>
+      <name>Xu Zheng</name>
+    </author>
+    <author>
+      <name>Yunhuai Liu</name>
+    </author>
+    <author>
+      <name>Yongbin Zhou</name>
+    </author>
+    <author>
+      <name>Shuchao Pang</name>
+    </author>
+  </entry>
+</feed>

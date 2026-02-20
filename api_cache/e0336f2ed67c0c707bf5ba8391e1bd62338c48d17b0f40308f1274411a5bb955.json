@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y5CpyphQv5synDo/ruTJx+duZH8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07559v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07559v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07559v1</id>
+    <title>VERIFY-RL: Verifiable Recursive Decomposition for Reinforcement Learning in Mathematical Reasoning</title>
+    <updated>2026-02-07T14:06:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.07559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training language models to solve complex mathematical problems benefits from curriculum learning progressively training on simpler subproblems. However, existing decomposition methods are often heuristic, offering no guarantees that subproblems are simpler, that solving them aids the parent task, or that their relationships are mathematically grounded. We observe that symbolic differentiation provides a natural structure for verified decomposition: calculus rules explicitly define how expressions reduce to simpler components with provable properties. We introduce Verify-RL, a framework where every parent-child decomposition satisfies three verifiable conditions: strictly decreasing structural complexity, solution containment, and formal rule derivation. Unlike heuristic methods where a significant fraction of decompositions are invalid our properties admit automatic verification through symbolic computation, achieving "verification by construction" Experiments demonstrate that eliminating invalid decompositions yields sizable gains, accuracy on the hardest problems more than doubles from 32% to 68%, with a 40% relative improvement overall.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T14:06:50Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kaleem Ullah Qasim</name>
+    </author>
+    <author>
+      <name>Jiashu Zhang</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Muhammad Kafeel Shaheen</name>
+    </author>
+  </entry>
+</feed>

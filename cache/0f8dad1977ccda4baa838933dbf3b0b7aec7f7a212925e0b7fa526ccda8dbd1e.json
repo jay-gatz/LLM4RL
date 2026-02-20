@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9k9X9kB+IdNoYS7czO/U6ciAy4E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.23242v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.23242v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23242v2</id>
+    <title>A little less conversation, a little more action, please: Investigating the physical common-sense of LLMs in a 3D embodied environment</title>
+    <updated>2025-01-03T11:29:35Z</updated>
+    <link href="https://arxiv.org/abs/2410.23242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As general-purpose tools, Large Language Models (LLMs) must often reason about everyday physical environments. In a question-and-answer capacity, understanding the interactions of physical objects may be necessary to give appropriate responses. Moreover, LLMs are increasingly used as reasoning engines in agentic systems, designing and controlling their action sequences. The vast majority of research has tackled this issue using static benchmarks, comprised of text or image-based questions about the physical world. However, these benchmarks do not capture the complexity and nuance of real-life physical processes. Here we advocate for a second, relatively unexplored, approach: 'embodying' the LLMs by granting them control of an agent within a 3D environment. We present the first embodied and cognitively meaningful evaluation of physical common-sense reasoning in LLMs. Our framework allows direct comparison of LLMs with other embodied agents, such as those based on Deep Reinforcement Learning, and human and non-human animals. We employ the Animal-AI (AAI) environment, a simulated 3D virtual laboratory, to study physical common-sense reasoning in LLMs. For this, we use the AAI Testbed, a suite of experiments that replicate laboratory studies with non-human animals, to study physical reasoning capabilities including distance estimation, tracking out-of-sight objects, and tool use. We demonstrate that state-of-the-art multi-modal models with no finetuning can complete this style of task, allowing meaningful comparison to the entrants of the 2019 Animal-AI Olympics competition and to human children. Our results show that LLMs are currently outperformed by human children on these tasks. We argue that this approach allows the study of physical reasoning using ecologically valid experiments drawn directly from cognitive science, improving the predictability and reliability of LLMs.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-30T17:28:28Z</published>
+    <arxiv:comment>25 pages, 4 figures; v2: Added AFMR Acknowledgment</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matteo G. Mecattaf</name>
+    </author>
+    <author>
+      <name>Ben Slater</name>
+    </author>
+    <author>
+      <name>Marko Tešić</name>
+    </author>
+    <author>
+      <name>Jonathan Prunty</name>
+    </author>
+    <author>
+      <name>Konstantinos Voudouris</name>
+    </author>
+    <author>
+      <name>Lucy G. Cheke</name>
+    </author>
+  </entry>
+</feed>

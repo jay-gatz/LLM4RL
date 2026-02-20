@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EdtxBiP8a2oS/2Xm/TtsWqhoZHk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.04703v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.04703v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04703v1</id>
+    <title>Beyond Monolithic Architectures: A Multi-Agent Search and Knowledge Optimization Framework for Agentic Search</title>
+    <updated>2026-01-08T08:13:27Z</updated>
+    <link href="https://arxiv.org/abs/2601.04703v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04703v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic search has emerged as a promising paradigm for complex information seeking by enabling Large Language Models (LLMs) to interleave reasoning with tool use. However, prevailing systems rely on monolithic agents that suffer from structural bottlenecks, including unconstrained reasoning outputs that inflate trajectories, sparse outcome-level rewards that complicate credit assignment, and stochastic search noise that destabilizes learning. To address these challenges, we propose \textbf{M-ASK} (Multi-Agent Search and Knowledge), a framework that explicitly decouples agentic search into two complementary roles: Search Behavior Agents, which plan and execute search actions, and Knowledge Management Agents, which aggregate, filter, and maintain a compact internal context. This decomposition allows each agent to focus on a well-defined subtask and reduces interference between search and context construction. Furthermore, to enable stable coordination, M-ASK employs turn-level rewards to provide granular supervision for both search decisions and knowledge updates. Experiments on multi-hop QA benchmarks demonstrate that M-ASK outperforms strong baselines, achieving not only superior answer accuracy but also significantly more stable training dynamics.\footnote{The source code for M-ASK is available at https://github.com/chenyiqun/M-ASK.}</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T08:13:27Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yiqun Chen</name>
+    </author>
+    <author>
+      <name>Lingyong Yan</name>
+    </author>
+    <author>
+      <name>Zixuan Yang</name>
+    </author>
+    <author>
+      <name>Erhan Zhang</name>
+    </author>
+    <author>
+      <name>Jiashu Zhao</name>
+    </author>
+    <author>
+      <name>Shuaiqiang Wang</name>
+    </author>
+    <author>
+      <name>Dawei Yin</name>
+    </author>
+    <author>
+      <name>Jiaxin Mao</name>
+    </author>
+  </entry>
+</feed>

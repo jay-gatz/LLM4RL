@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vbpr2jrwPrWnghE4GTdiCSWuBxI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.24699v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.24699v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24699v1</id>
+    <title>AgentFold: Long-Horizon Web Agents with Proactive Context Management</title>
+    <updated>2025-10-28T17:51:50Z</updated>
+    <link href="https://arxiv.org/abs/2510.24699v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24699v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based web agents show immense promise for information seeking, yet their effectiveness on long-horizon tasks is hindered by a fundamental trade-off in context management. Prevailing ReAct-based agents suffer from context saturation as they accumulate noisy, raw histories, while methods that fixedly summarize the full history at each step risk the irreversible loss of critical details. Addressing these, we introduce AgentFold, a novel agent paradigm centered on proactive context management, inspired by the human cognitive process of retrospective consolidation. AgentFold treats its context as a dynamic cognitive workspace to be actively sculpted, rather than a passive log to be filled. At each step, it learns to execute a `folding' operation, which manages its historical trajectory at multiple scales: it can perform granular condensations to preserve vital, fine-grained details, or deep consolidations to abstract away entire multi-step sub-tasks. The results on prominent benchmarks are striking: with simple supervised fine-tuning (without continual pre-training or RL), our AgentFold-30B-A3B agent achieves 36.2% on BrowseComp and 47.3% on BrowseComp-ZH. Notably, this performance not only surpasses or matches open-source models of a dramatically larger scale, such as the DeepSeek-V3.1-671B-A37B, but also surpasses leading proprietary agents like OpenAI's o4-mini.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T17:51:50Z</published>
+    <arxiv:comment>26 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Ye</name>
+    </author>
+    <author>
+      <name>Zhongwang Zhang</name>
+    </author>
+    <author>
+      <name>Kuan Li</name>
+    </author>
+    <author>
+      <name>Huifeng Yin</name>
+    </author>
+    <author>
+      <name>Zhengwei Tao</name>
+    </author>
+    <author>
+      <name>Yida Zhao</name>
+    </author>
+    <author>
+      <name>Liangcai Su</name>
+    </author>
+    <author>
+      <name>Liwen Zhang</name>
+    </author>
+    <author>
+      <name>Zile Qiao</name>
+    </author>
+    <author>
+      <name>Xinyu Wang</name>
+    </author>
+    <author>
+      <name>Pengjun Xie</name>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+    </author>
+    <author>
+      <name>Siheng Chen</name>
+    </author>
+    <author>
+      <name>Jingren Zhou</name>
+    </author>
+    <author>
+      <name>Yong Jiang</name>
+    </author>
+  </entry>
+</feed>

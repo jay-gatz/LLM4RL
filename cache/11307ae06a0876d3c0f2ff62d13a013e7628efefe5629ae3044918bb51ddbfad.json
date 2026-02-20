@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jvWZjoWhyzuv99jGbjNu+gr9G5E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.04416v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.04416v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04416v2</id>
+    <title>DataGovBench: Benchmarking LLM Agents for Real-World Data Governance Workflows</title>
+    <updated>2025-12-06T06:46:21Z</updated>
+    <link href="https://arxiv.org/abs/2512.04416v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04416v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data governance ensures data quality, security, and compliance through policies and standards, a critical foundation for scaling modern AI development. Recently, large language models (LLMs) have emerged as a promising solution for automating data governance by translating user intent into executable transformation code. However, existing benchmarks for automated data science often emphasize snippet-level coding or high-level analytics, failing to capture the unique challenge of data governance: ensuring the correctness and quality of the data itself. To bridge this gap, we introduce DataGovBench, a benchmark featuring 150 diverse tasks grounded in real-world scenarios, built on data from actual cases. DataGovBench employs a novel "reversed-objective" methodology to synthesize realistic noise and utilizes rigorous metrics to assess end-to-end pipeline reliability. Our analysis on DataGovBench reveals that current models struggle with complex, multi-step workflows and lack robust error-correction mechanisms. Consequently, we propose DataGovAgent, a framework utilizing a Planner-Executor-Evaluator architecture that integrates constraint-based planning, retrieval-augmented generation, and sandboxed feedback-driven debugging. Experimental results show that DataGovAgent significantly boosts the Average Task Score (ATS) on complex tasks from 39.7 to 54.9 and reduces debugging iterations by over 77.9 percent compared to general-purpose baselines.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T03:25:12Z</published>
+    <arxiv:comment>Equal contribution: Zhou Liu and Zhaoyang Han. Corresponding authors: Yuanfeng Song and Wentao Zhang</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhou Liu</name>
+    </author>
+    <author>
+      <name>Zhaoyang Han</name>
+    </author>
+    <author>
+      <name>Guochen Yan</name>
+    </author>
+    <author>
+      <name>Hao Liang</name>
+    </author>
+    <author>
+      <name>Bohan Zeng</name>
+    </author>
+    <author>
+      <name>Xing Chen</name>
+    </author>
+    <author>
+      <name>Yuanfeng Song</name>
+    </author>
+    <author>
+      <name>Wentao Zhang</name>
+    </author>
+  </entry>
+</feed>

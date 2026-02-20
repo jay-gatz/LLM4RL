@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N8ek6ygF7ccONs2Rh2RsRcjWIuw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21590v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21590v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21590v1</id>
+    <title>Scalable Power Sampling: Unlocking Efficient, Training-Free Reasoning for LLMs via Distribution Sharpening</title>
+    <updated>2026-01-29T12:01:53Z</updated>
+    <link href="https://arxiv.org/abs/2601.21590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) post-training is a dominant approach for improving the reasoning performance of large language models (LLMs), yet growing evidence suggests that its gains arise primarily from distribution sharpening rather than the acquisition of new capabilities. Recent work has shown that sampling from the power distribution of LLMs using Markov chain Monte Carlo (MCMC) can recover performance comparable to RL post-training without relying on external rewards; however, the high computational cost of MCMC makes such approaches impractical for widespread adoption. In this work, we propose a theoretically grounded alternative that eliminates the need for iterative MCMC. We derive a novel formulation showing that the global power distribution can be approximated by a token-level scaled low-temperature one, where the scaling factor captures future trajectory quality. Leveraging this insight, we introduce a training-free and verifier-free algorithm that sharpens the base model's generative distribution autoregressively. Empirically, we evaluate our method on math, QA, and code tasks across four LLMs, and show that our method matches or surpasses one-shot GRPO without relying on any external rewards, while reducing inference latency by over 10x compared to MCMC-based sampling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T12:01:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiaotong Ji</name>
+    </author>
+    <author>
+      <name>Rasul Tutunov</name>
+    </author>
+    <author>
+      <name>Matthieu Zimmer</name>
+    </author>
+    <author>
+      <name>Haitham Bou Ammar</name>
+    </author>
+  </entry>
+</feed>

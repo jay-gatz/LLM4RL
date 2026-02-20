@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jRAKF0yn1VQbTI3F8VbvwcWE/F0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.14556&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.14556" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.14556v3</id>
+    <title>Asynchronous Large Language Model Enhanced Planner for Autonomous Driving</title>
+    <updated>2024-07-24T07:03:29Z</updated>
+    <link href="https://arxiv.org/abs/2406.14556v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.14556v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite real-time planners exhibiting remarkable performance in autonomous driving, the growing exploration of Large Language Models (LLMs) has opened avenues for enhancing the interpretability and controllability of motion planning. Nevertheless, LLM-based planners continue to encounter significant challenges, including elevated resource consumption and extended inference times, which pose substantial obstacles to practical deployment. In light of these challenges, we introduce AsyncDriver, a new asynchronous LLM-enhanced closed-loop framework designed to leverage scene-associated instruction features produced by LLM to guide real-time planners in making precise and controllable trajectory predictions. On one hand, our method highlights the prowess of LLMs in comprehending and reasoning with vectorized scene data and a series of routing instructions, demonstrating its effective assistance to real-time planners. On the other hand, the proposed framework decouples the inference processes of the LLM and real-time planners. By capitalizing on the asynchronous nature of their inference frequencies, our approach have successfully reduced the computational cost introduced by LLM, while maintaining comparable performance. Experiments show that our approach achieves superior closed-loop evaluation performance on nuPlan's challenging scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-20T17:59:03Z</published>
+    <arxiv:comment>ECCV 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuan Chen</name>
+    </author>
+    <author>
+      <name>Zi-han Ding</name>
+    </author>
+    <author>
+      <name>Ziqin Wang</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Lijun Zhang</name>
+    </author>
+    <author>
+      <name>Si Liu</name>
+    </author>
+  </entry>
+</feed>

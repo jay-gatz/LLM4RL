@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RQol2IdupkcpqVlvph5DBByMIu8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00596v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:16:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00596v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00596v1</id>
+    <title>Beyond IVR: Benchmarking Customer Support LLM Agents for Business-Adherence</title>
+    <updated>2026-01-02T07:21:23Z</updated>
+    <link href="https://arxiv.org/abs/2601.00596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Traditional customer support systems, such as Interactive Voice Response (IVR), rely on rigid scripts and lack the flexibility required for handling complex, policy-driven tasks. While large language model (LLM) agents offer a promising alternative, evaluating their ability to act in accordance with business rules and real-world support workflows remains an open challenge. Existing benchmarks primarily focus on tool usage or task completion, overlooking an agent's capacity to adhere to multi-step policies, navigate task dependencies, and remain robust to unpredictable user or environment behavior. In this work, we introduce JourneyBench, a benchmark designed to assess policy-aware agents in customer support. JourneyBench leverages graph representations to generate diverse, realistic support scenarios and proposes the User Journey Coverage Score, a novel metric to measure policy adherence. We evaluate multiple state-of-the-art LLMs using two agent designs: a Static-Prompt Agent (SPA) and a Dynamic-Prompt Agent (DPA) that explicitly models policy control. Across 703 conversations in three domains, we show that DPA significantly boosts policy adherence, even allowing smaller models like GPT-4o-mini to outperform more capable ones like GPT-4o. Our findings demonstrate the importance of structured orchestration and establish JourneyBench as a critical resource to advance AI-driven customer support beyond IVR-era limitations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-02T07:21:23Z</published>
+    <arxiv:comment>17 pages, 3 figures, preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sumanth Balaji</name>
+    </author>
+    <author>
+      <name>Piyush Mishra</name>
+    </author>
+    <author>
+      <name>Aashraya Sachdeva</name>
+    </author>
+    <author>
+      <name>Suraj Agrawal</name>
+    </author>
+  </entry>
+</feed>

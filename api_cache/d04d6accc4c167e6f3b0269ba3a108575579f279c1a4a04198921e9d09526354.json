@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FwYrFajJ080AyRY0WzdDBb/v43g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.18169v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:58:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.18169v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.18169v2</id>
+    <title>PiERN: Token-Level Routing for Integrating High-Precision Computation and Reasoning</title>
+    <updated>2025-09-27T06:44:30Z</updated>
+    <link href="https://arxiv.org/abs/2509.18169v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.18169v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tasks on complex systems require high-precision numerical computation to support decisions, but current large language models (LLMs) cannot integrate such computations as an intrinsic and interpretable capability with existing architectures. Multi-agent approaches can leverage external experts, but inevitably introduce communication overhead and suffer from inefficiency caused by limited scalability. To this end, we propose Physically-isolated Experts Routing Network (PiERN), an architecture for integrating computation and reasoning. Instead of the tool-use workflows or function-calling, PiERN endogenously integrates computational capabilities into neural networks after separately training experts, a text-to-computation module, and a router. At inference, the router directs computation and reasoning at the token level, thereby enabling iterative alternation within a single chain of thought. We evaluate PiERN on representative linear and nonlinear computation-reasoning tasks against LLM finetuning and the multi-agent system approaches. Results show that the PiERN architecture achieves not only higher accuracy than directly finetuning LLMs but also significant improvements in response latency, token usage, and GPU energy consumption compared with mainstream multi-agent approaches. PiERN offers an efficient, interpretable, and scalable paradigm for interfacing language models with scientific systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T10:15:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hengbo Xiao</name>
+    </author>
+    <author>
+      <name>Jingyuan Fan</name>
+    </author>
+    <author>
+      <name>Xin Tong</name>
+    </author>
+    <author>
+      <name>Jingzhao Zhang</name>
+    </author>
+    <author>
+      <name>Chao Lu</name>
+    </author>
+    <author>
+      <name>Guannan He</name>
+    </author>
+  </entry>
+</feed>

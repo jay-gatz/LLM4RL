@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HErWEgW5A37F/QeW3tRZAdcbJjQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07774v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07774v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07774v3</id>
+    <title>Generative Reasoning Re-ranker</title>
+    <updated>2026-02-12T09:37:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.07774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies increasingly explore Large Language Models (LLMs) as a new paradigm for recommendation systems due to their scalability and world knowledge. However, existing work has three key limitations: (1) most efforts focus on retrieval and ranking, while the reranking phase, critical for refining final recommendations, is largely overlooked; (2) LLMs are typically used in zero-shot or supervised fine-tuning settings, leaving their reasoning abilities, especially those enhanced through reinforcement learning (RL) and high-quality reasoning data, underexploited; (3) items are commonly represented by non-semantic IDs, creating major scalability challenges in industrial systems with billions of identifiers. To address these gaps, we propose the Generative Reasoning Reranker (GR2), an end-to-end framework with a three-stage training pipeline tailored for reranking. First, a pretrained LLM is mid-trained on semantic IDs encoded from non-semantic IDs via a tokenizer achieving $\ge$99% uniqueness. Next, a stronger larger-scale LLM generates high-quality reasoning traces through carefully designed prompting and rejection sampling, which are used for supervised fine-tuning to impart foundational reasoning skills. Finally, we apply Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO), enabling scalable RL supervision with verifiable rewards designed specifically for reranking. Experiments on two real-world datasets demonstrate GR2's effectiveness: it surpasses the state-of-the-art OneRec-Think by 2.4% in Recall@5 and 1.3% in NDCG@5. Ablations confirm that advanced reasoning traces yield substantial gains across metrics. We further find that RL reward design is crucial in reranking: LLMs tend to exploit reward hacking by preserving item order, motivating conditional verifiable rewards to mitigate this behavior and optimize reranking performance.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T02:12:24Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Mingfu Liang</name>
+    </author>
+    <author>
+      <name>Yufei Li</name>
+    </author>
+    <author>
+      <name>Jay Xu</name>
+    </author>
+    <author>
+      <name>Kavosh Asadi</name>
+    </author>
+    <author>
+      <name>Xi Liu</name>
+    </author>
+    <author>
+      <name>Shuo Gu</name>
+    </author>
+    <author>
+      <name>Kaushik Rangadurai</name>
+    </author>
+    <author>
+      <name>Frank Shyu</name>
+    </author>
+    <author>
+      <name>Shuaiwen Wang</name>
+    </author>
+    <author>
+      <name>Song Yang</name>
+    </author>
+    <author>
+      <name>Zhijing Li</name>
+    </author>
+    <author>
+      <name>Jiang Liu</name>
+    </author>
+    <author>
+      <name>Mengying Sun</name>
+    </author>
+    <author>
+      <name>Fei Tian</name>
+    </author>
+    <author>
+      <name>Xiaohan Wei</name>
+    </author>
+    <author>
+      <name>Chonglin Sun</name>
+    </author>
+    <author>
+      <name>Jacob Tao</name>
+    </author>
+    <author>
+      <name>Shike Mei</name>
+    </author>
+    <author>
+      <name>Hamed Firooz</name>
+    </author>
+    <author>
+      <name>Wenlin Chen</name>
+    </author>
+    <author>
+      <name>Luke Simon</name>
+    </author>
+  </entry>
+</feed>

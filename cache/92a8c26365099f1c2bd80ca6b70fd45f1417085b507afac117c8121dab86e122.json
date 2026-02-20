@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7Y3Sx0vrof/rJ4QcqbeXCvz7ZOc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13367v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13367v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13367v1</id>
+    <title>Nanbeige4.1-3B: A Small General Model that Reasons, Aligns, and Acts</title>
+    <updated>2026-02-13T13:10:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.13367v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13367v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present Nanbeige4.1-3B, a unified generalist language model that simultaneously achieves strong agentic behavior, code generation, and general reasoning with only 3B parameters. To the best of our knowledge, it is the first open-source small language model (SLM) to achieve such versatility in a single model. To improve reasoning and preference alignment, we combine point-wise and pair-wise reward modeling, ensuring high-quality, human-aligned responses. For code generation, we design complexity-aware rewards in Reinforcement Learning, optimizing both correctness and efficiency. In deep search, we perform complex data synthesis and incorporate turn-level supervision during training. This enables stable long-horizon tool interactions, allowing Nanbeige4.1-3B to reliably execute up to 600 tool-call turns for complex problem-solving. Extensive experimental results show that Nanbeige4.1-3B significantly outperforms prior models of similar scale, such as Nanbeige4-3B-2511 and Qwen3-4B, even achieving superior performance compared to much larger models, such as Qwen3-30B-A3B. Our results demonstrate that small models can achieve both broad competence and strong specialization simultaneously, redefining the potential of 3B parameter models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T13:10:46Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chen Yang</name>
+    </author>
+    <author>
+      <name>Guangyue Peng</name>
+    </author>
+    <author>
+      <name>Jiaying Zhu</name>
+    </author>
+    <author>
+      <name>Ran Le</name>
+    </author>
+    <author>
+      <name>Ruixiang Feng</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Xiyun Xu</name>
+    </author>
+    <author>
+      <name>Yang Song</name>
+    </author>
+    <author>
+      <name>Yiming Jia</name>
+    </author>
+    <author>
+      <name>Yuntao Wen</name>
+    </author>
+    <author>
+      <name>Yunzhi Xu</name>
+    </author>
+    <author>
+      <name>Zekai Wang</name>
+    </author>
+    <author>
+      <name>Zhenwei An</name>
+    </author>
+    <author>
+      <name>Zhicong Sun</name>
+    </author>
+    <author>
+      <name>Zongchao Chen</name>
+    </author>
+  </entry>
+</feed>

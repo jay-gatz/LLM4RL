@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Lt3S2NGo+4k7+S1PRoGdNNLOVf4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15156v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15156v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15156v1</id>
+    <title>Panini: Continual Learning in Token Space via Structured Memory</title>
+    <updated>2026-02-16T19:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.15156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language models are increasingly used to reason over content they were not trained on, such as new documents, evolving knowledge, and user-specific data. A common approach is retrieval-augmented generation (RAG), which stores verbatim documents externally (as chunks) and retrieves only a relevant subset at inference time for an LLM to reason over. However, this results in inefficient usage of test-time compute (LLM repeatedly reasons over the same documents); moreover, chunk retrieval can inject irrelevant context that increases unsupported generation. We propose a human-like non-parametric continual learning framework, where the base model remains fixed, and learning occurs by integrating each new experience into an external semantic memory state that accumulates and consolidates itself continually. We present Panini, which realizes this by representing documents as Generative Semantic Workspaces (GSW) -- an entity- and event-aware network of question-answer (QA) pairs, sufficient for an LLM to reconstruct the experienced situations and mine latent knowledge via reasoning-grounded inference chains on the network. Given a query, Panini only traverses the continually-updated GSW (not the verbatim documents or chunks), and retrieves the most likely inference chains. Across six QA benchmarks, Panini achieves the highest average performance, 5%-7% higher than other competitive baselines, while using 2-30x fewer answer-context tokens, supports fully open-source pipelines, and reduces unsupported answers on curated unanswerable queries. The results show that efficient and accurate structuring of experiences at write time -- as achieved by the GSW framework -- yields both efficiency and reliability gains at read time. Code is available at https://github.com/roychowdhuryresearch/gsw-memory.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T19:58:03Z</published>
+    <arxiv:comment>35 pages, code available at: https://github.com/roychowdhuryresearch/gsw-memory</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shreyas Rajesh</name>
+    </author>
+    <author>
+      <name>Pavan Holur</name>
+    </author>
+    <author>
+      <name>Mehmet Yigit Turali</name>
+    </author>
+    <author>
+      <name>Chenda Duan</name>
+    </author>
+    <author>
+      <name>Vwani Roychowdhury</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j9tWexSMySTVwU9+11iQlPw5Daw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16375v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16375v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16375v1</id>
+    <title>Variable-Length Semantic IDs for Recommender Systems</title>
+    <updated>2026-02-18T11:29:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.16375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative models are increasingly used in recommender systems, both for modeling user behavior as event sequences and for integrating large language models into recommendation pipelines. A key challenge in this setting is the extremely large cardinality of item spaces, which makes training generative models difficult and introduces a vocabulary gap between natural language and item identifiers. Semantic identifiers (semantic IDs), which represent items as sequences of low-cardinality tokens, have recently emerged as an effective solution to this problem.
+  However, existing approaches generate semantic identifiers of fixed length, assigning the same description length to all items. This is inefficient, misaligned with natural language, and ignores the highly skewed frequency structure of real-world catalogs, where popular items and rare long-tail items exhibit fundamentally different information requirements. In parallel, the emergent communication literature studies how agents develop discrete communication protocols, often producing variable-length messages in which frequent concepts receive shorter descriptions. Despite the conceptual similarity, these ideas have not been systematically adopted in recommender systems.
+  In this work, we bridge recommender systems and emergent communication by introducing variable-length semantic identifiers for recommendation. We propose a discrete variational autoencoder with Gumbel-Softmax reparameterization that learns item representations of adaptive length under a principled probabilistic framework, avoiding the instability of REINFORCE-based training and the fixed-length constraints of prior semantic ID methods.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T11:29:05Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Kirill Khrylchenko</name>
+    </author>
+  </entry>
+</feed>

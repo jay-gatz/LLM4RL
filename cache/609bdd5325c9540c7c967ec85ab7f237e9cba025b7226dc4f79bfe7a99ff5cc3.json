@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0fq1Qix6llhzmkpCetrsZs9sv7E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00482v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00482v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00482v1</id>
+    <title>AREAL-DTA: Dynamic Tree Attention for Efficient Reinforcement Learning of Large Language Models</title>
+    <updated>2026-01-31T03:05:34Z</updated>
+    <link href="https://arxiv.org/abs/2602.00482v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00482v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) based post-training for large language models (LLMs) is computationally expensive, as it generates many rollout sequences that could frequently share long token prefixes. Existing RL frameworks usually process these sequences independently, repeatedly recomputing identical prefixes during forward and backward passes during policy model training, leading to substantial inefficiencies in computation and memory usage. Although prefix sharing naturally induces a tree structure over rollouts, prior tree-attention-based solutions rely on fully materialized attention masks and scale poorly in RL settings. In this paper, we introduce AREAL-DTA to efficiently exploit prefix sharing in RL training. AREAL-DTA employs a depth-first-search (DFS)-based execution strategy that dynamically traverses the rollout prefix tree during both forward and backward computation, materializing only a single root-to-leaf path at a time. To further improve scalability, AREAL-DTA incorporates a load-balanced distributed batching mechanism that dynamically constructs and processes prefix trees across multiple GPUs. Across the popular RL post-training workload, AREAL-DTA achieves up to $8.31\times$ in $τ^2$-bench higher training throughput.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T03:05:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiarui Zhang</name>
+    </author>
+    <author>
+      <name>Yuchen Yang</name>
+    </author>
+    <author>
+      <name>Ran Yan</name>
+    </author>
+    <author>
+      <name>Zhiyu Mei</name>
+    </author>
+    <author>
+      <name>Liyuan Zhang</name>
+    </author>
+    <author>
+      <name>Daifeng Li</name>
+    </author>
+    <author>
+      <name>Wei Fu</name>
+    </author>
+    <author>
+      <name>Jiaxuan Gao</name>
+    </author>
+    <author>
+      <name>Shusheng Xu</name>
+    </author>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Binhang Yuan</name>
+    </author>
+  </entry>
+</feed>

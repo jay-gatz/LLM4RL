@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xl90vmL49Em7gnHMbuefK4AlqfY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06356v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06356v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06356v1</id>
+    <title>Nipping the Drift in the Bud: Retrospective Rectification for Robust Vision-Language Navigation</title>
+    <updated>2026-02-06T03:36:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.06356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Navigation (VLN) requires embodied agents to interpret natural language instructions and navigate through complex continuous 3D environments. However, the dominant imitation learning paradigm suffers from exposure bias, where minor deviations during inference lead to compounding errors. While DAgger-style approaches attempt to mitigate this by correcting error states, we identify a critical limitation: Instruction-State Misalignment. Forcing an agent to learn recovery actions from off-track states often creates supervision signals that semantically conflict with the original instruction. In response to these challenges, we introduce BudVLN, an online framework that learns from on-policy rollouts by constructing supervision to match the current state distribution. BudVLN performs retrospective rectification via counterfactual re-anchoring and decision-conditioned supervision synthesis, using a geodesic oracle to synthesize corrective trajectories that originate from valid historical states, ensuring semantic consistency. Experiments on the standard R2R-CE and RxR-CE benchmarks demonstrate that BudVLN consistently mitigates distribution shift and achieves state-of-the-art performance in both Success Rate and SPL.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T03:36:27Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Gang He</name>
+    </author>
+    <author>
+      <name>Zhenyang Liu</name>
+    </author>
+    <author>
+      <name>Kepeng Xu</name>
+    </author>
+    <author>
+      <name>Li Xu</name>
+    </author>
+    <author>
+      <name>Tong Qiao</name>
+    </author>
+    <author>
+      <name>Wenxin Yu</name>
+    </author>
+    <author>
+      <name>Chang Wu</name>
+    </author>
+    <author>
+      <name>Weiying Xie</name>
+    </author>
+  </entry>
+</feed>

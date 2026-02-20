@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Xhv6vgRPTibUc2slz8N3YvNR4U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.07615&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:10:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.07615" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07615v2</id>
+    <title>VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model</title>
+    <updated>2025-04-14T15:15:54Z</updated>
+    <link href="https://arxiv.org/abs/2504.07615v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07615v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently DeepSeek R1 has shown that reinforcement learning (RL) can substantially improve the reasoning capabilities of Large Language Models (LLMs) through a simple yet effective design. The core of R1 lies in its rule-based reward formulation, which leverages tasks with deterministic ground-truth answers to enable precise and stable reward computation. In the visual domain, we similarly observe that a wide range of visual understanding tasks are inherently equipped with well-defined ground-truth annotations. This property makes them naturally compatible with rule-based reward mechanisms. Motivated by this observation, we investigate the extension of R1-style reinforcement learning to Vision-Language Models (VLMs), aiming to enhance their visual reasoning capabilities. To this end, we develop VLM-R1, a dedicated framework designed to harness RL for improving VLMs' performance on general vision-language tasks. Using this framework, we further explore the feasibility of applying RL to visual domain. Experimental results indicate that the RL-based model not only delivers competitive performance on visual understanding tasks but also surpasses Supervised Fine-Tuning (SFT) in generalization ability. Furthermore, we conduct comprehensive ablation studies that uncover a series of noteworthy insights, including the presence of reward hacking in object detection, the emergence of the "OD aha moment", the impact of training data quality, and the scaling behavior of RL across different model sizes. Through these analyses, we aim to deepen the understanding of how reinforcement learning enhances the capabilities of vision-language models, and we hope our findings and open-source contributions will support continued progress in the vision-language RL community. Our code and model are available at https://github.com/om-ai-lab/VLM-R1</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T10:05:15Z</published>
+    <arxiv:comment>11 pages, fix some minor typos in the previous version</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haozhan Shen</name>
+    </author>
+    <author>
+      <name>Peng Liu</name>
+    </author>
+    <author>
+      <name>Jingcheng Li</name>
+    </author>
+    <author>
+      <name>Chunxin Fang</name>
+    </author>
+    <author>
+      <name>Yibo Ma</name>
+    </author>
+    <author>
+      <name>Jiajia Liao</name>
+    </author>
+    <author>
+      <name>Qiaoli Shen</name>
+    </author>
+    <author>
+      <name>Zilun Zhang</name>
+    </author>
+    <author>
+      <name>Kangjia Zhao</name>
+    </author>
+    <author>
+      <name>Qianqian Zhang</name>
+    </author>
+    <author>
+      <name>Ruochen Xu</name>
+    </author>
+    <author>
+      <name>Tiancheng Zhao</name>
+    </author>
+  </entry>
+</feed>

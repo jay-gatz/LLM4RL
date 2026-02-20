@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gZGjhmsamim3T+G2vmEgV3jg3nk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12530v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12530v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12530v1</id>
+    <title>Reasoning to Rank: An End-to-End Solution for Exploiting Large Language Models for Recommendation</title>
+    <updated>2026-02-13T02:22:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.12530v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12530v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recommender systems are tasked to infer users' evolving preferences and rank items aligned with their intents, which calls for in-depth reasoning beyond pattern-based scoring. Recent efforts start to leverage large language models (LLMs) for recommendation, but how to effectively optimize the model for improved recommendation utility is still under explored. In this work, we propose Reasoning to Rank, an end-to-end training framework that internalizes recommendation utility optimization into the learning of step-by-step reasoning in LLMs. To avoid position bias in LLM reasoning and enable direct optimization of the reasoning process, our framework performs reasoning at the user-item level and employs reinforcement learning for end-to-end training of the LLM. Experiments on three Amazon datasets and a large-scale industrial dataset showed consistent gains over strong conventional and LLM-based solutions. Extensive in-depth analyses validate the necessity of the key components in the proposed framework and shed lights on the future developments of this line of work.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T02:22:48Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Kehan Zheng</name>
+    </author>
+    <author>
+      <name>Deyao Hong</name>
+    </author>
+    <author>
+      <name>Qian Li</name>
+    </author>
+    <author>
+      <name>Jun Zhang</name>
+    </author>
+    <author>
+      <name>Huan Yu</name>
+    </author>
+    <author>
+      <name>Jie Jiang</name>
+    </author>
+    <author>
+      <name>Hongning Wang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yjXtp0kMt2e5s8jVi59BZDpNiAU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00983v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00983v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00983v1</id>
+    <title>DISPO: Enhancing Training Efficiency and Stability in Reinforcement Learning for Large Language Model Mathematical Reasoning</title>
+    <updated>2026-02-01T02:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.00983v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00983v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning with verifiable rewards has emerged as a promising paradigm for enhancing the reasoning capabilities of large language models particularly in mathematics. Current approaches in this domain present a clear trade-off: PPO-style methods (e.g., GRPO/DAPO) offer training stability but exhibit slow learning trajectories due to their trust-region constraints on policy updates, while REINFORCE-style approaches (e.g., CISPO) demonstrate improved learning efficiency but suffer from performance instability as they clip importance sampling weights while still permitting non-zero gradients outside the trust-region. To address these limitations, we introduce DISPO, a simple yet effective REINFORCE-style algorithm that decouples the up-clipping and down-clipping of importance sampling weights for correct and incorrect responses, yielding four controllable policy update regimes. Through targeted ablations, we uncover how each regime impacts training: for correct responses, weights &gt;1 increase the average token entropy (i.e., exploration) while weights &lt;1 decrease it (i.e., distillation) -- both beneficial but causing gradual performance degradation when excessive. For incorrect responses, overly restrictive clipping triggers sudden performance collapse through repetitive outputs (when weights &gt;1) or vanishing response lengths (when weights &lt;1). By separately tuning these four clipping parameters, DISPO maintains the exploration-distillation balance while preventing catastrophic failures, achieving 61.04% on AIME'24 (vs. 55.42% CISPO and 50.21% DAPO) with similar gains across various benchmarks and models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T02:45:04Z</published>
+    <arxiv:comment>This work is accepted to the 29th International Conference on Artificial Intelligence and Statistics (AISTATS) 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Batuhan K. Karaman</name>
+    </author>
+    <author>
+      <name>Aditya Rawal</name>
+    </author>
+    <author>
+      <name>Suhaila Shakiah</name>
+    </author>
+    <author>
+      <name>Mohammad Ghavamzadeh</name>
+    </author>
+    <author>
+      <name>Mingyi Hong</name>
+    </author>
+    <author>
+      <name>Arijit Biswas</name>
+    </author>
+    <author>
+      <name>Ruida Zhou</name>
+    </author>
+  </entry>
+</feed>

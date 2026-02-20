@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/456I1w4g+TG6uCfy5Q7eMs7phbI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00504v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00504v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00504v1</id>
+    <title>RGBX-R1: Visual Modality Chain-of-Thought Guided Reinforcement Learning for Multimodal Grounding</title>
+    <updated>2026-01-31T04:13:57Z</updated>
+    <link href="https://arxiv.org/abs/2602.00504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLM) are primarily pre-trained on the RGB modality, thereby limiting their performance on other modalities, such as infrared, depth, and event data, which are crucial for complex scenarios. To address this, we propose RGBX-R1, a framework to enhance MLLM's perception and reasoning capacities across various X visual modalities. Specifically, we employ an Understand-Associate-Validate (UAV) prompting strategy to construct the Visual Modality Chain-of-Thought (VM-CoT), which aims to expand the MLLMs' RGB understanding capability into X modalities. To progressively enhance reasoning capabilities, we introduce a two-stage training paradigm: Cold-Start Supervised Fine-Tuning (CS-SFT) and Spatio-Temporal Reinforcement Fine-Tuning (ST-RFT). CS-SFT supervises the reasoning process with the guidance of VM-CoT, equipping the MLLM with fundamental modality cognition. Building upon GRPO, ST-RFT employs a Modality-understanding Spatio-Temporal (MuST) reward to reinforce modality reasoning. Notably, we construct the first RGBX-Grounding benchmark, and extensive experiments verify our superiority in multimodal understanding and spatial perception, outperforming baselines by 22.71% on three RGBX grounding tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T04:13:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiahe Wu</name>
+    </author>
+    <author>
+      <name>Bing Cao</name>
+    </author>
+    <author>
+      <name>Qilong Wang</name>
+    </author>
+    <author>
+      <name>Qinghua Hu</name>
+    </author>
+    <author>
+      <name>Dongdong Li</name>
+    </author>
+    <author>
+      <name>Pengfei Zhu</name>
+    </author>
+  </entry>
+</feed>

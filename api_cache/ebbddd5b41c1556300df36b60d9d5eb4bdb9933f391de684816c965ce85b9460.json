@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nzuguAHsBDELUUuUBO4kmvGaEQc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14577v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14577v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14577v1</id>
+    <title>DriveFine: Refining-Augmented Masked Diffusion VLA for Precise and Robust Driving</title>
+    <updated>2026-02-16T09:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.14577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models for autonomous driving increasingly adopt generative planners trained with imitation learning followed by reinforcement learning. Diffusion-based planners suffer from modality alignment difficulties, low training efficiency, and limited generalization. Token-based planners are plagued by cumulative causal errors and irreversible decoding. In summary, the two dominant paradigms exhibit complementary strengths and weaknesses. In this paper, we propose DriveFine, a masked diffusion VLA model that combines flexible decoding with self-correction capabilities. In particular, we design a novel plug-and-play block-MoE, which seamlessly injects a refinement expert on top of the generation expert. By enabling explicit expert selection during inference and gradient blocking during training, the two experts are fully decoupled, preserving the foundational capabilities and generic patterns of the pretrained weights, which highlights the flexibility and extensibility of the block-MoE design. Furthermore, we design a hybrid reinforcement learning strategy that encourages effective exploration of refinement expert while maintaining training stability. Extensive experiments on NAVSIM v1, v2, and Navhard benchmarks demonstrate that DriveFine exhibits strong efficacy and robustness. The code will be released at https://github.com/MSunDYY/DriveFine.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T09:13:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenxu Dang</name>
+    </author>
+    <author>
+      <name>Sining Ang</name>
+    </author>
+    <author>
+      <name>Yongkang Li</name>
+    </author>
+    <author>
+      <name>Haochen Tian</name>
+    </author>
+    <author>
+      <name>Jie Wang</name>
+    </author>
+    <author>
+      <name>Guang Li</name>
+    </author>
+    <author>
+      <name>Hangjun Ye</name>
+    </author>
+    <author>
+      <name>Jie Ma</name>
+    </author>
+    <author>
+      <name>Long Chen</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+  </entry>
+</feed>

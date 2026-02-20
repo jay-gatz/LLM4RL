@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uiwpFCArWCnxfkHO6dCwMPBAgpo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.11106&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:07:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.11106" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.11106v1</id>
+    <title>LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions</title>
+    <updated>2024-05-17T22:10:23Z</updated>
+    <link href="https://arxiv.org/abs/2405.11106v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.11106v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem writing, among others. Although research on LLM-as-an-agent has shown that LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS) is not trivial, as many aspects, such as coordination and communication between agents, are not considered in the RL frameworks of a single agent. To inspire more research on LLM-based MARL, in this letter, we survey the existing LLM-based single-agent and multi-agent RL frameworks and provide potential research directions for future research. In particular, we focus on the cooperative tasks of multiple agents with a common goal and communication among them. We also consider human-in/on-the-loop scenarios enabled by the language component in the framework.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-17T22:10:23Z</published>
+    <arxiv:comment>8 pages, 1 figure, 1 table, submitted to IEEE RA-L</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Chuanneng Sun</name>
+    </author>
+    <author>
+      <name>Songjun Huang</name>
+    </author>
+    <author>
+      <name>Dario Pompili</name>
+    </author>
+  </entry>
+</feed>

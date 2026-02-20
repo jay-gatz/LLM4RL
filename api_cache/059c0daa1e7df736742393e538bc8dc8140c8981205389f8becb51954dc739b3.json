@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k0H/tZY3aVWI/v7s7ntx1iwoNY4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02581v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02581v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02581v1</id>
+    <title>QuantLRM: Quantization of Large Reasoning Models via Fine-Tuning Signals</title>
+    <updated>2026-01-31T16:19:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.02581v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02581v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Weight-only quantization is important for compressing Large Language Models (LLMs). Inspired by the spirit of classical magnitude pruning, we study whether the magnitude of weight updates during reasoning-incentivized fine-tuning can provide valuable signals for quantizing Large Reasoning Models (LRMs). We hypothesize that the smallest and largest weight updates during fine-tuning are more important than those of intermediate magnitude, a phenomenon we term "protecting both ends". Upon hypothesis validation, we introduce QuantLRM, which stands for weight quantization of LRMs via fine-tuning signals. We fit simple restricted quadratic functions on weight updates to protect both ends. By multiplying the average quadratic values with the count of zero weight updates of channels, we compute channel importance that is more effective than using activation or second-order information. We run QuantLRM to quantize various fine-tuned models (including supervised, direct preference optimization, and reinforcement learning fine-tuning) over four reasoning benchmarks (AIME-120, FOLIO, temporal sequences, and GPQA-Diamond) and empirically find that QuantLRM delivers a consistent improvement for LRMs quantization, with an average improvement of 6.55% on a reinforcement learning fine-tuned model. Also supporting non-fine-tuned LRMs, QuantLRM gathers effective signals via pseudo-fine-tuning, which greatly enhances its applicability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T16:19:20Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nan Zhang</name>
+    </author>
+    <author>
+      <name>Eugene Kwek</name>
+    </author>
+    <author>
+      <name>Yusen Zhang</name>
+    </author>
+    <author>
+      <name>Muyu Pan</name>
+    </author>
+    <author>
+      <name>Suhang Wang</name>
+    </author>
+    <author>
+      <name>Prasenjit Mitra</name>
+    </author>
+    <author>
+      <name>Rui Zhang</name>
+    </author>
+  </entry>
+</feed>

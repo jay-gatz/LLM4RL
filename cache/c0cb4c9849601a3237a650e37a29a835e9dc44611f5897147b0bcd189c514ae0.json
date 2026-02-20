@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3MA3xicxG+IQe0yaobNOL89XYMw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07832v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07832v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07832v1</id>
+    <title>rePIRL: Learn PRM with Inverse RL for LLM Reasoning</title>
+    <updated>2026-02-08T05:47:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.07832v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07832v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Process rewards have been widely used in deep reinforcement learning to improve training efficiency, reduce variance, and prevent reward hacking. In LLM reasoning, existing works also explore various solutions for learning effective process reward models (PRM) with or without the help of an expert policy. However, existing methods either rely on strong assumptions about the expert policies (e.g., requiring their reward functions) or suffer intrinsic limitations (e.g., entropy collapse), resulting in weak PRMs or limited generalizability. In this paper, we introduce rePIRL, an inverse RL-inspired framework that learns effective PRMs with minimal assumptions about expert policies. Specifically, we design a dual learning process that updates the policy and the PRM interchangeably. Our learning algorithm has customized techniques to address the challenges of scaling traditional inverse RL to LLMs. We theoretically show that our proposed learning framework can unify both online and offline PRM learning methods, justifying that rePIRL can learn PRMs with minimal assumptions. Empirical evaluations on standardized math and coding reasoning datasets demonstrate the effectiveness of rePIRL over existing methods. We further show the application of our trained PRM in test-time training, test-time scaling, and providing an early signal for training hard problems. Finally, we validate our training recipe and key design choices via a detailed ablation study.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T05:47:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xian Wu</name>
+    </author>
+    <author>
+      <name>Kaijie Zhu</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Lun Wang</name>
+    </author>
+    <author>
+      <name>Wenbo Guo</name>
+    </author>
+  </entry>
+</feed>

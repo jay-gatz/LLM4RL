@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8+epoheC6UM21Y/uV/MrQr7ztjY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.17325v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.17325v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.17325v1</id>
+    <title>Generalizable End-to-End Tool-Use RL with Synthetic CodeGym</title>
+    <updated>2025-09-22T03:03:56Z</updated>
+    <link href="https://arxiv.org/abs/2509.17325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.17325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely rely on supervised fine-tuning (SFT) over static trajectories or reinforcement learning (RL) on narrow tasks, and generalize poorly beyond development settings, leading to brittleness with new tools and unseen workflows. Because code execution reflects many structures of real-world workflows, coding problems provide a natural basis for building agent training environments. Motivated by this, we introduce CodeGym, a scalable framework that synthesizes diverse, verifiable, and controllable multi-turn tool-use environments for agent RL, enabling LLM agents to explore and master various workflows actively. CodeGym rewrites static coding problems into interactive environments by extracting atomic functions or logic into callable tools, yielding verifiable tasks that span various tool-execution workflows. Models of varying sizes and chain-of-thought configurations, trained in CodeGym, exhibit consistent out-of-distribution generalizability; for example, Qwen2.5-32B-Instruct achieves an absolute accuracy gain of 8.7 points on the OOD benchmark $τ$-Bench. These results highlight CodeGym as a step toward scalable general-purpose RL environments that align with real-world agent workflows.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-22T03:03:56Z</published>
+    <arxiv:comment>22 pages. Project available at https://github.com/StigLidu/CodeGym</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Weihua Du</name>
+    </author>
+    <author>
+      <name>Hailei Gong</name>
+    </author>
+    <author>
+      <name>Zhan Ling</name>
+    </author>
+    <author>
+      <name>Kang Liu</name>
+    </author>
+    <author>
+      <name>Lingfeng Shen</name>
+    </author>
+    <author>
+      <name>Xuesong Yao</name>
+    </author>
+    <author>
+      <name>Yufei Xu</name>
+    </author>
+    <author>
+      <name>Dingyuan Shi</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+    <author>
+      <name>Jiecao Chen</name>
+    </author>
+  </entry>
+</feed>

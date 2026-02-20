@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eTgZZ3XhBALg2uTR37eqch6QO2k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01511v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01511v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01511v2</id>
+    <title>Alternating Reinforcement Learning for Rubric-Based Reward Modeling in Non-Verifiable LLM Post-Training</title>
+    <updated>2026-02-11T21:14:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.01511v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01511v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Standard reward models typically predict scalar scores that fail to capture the multifaceted nature of response quality in non-verifiable domains, such as creative writing or open-ended instruction following. To address this limitation, we propose Rubric-ARM, a framework that jointly optimizes a rubric generator and a judge using reinforcement learning from preference feedback. Unlike existing methods that rely on static rubrics or disjoint training pipelines, our approach treats rubric generation as a latent action learned to maximize judgment accuracy. We introduce an alternating optimization strategy to mitigate the non-stationarity of simultaneous updates, providing theoretical analysis that demonstrates how this schedule reduces gradient variance during training. Extensive experiments show that Rubric-ARM achieves state-of-the-art performance among baselines on multiple benchmarks and significantly improves downstream policy alignment in both offline and online reinforcement learning settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T00:50:53Z</published>
+    <arxiv:comment>The first two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ran Xu</name>
+    </author>
+    <author>
+      <name>Tianci Liu</name>
+    </author>
+    <author>
+      <name>Zihan Dong</name>
+    </author>
+    <author>
+      <name>Tony Yu</name>
+    </author>
+    <author>
+      <name>Ilgee Hong</name>
+    </author>
+    <author>
+      <name>Carl Yang</name>
+    </author>
+    <author>
+      <name>Linjun Zhang</name>
+    </author>
+    <author>
+      <name>Tao Zhao</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+  </entry>
+</feed>

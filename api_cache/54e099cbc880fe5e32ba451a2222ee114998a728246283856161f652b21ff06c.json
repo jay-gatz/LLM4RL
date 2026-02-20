@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ieC8LeT5nDVm3OMhOwML+S6ZTJk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14251v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14251v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14251v1</id>
+    <title>Multi-Agent Debate: A Unified Agentic Framework for Tabular Anomaly Detection</title>
+    <updated>2026-02-15T17:44:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.14251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tabular anomaly detection is often handled by single detectors or static ensembles, even though strong performance on tabular data typically comes from heterogeneous model families (e.g., tree ensembles, deep tabular networks, and tabular foundation models) that frequently disagree under distribution shift, missingness, and rare-anomaly regimes. We propose MAD, a Multi-Agent Debating framework that treats this disagreement as a first-class signal and resolves it through a mathematically grounded coordination layer. Each agent is a machine learning (ML)-based detector that produces a normalized anomaly score, confidence, and structured evidence, augmented by a large language model (LLM)-based critic. A coordinator converts these messages into bounded per-agent losses and updates agent influence via an exponentiated-gradient rule, yielding both a final debated anomaly score and an auditable debate trace. MAD is a unified agentic framework that can recover existing approaches, such as mixture-of-experts gating and learning-with-expert-advice aggregation, by restricting the message space and synthesis operator. We establish regret guarantees for the synthesized losses and show how conformal calibration can wrap the debated score to control false positives under exchangeability. Experiments on diverse tabular anomaly benchmarks show improved robustness over baselines and clearer traces of model disagreement</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T17:44:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Pinqiao Wang</name>
+    </author>
+    <author>
+      <name>Sheng Li</name>
+    </author>
+  </entry>
+</feed>

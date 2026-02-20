@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dh/DOHOuKCQIE/iR78tASGMvzdw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22714v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22714v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22714v1</id>
+    <title>Vision-Language Models Unlock Task-Centric Latent Actions</title>
+    <updated>2026-01-30T08:38:59Z</updated>
+    <link href="https://arxiv.org/abs/2601.22714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Latent Action Models (LAMs) have rapidly gained traction as an important component in the pre-training pipelines of leading Vision-Language-Action models. However, they fail when observations contain action-correlated distractors, often encoding noise instead of meaningful latent actions. Humans, on the other hand, can effortlessly distinguish task-relevant motions from irrelevant details in any video given only a brief task description. In this work, we propose to utilize the common-sense reasoning abilities of Vision-Language Models (VLMs) to provide promptable representations, effectively separating controllable changes from the noise in unsupervised way. We use these representations as targets during LAM training and benchmark a wide variety of popular VLMs, revealing substantial variation in the quality of promptable representations as well as their robustness to different prompts and hyperparameters. Interestingly, we find that more recent VLMs may perform worse than older ones. Finally, we show that simply asking VLMs to ignore distractors can substantially improve latent action quality, yielding up to a six-fold increase in downstream success rates on Distracting MetaWorld.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T08:38:59Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexander Nikulin</name>
+    </author>
+    <author>
+      <name>Ilya Zisman</name>
+    </author>
+    <author>
+      <name>Albina Klepach</name>
+    </author>
+    <author>
+      <name>Denis Tarasov</name>
+    </author>
+    <author>
+      <name>Alexander Derevyagin</name>
+    </author>
+    <author>
+      <name>Andrei Polubarov</name>
+    </author>
+    <author>
+      <name>Lyubaykin Nikita</name>
+    </author>
+    <author>
+      <name>Vladislav Kurenkov</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BHda+eRN/zWNreoE8uiyOVBzhLY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22114v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22114v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22114v1</id>
+    <title>SINA: A Circuit Schematic Image-to-Netlist Generator Using Artificial Intelligence</title>
+    <updated>2026-01-29T18:41:52Z</updated>
+    <link href="https://arxiv.org/abs/2601.22114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current methods for converting circuit schematic images into machine-readable netlists struggle with component recognition and connectivity inference. In this paper, we present SINA, an open-source, fully automated circuit schematic image-to-netlist generator. SINA integrates deep learning for accurate component detection, Connected-Component Labeling (CCL) for precise connectivity extraction, and Optical Character Recognition (OCR) for component reference designator retrieval, while employing a Vision-Language Model (VLM) for reliable reference designator assignments. In our experiments, SINA achieves 96.47% overall netlist-generation accuracy, which is 2.72x higher than state-of-the-art approaches.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T18:41:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Saoud Aldowaish</name>
+    </author>
+    <author>
+      <name>Yashwanth Karumanchi</name>
+    </author>
+    <author>
+      <name>Kai-Chen Chiang</name>
+    </author>
+    <author>
+      <name>Soroosh Noorzad</name>
+    </author>
+    <author>
+      <name>Morteza Fayazi</name>
+    </author>
+  </entry>
+</feed>

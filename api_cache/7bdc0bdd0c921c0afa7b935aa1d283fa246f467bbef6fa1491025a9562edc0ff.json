@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sTHrbN36C34i4tVC6w32JznJYjY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.08721v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.08721v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08721v1</id>
+    <title>Benevolent Dictators? On LLM Agent Behavior in Dictator Games</title>
+    <updated>2025-11-11T19:29:12Z</updated>
+    <link href="https://arxiv.org/abs/2511.08721v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08721v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In behavioral sciences, experiments such as the ultimatum game are conducted to assess preferences for fairness or self-interest of study participants. In the dictator game, a simplified version of the ultimatum game where only one of two players makes a single decision, the dictator unilaterally decides how to split a fixed sum of money between themselves and the other player. Although recent studies have explored behavioral patterns of AI agents based on Large Language Models (LLMs) instructed to adopt different personas, we question the robustness of these results. In particular, many of these studies overlook the role of the system prompt - the underlying instructions that shape the model's behavior - and do not account for how sensitive results can be to slight changes in prompts. However, a robust baseline is essential when studying highly complex behavioral aspects of LLMs. To overcome previous limitations, we propose the LLM agent behavior study (LLM-ABS) framework to (i) explore how different system prompts influence model behavior, (ii) get more reliable insights into agent preferences by using neutral prompt variations, and (iii) analyze linguistic features in responses to open-ended instructions by LLM agents to better understand the reasoning behind their behavior. We found that agents often exhibit a strong preference for fairness, as well as a significant impact of the system prompt on their behavior. From a linguistic perspective, we identify that models express their responses differently. Although prompt sensitivity remains a persistent challenge, our proposed framework demonstrates a robust foundation for LLM agent behavior studies. Our code artifacts are available at https://github.com/andreaseinwiller/LLM-ABS.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T19:29:12Z</published>
+    <arxiv:comment>7 pages, 2 figures, v1 init</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Einwiller</name>
+    </author>
+    <author>
+      <name>Kanishka Ghosh Dastidar</name>
+    </author>
+    <author>
+      <name>Artur Romazanov</name>
+    </author>
+    <author>
+      <name>Annette Hautli-Janisz</name>
+    </author>
+    <author>
+      <name>Michael Granitzer</name>
+    </author>
+    <author>
+      <name>Florian Lemmerich</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ClAAmG6xcRIXuUF6q7n/Um3uBJw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.05686&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:53:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.05686" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.05686v1</id>
+    <title>LA-RL: Language Action-guided Reinforcement Learning with Safety Guarantees for Autonomous Highway Driving</title>
+    <updated>2025-12-05T13:02:44Z</updated>
+    <link href="https://arxiv.org/abs/2512.05686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.05686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous highway driving demands a critical balance between proactive, efficiency-seeking behavior and robust safety guarantees. This paper proposes Language Action-guided Reinforcement Learning (LA-RL) with Safety Guarantees, a novel framework that integrates the semantic reasoning of large language models (LLMs) into the actor-critic architecture with an improved safety layer. Within this framework, task-specific reward shaping harmonizes the dual objectives of maximizing driving efficiency and ensuring safety, guiding decision-making based on both environmental insights and clearly defined goals. To enhance safety, LA-RL incorporates a safety-critical planner that combines model predictive control (MPC) with discrete control barrier functions (DCBFs). This layer formally constrains the LLM-informed policy to a safe action set, employs a slack mechanism that enhances solution feasibility, prevents overly conservative behavior and allows for greater policy exploration without compromising safety. Extensive experiments demonstrate that it significantly outperforms several current state-of-the-art methods, offering a more adaptive, reliable, and robust solution for autonomous highway driving. Compared to existing SOTA, it achieves approximately 20$\%$ higher success rate than the knowledge graph (KG) based baseline and about 30$\%$ higher than the retrieval augmented generation (RAG) based baseline. In low-density environments, LA-RL achieves a 100$\%$ success rate. These results confirm its enhanced exploration of the state-action space and its ability to autonomously adopt more efficient, proactive strategies in complex, mixed-traffic highway environments.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-05T13:02:44Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Yiming Shu</name>
+    </author>
+    <author>
+      <name>Jiahui Xu</name>
+    </author>
+    <author>
+      <name>Jiwei Tang</name>
+    </author>
+    <author>
+      <name>Ruiyang Gao</name>
+    </author>
+    <author>
+      <name>Chen Sun</name>
+    </author>
+  </entry>
+</feed>

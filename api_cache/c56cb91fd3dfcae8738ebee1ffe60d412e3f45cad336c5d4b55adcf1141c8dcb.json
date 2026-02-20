@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g4URWn8kIQ/u56eR5snt0V/B8P4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.01824v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.01824v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.01824v1</id>
+    <title>Simulating Environments with Reasoning Models for Agent Training</title>
+    <updated>2025-11-03T18:29:57Z</updated>
+    <link href="https://arxiv.org/abs/2511.01824v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.01824v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents excel in compact environments requiring deep reasoning but remain brittle when operating in broader, more complex contexts that demand robustness across diverse tools and schemas. Building bespoke environments for training is heavy, brittle, and limits progress. In this paper, we demonstrate that LLMs can simulate realistic environment feedback without access to actual testbed data or APIs. Inspired by this capability, we propose two frameworks: Simia-SFT, a pipeline that synthesizes SFT data by amplifying small seed sets into diverse trajectories in an environment-agnostic manner, and Simia-RL, a framework that enables RL training without real environment implementations through LLM-simulated feedback. Fine-tuning open models yields consistent improvements across multiple benchmarks, surpassing GPT-4o and approaching o4-mini on $τ^2$-Bench. Together, Simia-SFT and Simia-RL enable scalable agent training without environment engineering, replacing heavy and brittle implementations with flexible LLM-based simulation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-03T18:29:57Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuetai Li</name>
+    </author>
+    <author>
+      <name>Huseyin A Inan</name>
+    </author>
+    <author>
+      <name>Xiang Yue</name>
+    </author>
+    <author>
+      <name>Wei-Ning Chen</name>
+    </author>
+    <author>
+      <name>Lukas Wutschitz</name>
+    </author>
+    <author>
+      <name>Janardhan Kulkarni</name>
+    </author>
+    <author>
+      <name>Radha Poovendran</name>
+    </author>
+    <author>
+      <name>Robert Sim</name>
+    </author>
+    <author>
+      <name>Saravan Rajmohan</name>
+    </author>
+  </entry>
+</feed>

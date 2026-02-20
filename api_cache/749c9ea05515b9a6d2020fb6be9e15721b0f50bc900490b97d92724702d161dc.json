@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dxS7xYojcQJe4HCw1svirAlshPs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.11462&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2308.11462" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.11462v1</id>
+    <title>LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models</title>
+    <updated>2023-08-20T22:08:03Z</updated>
+    <link href="https://arxiv.org/abs/2308.11462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.11462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this question, we present LegalBench: a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six different types of legal reasoning. LegalBench was built through an interdisciplinary process, in which we collected tasks designed and hand-crafted by legal professionals. Because these subject matter experts took a leading role in construction, tasks either measure legal reasoning capabilities that are practically useful, or measure reasoning skills that lawyers find interesting. To enable cross-disciplinary conversations about LLMs in the law, we additionally show how popular legal frameworks for describing legal reasoning -- which distinguish between its many forms -- correspond to LegalBench tasks, thus giving lawyers and LLM developers a common vocabulary. This paper describes LegalBench, presents an empirical evaluation of 20 open-source and commercial LLMs, and illustrates the types of research explorations LegalBench enables.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-20T22:08:03Z</published>
+    <arxiv:comment>143 pages, 79 tables, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Neel Guha</name>
+    </author>
+    <author>
+      <name>Julian Nyarko</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Christopher Ré</name>
+    </author>
+    <author>
+      <name>Adam Chilton</name>
+    </author>
+    <author>
+      <name>Aditya Narayana</name>
+    </author>
+    <author>
+      <name>Alex Chohlas-Wood</name>
+    </author>
+    <author>
+      <name>Austin Peters</name>
+    </author>
+    <author>
+      <name>Brandon Waldon</name>
+    </author>
+    <author>
+      <name>Daniel N. Rockmore</name>
+    </author>
+    <author>
+      <name>Diego Zambrano</name>
+    </author>
+    <author>
+      <name>Dmitry Talisman</name>
+    </author>
+    <author>
+      <name>Enam Hoque</name>
+    </author>
+    <author>
+      <name>Faiz Surani</name>
+    </author>
+    <author>
+      <name>Frank Fagan</name>
+    </author>
+    <author>
+      <name>Galit Sarfaty</name>
+    </author>
+    <author>
+      <name>Gregory M. Dickinson</name>
+    </author>
+    <author>
+      <name>Haggai Porat</name>
+    </author>
+    <author>
+      <name>Jason Hegland</name>
+    </author>
+    <author>
+      <name>Jessica Wu</name>
+    </author>
+    <author>
+      <name>Joe Nudell</name>
+    </author>
+    <author>
+      <name>Joel Niklaus</name>
+    </author>
+    <author>
+      <name>John Nay</name>
+    </author>
+    <author>
+      <name>Jonathan H. Choi</name>
+    </author>
+    <author>
+      <name>Kevin Tobia</name>
+    </author>
+    <author>
+      <name>Margaret Hagan</name>
+    </author>
+    <author>
+      <name>Megan Ma</name>
+    </author>
+    <author>
+      <name>Michael Livermore</name>
+    </author>
+    <author>
+      <name>Nikon Rasumov-Rahe</name>
+    </author>
+    <author>
+      <name>Nils Holzenberger</name>
+    </author>
+    <author>
+      <name>Noam Kolt</name>
+    </author>
+    <author>
+      <name>Peter Henderson</name>
+    </author>
+    <author>
+      <name>Sean Rehaag</name>
+    </author>
+    <author>
+      <name>Sharad Goel</name>
+    </author>
+    <author>
+      <name>Shang Gao</name>
+    </author>
+    <author>
+      <name>Spencer Williams</name>
+    </author>
+    <author>
+      <name>Sunny Gandhi</name>
+    </author>
+    <author>
+      <name>Tom Zur</name>
+    </author>
+    <author>
+      <name>Varun Iyer</name>
+    </author>
+    <author>
+      <name>Zehua Li</name>
+    </author>
+  </entry>
+</feed>

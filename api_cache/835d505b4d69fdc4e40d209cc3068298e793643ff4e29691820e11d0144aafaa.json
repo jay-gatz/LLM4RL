@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JmIIc0658J+zGAz93At8/I/DT0c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18692v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18692v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18692v1</id>
+    <title>A Pragmatic VLA Foundation Model</title>
+    <updated>2026-01-26T17:08:04Z</updated>
+    <link href="https://arxiv.org/abs/2601.18692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Offering great potential in robotic manipulation, a capable Vision-Language-Action (VLA) foundation model is expected to faithfully generalize across tasks and platforms while ensuring cost efficiency (e.g., data and GPU hours required for adaptation). To this end, we develop LingBot-VLA with around 20,000 hours of real-world data from 9 popular dual-arm robot configurations. Through a systematic assessment on 3 robotic platforms, each completing 100 tasks with 130 post-training episodes per task, our model achieves clear superiority over competitors, showcasing its strong performance and broad generalizability. We have also built an efficient codebase, which delivers a throughput of 261 samples per second per GPU with an 8-GPU training setup, representing a 1.5~2.8$\times$ (depending on the relied VLM base model) speedup over existing VLA-oriented codebases. The above features ensure that our model is well-suited for real-world deployment. To advance the field of robot learning, we provide open access to the code, base model, and benchmark data, with a focus on enabling more challenging tasks and promoting sound evaluation standards.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T17:08:04Z</published>
+    <arxiv:comment>Project Webpage: https://technology.robbyant.com/lingbot-vla/, Code: https://github.com/Robbyant/lingbot-vla/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wei Wu</name>
+    </author>
+    <author>
+      <name>Fan Lu</name>
+    </author>
+    <author>
+      <name>Yunnan Wang</name>
+    </author>
+    <author>
+      <name>Shuai Yang</name>
+    </author>
+    <author>
+      <name>Shi Liu</name>
+    </author>
+    <author>
+      <name>Fangjing Wang</name>
+    </author>
+    <author>
+      <name>Qian Zhu</name>
+    </author>
+    <author>
+      <name>He Sun</name>
+    </author>
+    <author>
+      <name>Yong Wang</name>
+    </author>
+    <author>
+      <name>Shuailei Ma</name>
+    </author>
+    <author>
+      <name>Yiyu Ren</name>
+    </author>
+    <author>
+      <name>Kejia Zhang</name>
+    </author>
+    <author>
+      <name>Hui Yu</name>
+    </author>
+    <author>
+      <name>Jingmei Zhao</name>
+    </author>
+    <author>
+      <name>Shuai Zhou</name>
+    </author>
+    <author>
+      <name>Zhenqi Qiu</name>
+    </author>
+    <author>
+      <name>Houlong Xiong</name>
+    </author>
+    <author>
+      <name>Ziyu Wang</name>
+    </author>
+    <author>
+      <name>Zechen Wang</name>
+    </author>
+    <author>
+      <name>Ran Cheng</name>
+    </author>
+    <author>
+      <name>Yong-Lu Li</name>
+    </author>
+    <author>
+      <name>Yongtao Huang</name>
+    </author>
+    <author>
+      <name>Xing Zhu</name>
+    </author>
+    <author>
+      <name>Yujun Shen</name>
+    </author>
+    <author>
+      <name>Kecheng Zheng</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qnnSVdyX9kgriA/WFbpY3kfUY3U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00759v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00759v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00759v1</id>
+    <title>Adaptive Ability Decomposing for Unlocking Large Reasoning Model Effective Reinforcement Learning</title>
+    <updated>2026-01-31T14:48:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.00759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning with verifiable rewards (RLVR) has shown great potential to enhance the reasoning ability of large language models (LLMs). However, due to the limited amount of information provided during the RLVR process, the model can only engage in largely blind exploration, which often results in failure on challenging problems. To provide additional information for the RLVR process without relying on a teacher model, we propose A$^2$D, an Adaptive Ability Decomposing method for enhancing the effectiveness of RLVR. Specifically, we first train a decomposer via RLVR without distillation, enabling it to decompose complex questions into a set of simpler sub-questions. Next, we use this decomposer to annotate sub-questions for each question in the training dataset, and then train the reasoner under RLVR with sub-question guidance. To better understand A$^2$D, we first compare its performance with competitive baselines, showing its effectiveness. Next, we observe that our method functions as a plug-and-play module that can be applied to different RLVR algorithms. Furthermore, we conduct an analysis of the decomposer, revealing how the RLVR process affects its performance and behavior, and which type of guidance is better suited for enhancing the reasoner's exploration and exploitation abilities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T14:48:23Z</published>
+    <arxiv:comment>21 pages, Working in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhipeng Chen</name>
+    </author>
+    <author>
+      <name>Xiaobo Qin</name>
+    </author>
+    <author>
+      <name>Wayne Xin Zhao</name>
+    </author>
+    <author>
+      <name>Youbin Wu</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+  </entry>
+</feed>

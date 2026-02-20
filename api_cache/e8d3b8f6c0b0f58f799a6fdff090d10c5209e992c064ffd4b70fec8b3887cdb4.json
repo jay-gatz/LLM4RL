@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W7TDmfYKAykXLqKc6kwdalA2wC8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.20270v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.20270v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.20270v1</id>
+    <title>ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases</title>
+    <updated>2025-10-23T06:58:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.20270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.20270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The tendency to find and exploit "shortcuts" to complete tasks poses significant risks for reliable assessment and deployment of large language models (LLMs). For example, an LLM agent with access to unit tests may delete failing tests rather than fix the underlying bug. Such behavior undermines both the validity of benchmark results and the reliability of real-world LLM coding assistant deployments.
+  To quantify, study, and mitigate such behavior, we introduce ImpossibleBench, a benchmark framework that systematically measures LLM agents' propensity to exploit test cases. ImpossibleBench creates "impossible" variants of tasks from existing benchmarks like LiveCodeBench and SWE-bench by introducing direct conflicts between the natural-language specification and the unit tests. We measure an agent's "cheating rate" as its pass rate on these impossible tasks, where any pass necessarily implies a specification-violating shortcut.
+  As a practical framework, ImpossibleBench is not just an evaluation but a versatile tool. We demonstrate its utility for: (1) studying model behaviors, revealing more fine-grained details of cheating behaviors from simple test modification to complex operator overloading; (2) context engineering, showing how prompt, test access and feedback loop affect cheating rates; and (3) developing monitoring tools, providing a testbed with verified deceptive solutions. We hope ImpossibleBench serves as a useful framework for building more robust and reliable LLM systems.
+  Our implementation can be found at https://github.com/safety-research/impossiblebench.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-23T06:58:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziqian Zhong</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+  </entry>
+</feed>

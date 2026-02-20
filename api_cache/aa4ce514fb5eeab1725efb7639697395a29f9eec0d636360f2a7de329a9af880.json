@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Thxy3kq7S1U9fQbkHF+bMpQSHh0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16149v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:56:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16149v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16149v1</id>
+    <title>Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing</title>
+    <updated>2026-02-18T02:47:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.16149v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16149v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Demographic bias in text-to-image (T2I) generation is well studied, yet demographic-conditioned failures in instruction-guided image-to-image (I2I) editing remain underexplored. We examine whether identical edit instructions yield systematically different outcomes across subject demographics in open-weight I2I editors. We formalize two failure modes: Soft Erasure, where edits are silently weakened or ignored in the output image, and Stereotype Replacement, where edits introduce unrequested, stereotype-consistent attributes. We introduce a controlled benchmark that probes demographic-conditioned behavior by generating and editing portraits conditioned on race, gender, and age using a diagnostic prompt set, and evaluate multiple editors with vision-language model (VLM) scoring and human evaluation. Our analysis shows that identity preservation failures are pervasive, demographically uneven, and shaped by implicit social priors, including occupation-driven gender inference. Finally, we demonstrate that a prompt-level identity constraint, without model updates, can substantially reduce demographic change for minority groups while leaving majority-group portraits largely unchanged, revealing asymmetric identity priors in current editors. Together, our findings establish identity preservation as a central and demographically uneven failure mode in I2I editing and motivate demographic-robust editing systems. Project page: https://seochan99.github.io/i2i-demographic-bias</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T02:47:36Z</published>
+    <arxiv:comment>19 pages, 13 figures. Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Huichan Seo</name>
+    </author>
+    <author>
+      <name>Minki Hong</name>
+    </author>
+    <author>
+      <name>Sieun Choi</name>
+    </author>
+    <author>
+      <name>Jihie Kim</name>
+    </author>
+    <author>
+      <name>Jean Oh</name>
+    </author>
+  </entry>
+</feed>

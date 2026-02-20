@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j/gzc5eMDFpUoWFSSjY14qiBJao</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14778v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:56:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14778v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14778v2</id>
+    <title>A Geometric Analysis of Small-sized Language Model Hallucinations</title>
+    <updated>2026-02-17T19:50:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.14778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hallucinations -- fluent but factually incorrect responses -- pose a major challenge to the reliability of language models, especially in multi-step or agentic settings.
+  This work investigates hallucinations in small-sized LLMs through a geometric perspective, starting from the hypothesis that when models generate multiple responses to the same prompt, genuine ones exhibit tighter clustering in the embedding space, we prove this hypothesis and, leveraging this geometrical insight, we also show that it is possible to achieve a consistent level of separability. This latter result is used to introduce a label-efficient propagation method that classifies large collections of responses from just 30-50 annotations, achieving F1 scores above 90%.
+  Our findings, framing hallucinations from a geometric perspective in the embedding space, complement traditional knowledge-centric and single-response evaluation paradigms, paving the way for further research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T14:29:55Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Emanuele Ricco</name>
+    </author>
+    <author>
+      <name>Elia Onofri</name>
+    </author>
+    <author>
+      <name>Lorenzo Cima</name>
+    </author>
+    <author>
+      <name>Stefano Cresci</name>
+    </author>
+    <author>
+      <name>Roberto Di Pietro</name>
+    </author>
+  </entry>
+</feed>

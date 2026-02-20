@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N7JWrC4T6Jqz4bZXiB42hgwZ0FA</id>
+  <title>arXiv Query: search_query=all:"SayCan"&amp;id_list=&amp;start=0&amp;max_results=6</title>
+  <updated>2026-02-19T16:35:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22SayCan%22&amp;start=0&amp;max_results=6&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>6</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.00570v1</id>
+    <title>ConceptBot: Enhancing Robot's Autonomy through Task Decomposition with Large Language Models and Knowledge Graph</title>
+    <updated>2025-08-30T17:31:52Z</updated>
+    <link href="https://arxiv.org/abs/2509.00570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.00570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ConceptBot is a modular robotic planning framework that combines Large Language Models and Knowledge Graphs to generate feasible and risk-aware plans despite ambiguities in natural language instructions and correctly analyzing the objects present in the environment - challenges that typically arise from a lack of commonsense reasoning. To do that, ConceptBot integrates (i) an Object Property Extraction (OPE) module that enriches scene understanding with semantic concepts from ConceptNet, (ii) a User Request Processing (URP) module that disambiguates and structures instructions, and (iii) a Planner that generates context-aware, feasible pick-and-place policies. In comparative evaluations against Google SayCan, ConceptBot achieved 100% success on explicit tasks, maintained 87% accuracy on implicit tasks (versus 31% for SayCan), reached 76% on risk-aware tasks (versus 15%), and outperformed SayCan in application-specific scenarios, including material classification (70% vs. 20%) and toxicity detection (86% vs. 36%). On SafeAgentBench, ConceptBot achieved an overall score of 80% (versus 46% for the next-best baseline). These results, validated in both simulation and laboratory experiments, demonstrate ConceptBot's ability to generalize without domain-specific training and to significantly improve the reliability of robotic policies in unstructured environments. Website: https://sites.google.com/view/conceptbot</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-30T17:31:52Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Alessandro Leanza</name>
+    </author>
+    <author>
+      <name>Angelo Moroncelli</name>
+    </author>
+    <author>
+      <name>Giuseppe Vizzari</name>
+    </author>
+    <author>
+      <name>Francesco Braghin</name>
+    </author>
+    <author>
+      <name>Loris Roveda</name>
+    </author>
+    <author>
+      <name>Blerina Spahiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.09935v3</id>
+    <title>CAPE: Corrective Actions from Precondition Errors using Large Language Models</title>
+    <updated>2024-03-09T13:53:47Z</updated>
+    <link href="https://arxiv.org/abs/2211.09935v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.09935v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extracting commonsense knowledge from a large language model (LLM) offers a path to designing intelligent robots. Existing approaches that leverage LLMs for planning are unable to recover when an action fails and often resort to retrying failed actions, without resolving the error's underlying cause. We propose a novel approach (CAPE) that attempts to propose corrective actions to resolve precondition errors during planning. CAPE improves the quality of generated plans by leveraging few-shot reasoning from action preconditions. Our approach enables embodied agents to execute more tasks than baseline methods while ensuring semantic correctness and minimizing re-prompting. In VirtualHome, CAPE generates executable plans while improving a human-annotated plan correctness metric from 28.89% to 49.63% over SayCan. Our improvements transfer to a Boston Dynamics Spot robot initialized with a set of skills (specified in language) and associated preconditions, where CAPE improves the correctness metric of the executed task plans by 76.49% compared to SayCan. Our approach enables the robot to follow natural language commands and robustly recover from failures, which baseline approaches largely cannot resolve or address inefficiently.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-17T23:14:51Z</published>
+    <arxiv:comment>17 pages, 6 figures, accepted at ICRA 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shreyas Sundara Raman</name>
+    </author>
+    <author>
+      <name>Vanya Cohen</name>
+    </author>
+    <author>
+      <name>Ifrah Idrees</name>
+    </author>
+    <author>
+      <name>Eric Rosen</name>
+    </author>
+    <author>
+      <name>Ray Mooney</name>
+    </author>
+    <author>
+      <name>Stefanie Tellex</name>
+    </author>
+    <author>
+      <name>David Paulius</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10778v2</id>
+    <title>AutoGPT+P: Affordance-based Task Planning with Large Language Models</title>
+    <updated>2024-07-23T14:56:03Z</updated>
+    <link href="https://arxiv.org/abs/2402.10778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in task planning leverage Large Language Models (LLMs) to improve generalizability by combining such models with classical planning algorithms to address their inherent limitations in reasoning capabilities. However, these approaches face the challenge of dynamically capturing the initial state of the task planning problem. To alleviate this issue, we propose AutoGPT+P, a system that combines an affordance-based scene representation with a planning system. Affordances encompass the action possibilities of an agent on the environment and objects present in it. Thus, deriving the planning domain from an affordance-based scene representation allows symbolic planning with arbitrary objects. AutoGPT+P leverages this representation to derive and execute a plan for a task specified by the user in natural language. In addition to solving planning tasks under a closed-world assumption, AutoGPT+P can also handle planning with incomplete information, e. g., tasks with missing objects by exploring the scene, suggesting alternatives, or providing a partial plan. The affordance-based scene representation combines object detection with an automatically generated object-affordance-mapping using ChatGPT. The core planning tool extends existing work by automatically correcting semantic and syntactic errors. Our approach achieves a success rate of 98%, surpassing the current 81% success rate of the current state-of-the-art LLM-based planning method SayCan on the SayCan instruction set. Furthermore, we evaluated our approach on our newly created dataset with 150 scenarios covering a wide range of complex tasks with missing objects, achieving a success rate of 79% on our dataset. The dataset and the code are publicly available at https://git.h2t.iar.kit.edu/birr/autogpt-p-standalone.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-16T16:00:50Z</published>
+    <arxiv:comment>13 pages, 18 pages including references and appendix, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Timo Birr</name>
+    </author>
+    <author>
+      <name>Christoph Pohl</name>
+    </author>
+    <author>
+      <name>Abdelrahman Younes</name>
+    </author>
+    <author>
+      <name>Tamim Asfour</name>
+    </author>
+    <arxiv:doi>10.15607/RSS.2024.XX.112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.15607/RSS.2024.XX.112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19339v1</id>
+    <title>Towards Humanoid Robot Autonomy: A Dynamic Architecture Integrating Continuous thought Machines (CTM) and Model Context Protocol (MCP)</title>
+    <updated>2025-05-25T22:12:35Z</updated>
+    <link href="https://arxiv.org/abs/2505.19339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To address the gaps between the static pre-set "thinking-planning-action" of humanoid robots in unfamiliar scenarios and the highly programmed "call tool-return result" due to the lack of autonomous coding capabilities, this work designs a dynamic architecture connecting continuous thought machines (CTM) and model context protocol (MCP). It proposes a theoretical parallel solution through tick-slab and uses rank compression to achieve parameter suppression to provide a solution for achieving autonomous actions due to autonomous coding. The researcher used a simulation-based experiment using OpenAI's o4-mini-high as a tool to build the experimental environment, and introduced the extended SayCan dataset to conduct nine epochs of experiments. The experimental results show that the CTM-MCP architecture is feasible and effective through the data results of seven metrics: task success rate (TSR), execution success rate (ESR), average episode length (AEL), ROSCOE, REVEAL, proficiency self-assessment (PSA), task effectiveness (TE). In practice, it provides a reference experience for exploring the autonomous dynamic coding of humanoid robots based on continuous thinking to achieve human-like autonomous actions.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-25T22:12:35Z</published>
+    <arxiv:comment>The relevant architecture code and some experimental records have been uploaded to the GitHub repository for sharing: https://github.com/brucewang123456789/GeniusTrail/tree/main/CTM-MCP</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Libo Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22332v2</id>
+    <title>Local Policies Enable Zero-shot Long-horizon Manipulation</title>
+    <updated>2025-03-10T00:54:50Z</updated>
+    <link href="https://arxiv.org/abs/2410.22332v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22332v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sim2real for robotic manipulation is difficult due to the challenges of simulating complex contacts and generating realistic task distributions. To tackle the latter problem, we introduce ManipGen, which leverages a new class of policies for sim2real transfer: local policies. Locality enables a variety of appealing properties including invariances to absolute robot and object pose, skill ordering, and global scene configuration. We combine these policies with foundation models for vision, language and motion planning and demonstrate SOTA zero-shot performance of our method to Robosuite benchmark tasks in simulation (97%). We transfer our local policies from simulation to reality and observe they can solve unseen long-horizon manipulation tasks with up to 8 stages with significant pose, object and scene configuration variation. ManipGen outperforms SOTA approaches such as SayCan, OpenVLA, LLMTrajGen and VoxPoser across 50 real-world manipulation tasks by 36%, 76%, 62% and 60% respectively. Video results at https://mihdalal.github.io/manipgen/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T17:59:55Z</published>
+    <arxiv:comment>ICRA 2025 accepted paper. Main Paper 7 pages, 3 tables, 3 figures. Appendix 6 pages, 2 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Murtaza Dalal</name>
+    </author>
+    <author>
+      <name>Min Liu</name>
+    </author>
+    <author>
+      <name>Walter Talbott</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Deepak Pathak</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.00188v1</id>
+    <title>DataAgent: Evaluating Large Language Models' Ability to Answer Zero-Shot, Natural Language Queries</title>
+    <updated>2024-03-29T22:59:34Z</updated>
+    <link href="https://arxiv.org/abs/2404.00188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.00188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional processes for analyzing datasets and extracting meaningful information are often time-consuming and laborious. Previous work has identified manual, repetitive coding and data collection as major obstacles that hinder data scientists from undertaking more nuanced labor and high-level projects. To combat this, we evaluated OpenAI's GPT-3.5 as a "Language Data Scientist" (LDS) that can extrapolate key findings, including correlations and basic information, from a given dataset. The model was tested on a diverse set of benchmark datasets to evaluate its performance across multiple standards, including data science code-generation based tasks involving libraries such as NumPy, Pandas, Scikit-Learn, and TensorFlow, and was broadly successful in correctly answering a given data science query related to the benchmark dataset. The LDS used various novel prompt engineering techniques to effectively answer a given question, including Chain-of-Thought reinforcement and SayCan prompt engineering. Our findings demonstrate great potential for leveraging Large Language Models for low-level, zero-shot data analysis.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-29T22:59:34Z</published>
+    <arxiv:comment>5 pages, Submitted to International Conference on AI in Cybersecurity</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Manit Mishra</name>
+    </author>
+    <author>
+      <name>Abderrahman Braham</name>
+    </author>
+    <author>
+      <name>Charles Marsom</name>
+    </author>
+    <author>
+      <name>Bryan Chung</name>
+    </author>
+    <author>
+      <name>Gavin Griffin</name>
+    </author>
+    <author>
+      <name>Dakshesh Sidnerlikar</name>
+    </author>
+    <author>
+      <name>Chatanya Sarin</name>
+    </author>
+    <author>
+      <name>Arjun Rajaram</name>
+    </author>
+    <arxiv:doi>10.1109/ICAIC60265.2024.10433803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICAIC60265.2024.10433803" title="doi"/>
+  </entry>
+</feed>

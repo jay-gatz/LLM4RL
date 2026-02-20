@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EGD7wPOfsAUmMU86enJA7cILvqQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.02662&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:08:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2302.02662" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02662v5</id>
+    <title>Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning</title>
+    <updated>2026-01-30T12:18:04Z</updated>
+    <link href="https://arxiv.org/abs/2302.02662v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02662v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent works successfully leveraged Large Language Models' (LLM) abilities to capture abstract knowledge about world's physics to solve decision-making problems. Yet, the alignment between LLMs' knowledge and the environment can be wrong and limit functional competence due to lack of grounding. In this paper, we study an approach (named GLAM) to achieve this alignment through functional grounding: we consider an agent using an LLM as a policy that is progressively updated as the agent interacts with the environment, leveraging online Reinforcement Learning to improve its performance to solve goals. Using an interactive textual environment designed to study higher-level forms of functional grounding, and a set of spatial and navigation tasks, we study several scientific questions: 1) Can LLMs boost sample efficiency for online learning of various RL tasks? 2) How can it boost different forms of generalization? 3) What is the impact of online learning? We study these questions by functionally grounding several variants (size, architecture) of FLAN-T5.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T10:01:08Z</published>
+    <arxiv:comment>The associated code can be found at https://github.com/flowersteam/Grounding_LLMs_with_online_RL. This is an extended version of the paper published at ICML 2023: https://proceedings.mlr.press/v202/carta23a</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>PMLR 202 (2023):3676-3713</arxiv:journal_ref>
+    <author>
+      <name>Thomas Carta</name>
+    </author>
+    <author>
+      <name>Clément Romac</name>
+    </author>
+    <author>
+      <name>Thomas Wolf</name>
+    </author>
+    <author>
+      <name>Sylvain Lamprier</name>
+    </author>
+    <author>
+      <name>Olivier Sigaud</name>
+    </author>
+    <author>
+      <name>Pierre-Yves Oudeyer</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V3aeh9cAle4ZApJoeoCBcfEB6vw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07837v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07837v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07837v3</id>
+    <title>RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI</title>
+    <updated>2026-02-12T08:08:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.07837v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07837v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online policy learning directly in the physical world is a promising yet challenging direction for embodied intelligence. Unlike simulation, real-world systems cannot be arbitrarily accelerated, cheaply reset, or massively replicated, which makes scalable data collection, heterogeneous deployment, and long-horizon effective training difficult. These challenges suggest that real-world policy learning is not only an algorithmic issue but fundamentally a systems problem. We present USER, a Unified and extensible SystEm for Real-world online policy learning. USER treats physical robots as first-class hardware resources alongside GPUs through a unified hardware abstraction layer, enabling automatic discovery, management, and scheduling of heterogeneous robots. To address cloud-edge communication, USER introduces an adaptive communication plane with tunneling-based networking, distributed data channels for traffic localization, and streaming-multiprocessor-aware weight synchronization to regulate GPU-side overhead. On top of this infrastructure, USER organizes learning as a fully asynchronous framework with a persistent, cache-aware buffer, enabling efficient long-horizon experiments with robust crash recovery and reuse of historical data. In addition, USER provides extensible abstractions for rewards, algorithms, and policies, supporting online imitation or reinforcement learning of CNN/MLP, generative policies, and large vision-language-action (VLA) models within a unified pipeline. Results in both simulation and the real world show that USER enables multi-robot coordination, heterogeneous manipulators, edge-cloud collaboration with large models, and long-running asynchronous training, offering a unified and extensible systems foundation for real-world online policy learning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T06:23:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hongzhi Zang</name>
+    </author>
+    <author>
+      <name>Shu'ang Yu</name>
+    </author>
+    <author>
+      <name>Hao Lin</name>
+    </author>
+    <author>
+      <name>Tianxing Zhou</name>
+    </author>
+    <author>
+      <name>Zefang Huang</name>
+    </author>
+    <author>
+      <name>Zhen Guo</name>
+    </author>
+    <author>
+      <name>Xin Xu</name>
+    </author>
+    <author>
+      <name>Jiakai Zhou</name>
+    </author>
+    <author>
+      <name>Yuze Sheng</name>
+    </author>
+    <author>
+      <name>Shizhe Zhang</name>
+    </author>
+    <author>
+      <name>Feng Gao</name>
+    </author>
+    <author>
+      <name>Wenhao Tang</name>
+    </author>
+    <author>
+      <name>Yufeng Yue</name>
+    </author>
+    <author>
+      <name>Quanlu Zhang</name>
+    </author>
+    <author>
+      <name>Xinlei Chen</name>
+    </author>
+    <author>
+      <name>Chao Yu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+</feed>

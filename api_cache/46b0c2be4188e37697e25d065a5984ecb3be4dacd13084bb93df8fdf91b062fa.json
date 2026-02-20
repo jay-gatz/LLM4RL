@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vF0Hg24OKc3l5+3dLMu0rBUGnxo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02383v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02383v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02383v2</id>
+    <title>SLIME: Stabilized Likelihood Implicit Margin Enforcement for Preference Optimization</title>
+    <updated>2026-02-03T13:58:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.02383v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02383v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct preference optimization methods have emerged as a computationally efficient alternative to Reinforcement Learning from Human Feedback (RLHF) for aligning Large Language Models (LLMs). Latest approaches have streamlined the alignment process by deriving implicit reward functions, yet they often suffer from a critical objective mismatch: optimizing the relative margin between chosen and rejected responses does not guarantee the preservation of the chosen response's absolute likelihood. This can lead to unlearning, where the model degrades the probability of high-quality outputs to satisfy margin constraints, and formatting collapse caused by the over-penalization of rejected sequences. In this work, we introduce SLIME (Stabilized Likelihood Implicit Margin Enforcement), a reference-free alignment objective designed to decouple preference learning from generation quality. SLIME incorporates a three-pronged objective: (1) an anchoring term to maximize the likelihood of preferred responses; (2) a stabilizing penalty that prevents the probabilities of rejected tokens from collapsing to zero; and (3) a dual-margin mechanism that combines hard and soft constraints for precise boundary shaping. Our results demonstrate that SLIME achieves superior performance compared to state-of-the-art baselines while maintaining higher generation stability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T17:46:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maksim Afanasyev</name>
+    </author>
+    <author>
+      <name>Illarion Iov</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MH17Tw9CR5pfcXkYuK7RY2ovbks</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15353v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15353v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15353v1</id>
+    <title>NeuroSymActive: Differentiable Neural-Symbolic Reasoning with Active Exploration for Knowledge Graph Question Answering</title>
+    <updated>2026-02-17T04:47:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.15353v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15353v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large pretrained language models and neural reasoning systems have advanced many natural language tasks, yet they remain challenged by knowledge-intensive queries that require precise, structured multi-hop inference. Knowledge graphs provide a compact symbolic substrate for factual grounding, but integrating graph structure with neural models is nontrivial: naively embedding graph facts into prompts leads to inefficiency and fragility, while purely symbolic or search-heavy approaches can be costly in retrievals and lack gradient-based refinement. We introduce NeuroSymActive, a modular framework that combines a differentiable neural-symbolic reasoning layer with an active, value-guided exploration controller for Knowledge Graph Question Answering. The method couples soft-unification style symbolic modules with a neural path evaluator and a Monte-Carlo style exploration policy that prioritizes high-value path expansions. Empirical results on standard KGQA benchmarks show that NeuroSymActive attains strong answer accuracy while reducing the number of expensive graph lookups and model calls compared to common retrieval-augmented baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T04:47:29Z</published>
+    <arxiv:comment>26 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rong Fu</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Jiekai Wu</name>
+    </author>
+    <author>
+      <name>Yaohua Liu</name>
+    </author>
+    <author>
+      <name>Shuaishuai Cao</name>
+    </author>
+    <author>
+      <name>Yangchen Zeng</name>
+    </author>
+    <author>
+      <name>Yuhang Zhang</name>
+    </author>
+    <author>
+      <name>Xiaojing Du</name>
+    </author>
+    <author>
+      <name>Chuang Zhao</name>
+    </author>
+    <author>
+      <name>Kangning Cui</name>
+    </author>
+    <author>
+      <name>Simon Fong</name>
+    </author>
+  </entry>
+</feed>

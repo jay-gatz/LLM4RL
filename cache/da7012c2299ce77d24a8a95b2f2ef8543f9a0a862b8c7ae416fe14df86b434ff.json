@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kHitsCWRA61V1w7FJQ2skzg8jSc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11780v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11780v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11780v1</id>
+    <title>RELATE: A Reinforcement Learning-Enhanced LLM Framework for Advertising Text Generation</title>
+    <updated>2026-02-12T10:00:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.11780v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11780v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In online advertising, advertising text plays a critical role in attracting user engagement and driving advertiser value. Existing industrial systems typically follow a two-stage paradigm, where candidate texts are first generated and subsequently aligned with online performance metrics such as click-through rate(CTR). This separation often leads to misaligned optimization objectives and low funnel efficiency, limiting global optimality.
+  To address these limitations, we propose RELATE, a reinforcement learning-based end-to-end framework that unifies generation and objective alignment within a single model. Instead of decoupling text generation from downstream metric alignment, RELATE integrates performance and compliance objectives directly into the generation process via policy learning. To better capture ultimate advertiser value beyond click-level signals, We incorporate conversion-oriented metrics into the objective and jointly model them with compliance constraints as multi-dimensional rewards, enabling the model to generate high-quality ad texts that improve conversion performance under policy constraints.
+  Extensive experiments on large-scale industrial datasets demonstrate that RELATE consistently outperforms baselines. Furthermore, online deployment on a production advertising platform yields statistically significant improvements in click-through conversion rate(CTCVR) under strict policy constraints, validating the robustness and real-world effectiveness of the proposed framework.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T10:00:55Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jinfang Wang</name>
+    </author>
+    <author>
+      <name>Jiajie Liu</name>
+    </author>
+    <author>
+      <name>Jianwei Wu</name>
+    </author>
+    <author>
+      <name>Ziqin Luo</name>
+    </author>
+    <author>
+      <name>Zhen Chen</name>
+    </author>
+    <author>
+      <name>Chunlei Li</name>
+    </author>
+    <author>
+      <name>Biao Han</name>
+    </author>
+    <author>
+      <name>Tao Deng</name>
+    </author>
+    <author>
+      <name>Yi Li</name>
+    </author>
+    <author>
+      <name>Shuanglong Li</name>
+    </author>
+    <author>
+      <name>Lin Liu</name>
+    </author>
+  </entry>
+</feed>

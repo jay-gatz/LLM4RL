@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/quwKAQezGO+YoYtuqVXIgOZJQOo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.05867v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.05867v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05867v1</id>
+    <title>Self-Training Large Language Models for Tool-Use Without Demonstrations</title>
+    <updated>2025-02-09T12:06:10Z</updated>
+    <link href="https://arxiv.org/abs/2502.05867v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05867v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) remain prone to factual inaccuracies and computational errors, including hallucinations and mistakes in mathematical reasoning. Recent work augmented LLMs with tools to mitigate these shortcomings, but often requires curated gold tool-use demonstrations. In this paper, we investigate whether LLMs can learn to use tools without demonstrations. First, we analyse zero-shot prompting strategies to guide LLMs in tool utilisation. Second, we propose a self-training method to synthesise tool-use traces using the LLM itself. We compare supervised fine-tuning and preference fine-tuning techniques for fine-tuning the model on datasets constructed using existing Question Answering (QA) datasets, i.e., TriviaQA and GSM8K. Experiments show that tool-use enhances performance on a long-tail knowledge task: 3.7% on PopQA, which is used solely for evaluation, but leads to mixed results on other datasets, i.e., TriviaQA, GSM8K, and NQ-Open. Our findings highlight the potential and challenges of integrating external tools into LLMs without demonstrations.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T12:06:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ne Luo</name>
+    </author>
+    <author>
+      <name>Aryo Pradipta Gema</name>
+    </author>
+    <author>
+      <name>Xuanli He</name>
+    </author>
+    <author>
+      <name>Emile van Krieken</name>
+    </author>
+    <author>
+      <name>Pietro Lesci</name>
+    </author>
+    <author>
+      <name>Pasquale Minervini</name>
+    </author>
+  </entry>
+</feed>

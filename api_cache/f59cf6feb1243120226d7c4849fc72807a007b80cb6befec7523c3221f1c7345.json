@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5nclnZH9KnmOXWWiKmbMZUsSwx4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01025v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01025v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01025v1</id>
+    <title>Toward Universal and Transferable Jailbreak Attacks on Vision-Language Models</title>
+    <updated>2026-02-01T05:18:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.01025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) extend large language models (LLMs) with vision encoders, enabling text generation conditioned on both images and text. However, this multimodal integration expands the attack surface by exposing the model to image-based jailbreaks crafted to induce harmful responses. Existing gradient-based jailbreak methods transfer poorly, as adversarial patterns overfit to a single white-box surrogate and fail to generalise to black-box models. In this work, we propose Universal and transferable jailbreak (UltraBreak), a framework that constrains adversarial patterns through transformations and regularisation in the vision space, while relaxing textual targets through semantic-based objectives. By defining its loss in the textual embedding space of the target LLM, UltraBreak discovers universal adversarial patterns that generalise across diverse jailbreak objectives. This combination of vision-level regularisation and semantically guided textual supervision mitigates surrogate overfitting and enables strong transferability across both models and attack targets. Extensive experiments show that UltraBreak consistently outperforms prior jailbreak methods. Further analysis reveals why earlier approaches fail to transfer, highlighting that smoothing the loss landscape via semantic objectives is crucial for enabling universal and transferable jailbreaks. The code is publicly available in our \href{https://github.com/kaiyuanCui/UltraBreak}{GitHub repository}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T05:18:47Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaiyuan Cui</name>
+    </author>
+    <author>
+      <name>Yige Li</name>
+    </author>
+    <author>
+      <name>Yutao Wu</name>
+    </author>
+    <author>
+      <name>Xingjun Ma</name>
+    </author>
+    <author>
+      <name>Sarah Erfani</name>
+    </author>
+    <author>
+      <name>Christopher Leckie</name>
+    </author>
+    <author>
+      <name>Hanxun Huang</name>
+    </author>
+  </entry>
+</feed>

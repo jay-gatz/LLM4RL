@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z0ES/LFG7ffX36UQsvQBmgHH7m0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.03560v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.03560v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03560v3</id>
+    <title>Redefining Digital Health Interfaces with Large Language Models</title>
+    <updated>2024-02-29T18:37:40Z</updated>
+    <link href="https://arxiv.org/abs/2310.03560v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03560v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Digital health tools have the potential to significantly improve the delivery of healthcare services. However, their adoption remains comparatively limited due, in part, to challenges surrounding usability and trust. Large Language Models (LLMs) have emerged as general-purpose models with the ability to process complex information and produce human-quality text, presenting a wealth of potential applications in healthcare. Directly applying LLMs in clinical settings is not straightforward, however, with LLMs susceptible to providing inconsistent or nonsensical answers. We demonstrate how LLM-based systems can utilize external tools and provide a novel interface between clinicians and digital technologies. This enhances the utility and practical impact of digital healthcare tools and AI models while addressing current issues with using LLMs in clinical settings such as hallucinations. We illustrate LLM-based interfaces with the example of cardiovascular disease risk prediction. We develop a new prognostic tool using automated machine learning and demonstrate how LLMs can provide a unique interface to both our model and existing risk scores, highlighting the benefit compared to traditional interfaces for digital tools.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T14:18:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fergus Imrie</name>
+    </author>
+    <author>
+      <name>Paulius Rauba</name>
+    </author>
+    <author>
+      <name>Mihaela van der Schaar</name>
+    </author>
+  </entry>
+</feed>

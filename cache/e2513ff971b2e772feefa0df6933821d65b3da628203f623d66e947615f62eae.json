@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CT40IWivwW4zo4Jubn1kw2mT48M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10698v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10698v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10698v1</id>
+    <title>AugVLA-3D: Depth-Driven Feature Augmentation for Vision-Language-Action Models</title>
+    <updated>2026-02-11T09:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.10698v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10698v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have recently achieved remarkable progress in robotic perception and control, yet most existing approaches primarily rely on VLM trained using 2D images, which limits their spatial understanding and action grounding in complex 3D environments. To address this limitation, we propose a novel framework that integrates depth estimation into VLA models to enrich 3D feature representations. Specifically, we employ a depth estimation baseline called VGGT to extract geometry-aware 3D cues from standard RGB inputs, enabling efficient utilization of existing large-scale 2D datasets while implicitly recovering 3D structural information. To further enhance the reliability of these depth-derived features, we introduce a new module called action assistant, which constrains the learned 3D representations with action priors and ensures their consistency with downstream control tasks. By fusing the enhanced 3D features with conventional 2D visual tokens, our approach significantly improves the generalization ability and robustness of VLA models. Experimental results demonstrate that the proposed method not only strengthens perception in geometrically ambiguous scenarios but also leads to superior action prediction accuracy. This work highlights the potential of depth-driven data augmentation and auxiliary expert supervision for bridging the gap between 2D observations and 3D-aware decision-making in robotic systems.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T09:57:32Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhifeng Rao</name>
+    </author>
+    <author>
+      <name>Wenlong Chen</name>
+    </author>
+    <author>
+      <name>Lei Xie</name>
+    </author>
+    <author>
+      <name>Xia Hua</name>
+    </author>
+    <author>
+      <name>Dongfu Yin</name>
+    </author>
+    <author>
+      <name>Zhen Tian</name>
+    </author>
+    <author>
+      <name>F. Richard Yu</name>
+    </author>
+  </entry>
+</feed>

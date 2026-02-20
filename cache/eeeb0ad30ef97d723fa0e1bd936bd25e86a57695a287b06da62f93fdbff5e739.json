@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZMHJeDymlaXPtz/dfN4maCrijw0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10439v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10439v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10439v1</id>
+    <title>AudioRouter: Data Efficient Audio Understanding via RL based Dual Reasoning</title>
+    <updated>2026-02-11T02:30:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.10439v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10439v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Audio Language Models (LALMs) have demonstrated strong capabilities in audio understanding and reasoning. However, their performance on fine grained auditory perception remains unreliable, and existing approaches largely rely on data intensive training to internalize perceptual abilities. We propose AudioRouter, a reinforcement learning framework that enables LALMs to improve audio understanding by learning when and how to use external audio tools. Rather than tightly coupling tool usage with audio reasoning, AudioRouter formulates tool use as an explicit decision making problem and optimizes a lightweight routing policy while keeping the underlying reasoning model frozen. Experimental results show that AudioRouter achieves substantial improvements on standard audio understanding benchmarks while requiring up to 600x less training data to learn tool usage compared with conventional training paradigms. These findings suggest that learning effective tool usage offers a data efficient and scalable alternative to internalizing perceptual abilities in LALMs.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T02:30:48Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Liyang Chen</name>
+    </author>
+    <author>
+      <name>Hongkai Chen</name>
+    </author>
+    <author>
+      <name>Yujun Cai</name>
+    </author>
+    <author>
+      <name>Sifan Li</name>
+    </author>
+    <author>
+      <name>Qingwen Ye</name>
+    </author>
+    <author>
+      <name>Yiwei Wang</name>
+    </author>
+  </entry>
+</feed>

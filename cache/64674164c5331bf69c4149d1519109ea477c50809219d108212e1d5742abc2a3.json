@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T9kKSCPYqqj6V4xLgHrPxEYETLI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03916v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03916v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03916v1</id>
+    <title>SpatiaLab: Can Vision-Language Models Perform Spatial Reasoning in the Wild?</title>
+    <updated>2026-02-03T17:52:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.03916v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03916v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spatial reasoning is a fundamental aspect of human cognition, yet it remains a major challenge for contemporary vision-language models (VLMs). Prior work largely relied on synthetic or LLM-generated environments with limited task designs and puzzle-like setups, failing to capture the real-world complexity, visual noise, and diverse spatial relationships that VLMs encounter. To address this, we introduce SpatiaLab, a comprehensive benchmark for evaluating VLMs' spatial reasoning in realistic, unconstrained contexts. SpatiaLab comprises 1,400 visual question-answer pairs across six major categories: Relative Positioning, Depth &amp; Occlusion, Orientation, Size &amp; Scale, Spatial Navigation, and 3D Geometry, each with five subcategories, yielding 30 distinct task types. Each subcategory contains at least 25 questions, and each main category includes at least 200 questions, supporting both multiple-choice and open-ended evaluation. Experiments across diverse state-of-the-art VLMs, including open- and closed-source models, reasoning-focused, and specialized spatial reasoning models, reveal a substantial gap in spatial reasoning capabilities compared with humans. In the multiple-choice setup, InternVL3.5-72B achieves 54.93% accuracy versus 87.57% for humans. In the open-ended setting, all models show a performance drop of around 10-25%, with GPT-5-mini scoring highest at 40.93% versus 64.93% for humans. These results highlight key limitations in handling complex spatial relationships, depth perception, navigation, and 3D geometry. By providing a diverse, real-world evaluation framework, SpatiaLab exposes critical challenges and opportunities for advancing VLMs' spatial reasoning, offering a benchmark to guide future research toward robust, human-aligned spatial understanding. SpatiaLab is available at: https://spatialab-reasoning.github.io/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T17:52:02Z</published>
+    <arxiv:comment>Accepted to ICLR 2026. 92 Pages. 42 Figures and 29 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Azmine Toushik Wasi</name>
+    </author>
+    <author>
+      <name>Wahid Faisal</name>
+    </author>
+    <author>
+      <name>Abdur Rahman</name>
+    </author>
+    <author>
+      <name>Mahfuz Ahmed Anik</name>
+    </author>
+    <author>
+      <name>Munem Shahriar</name>
+    </author>
+    <author>
+      <name>Mohsin Mahmud Topu</name>
+    </author>
+    <author>
+      <name>Sadia Tasnim Meem</name>
+    </author>
+    <author>
+      <name>Rahatun Nesa Priti</name>
+    </author>
+    <author>
+      <name>Sabrina Afroz Mitu</name>
+    </author>
+    <author>
+      <name>Md. Iqramul Hoque</name>
+    </author>
+    <author>
+      <name>Shahriyar Zaman Ridoy</name>
+    </author>
+    <author>
+      <name>Mohammed Eunus Ali</name>
+    </author>
+    <author>
+      <name>Majd Hawasly</name>
+    </author>
+    <author>
+      <name>Mohammad Raza</name>
+    </author>
+    <author>
+      <name>Md Rizwan Parvez</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6liiv/lt9QLLGzgbkHSePylGj6s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14233v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14233v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14233v1</id>
+    <title>Evaluating LLMs in Finance Requires Explicit Bias Consideration</title>
+    <updated>2026-02-15T17:02:01Z</updated>
+    <link href="https://arxiv.org/abs/2602.14233v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14233v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly integrated into financial workflows, but evaluation practice has not kept up. Finance-specific biases can inflate performance, contaminate backtests, and make reported results useless for any deployment claim. We identify five recurring biases in financial LLM applications. They include look-ahead bias, survivorship bias, narrative bias, objective bias, and cost bias. These biases break financial tasks in distinct ways and they often compound to create an illusion of validity. We reviewed 164 papers from 2023 to 2025 and found that no single bias is discussed in more than 28 percent of studies. This position paper argues that bias in financial LLM systems requires explicit attention and that structural validity should be enforced before any result is used to support a deployment claim. We propose a Structural Validity Framework and an evaluation checklist with minimal requirements for bias diagnosis and future system design. The material is available at https://github.com/Eleanorkong/Awesome-Financial-LLM-Bias-Mitigation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T17:02:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yaxuan Kong</name>
+    </author>
+    <author>
+      <name>Hoyoung Lee</name>
+    </author>
+    <author>
+      <name>Yoontae Hwang</name>
+    </author>
+    <author>
+      <name>Alejandro Lopez-Lira</name>
+    </author>
+    <author>
+      <name>Bradford Levy</name>
+    </author>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <author>
+      <name>Qingsong Wen</name>
+    </author>
+    <author>
+      <name>Chanyeol Choi</name>
+    </author>
+    <author>
+      <name>Yongjae Lee</name>
+    </author>
+    <author>
+      <name>Stefan Zohren</name>
+    </author>
+  </entry>
+</feed>

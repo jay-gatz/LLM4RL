@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ChHHMuu7CgQv3E/qinetPWsxk4c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.09572&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.09572" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09572v3</id>
+    <title>Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks</title>
+    <updated>2025-04-22T17:56:22Z</updated>
+    <link href="https://arxiv.org/abs/2503.09572v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09572v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have shown remarkable advancements in enabling language agents to tackle simple tasks. However, applying them for complex, multi-step, long-horizon tasks remains a challenge. Recent work have found success by separating high-level planning from low-level execution, which enables the model to effectively balance high-level planning objectives and low-level execution details. However, generating accurate plans remains difficult since LLMs are not inherently trained for this task. To address this, we propose Plan-and-Act, a novel framework that incorporates explicit planning into LLM-based agents and introduces a scalable method to enhance plan generation through a novel synthetic data generation method. Plan-and-Act consists of a Planner model which generates structured, high-level plans to achieve user goals, and an Executor model that translates these plans into environment-specific actions. To train the Planner effectively, we introduce a synthetic data generation method that annotates ground-truth trajectories with feasible plans, augmented with diverse and extensive examples to enhance generalization. We evaluate Plan-and-Act using web navigation as a representative long-horizon planning environment, demonstrating a state-of-the-art 57.58% success rate on the WebArena-Lite benchmark as well as a text-only state-of-the-art 81.36% success rate on WebVoyager.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T17:40:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICML 2025</arxiv:journal_ref>
+    <author>
+      <name>Lutfi Eren Erdogan</name>
+    </author>
+    <author>
+      <name>Nicholas Lee</name>
+    </author>
+    <author>
+      <name>Sehoon Kim</name>
+    </author>
+    <author>
+      <name>Suhong Moon</name>
+    </author>
+    <author>
+      <name>Hiroki Furuta</name>
+    </author>
+    <author>
+      <name>Gopala Anumanchipalli</name>
+    </author>
+    <author>
+      <name>Kurt Keutzer</name>
+    </author>
+    <author>
+      <name>Amir Gholami</name>
+    </author>
+  </entry>
+</feed>

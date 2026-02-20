@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wk+4kwYBqhlXK7jcdElM01/ohKI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15318v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15318v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15318v1</id>
+    <title>Sparrow: Text-Anchored Window Attention with Visual-Semantic Glimpsing for Speculative Decoding in Video LLMs</title>
+    <updated>2026-02-17T02:51:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.15318v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15318v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although speculative decoding is widely used to accelerate Vision-Language Models (VLMs) inference, it faces severe performance collapse when applied to Video Large Language Models (Vid-LLMs). The draft model typically falls into the trap of attention dilution and negative visual gain due to key-value cache explosion and context window mismatches. We observe a visual semantic internalization phenomenon in Vid-LLMs, indicating that critical visual semantics are implicitly encoded into text hidden states during deep-layer interactions, which renders raw visual inputs structurally redundant during deep inference. To address this, we propose the Sparrow framework, which first utilizes visually-aware text-anchored window attention via hidden state reuse to fully offload visual computation to the target model, and leverages intermediate-layer visual state bridging to train the draft model with semantic-rich intermediate states, thereby filtering out low-level visual noise. Additionally, a multi-token prediction strategy is introduced to bridge the training-inference distribution shift. Experiments show that Sparrow achieves an average speedup of 2.82x even with 25k visual tokens, effectively resolving the performance degradation in long sequences and offering a practical solution for real-time long video tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T02:51:36Z</published>
+    <arxiv:comment>15 pages , 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Libo Zhang</name>
+    </author>
+    <author>
+      <name>Zhaoning Zhang</name>
+    </author>
+    <author>
+      <name>Wangyang Hong</name>
+    </author>
+    <author>
+      <name>Peng Qiao</name>
+    </author>
+    <author>
+      <name>Dongsheng Li</name>
+    </author>
+  </entry>
+</feed>

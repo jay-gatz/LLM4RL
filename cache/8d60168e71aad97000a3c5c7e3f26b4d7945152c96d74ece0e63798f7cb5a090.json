@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1dnXwO/k39B8X39Mzshxtgc6ZKQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14763v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14763v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14763v1</id>
+    <title>Unlocking Reasoning Capability on Machine Translation in Large Language Models</title>
+    <updated>2026-02-16T14:05:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.14763v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14763v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning-oriented large language models (RLMs) achieve strong gains on tasks such as mathematics and coding by generating explicit intermediate reasoning. However, their impact on machine translation (MT) remains underexplored. We systematically evaluate several open- and closed-weights RLMs on the WMT24++ benchmark and find that enabling explicit reasoning consistently degrades translation quality across languages and models. Analysis reveals that MT reasoning traces are highly linear, lacking revision, self-correction and exploration of alternative translations, which limits their usefulness. Furthermore, injecting higher-quality reasoning traces from stronger models does not reliably improve weaker models' performance. To address this mismatch, we propose a structured reasoning framework tailored to translation, based on multi-step drafting, adequacy refinement, fluency improvement, and selective iterative revision. We curate a synthetic dataset of dynamic structured reasoning traces and post-train a large reasoning model on this data. Experiments show significant improvements over standard translation fine-tuning and injected generic reasoning baselines. Our findings demonstrate that reasoning must be task-structured to benefit MT.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T14:05:59Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sara Rajaee</name>
+    </author>
+    <author>
+      <name>Sebastian Vincent</name>
+    </author>
+    <author>
+      <name>Alexandre Berard</name>
+    </author>
+    <author>
+      <name>Marzieh Fadaee</name>
+    </author>
+    <author>
+      <name>Kelly Marchisio</name>
+    </author>
+    <author>
+      <name>Tom Kocmi</name>
+    </author>
+  </entry>
+</feed>

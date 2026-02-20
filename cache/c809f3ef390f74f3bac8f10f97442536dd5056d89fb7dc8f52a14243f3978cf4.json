@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LGV4iVdL6IoEIr4jQLpuRxg5FXw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09375v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09375v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09375v1</id>
+    <title>Latent Poincaré Shaping for Agentic Reinforcement Learning</title>
+    <updated>2026-02-10T03:35:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.09375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose LaPha, a method for training AlphaZero-like LLM agents in a Poincaré latent space. Under LaPha, the search process can be visualized as a tree rooted at the prompt and growing outward from the origin toward the boundary of the Poincaré ball, where negative curvature provides exponentially increasing capacity with radius. Using hyperbolic geodesic distance to rule-verified correctness, we define a node potential and assign dense process rewards by potential differences. We further attach a lightweight value head on the same shared latent space, enabling self-guided test-time scaling with almost no additional overhead. On MATH-500, LaPha improves Qwen2.5-Math-1.5B from 66.0% to 88.2%. With value-head-guided search, LaPha-1.5B reaches 56.7% accuracy on AIME'24, and LaPha-7B further achieves 60.0% on AIME'24 and 53.3% on AIME'25.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T03:35:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hanchen Xia</name>
+    </author>
+    <author>
+      <name>Baoyou Chen</name>
+    </author>
+    <author>
+      <name>Zelin Zang</name>
+    </author>
+    <author>
+      <name>Yutang Ge</name>
+    </author>
+    <author>
+      <name>Guojiang Zhao</name>
+    </author>
+    <author>
+      <name>Siyu Zhu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5AZmMblXflaX1gE1sVX4L/2LnA0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.15862v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.15862v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.15862v3</id>
+    <title>PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold</title>
+    <updated>2025-10-21T08:23:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.15862v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.15862v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-augmented large language models (LLMs) are emerging as deep research agents, systems that decompose complex queries, retrieve external evidence, and synthesize grounded responses. Yet current agents remain limited by shallow retrieval, weak alignment metrics, and brittle tool-use behavior. We introduce PokeeResearch-7B, a 7B-parameter deep research agent built under a unified reinforcement learning framework for robustness, alignment, and scalability. PokeeResearch-7B is trained by an annotation-free Reinforcement Learning from AI Feedback (RLAIF) framework to optimize policies using LLM-based reward signals that capture factual accuracy, citation faithfulness, and instruction adherence. A chain-of-thought-driven multi-call reasoning scaffold further enhances robustness through self-verification and adaptive recovery from tool failures. Among 10 popular deep research benchmarks, PokeeResearch-7B achieves state-of-the-art performance among 7B-scale deep research agents. This highlights that careful reinforcement learning and reasoning design can produce efficient, resilient, and research-grade AI agents. The model and inference code is open-sourced under Apache 2.0 license at https://github.com/Pokee-AI/PokeeResearchOSS.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T17:53:06Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yi Wan</name>
+    </author>
+    <author>
+      <name>Jiuqi Wang</name>
+    </author>
+    <author>
+      <name>Liam Li</name>
+    </author>
+    <author>
+      <name>Jinsong Liu</name>
+    </author>
+    <author>
+      <name>Ruihao Zhu</name>
+    </author>
+    <author>
+      <name>Zheqing Zhu</name>
+    </author>
+  </entry>
+</feed>

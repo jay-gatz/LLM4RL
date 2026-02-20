@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YwFVYRJjkQC9A9f4p9aJy0L6cFc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.12289&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T04:34:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.12289" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.12289v5</id>
+    <title>DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models</title>
+    <updated>2024-06-25T17:55:35Z</updated>
+    <link href="https://arxiv.org/abs/2402.12289v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.12289v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A primary hurdle of autonomous driving in urban environments is understanding complex and long-tail scenarios, such as challenging road conditions and delicate human behaviors. We introduce DriveVLM, an autonomous driving system leveraging Vision-Language Models (VLMs) for enhanced scene understanding and planning capabilities. DriveVLM integrates a unique combination of reasoning modules for scene description, scene analysis, and hierarchical planning. Furthermore, recognizing the limitations of VLMs in spatial reasoning and heavy computational requirements, we propose DriveVLM-Dual, a hybrid system that synergizes the strengths of DriveVLM with the traditional autonomous driving pipeline. Experiments on both the nuScenes dataset and our SUP-AD dataset demonstrate the efficacy of DriveVLM and DriveVLM-Dual in handling complex and unpredictable driving conditions. Finally, we deploy the DriveVLM-Dual on a production vehicle, verifying it is effective in real-world autonomous driving environments.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-19T17:04:04Z</published>
+    <arxiv:comment>Project Page: https://tsinghua-mars-lab.github.io/DriveVLM/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaoyu Tian</name>
+    </author>
+    <author>
+      <name>Junru Gu</name>
+    </author>
+    <author>
+      <name>Bailin Li</name>
+    </author>
+    <author>
+      <name>Yicheng Liu</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Zhiyong Zhao</name>
+    </author>
+    <author>
+      <name>Kun Zhan</name>
+    </author>
+    <author>
+      <name>Peng Jia</name>
+    </author>
+    <author>
+      <name>Xianpeng Lang</name>
+    </author>
+    <author>
+      <name>Hang Zhao</name>
+    </author>
+  </entry>
+</feed>

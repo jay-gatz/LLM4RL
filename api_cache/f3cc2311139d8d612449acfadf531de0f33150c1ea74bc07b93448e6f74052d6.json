@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Kvde78vGcGqVrshGzV0NwaMMucQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16430v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16430v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16430v1</id>
+    <title>Designing Production-Scale OCR for India: Multilingual and Domain-Specific Systems</title>
+    <updated>2026-02-18T13:03:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.16430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing Optical Character Recognition (OCR) systems for India requires balancing linguistic diversity, document heterogeneity, and deployment constraints. In this paper, we study two training strategies for building multilingual OCR systems with Vision-Language Models through the Chitrapathak series. We first follow a popular multimodal approach, pairing a generic vision encoder with a strong multilingual language model and training the system end-to-end for OCR. Alternatively, we explore fine-tuning an existing OCR model, despite not being trained for the target languages. Through extensive evaluation on multilingual Indic OCR benchmarks and deployment-oriented metrics, we find that the second strategy consistently achieves better accuracy-latency trade-offs. Chitrapathak-2 achieves 3-6x speedup over its predecessor with being state-of-the-art (SOTA) in Telugu (6.69 char ANLS) and second best in the rest. In addition, we present Parichay, an independent OCR model series designed specifically for 9 Indian government documents to extract structured key fields, achieving 89.8% Exact Match score with a faster inference. Together, these systems achieve SOTA performance and provide practical guidance for building production-scale OCR pipelines in the Indian context.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T13:03:05Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ali Faraz</name>
+    </author>
+    <author>
+      <name>Raja Kolla</name>
+    </author>
+    <author>
+      <name>Ashish Kulkarni</name>
+    </author>
+    <author>
+      <name>Shubham Agarwal</name>
+    </author>
+  </entry>
+</feed>

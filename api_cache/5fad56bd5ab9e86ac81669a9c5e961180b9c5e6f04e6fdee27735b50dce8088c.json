@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YVFg/PksTV43FhoKpgYbMWcYMCg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16200v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16200v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16200v1</id>
+    <title>The Validity of Coreference-based Evaluations of Natural Language Understanding</title>
+    <updated>2026-02-18T05:49:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.16200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this thesis, I refine our understanding as to what conclusions we can reach from coreference-based evaluations by expanding existing evaluation practices and considering the extent to which evaluation results are either converging or conflicting. First, I analyze standard coreference evaluations and show that their design often leads to non-generalizable conclusions due to issues of measurement validity - including contestedness (multiple, competing definitions of coreference) and convergent validity (evaluation results that rank models differently across benchmarks). Second, I propose and implement a novel evaluation focused on testing systems' ability to infer the relative plausibility of events, a key aspect of resolving coreference. Through this extended evaluation, I find that contemporary language models demonstrate strong performance on standard benchmarks - improving over earlier baseline systems within certain domains and types of coreference - but remain sensitive to the evaluation conditions: they often fail to generalize in ways one would expect a human to be capable of when evaluation contexts are slightly modified. Taken together, these findings clarify both the strengths, such as improved accuracy over baselines on widely used evaluations, and the limitations of the current NLP paradigm, including weaknesses in measurement validity, and suggest directions for future work in developing better evaluation methods and more genuinely generalizable systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T05:49:28Z</published>
+    <arxiv:comment>PhD Thesis</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ian Porada</name>
+    </author>
+  </entry>
+</feed>

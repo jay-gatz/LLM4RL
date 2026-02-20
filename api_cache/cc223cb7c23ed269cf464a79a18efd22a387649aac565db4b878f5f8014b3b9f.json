@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8xbumhE72/ICRxBONoRJ2esypCY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.10197v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.10197v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.10197v2</id>
+    <title>Don't Just Fine-tune the Agent, Tune the Environment</title>
+    <updated>2026-01-30T03:31:04Z</updated>
+    <link href="https://arxiv.org/abs/2510.10197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.10197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents show great promise for complex, multi-turn tool-use tasks, but their development is often hampered by the extreme scarcity of high-quality training data. Supervised fine-tuning (SFT) on synthetic data leads to overfitting, whereas standard reinforcement learning (RL) struggles with a critical cold-start problem and training instability. To address these challenges, we introduce $\textbf{Environment Tuning}$, a novel training paradigm that enables agents to learn complex behaviors directly from problem instances without relying on pre-collected expert trajectories. $\textbf{Environment Tuning}$ orchestrates this learning process through a structured curriculum, actionable environment augmentation that provides corrective feedback, and fine-grained progress rewards to ensure stable and efficient exploration. Using only 400 problem instances from Berkeley Function-Calling Leaderboard (BFCL) benchmark, our method not only achieves competitive in-distribution performance against strong baselines but also demonstrates superior out-of-distribution generalization, overcoming the performance collapse common to SFT-based approaches. Our work presents a paradigm shift from supervised fine-tuning on static trajectories to dynamic, environment-based exploration, paving the way for training more robust and data-efficient agents. The code is available at https://github.com/inclusionAI/AWorld-RL/tree/main/EnvTuning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-11T12:35:15Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Siyuan Lu</name>
+    </author>
+    <author>
+      <name>Zechuan Wang</name>
+    </author>
+    <author>
+      <name>Hongxuan Zhang</name>
+    </author>
+    <author>
+      <name>Qintong Wu</name>
+    </author>
+    <author>
+      <name>Leilei Gan</name>
+    </author>
+    <author>
+      <name>Chenyi Zhuang</name>
+    </author>
+    <author>
+      <name>Jinjie Gu</name>
+    </author>
+    <author>
+      <name>Tao Lin</name>
+    </author>
+  </entry>
+</feed>

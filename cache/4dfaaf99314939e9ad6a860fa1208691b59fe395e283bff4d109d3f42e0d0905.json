@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qF9jqnNkK5pSLBz0OTTJxL4Kxro</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.09872v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.09872v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09872v1</id>
+    <title>WARC-Bench: Web Archive Based Benchmark for GUI Subtask Executions</title>
+    <updated>2025-10-10T21:20:51Z</updated>
+    <link href="https://arxiv.org/abs/2510.09872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training web agents to navigate complex, real-world websites requires them to master $\textit{subtasks}$ - short-horizon interactions on multiple UI components (e.g., choosing the correct date in a date picker, or scrolling in a container to extract information). We introduce WARC-Bench (Web Archive Benchmark), a novel web navigation benchmark featuring 438 tasks designed to evaluate multimodal AI agents on subtasks. WARC-Bench enables sandboxed interactions with dynamic and realistic webpages using Web ARChive files. We show that WARC-Bench is challenging for leading computer-use models, with the highest observed success rate being 64.8%. To improve open source models on subtask, we explore two common training techniques: supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR). Experiments show that SFT models obtain a 48.8% success rate on the benchmark. Training with RLVR over SFT checkpoints, even in data-scarce settings, improves the score to 52.8% on WARC-Bench, outperforming many frontier models. Our analysis concludes that mastering these subtasks is essential for robust web planning and navigation, and is a capability not extensively evaluated by existing benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T21:20:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sanjari Srivastava</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Cheng Chang</name>
+    </author>
+    <author>
+      <name>Rishu Garg</name>
+    </author>
+    <author>
+      <name>Manpreet Kaur</name>
+    </author>
+    <author>
+      <name>Charlene Y. Lee</name>
+    </author>
+    <author>
+      <name>Yuezhang Li</name>
+    </author>
+    <author>
+      <name>Yining Mao</name>
+    </author>
+    <author>
+      <name>Ignacio Cases</name>
+    </author>
+    <author>
+      <name>Yanan Xie</name>
+    </author>
+    <author>
+      <name>Peng Qi</name>
+    </author>
+  </entry>
+</feed>

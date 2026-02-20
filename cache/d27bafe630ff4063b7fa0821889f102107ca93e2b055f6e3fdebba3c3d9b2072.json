@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E6pPNk0/qljqIMBHPY/Yg1uhI5E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15791v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:31:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15791v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15791v1</id>
+    <title>Enhancing Building Semantics Preservation in AI Model Training with Large Language Model Encodings</title>
+    <updated>2026-02-17T18:26:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.15791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate representation of building semantics, encompassing both generic object types and specific subtypes, is essential for effective AI model training in the architecture, engineering, construction, and operation (AECO) industry. Conventional encoding methods (e.g., one-hot) often fail to convey the nuanced relationships among closely related subtypes, limiting AI's semantic comprehension. To address this limitation, this study proposes a novel training approach that employs large language model (LLM) embeddings (e.g., OpenAI GPT and Meta LLaMA) as encodings to preserve finer distinctions in building semantics. We evaluated the proposed method by training GraphSAGE models to classify 42 building object subtypes across five high-rise residential building information models (BIMs). Various embedding dimensions were tested, including original high-dimensional LLM embeddings (1,536, 3,072, or 4,096) and 1,024-dimensional compacted embeddings generated via the Matryoshka representation model. Experimental results demonstrated that LLM encodings outperformed the conventional one-hot baseline, with the llama-3 (compacted) embedding achieving a weighted average F1-score of 0.8766, compared to 0.8475 for one-hot encoding. The results underscore the promise of leveraging LLM-based encodings to enhance AI's ability to interpret complex, domain-specific building semantics. As the capabilities of LLMs and dimensionality reduction techniques continue to evolve, this approach holds considerable potential for broad application in semantic elaboration tasks throughout the AECO industry.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T18:26:36Z</published>
+    <arxiv:comment>42nd International Symposium on Automation and Robotics in Construction (ISARC 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Suhyung Jang</name>
+    </author>
+    <author>
+      <name>Ghang Lee</name>
+    </author>
+    <author>
+      <name>Jaekun Lee</name>
+    </author>
+    <author>
+      <name>Hyunjun Lee</name>
+    </author>
+    <arxiv:doi>10.22260/ISARC2025/0130</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22260/ISARC2025/0130" title="doi"/>
+  </entry>
+</feed>

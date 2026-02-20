@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CI+9g6XkCXQNSGcYdKehBPGs4vU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.00166&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:23:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.00166" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.00166v1</id>
+    <title>Motif: Intrinsic Motivation from Artificial Intelligence Feedback</title>
+    <updated>2023-09-29T22:10:01Z</updated>
+    <link href="https://arxiv.org/abs/2310.00166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.00166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exploring rich environments and evaluating one's actions without prior knowledge is immensely challenging. In this paper, we propose Motif, a general method to interface such prior knowledge from a Large Language Model (LLM) with an agent. Motif is based on the idea of grounding LLMs for decision-making without requiring them to interact with the environment: it elicits preferences from an LLM over pairs of captions to construct an intrinsic reward, which is then used to train agents with reinforcement learning. We evaluate Motif's performance and behavior on the challenging, open-ended and procedurally-generated NetHack game. Surprisingly, by only learning to maximize its intrinsic reward, Motif achieves a higher game score than an algorithm directly trained to maximize the score itself. When combining Motif's intrinsic reward with the environment reward, our method significantly outperforms existing approaches and makes progress on tasks where no advancements have ever been made without demonstrations. Finally, we show that Motif mostly generates intuitive human-aligned behaviors which can be steered easily through prompt modifications, while scaling well with the LLM size and the amount of information given in the prompt.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-29T22:10:01Z</published>
+    <arxiv:comment>The first two authors equally contributed - order decided by coin flip</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Martin Klissarov</name>
+    </author>
+    <author>
+      <name>Pierluca D'Oro</name>
+    </author>
+    <author>
+      <name>Shagun Sodhani</name>
+    </author>
+    <author>
+      <name>Roberta Raileanu</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Bacon</name>
+    </author>
+    <author>
+      <name>Pascal Vincent</name>
+    </author>
+    <author>
+      <name>Amy Zhang</name>
+    </author>
+    <author>
+      <name>Mikael Henaff</name>
+    </author>
+  </entry>
+</feed>

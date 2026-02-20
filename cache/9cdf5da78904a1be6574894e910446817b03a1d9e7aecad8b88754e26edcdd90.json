@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R1DZOUKcuBgVRK59RLoxCdOzqvs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.07264v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.07264v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07264v1</id>
+    <title>The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents</title>
+    <updated>2026-01-12T07:10:35Z</updated>
+    <link href="https://arxiv.org/abs/2601.07264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents based on large language models (LLMs) are rapidly evolving to handle multi-turn tasks, but ensuring their trustworthiness remains a critical challenge. A fundamental pillar of this trustworthiness is calibration, which refers to an agent's ability to express confidence that reliably reflects its actual performance. While calibration is well-established for static models, its dynamics in tool-integrated agentic workflows remain underexplored. In this work, we systematically investigate verbalized calibration in tool-use agents, revealing a fundamental confidence dichotomy driven by tool type. Specifically, our pilot study identifies that evidence tools (e.g., web search) systematically induce severe overconfidence due to inherent noise in retrieved information, while verification tools (e.g., code interpreters) can ground reasoning through deterministic feedback and mitigate miscalibration. To robustly improve calibration across tool types, we propose a reinforcement learning (RL) fine-tuning framework that jointly optimizes task accuracy and calibration, supported by a holistic benchmark of reward designs. We demonstrate that our trained agents not only achieve superior calibration but also exhibit robust generalization from local training environments to noisy web settings and to distinct domains such as mathematical reasoning. Our results highlight the necessity of domain-specific calibration strategies for tool-use agents. More broadly, this work establishes a foundation for building self-aware agents that can reliably communicate uncertainty in high-stakes, real-world deployments.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T07:10:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Weihao Xuan</name>
+    </author>
+    <author>
+      <name>Qingcheng Zeng</name>
+    </author>
+    <author>
+      <name>Heli Qi</name>
+    </author>
+    <author>
+      <name>Yunze Xiao</name>
+    </author>
+    <author>
+      <name>Junjue Wang</name>
+    </author>
+    <author>
+      <name>Naoto Yokoya</name>
+    </author>
+  </entry>
+</feed>

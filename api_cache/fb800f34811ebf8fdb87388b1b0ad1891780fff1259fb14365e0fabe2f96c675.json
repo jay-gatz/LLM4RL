@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v22UfCrhID1PpyQ8jVQ3knd1p0Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01067v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01067v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01067v1</id>
+    <title>A Systematic Study of Data Modalities and Strategies for Co-training Large Behavior Models for Robot Manipulation</title>
+    <updated>2026-02-01T07:22:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.01067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large behavior models have shown strong dexterous manipulation capabilities by extending imitation learning to large-scale training on multi-task robot data, yet their generalization remains limited by the insufficient robot data coverage. To expand this coverage without costly additional data collection, recent work relies on co-training: jointly learning from target robot data and heterogeneous data modalities. However, how different co-training data modalities and strategies affect policy performance remains poorly understood. We present a large-scale empirical study examining five co-training data modalities: standard vision-language data, dense language annotations for robot trajectories, cross-embodiment robot data, human videos, and discrete robot action tokens across single- and multi-phase training strategies. Our study leverages 4,000 hours of robot and human manipulation data and 50M vision-language samples to train vision-language-action policies. We evaluate 89 policies over 58,000 simulation rollouts and 2,835 real-world rollouts. Our results show that co-training with forms of vision-language and cross-embodiment robot data substantially improves generalization to distribution shifts, unseen tasks, and language following, while discrete action token variants yield no significant benefits. Combining effective modalities produces cumulative gains and enables rapid adaptation to unseen long-horizon dexterous tasks via fine-tuning. Training exclusively on robot data degrades the visiolinguistic understanding of the vision-language model backbone, while co-training with effective modalities restores these capabilities. Explicitly conditioning action generation on chain-of-thought traces learned from co-training data does not improve performance in our simulation benchmark. Together, these results provide practical guidance for building scalable generalist robot policies.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T07:22:55Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Fanqi Lin</name>
+    </author>
+    <author>
+      <name>Kushal Arora</name>
+    </author>
+    <author>
+      <name>Jean Mercat</name>
+    </author>
+    <author>
+      <name>Haruki Nishimura</name>
+    </author>
+    <author>
+      <name>Paarth Shah</name>
+    </author>
+    <author>
+      <name>Chen Xu</name>
+    </author>
+    <author>
+      <name>Mengchao Zhang</name>
+    </author>
+    <author>
+      <name>Mark Zolotas</name>
+    </author>
+    <author>
+      <name>Maya Angeles</name>
+    </author>
+    <author>
+      <name>Owen Pfannenstiehl</name>
+    </author>
+    <author>
+      <name>Andrew Beaulieu</name>
+    </author>
+    <author>
+      <name>Jose Barreiros</name>
+    </author>
+  </entry>
+</feed>

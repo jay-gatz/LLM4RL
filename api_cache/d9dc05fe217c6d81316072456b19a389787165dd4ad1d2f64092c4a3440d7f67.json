@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hr2gmYh1USXRymNcpD+qdrni8GY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22868v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22868v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22868v1</id>
+    <title>When Anomalies Depend on Context: Learning Conditional Compatibility for Anomaly Detection</title>
+    <updated>2026-01-30T11:48:20Z</updated>
+    <link href="https://arxiv.org/abs/2601.22868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Anomaly detection is often formulated under the assumption that abnormality is an intrinsic property of an observation, independent of context. This assumption breaks down in many real-world settings, where the same object or action may be normal or anomalous depending on latent contextual factors (e.g., running on a track versus on a highway). We revisit \emph{contextual anomaly detection}, classically defined as context-dependent abnormality, and operationalize it in the visual domain, where anomaly labels depend on subject--context compatibility rather than intrinsic appearance. To enable systematic study of this setting, we introduce CAAD-3K, a benchmark that isolates contextual anomalies by controlling subject identity while varying context. We further propose a conditional compatibility learning framework that leverages vision--language representations to model subject--context relationships under limited supervision. Our method substantially outperforms existing approaches on CAAD-3K and achieves state-of-the-art performance on MVTec-AD and VisA, demonstrating that modeling context dependence complements traditional structural anomaly detection. Our code and dataset will be publicly released.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T11:48:20Z</published>
+    <arxiv:comment>Preprint. Submitted to ICML 2026. 8 pages main text, plus appendix</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shashank Mishra</name>
+    </author>
+    <author>
+      <name>Didier Stricker</name>
+    </author>
+    <author>
+      <name>Jason Rambach</name>
+    </author>
+  </entry>
+</feed>

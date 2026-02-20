@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ck1uTRzECKP2MfEJyJJEvDOcnvU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06836v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06836v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06836v1</id>
+    <title>LLM Active Alignment: A Nash Equilibrium Perspective</title>
+    <updated>2026-02-06T16:26:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.06836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a game-theoretic framework for predicting and steering the behavior of populations of large language models (LLMs) through Nash equilibrium (NE) analysis. To avoid the intractability of equilibrium computation in open-ended text spaces, we model each agent's action as a mixture over human subpopulations. Agents choose actively and strategically which groups to align with, yielding an interpretable and behaviorally substantive policy class. We derive closed-form NE characterizations, adopting standard concave-utility assumptions to enable analytical system-level predictions and give explicit, actionable guidance for shifting alignment targets toward socially desirable outcomes. The method functions as an active alignment layer on top of existing alignment pipelines such as RLHF. In a social-media setting, we show that a population of LLMs, especially reasoning-based models, may exhibit political exclusion, pathologies where some subpopulations are ignored by all LLM agents, which can be avoided by our method, illustrating the promise of applying the method to regulate multi-agent LLM dynamics across domains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T16:26:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tonghan Wang</name>
+    </author>
+    <author>
+      <name>Yuqi Pan</name>
+    </author>
+    <author>
+      <name>Xinyi Yang</name>
+    </author>
+    <author>
+      <name>Yanchen Jiang</name>
+    </author>
+    <author>
+      <name>Milind Tambe</name>
+    </author>
+    <author>
+      <name>David C. Parkes</name>
+    </author>
+  </entry>
+</feed>

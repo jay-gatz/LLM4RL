@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sH/OI4qCjgL3lQEKeNYVk8ePzmA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21459v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21459v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21459v3</id>
+    <title>HER: Human-like Reasoning and Reinforcement Learning for LLM Role-playing</title>
+    <updated>2026-02-08T06:45:25Z</updated>
+    <link href="https://arxiv.org/abs/2601.21459v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21459v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM role-playing, i.e., using LLMs to simulate specific personas, has emerged as a key capability in various applications, such as companionship, content creation, and digital games. While current models effectively capture character tones and knowledge, simulating the inner thoughts behind their behaviors remains a challenge. Towards cognitive simulation in LLM role-play, previous efforts mainly suffer from two deficiencies: data with high-quality reasoning traces, and reliable reward signals aligned with human preferences. In this paper, we propose HER, a unified framework for cognitive-level persona simulation. HER introduces dual-layer thinking, which distinguishes characters' first-person thinking from LLMs' third-person thinking. To bridge these gaps, we curate reasoning-augmented role-playing data via reverse engineering and construct human-aligned principles and reward models. Leveraging these resources, we train HER models based on Qwen3-32B via supervised and reinforcement learning. Extensive experiments validate the effectiveness of our approach. Notably, our models significantly outperform the Qwen3-32B baseline, achieving a 30.26 improvement on the CoSER benchmark and a 14.97 gain on the Minimax Role-Play Bench. Our datasets, principles, and models will be released to facilitate future research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T09:35:27Z</published>
+    <arxiv:comment>41pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chengyu Du</name>
+    </author>
+    <author>
+      <name>Xintao Wang</name>
+    </author>
+    <author>
+      <name>Aili Chen</name>
+    </author>
+    <author>
+      <name>Weiyuan Li</name>
+    </author>
+    <author>
+      <name>Rui Xu</name>
+    </author>
+    <author>
+      <name>Junteng Liu</name>
+    </author>
+    <author>
+      <name>Zishan Huang</name>
+    </author>
+    <author>
+      <name>Rong Tian</name>
+    </author>
+    <author>
+      <name>Zijun Sun</name>
+    </author>
+    <author>
+      <name>Yuhao Li</name>
+    </author>
+    <author>
+      <name>Liheng Feng</name>
+    </author>
+    <author>
+      <name>Deming Ding</name>
+    </author>
+    <author>
+      <name>Pengyu Zhao</name>
+    </author>
+    <author>
+      <name>Yanghua Xiao</name>
+    </author>
+  </entry>
+</feed>

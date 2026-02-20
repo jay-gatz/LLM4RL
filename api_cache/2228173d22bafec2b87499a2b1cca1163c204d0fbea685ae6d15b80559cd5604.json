@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+NvBl+3Gl4XLMcYGJr7CakaXAac</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.03348&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:30:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.03348" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.03348v2</id>
+    <title>Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation</title>
+    <updated>2023-11-24T12:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2311.03348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.03348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite efforts to align large language models to produce harmless responses, they are still vulnerable to jailbreak prompts that elicit unrestricted behaviour. In this work, we investigate persona modulation as a black-box jailbreaking method to steer a target model to take on personalities that are willing to comply with harmful instructions. Rather than manually crafting prompts for each persona, we automate the generation of jailbreaks using a language model assistant. We demonstrate a range of harmful completions made possible by persona modulation, including detailed instructions for synthesising methamphetamine, building a bomb, and laundering money. These automated attacks achieve a harmful completion rate of 42.5% in GPT-4, which is 185 times larger than before modulation (0.23%). These prompts also transfer to Claude 2 and Vicuna with harmful completion rates of 61.0% and 35.9%, respectively. Our work reveals yet another vulnerability in commercial large language models and highlights the need for more comprehensive safeguards.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-06T18:55:18Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rusheb Shah</name>
+    </author>
+    <author>
+      <name>Quentin Feuillade--Montixi</name>
+    </author>
+    <author>
+      <name>Soroush Pour</name>
+    </author>
+    <author>
+      <name>Arush Tagade</name>
+    </author>
+    <author>
+      <name>Stephen Casper</name>
+    </author>
+    <author>
+      <name>Javier Rando</name>
+    </author>
+  </entry>
+</feed>

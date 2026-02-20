@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tADUkHaV0KP2CuDFAzicFq9Fzao</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.15370v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.15370v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15370v1</id>
+    <title>Improving MoE Compute Efficiency by Composing Weight and Data Sparsity</title>
+    <updated>2026-01-21T18:53:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.15370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts layers achieve compute efficiency through weight sparsity: each token activates only a subset of experts. Data sparsity, where each expert processes only a subset of tokens, offers a complementary axis. Expert-choice routing implements data sparsity directly but violates causality in autoregressive models, creating train-inference mismatch. We recover data sparsity within causal token-choice MoE by leveraging zero-compute (null) experts within the routing pool. When a token routes to null experts, those slots consume no compute. The standard load balancing objective trains the model to uniformly use all experts (real and null) therefore creating data sparsity in expectation without the causality violations. We evaluate on vision-language model training, where data heterogeneity is pronounced: vision encoders produce many low-information tokens while text tokens are denser. At matched expected FLOPs, composing weight and data sparsity yields a more compute-efficient frontier than weight sparsity alone, with gains in training loss and downstream performance. The model learns implicit modality-aware allocation, routing vision tokens to null experts more aggressively than text, without explicit modality routing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T18:53:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maciej Kilian</name>
+    </author>
+    <author>
+      <name>Oleg Mkrtchyan</name>
+    </author>
+    <author>
+      <name>Luke Zettlemoyer</name>
+    </author>
+    <author>
+      <name>Akshat Shrivastava</name>
+    </author>
+    <author>
+      <name>Armen Aghajanyan</name>
+    </author>
+  </entry>
+</feed>

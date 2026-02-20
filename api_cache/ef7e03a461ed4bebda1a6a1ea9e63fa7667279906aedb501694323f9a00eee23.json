@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mrUYNv6I4fwnMdohEAP0ZO9Kg94</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16456v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16456v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16456v1</id>
+    <title>Beyond SGD, Without SVD: Proximal Subspace Iteration LoRA with Diagonal Fractional K-FAC</title>
+    <updated>2026-02-18T13:41:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.16456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-Rank Adaptation (LoRA) fine-tunes large models by learning low-rank updates on top of frozen weights, dramatically reducing trainable parameters and memory. In this work, we address the gap between training with full steps with low-rank projections (SVDLoRA) and LoRA fine-tuning. We propose LoRSum, a memory-efficient subroutine that closes this gap for gradient descent by casting LoRA optimization as a proximal sub-problem and solving it efficiently with alternating least squares updates, which we prove to be an implicit block power method. We recover several recently proposed preconditioning methods for LoRA as special cases, and show that LoRSum can also be used for updating a low-rank momentum. In order to address full steps with preconditioned gradient descent, we propose a scaled variant of LoRSum that uses structured metrics such as K-FAC and Shampoo, and we show that storing the diagonal of these metrics still allows them to perform well while remaining memory-efficient. Experiments on a synthetic task, CIFAR-100, and language-model fine-tuning on GLUE, SQuAD v2, and WikiText-103, show that our method can match or improve LoRA baselines given modest compute overhead, while avoiding full-matrix SVD projections and retaining LoRA-style parameter efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T13:41:41Z</published>
+    <arxiv:comment>20 pages, 5 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abdulla Jasem Almansoori</name>
+    </author>
+    <author>
+      <name>Maria Ivanova</name>
+    </author>
+    <author>
+      <name>Andrey Veprikov</name>
+    </author>
+    <author>
+      <name>Aleksandr Beznosikov</name>
+    </author>
+    <author>
+      <name>Samuel Horváth</name>
+    </author>
+    <author>
+      <name>Martin Takáč</name>
+    </author>
+  </entry>
+</feed>

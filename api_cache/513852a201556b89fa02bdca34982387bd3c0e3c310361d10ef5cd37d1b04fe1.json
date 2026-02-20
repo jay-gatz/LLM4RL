@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3F89VIYtioLMOUkp3rxUFBYEuMQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2412.05467v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2412.05467v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05467v4</id>
+    <title>The BrowserGym Ecosystem for Web Agent Research</title>
+    <updated>2025-02-28T16:02:27Z</updated>
+    <link href="https://arxiv.org/abs/2412.05467v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05467v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The BrowserGym ecosystem addresses the growing need for efficient evaluation and benchmarking of web agents, particularly those leveraging automation and Large Language Models (LLMs). Many existing benchmarks suffer from fragmentation and inconsistent evaluation methodologies, making it challenging to achieve reliable comparisons and reproducible results. In an earlier work, Drouin et al. (2024) introduced BrowserGym which aims to solve this by providing a unified, gym-like environment with well-defined observation and action spaces, facilitating standardized evaluation across diverse benchmarks. We propose an extended BrowserGym-based ecosystem for web agent research, which unifies existing benchmarks from the literature and includes AgentLab, a complementary framework that aids in agent creation, testing, and analysis. Our proposed ecosystem offers flexibility for integrating new benchmarks while ensuring consistent evaluation and comprehensive experiment management. As a supporting evidence, we conduct the first large-scale, multi-benchmark web agent experiment and compare the performance of 6 state-of-the-art LLMs across 6 popular web agent benchmarks made available in BrowserGym. Among other findings, our results highlight a large discrepancy between OpenAI and Anthropic's latests models, with Claude-3.5-Sonnet leading the way on almost all benchmarks, except on vision-related tasks where GPT-4o is superior. Despite these advancements, our results emphasize that building robust and efficient web agents remains a significant challenge, due to the inherent complexity of real-world web environments and the limitations of current models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T23:43:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thibault Le Sellier De Chezelles</name>
+    </author>
+    <author>
+      <name>Maxime Gasse</name>
+    </author>
+    <author>
+      <name>Alexandre Drouin</name>
+    </author>
+    <author>
+      <name>Massimo Caccia</name>
+    </author>
+    <author>
+      <name>Léo Boisvert</name>
+    </author>
+    <author>
+      <name>Megh Thakkar</name>
+    </author>
+    <author>
+      <name>Tom Marty</name>
+    </author>
+    <author>
+      <name>Rim Assouel</name>
+    </author>
+    <author>
+      <name>Sahar Omidi Shayegan</name>
+    </author>
+    <author>
+      <name>Lawrence Keunho Jang</name>
+    </author>
+    <author>
+      <name>Xing Han Lù</name>
+    </author>
+    <author>
+      <name>Ori Yoran</name>
+    </author>
+    <author>
+      <name>Dehan Kong</name>
+    </author>
+    <author>
+      <name>Frank F. Xu</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+    <author>
+      <name>Quentin Cappart</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Ruslan Salakhutdinov</name>
+    </author>
+    <author>
+      <name>Nicolas Chapados</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+  </entry>
+</feed>

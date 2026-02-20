@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TVBFZCc13IGP0XVOuIi8J9be+Gg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05472v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:48:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05472v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05472v1</id>
+    <title>ALIVE: Awakening LLM Reasoning via Adversarial Learning and Instructive Verbal Evaluation</title>
+    <updated>2026-02-05T09:20:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.05472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quest for expert-level reasoning in Large Language Models (LLMs) has been hampered by a persistent \textit{reward bottleneck}: traditional reinforcement learning (RL) relies on scalar rewards that are \textbf{costly} to scale, \textbf{brittle} across domains, and \textbf{blind} to the underlying logic of a solution. This reliance on external, impoverished signals prevents models from developing a deep, self-contained understanding of reasoning principles. We introduce \textbf{ALIVE} (\emph{Adversarial Learning with Instructive Verbal Evaluation}), a hands-free alignment framework that moves beyond scalar reward optimization toward intrinsic reasoning acquisition. Grounded in the principle of \emph{Cognitive Synergy}, ALIVE unifies problem posing, solving, and judging within a single policy model to internalize the logic of correctness. By coupling adversarial learning with instructive verbal feedback, ALIVE enables models to internalize evaluative criteria directly from raw corpora, effectively transforming external critiques into an endogenous reasoning faculty. Empirical evaluations across mathematical reasoning, code generation, and general logical inference benchmarks demonstrate that ALIVE consistently mitigates reward signal limitations. With identical data and compute, it achieves accuracy gains, markedly improved cross-domain generalization, and higher self-correction rates. These results indicate that the reasoning trinity fosters a self-sustaining trajectory of capability growth, positioning ALIVE as a scalable foundation for general-purpose reasoning alignment without human-in-the-loop supervision.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T09:20:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yiwen Duan</name>
+    </author>
+    <author>
+      <name>Jing Ye</name>
+    </author>
+    <author>
+      <name>Xinpei Zhao</name>
+    </author>
+  </entry>
+</feed>

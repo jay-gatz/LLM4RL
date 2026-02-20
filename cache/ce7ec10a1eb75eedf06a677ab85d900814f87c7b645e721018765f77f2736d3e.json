@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Tl83S8e3PkTS8UmoxxGLOOFjDLo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.09926v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.09926v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.09926v2</id>
+    <title>The PROPER Approach to Proactivity: Benchmarking and Advancing Knowledge Gap Navigation</title>
+    <updated>2026-01-16T05:43:00Z</updated>
+    <link href="https://arxiv.org/abs/2601.09926v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.09926v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most language-based assistants follow a reactive ask-and-respond paradigm, requiring users to explicitly state their needs. As a result, relevant but unexpressed needs often go unmet. Existing proactive agents attempt to address this gap either by eliciting further clarification, preserving this burden, or by extrapolating future needs from context, often leading to unnecessary or mistimed interventions. We introduce ProPer, Proactivity-driven Personalized agents, a novel two-agent architecture consisting of a Dimension Generating Agent (DGA) and a Response Generating Agent (RGA). DGA, a fine-tuned LLM agent, leverages explicit user data to generate multiple implicit dimensions (latent aspects relevant to the user's task but not considered by the user) or knowledge gaps. These dimensions are selectively filtered using a reranker based on quality, diversity, and task relevance. RGA then balances explicit and implicit dimensions to tailor personalized responses with timely and proactive interventions. We evaluate ProPer across multiple domains using a structured, gap-aware rubric that measures coverage, initiative appropriateness, and intent alignment. Our results show that ProPer improves quality scores and win rates across all domains, achieving up to 84% gains in single-turn evaluation and consistent dominance in multi-turn interactions.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-14T23:13:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kirandeep Kaur</name>
+    </author>
+    <author>
+      <name>Vinayak Gupta</name>
+    </author>
+    <author>
+      <name>Aditya Gupta</name>
+    </author>
+    <author>
+      <name>Chirag Shah</name>
+    </author>
+  </entry>
+</feed>

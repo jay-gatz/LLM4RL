@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Iv4I0lRuisfzoy9yS0Wo6jh+hVE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15013v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15013v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15013v1</id>
+    <title>Text Style Transfer with Parameter-efficient LLM Finetuning and Round-trip Translation</title>
+    <updated>2026-02-16T18:52:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.15013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a novel method for Text Style Transfer (TST) based on parameter-efficient fine-tuning of Large Language Models (LLMs). Addressing the scarcity of parallel corpora that map between styles, the study employs roundtrip translation to synthesize such parallel datasets from monolingual corpora. This approach creates 'neutralized' text devoid of stylistic attributes, essentially creating a shared input style at training-time and inference-time. Experimental results demonstrate consistent superiority of this method over zero-shot prompting and fewshot ICL techniques measured by BLEU scores and style accuracy scores across four investigated domains. Furthermore, the integration of retrieval-augmented generation (RAG) for terminology and name knowledge enhances robustness and stylistic consistency.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T18:52:43Z</published>
+    <arxiv:comment>9 pages, 5 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ruoxi Liu</name>
+    </author>
+    <author>
+      <name>Philipp Koehn</name>
+    </author>
+  </entry>
+</feed>

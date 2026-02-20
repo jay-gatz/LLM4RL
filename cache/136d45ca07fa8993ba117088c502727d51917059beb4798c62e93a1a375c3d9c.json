@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bjev2XEEf/Tl77ZZL0nkUFgOBP4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16138v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16138v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16138v1</id>
+    <title>IRIS: Intent Resolution via Inference-time Saccades for Open-Ended VQA in Large Vision-Language Models</title>
+    <updated>2026-02-18T02:06:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.16138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce IRIS (Intent Resolution via Inference-time Saccades), a novel training-free approach that uses eye-tracking data in real-time to resolve ambiguity in open-ended VQA. Through a comprehensive user study with 500 unique image-question pairs, we demonstrate that fixations closest to the time participants start verbally asking their questions are the most informative for disambiguation in Large VLMs, more than doubling the accuracy of responses on ambiguous questions (from 35.2% to 77.2%) while maintaining performance on unambiguous queries. We evaluate our approach across state-of-the-art VLMs, showing consistent improvements when gaze data is incorporated in ambiguous image-question pairs, regardless of architectural differences. We release a new benchmark dataset to use eye movement data for disambiguated VQA, a novel real-time interactive protocol, and an evaluation suite.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T02:06:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Parsa Madinei</name>
+    </author>
+    <author>
+      <name>Srijita Karmakar</name>
+    </author>
+    <author>
+      <name>Russell Cohen Hoffing</name>
+    </author>
+    <author>
+      <name>Felix Gervitz</name>
+    </author>
+    <author>
+      <name>Miguel P. Eckstein</name>
+    </author>
+  </entry>
+</feed>

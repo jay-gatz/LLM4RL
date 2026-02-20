@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/deHT2RfavHm0qDh+v3lRK2pOdJ8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14279v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14279v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14279v1</id>
+    <title>Whom to Query for What: Adaptive Group Elicitation via Multi-Turn LLM Interactions</title>
+    <updated>2026-02-15T19:05:34Z</updated>
+    <link href="https://arxiv.org/abs/2602.14279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eliciting information to reduce uncertainty about latent group-level properties from surveys and other collective assessments requires allocating limited questioning effort under real costs and missing data. Although large language models enable adaptive, multi-turn interactions in natural language, most existing elicitation methods optimize what to ask with a fixed respondent pool, and do not adapt respondent selection or leverage population structure when responses are partial or incomplete. To address this gap, we study adaptive group elicitation, a multi-round setting where an agent adaptively selects both questions and respondents under explicit query and participation budgets. We propose a theoretically grounded framework that combines (i) an LLM-based expected information gain objective for scoring candidate questions with (ii) heterogeneous graph neural network propagation that aggregates observed responses and participant attributes to impute missing responses and guide per-round respondent selection. This closed-loop procedure queries a small, informative subset of individuals while inferring population-level responses via structured similarity. Across three real-world opinion datasets, our method consistently improves population-level response prediction under constrained budgets, including a &gt;12% relative gain on CES at a 10% respondent budget.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T19:05:34Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruomeng Ding</name>
+    </author>
+    <author>
+      <name>Tianwei Gao</name>
+    </author>
+    <author>
+      <name>Thomas P. Zollo</name>
+    </author>
+    <author>
+      <name>Eitan Bachmat</name>
+    </author>
+    <author>
+      <name>Richard Zemel</name>
+    </author>
+    <author>
+      <name>Zhun Deng</name>
+    </author>
+  </entry>
+</feed>

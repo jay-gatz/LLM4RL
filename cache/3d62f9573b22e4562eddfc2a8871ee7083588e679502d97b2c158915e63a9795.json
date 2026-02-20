@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YGE6bxZl6C5PcjGyRHf1wQwND7Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14833v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14833v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14833v1</id>
+    <title>RF-GPT: Teaching AI to See the Wireless World</title>
+    <updated>2026-02-16T15:24:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.14833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) and multimodal models have become powerful general-purpose reasoning systems. However, radio-frequency (RF) signals, which underpin wireless systems, are still not natively supported by these models. Existing LLM-based approaches for telecom focus mainly on text and structured data, while conventional RF deep-learning models are built separately for specific signal-processing tasks, highlighting a clear gap between RF perception and high-level reasoning. To bridge this gap, we introduce RF-GPT, a radio-frequency language model (RFLM) that utilizes the visual encoders of multimodal LLMs to process and understand RF spectrograms. In this framework, complex in-phase/quadrature (IQ) waveforms are mapped to time-frequency spectrograms and then passed to pretrained visual encoders. The resulting representations are injected as RF tokens into a decoder-only LLM, which generates RF-grounded answers, explanations, and structured outputs. To train RF-GPT, we perform supervised instruction fine-tuning of a pretrained multimodal LLM using a fully synthetic RF corpus. Standards-compliant waveform generators produce wideband scenes for six wireless technologies, from which we derive time-frequency spectrograms, exact configuration metadata, and dense captions. A text-only LLM then converts these captions into RF-grounded instruction-answer pairs, yielding roughly 12,000 RF scenes and 0.625 million instruction examples without any manual labeling. Across benchmarks for wideband modulation classification, overlap analysis, wireless-technology recognition, WLAN user counting, and 5G NR information extraction, RF-GPT achieves strong multi-task performance, whereas general-purpose VLMs with no RF grounding largely fail.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T15:24:56Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Hang Zou</name>
+    </author>
+    <author>
+      <name>Yu Tian</name>
+    </author>
+    <author>
+      <name>Bohao Wang</name>
+    </author>
+    <author>
+      <name>Lina Bariah</name>
+    </author>
+    <author>
+      <name>Samson Lasaulce</name>
+    </author>
+    <author>
+      <name>Chongwen Huang</name>
+    </author>
+    <author>
+      <name>Mérouane Debbah</name>
+    </author>
+  </entry>
+</feed>

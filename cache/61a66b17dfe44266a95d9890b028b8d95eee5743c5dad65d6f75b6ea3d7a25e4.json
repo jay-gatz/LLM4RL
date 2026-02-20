@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xHdgtGnswxBuuEZO1UzwMmW6drg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13685v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13685v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13685v1</id>
+    <title>AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning</title>
+    <updated>2026-02-14T09:12:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.13685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Audio Language Models (LALMs) excel at perception but struggle with complex reasoning requiring precise acoustic measurements. While external tools can extract fine-grained features like exact tempo or pitch, effective integration remains challenging: naively using all tools causes information overload, while prompt-based selection fails to assess context-dependent utility. To address this, we propose AuTAgent (Audio Tool Agent), a reinforcement learning framework that learns when and which tools to invoke. By employing a sparse-feedback training strategy with a novel Differential Reward mechanism, the agent learns to filter out irrelevant tools and invokes external assistance only when it yields a net performance gain over the base model. Experimental results confirm that AuTAgent complements the representation bottleneck of LALMs by providing verifiable acoustic evidence. It improves accuracy by 4.20% / 6.20% and 9.80% / 8.00% for open-source and closed-source backbones on the MMAU Test-mini and the MMAR benchmarks, respectively. In addition, further experiments demonstrate exceptional transferability. We highlight the complementary role of external tools in augmenting audio model reasoning.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T09:12:20Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Siqian Tong</name>
+    </author>
+    <author>
+      <name>Xuan Li</name>
+    </author>
+    <author>
+      <name>Yiwei Wang</name>
+    </author>
+    <author>
+      <name>Baolong Bi</name>
+    </author>
+    <author>
+      <name>Yujun Cai</name>
+    </author>
+    <author>
+      <name>Shenghua Liu</name>
+    </author>
+    <author>
+      <name>Yuchen He</name>
+    </author>
+    <author>
+      <name>Chengpeng Hao</name>
+    </author>
+  </entry>
+</feed>

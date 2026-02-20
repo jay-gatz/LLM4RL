@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KNfmCMfIcgk2IavTL90vEEG5hS8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14044v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14044v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14044v1</id>
+    <title>Weather-R1: Logically Consistent Reinforcement Fine-Tuning for Multimodal Reasoning in Meteorology</title>
+    <updated>2026-01-20T15:00:15Z</updated>
+    <link href="https://arxiv.org/abs/2601.14044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Vision Language Models (VLMs) show advancing reasoning capabilities, their application in meteorology is constrained by a domain gap and a reasoning faithfulness gap. Specifically, mainstream Reinforcement Fine-Tuning (RFT) can induce Self-Contradictory Reasoning (Self-Contra), where the model's reasoning contradicts its final answer, which is unacceptable in such a high-stakes domain. To address these challenges, we construct WeatherQA, a novel multimodal reasoning benchmark in meteorology. We also propose Logically Consistent Reinforcement Fine-Tuning (LoCo-RFT), which resolves Self-Contra by introducing a logical consistency reward. Furthermore, we introduce Weather-R1, the first reasoning VLM with logical faithfulness in meteorology, to the best of our knowledge. Experiments demonstrate that Weather-R1 improves performance on WeatherQA by 9.8 percentage points over the baseline, outperforming Supervised Fine-Tuning and RFT, and even surpassing the original Qwen2.5-VL-32B. These results highlight the effectiveness of our LoCo-RFT and the superiority of Weather-R1. Our benchmark and code are available at https://github.com/Marcowky/Weather-R1.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T15:00:15Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kaiyu Wu</name>
+    </author>
+    <author>
+      <name>Pucheng Han</name>
+    </author>
+    <author>
+      <name>Hualong Zhang</name>
+    </author>
+    <author>
+      <name>Naigeng Wu</name>
+    </author>
+    <author>
+      <name>Keze Wang</name>
+    </author>
+  </entry>
+</feed>

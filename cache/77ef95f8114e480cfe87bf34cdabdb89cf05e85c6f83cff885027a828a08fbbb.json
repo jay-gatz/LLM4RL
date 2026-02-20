@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pzpo2UYaIczVhM9abM6Eo8p4/Rc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15219v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15219v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15219v1</id>
+    <title>Multi-Agent Home Energy Management Assistant</title>
+    <updated>2026-02-16T21:55:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.15219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing complexity in home energy management demands advanced systems that guide occupants toward informed energy decisions. Large language model (LLM)-integrated home energy management systems (HEMS) have shown promise, but prior studies relied on prompt engineering or pre-built platforms with limited customization of agent behavior, or assessed performance through single-turn or -task evaluations. This study introduces a multi-agent home energy management assistant (HEMA), built on LangChain and LangGraph, designed to adaptively and intelligently handle real-world use cases of HEMS with full system customization capability. It carefully classifies user queries via a self-consistency classifier, requests three specialized agents (Analysis, Knowledge, and Control) to prepare accurate, adaptive responses using purpose-built analysis and control tools and retrieval augmented generation under the reasoning and acting mechanism. HEMA was rigorously assessed using two different experimental analyses via an LLM-as-user approach: (1) analytical and informative capabilities using combinatorial test cases of various personas and differing scenarios against three alternative system configurations relying on vanilla LLM and (2) control capabilities using various control scenarios. Out of 295 test cases, HEMA acquired a 91.9% goal achievement rate, successfully fulfilling user requests while providing high levels of factual accuracy, action correctness, interaction quality, and system efficiency, especially when compared to alternative system configurations. Collectively, this study contributes to the advancement of the human-centered design of LLM-integrated HEMS by demonstrating the feasibility and value of agentic architectures, and by clarifying the architectural requirements and evaluation criteria necessary to support adaptive, sustained human-artificial intelligence collaboration in HEMS.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T21:55:42Z</published>
+    <arxiv:comment>27 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Wooyoung Jung</name>
+    </author>
+  </entry>
+</feed>

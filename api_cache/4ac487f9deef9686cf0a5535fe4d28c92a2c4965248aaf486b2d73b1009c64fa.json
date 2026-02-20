@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q7dsDydXTXNUQlN9nAjBd2E9pbI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.10931v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.10931v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.10931v2</id>
+    <title>Asynchronous Reasoning: Training-Free Interactive Thinking LLMs</title>
+    <updated>2026-02-04T15:33:49Z</updated>
+    <link href="https://arxiv.org/abs/2512.10931v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.10931v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many state-of-the-art LLMs are trained to think before giving their answer. Reasoning can greatly improve language model capabilities, but it also makes them less interactive: given a new input, a model must stop thinking before it can respond. Real-world use cases such as voice-based or embodied assistants require an LLM agent to respond and adapt to additional information in real time, which is incompatible with sequential interactions. In contrast, humans can listen, think, and act asynchronously: we begin thinking about the problem while reading it and continue thinking while formulating the answer. In this work, we augment LLMs capable of reasoning to operate in a similar way without additional training. Our method uses the properties of positional embeddings to enable LLMs built for sequential generation to simultaneously think, listen, and write outputs. We evaluate our approach on math, commonsense, and safety reasoning: it allows models to generate accurate thinking-augmented answers while reducing time to first non-thinking token from minutes to ${\le}$ 5s and the overall real-time delays by up to $12{\times}$.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-11T18:57:02Z</published>
+    <arxiv:comment>Preprint, work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>George Yakushev</name>
+    </author>
+    <author>
+      <name>Nataliia Babina</name>
+    </author>
+    <author>
+      <name>Masoud Vahid Dastgerdi</name>
+    </author>
+    <author>
+      <name>Vyacheslav Zhdanovskiy</name>
+    </author>
+    <author>
+      <name>Denis Kuznedelev</name>
+    </author>
+    <author>
+      <name>Alina Shutova</name>
+    </author>
+    <author>
+      <name>Max Ryabinin</name>
+    </author>
+  </entry>
+</feed>

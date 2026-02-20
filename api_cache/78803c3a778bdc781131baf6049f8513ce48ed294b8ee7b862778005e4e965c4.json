@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hz98xX8UizG8XnET0DGv1smTqqI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01058v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01058v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01058v1</id>
+    <title>Good SFT Optimizes for SFT, Better SFT Prepares for Reinforcement Learning</title>
+    <updated>2026-02-01T06:53:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.01058v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01058v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-training of reasoning LLMs is a holistic process that typically consists of an offline SFT stage followed by an online reinforcement learning (RL) stage. However, SFT is often optimized in isolation to maximize SFT performance alone.
+  We show that, after identical RL training, models initialized from stronger SFT checkpoints can significantly underperform those initialized from weaker ones. We attribute this to a mismatch typical in current SFT-RL pipelines: the distribution that generates the offline SFT data can differ substantially from the policy optimized during online RL, which learns from its own rollouts.
+  We propose PEAR (Policy Evaluation-inspired Algorithm for Offline Learning Loss Re-weighting), an SFT-stage method that corrects this mismatch and better prepares the model for RL. PEAR uses importance sampling to reweight the SFT loss, with three variants operating at the token, block, and sequence levels. It can be used to augment standard SFT objectives and incurs little additional training overhead once probabilities for the offline data are collected.
+  We conduct controlled experiments on verifiable reasoning games and mathematical reasoning tasks on Qwen 2.5 and 3 and DeepSeek-distilled models. PEAR consistently improves post-RL performance over canonical SFT, with pass at 8 gains up to a 14.6 percent on AIME2025. Our results suggest that PEAR is an effective step toward more holistic LLM post-training by designing and evaluating SFT with downstream RL in mind rather than in isolation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T06:53:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan Zhang</name>
+    </author>
+    <author>
+      <name>Yufeng Xu</name>
+    </author>
+    <author>
+      <name>Haojin Wang</name>
+    </author>
+    <author>
+      <name>Qingzhi Chen</name>
+    </author>
+    <author>
+      <name>Hao Peng</name>
+    </author>
+  </entry>
+</feed>

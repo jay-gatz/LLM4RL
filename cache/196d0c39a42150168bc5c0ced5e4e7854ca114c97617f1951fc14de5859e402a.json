@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+4mHrhSk38lyteS0IBnZVMqW74A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.13837&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T04:56:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.13837" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.13837v5</id>
+    <title>Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</title>
+    <updated>2025-11-24T06:11:04Z</updated>
+    <link href="https://arxiv.org/abs/2504.13837v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.13837v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly on mathematics and programming tasks. Similar to how traditional RL helps agents explore and learn new strategies, RLVR is believed to enable LLMs to continuously self-improve, thus acquiring novel reasoning abilities beyond those of the corresponding base models. In this study we critically examine the current state of RLVR by systematically probing the reasoning capability boundaries of RLVR-trained LLMs across various model families, RL algorithms, and math, coding, and visual reasoning benchmarks, using pass@k at large k values as the evaluation metric. Surprisingly, we find that the current training setup does not elicit fundamentally new reasoning patterns. While RLVR-trained models outperform their base models at small k (e.g., k = 1), the base models achieve a higher pass@k score when k is large. Coverage and perplexity analyses show that the observed reasoning abilities originate from and are bounded by the base model. Treating the base model as an upper bound, our quantitative analysis shows that six popular RLVR algorithms perform similarly and remain far from optimal in leveraging the potential of the base model. By contrast, we find that distillation can introduce new reasoning patterns from the teacher and genuinely expand the model's reasoning capabilities. Overall, our findings suggest that current RLVR methods have not yet realized the potential of RL to elicit truly novel reasoning abilities in LLMs. This highlights the need for improved RL paradigms, such as continual scaling and multi-turn agent-environment interaction, to unlock this potential.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-18T17:59:56Z</published>
+    <arxiv:comment>31 pages, 27 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>NeurIPS 2025 Oral; ICML 2025 AI4MATH workshop best paper</arxiv:journal_ref>
+    <author>
+      <name>Yang Yue</name>
+    </author>
+    <author>
+      <name>Zhiqi Chen</name>
+    </author>
+    <author>
+      <name>Rui Lu</name>
+    </author>
+    <author>
+      <name>Andrew Zhao</name>
+    </author>
+    <author>
+      <name>Zhaokai Wang</name>
+    </author>
+    <author>
+      <name>Yang Yue</name>
+    </author>
+    <author>
+      <name>Shiji Song</name>
+    </author>
+    <author>
+      <name>Gao Huang</name>
+    </author>
+  </entry>
+</feed>

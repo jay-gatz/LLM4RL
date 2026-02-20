@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SZ9X9dVEG+6jCyeL7FI3c4/GjmA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.23682v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.23682v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.23682v1</id>
+    <title>Beyond Prompt Engineering: Neuro-Symbolic-Causal Architecture for Robust Multi-Objective AI Agents</title>
+    <updated>2025-10-27T15:25:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.23682v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.23682v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models show promise as autonomous decision-making agents, yet their deployment in high-stakes domains remains fraught with risk. Without architectural safeguards, LLM agents exhibit catastrophic brittleness: identical capabilities produce wildly different outcomes depending solely on prompt framing. We present Chimera, a neuro-symbolic-causal architecture that integrates three complementary components - an LLM strategist, a formally verified symbolic constraint engine, and a causal inference module for counterfactual reasoning. We benchmark Chimera against baseline architectures (LLM-only, LLM with symbolic constraints) across 52-week simulations in a realistic e-commerce environment featuring price elasticity, trust dynamics, and seasonal demand. Under organizational biases toward either volume or margin optimization, LLM-only agents fail catastrophically (total loss of \$99K in volume scenarios) or destroy brand trust (-48.6% in margin scenarios). Adding symbolic constraints prevents disasters but achieves only 43-87% of Chimera's profit. Chimera consistently delivers the highest returns (\$1.52M and \$1.96M respectively, some cases +\$2.2M) while improving brand trust (+1.8% and +10.8%, some cases +20.86%), demonstrating prompt-agnostic robustness. Our TLA+ formal verification proves zero constraint violations across all scenarios. These results establish that architectural design not prompt engineering determines the reliability of autonomous agents in production environments. We provide open-source implementations and interactive demonstrations for reproducibility.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-27T15:25:35Z</published>
+    <arxiv:comment>35 pages, 15 figures, 2 tables. Keywords: Large Language Models, Autonomous Agents, Neuro-Symbolic AI, Causal Inference, Formal Verification, Multi-Objective Optimization. Open-source code and interactive demo available</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Gokturk Aytug Akarlar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wq7hk8H7M6fTmf15gNF5ViKNNik</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14160v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14160v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14160v1</id>
+    <title>Process-Supervised Multi-Agent Reinforcement Learning for Reliable Clinical Reasoning</title>
+    <updated>2026-02-15T14:21:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.14160v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14160v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Clinical decision-making requires nuanced reasoning over heterogeneous evidence and traceable justifications. While recent LLM multi-agent systems (MAS) show promise, they largely optimise for outcome accuracy while overlooking process-grounded reasoning aligned with clinical standards. One critical real-world case of this is gene-disease validity curation, where experts must determine whether a gene is causally implicated in a disease by synthesising diverse biomedical evidence. We introduce an agent-as-tool reinforcement learning framework for this task with two objectives: (i) process-level supervision to ensure reasoning follows valid clinical pathways, and (ii) efficient coordination via a hierarchical multi-agent system. Our evaluation on the ClinGen dataset shows that with outcome-only rewards, MAS with a GRPO-trained Qwen3-4B supervisor agent substantially improves final outcome accuracy from 0.195 with a base model supervisor to 0.732, but results in poor process alignment (0.392 F1). Conversely, with process + outcome rewards, MAS with GRPO-trained supervisor achieves higher outcome accuracy (0.750) while significantly improving process fidelity to 0.520 F1. Our code is available at https://github.com/chaeeunlee-io/GeneDiseaseCurationAgents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T14:21:21Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chaeeun Lee</name>
+    </author>
+    <author>
+      <name>T. Michael Yates</name>
+    </author>
+    <author>
+      <name>Pasquale Minervini</name>
+    </author>
+    <author>
+      <name>T. Ian Simpson</name>
+    </author>
+  </entry>
+</feed>

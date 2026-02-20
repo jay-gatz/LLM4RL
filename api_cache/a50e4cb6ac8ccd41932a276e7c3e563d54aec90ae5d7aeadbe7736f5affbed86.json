@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wGN6KA1u/EezW3mJxz2iooFU14Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10624v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10624v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10624v1</id>
+    <title>A Vision-Language Foundation Model for Zero-shot Clinical Collaboration and Automated Concept Discovery in Dermatology</title>
+    <updated>2026-02-11T08:14:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.10624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Medical foundation models have shown promise in controlled benchmarks, yet widespread deployment remains hindered by reliance on task-specific fine-tuning. Here, we introduce DermFM-Zero, a dermatology vision-language foundation model trained via masked latent modelling and contrastive learning on over 4 million multimodal data points. We evaluated DermFM-Zero across 20 benchmarks spanning zero-shot diagnosis and multimodal retrieval, achieving state-of-the-art performance without task-specific adaptation. We further evaluated its zero-shot capabilities in three multinational reader studies involving over 1,100 clinicians. In primary care settings, AI assistance enabled general practitioners to nearly double their differential diagnostic accuracy across 98 skin conditions. In specialist settings, the model significantly outperformed board-certified dermatologists in multimodal skin cancer assessment. In collaborative workflows, AI assistance enabled non-experts to surpass unassisted experts while improving management appropriateness. Finally, we show that DermFM-Zero's latent representations are interpretable: sparse autoencoders unsupervisedly disentangle clinically meaningful concepts that outperform predefined-vocabulary approaches and enable targeted suppression of artifact-induced biases, enhancing robustness without retraining. These findings demonstrate that a foundation model can provide effective, safe, and transparent zero-shot clinical decision support.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T08:14:20Z</published>
+    <arxiv:comment>reports</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Siyuan Yan</name>
+    </author>
+    <author>
+      <name>Xieji Li</name>
+    </author>
+    <author>
+      <name>Dan Mo</name>
+    </author>
+    <author>
+      <name>Philipp Tschandl</name>
+    </author>
+    <author>
+      <name>Yiwen Jiang</name>
+    </author>
+    <author>
+      <name>Zhonghua Wang</name>
+    </author>
+    <author>
+      <name>Ming Hu</name>
+    </author>
+    <author>
+      <name>Lie Ju</name>
+    </author>
+    <author>
+      <name>Cristina Vico-Alonso</name>
+    </author>
+    <author>
+      <name>Yizhen Zheng</name>
+    </author>
+    <author>
+      <name>Jiahe Liu</name>
+    </author>
+    <author>
+      <name>Juexiao Zhou</name>
+    </author>
+    <author>
+      <name>Camilla Chello</name>
+    </author>
+    <author>
+      <name>Jen G. Cheung</name>
+    </author>
+    <author>
+      <name>Julien Anriot</name>
+    </author>
+    <author>
+      <name>Luc Thomas</name>
+    </author>
+    <author>
+      <name>Clare Primiero</name>
+    </author>
+    <author>
+      <name>Gin Tan</name>
+    </author>
+    <author>
+      <name>Aik Beng Ng</name>
+    </author>
+    <author>
+      <name>Simon See</name>
+    </author>
+    <author>
+      <name>Xiaoying Tang</name>
+    </author>
+    <author>
+      <name>Albert Ip</name>
+    </author>
+    <author>
+      <name>Xiaoyang Liao</name>
+    </author>
+    <author>
+      <name>Adrian Bowling</name>
+    </author>
+    <author>
+      <name>Martin Haskett</name>
+    </author>
+    <author>
+      <name>Shuang Zhao</name>
+    </author>
+    <author>
+      <name>Monika Janda</name>
+    </author>
+    <author>
+      <name>H. Peter Soyer</name>
+    </author>
+    <author>
+      <name>Victoria Mar</name>
+    </author>
+    <author>
+      <name>Harald Kittler</name>
+    </author>
+    <author>
+      <name>Zongyuan Ge</name>
+    </author>
+  </entry>
+</feed>

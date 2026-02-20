@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PzzLHH6Bp2T/sRQkQGFsRlS9wqg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.05610&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:32:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.05610" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.05610v1</id>
+    <title>Chain of Attack: a Semantic-Driven Contextual Multi-Turn attacker for LLM</title>
+    <updated>2024-05-09T08:15:21Z</updated>
+    <link href="https://arxiv.org/abs/2405.05610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.05610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have achieved remarkable performance in various natural language processing tasks, especially in dialogue systems. However, LLM may also pose security and moral threats, especially in multi round conversations where large models are more easily guided by contextual content, resulting in harmful or biased responses. In this paper, we present a novel method to attack LLMs in multi-turn dialogues, called CoA (Chain of Attack). CoA is a semantic-driven contextual multi-turn attack method that adaptively adjusts the attack policy through contextual feedback and semantic relevance during multi-turn of dialogue with a large model, resulting in the model producing unreasonable or harmful content. We evaluate CoA on different LLMs and datasets, and show that it can effectively expose the vulnerabilities of LLMs, and outperform existing attack methods. Our work provides a new perspective and tool for attacking and defending LLMs, and contributes to the security and ethical assessment of dialogue systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-09T08:15:21Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xikang Yang</name>
+    </author>
+    <author>
+      <name>Xuehai Tang</name>
+    </author>
+    <author>
+      <name>Songlin Hu</name>
+    </author>
+    <author>
+      <name>Jizhong Han</name>
+    </author>
+  </entry>
+</feed>

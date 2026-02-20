@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MAM00mjYT3SG6mU80l6MiFc3aYU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.10194v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.10194v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10194v1</id>
+    <title>Autonomous Quantum Simulation through Large Language Model Agents</title>
+    <updated>2026-01-15T08:50:57Z</updated>
+    <link href="https://arxiv.org/abs/2601.10194v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10194v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that large language model (LLM) agents can autonomously perform tensor network simulations of quantum many-body systems, achieving approximately 90% success rate across representative benchmark tasks. Tensor network methods are powerful tools for quantum simulation, but their effective use requires expertise typically acquired through years of graduate training. By combining in-context learning with curated documentation and multi-agent decomposition, we create autonomous AI agents that can be trained in specialized computational domains within minutes. We benchmark three configurations (baseline, single-agent with in-context learning, and multi-agent with in-context learning) on problems spanning quantum phase transitions, open quantum system dynamics, and photochemical reactions. Systematic evaluation using DeepSeek-V3.2, Gemini 2.5 Pro, and Claude Opus 4.5 demonstrates that both in-context learning and multi-agent architecture are essential. Analysis of failure modes reveals characteristic patterns across models, with the multi-agent configuration substantially reducing implementation errors and hallucinations compared to simpler architectures.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-15T08:50:57Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Weitang Li</name>
+    </author>
+    <author>
+      <name>Jiajun Ren</name>
+    </author>
+    <author>
+      <name>Lixue Cheng</name>
+    </author>
+    <author>
+      <name>Cunxi Gong</name>
+    </author>
+  </entry>
+</feed>

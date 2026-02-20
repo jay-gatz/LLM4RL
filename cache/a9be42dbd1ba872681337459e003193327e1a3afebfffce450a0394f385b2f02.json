@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/x7q5wFTlRGzeymGvwIR8llLab2A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2308.00352&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2308.00352" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00352v7</id>
+    <title>MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework</title>
+    <updated>2024-11-01T14:36:52Z</updated>
+    <link href="https://arxiv.org/abs/2308.00352v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00352v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-01T07:49:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sirui Hong</name>
+    </author>
+    <author>
+      <name>Mingchen Zhuge</name>
+    </author>
+    <author>
+      <name>Jiaqi Chen</name>
+    </author>
+    <author>
+      <name>Xiawu Zheng</name>
+    </author>
+    <author>
+      <name>Yuheng Cheng</name>
+    </author>
+    <author>
+      <name>Ceyao Zhang</name>
+    </author>
+    <author>
+      <name>Jinlin Wang</name>
+    </author>
+    <author>
+      <name>Zili Wang</name>
+    </author>
+    <author>
+      <name>Steven Ka Shing Yau</name>
+    </author>
+    <author>
+      <name>Zijuan Lin</name>
+    </author>
+    <author>
+      <name>Liyang Zhou</name>
+    </author>
+    <author>
+      <name>Chenyu Ran</name>
+    </author>
+    <author>
+      <name>Lingfeng Xiao</name>
+    </author>
+    <author>
+      <name>Chenglin Wu</name>
+    </author>
+    <author>
+      <name>Jürgen Schmidhuber</name>
+    </author>
+  </entry>
+</feed>

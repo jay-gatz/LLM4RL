@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i3xSErmrIxEXb+8uHIoix/Zkzkw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14140&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:54:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14140" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14140v1</id>
+    <title>CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems</title>
+    <updated>2026-01-20T16:40:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.14140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied Artificial Intelligence (AI) has recently attracted significant attention as it bridges AI with the physical world. Modern embodied AI systems often combine a Large Language Model (LLM)-based planner for high-level task planning and a reinforcement learning (RL)-based controller for low-level action generation, enabling embodied agents to tackle complex tasks in real-world environments. However, deploying embodied agents remains challenging due to their high computation requirements, especially for battery-powered local devices. Although techniques like lowering operating voltage can improve energy efficiency, they can introduce bit errors and result in task failures. In this work, we propose CREATE, a general design principle that leverages heterogeneous resilience at different layers for synergistic energy-reliability co-optimization. For the first time, we conduct a comprehensive error injection study on modern embodied AI systems and observe an inherent but heterogeneous fault tolerance. Building upon these insights, we develop an anomaly detection and clearance mechanism at the circuit level to eliminate outlier errors. At the model level, we propose a weight-rotation-enhanced planning algorithm to improve the fault tolerance of the LLM-based planner. Furthermore, we introduce an application-level technique, autonomy-adaptive voltage scaling, to dynamically adjust the operating voltage of the controllers. The voltage scaling circuit is co-designed to enable online voltage adjustment. Extensive experiments demonstrate that without compromising task quality, CREATE achieves 40.6% computational energy savings on average over nominal-voltage baselines and 35.0% over prior-art techniques. This further leads to 29.5% to 37.3% chip-level energy savings and approximately a 15% to 30% improvement in battery life.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T16:40:09Z</published>
+    <arxiv:comment>18 pages, 21 figures. Accepted by ASPLOS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Tong Xie</name>
+    </author>
+    <author>
+      <name>Yijiahao Qi</name>
+    </author>
+    <author>
+      <name>Jinqi Wen</name>
+    </author>
+    <author>
+      <name>Zishen Wan</name>
+    </author>
+    <author>
+      <name>Yanchi Dong</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Shaofei Cai</name>
+    </author>
+    <author>
+      <name>Yitao Liang</name>
+    </author>
+    <author>
+      <name>Tianyu Jia</name>
+    </author>
+    <author>
+      <name>Yuan Wang</name>
+    </author>
+    <author>
+      <name>Runsheng Wang</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+    <arxiv:doi>10.1145/3779212.3790147</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3779212.3790147" title="doi"/>
+  </entry>
+</feed>

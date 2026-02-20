@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Gks8HXm6Xyl+cTeBycEDNbgwo2g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12322v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12322v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12322v1</id>
+    <title>ForeAct: Steering Your VLA with Efficient Visual Foresight Planning</title>
+    <updated>2026-02-12T18:56:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.12322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models convert high-level language instructions into concrete, executable actions, a task that is especially challenging in open-world environments. We present Visual Foresight Planning (ForeAct), a general and efficient planner that guides a VLA step-by-step using imagined future observations and subtask descriptions. With an imagined future observation, the VLA can focus on visuo-motor inference rather than high-level semantic reasoning, leading to improved accuracy and generalization. Our planner comprises a highly efficient foresight image generation module that predicts a high-quality 640$\times$480 future observation from the current visual input and language instruction within only 0.33s on an H100 GPU, together with a vision-language model that reasons over the task and produces subtask descriptions for both the generator and the VLA. Importantly, state-of-the-art VLAs can integrate our planner seamlessly by simply augmenting their visual inputs, without any architectural modification. The foresight generator is pretrained on over 1 million multi-task, cross-embodiment episodes, enabling it to learn robust embodied dynamics. We evaluate our framework on a benchmark that consists of 11 diverse, multi-step real-world tasks. It achieves an average success rate of 87.4%, demonstrating a +40.9% absolute improvement over the $π_0$ baseline (46.5%) and a +30.3% absolute improvement over $π_0$ augmented with textual subtask guidance (57.1%).</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T18:56:27Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhuoyang Zhang</name>
+    </author>
+    <author>
+      <name>Shang Yang</name>
+    </author>
+    <author>
+      <name>Qinghao Hu</name>
+    </author>
+    <author>
+      <name>Luke J. Huang</name>
+    </author>
+    <author>
+      <name>James Hou</name>
+    </author>
+    <author>
+      <name>Yufei Sun</name>
+    </author>
+    <author>
+      <name>Yao Lu</name>
+    </author>
+    <author>
+      <name>Song Han</name>
+    </author>
+  </entry>
+</feed>

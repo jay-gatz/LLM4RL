@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xXpQWD+j00nTml69s8yCZsC09nM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12628v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12628v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12628v2</id>
+    <title>Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models</title>
+    <updated>2026-02-16T05:44:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.12628v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12628v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulation offers a scalable and low-cost way to enrich vision-language-action (VLA) training, reducing reliance on expensive real-robot demonstrations. However, most sim-real co-training methods rely on supervised fine-tuning (SFT), which treats simulation as a static source of demonstrations and does not exploit large-scale closed-loop interaction. Consequently, real-world gains and generalization are often limited. In this paper, we propose an \underline{\textit{RL}}-based sim-real \underline{\textit{Co}}-training \modify{(RL-Co)} framework that leverages interactive simulation while preserving real-world capabilities. Our method follows a generic two-stage design: we first warm-start the policy with SFT on a mixture of real and simulated demonstrations, then fine-tune it with reinforcement learning in simulation while adding an auxiliary supervised loss on real-world data to anchor the policy and mitigate catastrophic forgetting. We evaluate our framework on four real-world tabletop manipulation tasks using two representative VLA architectures, OpenVLA and $π_{0.5}$, and observe consistent improvements over real-only fine-tuning and SFT-based co-training, including +24% real-world success on OpenVLA and +20% on $π_{0.5}$. Beyond higher success rates, RL co-training yields stronger generalization to unseen task variations and substantially improved real-world data efficiency, providing a practical and scalable pathway for leveraging simulation to enhance real-robot deployment.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T05:15:50Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Liangzhi Shi</name>
+    </author>
+    <author>
+      <name>Shuaihang Chen</name>
+    </author>
+    <author>
+      <name>Feng Gao</name>
+    </author>
+    <author>
+      <name>Yinuo Chen</name>
+    </author>
+    <author>
+      <name>Kang Chen</name>
+    </author>
+    <author>
+      <name>Tonghe Zhang</name>
+    </author>
+    <author>
+      <name>Hongzhi Zang</name>
+    </author>
+    <author>
+      <name>Weinan Zhang</name>
+    </author>
+    <author>
+      <name>Chao Yu</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+</feed>

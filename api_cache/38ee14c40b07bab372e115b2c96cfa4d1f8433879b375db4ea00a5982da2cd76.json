@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UuGXZ9NMsYF5wBZ6NCC1KLjk9GM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15918v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15918v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15918v1</id>
+    <title>EarthSpatialBench: Benchmarking Spatial Reasoning Capabilities of Multimodal LLMs on Earth Imagery</title>
+    <updated>2026-02-17T06:08:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.15918v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15918v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarking spatial reasoning in multimodal large language models (MLLMs) has attracted growing interest in computer vision due to its importance for embodied AI and other agentic systems that require precise interaction with the physical world. However, spatial reasoning on Earth imagery has lagged behind, as it uniquely involves grounding objects in georeferenced images and quantitatively reasoning about distances, directions, and topological relations using both visual cues and vector geometry coordinates (e.g., 2D bounding boxes, polylines, and polygons). Existing benchmarks for Earth imagery primarily focus on 2D spatial grounding, image captioning, and coarse spatial relations (e.g., simple directional or proximity cues). They lack support for quantitative direction and distance reasoning, systematic topological relations, and complex object geometries beyond bounding boxes. To fill this gap, we propose \textbf{EarthSpatialBench}, a comprehensive benchmark for evaluating spatial reasoning in MLLMs on Earth imagery. The benchmark contains over 325K question-answer pairs spanning: (1) qualitative and quantitative reasoning about spatial distance and direction; (2) systematic topological relations; (3) single-object queries, object-pair queries, and compositional aggregate group queries; and (4) object references expressed via textual descriptions, visual overlays, and explicit geometry coordinates, including 2D bounding boxes, polylines, and polygons. We conducted extensive experiments on both open-source and proprietary models to identify limitations in the spatial reasoning of MLLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T06:08:43Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zelin Xu</name>
+    </author>
+    <author>
+      <name>Yupu Zhang</name>
+    </author>
+    <author>
+      <name>Saugat Adhikari</name>
+    </author>
+    <author>
+      <name>Saiful Islam</name>
+    </author>
+    <author>
+      <name>Tingsong Xiao</name>
+    </author>
+    <author>
+      <name>Zibo Liu</name>
+    </author>
+    <author>
+      <name>Shigang Chen</name>
+    </author>
+    <author>
+      <name>Da Yan</name>
+    </author>
+    <author>
+      <name>Zhe Jiang</name>
+    </author>
+  </entry>
+</feed>

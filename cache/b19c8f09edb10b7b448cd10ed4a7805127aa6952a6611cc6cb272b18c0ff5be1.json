@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nNLQRJI5bGEz53RXccbpXm3yUfc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09023v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09023v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09023v1</id>
+    <title>TwinRL-VLA: Digital Twin-Driven Reinforcement Learning for Real-World Robotic Manipulation</title>
+    <updated>2026-02-09T18:59:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.09023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite strong generalization capabilities, Vision-Language-Action (VLA) models remain constrained by the high cost of expert demonstrations and insufficient real-world interaction. While online reinforcement learning (RL) has shown promise in improving general foundation models, applying RL to VLA manipulation in real-world settings is still hindered by low exploration efficiency and a restricted exploration space. Through systematic real-world experiments, we observe that the effective exploration space of online RL is closely tied to the data distribution of supervised fine-tuning (SFT). Motivated by this observation, we propose TwinRL, a digital twin-real-world collaborative RL framework designed to scale and guide exploration for VLA models. First, a high-fidelity digital twin is efficiently reconstructed from smartphone-captured scenes, enabling realistic bidirectional transfer between real and simulated environments. During the SFT warm-up stage, we introduce an exploration space expansion strategy using digital twins to broaden the support of the data trajectory distribution. Building on this enhanced initialization, we propose a sim-to-real guided exploration strategy to further accelerate online RL. Specifically, TwinRL performs efficient and parallel online RL in the digital twin prior to deployment, effectively bridging the gap between offline and online training stages. Subsequently, we exploit efficient digital twin sampling to identify failure-prone yet informative configurations, which are used to guide targeted human-in-the-loop rollouts on the real robot. In our experiments, TwinRL approaches 100% success in both in-distribution regions covered by real-world demonstrations and out-of-distribution regions, delivering at least a 30% speedup over prior real-world RL methods and requiring only about 20 minutes on average across four tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T18:59:52Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Qinwen Xu</name>
+    </author>
+    <author>
+      <name>Jiaming Liu</name>
+    </author>
+    <author>
+      <name>Rui Zhou</name>
+    </author>
+    <author>
+      <name>Shaojun Shi</name>
+    </author>
+    <author>
+      <name>Nuowei Han</name>
+    </author>
+    <author>
+      <name>Zhuoyang Liu</name>
+    </author>
+    <author>
+      <name>Chenyang Gu</name>
+    </author>
+    <author>
+      <name>Shuo Gu</name>
+    </author>
+    <author>
+      <name>Yang Yue</name>
+    </author>
+    <author>
+      <name>Gao Huang</name>
+    </author>
+    <author>
+      <name>Wenzhao Zheng</name>
+    </author>
+    <author>
+      <name>Sirui Han</name>
+    </author>
+    <author>
+      <name>Peng Jia</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+  </entry>
+</feed>

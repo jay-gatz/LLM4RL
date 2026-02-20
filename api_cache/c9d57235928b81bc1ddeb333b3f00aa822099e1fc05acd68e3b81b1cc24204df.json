@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+WD/zMLK/nDz+ZQYOXA9wLBKvxE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.01619v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:50:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.01619v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.01619v1</id>
+    <title>Throttling Web Agents Using Reasoning Gates</title>
+    <updated>2025-09-01T16:56:16Z</updated>
+    <link href="https://arxiv.org/abs/2509.01619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.01619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI web agents use Internet resources at far greater speed, scale, and complexity -- changing how users and services interact. Deployed maliciously or erroneously, these agents could overload content providers. At the same time, web agents can bypass CAPTCHAs and other defenses by mimicking user behavior or flood authentication systems with fake accounts. Yet providers must protect their services and content from denial-of-service attacks and scraping by web agents. In this paper, we design a framework that imposes tunable costs on agents before providing access to resources; we call this Web Agent Throttling. We start by formalizing Throttling Gates as challenges issued to an agent that are asymmetric, scalable, robust, and compatible with any agent. Focusing on a common component -- the language model -- we require the agent to solve reasoning puzzles, thereby incurring excessive token-generation costs. However, we find that using existing puzzles, e.g., coding or math, as throttling gates fails to satisfy our properties. To address this, we introduce rebus-based Reasoning Gates, synthetic text puzzles that require multi-hop reasoning over world knowledge (thereby throttling an agent's model). We design a scalable generation and verification protocol for such reasoning gates. Our framework achieves computational asymmetry, i.e., the response-generation cost is 9.2x higher than the generation cost for SOTA models. We further deploy reasoning gates on a custom website and Model Context Protocol (MCP) servers and evaluate with real-world web agents. Finally, we discuss the limitations and environmental impact of real-world deployment of our framework.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-01T16:56:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abhinav Kumar</name>
+    </author>
+    <author>
+      <name>Jaechul Roh</name>
+    </author>
+    <author>
+      <name>Ali Naseh</name>
+    </author>
+    <author>
+      <name>Amir Houmansadr</name>
+    </author>
+    <author>
+      <name>Eugene Bagdasarian</name>
+    </author>
+  </entry>
+</feed>

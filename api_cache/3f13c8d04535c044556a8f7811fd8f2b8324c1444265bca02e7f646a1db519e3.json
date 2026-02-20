@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k9rnOlmuH4dXuoU7lFecpvM9fBg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.11717v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.11717v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.11717v4</id>
+    <title>WebInject: Prompt Injection Attack to Web Agents</title>
+    <updated>2025-10-17T01:52:39Z</updated>
+    <link href="https://arxiv.org/abs/2505.11717v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.11717v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-modal large language model (MLLM)-based web agents interact with webpage environments by generating actions based on screenshots of the webpages. In this work, we propose WebInject, a prompt injection attack that manipulates the webpage environment to induce a web agent to perform an attacker-specified action. Our attack adds a perturbation to the raw pixel values of the rendered webpage. After these perturbed pixels are mapped into a screenshot, the perturbation induces the web agent to perform the attacker-specified action. We formulate the task of finding the perturbation as an optimization problem. A key challenge in solving this problem is that the mapping between raw pixel values and screenshot is non-differentiable, making it difficult to backpropagate gradients to the perturbation. To overcome this, we train a neural network to approximate the mapping and apply projected gradient descent to solve the reformulated optimization problem. Extensive evaluation on multiple datasets shows that WebInject is highly effective and significantly outperforms baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T22:00:26Z</published>
+    <arxiv:comment>Appeared in EMNLP 2025 main conference. To better understand prompt injection attacks, see https://people.duke.edu/~zg70/code/PromptInjection.pdf</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)</arxiv:journal_ref>
+    <author>
+      <name>Xilong Wang</name>
+    </author>
+    <author>
+      <name>John Bloch</name>
+    </author>
+    <author>
+      <name>Zedian Shao</name>
+    </author>
+    <author>
+      <name>Yuepeng Hu</name>
+    </author>
+    <author>
+      <name>Shuyan Zhou</name>
+    </author>
+    <author>
+      <name>Neil Zhenqiang Gong</name>
+    </author>
+  </entry>
+</feed>

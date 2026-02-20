@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+JRs28Cb8IG/wXiJS11g3+9GV+Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14257v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14257v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14257v1</id>
+    <title>AD-Bench: A Real-World, Trajectory-Aware Advertising Analytics Benchmark for LLM Agents</title>
+    <updated>2026-02-15T17:59:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.14257v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14257v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Model (LLM) agents have achieved remarkable progress in complex reasoning tasks, evaluating their performance in real-world environments has become a critical problem. Current benchmarks, however, are largely restricted to idealized simulations, failing to address the practical demands of specialized domains like advertising and marketing analytics. In these fields, tasks are inherently more complex, often requiring multi-round interaction with professional marketing tools. To address this gap, we propose AD-Bench, a benchmark designed based on real-world business requirements of advertising and marketing platforms. AD-Bench is constructed from real user marketing analysis requests, with domain experts providing verifiable reference answers and corresponding reference tool-call trajectories. The benchmark categorizes requests into three difficulty levels (L1-L3) to evaluate agents' capabilities under multi-round, multi-tool collaboration. Experiments show that on AD-Bench, Gemini-3-Pro achieves Pass@1 = 68.0% and Pass@3 = 83.0%, but performance drops significantly on L3 to Pass@1 = 49.4% and Pass@3 = 62.1%, with a trajectory coverage of 70.1%, indicating that even state-of-the-art models still exhibit substantial capability gaps in complex advertising and marketing analysis scenarios. AD-Bench provides a realistic benchmark for evaluating and improving advertising marketing agents, the leaderboard and code can be found at https://github.com/Emanual20/adbench-leaderboard.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T17:59:47Z</published>
+    <arxiv:comment>15 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lingxiang Hu</name>
+    </author>
+    <author>
+      <name>Yiding Sun</name>
+    </author>
+    <author>
+      <name>Tianle Xia</name>
+    </author>
+    <author>
+      <name>Wenwei Li</name>
+    </author>
+    <author>
+      <name>Ming Xu</name>
+    </author>
+    <author>
+      <name>Liqun Liu</name>
+    </author>
+    <author>
+      <name>Peng Shu</name>
+    </author>
+    <author>
+      <name>Huan Yu</name>
+    </author>
+    <author>
+      <name>Jie Jiang</name>
+    </author>
+  </entry>
+</feed>

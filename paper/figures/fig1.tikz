@@ -1,0 +1,40 @@
+\begin{tikzpicture}[
+  font=\small,
+  >=Latex,
+  box/.style={draw=black!70, rounded corners=2.5mm, very thick, align=center, minimum width=30mm, minimum height=11mm, fill=white},
+  modA/.style={draw=blue!65!black, rounded corners=2.5mm, thick, align=center, minimum width=33mm, minimum height=11mm, fill=blue!8},
+  modB/.style={draw=orange!75!black, rounded corners=2.5mm, thick, align=center, minimum width=33mm, minimum height=11mm, fill=orange!10},
+  modC/.style={draw=green!55!black, rounded corners=2.5mm, thick, align=center, minimum width=33mm, minimum height=11mm, fill=green!10},
+  modD/.style={draw=purple!70!black, rounded corners=2.5mm, thick, align=center, minimum width=33mm, minimum height=11mm, fill=purple!8},
+  flow/.style={-Latex, very thick, draw=black!80},
+  info/.style={-Latex, thick, draw=black!65},
+  feed/.style={-Latex, thick, dashed, draw=black!55}
+]
+
+\node[box, minimum width=35mm] (env) at (0,0) {Environment};
+\node[box, minimum width=46mm, minimum height=16mm] (agent) at (5.2,0) {RL Agent\\{\footnotesize policy / value / replay}};
+
+\node[modA] (planner) at (10.2, 2.2) {Planner / Decomposer};
+\node[modB] (reward)  at (13.9, 2.2) {Reward / Verifier};
+\node[modC] (world)   at (10.2,-2.2) {World Model / Simulator};
+\node[modD] (tool)    at (13.9,-2.2) {Tool / Memory};
+
+\draw[flow] (env.east) -- node[above,pos=0.45] {$s_t$} (agent.west);
+\draw[flow] (agent.west) -- ++(-1.1,0) |- node[left,pos=0.27] {$a_t$} (env.south);
+\draw[flow] (env.north) .. controls +(1.2,1.0) and +(-1.2,1.0) .. node[above,pos=0.5] {$r_t,\ s_{t+1}$} (agent.north);
+
+\draw[info] (planner.west) -- ++(-1.2,0) |- node[right,pos=0.22] {subgoals} (agent.north);
+\draw[info] (reward.west) -- ++(-1.5,0) |- node[right,pos=0.28] {shaping / checks} (agent.north east);
+\draw[info] (world.west) -- ++(-1.2,0) |- node[right,pos=0.26] {imagined traces} (agent.south);
+\draw[info] (tool.west) -- ++(-1.5,0) |- node[right,pos=0.18] {context updates} (agent.south east);
+
+\draw[feed] (agent.east) -- ++(0.7,0) |- (planner.south);
+\draw[feed] (agent.east) -- ++(0.9,0) |- (reward.south);
+\draw[feed] (agent.east) -- ++(0.7,0) |- (world.north);
+\draw[feed] (agent.east) -- ++(0.9,0) |- (tool.north);
+
+\node[draw=black!40, rounded corners=1.5mm, fill=gray!8, align=left, inner sep=2mm, anchor=north west] at (0.0,-3.7)
+{\footnotesize LLM outputs intervene in trajectory optimization via planning priors, supervision shaping,\\
+\footnotesize simulated rollouts, and tool-memory state construction.};
+
+\end{tikzpicture}

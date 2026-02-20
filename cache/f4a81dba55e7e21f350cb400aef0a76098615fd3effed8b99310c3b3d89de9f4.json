@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6Mc9k7Rf/kMVNB0HDMwOkTWxAys</id>
+  <title>arXiv Query: search_query=&amp;id_list=2411.00027&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2411.00027" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.00027v3</id>
+    <title>Personalization of Large Language Models: A Survey</title>
+    <updated>2025-07-13T02:13:14Z</updated>
+    <link href="https://arxiv.org/abs/2411.00027v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.00027v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalization of Large Language Models (LLMs) has recently become increasingly important with a wide range of applications. Despite the importance and recent progress, most existing works on personalized LLMs have focused either entirely on (a) personalized text generation or (b) leveraging LLMs for personalization-related downstream applications, such as recommendation systems. In this work, we bridge the gap between these two separate main directions for the first time by introducing a taxonomy for personalized LLM usage and summarizing the key differences and challenges. We provide a formalization of the foundations of personalized LLMs that consolidates and expands notions of personalization of LLMs, defining and discussing novel facets of personalization, usage, and desiderata of personalized LLMs. We then unify the literature across these diverse fields and usage scenarios by proposing systematic taxonomies for the granularity of personalization, personalization techniques, datasets, evaluation methods, and applications of personalized LLMs. Finally, we highlight challenges and important open problems that remain to be addressed. By unifying and surveying recent research using the proposed taxonomies, we aim to provide a clear guide to the existing literature and different facets of personalization in LLMs, empowering both researchers and practitioners.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T04:01:11Z</published>
+    <arxiv:comment>Accepted at the Transactions on Machine Learning Research (TMLR) journal</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhehao Zhang</name>
+    </author>
+    <author>
+      <name>Ryan A. Rossi</name>
+    </author>
+    <author>
+      <name>Branislav Kveton</name>
+    </author>
+    <author>
+      <name>Yijia Shao</name>
+    </author>
+    <author>
+      <name>Diyi Yang</name>
+    </author>
+    <author>
+      <name>Hamed Zamani</name>
+    </author>
+    <author>
+      <name>Franck Dernoncourt</name>
+    </author>
+    <author>
+      <name>Joe Barrow</name>
+    </author>
+    <author>
+      <name>Tong Yu</name>
+    </author>
+    <author>
+      <name>Sungchul Kim</name>
+    </author>
+    <author>
+      <name>Ruiyi Zhang</name>
+    </author>
+    <author>
+      <name>Jiuxiang Gu</name>
+    </author>
+    <author>
+      <name>Tyler Derr</name>
+    </author>
+    <author>
+      <name>Hongjie Chen</name>
+    </author>
+    <author>
+      <name>Junda Wu</name>
+    </author>
+    <author>
+      <name>Xiang Chen</name>
+    </author>
+    <author>
+      <name>Zichao Wang</name>
+    </author>
+    <author>
+      <name>Subrata Mitra</name>
+    </author>
+    <author>
+      <name>Nedim Lipka</name>
+    </author>
+    <author>
+      <name>Nesreen Ahmed</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+  </entry>
+</feed>

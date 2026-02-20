@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p+6L7nFDiJtOnKmbwMBpJdjbBY0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09138v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09138v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09138v1</id>
+    <title>PABU: Progress-Aware Belief Update for Efficient LLM Agents</title>
+    <updated>2026-02-09T19:36:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.09138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents commonly condition actions on full action-observation histories, which introduce task-irrelevant information that easily leads to redundant actions and higher inference cost. We propose Progress-Aware Belief Update (PABU), a belief-state framework that compactly represents an agent's state by explicitly modeling task progress and selectively retaining past actions and observations. At each step, the agent predicts its relative progress since the previous round and decides whether the newly encountered interaction should be stored, conditioning future decisions only on the retained subset. Across eight environments in the AgentGym benchmark, and using identical training trajectories, PABU achieves an 81.0% task completion rate, outperforming previous State of the art (SoTA) models with full-history belief by 23.9%. Additionally, PABU's progress-oriented action selection improves efficiency, reducing the average number of interaction steps to 9.5, corresponding to a 26.9% reduction. Ablation studies show that both explicit progress prediction and selective retention are necessary for robust belief learning and performance gains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T19:36:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haitao Jiang</name>
+    </author>
+    <author>
+      <name>Lin Ge</name>
+    </author>
+    <author>
+      <name>Hengrui Cai</name>
+    </author>
+    <author>
+      <name>Rui Song</name>
+    </author>
+  </entry>
+</feed>

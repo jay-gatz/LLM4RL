@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hAYgTyyNrqrRFN3gr7c2OLyk3h0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.18779v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.18779v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18779v3</id>
+    <title>KAT-Coder Technical Report</title>
+    <updated>2025-10-31T04:09:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.18779v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18779v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have enabled progress in agentic coding, where models autonomously reason, plan, and act within interactive software development workflows. However, bridging the gap between static text-based training and dynamic real-world agentic execution remains a core challenge. In this technical report, we present KAT-Coder, a large-scale agentic code model trained through a multi-stage curriculum encompassing Mid-Term Training, Supervised Fine-Tuning (SFT), Reinforcement Fine-Tuning (RFT), and Reinforcement-to-Deployment Adaptation. The Mid-Term stage enhances reasoning, planning, and reflection capabilities through a corpus of real software engineering data and synthetic agentic interactions. The SFT stage constructs a million-sample dataset balancing twenty programming languages, ten development contexts, and ten task archetypes. The RFT stage introduces a novel multi-ground-truth reward formulation for stable and sample-efficient policy optimization. Finally, the Reinforcement-to-Deployment phase adapts the model to production-grade IDE environments using Error-Masked SFT and Tree-Structured Trajectory Training. In summary, these stages enable KAT-Coder to achieve robust tool-use reliability, instruction alignment, and long-context reasoning, forming a deployable foundation for real-world intelligent coding agents. Our KAT series 32B model, KAT-Dev, has been open-sourced on https://huggingface.co/Kwaipilot/KAT-Dev.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T16:27:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zizheng Zhan</name>
+    </author>
+    <author>
+      <name>Ken Deng</name>
+    </author>
+    <author>
+      <name>Jinghui Wang</name>
+    </author>
+    <author>
+      <name>Xiaojiang Zhang</name>
+    </author>
+    <author>
+      <name>Huaixi Tang</name>
+    </author>
+    <author>
+      <name>Minglei Zhang</name>
+    </author>
+    <author>
+      <name>Zhiyi Lai</name>
+    </author>
+    <author>
+      <name>Haoyang Huang</name>
+    </author>
+    <author>
+      <name>Wen Xiang</name>
+    </author>
+    <author>
+      <name>Kun Wu</name>
+    </author>
+    <author>
+      <name>Wenhao Zhuang</name>
+    </author>
+    <author>
+      <name>Shaojie Wang</name>
+    </author>
+    <author>
+      <name>Shangpeng Yan</name>
+    </author>
+    <author>
+      <name>Kepeng Lei</name>
+    </author>
+    <author>
+      <name>Zongxian Feng</name>
+    </author>
+    <author>
+      <name>Huiming Wang</name>
+    </author>
+    <author>
+      <name>Zheng Lin</name>
+    </author>
+    <author>
+      <name>Mengtong Li</name>
+    </author>
+    <author>
+      <name>Mengfei Xie</name>
+    </author>
+    <author>
+      <name>Yinghan Cui</name>
+    </author>
+    <author>
+      <name>Xuxing Chen</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Weihao Li</name>
+    </author>
+    <author>
+      <name>Wenqiang Zhu</name>
+    </author>
+    <author>
+      <name>Jiarong Zhang</name>
+    </author>
+    <author>
+      <name>Jingxuan Xu</name>
+    </author>
+    <author>
+      <name>Songwei Yu</name>
+    </author>
+    <author>
+      <name>Yifan Yao</name>
+    </author>
+    <author>
+      <name>Xinping Lei</name>
+    </author>
+    <author>
+      <name>C. Zhang</name>
+    </author>
+    <author>
+      <name>Han Li</name>
+    </author>
+    <author>
+      <name>Junqi Xiong</name>
+    </author>
+    <author>
+      <name>Zuchen Gao</name>
+    </author>
+    <author>
+      <name>Dailin Li</name>
+    </author>
+    <author>
+      <name>Haimo Li</name>
+    </author>
+    <author>
+      <name>Jiaheng Liu</name>
+    </author>
+    <author>
+      <name>Yuqun Zhang</name>
+    </author>
+    <author>
+      <name>Junyi Peng</name>
+    </author>
+    <author>
+      <name>Haotian Zhang</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+  </entry>
+</feed>

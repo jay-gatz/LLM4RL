@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/As8EWHyfo5wPQ4B/LVsjsYT6nec</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.06227v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.06227v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06227v1</id>
+    <title>Automated Data Enrichment using Confidence-Aware Fine-Grained Debate among Open-Source LLMs for Mental Health and Online Safety</title>
+    <updated>2025-12-06T00:21:29Z</updated>
+    <link href="https://arxiv.org/abs/2512.06227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-world indicators are important for improving natural language processing (NLP) tasks such as life events for mental health analysis and risky behaviour for online safety, yet labelling such information in NLP training datasets is often costly and/or difficult given the dynamic nature of such events. This paper compares several LLM-based data enrichment methods and introduces a novel Confidence-Aware Fine-Grained Debate (CFD) framework in which multiple LLM agents simulate human annotators and exchange fine-grained evidence to reach consensus. We describe two new expert-annotated datasets, a mental health Reddit wellbeing dataset and an online safety Facebook sharenting risk dataset. Our CFD framework achieves the most robust data enrichment performance compared to a range of baselines and we show that this type of data enrichment consistently improves downstream tasks. Enriched features incorporated via debate transcripts yield the largest gains, outperforming the non-enriched baseline by 10.1% for the online safety task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-06T00:21:29Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junyu Mao</name>
+    </author>
+    <author>
+      <name>Anthony Hills</name>
+    </author>
+    <author>
+      <name>Talia Tseriotou</name>
+    </author>
+    <author>
+      <name>Maria Liakata</name>
+    </author>
+    <author>
+      <name>Aya Shamir</name>
+    </author>
+    <author>
+      <name>Dan Sayda</name>
+    </author>
+    <author>
+      <name>Dana Atzil-Slonim</name>
+    </author>
+    <author>
+      <name>Natalie Djohari</name>
+    </author>
+    <author>
+      <name>Arpan Mandal</name>
+    </author>
+    <author>
+      <name>Silke Roth</name>
+    </author>
+    <author>
+      <name>Pamela Ugwudike</name>
+    </author>
+    <author>
+      <name>Mahesan Niranjan</name>
+    </author>
+    <author>
+      <name>Stuart E. Middleton</name>
+    </author>
+  </entry>
+</feed>

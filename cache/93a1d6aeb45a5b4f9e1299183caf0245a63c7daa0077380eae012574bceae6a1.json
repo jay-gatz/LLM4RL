@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Su5n5fTJ2AqdQLqLfI0qeh0QVac</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06493v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06493v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06493v1</id>
+    <title>Adaptive Uncertainty-Aware Tree Search for Robust Reasoning</title>
+    <updated>2026-02-06T08:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2602.06493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inference-time reasoning scaling has significantly advanced the capabilities of Large Language Models (LLMs) in complex problem-solving. A prevalent approach involves external search guided by Process Reward Models (PRMs). However, a fundamental limitation of this framework is the epistemic uncertainty of PRMs when evaluating reasoning paths that deviate from their training distribution. In this work, we conduct a systematic analysis of this challenge. We first provide empirical evidence that PRMs exhibit high uncertainty and unreliable scoring on out-of-distribution (OOD) samples. We then establish a theoretical framework proving that while standard search incurs linear regret accumulation, an uncertainty-aware strategy can achieve sublinear regret. Motivated by these findings, we propose Uncertainty-Aware Tree Search (UATS), a unified method that estimates uncertainty via Monte Carlo Dropout and dynamically allocates compute budget using a reinforcement learning-based controller. Extensive experiments demonstrate that our approach effectively mitigates the impact of OOD errors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T08:40:05Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zeen Song</name>
+    </author>
+    <author>
+      <name>Zihao Ma</name>
+    </author>
+    <author>
+      <name>Wenwen Qiang</name>
+    </author>
+    <author>
+      <name>Changwen Zheng</name>
+    </author>
+    <author>
+      <name>Gang Hua</name>
+    </author>
+  </entry>
+</feed>

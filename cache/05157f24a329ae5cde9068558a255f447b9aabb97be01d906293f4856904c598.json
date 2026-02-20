@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1acq2prEzWn7NZ/5yqxAZN+LXOU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22397v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22397v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22397v1</id>
+    <title>SAIR: Cost-Efficient Multi-Stage ML Pipeline Autoscaling via In-Context Reinforcement Learning</title>
+    <updated>2026-01-29T23:08:15Z</updated>
+    <link href="https://arxiv.org/abs/2601.22397v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22397v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-stage ML inference pipelines are difficult to autoscale due to heterogeneous resources, cross-stage coupling, and dynamic bottleneck migration. We present SAIR, an autoscaling framework that uses an LLM as an in-context reinforcement learning controller, improving its policy online from reward-labeled interaction histories without gradient updates. SAIR combines Pareto-dominance reward shaping with a provable separation margin, surprisal-guided experience retrieval for context efficiency, and fine-grained GPU rate control via user-space CUDA interception. We provide regret analysis decomposing error into retrieval coverage and LLM selection components. On four ML serving pipelines under three workload patterns, SAIR achieves the best or tied-best P99 latency and effective resource cost among deployed baselines, improving P99 by up to 50% and reducing effective cost by up to 97% (under GPU rate-control assumptions), with 86% bottleneck detection accuracy and no offline training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T23:08:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jianchang Su</name>
+    </author>
+    <author>
+      <name>Yifan Zhang</name>
+    </author>
+    <author>
+      <name>Shengkai Lin</name>
+    </author>
+    <author>
+      <name>Shizhen Zhao</name>
+    </author>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Yiwei Yang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+</feed>

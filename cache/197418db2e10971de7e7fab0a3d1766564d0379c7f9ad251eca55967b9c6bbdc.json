@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Fnt+cw7BnlHdUOgvEUP60afV54g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16106v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16106v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16106v1</id>
+    <title>Algorithm-Based Pipeline for Reliable and Intent-Preserving Code Translation with LLMs</title>
+    <updated>2026-02-18T00:34:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.16106v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16106v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Code translation, the automatic conversion of programs between languages, is a growing use case for Large Language Models (LLMs). However, direct one-shot translation often fails to preserve program intent, leading to errors in control flow, type handling, and I/O behavior. We propose an algorithm-based pipeline that introduces a language-neutral intermediate specification to capture these details before code generation. This study empirically evaluates the extent to which structured planning can improve translation accuracy and reliability relative to direct translation. We conduct an automated paired experiment - direct and algorithm-based to translate between Python and Java using five widely used LLMs on the Avatar and CodeNet datasets. For each combination (model, dataset, approach, and direction), we compile and execute the translated program and run the tests provided. We record compilation results, runtime behavior, timeouts (e.g., infinite loop), and test outcomes. We compute accuracy from these tests, counting a translation as correct only if it compiles, runs without exceptions or timeouts, and passes all tests. We then map every failed compile-time and runtime case to a unified, language-aware taxonomy and compare subtype frequencies between the direct and algorithm-based approaches. Overall, the Algorithm-based approach increases micro-average accuracy from 67.7% to 78.5% (10.8% increase). It eliminates lexical and token errors by 100%, reduces incomplete constructs by 72.7%, and structural and declaration issues by 61.1%. It also substantially lowers runtime dependency and entry-point failures by 78.4%. These results demonstrate that algorithm-based pipelines enable more reliable, intent-preserving code translation, providing a foundation for robust multilingual programming assistants.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T00:34:29Z</published>
+    <arxiv:comment>Accepted at 34th IEEE/ACM International Conference on Program Comprehension (ICPC 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Shahriar Rumi Dipto</name>
+    </author>
+    <author>
+      <name>Saikat Mondal</name>
+    </author>
+    <author>
+      <name>Chanchal K. Roy</name>
+    </author>
+  </entry>
+</feed>

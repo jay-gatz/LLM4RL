@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N+VXfefrrO66DuQkQYVWYmgEP4g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01348v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01348v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01348v1</id>
+    <title>CRAFT: Calibrated Reasoning with Answer-Faithful Traces via Reinforcement Learning for Multi-Hop Question Answering</title>
+    <updated>2026-02-01T17:33:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.01348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) is widely used to ground Large Language Models (LLMs) for multi-hop question answering. Recent work mainly focused on improving answer accuracy via fine-tuning and structured or reinforcement-based optimization. However, reliable reasoning in response generation faces three challenges: 1) Reasoning Collapse. Reasoning in multi-hop QA is inherently complex due to multi-hop composition and is further destabilized by noisy retrieval. 2) Reasoning-answer inconsistency. Due to the intrinsic uncertainty of LLM generation and exposure to evidence--distractor mixtures, models may produce correct answers that are not faithfully supported by their intermediate reasoning or evidence. 3) Loss of format control. Traditional chain-of-thought generation often deviates from required structured output formats, leading to incomplete or malformed structured content. To address these challenges, we propose CRAFT (Calibrated Reasoning with Answer-Faithful Traces), a Group Relative Policy Optimization (GRPO) based reinforcement learning framework that trains models to perform faithful reasoning during response generation. CRAFT employs dual reward mechanisms to optimize multi-hop reasoning: deterministic rewards ensure structural correctness while judge-based rewards verify semantic faithfulness. This optimization framework supports controllable trace variants that enable systematic analysis of how structure and scale affect reasoning performance and faithfulness. Experiments on three multi-hop QA benchmarks show that CRAFT improves both answer accuracy and reasoning faithfulness across model scales, with the CRAFT 7B model achieving competitive performance with closed-source LLMs across multiple reasoning trace settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T17:33:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Wenxiao Zhang</name>
+    </author>
+    <author>
+      <name>Cong Cao</name>
+    </author>
+    <author>
+      <name>Fangfang Yuan</name>
+    </author>
+    <author>
+      <name>Weizhuo Chen</name>
+    </author>
+    <author>
+      <name>Cheng Hu</name>
+    </author>
+    <author>
+      <name>Pin Xu</name>
+    </author>
+    <author>
+      <name>Yuling Yang</name>
+    </author>
+    <author>
+      <name>Kun Peng</name>
+    </author>
+    <author>
+      <name>Diandian Guo</name>
+    </author>
+    <author>
+      <name>Qiang Sun</name>
+    </author>
+    <author>
+      <name>Yanbing Liu</name>
+    </author>
+    <author>
+      <name>Jin B. Hong</name>
+    </author>
+    <author>
+      <name>Zhiyuan Ma</name>
+    </author>
+  </entry>
+</feed>

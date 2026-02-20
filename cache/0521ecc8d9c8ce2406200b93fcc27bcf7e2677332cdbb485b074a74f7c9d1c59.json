@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3TF69Zmz80WG8q/fZM3EYDGnCl0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.07226&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.07226" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.07226v2</id>
+    <title>Large Language Models for Robotics: A Survey</title>
+    <updated>2025-12-02T09:02:43Z</updated>
+    <link href="https://arxiv.org/abs/2311.07226v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.07226v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The human ability to learn, generalize, and control complex manipulation tasks through multi-modality feedback suggests a unique capability, which we refer to as dexterity intelligence. Understanding and assessing this intelligence is a complex task. Amidst the swift progress and extensive proliferation of large language models (LLMs), their applications in the field of robotics have garnered increasing attention. LLMs possess the ability to process and generate natural language, facilitating efficient interaction and collaboration with robots. Researchers and engineers in the field of robotics have recognized the immense potential of LLMs in enhancing robot intelligence, human-robot interaction, and autonomy. Therefore, this comprehensive review aims to summarize the applications of LLMs in robotics, delving into their impact and contributions to key areas such as robot control, perception, decision-making, and planning. This survey first provides an overview of the background and development of LLMs for robotics, followed by a discussion of their benefits and recent advancements in LLM-based robotic models. It then explores various techniques, employed in perception, decision-making, control, and interaction, as well as cross-module coordination in practical tasks. Finally, we review current applications of LLMs in robotics and outline potential challenges they may face in the near future. Embodied intelligence represents the future of intelligent systems, and LLM-based robotics is one of the most promising yet challenging paths toward achieving it.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-13T10:46:35Z</published>
+    <arxiv:comment>Preprint. 9 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Fanlong Zeng</name>
+    </author>
+    <author>
+      <name>Wensheng Gan</name>
+    </author>
+    <author>
+      <name>Zezheng Huai</name>
+    </author>
+    <author>
+      <name>Lichao Sun</name>
+    </author>
+    <author>
+      <name>Hechang Chen</name>
+    </author>
+    <author>
+      <name>Yongheng Wang</name>
+    </author>
+    <author>
+      <name>Ning Liu</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XwZkzILrpFN6SOU7Z5raT8KGilU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14476v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14476v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14476v1</id>
+    <title>Truthful Reverse Auctions for Adaptive Selection via Contextual Multi-Armed Bandits</title>
+    <updated>2026-02-16T05:27:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.14476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of selecting large language models (LLMs) for user queries in settings where multiple LLM providers submit the cost of solving a query. From the users' perspective, choosing an optimal model is a sequential, query-dependent decision problem: high-capacity models offer more reliable outputs but are costlier, while lightweight models are faster and cheaper. We formalize this interaction as a reverse auction design problem with contextual online learning, where the user adaptively discovers which model performs best while eliciting costs from competing LLM providers. Existing multi-armed bandit (MAB) mechanisms focus on forward auctions and social welfare, leaving open the challenges of reverse auctions, provider-optimal outcomes, and contextual adaptation. We address these gaps by designing a resampling-based procedure that generalizes truthful forward MAB mechanisms to reverse auctions and prove that any monotone allocation rule with this procedure is truthful. Using this, we propose a contextual MAB algorithm that learns query-dependent model quality with sublinear regret. Our framework unifies mechanism design and adaptive learning, enabling efficient, truthful, and query-aware LLM selection.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T05:27:48Z</published>
+    <arxiv:comment>20 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Pronoy Patra</name>
+    </author>
+    <author>
+      <name>Sankarshan Damle</name>
+    </author>
+    <author>
+      <name>Manisha Padala</name>
+    </author>
+    <author>
+      <name>Sujit Gujar</name>
+    </author>
+  </entry>
+</feed>

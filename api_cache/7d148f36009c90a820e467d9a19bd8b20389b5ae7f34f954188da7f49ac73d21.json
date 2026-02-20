@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+VaKEOcHYcWfnonOZo4VhnJ5djc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.12871&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.12871" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.12871v3</id>
+    <title>An Embodied Generalist Agent in 3D World</title>
+    <updated>2024-05-09T17:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2311.12871v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.12871v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Leveraging massive knowledge from large language models (LLMs), recent machine learning models show notable successes in general-purpose task solving in diverse domains such as computer vision and robotics. However, several significant challenges remain: (i) most of these models rely on 2D images yet exhibit a limited capacity for 3D input; (ii) these models rarely explore the tasks inherently defined in 3D world, e.g., 3D grounding, embodied reasoning and acting. We argue these limitations significantly hinder current models from performing real-world tasks and approaching general intelligence. To this end, we introduce LEO, an embodied multi-modal generalist agent that excels in perceiving, grounding, reasoning, planning, and acting in the 3D world. LEO is trained with a unified task interface, model architecture, and objective in two stages: (i) 3D vision-language (VL) alignment and (ii) 3D vision-language-action (VLA) instruction tuning. We collect large-scale datasets comprising diverse object-level and scene-level tasks, which require considerable understanding of and interaction with the 3D world. Moreover, we meticulously design an LLM-assisted pipeline to produce high-quality 3D VL data. Through extensive experiments, we demonstrate LEO's remarkable proficiency across a wide spectrum of tasks, including 3D captioning, question answering, embodied reasoning, navigation and manipulation. Our ablative studies and scaling analyses further provide valuable insights for developing future embodied generalist agents. Code and data are available on project page.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-18T01:21:38Z</published>
+    <arxiv:comment>ICML 2024. The first four authors contribute equally. Project page: https://embodied-generalist.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiangyong Huang</name>
+    </author>
+    <author>
+      <name>Silong Yong</name>
+    </author>
+    <author>
+      <name>Xiaojian Ma</name>
+    </author>
+    <author>
+      <name>Xiongkun Linghu</name>
+    </author>
+    <author>
+      <name>Puhao Li</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Qing Li</name>
+    </author>
+    <author>
+      <name>Song-Chun Zhu</name>
+    </author>
+    <author>
+      <name>Baoxiong Jia</name>
+    </author>
+    <author>
+      <name>Siyuan Huang</name>
+    </author>
+  </entry>
+</feed>

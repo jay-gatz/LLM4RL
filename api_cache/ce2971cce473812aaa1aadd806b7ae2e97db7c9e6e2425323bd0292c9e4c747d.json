@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Kpd9OiIXXIyUcZB8IyeZ1/RN8+k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14431v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14431v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14431v1</id>
+    <title>'I Spend All My Energy Preparing': Balancing AI Automation and Agency for Self-Regulated Learning in SmartFlash</title>
+    <updated>2026-02-16T03:40:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.14431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective study strategies fail when preparatory tasks consume learning time. While AI educational tools demonstrate efficacy, understanding how they align with self-regulation needs in authentic study contexts remains limited. We conducted formative design research using an AI flashcard prototype, employing large language models to generate design hypotheses, which were validated through researcher walkthroughs and student sessions. Six students across disciplines completed sessions combining interviews and think-aloud tasks with their materials. Analysis revealed that students value automation for addressing the overwhelming preparation burden, yet require transparent, editable AI outputs to maintain cognitive ownership, which is essential for self-regulation. They conceptualized AI as a collaborative partner demanding verifiable reasoning rather than an autonomous agent. Metacognitive scaffolding was endorsed when clarifying study direction without constraining choice. Motivational features produced divergent responses. We derive design principles prioritizing editability and transparency, scaffolding metacognition without prescription, and accommodating motivational diversity. Findings identify conditions under which automation supports versus undermines metacognitive development in self-regulated learning.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T03:40:08Z</published>
+    <arxiv:comment>Accepted at the International Society of the Learning Sciences (ISLS) Annual Meeting 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Hongming Li</name>
+    </author>
+    <author>
+      <name>Salah Esmaeiligoujar</name>
+    </author>
+    <author>
+      <name>Nazanin Adham</name>
+    </author>
+    <author>
+      <name>Hai Li</name>
+    </author>
+    <author>
+      <name>Rui Huang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/G+Bqn/g0OGUc2eNMkvzocUpxIrU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14200v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14200v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14200v1</id>
+    <title>TS-Haystack: A Multi-Scale Retrieval Benchmark for Time Series Language Models</title>
+    <updated>2026-02-15T15:50:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.14200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time Series Language Models (TSLMs) are emerging as unified models for reasoning over continuous signals in natural language. However, long-context retrieval remains a major limitation: existing models are typically trained and evaluated on short sequences, while real-world time-series sensor streams can span millions of datapoints. This mismatch requires precise temporal localization under strict computational constraints, a regime that is not captured by current benchmarks. We introduce TS-Haystack, a long-context temporal retrieval benchmark comprising ten task types across four categories: direct retrieval, temporal reasoning, multi-step reasoning and contextual anomaly. The benchmark uses controlled needle insertion by embedding short activity bouts into longer longitudinal accelerometer recordings, enabling systematic evaluation across context lengths ranging from seconds to 2 hours per sample. We hypothesize that existing TSLM time series encoders overlook temporal granularity as context length increases, creating a task-dependent effect: compression aids classification but impairs retrieval of localized events. Across multiple model and encoding strategies, we observe a consistent divergence between classification and retrieval behavior. Learned latent compression preserves or improves classification accuracy at compression ratios up to 176$\times$, but retrieval performance degrades with context length, incurring in the loss of temporally localized information. These results highlight the importance of architectural designs that decouple sequence length from computational complexity while preserving temporal fidelity.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T15:50:02Z</published>
+    <arxiv:comment>18 pages, 13 figures, 10 tables (main paper: 5 pages, 3 figures, 2 tables)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Zumarraga</name>
+    </author>
+    <author>
+      <name>Thomas Kaar</name>
+    </author>
+    <author>
+      <name>Ning Wang</name>
+    </author>
+    <author>
+      <name>Maxwell A. Xu</name>
+    </author>
+    <author>
+      <name>Max Rosenblattl</name>
+    </author>
+    <author>
+      <name>Markus Kreft</name>
+    </author>
+    <author>
+      <name>Kevin O'Sullivan</name>
+    </author>
+    <author>
+      <name>Paul Schmiedmayer</name>
+    </author>
+    <author>
+      <name>Patrick Langer</name>
+    </author>
+    <author>
+      <name>Robert Jakob</name>
+    </author>
+  </entry>
+</feed>

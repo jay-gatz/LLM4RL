@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZkSvmlBQxPY28R3khWeaRmO8dME</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02539v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02539v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02539v1</id>
+    <title>How Much Information Can a Vision Token Hold? A Scaling Law for Recognition Limits in VLMs</title>
+    <updated>2026-01-28T15:21:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.02539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent vision-centric approaches have made significant strides in long-context modeling. Represented by DeepSeek-OCR, these models encode rendered text into continuous vision tokens, achieving high compression rates without sacrificing recognition precision. However, viewing the vision encoder as a lossy channel with finite representational capacity raises a fundamental question: what is the information upper bound of visual tokens? To investigate this limit, we conduct controlled stress tests by progressively increasing the information quantity (character count) within an image. We observe a distinct phase-transition phenomenon characterized by three regimes: a near-perfect Stable Phase, an Instability Phase marked by increased error variance, and a total Collapse Phase. We analyze the mechanical origins of these transitions and identify key factors. Furthermore, we formulate a probabilistic scaling law that unifies average vision token load and visual density into a latent difficulty metric. Extensive experiments across various Vision-Language Models demonstrate the universality of this scaling law, providing critical empirical guidance for optimizing the efficiency-accuracy trade-off in visual context compression.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T15:21:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shuxin Zhuang</name>
+    </author>
+    <author>
+      <name>Zi Liang</name>
+    </author>
+    <author>
+      <name>Runsheng Yu</name>
+    </author>
+    <author>
+      <name>Hongzong Li</name>
+    </author>
+    <author>
+      <name>Rong Feng</name>
+    </author>
+    <author>
+      <name>Shiqin Tang</name>
+    </author>
+    <author>
+      <name>Youzhi Zhang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2U7HGGvMeZIxHq3W+Y95RB821MI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19761v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19761v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19761v1</id>
+    <title>Reimagining Social Robots as Recommender Systems: Foundations, Framework, and Applications</title>
+    <updated>2026-01-27T16:25:56Z</updated>
+    <link href="https://arxiv.org/abs/2601.19761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalization in social robots refers to the ability of the robot to meet the needs and/or preferences of an individual user. Existing approaches typically rely on large language models (LLMs) to generate context-aware responses based on user metadata and historical interactions or on adaptive methods such as reinforcement learning (RL) to learn from users' immediate reactions in real time. However, these approaches fall short of comprehensively capturing user preferences-including long-term, short-term, and fine-grained aspects-, and of using them to rank and select actions, proactively personalize interactions, and ensure ethically responsible adaptations. To address the limitations, we propose drawing on recommender systems (RSs), which specialize in modeling user preferences and providing personalized recommendations. To ensure the integration of RS techniques is well-grounded and seamless throughout the social robot pipeline, we (i) align the paradigms underlying social robots and RSs, (ii) identify key techniques that can enhance personalization in social robots, and (iii) design them as modular, plug-and-play components. This work not only establishes a framework for integrating RS techniques into social robots but also opens a pathway for deep collaboration between the RS and HRI communities, accelerating innovation in both fields.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T16:25:56Z</published>
+    <arxiv:comment>HRI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jin Huang</name>
+    </author>
+    <author>
+      <name>Fethiye Irmak Doğan</name>
+    </author>
+    <author>
+      <name>Hatice Gunes</name>
+    </author>
+    <arxiv:doi>10.1145/3757279.3785610</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3757279.3785610" title="doi"/>
+  </entry>
+</feed>

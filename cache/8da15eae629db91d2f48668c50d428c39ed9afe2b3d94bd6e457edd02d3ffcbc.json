@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vMWv/PWqRkzFsZOgUGeW2QP4Toc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15983v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15983v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15983v1</id>
+    <title>ReLoop: Structured Modeling and Behavioral Verification for Reliable LLM-Based Optimization</title>
+    <updated>2026-02-17T20:20:33Z</updated>
+    <link href="https://arxiv.org/abs/2602.15983v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15983v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) can translate natural language into optimization code, but silent failures pose a critical risk: code that executes and returns solver-feasible solutions may encode semantically incorrect formulations, creating a feasibility-correctness gap of up to 90 percentage points on compositional problems. We introduce ReLoop, addressing silent failures from two complementary directions. Structured generation decomposes code production into a four-stage reasoning chain (understand, formalize, synthesize, verify) that mirrors expert modeling practice, with explicit variable-type reasoning and self-verification to prevent formulation errors at their source. Behavioral verification detects errors that survive generation by testing whether the formulation responds correctly to solver-based parameter perturbation, without requiring ground truth -- an external semantic signal that bypasses the self-consistency problem inherent in LLM-based code review. The two mechanisms are complementary: structured generation dominates on complex compositional problems, while behavioral verification becomes the largest single contributor on problems with localized formulation defects. Together with execution recovery via IIS-enhanced diagnostics, ReLoop raises correctness from 22.6% to 31.1% and execution from 72.1% to 100.0% on the strongest model, with consistent gains across five models spanning three paradigms (foundation, SFT, RL) and three benchmarks. We additionally release RetailOpt-190, 190 compositional retail optimization scenarios targeting the multi-constraint interactions where LLMs most frequently fail.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T20:20:33Z</published>
+    <arxiv:comment>Code and benchmark: \url{https://github.com/junbolian/ReLoop}</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Junbo Jacob Lian</name>
+    </author>
+    <author>
+      <name>Yujun Sun</name>
+    </author>
+    <author>
+      <name>Huiling Chen</name>
+    </author>
+    <author>
+      <name>Chaoyu Zhang</name>
+    </author>
+    <author>
+      <name>Chung-Piaw Teo</name>
+    </author>
+  </entry>
+</feed>

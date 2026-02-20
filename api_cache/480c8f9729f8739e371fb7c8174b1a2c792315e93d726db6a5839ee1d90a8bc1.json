@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BoLknY7PJ34GQTgfl98Gfa3+p98</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21037v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21037v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21037v1</id>
+    <title>Thinking in Frames: How Visual Context and Test-Time Scaling Empower Video Reasoning</title>
+    <updated>2026-01-28T20:57:55Z</updated>
+    <link href="https://arxiv.org/abs/2601.21037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models have excelled at textual reasoning, but they often struggle with fine-grained spatial understanding and continuous action planning, failing to simulate the dynamics required for complex visual reasoning. In this work, we formulate visual reasoning by means of video generation models, positing that generated frames can act as intermediate reasoning steps between initial states and solutions. We evaluate their capacity in two distinct regimes: Maze Navigation for sequential discrete planning with low visual change and Tangram Puzzle for continuous manipulation with high visual change. Our experiments reveal three critical insights: (1) Robust Zero-Shot Generalization: In both tasks, the model demonstrates strong performance on unseen data distributions without specific finetuning. (2) Visual Context: The model effectively uses visual context as explicit control, such as agent icons and tangram shapes, enabling it to maintain high visual consistency and adapt its planning capability robustly to unseen patterns. (3) Visual Test-Time Scaling: We observe a test-time scaling law in sequential planning; increasing the generated video length (visual inference budget) empowers better zero-shot generalization to spatially and temporally complex paths. These findings suggest that video generation is not merely a media tool, but a scalable, generalizable paradigm for visual reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T20:57:55Z</published>
+    <arxiv:comment>8 pages, 3 figures, 3 tables (26 pages, 13 figures, 6 tables including references and appendices)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chengzu Li</name>
+    </author>
+    <author>
+      <name>Zanyi Wang</name>
+    </author>
+    <author>
+      <name>Jiaang Li</name>
+    </author>
+    <author>
+      <name>Yi Xu</name>
+    </author>
+    <author>
+      <name>Han Zhou</name>
+    </author>
+    <author>
+      <name>Huanyu Zhang</name>
+    </author>
+    <author>
+      <name>Ruichuan An</name>
+    </author>
+    <author>
+      <name>Dengyang Jiang</name>
+    </author>
+    <author>
+      <name>Zhaochong An</name>
+    </author>
+    <author>
+      <name>Ivan Vulić</name>
+    </author>
+    <author>
+      <name>Serge Belongie</name>
+    </author>
+    <author>
+      <name>Anna Korhonen</name>
+    </author>
+  </entry>
+</feed>

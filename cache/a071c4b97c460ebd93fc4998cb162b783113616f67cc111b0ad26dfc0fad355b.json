@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J95z9A+QNOKiFNNegqKd1N7MYjk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21212&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:53:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21212" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21212v1</id>
+    <title>Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empowered Reinforcement Learning</title>
+    <updated>2026-01-29T03:23:40Z</updated>
+    <link href="https://arxiv.org/abs/2601.21212v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21212v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective urban planning is crucial for enhancing residents' quality of life and ensuring societal stability, playing a pivotal role in the sustainable development of cities. Current planning methods heavily rely on human experts, which are time-consuming and labor-intensive, or utilize deep learning algorithms, often limiting stakeholder involvement. To bridge these gaps, we propose Intelli-Planner, a novel framework integrating Deep Reinforcement Learning (DRL) with large language models (LLMs) to facilitate participatory and customized planning scheme generation. Intelli-Planner utilizes demographic, geographic data, and planning preferences to determine high-level planning requirements and demands for each functional type. During training, a knowledge enhancement module is employed to enhance the decision-making capability of the policy network. Additionally, we establish a multi-dimensional evaluation system and employ LLM-based stakeholders for satisfaction scoring. Experimental validation across diverse urban settings shows that Intelli-Planner surpasses traditional baselines and achieves comparable performance to state-of-the-art DRL-based methods in objective metrics, while enhancing stakeholder satisfaction and convergence speed. These findings underscore the effectiveness and superiority of our framework, highlighting the potential for integrating the latest advancements in LLMs with DRL approaches to revolutionize tasks related to functional areas planning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T03:23:40Z</published>
+    <arxiv:comment>The Web Conference 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xixian Yong</name>
+    </author>
+    <author>
+      <name>Peilin Sun</name>
+    </author>
+    <author>
+      <name>Zihe Wang</name>
+    </author>
+    <author>
+      <name>Xiao Zhou</name>
+    </author>
+    <arxiv:doi>10.1145/3774904.3793019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3774904.3793019" title="doi"/>
+  </entry>
+</feed>

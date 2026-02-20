@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oPGgfVTBD7OQ6tAgPADu4Wtfo4k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20088v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20088v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20088v1</id>
+    <title>Quantization-Aware Distillation for NVFP4 Inference Accuracy Recovery</title>
+    <updated>2026-01-27T22:14:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.20088v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20088v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This technical report presents quantization-aware distillation (QAD) and our best practices for recovering accuracy of NVFP4-quantized large language models (LLMs) and vision-language models (VLMs). QAD distills a full-precision teacher model into a quantized student model using a KL divergence loss. While applying distillation to quantized models is not a new idea, we observe key advantages of QAD for today's LLMs: 1. It shows remarkable effectiveness and stability for models trained through multi-stage post-training pipelines, including supervised fine-tuning (SFT), reinforcement learning (RL), and model merging, where traditional quantization-aware training (QAT) suffers from engineering complexity and training instability; 2. It is robust to data quality and coverage, enabling accuracy recovery without full training data. We evaluate QAD across multiple post-trained models including AceReason Nemotron, Nemotron 3 Nano, Nemotron Nano V2, Nemotron Nano V2 VL (VLM), and Llama Nemotron Super v1, showing consistent recovery to near-BF16 accuracy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T22:14:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Meng Xin</name>
+    </author>
+    <author>
+      <name>Sweta Priyadarshi</name>
+    </author>
+    <author>
+      <name>Jingyu Xin</name>
+    </author>
+    <author>
+      <name>Bilal Kartal</name>
+    </author>
+    <author>
+      <name>Aditya Vavre</name>
+    </author>
+    <author>
+      <name>Asma Kuriparambil Thekkumpate</name>
+    </author>
+    <author>
+      <name>Zijia Chen</name>
+    </author>
+    <author>
+      <name>Ameya Sunil Mahabaleshwarkar</name>
+    </author>
+    <author>
+      <name>Ido Shahaf</name>
+    </author>
+    <author>
+      <name>Akhiad Bercovich</name>
+    </author>
+    <author>
+      <name>Kinjal Patel</name>
+    </author>
+    <author>
+      <name>Suguna Varshini Velury</name>
+    </author>
+    <author>
+      <name>Chenjie Luo</name>
+    </author>
+    <author>
+      <name>Zhiyu Cheng</name>
+    </author>
+    <author>
+      <name>Jenny Chen</name>
+    </author>
+    <author>
+      <name>Chen-Han Yu</name>
+    </author>
+    <author>
+      <name>Wei Ping</name>
+    </author>
+    <author>
+      <name>Oleg Rybakov</name>
+    </author>
+    <author>
+      <name>Nima Tajbakhsh</name>
+    </author>
+    <author>
+      <name>Oluwatobi Olabiyi</name>
+    </author>
+    <author>
+      <name>Dusan Stosic</name>
+    </author>
+    <author>
+      <name>Di Wu</name>
+    </author>
+    <author>
+      <name>Song Han</name>
+    </author>
+    <author>
+      <name>Eric Chung</name>
+    </author>
+    <author>
+      <name>Sharath Turuvekere Sreenivas</name>
+    </author>
+    <author>
+      <name>Bryan Catanzaro</name>
+    </author>
+    <author>
+      <name>Yoshi Suhara</name>
+    </author>
+    <author>
+      <name>Tijmen Blankevoort</name>
+    </author>
+    <author>
+      <name>Huizi Mao</name>
+    </author>
+  </entry>
+</feed>

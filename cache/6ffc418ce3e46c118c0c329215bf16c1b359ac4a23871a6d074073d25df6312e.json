@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2s9uHcDdSoDH3T+y7qXMDMbFlcg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22648v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22648v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22648v1</id>
+    <title>UCPO: Uncertainty-Aware Policy Optimization</title>
+    <updated>2026-01-30T07:07:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.22648v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22648v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The key to building trustworthy Large Language Models (LLMs) lies in endowing them with inherent uncertainty expression capabilities to mitigate the hallucinations that restrict their high-stakes applications. However, existing RL paradigms such as GRPO often suffer from Advantage Bias due to binary decision spaces and static uncertainty rewards, inducing either excessive conservatism or overconfidence. To tackle this challenge, this paper unveils the root causes of reward hacking and overconfidence in current RL paradigms incorporating uncertainty-based rewards, based on which we propose the UnCertainty-Aware Policy Optimization (UCPO) framework. UCPO employs Ternary Advantage Decoupling to separate and independently normalize deterministic and uncertain rollouts, thereby eliminating advantage bias. Furthermore, a Dynamic Uncertainty Reward Adjustment mechanism is introduced to calibrate uncertainty weights in real-time according to model evolution and instance difficulty. Experimental results in mathematical reasoning and general tasks demonstrate that UCPO effectively resolves the reward imbalance, significantly improving the reliability and calibration of the model beyond their knowledge boundaries.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T07:07:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xianzhou Zeng</name>
+    </author>
+    <author>
+      <name>Jing Huang</name>
+    </author>
+    <author>
+      <name>Chunmei Xie</name>
+    </author>
+    <author>
+      <name>Gongrui Nan</name>
+    </author>
+    <author>
+      <name>Siye Chen</name>
+    </author>
+    <author>
+      <name>Mengyu Lu</name>
+    </author>
+    <author>
+      <name>Weiqi Xiong</name>
+    </author>
+    <author>
+      <name>Qixuan Zhou</name>
+    </author>
+    <author>
+      <name>Junhao Zhang</name>
+    </author>
+    <author>
+      <name>Qiang Zhu</name>
+    </author>
+    <author>
+      <name>Yadong Li</name>
+    </author>
+    <author>
+      <name>Xingzhong Xu</name>
+    </author>
+  </entry>
+</feed>

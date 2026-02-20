@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D3XJTaJautX+NXqECxkoNypK5ZU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.22552v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.22552v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22552v1</id>
+    <title>Auto-Intent: Automated Intent Discovery and Self-Exploration for Large Language Model Web Agents</title>
+    <updated>2024-10-29T21:37:04Z</updated>
+    <link href="https://arxiv.org/abs/2410.22552v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22552v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce Auto-Intent, a method to adapt a pre-trained large language model (LLM) as an agent for a target domain without direct fine-tuning, where we empirically focus on web navigation tasks. Our approach first discovers the underlying intents from target domain demonstrations unsupervisedly, in a highly compact form (up to three words). With the extracted intents, we train our intent predictor to predict the next intent given the agent's past observations and actions. In particular, we propose a self-exploration approach where top-k probable intent predictions are provided as a hint to the pre-trained LLM agent, which leads to enhanced decision-making capabilities. Auto-Intent substantially improves the performance of GPT-{3.5, 4} and Llama-3.1-{70B, 405B} agents on the large-scale real-website navigation benchmarks from Mind2Web and online navigation tasks from WebArena with its cross-benchmark generalization from Mind2Web.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T21:37:04Z</published>
+    <arxiv:comment>EMNLP 2024 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jaekyeom Kim</name>
+    </author>
+    <author>
+      <name>Dong-Ki Kim</name>
+    </author>
+    <author>
+      <name>Lajanugen Logeswaran</name>
+    </author>
+    <author>
+      <name>Sungryull Sohn</name>
+    </author>
+    <author>
+      <name>Honglak Lee</name>
+    </author>
+  </entry>
+</feed>

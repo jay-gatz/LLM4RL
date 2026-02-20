@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L2SpxS5qfxFF+KCw2sS7ZqRWu6A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06575v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06575v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06575v1</id>
+    <title>Think Proprioceptively: Embodied Visual Reasoning for VLA Manipulation</title>
+    <updated>2026-02-06T10:16:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.06575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language-action (VLA) models typically inject proprioception only as a late conditioning signal, which prevents robot state from shaping instruction understanding and from influencing which visual tokens are attended throughout the policy. We introduce ThinkProprio, which converts proprioception into a sequence of text tokens in the VLM embedding space and fuses them with the task instruction at the input. This early fusion lets embodied state participate in subsequent visual reasoning and token selection, biasing computation toward action-critical evidence while suppressing redundant visual tokens. In a systematic ablation over proprioception encoding, state entry point, and action-head conditioning, we find that text tokenization is more effective than learned projectors, and that retaining roughly 15% of visual tokens can match the performance of using the full token set. Across CALVIN, LIBERO, and real-world manipulation, ThinkProprio matches or improves over strong baselines while reducing end-to-end inference latency over 50%.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T10:16:22Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Fangyuan Wang</name>
+    </author>
+    <author>
+      <name>Peng Zhou</name>
+    </author>
+    <author>
+      <name>Jiaming Qi</name>
+    </author>
+    <author>
+      <name>Shipeng Lyu</name>
+    </author>
+    <author>
+      <name>David Navarro-Alarcon</name>
+    </author>
+    <author>
+      <name>Guodong Guo</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9yZs4h04tHP1E8kjPSuQQSAITOg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22776v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22776v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22776v1</id>
+    <title>TSPO: Breaking the Double Homogenization Dilemma in Multi-turn Search Policy Optimization</title>
+    <updated>2026-01-30T09:58:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.22776v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22776v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-turn tool-integrated reasoning enables Large Language Models (LLMs) to solve complex tasks through iterative information retrieval. However, current reinforcement learning (RL) frameworks for search-augmented reasoning predominantly rely on sparse outcome-level rewards, leading to a "Double Homogenization Dilemma." This manifests as (1) Process homogenization, where the thinking, reasoning, and tooling involved in generation are ignored. (2) Intra-group homogenization, coarse-grained outcome rewards often lead to inefficiencies in intra-group advantage estimation with methods like Group Relative Policy Optimization (GRPO) during sampling. To address this, we propose Turn-level Stage-aware Policy Optimization (TSPO). TSPO introduces the First-Occurrence Latent Reward (FOLR) mechanism, allocating partial rewards to the step where the ground-truth answer first appears, thereby preserving process-level signals and increasing reward variance within groups without requiring external reward models or any annotations. Extensive experiments demonstrate that TSPO significantly outperforms state-of-the-art baselines, achieving average performance gains of 24% and 13.6% on Qwen2.5-3B and 7B models, respectively.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T09:58:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shichao Ma</name>
+    </author>
+    <author>
+      <name>Zhiyuan Ma</name>
+    </author>
+    <author>
+      <name>Ming Yang</name>
+    </author>
+    <author>
+      <name>Xiaofan Li</name>
+    </author>
+    <author>
+      <name>Xing Wu</name>
+    </author>
+    <author>
+      <name>Jintao Du</name>
+    </author>
+    <author>
+      <name>Yu Cheng</name>
+    </author>
+    <author>
+      <name>Weiqiang Wang</name>
+    </author>
+    <author>
+      <name>Qiliang Liu</name>
+    </author>
+    <author>
+      <name>Zhengyang Zhou</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+  </entry>
+</feed>

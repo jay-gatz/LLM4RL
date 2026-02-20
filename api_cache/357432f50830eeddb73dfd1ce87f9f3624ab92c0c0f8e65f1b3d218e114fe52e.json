@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZPulQ3po9Wbi9GM0VvfuOBscj7Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15682v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15682v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15682v1</id>
+    <title>The Next Paradigm Is User-Centric Agent, Not Platform-Centric Service</title>
+    <updated>2026-02-17T16:07:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.15682v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15682v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern digital services have evolved into indispensable tools, driving the present large-scale information systems. Yet, the prevailing platform-centric model, where services are optimized for platform-driven metrics such as engagement and conversion, often fails to align with users' true needs. While platform technologies have advanced significantly-especially with the integration of large language models (LLMs)-we argue that improvements in platform service quality do not necessarily translate to genuine user benefit. Instead, platform-centric services prioritize provider objectives over user welfare, resulting in conflicts against user interests. This paper argues that the future of digital services should shift from a platform-centric to a user-centric agent. These user-centric agents prioritize privacy, align with user-defined goals, and grant users control over their preferences and actions. With advancements in LLMs and on-device intelligence, the realization of this vision is now feasible. This paper explores the opportunities and challenges in transitioning to user-centric intelligence, presents a practical device-cloud pipeline for its implementation, and discusses the necessary governance and ecosystem structures for its adoption.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T16:07:44Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Luankang Zhang</name>
+    </author>
+    <author>
+      <name>Hang Lv</name>
+    </author>
+    <author>
+      <name>Qiushi Pan</name>
+    </author>
+    <author>
+      <name>Kefen Wang</name>
+    </author>
+    <author>
+      <name>Yonghao Huang</name>
+    </author>
+    <author>
+      <name>Xinrui Miao</name>
+    </author>
+    <author>
+      <name>Yin Xu</name>
+    </author>
+    <author>
+      <name>Wei Guo</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Enhong Chen</name>
+    </author>
+  </entry>
+</feed>

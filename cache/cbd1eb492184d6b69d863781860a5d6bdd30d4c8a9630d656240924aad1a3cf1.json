@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J7xRh0ZrG4tScxiVipB4mxItouE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00919v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00919v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00919v1</id>
+    <title>Green-VLA: Staged Vision-Language-Action Model for Generalist Robots</title>
+    <updated>2026-01-31T22:13:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.00919v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00919v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Green-VLA, a staged Vision-Language-Action (VLA) framework for real-world deployment on the Green humanoid robot while maintaining generalization across diverse embodiments. Green-VLA follows a five stage curriculum: (L0) foundational VLMs, (L1) multimodal grounding, (R0) multi-embodiment pretraining, (R1) embodiment-specific adaptation, and (R2) reinforcement-learning (RL) policy alignment. We couple a scalable data-processing pipeline (3,000 hours of demonstrations) with temporal alignment and quality filtering, and use a unified, embodiment-aware action interface enabling a single policy to control humanoids, mobile manipulators, and fixed-base arms. At inference, the VLA controller is enhanced with episode-progress prediction, out-of-distribution detection, and joint-prediction-based guidance to improve safety and precise target selection. Experiments on Simpler BRIDGE WidowX and CALVIN ABC-D, as well as real-robot evaluations, show strong generalization and performance gains from RL alignment in success rate, robustness, and long-horizon efficiency.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T22:13:23Z</published>
+    <arxiv:comment>22 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>I. Apanasevich</name>
+    </author>
+    <author>
+      <name>M. Artemyev</name>
+    </author>
+    <author>
+      <name>R. Babakyan</name>
+    </author>
+    <author>
+      <name>P. Fedotova</name>
+    </author>
+    <author>
+      <name>D. Grankin</name>
+    </author>
+    <author>
+      <name>E. Kupryashin</name>
+    </author>
+    <author>
+      <name>A. Misailidi</name>
+    </author>
+    <author>
+      <name>D. Nerus</name>
+    </author>
+    <author>
+      <name>A. Nutalapati</name>
+    </author>
+    <author>
+      <name>G. Sidorov</name>
+    </author>
+    <author>
+      <name>I. Efremov</name>
+    </author>
+    <author>
+      <name>M. Gerasyov</name>
+    </author>
+    <author>
+      <name>D. Pikurov</name>
+    </author>
+    <author>
+      <name>Y. Senchenko</name>
+    </author>
+    <author>
+      <name>S. Davidenko</name>
+    </author>
+    <author>
+      <name>D. Kulikov</name>
+    </author>
+    <author>
+      <name>M. Sultankin</name>
+    </author>
+    <author>
+      <name>K. Askarbek</name>
+    </author>
+    <author>
+      <name>O. Shamanin</name>
+    </author>
+    <author>
+      <name>D. Statovoy</name>
+    </author>
+    <author>
+      <name>E. Zalyaev</name>
+    </author>
+    <author>
+      <name>I. Zorin</name>
+    </author>
+    <author>
+      <name>A. Letkin</name>
+    </author>
+    <author>
+      <name>E. Rusakov</name>
+    </author>
+    <author>
+      <name>A. Silchenko</name>
+    </author>
+    <author>
+      <name>V. Vorobyov</name>
+    </author>
+    <author>
+      <name>S. Sobolnikov</name>
+    </author>
+    <author>
+      <name>A. Postnikov</name>
+    </author>
+  </entry>
+</feed>

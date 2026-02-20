@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qQVIYjyAstGV8SXTIV/WfA1+ih8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00642v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00642v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00642v2</id>
+    <title>LegalOne: A Family of Foundation Models for Reliable Legal Reasoning</title>
+    <updated>2026-02-03T14:54:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.00642v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00642v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Models (LLMs) have demonstrated impressive general capabilities, their direct application in the legal domain is often hindered by a lack of precise domain knowledge and complexity of performing rigorous multi-step judicial reasoning. To address this gap, we present LegalOne, a family of foundational models specifically tailored for the Chinese legal domain. LegalOne is developed through a comprehensive three-phase pipeline designed to master legal reasoning. First, during mid-training phase, we propose Plasticity-Adjusted Sampling (PAS) to address the challenge of domain adaptation. This perplexity-based scheduler strikes a balance between the acquisition of new knowledge and the retention of original capabilities, effectively establishing a robust legal foundation. Second, during supervised fine-tuning, we employ Legal Agentic CoT Distillation (LEAD) to distill explicit reasoning from raw legal texts. Unlike naive distillation, LEAD utilizes an agentic workflow to convert complex judicial processes into structured reasoning trajectories, thereby enforcing factual grounding and logical rigor. Finally, we implement a Curriculum Reinforcement Learning (RL) strategy. Through a progressive reinforcement process spanning memorization, understanding, and reasoning, LegalOne evolves from simple pattern matching to autonomous and reliable legal reasoning. Experimental results demonstrate that LegalOne achieves state-of-the-art performance across a wide range of legal tasks, surpassing general-purpose LLMs with vastly larger parameter counts through enhanced knowledge density and efficiency. We publicly release the LegalOne weights and the LegalKit evaluation framework to advance the field of Legal AI, paving the way for deploying trustworthy and interpretable foundation models in high-stakes judicial applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T10:18:32Z</published>
+    <arxiv:comment>25 pages, v1</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haitao Li</name>
+    </author>
+    <author>
+      <name>Yifan Chen</name>
+    </author>
+    <author>
+      <name>Shuo Miao</name>
+    </author>
+    <author>
+      <name>Qian Dong</name>
+    </author>
+    <author>
+      <name>Jia Chen</name>
+    </author>
+    <author>
+      <name>Yiran Hu</name>
+    </author>
+    <author>
+      <name>Junjie Chen</name>
+    </author>
+    <author>
+      <name>Minghao Qin</name>
+    </author>
+    <author>
+      <name>Yueyue Wu</name>
+    </author>
+    <author>
+      <name>Yujia Zhou</name>
+    </author>
+    <author>
+      <name>Qingyao Ai</name>
+    </author>
+    <author>
+      <name>Yiqun Liu</name>
+    </author>
+    <author>
+      <name>Cheng Luo</name>
+    </author>
+    <author>
+      <name>Quan Zhou</name>
+    </author>
+    <author>
+      <name>Ya Zhang</name>
+    </author>
+    <author>
+      <name>Jikun Hu</name>
+    </author>
+  </entry>
+</feed>

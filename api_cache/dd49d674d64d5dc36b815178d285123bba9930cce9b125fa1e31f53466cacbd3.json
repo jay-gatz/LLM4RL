@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SPddZqkjcL/84C7ROr1M7yeVhVc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.11143v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:22:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.11143v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11143v1</id>
+    <title>Automated Penetration Testing with LLM Agents and Classical Planning</title>
+    <updated>2025-12-11T22:04:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.11143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While penetration testing plays a vital role in cybersecurity, achieving fully automated, hands-off-the-keyboard execution remains a significant research challenge. In this paper, we introduce the "Planner-Executor-Perceptor (PEP)" design paradigm and use it to systematically review existing work and identify the key challenges in this area. We also evaluate existing penetration testing systems, with a particular focus on the use of Large Language Model (LLM) agents for this task. The results show that the out-of-the-box Claude Code and Sonnet 4.5 exhibit superior penetration capabilities observed to date, substantially outperforming all prior systems. However, a detailed analysis of their testing processes reveals specific strengths and limitations; notably, LLM agents struggle with maintaining coherent long-horizon plans, performing complex reasoning, and effectively utilizing specialized tools. These limitations significantly constrain its overall capability, efficiency, and stability. To address these limitations, we propose CHECKMATE, a framework that integrates enhanced classical planning with LLM agents, providing an external, structured "brain" that mitigates the inherent weaknesses of LLM agents. Our evaluation shows that CHECKMATE outperforms the state-of-the-art system (Claude Code) in penetration capability, improving benchmark success rates by over 20%. In addition, it delivers substantially greater stability, cutting both time and monetary costs by more than 50%.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-11T22:04:39Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Lingzhi Wang</name>
+    </author>
+    <author>
+      <name>Xinyi Shi</name>
+    </author>
+    <author>
+      <name>Ziyu Li</name>
+    </author>
+    <author>
+      <name>Yi Jiang</name>
+    </author>
+    <author>
+      <name>Shiyu Tan</name>
+    </author>
+    <author>
+      <name>Yuhao Jiang</name>
+    </author>
+    <author>
+      <name>Junjie Cheng</name>
+    </author>
+    <author>
+      <name>Wenyuan Chen</name>
+    </author>
+    <author>
+      <name>Xiangmin Shen</name>
+    </author>
+    <author>
+      <name>Zhenyuan LI</name>
+    </author>
+    <author>
+      <name>Yan Chen</name>
+    </author>
+  </entry>
+</feed>

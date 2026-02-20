@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W48yJ6VMUO4GgbMo0nsS2lbl3bo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16189v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:22:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16189v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16189v1</id>
+    <title>Beyond Learning: A Training-Free Alternative to Model Adaptation</title>
+    <updated>2026-02-18T05:17:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.16189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the continuous research and evolution of language models, they sometimes underperform previous versions. Existing approaches to overcome these challenges are resource-intensive, highlighting the need for alternatives that enable immediate action. We assume that each language model has a local module inside that is suitable for a specific function. First, this work identifies a set of modules showing consistent and local activation changes under an inference workload through activation-based analysis. Subsequently, we transplant an internal module that is properly activated for a specific task into the target model, leading to immediate and measurable functional changes without additional training or fine-tuning. To experimentally demonstrate the effectiveness of the transplant technique, we quantify the relationship between transplant strength and performance improvement under different conditions for two language models. In the cross-generation setting, we find that transplanting activation-selected modules can substantially improve the underperforming model, reaching up to twice the target baseline and achieving gap-based recovery above 100%. Moreover, in transplant experiments between a base model and its instruction-tuned counterpart, transplantation improves the underperforming model toward the stronger baseline, yielding up to about 2.33 times the target baseline with gap-based recovery reaching up to 100% in the best case. These results show that meaningful capacity transfer can be realized through the implantation of highly localized modules implied by language models. Overall, this work provides empirical evidence for task-localized modularity in language models and presents a new research area: model transplantation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T05:17:44Z</published>
+    <arxiv:comment>7 pages, 3 figures, 5 tables. Preprint submitted to Pattern Recognition Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Namkyung Yoon</name>
+    </author>
+    <author>
+      <name>Kyeonghyun Yoo</name>
+    </author>
+    <author>
+      <name>Wooyong Jung</name>
+    </author>
+    <author>
+      <name>Sanghong Kim</name>
+    </author>
+    <author>
+      <name>Hwangnam Kim</name>
+    </author>
+  </entry>
+</feed>

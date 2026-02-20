@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8aIVRzMweYUyXUZbMfLWeOcyNw8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18563v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18563v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18563v1</id>
+    <title>An LLM-Agent-Based Framework for Age of Information Optimization in Heterogeneous Random Access Networks</title>
+    <updated>2026-01-26T15:10:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.18563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid expansion of the Internet of Things (IoT) and heterogeneous wireless networks, the Age of Information (AoI) has emerged as a critical metric for evaluating the performance of real-time and personalized systems. While AoI-based random access is essential for next-generation applications such as the low-altitude economy and indoor service robots, existing strategies, ranging from rule-based protocols to learning-based methods, face critical challenges, including idealized model assumptions, slow convergence, and poor generalization. In this article, we propose Reflex-Core, a novel Large Language Model (LLM) agent-based framework for AoI-driven random access in heterogeneous networks. By devising an "Observe-Reflect-Decide-Execute" closed-loop mechanism, this framework integrates Supervised Fine-Tuning (SFT) and Proximal Policy Optimization (PPO) to enable optimal, autonomous access control. Based on the Reflex-Core framework, we develop a Reflexive Multiple Access (RMA) protocol and a priority-based RMA variant for intelligent access control under different heterogeneous network settings. Experimental results demonstrate that in the investigated scenarios, the RMA protocol achieves up to a 14.9% reduction in average AoI compared with existing baselines, while the priority-based version improves the convergence rate by approximately 20%.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T15:10:09Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Fang Liu</name>
+    </author>
+    <author>
+      <name>Erchao Zhu</name>
+    </author>
+    <author>
+      <name>Jiedan Tan</name>
+    </author>
+    <author>
+      <name>Jingwen Tong</name>
+    </author>
+    <author>
+      <name>Taotao Wang</name>
+    </author>
+    <author>
+      <name>Shengli Zhang</name>
+    </author>
+  </entry>
+</feed>

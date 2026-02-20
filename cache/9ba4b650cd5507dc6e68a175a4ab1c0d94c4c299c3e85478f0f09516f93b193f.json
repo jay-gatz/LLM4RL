@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mvR/Ed0qOuStdvWTvajYK1kqGEA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13940v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13940v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13940v1</id>
+    <title>You Can Learn Tokenization End-to-End with Reinforcement Learning</title>
+    <updated>2026-02-15T00:31:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.13940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tokenization is a hardcoded compression step which remains in the training pipeline of Large Language Models (LLMs), despite a general trend towards architectures becoming increasingly end-to-end. Prior work has shown promising results at scale in bringing this compression step inside the LLMs' architecture with heuristics to draw token boundaries, and also attempts to learn these token boundaries with straight-through estimates, which treat the problem of drawing discrete token boundaries as a continuous one. We show that these token boundaries can instead be learned using score function estimates, which have tighter theoretical guarantees due to directly optimizing the problem of drawing discrete token boundaries to minimize loss. We observe that techniques from reinforcement learning, such as time discounting, are necessary to reduce the variance of this score function sufficiently to make it practicable. We demonstrate that the resultant method outperforms prior proposed straight-through estimates, both qualitatively and quantitatively at the $100$ million parameter scale.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T00:31:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sam Dauncey</name>
+    </author>
+    <author>
+      <name>Roger Wattenhofer</name>
+    </author>
+  </entry>
+</feed>

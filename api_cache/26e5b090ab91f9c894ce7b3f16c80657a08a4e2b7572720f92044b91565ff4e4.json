@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QdPE7hZgMf5JAMifTy5Ybe60yOw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2301.07608&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2301.07608" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07608v1</id>
+    <title>Human-Timescale Adaptation in an Open-Ended Task Space</title>
+    <updated>2023-01-18T15:39:21Z</updated>
+    <link href="https://arxiv.org/abs/2301.07608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models have shown impressive adaptation and scalability in supervised and self-supervised learning problems, but so far these successes have not fully translated to reinforcement learning (RL). In this work, we demonstrate that training an RL agent at scale leads to a general in-context learning algorithm that can adapt to open-ended novel embodied 3D problems as quickly as humans. In a vast space of held-out environment dynamics, our adaptive agent (AdA) displays on-the-fly hypothesis-driven exploration, efficient exploitation of acquired knowledge, and can successfully be prompted with first-person demonstrations. Adaptation emerges from three ingredients: (1) meta-reinforcement learning across a vast, smooth and diverse task distribution, (2) a policy parameterised as a large-scale attention-based memory architecture, and (3) an effective automated curriculum that prioritises tasks at the frontier of an agent's capabilities. We demonstrate characteristic scaling laws with respect to network size, memory length, and richness of the training task distribution. We believe our results lay the foundation for increasingly general and adaptive RL agents that perform well across ever-larger open-ended domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-18T15:39:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name> Adaptive Agent Team</name>
+    </author>
+    <author>
+      <name>Jakob Bauer</name>
+    </author>
+    <author>
+      <name>Kate Baumli</name>
+    </author>
+    <author>
+      <name>Satinder Baveja</name>
+    </author>
+    <author>
+      <name>Feryal Behbahani</name>
+    </author>
+    <author>
+      <name>Avishkar Bhoopchand</name>
+    </author>
+    <author>
+      <name>Nathalie Bradley-Schmieg</name>
+    </author>
+    <author>
+      <name>Michael Chang</name>
+    </author>
+    <author>
+      <name>Natalie Clay</name>
+    </author>
+    <author>
+      <name>Adrian Collister</name>
+    </author>
+    <author>
+      <name>Vibhavari Dasagi</name>
+    </author>
+    <author>
+      <name>Lucy Gonzalez</name>
+    </author>
+    <author>
+      <name>Karol Gregor</name>
+    </author>
+    <author>
+      <name>Edward Hughes</name>
+    </author>
+    <author>
+      <name>Sheleem Kashem</name>
+    </author>
+    <author>
+      <name>Maria Loks-Thompson</name>
+    </author>
+    <author>
+      <name>Hannah Openshaw</name>
+    </author>
+    <author>
+      <name>Jack Parker-Holder</name>
+    </author>
+    <author>
+      <name>Shreya Pathak</name>
+    </author>
+    <author>
+      <name>Nicolas Perez-Nieves</name>
+    </author>
+    <author>
+      <name>Nemanja Rakicevic</name>
+    </author>
+    <author>
+      <name>Tim Rocktäschel</name>
+    </author>
+    <author>
+      <name>Yannick Schroecker</name>
+    </author>
+    <author>
+      <name>Jakub Sygnowski</name>
+    </author>
+    <author>
+      <name>Karl Tuyls</name>
+    </author>
+    <author>
+      <name>Sarah York</name>
+    </author>
+    <author>
+      <name>Alexander Zacherl</name>
+    </author>
+    <author>
+      <name>Lei Zhang</name>
+    </author>
+  </entry>
+</feed>

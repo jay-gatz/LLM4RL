@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kGVx5B/CjfOZt57IJdrjMH0LpkQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21971v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21971v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21971v1</id>
+    <title>MoE-ACT: Improving Surgical Imitation Learning Policies through Supervised Mixture-of-Experts</title>
+    <updated>2026-01-29T16:50:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.21971v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21971v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imitation learning has achieved remarkable success in robotic manipulation, yet its application to surgical robotics remains challenging due to data scarcity, constrained workspaces, and the need for an exceptional level of safety and predictability. We present a supervised Mixture-of-Experts (MoE) architecture designed for phase-structured surgical manipulation tasks, which can be added on top of any autonomous policy. Unlike prior surgical robot learning approaches that rely on multi-camera setups or thousands of demonstrations, we show that a lightweight action decoder policy like Action Chunking Transformer (ACT) can learn complex, long-horizon manipulation from less than 150 demonstrations using solely stereo endoscopic images, when equipped with our architecture. We evaluate our approach on the collaborative surgical task of bowel grasping and retraction, where a robot assistant interprets visual cues from a human surgeon, executes targeted grasping on deformable tissue, and performs sustained retraction. We benchmark our method against state-of-the-art Vision-Language-Action (VLA) models and the standard ACT baseline. Our results show that generalist VLAs fail to acquire the task entirely, even under standard in-distribution conditions. Furthermore, while standard ACT achieves moderate success in-distribution, adopting a supervised MoE architecture significantly boosts its performance, yielding higher success rates in-distribution and demonstrating superior robustness in out-of-distribution scenarios, including novel grasp locations, reduced illumination, and partial occlusions. Notably, it generalizes to unseen testing viewpoints and also transfers zero-shot to ex vivo porcine tissue without additional training, offering a promising pathway toward in vivo deployment. To support this, we present qualitative preliminary results of policy roll-outs during in vivo porcine surgery.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T16:50:14Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Lorenzo Mazza</name>
+    </author>
+    <author>
+      <name>Ariel Rodriguez</name>
+    </author>
+    <author>
+      <name>Rayan Younis</name>
+    </author>
+    <author>
+      <name>Martin Lelis</name>
+    </author>
+    <author>
+      <name>Ortrun Hellig</name>
+    </author>
+    <author>
+      <name>Chenpan Li</name>
+    </author>
+    <author>
+      <name>Sebastian Bodenstedt</name>
+    </author>
+    <author>
+      <name>Martin Wagner</name>
+    </author>
+    <author>
+      <name>Stefanie Speidel</name>
+    </author>
+  </entry>
+</feed>

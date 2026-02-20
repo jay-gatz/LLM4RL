@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2anTeXnVzT6t8y7gYzChE/SFO4A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18225v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18225v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18225v1</id>
+    <title>ShopSimulator: Evaluating and Exploring RL-Driven LLM Agent for Shopping Assistants</title>
+    <updated>2026-01-26T07:24:28Z</updated>
+    <link href="https://arxiv.org/abs/2601.18225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM)-based agents are increasingly deployed in e-commerce shopping. To perform thorough, user-tailored product searches, agents should interpret personal preferences, engage in multi-turn dialogues, and ultimately retrieve and discriminate among highly similar products. However, existing research has yet to provide a unified simulation environment that consistently captures all of these aspects, and always focuses solely on evaluation benchmarks without training support. In this paper, we introduce ShopSimulator, a large-scale and challenging Chinese shopping environment. Leveraging ShopSimulator, we evaluate LLMs across diverse scenarios, finding that even the best-performing models achieve less than 40% full-success rate. Error analysis reveals that agents struggle with deep search and product selection in long trajectories, fail to balance the use of personalization cues, and to effectively engage with users. Further training exploration provides practical guidance for overcoming these weaknesses, with the combination of supervised fine-tuning (SFT) and reinforcement learning (RL) yielding significant performance improvements. Code and data will be released at https://github.com/ShopAgent-Team/ShopSimulator.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T07:24:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pei Wang</name>
+    </author>
+    <author>
+      <name>Yanan Wu</name>
+    </author>
+    <author>
+      <name>Xiaoshuai Song</name>
+    </author>
+    <author>
+      <name>Weixun Wang</name>
+    </author>
+    <author>
+      <name>Gengru Chen</name>
+    </author>
+    <author>
+      <name>Zhongwen Li</name>
+    </author>
+    <author>
+      <name>Kezhong Yan</name>
+    </author>
+    <author>
+      <name>Ken Deng</name>
+    </author>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Shuaibing Zhao</name>
+    </author>
+    <author>
+      <name>Shaopan Xiong</name>
+    </author>
+    <author>
+      <name>Xuepeng Liu</name>
+    </author>
+    <author>
+      <name>Xuefeng Chen</name>
+    </author>
+    <author>
+      <name>Wanxi Deng</name>
+    </author>
+    <author>
+      <name>Wenbo Su</name>
+    </author>
+    <author>
+      <name>Bo Zheng</name>
+    </author>
+  </entry>
+</feed>

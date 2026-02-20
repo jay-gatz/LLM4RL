@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E5pajmJjE2/gDn1cWdG3t71MQuk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04118v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04118v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04118v1</id>
+    <title>Learning to Reason in 13 Parameters</title>
+    <updated>2026-02-04T01:20:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.04118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has shown that language models can learn to \textit{reason}, often via reinforcement learning. Some work even trains low-rank parameterizations for reasoning, but conventional LoRA cannot scale below the model dimension. We question whether even rank=1 LoRA is necessary for learning to reason and propose TinyLoRA, a method for scaling low-rank adapters to sizes as small as one parameter. Within our new parameterization, we are able to train the 8B parameter size of Qwen2.5 to 91\% accuracy on GSM8K with only 13 trained parameters in bf16 (26 total bytes). We find this trend holds in general: we are able to recover 90\% of performance improvements while training $1000x$ fewer parameters across a suite of more difficult learning-to-reason benchmarks such as AIME, AMC, and MATH500. Notably, we are only able to achieve such strong performance with RL: models trained using SFT require $100-1000x$ larger updates to reach the same performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T01:20:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>John X. Morris</name>
+    </author>
+    <author>
+      <name>Niloofar Mireshghallah</name>
+    </author>
+    <author>
+      <name>Mark Ibrahim</name>
+    </author>
+    <author>
+      <name>Saeed Mahloujifar</name>
+    </author>
+  </entry>
+</feed>

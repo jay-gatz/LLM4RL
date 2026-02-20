@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+obvqXCPuErulG+/uTshnVK46Wk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15222v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15222v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15222v1</id>
+    <title>Automatically Finding Reward Model Biases</title>
+    <updated>2026-02-16T22:05:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.15222v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15222v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward models are central to large language model (LLM) post-training. However, past work has shown that they can reward spurious or undesirable attributes such as length, format, hallucinations, and sycophancy. In this work, we introduce and study the research problem of automatically finding reward model biases in natural language. We offer a simple approach of using an LLM to iteratively propose and refine candidate biases. Our method can recover known biases and surface novel ones: for example, we found that Skywork-V2-8B, a leading open-weight reward model, often mistakenly favors responses with redundant spacing and responses with hallucinated content. In addition, we show evidence that evolutionary iteration outperforms flat best-of-N search, and we validate the recall of our pipeline using synthetically injected biases. We hope our work contributes to further research on improving RMs through automated interpretability methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T22:05:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Atticus Wang</name>
+    </author>
+    <author>
+      <name>Iván Arcuschin</name>
+    </author>
+    <author>
+      <name>Arthur Conmy</name>
+    </author>
+  </entry>
+</feed>

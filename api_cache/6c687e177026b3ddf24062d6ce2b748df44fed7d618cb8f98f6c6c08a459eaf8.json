@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FaQIMBMbV1yePhadwkOKZofruzI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13258v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13258v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13258v1</id>
+    <title>MAPLE: A Sub-Agent Architecture for Memory, Learning, and Personalization in Agentic AI Systems</title>
+    <updated>2026-02-03T03:46:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.13258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents have emerged as powerful tools for complex tasks, yet their ability to adapt to individual users remains fundamentally limited. We argue this limitation stems from a critical architectural conflation: current systems treat memory, learning, and personalization as a unified capability rather than three distinct mechanisms requiring different infrastructure, operating on different timescales, and benefiting from independent optimization. We propose MAPLE (Memory-Adaptive Personalized LEarning), a principled decomposition where Memory handles storage and retrieval infrastructure; Learning extracts intelligence from accumulated interactions asynchronously; and Personalization applies learned knowledge in real-time within finite context budgets. Each component operates as a dedicated sub-agent with specialized tooling and well-defined interfaces. Experimental evaluation on the MAPLE-Personas benchmark demonstrates that our decomposition achieves a 14.6% improvement in personalization score compared to a stateless baseline (p &lt; 0.01, Cohen's d = 0.95) and increases trait incorporation rate from 45% to 75% -- enabling agents that genuinely learn and adapt.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T03:46:39Z</published>
+    <arxiv:comment>12 pages, 5 figures. Accepted to ALA Workshop at AAMAS 2026. Code: [](https://github.com/prdeepakbabu/maple-framework)&lt;https://github.com/prdeepakbabu/maple-framework&gt;</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Deepak Babu Piskala</name>
+    </author>
+  </entry>
+</feed>

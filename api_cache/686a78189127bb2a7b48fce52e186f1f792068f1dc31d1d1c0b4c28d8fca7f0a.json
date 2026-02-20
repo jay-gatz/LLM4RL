@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//TecpprbigWLJHGi75QHnFkSIdQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.24014v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.24014v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24014v2</id>
+    <title>TEXT2DB: Integration-Aware Information Extraction with Large Language Model Agents</title>
+    <updated>2025-10-30T05:38:02Z</updated>
+    <link href="https://arxiv.org/abs/2510.24014v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24014v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The task of information extraction (IE) is to extract structured knowledge from text. However, it is often not straightforward to utilize IE output due to the mismatch between the IE ontology and the downstream application needs. We propose a new formulation of IE TEXT2DB that emphasizes the integration of IE output and the target database (or knowledge base). Given a user instruction, a document set, and a database, our task requires the model to update the database with values from the document set to satisfy the user instruction. This task requires understanding user instructions for what to extract and adapting to the given DB/KB schema for how to extract on the fly. To evaluate this new task, we introduce a new benchmark featuring common demands such as data infilling, row population, and column addition. In addition, we propose an LLM agent framework OPAL (Observe-PlanAnalyze LLM) which includes an Observer component that interacts with the database, the Planner component that generates a code-based plan with calls to IE models, and the Analyzer component that provides feedback regarding code quality before execution. Experiments show that OPAL can successfully adapt to diverse database schemas by generating different code plans and calling the required IE models. We also highlight difficult cases such as dealing with large databases with complex dependencies and extraction hallucination, which we believe deserve further investigation. Source code: https://github.com/yzjiao/Text2DB</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T02:49:40Z</published>
+    <arxiv:comment>Source code: https://github.com/yzjiao/Text2DB</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yizhu Jiao</name>
+    </author>
+    <author>
+      <name>Sha Li</name>
+    </author>
+    <author>
+      <name>Sizhe Zhou</name>
+    </author>
+    <author>
+      <name>Heng Ji</name>
+    </author>
+    <author>
+      <name>Jiawei Han</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PsmdBuXEeIiA6g2hsFG/NlL6mMc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.02170&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.02170" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02170v2</id>
+    <title>A Dynamic LLM-Powered Agent Network for Task-Oriented Agent Collaboration</title>
+    <updated>2024-11-15T04:30:04Z</updated>
+    <link href="https://arxiv.org/abs/2310.02170v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02170v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies show that collaborating multiple large language model (LLM) powered agents is a promising way for task solving. However, current approaches are constrained by using a fixed number of agents and static communication structures. In this work, we propose automatically selecting a team of agents from candidates to collaborate in a dynamic communication structure toward different tasks and domains. Specifically, we build a framework named Dynamic LLM-Powered Agent Network ($\textbf{DyLAN}$) for LLM-powered agent collaboration, operating a two-stage paradigm: (1) Team Optimization and (2) Task Solving. During the first stage, we utilize an $\textit{agent selection}$ algorithm, based on an unsupervised metric called $\textit{Agent Importance Score}$, enabling the selection of best agents according to their contributions in a preliminary trial, oriented to the given task. Then, in the second stage, the selected agents collaborate dynamically according to the query. Empirically, we demonstrate that DyLAN outperforms strong baselines in code generation, decision-making, general reasoning, and arithmetic reasoning tasks with moderate computational cost. On specific subjects in MMLU, selecting a team of agents in the team optimization stage improves accuracy by up to 25.0% in DyLAN.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-03T16:05:48Z</published>
+    <arxiv:comment>Published in COLM2024. Code Repo: https://github.com/SALT-NLP/DyLAN</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zijun Liu</name>
+    </author>
+    <author>
+      <name>Yanzhe Zhang</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Diyi Yang</name>
+    </author>
+  </entry>
+</feed>

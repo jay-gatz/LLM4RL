@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pyKhJXD6iq0r9hVXbWBUGOvZx5Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.05215v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.05215v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05215v2</id>
+    <title>MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents</title>
+    <updated>2026-01-09T08:14:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.05215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present MineNPC-Task, a user-authored benchmark and evaluation harness for testing memory-aware, mixed-initiative LLM agents in open-world Minecraft. Rather than relying on synthetic prompts, tasks are elicited through formative and summative co-play with expert players, then normalized into parametric templates with explicit preconditions and dependency structure. These tasks are paired with machine-checkable validators under a bounded-knowledge policy that forbids out-of-world shortcuts. The harness captures plan, action, and memory events, including plan previews, targeted clarifications, memory reads and writes, precondition checks, and repair attempts, and reports outcomes relative to the total number of attempted subtasks using only in-world evidence.
+  As an initial snapshot, we instantiate the framework with GPT-4o and evaluate 216 subtasks across 8 experienced players. We observe recurring breakdown patterns in code execution, inventory and tool handling, referencing, and navigation, alongside successful recoveries supported by mixed-initiative clarifications and lightweight memory use. Participants rated interaction quality and interface usability positively, while noting the need for stronger memory persistence across tasks. We release the complete task suite, validators, logs, and evaluation harness to support transparent and reproducible evaluation of future memory-aware embodied agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-08T18:39:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tamil Sudaravan Mohan Doss</name>
+    </author>
+    <author>
+      <name>Michael Xu</name>
+    </author>
+    <author>
+      <name>Sudha Rao</name>
+    </author>
+    <author>
+      <name>Andrew D. Wilson</name>
+    </author>
+    <author>
+      <name>Balasaravanan Thoravi Kumaravel</name>
+    </author>
+  </entry>
+</feed>

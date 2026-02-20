@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5+vxetnAqxJwNp6jlNGlum5V5C8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15010v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15010v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15010v2</id>
+    <title>BPP: Long-Context Robot Imitation Learning by Focusing on Key History Frames</title>
+    <updated>2026-02-18T07:07:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.15010v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15010v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many robot tasks require attending to the history of past observations. For example, finding an item in a room requires remembering which places have already been searched. However, the best-performing robot policies typically condition only on the current observation, limiting their applicability to such tasks. Naively conditioning on past observations often fails due to spurious correlations: policies latch onto incidental features of training histories that do not generalize to out-of-distribution trajectories upon deployment. We analyze why policies latch onto these spurious correlations and find that this problem stems from limited coverage over the space of possible histories during training, which grows exponentially with horizon. Existing regularization techniques provide inconsistent benefits across tasks, as they do not fundamentally address this coverage problem. Motivated by these findings, we propose Big Picture Policies (BPP), an approach that conditions on a minimal set of meaningful keyframes detected by a vision-language model. By projecting diverse rollouts onto a compact set of task-relevant events, BPP substantially reduces distribution shift between training and deployment, without sacrificing expressivity. We evaluate BPP on four challenging real-world manipulation tasks and three simulation tasks, all requiring history conditioning. BPP achieves 70% higher success rates than the best comparison on real-world evaluations. Videos are available at https://bigpicturepolicies.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T18:49:56Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Max Sobol Mark</name>
+    </author>
+    <author>
+      <name>Jacky Liang</name>
+    </author>
+    <author>
+      <name>Maria Attarian</name>
+    </author>
+    <author>
+      <name>Chuyuan Fu</name>
+    </author>
+    <author>
+      <name>Debidatta Dwibedi</name>
+    </author>
+    <author>
+      <name>Dhruv Shah</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+</feed>

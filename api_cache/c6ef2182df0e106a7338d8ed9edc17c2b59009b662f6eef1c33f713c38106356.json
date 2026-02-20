@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0CCH1dtPuD3CR/exOixzeK79G2U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17844v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17844v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17844v1</id>
+    <title>RAICL: Retrieval-Augmented In-Context Learning for Vision-Language-Model Based EEG Seizure Detection</title>
+    <updated>2026-01-25T13:58:31Z</updated>
+    <link href="https://arxiv.org/abs/2601.17844v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17844v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electroencephalogram (EEG) decoding is a critical component of medical diagnostics, rehabilitation engineering, and brain-computer interfaces. However, contemporary decoding methodologies remain heavily dependent on task-specific datasets to train specialized neural network architectures. Consequently, limited data availability impedes the development of generalizable large brain decoding models. In this work, we propose a paradigm shift from conventional signal-based decoding by leveraging large-scale vision-language models (VLMs) to analyze EEG waveform plots. By converting multivariate EEG signals into stacked waveform images and integrating neuroscience domain expertise into textual prompts, we demonstrate that foundational VLMs can effectively differentiate between different patterns in the human brain. To address the inherent non-stationarity of EEG signals, we introduce a Retrieval-Augmented In-Context Learning (RAICL) approach, which dynamically selects the most representative and relevant few-shot examples to condition the autoregressive outputs of the VLM. Experiments on EEG-based seizure detection indicate that state-of-the-art VLMs under RAICL achieved better or comparable performance with traditional time series based approaches. These findings suggest a new direction in physiological signal processing that effectively bridges the modalities of vision, language, and neural activities. Furthermore, the utilization of off-the-shelf VLMs, without the need for retraining or downstream architecture construction, offers a readily deployable solution for clinical applications.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-25T13:58:31Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Siyang Li</name>
+    </author>
+    <author>
+      <name>Zhuoya Wang</name>
+    </author>
+    <author>
+      <name>Xiyan Gui</name>
+    </author>
+    <author>
+      <name>Xiaoqing Chen</name>
+    </author>
+    <author>
+      <name>Ziwei Wang</name>
+    </author>
+    <author>
+      <name>Yaozhi Wen</name>
+    </author>
+    <author>
+      <name>Dongrui Wu</name>
+    </author>
+  </entry>
+</feed>

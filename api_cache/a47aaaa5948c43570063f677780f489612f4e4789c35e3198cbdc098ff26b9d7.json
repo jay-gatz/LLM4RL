@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AzFfco3LxqP1WK0OGYP1AMJMhh4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14945v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14945v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14945v1</id>
+    <title>TIDAL: Temporally Interleaved Diffusion and Action Loop for High-Frequency VLA Control</title>
+    <updated>2026-01-21T12:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2601.14945v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14945v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale Vision-Language-Action (VLA) models offer semantic generalization but suffer from high inference latency, limiting them to low-frequency batch-and-execute paradigm. This frequency mismatch creates an execution blind spot, causing failures in dynamic environments where targets move during the open-loop execution window. We propose TIDAL (Temporally Interleaved Diffusion and Action Loop), a hierarchical framework that decouples semantic reasoning from high-frequency actuation. TIDAL operates as a backbone-agnostic module for diffusion-based VLAs, using a dual-frequency architecture to redistribute the computational budget. Specifically, a low-frequency macro-intent loop caches semantic embeddings, while a high-frequency micro-control loop interleaves single-step flow integration with execution. This design enables approximately 9 Hz control updates on edge hardware (vs. approximately 2.4 Hz baselines) without increasing marginal overhead. To handle the resulting latency shift, we introduce a temporally misaligned training strategy where the policy learns predictive compensation using stale semantic intent alongside real-time proprioception. Additionally, we address the insensitivity of static vision encoders to velocity by incorporating a differential motion predictor. TIDAL is architectural, making it orthogonal to system-level optimizations. Experiments show a 2x performance gain over open-loop baselines in dynamic interception tasks. Despite a marginal regression in static success rates, our approach yields a 4x increase in feedback frequency and extends the effective horizon of semantic embeddings beyond the native action chunk size. Under non-paused inference protocols, TIDAL remains robust where standard baselines fail due to latency.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T12:43:11Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuteng Sun</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haoran Wang</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruofei Bai</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhengguo Li</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jun Li</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Meng Yee</name>
+      <arxiv:affiliation>Michael</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Chuah</name>
+    </author>
+    <author>
+      <name>Wei Yun Yau</name>
+    </author>
+  </entry>
+</feed>

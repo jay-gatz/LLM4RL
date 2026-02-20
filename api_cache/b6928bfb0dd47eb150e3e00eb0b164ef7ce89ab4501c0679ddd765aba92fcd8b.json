@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Sa1XgTHi7ZEPrftWw6Nr9OuqS+M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16639v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:54:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16639v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16639v1</id>
+    <title>AREG: Adversarial Resource Extraction Game for Evaluating Persuasion and Resistance in Large Language Models</title>
+    <updated>2026-02-18T17:28:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.16639v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16639v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating the social intelligence of Large Language Models (LLMs) increasingly requires moving beyond static text generation toward dynamic, adversarial interaction. We introduce the Adversarial Resource Extraction Game (AREG), a benchmark that operationalizes persuasion and resistance as a multi-turn, zero-sum negotiation over financial resources. Using a round-robin tournament across frontier models, AREG enables joint evaluation of offensive (persuasion) and defensive (resistance) capabilities within a single interactional framework. Our analysis provides evidence that these capabilities are weakly correlated ($ρ= 0.33$) and empirically dissociated: strong persuasive performance does not reliably predict strong resistance, and vice versa. Across all evaluated models, resistance scores exceed persuasion scores, indicating a systematic defensive advantage in adversarial dialogue settings. Further linguistic analysis suggests that interaction structure plays a central role in these outcomes. Incremental commitment-seeking strategies are associated with higher extraction success, while verification-seeking responses are more prevalent in successful defenses than explicit refusal. Together, these findings indicate that social influence in LLMs is not a monolithic capability and that evaluation frameworks focusing on persuasion alone may overlook asymmetric behavioral vulnerabilities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T17:28:28Z</published>
+    <arxiv:comment>15 pages, 5 figures, 11 tables. Includes appendix with detailed experimental results and prompts</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Adib Sakhawat</name>
+    </author>
+    <author>
+      <name>Fardeen Sadab</name>
+    </author>
+  </entry>
+</feed>

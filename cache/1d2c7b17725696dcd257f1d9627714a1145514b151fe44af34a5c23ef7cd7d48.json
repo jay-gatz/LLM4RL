@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qHxtrAGSzt4K2Jf5o3vCcyuQpMc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17197v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17197v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17197v1</id>
+    <title>Reasoning Beyond Literal: Cross-style Multimodal Reasoning for Figurative Language Understanding</title>
+    <updated>2026-01-23T22:01:39Z</updated>
+    <link href="https://arxiv.org/abs/2601.17197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have demonstrated strong reasoning abilities in literal multimodal tasks such as visual mathematics and science question answering. However, figurative language, such as sarcasm, humor, and metaphor, remains a significant challenge, as it conveys intent and emotion through subtle incongruities between expressed and intended meanings. In multimodal settings, accompanying images can amplify or invert textual meaning, demanding models that reason across modalities and account for subjectivity. We propose a three-step framework for developing efficient multimodal reasoning models that can (i) interpret multimodal figurative language, (ii) provide transparent reasoning traces, and (iii) generalize across multiple figurative styles. Experiments across four styles show that (1) incorporating reasoning traces substantially improves multimodal figurative understanding, (2) reasoning learned in one style can transfer to others, especially between related styles like sarcasm and humor, and (3) training jointly across styles yields a generalized reasoning VLM that outperforms much larger open- and closed-source models. Our findings show that lightweight VLMs with verifiable reasoning achieve robust cross-style generalization while providing inspectable reasoning traces for multimodal tasks. The code and implementation are available at https://github.com/scheshmi/CrossStyle-MMR.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T22:01:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Seyyed Saeid Cheshmi</name>
+    </author>
+    <author>
+      <name>Hahnemann Ortiz</name>
+    </author>
+    <author>
+      <name>James Mooney</name>
+    </author>
+    <author>
+      <name>Dongyeop Kang</name>
+    </author>
+  </entry>
+</feed>

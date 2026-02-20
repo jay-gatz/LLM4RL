@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TeOnCsi7QhuewESDmWQwq9UwyDI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16066v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16066v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16066v1</id>
+    <title>Improving Interactive In-Context Learning from Natural Language Feedback</title>
+    <updated>2026-02-17T22:44:10Z</updated>
+    <link href="https://arxiv.org/abs/2602.16066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Adapting one's thought process based on corrective feedback is an essential ability in human learning, particularly in collaborative settings. In contrast, the current large language model training paradigm relies heavily on modeling vast, static corpora. While effective for knowledge acquisition, it overlooks the interactive feedback loops essential for models to adapt dynamically to their context. In this work, we propose a framework that treats this interactive in-context learning ability not as an emergent property, but as a distinct, trainable skill. We introduce a scalable method that transforms single-turn verifiable tasks into multi-turn didactic interactions driven by information asymmetry. We first show that current flagship models struggle to integrate corrective feedback on hard reasoning tasks. We then demonstrate that models trained with our approach dramatically improve the ability to interactively learn from language feedback. More specifically, the multi-turn performance of a smaller model nearly reaches that of a model an order of magnitude larger. We also observe robust out-of-distribution generalization: interactive training on math problems transfers to diverse domains like coding, puzzles and maze navigation. Our qualitative analysis suggests that this improvement is due to an enhanced in-context plasticity. Finally, we show that this paradigm offers a unified path to self-improvement. By training the model to predict the teacher's critiques, effectively modeling the feedback environment, we convert this external signal into an internal capability, allowing the model to self-correct even without a teacher.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T22:44:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Martin Klissarov</name>
+    </author>
+    <author>
+      <name>Jonathan Cook</name>
+    </author>
+    <author>
+      <name>Diego Antognini</name>
+    </author>
+    <author>
+      <name>Hao Sun</name>
+    </author>
+    <author>
+      <name>Jingling Li</name>
+    </author>
+    <author>
+      <name>Natasha Jaques</name>
+    </author>
+    <author>
+      <name>Claudiu Musat</name>
+    </author>
+    <author>
+      <name>Edward Grefenstette</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ULqXKyokCafYRGhSm0MqQHYDVvQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15329v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:38:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15329v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15329v1</id>
+    <title>EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use</title>
+    <updated>2026-02-17T03:17:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.15329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online video understanding requires models to perform continuous perception and long-range reasoning within potentially infinite visual streams. Its fundamental challenge lies in the conflict between the unbounded nature of streaming media input and the limited context window of Multimodal Large Language Models (MLLMs). Current methods primarily rely on passive processing, which often face a trade-off between maintaining long-range context and capturing the fine-grained details necessary for complex tasks. To address this, we introduce EventMemAgent, an active online video agent framework based on a hierarchical memory module. Our framework employs a dual-layer strategy for online videos: short-term memory detects event boundaries and utilizes event-granular reservoir sampling to process streaming video frames within a fixed-length buffer dynamically; long-term memory structuredly archives past observations on an event-by-event basis. Furthermore, we integrate a multi-granular perception toolkit for active, iterative evidence capture and employ Agentic Reinforcement Learning (Agentic RL) to end-to-end internalize reasoning and tool-use strategies into the agent's intrinsic capabilities. Experiments show that EventMemAgent achieves competitive results on online video benchmarks. The code will be released here: https://github.com/lingcco/EventMemAgent.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T03:17:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Siwei Wen</name>
+    </author>
+    <author>
+      <name>Zhangcheng Wang</name>
+    </author>
+    <author>
+      <name>Xingjian Zhang</name>
+    </author>
+    <author>
+      <name>Lei Huang</name>
+    </author>
+    <author>
+      <name>Wenjun Wu</name>
+    </author>
+  </entry>
+</feed>

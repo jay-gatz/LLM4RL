@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GrfVMsjRJ5QfXT4borMr9RuzWhk</id>
+  <title>arXiv Query: search_query=&amp;id_list=1910.01108&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T04:41:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1910.01108" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01108v4</id>
+    <title>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</title>
+    <updated>2020-03-01T02:57:50Z</updated>
+    <link href="https://arxiv.org/abs/1910.01108v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01108v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller general-purpose language representation model, called DistilBERT, which can then be fine-tuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-specific models, we leverage knowledge distillation during the pre-training phase and show that it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster. To leverage the inductive biases learned by larger models during pre-training, we introduce a triple loss combining language modeling, distillation and cosine-distance losses. Our smaller, faster and lighter model is cheaper to pre-train and we demonstrate its capabilities for on-device computations in a proof-of-concept experiment and a comparative on-device study.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-02T17:56:28Z</published>
+    <arxiv:comment>February 2020 - Revision: fix bug in evaluation metrics, updated metrics, argumentation unchanged. 5 pages, 1 figure, 4 tables. Accepted at the 5th Workshop on Energy Efficient Machine Learning and Cognitive Computing - NeurIPS 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Victor Sanh</name>
+    </author>
+    <author>
+      <name>Lysandre Debut</name>
+    </author>
+    <author>
+      <name>Julien Chaumond</name>
+    </author>
+    <author>
+      <name>Thomas Wolf</name>
+    </author>
+  </entry>
+</feed>

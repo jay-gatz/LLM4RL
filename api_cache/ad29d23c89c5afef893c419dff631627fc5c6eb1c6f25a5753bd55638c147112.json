@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6EWAlyuBmZ6igmoslHIovNS2JkY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03195v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03195v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03195v2</id>
+    <title>Reinforcement Learning with Promising Tokens for Large Language Models</title>
+    <updated>2026-02-14T03:08:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.03195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has emerged as a key paradigm for aligning and optimizing large language models (LLMs). Standard approaches treat the LLM as the policy and apply RL directly over the full vocabulary space. However, this formulation includes the massive tail of contextually irrelevant tokens in the action space, which could distract the policy from focusing on decision-making among the truly reasonable tokens. In this work, we verify that valid reasoning paths could inherently concentrate within a low-rank subspace. Based on this insight, we introduce Reinforcement Learning with Promising Tokens (RLPT), a framework that mitigates the action space issue by decoupling strategic decision-making from token generation. Specifically, RLPT leverages the semantic priors of the base model to identify a dynamic set of promising tokens and constrains policy optimization exclusively to this refined subset via masking. Theoretical analysis and empirical results demonstrate that RLPT effectively reduces gradient variance, stabilizes the training process, and improves sample efficiency. Experiment results on math, coding, and telecom reasoning show that RLPT outperforms standard RL baselines and integrates effectively across various model sizes (4B and 8B) and RL algorithms (GRPO and DAPO).</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T07:08:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jing-Cheng Pang</name>
+    </author>
+    <author>
+      <name>Liang Lu</name>
+    </author>
+    <author>
+      <name>Xian Tang</name>
+    </author>
+    <author>
+      <name>Kun Jiang</name>
+    </author>
+    <author>
+      <name>Sijie Wu</name>
+    </author>
+    <author>
+      <name>Kai Zhang</name>
+    </author>
+    <author>
+      <name>Xubin Li</name>
+    </author>
+  </entry>
+</feed>

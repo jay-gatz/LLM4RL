@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/78f14a0l+XWDZYNT8uZEbPfGgWk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06449v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06449v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06449v1</id>
+    <title>Evaluating an evidence-guided reinforcement learning framework in aligning light-parameter large language models with decision-making cognition in psychiatric clinical reasoning</title>
+    <updated>2026-02-06T07:21:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.06449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) hold transformative potential for medical decision support yet their application in psychiatry remains constrained by hallucinations and superficial reasoning. This limitation is particularly acute in light-parameter LLMs which are essential for privacy-preserving and efficient clinical deployment. Existing training paradigms prioritize linguistic fluency over structured clinical logic and result in a fundamental misalignment with professional diagnostic cognition. Here we introduce ClinMPO, a reinforcement learning framework designed to align the internal reasoning of LLMs with professional psychiatric practice. The framework employs a specialized reward model trained independently on a dataset derived from 4,474 psychiatry journal articles and structured according to evidence-based medicine principles. We evaluated ClinMPO on a unseen subset of the benchmark designed to isolate reasoning capabilities from rote memorization. This test set comprises items where leading large-parameter LLMs consistently fail. We compared the ClinMPO-aligned light LLM performance against a cohort of 300 medical students. The ClinMPO-tuned Qwen3-8B model achieved a diagnostic accuracy of 31.4% and surpassed the human benchmark of 30.8% on these complex cases. These results demonstrate that medical evidence-guided optimization enables light-parameter LLMs to master complex reasoning tasks. Our findings suggest that explicit cognitive alignment offers a scalable pathway to reliable and safe psychiatric decision support.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T07:21:08Z</published>
+    <arxiv:comment>21 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinxin Lin</name>
+    </author>
+    <author>
+      <name>Guangxin Dai</name>
+    </author>
+    <author>
+      <name>Yi Zhong</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Xue Xiao</name>
+    </author>
+    <author>
+      <name>Yixin Zhang</name>
+    </author>
+    <author>
+      <name>Zhengdong Wu</name>
+    </author>
+    <author>
+      <name>Yongbo Zheng</name>
+    </author>
+    <author>
+      <name>Runchuan Zhu</name>
+    </author>
+    <author>
+      <name>Ming Zhao</name>
+    </author>
+    <author>
+      <name>Huizi Yu</name>
+    </author>
+    <author>
+      <name>Shuo Wu</name>
+    </author>
+    <author>
+      <name>Jun Zhao</name>
+    </author>
+    <author>
+      <name>Lingming Hu</name>
+    </author>
+    <author>
+      <name>Yumei Wang</name>
+    </author>
+    <author>
+      <name>Ping Yin</name>
+    </author>
+    <author>
+      <name>Joey W. Y. Chan</name>
+    </author>
+    <author>
+      <name>Ngan Yin Chan</name>
+    </author>
+    <author>
+      <name>Sijing Chen</name>
+    </author>
+    <author>
+      <name>Yun Kwok Wing</name>
+    </author>
+    <author>
+      <name>Lin Lu</name>
+    </author>
+    <author>
+      <name>Xin Ma</name>
+    </author>
+    <author>
+      <name>Lizhou Fan</name>
+    </author>
+  </entry>
+</feed>

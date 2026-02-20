@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R5s4LTUoKP3YfVSJ+5WKbc6lX0o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.20468v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.20468v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20468v1</id>
+    <title>DRAFT-RL: Multi-Agent Chain-of-Draft Reasoning for Reinforcement Learning-Enhanced LLMs</title>
+    <updated>2025-11-25T16:33:42Z</updated>
+    <link href="https://arxiv.org/abs/2511.20468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown impressive capabilities in multi-step reasoning and problem-solving.Recent works introduce multi-agent reflection frameworks where multiple LLM agents critique and refine each other's outputs using reinforcement learning (RL). However, these approaches often rely on single-shot responses and lack structural diversity in reasoning exploration. In this paper, we propose DRAFT-RL, a novel framework that integrates Chain-of-Draft (CoD) reasoning into multi-agent RL training. Instead of generating single responses, each agent produces multiple drafts per query, which are then evaluated by peer agents and a learned reward model to identify the most promising trajectory. These selected drafts are used to refine future reasoning strategies through actor-critic learning.DRAFT-RL enables explicit multi-path exploration, peer-guided reflection, and reward-aligned selection, resulting in more robust and interpretable LLM agent behavior. We evaluate our method on complex reasoning tasks including code synthesis, symbolic math, and knowledge-intensive QA,demonstrating that DRAFT-RL outperforms existing reflective and RL-based agents by significant margins in both accuracy and convergence speed</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T16:33:42Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanhao Li</name>
+    </author>
+    <author>
+      <name>Mingshan Liu</name>
+    </author>
+    <author>
+      <name>Hongbo Wang</name>
+    </author>
+    <author>
+      <name>Yiding Zhang</name>
+    </author>
+    <author>
+      <name>Yifei Ma</name>
+    </author>
+    <author>
+      <name>Wei Tan</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L5XDC/iDGYNmgsCEaZ5FPTC5OrI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.15891v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.15891v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15891v1</id>
+    <title>RadJEPA: Radiology Encoder for Chest X-Rays via Joint Embedding Predictive Architecture</title>
+    <updated>2026-01-22T12:11:53Z</updated>
+    <link href="https://arxiv.org/abs/2601.15891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in medical vision language models guide the learning of visual representations; however, this form of supervision is constrained by the availability of paired image text data, raising the question of whether robust radiology encoders can be learned without relying on language supervision. In this work, we introduce RadJEPA, a self-supervised framework built on a Joint Embedding Predictive Architecture that learns without language supervision. Pre-trained solely on unlabeled chest X-ray images, the model learns to predict latent representations of masked image regions. This predictive objective differs fundamentally from both image text pre-training and DINO-style self-distillation: rather than aligning global representations across views or modalities, RadJEPA explicitly models latent-space prediction. We evaluate the learned encoder on disease classification, semantic segmentation, and report generation tasks. Across benchmarks, RadJEPA achieves performance exceeding state-of-the-art approaches, including Rad-DINO.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-22T12:11:53Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Anas Anwarul Haq Khan</name>
+    </author>
+    <author>
+      <name>Mariam Husain</name>
+    </author>
+    <author>
+      <name>Kshitij Jadhav</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qRSbji6E0HzMsL+Oa+9NZaEj2eo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07594v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07594v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07594v1</id>
+    <title>Learning to Self-Verify Makes Language Models Better Reasoners</title>
+    <updated>2026-02-07T15:49:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.07594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models (LLMs) achieve strong performance in generating promising reasoning paths for complex tasks. However, despite powerful generation ability, LLMs remain weak at verifying their own answers, revealing a persistent capability asymmetry between generation and self-verification. In this work, we conduct an in-depth investigation of this asymmetry throughout training evolution and show that, even on the same task, improving generation does not lead to corresponding improvements in self-verification. Interestingly, we find that the reverse direction of this asymmetry behaves differently: learning to self-verify can effectively improve generation performance, achieving accuracy comparable to standard generation training while yielding more efficient and effective reasoning traces. Building on this observation, we further explore integrating self-verification into generation training by formulating a multi-task reinforcement learning framework, where generation and self-verification are optimized as two independent but complementary objectives. Extensive experiments across benchmarks and models demonstrate performance gains over generation-only training in both generation and verification capabilities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T15:49:06Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuxin Chen</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Ziang Ye</name>
+    </author>
+    <author>
+      <name>Zhengzhou Cai</name>
+    </author>
+    <author>
+      <name>Yaorui Shi</name>
+    </author>
+    <author>
+      <name>Qi Gu</name>
+    </author>
+    <author>
+      <name>Hui Su</name>
+    </author>
+    <author>
+      <name>Xunliang Cai</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>An Zhang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+</feed>

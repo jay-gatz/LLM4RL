@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7fGvhi3AweSOp9R/UTPCHeK2AyQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15384v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15384v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15384v1</id>
+    <title>World-Model-Augmented Web Agents with Action Correction</title>
+    <updated>2026-02-17T06:37:31Z</updated>
+    <link href="https://arxiv.org/abs/2602.15384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web agents based on large language models have demonstrated promising capability in automating web tasks. However, current web agents struggle to reason out sensible actions due to the limitations of predicting environment changes, and might not possess comprehensive awareness of execution risks, prematurely performing risky actions that cause losses and lead to task failure. To address these challenges, we propose WAC, a web agent that integrates model collaboration, consequence simulation, and feedback-driven action refinement. To overcome the cognitive isolation of individual models, we introduce a multi-agent collaboration process that enables an action model to consult a world model as a web-environment expert for strategic guidance; the action model then grounds these suggestions into executable actions, leveraging prior knowledge of environmental state transition dynamics to enhance candidate action proposal. To achieve risk-aware resilient task execution, we introduce a two-stage deduction chain. A world model, specialized in environmental state transitions, simulates action outcomes, which a judge model then scrutinizes to trigger action corrective feedback when necessary. Experiments show that WAC achieves absolute gains of 1.8% on VisualWebArena and 1.3% on Online-Mind2Web.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T06:37:31Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhouzhou Shen</name>
+    </author>
+    <author>
+      <name>Xueyu Hu</name>
+    </author>
+    <author>
+      <name>Xiyun Li</name>
+    </author>
+    <author>
+      <name>Tianqing Fang</name>
+    </author>
+    <author>
+      <name>Juncheng Li</name>
+    </author>
+    <author>
+      <name>Shengyu Zhang</name>
+    </author>
+  </entry>
+</feed>

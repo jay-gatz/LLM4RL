@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jzCAcGLD7i0Zw8kMvQZK0/+2mhs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09531v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09531v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09531v1</id>
+    <title>DR.Experts: Differential Refinement of Distortion-Aware Experts for Blind Image Quality Assessment</title>
+    <updated>2026-02-10T08:41:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.09531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Blind Image Quality Assessment, aiming to replicate human perception of visual quality without reference, plays a key role in vision tasks, yet existing models often fail to effectively capture subtle distortion cues, leading to a misalignment with human subjective judgments. We identify that the root cause of this limitation lies in the lack of reliable distortion priors, as methods typically learn shallow relationships between unified image features and quality scores, resulting in their insensitive nature to distortions and thus limiting their performance. To address this, we introduce DR.Experts, a novel prior-driven BIQA framework designed to explicitly incorporate distortion priors, enabling a reliable quality assessment. DR.Experts begins by leveraging a degradation-aware vision-language model to obtain distortion-specific priors, which are further refined and enhanced by the proposed Distortion-Saliency Differential Module through distinguishing them from semantic attentions, thereby ensuring the genuine representations of distortions. The refined priors, along with semantics and bridging representation, are then fused by a proposed mixture-of-experts style module named the Dynamic Distortion Weighting Module. This mechanism weights each distortion-specific feature as per its perceptual impact, ensuring that the final quality prediction aligns with human perception. Extensive experiments conducted on five challenging BIQA benchmarks demonstrate the superiority of DR.Experts over current methods and showcase its excellence in terms of generalization and data efficiency.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T08:41:40Z</published>
+    <arxiv:comment>Accepted by AAAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bohan Fu</name>
+    </author>
+    <author>
+      <name>Guanyi Qin</name>
+    </author>
+    <author>
+      <name>Fazhan Zhang</name>
+    </author>
+    <author>
+      <name>Zihao Huang</name>
+    </author>
+    <author>
+      <name>Mingxuan Li</name>
+    </author>
+    <author>
+      <name>Runze Hu</name>
+    </author>
+  </entry>
+</feed>

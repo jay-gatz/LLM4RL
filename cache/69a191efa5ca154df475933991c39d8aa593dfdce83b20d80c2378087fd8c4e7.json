@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xpsXXIZvgclIoWQKEPpFwu2bIqI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16085v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16085v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16085v1</id>
+    <title>Language Statistics and False Belief Reasoning: Evidence from 41 Open-Weight LMs</title>
+    <updated>2026-02-17T23:20:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.16085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research on mental state reasoning in language models (LMs) has the potential to inform theories of human social cognition--such as the theory that mental state reasoning emerges in part from language exposure--and our understanding of LMs themselves. Yet much published work on LMs relies on a relatively small sample of closed-source LMs, limiting our ability to rigorously test psychological theories and evaluate LM capacities. Here, we replicate and extend published work on the false belief task by assessing LM mental state reasoning behavior across 41 open-weight models (from distinct model families). We find sensitivity to implied knowledge states in 34% of the LMs tested; however, consistent with prior work, none fully ``explain away'' the effect in humans. Larger LMs show increased sensitivity and also exhibit higher psychometric predictive power. Finally, we use LM behavior to generate and test a novel hypothesis about human cognition: both humans and LMs show a bias towards attributing false beliefs when knowledge states are cued using a non-factive verb (``John thinks...'') than when cued indirectly (``John looks in the...''). Unlike the primary effect of knowledge states, where human sensitivity exceeds that of LMs, the magnitude of the human knowledge cue effect falls squarely within the distribution of LM effect sizes-suggesting that distributional statistics of language can in principle account for the latter but not the former in humans. These results demonstrate the value of using larger samples of open-weight LMs to test theories of human cognition and evaluate LM capacities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T23:20:08Z</published>
+    <arxiv:comment>15 pages, 7 figures, submitted to conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sean Trott</name>
+    </author>
+    <author>
+      <name>Samuel Taylor</name>
+    </author>
+    <author>
+      <name>Cameron Jones</name>
+    </author>
+    <author>
+      <name>James A. Michaelov</name>
+    </author>
+    <author>
+      <name>Pamela D. Rivière</name>
+    </author>
+  </entry>
+</feed>

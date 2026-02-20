@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8yYNkOABRRhMO9ccpeyV5l+A9XM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15313v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15313v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15313v1</id>
+    <title>Mnemis: Dual-Route Retrieval on Hierarchical Graphs for Long-Term LLM Memory</title>
+    <updated>2026-02-17T02:44:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.15313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI Memory, specifically how models organizes and retrieves historical messages, becomes increasingly valuable to Large Language Models (LLMs), yet existing methods (RAG and Graph-RAG) primarily retrieve memory through similarity-based mechanisms. While efficient, such System-1-style retrieval struggles with scenarios that require global reasoning or comprehensive coverage of all relevant information. In this work, We propose Mnemis, a novel memory framework that integrates System-1 similarity search with a complementary System-2 mechanism, termed Global Selection. Mnemis organizes memory into a base graph for similarity retrieval and a hierarchical graph that enables top-down, deliberate traversal over semantic hierarchies. By combining the complementary strength from both retrieval routes, Mnemis retrieves memory items that are both semantically and structurally relevant. Mnemis achieves state-of-the-art performance across all compared methods on long-term memory benchmarks, scoring 93.9 on LoCoMo and 91.6 on LongMemEval-S using GPT-4.1-mini.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T02:44:03Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zihao Tang</name>
+    </author>
+    <author>
+      <name>Xin Yu</name>
+    </author>
+    <author>
+      <name>Ziyu Xiao</name>
+    </author>
+    <author>
+      <name>Zengxuan Wen</name>
+    </author>
+    <author>
+      <name>Zelin Li</name>
+    </author>
+    <author>
+      <name>Jiaxi Zhou</name>
+    </author>
+    <author>
+      <name>Hualei Wang</name>
+    </author>
+    <author>
+      <name>Haohua Wang</name>
+    </author>
+    <author>
+      <name>Haizhen Huang</name>
+    </author>
+    <author>
+      <name>Weiwei Deng</name>
+    </author>
+    <author>
+      <name>Feng Sun</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+  </entry>
+</feed>

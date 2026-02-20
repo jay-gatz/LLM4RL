@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Ry/KNc0LPx1wPVGy8LOV52hhqE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.11485v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:21:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.11485v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11485v3</id>
+    <title>Mistake Notebook Learning: Batch-Clustered Failures for Training-Free Agent Adaptation</title>
+    <updated>2026-01-16T09:51:14Z</updated>
+    <link href="https://arxiv.org/abs/2512.11485v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11485v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the growing adoption of Large Language Model (LLM) agents in persistent, real-world roles, they naturally encounter continuous streams of tasks and inevitable failures. A key limitation, however, is their inability to systematically learn from these mistakes, forcing them to repeat identical errors in similar contexts. Unlike prior training-free methods that primarily store raw instance-level experience or focus on retrieving successful trajectories, we propose Mistake Notebook Learning (MNL), a novel memory framework that enables agents to self-curate generalizable guidance from batch-clustered failures. This mechanism allows agents to distill shared error patterns into structured "mistake notes," updating an external memory only when batch performance improves to ensure stability. To further amplify adaptability, we integrate MNL with test-time scaling, leveraging aggregated failure patterns to actively steer the search process away from known pitfalls. Experiments on mathematical reasoning, Text-to-SQL, and interactive agent benchmarks show that MNL achieves competitive performance compared to existing memory mechanisms and in-context methods in both effectiveness and efficiency. These findings position structured mistake abstraction as a critical lever for robust agent evolution, enabling continuous improvement without the cost of parameter updates. The code is available at https://github.com/Bairong-Xdynamics/MistakeNotebookLearning/tree/main.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T11:33:09Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuanbo Su</name>
+    </author>
+    <author>
+      <name>Yingfang Zhang</name>
+    </author>
+    <author>
+      <name>Hao Luo</name>
+    </author>
+    <author>
+      <name>Xiaoteng Liu</name>
+    </author>
+    <author>
+      <name>Leo Huang</name>
+    </author>
+  </entry>
+</feed>

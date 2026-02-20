@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+JUEEd71dj43RE+zr9S4MUszM7A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00998v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00998v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00998v1</id>
+    <title>Reliable Use of Lemmas via Eligibility Reasoning and Section$-$Aware Reinforcement Learning</title>
+    <updated>2026-02-01T03:34:30Z</updated>
+    <link href="https://arxiv.org/abs/2602.00998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models (LLMs) perform strongly on mathematical benchmarks yet often misapply lemmas, importing conclusions without validating assumptions. We formalize lemma$-$judging as a structured prediction task: given a statement and a candidate lemma, the model must output a precondition check and a conclusion$-$utility check, from which a usefulness decision is derived. We present RULES, which encodes this specification via a two$-$section output and trains with reinforcement learning plus section$-$aware loss masking to assign penalty to the section responsible for errors. Training and evaluation draw on diverse natural language and formal proof corpora; robustness is assessed with a held$-$out perturbation suite; and end$-$to$-$end evaluation spans competition$-$style, perturbation$-$aligned, and theorem$-$based problems across various LLMs. Results show consistent in$-$domain gains over both a vanilla model and a single$-$label RL baseline, larger improvements on applicability$-$breaking perturbations, and parity or modest gains on end$-$to$-$end tasks; ablations indicate that the two$-$section outputs and section$-$aware reinforcement are both necessary for robustness.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T03:34:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhikun Xu</name>
+    </author>
+    <author>
+      <name>Xiaodong Yu</name>
+    </author>
+    <author>
+      <name>Ben Zhou</name>
+    </author>
+    <author>
+      <name>Jiang Liu</name>
+    </author>
+    <author>
+      <name>Jialian Wu</name>
+    </author>
+    <author>
+      <name>Ze Wang</name>
+    </author>
+    <author>
+      <name>Ximeng Sun</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Zicheng Liu</name>
+    </author>
+  </entry>
+</feed>

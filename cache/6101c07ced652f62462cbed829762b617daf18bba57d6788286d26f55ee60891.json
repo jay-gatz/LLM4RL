@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dx5GaygmAc7DhReqqXHyUhUSCAk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15854v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15854v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15854v1</id>
+    <title>Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization</title>
+    <updated>2026-01-24T06:35:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.15854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models show potential in task-oriented dialogue systems, yet existing training methods often rely on token-level likelihood or preference optimization, which poorly align with long-horizon task success. To address this, we propose Goal-Oriented Preference Optimization (GOPO), a hierarchical reinforcement learning framework that decouples strategy planning from response generation via an Expert Agent and a Customer Service Agent. The Expert Agent optimizes multi-turn goal preferences at the dialogue-trajectory level, while the Customer Service Agent generates responses strictly aligned with the selected strategy. We evaluate GOPO on public benchmarks and e-commerce customer service datasets, and introduce Task-focused Sequential Engagement (TSE), a sequence-level metric derived from real e-commerce interaction data. On the Mgshop dataset, GOPO improves TSE by 7.7% and 10.3% over PPO and Memento, with consistent gains in sequence-level reward and generation quality. Furthermore, a 14B model trained with GOPO achieves 2.7% and 1.5% higher TSE than Qwen-235B and GPT-5.2, respectively. Ablation studies confirm the Expert Agent's critical role in long-horizon optimization. GOPO demonstrates consistent improvements across other datasets as well. This work establishes a new paradigm for task-oriented dialogue systems in commercial scenarios, with code and datasets to be made public.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-24T06:35:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jingyi Xu</name>
+    </author>
+    <author>
+      <name>Xingyu Ren</name>
+    </author>
+    <author>
+      <name>Zhiqiang You</name>
+    </author>
+    <author>
+      <name>Yumeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhoupeng Shou</name>
+    </author>
+  </entry>
+</feed>

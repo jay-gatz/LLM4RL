@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0Wl2bRFWdu/TYobMj+lGGqj51H0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2411.15114&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2411.15114" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15114v2</id>
+    <title>RE-Bench: Evaluating frontier AI R&amp;D capabilities of language model agents against human experts</title>
+    <updated>2025-05-27T03:32:23Z</updated>
+    <link href="https://arxiv.org/abs/2411.15114v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15114v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier AI safety policies highlight automation of AI research and development (R&amp;D) by AI agents as an important capability to anticipate. However, there exist few evaluations for AI R&amp;D capabilities, and none that are highly realistic and have a direct comparison to human performance. We introduce RE-Bench (Research Engineering Benchmark, v1), which consists of 7 challenging, open-ended ML research engineering environments and data from 71 8-hour attempts by 61 distinct human experts. We confirm that our experts make progress in the environments given 8 hours, with 82% of expert attempts achieving a non-zero score and 24% matching or exceeding our strong reference solutions. We compare humans to several public frontier models through best-of-k with varying time budgets and agent designs, and find that the best AI agents achieve a score 4x higher than human experts when both are given a total time budget of 2 hours per environment. However, humans currently display better returns to increasing time budgets, narrowly exceeding the top AI agent scores given an 8-hour budget, and achieving 2x the score of the top AI agent when both are given 32 total hours (across different attempts). Qualitatively, we find that modern AI agents possess significant expertise in many ML topics -- e.g. an agent wrote a faster custom Triton kernel than any of our human experts' -- and can generate and test solutions over ten times faster than humans, at much lower cost. We open-source the evaluation environments, human expert data, analysis code and agent trajectories to facilitate future research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-22T18:30:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hjalmar Wijk</name>
+    </author>
+    <author>
+      <name>Tao Lin</name>
+    </author>
+    <author>
+      <name>Joel Becker</name>
+    </author>
+    <author>
+      <name>Sami Jawhar</name>
+    </author>
+    <author>
+      <name>Neev Parikh</name>
+    </author>
+    <author>
+      <name>Thomas Broadley</name>
+    </author>
+    <author>
+      <name>Lawrence Chan</name>
+    </author>
+    <author>
+      <name>Michael Chen</name>
+    </author>
+    <author>
+      <name>Josh Clymer</name>
+    </author>
+    <author>
+      <name>Jai Dhyani</name>
+    </author>
+    <author>
+      <name>Elena Ericheva</name>
+    </author>
+    <author>
+      <name>Katharyn Garcia</name>
+    </author>
+    <author>
+      <name>Brian Goodrich</name>
+    </author>
+    <author>
+      <name>Nikola Jurkovic</name>
+    </author>
+    <author>
+      <name>Holden Karnofsky</name>
+    </author>
+    <author>
+      <name>Megan Kinniment</name>
+    </author>
+    <author>
+      <name>Aron Lajko</name>
+    </author>
+    <author>
+      <name>Seraphina Nix</name>
+    </author>
+    <author>
+      <name>Lucas Sato</name>
+    </author>
+    <author>
+      <name>William Saunders</name>
+    </author>
+    <author>
+      <name>Maksym Taran</name>
+    </author>
+    <author>
+      <name>Ben West</name>
+    </author>
+    <author>
+      <name>Elizabeth Barnes</name>
+    </author>
+  </entry>
+</feed>

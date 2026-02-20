@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4FMII04s4642BYx2v2Lwl2zm744</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21220v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21220v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21220v1</id>
+    <title>LAMP: Learning Universal Adversarial Perturbations for Multi-Image Tasks via Pre-trained Models</title>
+    <updated>2026-01-29T03:36:17Z</updated>
+    <link href="https://arxiv.org/abs/2601.21220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLMs) have achieved remarkable performance across vision-language tasks. Recent advancements allow these models to process multiple images as inputs. However, the vulnerabilities of multi-image MLLMs remain unexplored. Existing adversarial attacks focus on single-image settings and often assume a white-box threat model, which is impractical in many real-world scenarios. This paper introduces LAMP, a black-box method for learning Universal Adversarial Perturbations (UAPs) targeting multi-image MLLMs. LAMP applies an attention-based constraint that prevents the model from effectively aggregating information across images. LAMP also introduces a novel cross-image contagious constraint that forces perturbed tokens to influence clean tokens, spreading adversarial effects without requiring all inputs to be modified. Additionally, an index-attention suppression loss enables a robust position-invariant attack. Experimental results show that LAMP outperforms SOTA baselines and achieves the highest attack success rates across multiple vision-language tasks and models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T03:36:17Z</published>
+    <arxiv:comment>Accepted in main technical track AAAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alvi Md Ishmam</name>
+    </author>
+    <author>
+      <name>Najibul Haque Sarker</name>
+    </author>
+    <author>
+      <name>Zaber Ibn Abdul Hakim</name>
+    </author>
+    <author>
+      <name>Chris Thomas</name>
+    </author>
+  </entry>
+</feed>

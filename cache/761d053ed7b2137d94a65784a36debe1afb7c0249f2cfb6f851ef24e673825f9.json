@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/flYeyykCf/rw4LZgkE++m+fh/ac</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15671v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15671v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15671v1</id>
+    <title>Revisiting Backdoor Threat in Federated Instruction Tuning from a Signal Aggregation Perspective</title>
+    <updated>2026-02-17T15:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.15671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning security research has predominantly focused on backdoor threats from a minority of malicious clients that intentionally corrupt model updates. This paper challenges this paradigm by investigating a more pervasive and insidious threat: \textit{backdoor vulnerabilities from low-concentration poisoned data distributed across the datasets of benign clients.} This scenario is increasingly common in federated instruction tuning for language models, which often rely on unverified third-party and crowd-sourced data. We analyze two forms of backdoor data through real cases: 1) \textit{natural trigger (inherent features as implicit triggers)}; 2) \textit{adversary-injected trigger}. To analyze this threat, we model the backdoor implantation process from signal aggregation, proposing the Backdoor Signal-to-Noise Ratio to quantify the dynamics of the distributed backdoor signal. Extensive experiments reveal the severity of this threat: With just less than 10\% of training data poisoned and distributed across clients, the attack success rate exceeds 85\%, while the primary task performance remains largely intact. Critically, we demonstrate that state-of-the-art backdoor defenses, designed for attacks from malicious clients, are fundamentally ineffective against this threat. Our findings highlight an urgent need for new defense mechanisms tailored to the realities of modern, decentralized data ecosystems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:54:45Z</published>
+    <arxiv:comment>Accepted by ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Haodong Zhao</name>
+    </author>
+    <author>
+      <name>Jinming Hu</name>
+    </author>
+    <author>
+      <name>Gongshen Liu</name>
+    </author>
+  </entry>
+</feed>

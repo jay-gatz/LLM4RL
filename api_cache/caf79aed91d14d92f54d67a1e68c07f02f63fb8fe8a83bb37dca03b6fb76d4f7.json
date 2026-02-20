@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fOt+th3ExV7XpdXfRRAH8WaQTEw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08241v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08241v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08241v1</id>
+    <title>Do MLLMs Really See It: Reinforcing Visual Attention in Multimodal LLMs</title>
+    <updated>2026-02-09T03:33:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.08241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While chain-of-thought (CoT) reasoning has substantially improved multimodal large language models (MLLMs) on complex reasoning tasks, existing approaches largely rely on long textual reasoning trajectories and provide limited mechanisms for learning stable visual attention policies. Our analysis shows that current MLLMs exhibit weak visual focus: early-stage visual misalignment is rarely corrected during subsequent reasoning, leading to error propagation and failed inferences. We argue that this limitation stems from inadequate credit assignment for visual attention during training. To address this issue, we propose SAYO, a visual reasoning model trained with a reinforcement learning (RL) framework that introduces a region-level visual attention-based reward. This reward explicitly aligns optimization signals with visually grounded reasoning steps, enabling the model to learn more reliable attention behaviors. Extensive experiments across multiple multimodal benchmarks demonstrate that SAYO consistently improves performance on diverse reasoning and perception tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T03:33:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Siqu Ou</name>
+    </author>
+    <author>
+      <name>Tianrui Wan</name>
+    </author>
+    <author>
+      <name>Zhiyuan Zhao</name>
+    </author>
+    <author>
+      <name>Junyu Gao</name>
+    </author>
+    <author>
+      <name>Xuelong Li</name>
+    </author>
+  </entry>
+</feed>

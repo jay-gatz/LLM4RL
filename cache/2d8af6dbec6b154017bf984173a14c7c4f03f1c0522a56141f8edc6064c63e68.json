@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/G6vZntg7/j+oD60inN3qO/24lWs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05012v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05012v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05012v1</id>
+    <title>Private PoEtry: Private In-Context Learning via Product of Experts</title>
+    <updated>2026-02-04T19:56:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.05012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In-context learning (ICL) enables Large Language Models (LLMs) to adapt to new tasks with only a small set of examples at inference time, thereby avoiding task-specific fine-tuning. However, in-context examples may contain privacy-sensitive information that should not be revealed through model outputs. Existing differential privacy (DP) approaches to ICL are either computationally expensive or rely on heuristics with limited effectiveness, including context oversampling, synthetic data generation, or unnecessary thresholding. We reformulate private ICL through the lens of a Product-of-Experts model. This gives a theoretically grounded framework, and the algorithm can be trivially parallelized. We evaluate our method across five datasets in text classification, math, and vision-language. We find that our method improves accuracy by more than 30 percentage points on average compared to prior DP-ICL methods, while maintaining strong privacy guarantees.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T19:56:24Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Rob Romijnders</name>
+    </author>
+    <author>
+      <name>Mohammad Mahdi Derakhshani</name>
+    </author>
+    <author>
+      <name>Jonathan Petit</name>
+    </author>
+    <author>
+      <name>Max Welling</name>
+    </author>
+    <author>
+      <name>Christos Louizos</name>
+    </author>
+    <author>
+      <name>Yuki M. Asano</name>
+    </author>
+  </entry>
+</feed>

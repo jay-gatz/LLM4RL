@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zksNvB2ZPsWO97xxyUCkc/qBy6Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05842v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05842v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05842v2</id>
+    <title>Reinforcement World Model Learning for LLM-based Agents</title>
+    <updated>2026-02-09T04:31:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.05842v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05842v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have achieved strong performance in language-centric tasks. However, in agentic settings, LLMs often struggle to anticipate action consequences and adapt to environment dynamics, highlighting the need for world-modeling capabilities in LLM-based agents. We propose Reinforcement World Model Learning (RWML), a self-supervised method that learns action-conditioned world models for LLM-based agents on textual states using sim-to-real gap rewards. Our method aligns simulated next states produced by the model with realized next states observed from the environment, encouraging consistency between internal world simulations and actual environment dynamics in a pre-trained embedding space. Unlike next-state token prediction, which prioritizes token-level fidelity (i.e., reproducing exact wording) over semantic equivalence and can lead to model collapse, our method provides a more robust training signal and is empirically less susceptible to reward hacking than LLM-as-a-judge. We evaluate our method on ALFWorld and $τ^2$ Bench and observe significant gains over the base model, despite being entirely self-supervised. When combined with task-success rewards, our method outperforms direct task-success reward RL by 6.9 and 5.7 points on ALFWorld and $τ^2$ Bench respectively, while matching the performance of expert-data training.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T16:30:08Z</published>
+    <arxiv:comment>fixed Nikhil Singh's affiliation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiao Yu</name>
+    </author>
+    <author>
+      <name>Baolin Peng</name>
+    </author>
+    <author>
+      <name>Ruize Xu</name>
+    </author>
+    <author>
+      <name>Yelong Shen</name>
+    </author>
+    <author>
+      <name>Pengcheng He</name>
+    </author>
+    <author>
+      <name>Suman Nath</name>
+    </author>
+    <author>
+      <name>Nikhil Singh</name>
+    </author>
+    <author>
+      <name>Jiangfeng Gao</name>
+    </author>
+    <author>
+      <name>Zhou Yu</name>
+    </author>
+  </entry>
+</feed>

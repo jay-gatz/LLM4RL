@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fpJR5sCcRa7nP9vxpRyEvnu3z6w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04208v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04208v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04208v1</id>
+    <title>SCALE: Self-uncertainty Conditioned Adaptive Looking and Execution for Vision-Language-Action Models</title>
+    <updated>2026-02-04T04:48:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.04208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have emerged as a promising paradigm for general-purpose robotic control, with test-time scaling (TTS) gaining attention to enhance robustness beyond training. However, existing TTS methods for VLAs require additional training, verifiers, and multiple forward passes, making them impractical for deployment. Moreover, they intervene only at action decoding while keeping visual representations fixed-insufficient under perceptual ambiguity, where reconsidering how to perceive is as important as deciding what to do. To address these limitations, we propose SCALE, a simple inference strategy that jointly modulates visual perception and action based on 'self-uncertainty', inspired by uncertainty-driven exploration in Active Inference theory-requiring no additional training, no verifier, and only a single forward pass. SCALE broadens exploration in both perception and action under high uncertainty, while focusing on exploitation when confident-enabling adaptive execution across varying conditions. Experiments on simulated and real-world benchmarks demonstrate that SCALE improves state-of-the-art VLAs and outperforms existing TTS methods while maintaining single-pass efficiency.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T04:48:16Z</published>
+    <arxiv:comment>20 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hyeonbeom Choi</name>
+    </author>
+    <author>
+      <name>Daechul Ahn</name>
+    </author>
+    <author>
+      <name>Youhan Lee</name>
+    </author>
+    <author>
+      <name>Taewook Kang</name>
+    </author>
+    <author>
+      <name>Seongwon Cho</name>
+    </author>
+    <author>
+      <name>Jonghyun Choi</name>
+    </author>
+  </entry>
+</feed>

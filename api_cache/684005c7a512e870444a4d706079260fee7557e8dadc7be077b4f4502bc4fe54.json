@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q/brxjD5LrmSfjm4ChxSIBJE5rM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10840v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10840v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10840v1</id>
+    <title>SimuScene: Training and Benchmarking Code Generation to Simulate Physical Scenarios</title>
+    <updated>2026-02-11T13:26:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.10840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have been extensively studied for tasks like math competitions, complex coding, and scientific reasoning, yet their ability to accurately represent and simulate physical scenarios via code remains underexplored. We propose SimuScene, the first systematic study that trains and evaluates LLMs on simulating physical scenarios across five physics domains and 52 physical concepts. We build an automatic pipeline to collect data, with human verification to ensure quality. The final dataset contains 7,659 physical scenarios with 334 human-verified examples as the test set. We evaluated 10 contemporary LLMs and found that even the strongest model achieves only a 21.5% pass rate, demonstrating the difficulty of the task. Finally, we introduce a reinforcement learning pipeline with visual rewards that uses a vision-language model as a judge to train textual models. Experiments show that training with our data improves physical simulation via code while substantially enhancing general code generation performance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T13:26:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yanan Wang</name>
+    </author>
+    <author>
+      <name>Renxi Wang</name>
+    </author>
+    <author>
+      <name>Yongxin Wang</name>
+    </author>
+    <author>
+      <name>Xuezhi Liang</name>
+    </author>
+    <author>
+      <name>Fajri Koto</name>
+    </author>
+    <author>
+      <name>Timothy Baldwin</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Haonan Li</name>
+    </author>
+  </entry>
+</feed>

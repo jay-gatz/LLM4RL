@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/odJMUd/Mqz55uLcvl/oLrZEgtNY</id>
+  <title>arXiv Query: search_query=&amp;id_list=1912.11206&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1912.11206" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1912.11206v1</id>
+    <title>Learning to Combat Compounding-Error in Model-Based Reinforcement Learning</title>
+    <updated>2019-12-24T04:51:47Z</updated>
+    <link href="https://arxiv.org/abs/1912.11206v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.11206v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite its potential to improve sample complexity versus model-free approaches, model-based reinforcement learning can fail catastrophically if the model is inaccurate. An algorithm should ideally be able to trust an imperfect model over a reasonably long planning horizon, and only rely on model-free updates when the model errors get infeasibly large. In this paper, we investigate techniques for choosing the planning horizon on a state-dependent basis, where a state's planning horizon is determined by the maximum cumulative model error around that state. We demonstrate that these state-dependent model errors can be learned with Temporal Difference methods, based on a novel approach of temporally decomposing the cumulative model errors. Experimental results show that the proposed method can successfully adapt the planning horizon to account for state-dependent model accuracy, significantly improving the efficiency of policy learning compared to model-based and model-free baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-24T04:51:47Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenjun Xiao</name>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+    <author>
+      <name>Chen Ma</name>
+    </author>
+    <author>
+      <name>Dale Schuurmans</name>
+    </author>
+    <author>
+      <name>Martin Müller</name>
+    </author>
+  </entry>
+</feed>

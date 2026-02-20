@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zpflr1hDWBQ8FX+rglhRr6Y/Spk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04482v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04482v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04482v2</id>
+    <title>ProAgentBench: Evaluating LLM Agents for Proactive Assistance with Real-World Data</title>
+    <updated>2026-02-09T19:11:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.04482v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04482v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proactive agents that anticipate user intentions without explicit prompts represent a significant evolution in human-AI interaction, promising to reduce cognitive load and streamline workflows. However, existing datasets suffer from two critical deficiencies: (1) reliance on LLM-synthesized data that fails to capture authentic human decision-making patterns, and (2) focus on isolated tasks rather than continuous workflows, missing the pre-assistance behavioral context essential for learning proactive intervention signals. To address these gaps, we introduce ProAgentBench, a rigorous benchmark for proactive agents in working scenarios. Our contributions include: (1) a hierarchical task framework that decomposes proactive assistance into timing prediction and assist content generation; (2) a privacy-compliant dataset with 28,000+ events from 500+ hours of real user sessions, preserving bursty interaction patterns (burstiness B=0.787) absent in synthetic data; and (3) extensive experiments that evaluates LLM- and VLM-based baselines. Numerically, we showed that long-term memory and historical context significantly enhance prediction accuracy, while real-world training data substantially outperforms synthetic alternatives. We release our dataset and code at https://anonymous.4open.science/r/ProAgentBench-6BC0.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T12:09:15Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Yuanbo Tang</name>
+    </author>
+    <author>
+      <name>Huaze Tang</name>
+    </author>
+    <author>
+      <name>Tingyu Cao</name>
+    </author>
+    <author>
+      <name>Lam Nguyen</name>
+    </author>
+    <author>
+      <name>Anping Zhang</name>
+    </author>
+    <author>
+      <name>Xinwen Cao</name>
+    </author>
+    <author>
+      <name>Chunkang Liu</name>
+    </author>
+    <author>
+      <name>Wenbo Ding</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+  </entry>
+</feed>

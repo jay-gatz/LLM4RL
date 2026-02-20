@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ya+Td3ZQYZQ0AprOyaJa7CzMBjI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12381v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12381v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12381v1</id>
+    <title>Synthetic Image Detection with CLIP: Understanding and Assessing Predictive Cues</title>
+    <updated>2026-02-12T20:21:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.12381v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12381v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent generative models produce near-photorealistic images, challenging the trustworthiness of photographs. Synthetic image detection (SID) has thus become an important area of research. Prior work has highlighted how synthetic images differ from real photographs--unfortunately, SID methods often struggle to generalize to novel generative models and often perform poorly in practical settings. CLIP, a foundational vision-language model which yields semantically rich image-text embeddings, shows strong accuracy and generalization for SID. Yet, the underlying relevant cues embedded in CLIP-features remain unknown. It is unclear, whether CLIP-based detectors simply detect strong visual artifacts or exploit subtle semantic biases, both of which would render them useless in practical settings or on generative models of high quality. We introduce SynthCLIC, a paired dataset of real photographs and high-quality synthetic counterparts from recent diffusion models, designed to reduce semantic bias in SID. Using an interpretable linear head with de-correlated activations and a text-grounded concept-model, we analyze what CLIP-based detectors learn. CLIP-based linear detectors reach 0.96 mAP on a GAN-based benchmark but only 0.92 on our high-quality diffusion dataset SynthCLIC, and generalization across generator families drops to as low as 0.37 mAP. We find that the detectors primarily rely on high-level photographic attributes (e.g., minimalist style, lens flare, or depth layering), rather than overt generator-specific artifacts. CLIP-based detectors perform well overall but generalize unevenly across diverse generative architectures. This highlights the need for continual model updates and broader training exposure, while reinforcing CLIP-based approaches as a strong foundation for more universal, robust SID.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T20:21:32Z</published>
+    <arxiv:comment>11 figures; 23 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Marco Willi</name>
+    </author>
+    <author>
+      <name>Melanie Mathys</name>
+    </author>
+    <author>
+      <name>Michael Graber</name>
+    </author>
+  </entry>
+</feed>

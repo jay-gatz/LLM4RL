@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yWFqdPPGV0RSV41QKiGrXsflXRo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14134v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14134v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14134v1</id>
+    <title>DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors</title>
+    <updated>2026-02-15T13:12:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.14134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLMs) have demonstrated exceptional capabilities in high-level visual understanding. However, extending these models to fine-grained dense prediction tasks, such as semantic segmentation and depth estimation, typically necessitates the incorporation of complex, task-specific decoders and other customizations. This architectural fragmentation increases model complexity and deviates from the generalist design of MLLMs, ultimately limiting their practicality. In this work, we challenge this paradigm by accommodating standard MLLMs to perform dense predictions without requiring additional task-specific decoders. The proposed model is called DenseMLLM, grounded in the standard architecture with a novel vision token supervision strategy for multiple labels and tasks. Despite its minimalist design, our model achieves highly competitive performance across a wide range of dense prediction and vision-language benchmarks, demonstrating that a standard, general-purpose MLLM can effectively support dense perception without architectural specialization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T13:12:28Z</published>
+    <arxiv:comment>25 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yi Li</name>
+    </author>
+    <author>
+      <name>Hongze Shen</name>
+    </author>
+    <author>
+      <name>Lexiang Tang</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Xinpeng Ding</name>
+    </author>
+    <author>
+      <name>Yinsong Liu</name>
+    </author>
+    <author>
+      <name>Deqiang Jiang</name>
+    </author>
+    <author>
+      <name>Xing Sun</name>
+    </author>
+    <author>
+      <name>Xiaomeng Li</name>
+    </author>
+  </entry>
+</feed>

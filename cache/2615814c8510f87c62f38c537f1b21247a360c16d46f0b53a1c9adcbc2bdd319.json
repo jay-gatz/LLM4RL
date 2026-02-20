@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pyLHJXIS7xJ47RJNQGfX2DNm9v4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05049v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05049v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05049v1</id>
+    <title>VISTA: Enhancing Visual Conditioning via Track-Following Preference Optimization in Vision-Language-Action Models</title>
+    <updated>2026-02-04T20:59:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.05049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have demonstrated strong performance across a wide range of robotic manipulation tasks. Despite the success, extending large pretrained Vision-Language Models (VLMs) to the action space can induce vision-action misalignment, where action predictions exhibit weak dependence on the current visual state, leading to unreliable action outputs. In this work, we study VLA models through the lens of visual conditioning and empirically show that successful rollouts consistently exhibit stronger visual dependence than failed ones. Motivated by this observation, we propose a training framework that explicitly strengthens visual conditioning in VLA models. Our approach first aligns action prediction with visual input via preference optimization on a track-following surrogate task, and then transfers the enhanced alignment to instruction-following task through latent-space distillation during supervised finetuning. Without introducing architectural modifications or additional data collection, our method improves both visual conditioning and task performance for discrete OpenVLA, and further yields consistent gains when extended to the continuous OpenVLA-OFT setting. Project website: https://vista-vla.github.io/ .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T20:59:29Z</published>
+    <arxiv:comment>In submission. Project website: https://vista-vla.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yiye Chen</name>
+    </author>
+    <author>
+      <name>Yanan Jian</name>
+    </author>
+    <author>
+      <name>Xiaoyi Dong</name>
+    </author>
+    <author>
+      <name>Shuxin Cao</name>
+    </author>
+    <author>
+      <name>Jing Wu</name>
+    </author>
+    <author>
+      <name>Patricio Vela</name>
+    </author>
+    <author>
+      <name>Benjamin E. Lundell</name>
+    </author>
+    <author>
+      <name>Dongdong Chen</name>
+    </author>
+  </entry>
+</feed>

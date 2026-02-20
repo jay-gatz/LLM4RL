@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bTUiMNN6CK9yrymiSTLSh7MJpDQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03151v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03151v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03151v1</id>
+    <title>Enhancing Foundation VLM Robustness to Missing Modality: Scalable Diffusion for Bi-directional Feature Restoration</title>
+    <updated>2026-02-03T06:06:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.03151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Models (VLMs) typically assume complete modality input during inference. However, their effectiveness drops sharply when certain modalities are unavailable or incomplete. Current research primarily faces two dilemmas: Prompt-based methods struggle to restore missing yet indispensable features and impair generalization of VLMs. Imputation-based approaches, lacking effective guidance, are prone to generating semantically irrelevant noise. Restoring precise semantics while sustaining VLM generalization remains challenging. Therefore, we propose a general missing modality restoration strategy in this paper. We introduce an enhanced diffusion model as a pluggable mid-stage training module to effectively restore missing features. Our strategy introduces two key innovations: (I) Dynamic Modality Gating, which adaptively leverages conditional features to steer the generation of semantically consistent features; (II) Cross-Modal Mutual Learning mechanism, which bridges the semantic spaces of dual encoders to achieve bidirectional alignment. Zero-shot evaluations across benchmark datasets demonstrate that our approach outperforms existing baseline methods. Extensive experiments and ablation studies confirm our model as a robust and scalable extension for VLMs in missing modality scenarios, ensuring reliability across diverse missing rates and environments. Our code and models will be publicly available.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T06:06:35Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wei Dai</name>
+    </author>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Honghao Chang</name>
+    </author>
+    <author>
+      <name>Lijun He</name>
+    </author>
+    <author>
+      <name>Fan Li</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <author>
+      <name>Haixia Bi</name>
+    </author>
+  </entry>
+</feed>

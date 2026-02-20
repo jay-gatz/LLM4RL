@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kV1QdE8HrijGpuH8QKVsbkMS8CM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.00121v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:16:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.00121v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.00121v1</id>
+    <title>Ask, Clarify, Optimize: Human-LLM Agent Collaboration for Smarter Inventory Control</title>
+    <updated>2025-12-31T21:45:54Z</updated>
+    <link href="https://arxiv.org/abs/2601.00121v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.00121v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inventory management remains a challenge for many small and medium-sized businesses that lack the expertise to deploy advanced optimization methods. This paper investigates whether Large Language Models (LLMs) can help bridge this gap. We show that employing LLMs as direct, end-to-end solvers incurs a significant "hallucination tax": a performance gap arising from the model's inability to perform grounded stochastic reasoning. To address this, we propose a hybrid agentic framework that strictly decouples semantic reasoning from mathematical calculation. In this architecture, the LLM functions as an intelligent interface, eliciting parameters from natural language and interpreting results while automatically calling rigorous algorithms to build the optimization engine.
+  To evaluate this interactive system against the ambiguity and inconsistency of real-world managerial dialogue, we introduce the Human Imitator, a fine-tuned "digital twin" of a boundedly rational manager that enables scalable, reproducible stress-testing. Our empirical analysis reveals that the hybrid agentic framework reduces total inventory costs by 32.1% relative to an interactive baseline using GPT-4o as an end-to-end solver. Moreover, we find that providing perfect ground-truth information alone is insufficient to improve GPT-4o's performance, confirming that the bottleneck is fundamentally computational rather than informational. Our results position LLMs not as replacements for operations research, but as natural-language interfaces that make rigorous, solver-based policies accessible to non-experts.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T21:45:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yaqi Duan</name>
+    </author>
+    <author>
+      <name>Yichun Hu</name>
+    </author>
+    <author>
+      <name>Jiashuo Jiang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0mm3UUBR0mJ3EuTymZMX4IChOWY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15378v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15378v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15378v1</id>
+    <title>Making Large Language Models Speak Tulu: Structured Prompting for an Extremely Low-Resource Language</title>
+    <updated>2026-02-17T06:20:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.15378v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15378v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can large language models converse in languages virtually absent from their training data? We investigate this question through a case study on Tulu, a Dravidian language with over 2 million speakers but minimal digital presence. Rather than fine-tuning an LLM, we examine whether structured prompts alone can elicit basic conversational ability under controlled prompting. We systematically tackle various challenges posed by absence of training data for Tulu by combining explicit grammar documentation, negative constraints to suppress high-probability tokens from related languages, romanization standardization, and quality-controlled synthetic data generation via self-play. Evaluated on a manually curated held-out set across three LLMs (Gemini 2.0 Flash, GPT-4o, Llama 3.1 70B) and validated by native speakers, our approach reduces vocabulary contamination from 80% to 5% while achieving 85% grammatical accuracy. Cross-model analysis reveals that negative constraints provide consistent improvements (12--18 percentage points), while grammar documentation effects vary by model architecture (8--22 points).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T06:20:09Z</published>
+    <arxiv:comment>Accepted to EACL LoResLM Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Prathamesh Devadiga</name>
+    </author>
+    <author>
+      <name>Paras Chopra</name>
+    </author>
+  </entry>
+</feed>

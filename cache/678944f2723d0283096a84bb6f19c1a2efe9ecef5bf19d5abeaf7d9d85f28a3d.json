@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//xGdKmthipOKwfKA6R9SoZc8KrU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14349v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14349v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14349v1</id>
+    <title>Same Prompt, Different Outcomes: Evaluating the Reproducibility of Data Analysis by LLMs</title>
+    <updated>2026-02-15T23:39:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.14349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We systematically evaluate the reproducibility of data analysis conducted by Large Language Models (LLMs). We evaluate two prompting strategies, six models, and four temperature settings, with ten independent executions per configuration, yielding 480 total attempts. We assess the completion, concordance, validity, and consistency of each attempt and find considerable variation in the analytical results even for consistent configurations. This suggests, as with human data analysis, the data analysis conducted by LLMs can vary, even given the same task, data, and settings. Our results mean that if an LLM is being used to conduct data analysis, then it should be run multiple times independently and the distribution of results considered.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T23:39:37Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Jiaxin Cui</name>
+    </author>
+    <author>
+      <name>Rohan Alexander</name>
+    </author>
+  </entry>
+</feed>

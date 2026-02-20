@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iQG1WciDymVh2W0zHag/YPPUty0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04094v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04094v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04094v1</id>
+    <title>VideoBrain: Learning Adaptive Frame Sampling for Long Video Understanding</title>
+    <updated>2026-02-04T00:08:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.04094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-form video understanding remains challenging for Vision-Language Models (VLMs) due to the inherent tension between computational constraints and the need to capture information distributed across thousands of frames. Existing approaches either sample frames uniformly (risking information loss) or select keyframes in a single pass (with no recovery from poor choices). We propose VideoBrain, an end-to-end framework that enables VLMs to adaptively acquire visual information through learned sampling policies. Our approach features dual complementary agents: a CLIP-based agent for semantic retrieval across the video and a Uniform agent for dense temporal sampling within intervals. Unlike prior agent-based methods that rely on text-only LLMs orchestrating visual tools, our VLM directly perceives frames and reasons about information sufficiency. To prevent models from invoking agents indiscriminately to maximize rewards, we introduce a behavior-aware reward function coupled with a data classification pipeline that teaches the model when agent invocation is genuinely beneficial. Experiments on four long video benchmarks demonstrate that VideoBrain achieves +3.5% to +9.0% improvement over the baseline while using 30-40% fewer frames, with strong cross-dataset generalization to short video benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T00:08:35Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junbo Zou</name>
+    </author>
+    <author>
+      <name>Ziheng Huang</name>
+    </author>
+    <author>
+      <name>Shengjie Zhang</name>
+    </author>
+    <author>
+      <name>Liwen Zhang</name>
+    </author>
+    <author>
+      <name>Weining Shen</name>
+    </author>
+  </entry>
+</feed>

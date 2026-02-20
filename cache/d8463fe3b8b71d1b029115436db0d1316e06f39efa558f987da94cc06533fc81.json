@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zKBXoxnJ342Dtiw6x0ib6z/TgvY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.15202v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.15202v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15202v1</id>
+    <title>SOLID: a Framework of Synergizing Optimization and LLMs for Intelligent Decision-Making</title>
+    <updated>2025-11-19T07:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2511.15202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces SOLID (Synergizing Optimization and Large Language Models for Intelligent Decision-Making), a novel framework that integrates mathematical optimization with the contextual capabilities of large language models (LLMs). SOLID facilitates iterative collaboration between optimization and LLMs agents through dual prices and deviation penalties. This interaction improves the quality of the decisions while maintaining modularity and data privacy. The framework retains theoretical convergence guarantees under convexity assumptions, providing insight into the design of LLMs prompt. To evaluate SOLID, we applied it to a stock portfolio investment case with historical prices and financial news as inputs. Empirical results demonstrate convergence under various scenarios and indicate improved annualized returns compared to a baseline optimizer-only method, validating the synergy of the two agents. SOLID offers a promising framework for advancing automated and intelligent decision-making across diverse domains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T07:44:36Z</published>
+    <arxiv:comment>NeurIPS 2025 WORKSHOP ML*OR Workshop: Mathematical Foundations and Operational Integration of Machine Learning for Uncertainty-Aware Decision-Making</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yinsheng Wang</name>
+    </author>
+    <author>
+      <name>Tario G You</name>
+    </author>
+    <author>
+      <name>Léonard Boussioux</name>
+    </author>
+    <author>
+      <name>Shan Liu</name>
+    </author>
+  </entry>
+</feed>

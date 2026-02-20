@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u5cmbHjUs/vZ57tFUmW4hdKcNdo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.16142&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.16142" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.16142v1</id>
+    <title>From Text to Transformation: A Comprehensive Review of Large Language Models' Versatility</title>
+    <updated>2024-02-25T16:47:59Z</updated>
+    <link href="https://arxiv.org/abs/2402.16142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.16142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This groundbreaking study explores the expanse of Large Language Models (LLMs), such as Generative Pre-Trained Transformer (GPT) and Bidirectional Encoder Representations from Transformers (BERT) across varied domains ranging from technology, finance, healthcare to education. Despite their established prowess in Natural Language Processing (NLP), these LLMs have not been systematically examined for their impact on domains such as fitness, and holistic well-being, urban planning, climate modelling as well as disaster management. This review paper, in addition to furnishing a comprehensive analysis of the vast expanse and extent of LLMs' utility in diverse domains, recognizes the research gaps and realms where the potential of LLMs is yet to be harnessed. This study uncovers innovative ways in which LLMs can leave a mark in the fields like fitness and wellbeing, urban planning, climate modelling and disaster response which could inspire future researches and applications in the said avenues.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-25T16:47:59Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Pravneet Kaur</name>
+    </author>
+    <author>
+      <name>Gautam Siddharth Kashyap</name>
+    </author>
+    <author>
+      <name>Ankit Kumar</name>
+    </author>
+    <author>
+      <name>Md Tabrez Nafis</name>
+    </author>
+    <author>
+      <name>Sandeep Kumar</name>
+    </author>
+    <author>
+      <name>Vikrant Shokeen</name>
+    </author>
+  </entry>
+</feed>

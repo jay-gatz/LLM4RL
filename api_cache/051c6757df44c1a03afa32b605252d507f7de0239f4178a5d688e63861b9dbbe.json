@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mMh5QhqRdgZyJkZYBQJ7W/0hS8c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02454v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02454v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02454v1</id>
+    <title>World-Gymnast: Training Robots with Reinforcement Learning in a World Model</title>
+    <updated>2026-02-02T18:44:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.02454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot learning from interacting with the physical world is fundamentally bottlenecked by the cost of physical interaction. The two alternatives, supervised finetuning (SFT) from expert demonstrations and reinforcement learning (RL) in a software-based simulator, are limited by the amount of expert data available and the sim-to-real gap for manipulation. With the recent emergence of world models learned from real-world video-action data, we ask the question of whether training a policy in a world model can be more effective than supervised learning or software simulation in achieving better real-robot performance. We propose World-Gymnast, which performs RL finetuning of a vision-language-action (VLA) policy by rolling out the policy in an action-conditioned video world model and rewarding the rollouts with a vision-language model (VLM). On the Bridge robot setup, World-Gymnast outperforms SFT by as much as 18x and outperforms software simulator by as much as 2x. More importantly, World-Gymnast demonstrates intriguing capabilities of RL with a world model, including training on diverse language instructions and novel scenes from the world model, test-time training in a novel scene, and online iterative world model and policy improvement. Our results suggest learning a world model and training robot policies in the cloud could be the key to bridging the gap between robots that work in demonstrations and robots that can work in anyone's household.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T18:44:45Z</published>
+    <arxiv:comment>https://world-gymnast.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Ansh Kumar Sharma</name>
+    </author>
+    <author>
+      <name>Yixiang Sun</name>
+    </author>
+    <author>
+      <name>Ninghao Lu</name>
+    </author>
+    <author>
+      <name>Yunzhe Zhang</name>
+    </author>
+    <author>
+      <name>Jiarao Liu</name>
+    </author>
+    <author>
+      <name>Sherry Yang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8YBSm8XDExM9ALDhgfSdhkUnlgc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.04103v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.04103v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.04103v4</id>
+    <title>How to Train Your LLM Web Agent: A Statistical Diagnosis</title>
+    <updated>2026-02-13T17:24:17Z</updated>
+    <link href="https://arxiv.org/abs/2507.04103v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.04103v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based web agents have recently made significant progress, but much of it has occurred in closed-source systems, widening the gap with open-source alternatives. Progress has been held back by two key challenges: first, a narrow focus on single-step tasks that overlooks the complexity of multi-step web interactions; and second, the high compute costs required to post-train LLM-based web agents. To address this, we present the first statistically grounded study on compute allocation for LLM web-agent post-training. Our approach uses a two-stage pipeline, training a Llama 3.1 8B student to imitate a Llama 3.3 70B teacher via supervised fine-tuning (SFT), followed by on-policy reinforcement learning. We find this process highly sensitive to hyperparameter choices, making exhaustive sweeps impractical. To spare others from expensive trial-and-error, we sample 1,370 configurations and use bootstrapping to estimate effective hyperparameters. Our results show that combining SFT with on-policy RL consistently outperforms either approach alone on both WorkArena and MiniWob++. Further, this strategy requires only 55% of the compute to match the peak performance of pure SFT on MiniWob++, effectively pushing the compute-performance Pareto frontier, and is the only strategy that can close the gap with closed-source models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-05T17:12:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dheeraj Vattikonda</name>
+    </author>
+    <author>
+      <name>Santhoshi Ravichandran</name>
+    </author>
+    <author>
+      <name>Emiliano Penaloza</name>
+    </author>
+    <author>
+      <name>Hadi Nekoei</name>
+    </author>
+    <author>
+      <name>Megh Thakkar</name>
+    </author>
+    <author>
+      <name>Thibault Le Sellier de Chezelles</name>
+    </author>
+    <author>
+      <name>Nicolas Gontier</name>
+    </author>
+    <author>
+      <name>Miguel Muñoz-Mármol</name>
+    </author>
+    <author>
+      <name>Sahar Omidi Shayegan</name>
+    </author>
+    <author>
+      <name>Stefania Raimondo</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Alexandre Drouin</name>
+    </author>
+    <author>
+      <name>Laurent Charlin</name>
+    </author>
+    <author>
+      <name>Alexandre Piché</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+    <author>
+      <name>Massimo Caccia</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u0qIbd8h/CPAfBfAQWp9n9b5Nt0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14862v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14862v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14862v1</id>
+    <title>The Well-Tempered Classifier: Some Elementary Properties of Temperature Scaling</title>
+    <updated>2026-02-16T15:54:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.14862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temperature scaling is a simple method that allows to control the uncertainty of probabilistic models. It is mostly used in two contexts: improving the calibration of classifiers and tuning the stochasticity of large language models (LLMs). In both cases, temperature scaling is the most popular method for the job. Despite its popularity, a rigorous theoretical analysis of the properties of temperature scaling has remained elusive. We investigate here some of these properties. For classification, we show that increasing the temperature increases the uncertainty in the model in a very general sense (and in particular increases its entropy). However, for LLMs, we challenge the common claim that increasing temperature increases diversity. Furthermore, we introduce two new characterisations of temperature scaling. The first one is geometric: the tempered model is shown to be the information projection of the original model onto the set of models with a given entropy. The second characterisation clarifies the role of temperature scaling as a submodel of more general linear scalers such as matrix scaling and Dirichlet calibration: we show that temperature scaling is the only linear scaler that does not change the hard predictions of the model.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T15:54:52Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Pierre-Alexandre Mattei</name>
+    </author>
+    <author>
+      <name>Bruno Loureiro</name>
+    </author>
+  </entry>
+</feed>

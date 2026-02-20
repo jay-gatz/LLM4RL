@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EOloVlLSMApJrn4xcpHGOjIepCA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04600v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04600v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04600v1</id>
+    <title>Act, Sense, Act: Learning Non-Markovian Active Perception Strategies from Large-Scale Egocentric Human Data</title>
+    <updated>2026-02-04T14:28:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.04600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Achieving generalizable manipulation in unconstrained environments requires the robot to proactively resolve information uncertainty, i.e., the capability of active perception. However, existing methods are often confined in limited types of sensing behaviors, restricting their applicability to complex environments. In this work, we formalize active perception as a non-Markovian process driven by information gain and decision branching, providing a structured categorization of visual active perception paradigms. Building on this perspective, we introduce CoMe-VLA, a cognitive and memory-aware vision-language-action (VLA) framework that leverages large-scale human egocentric data to learn versatile exploration and manipulation priors. Our framework integrates a cognitive auxiliary head for autonomous sub-task transitions and a dual-track memory system to maintain consistent self and environmental awareness by fusing proprioceptive and visual temporal contexts. By aligning human and robot hand-eye coordination behaviors in a unified egocentric action space, we train the model progressively in three stages. Extensive experiments on a wheel-based humanoid have demonstrated strong robustness and adaptability of our proposed method across diverse long-horizon tasks spanning multiple active perception scenarios.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T14:28:14Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jialiang Li</name>
+    </author>
+    <author>
+      <name>Yi Qiao</name>
+    </author>
+    <author>
+      <name>Yunhan Guo</name>
+    </author>
+    <author>
+      <name>Changwen Chen</name>
+    </author>
+    <author>
+      <name>Wenzhao Lian</name>
+    </author>
+  </entry>
+</feed>

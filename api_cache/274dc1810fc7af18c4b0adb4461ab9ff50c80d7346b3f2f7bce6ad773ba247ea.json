@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ss/9HVHaf94tAhWuO7In5XzQaFI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.15685&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:19:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2305.15685" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15685v2</id>
+    <title>RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting</title>
+    <updated>2023-12-19T23:57:01Z</updated>
+    <link href="https://arxiv.org/abs/2305.15685v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15685v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated impressive capabilities in creative tasks such as storytelling and E-mail generation. However, as LLMs are primarily trained on final text results rather than intermediate revisions, it might be challenging for them to perform text rewriting tasks. Most studies in the rewriting tasks focus on a particular transformation type within the boundaries of single sentences. In this work, we develop new strategies for instruction tuning and reinforcement learning to better align LLMs for cross-sentence rewriting tasks using diverse wording and structures expressed through natural languages including 1) generating rewriting instruction data from Wiki edits and public corpus through instruction generation and chain-of-thought prompting; 2) collecting comparison data for reward model training through a new ranking function. To facilitate this research, we introduce OpenRewriteEval, a novel benchmark covers a wide variety of rewriting types expressed through natural language instructions. Our results show significant improvements over a variety of baselines. The public repository is available on GitHub under Google Research (https://github.com/google-research/google-research/tree/master/rewritelm).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-25T03:26:26Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>AAAI 2024</arxiv:journal_ref>
+    <author>
+      <name>Lei Shu</name>
+    </author>
+    <author>
+      <name>Liangchen Luo</name>
+    </author>
+    <author>
+      <name>Jayakumar Hoskere</name>
+    </author>
+    <author>
+      <name>Yun Zhu</name>
+    </author>
+    <author>
+      <name>Yinxiao Liu</name>
+    </author>
+    <author>
+      <name>Simon Tong</name>
+    </author>
+    <author>
+      <name>Jindong Chen</name>
+    </author>
+    <author>
+      <name>Lei Meng</name>
+    </author>
+  </entry>
+</feed>

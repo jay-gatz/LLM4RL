@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OddF4vRAudvZwsArc1FwXMfZK2A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11448v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11448v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11448v1</id>
+    <title>Hierarchical Concept Embedding &amp; Pursuit for Interpretable Image Classification</title>
+    <updated>2026-02-11T23:53:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.11448v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11448v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interpretable-by-design models are gaining traction in computer vision because they provide faithful explanations for their predictions. In image classification, these models typically recover human-interpretable concepts from an image and use them for classification. Sparse concept recovery methods leverage the latent space of vision-language models to represent image embeddings as a sparse combination of concept embeddings. However, because such methods ignore the hierarchical structure of concepts, they can produce correct predictions with explanations that are inconsistent with the hierarchy. In this work, we propose Hierarchical Concept Embedding \&amp; Pursuit (HCEP), a framework that induces a hierarchy of concept embeddings in the latent space and uses hierarchical sparse coding to recover the concepts present in an image. Given a hierarchy of semantic concepts, we construct a corresponding hierarchy of concept embeddings and, assuming the correct concepts for an image form a rooted path in the hierarchy, derive desirable conditions for identifying them in the embedded space. We show that hierarchical sparse coding reliably recovers hierarchical concept embeddings, whereas vanilla sparse coding fails. Our experiments on real-world datasets demonstrate that HCEP outperforms baselines in concept precision and recall while maintaining competitive classification accuracy. Moreover, when the number of samples is limited, HCEP achieves superior classification accuracy and concept recovery. These results show that incorporating hierarchical structures into sparse coding yields more reliable and interpretable image classification models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T23:53:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nghia Nguyen</name>
+    </author>
+    <author>
+      <name>Tianjiao Ding</name>
+    </author>
+    <author>
+      <name>René Vidal</name>
+    </author>
+  </entry>
+</feed>

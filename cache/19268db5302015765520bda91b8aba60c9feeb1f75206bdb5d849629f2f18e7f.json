@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GNCO7wPTVJKGFmZTpn/wjCC/LVo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.00280&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.00280" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.00280v3</id>
+    <title>Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration</title>
+    <updated>2024-08-21T05:11:10Z</updated>
+    <link href="https://arxiv.org/abs/2310.00280v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.00280v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are evolving at an unprecedented pace and have exhibited considerable capability in the realm of natural language processing (NLP) with world knowledge. Benefiting from ultra-large-scale training corpora, a single LLM can manage typical NLP tasks competently. However, its performance in executing reasoning tasks is still confined by the limitations of its internal representations. To push this boundary further, we introduce Corex in this paper, a suite of novel general-purpose strategies that transform LLMs into autonomous agents pioneering multi-model collaborations for complex task-solving. Inspired by human behaviors, Corex is constituted by diverse collaboration paradigms including Debate, Review, and Retrieve modes, which collectively work towards enhancing the factuality, faithfulness, and reliability of the reasoning process. These paradigms foster task-agnostic approaches that enable LLMs to ''think outside the box,'' thereby overcoming hallucinations and providing better solutions. Through extensive experiments across four different types of reasoning tasks, we demonstrate that orchestrating multiple LLMs to work in concert yields substantially better performance compared to existing methods. Further results and in-depth analysis demonstrate the cost-effectiveness of our method, facilitating collaboration among different LLMs and promoting annotation efficiency.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-30T07:11:39Z</published>
+    <arxiv:comment>COLM 2024 / ICLR 2024 Workshop on LLM Agents</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qiushi Sun</name>
+    </author>
+    <author>
+      <name>Zhangyue Yin</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Zhiyong Wu</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+    <author>
+      <name>Lingpeng Kong</name>
+    </author>
+  </entry>
+</feed>

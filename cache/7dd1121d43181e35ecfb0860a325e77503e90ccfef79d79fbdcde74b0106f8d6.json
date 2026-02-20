@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6JNi4aiuDL/HtpGuRNVKxe2iGQI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.06982v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.06982v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06982v2</id>
+    <title>LLM-Driven Composite Neural Architecture Search for Multi-Source RL State Encoding</title>
+    <updated>2025-12-11T18:52:44Z</updated>
+    <link href="https://arxiv.org/abs/2512.06982v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06982v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing state encoders for reinforcement learning (RL) with multiple information sources -- such as sensor measurements, time-series signals, image observations, and textual instructions -- remains underexplored and often requires manual design. We formalize this challenge as a problem of composite neural architecture search (NAS), where multiple source-specific modules and a fusion module are jointly optimized. Existing NAS methods overlook useful side information from the intermediate outputs of these modules -- such as their representation quality -- limiting sample efficiency in multi-source RL settings. To address this, we propose an LLM-driven NAS pipeline in which the LLM serves as a neural architecture design agent, leveraging language-model priors and intermediate-output signals to guide sample-efficient search for high-performing composite state encoders. On a mixed-autonomy traffic control task, our approach discovers higher-performing architectures with fewer candidate evaluations than traditional NAS baselines and the LLM-based GENIUS framework.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T20:25:07Z</published>
+    <arxiv:comment>NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Reasoning and Planning</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yu Yu</name>
+    </author>
+    <author>
+      <name>Qian Xie</name>
+    </author>
+    <author>
+      <name>Nairen Cao</name>
+    </author>
+    <author>
+      <name>Li Jin</name>
+    </author>
+  </entry>
+</feed>

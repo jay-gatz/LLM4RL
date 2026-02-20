@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lMFL/i0gcId7JCDG5RklCR7XKO4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16251v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16251v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16251v1</id>
+    <title>RelianceScope: An Analytical Framework for Examining Students' Reliance on Generative AI Chatbots in Problem Solving</title>
+    <updated>2026-02-18T07:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.16251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative AI chatbots enable personalized problem-solving, but effective learning requires students to self-regulate both how they seek help and how they use AI-generated responses. Considering engagement modes across these two actions reveals nuanced reliance patterns: for example, a student may actively engage in help-seeking by clearly specifying areas of need, yet engage passively in response-use by copying AI outputs, or vice versa. However, existing research lacks systematic tools for jointly capturing engagement across help-seeking and response-use, limiting the analysis of such reliance behaviors. We introduce RelianceScope, an analytical framework that characterizes students' reliance on chatbots during problem-solving. RelianceScope (1) operationalizes reliance into nine patterns based on combinations of engagement modes in help-seeking and response-use, and (2) situates these patterns within a knowledge-context lens that accounts for students' prior knowledge and the instructional significance of knowledge components. Rather than prescribing optimal AI use, the framework enables fine-grained analysis of reliance in open-ended student-AI interactions. As an illustrative application, we applied RelianceScope to analyze chat and code-edit logs from 79 college students in a web programming course. Results show that active help-seeking is associated with active response-use, whereas reliance patterns remain similar across knowledge mastery levels. Students often struggled to articulate their knowledge gaps and to adapt AI responses. Using our annotated dataset as a benchmark, we further demonstrate that large language models can reliably detect reliance during help-seeking and response-use. We conclude by discussing the implications of RelianceScope and the design guidelines for AI-supported educational systems.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T07:59:44Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Hyoungwook Jin</name>
+    </author>
+    <author>
+      <name>Minju Yoo</name>
+    </author>
+    <author>
+      <name>Jieun Han</name>
+    </author>
+    <author>
+      <name>Zixin Chen</name>
+    </author>
+    <author>
+      <name>So-Yeon Ahn</name>
+    </author>
+    <author>
+      <name>Xu Wang</name>
+    </author>
+  </entry>
+</feed>

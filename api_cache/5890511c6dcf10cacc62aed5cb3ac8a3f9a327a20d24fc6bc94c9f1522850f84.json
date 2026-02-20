@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rQzHKkmj49o4zDVmNVxYkjH6rz8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15620v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15620v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15620v2</id>
+    <title>STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens</title>
+    <updated>2026-02-18T14:13:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.15620v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15620v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) has significantly improved large language model reasoning, but existing RL fine-tuning methods rely heavily on heuristic techniques such as entropy regularization and reweighting to maintain stability. In practice, they often suffer from late-stage performance collapse, leading to degraded reasoning quality and unstable training. Our analysis shows that the magnitude of token-wise policy gradients in RL is negatively correlated with token probability and local policy entropy. We find that training instability can be caused by a tiny fraction of tokens, approximately 0.01\%, which we term \emph{spurious tokens}. When such tokens appear in correct responses, they contribute little to the reasoning outcome but inherit the full sequence-level reward, leading to abnormally amplified gradient updates. To mitigate this instability, we design S2T (silencing spurious tokens) mechanism to efficiently identify spurious tokens through characteristic signals with low probability, low entropy, and positive advantage, and then to suppress their gradient perturbations during optimization. Incorporating this mechanism into a group-based objective, we propose Spurious-Token-Aware Policy Optimization (STAPO), which promotes stable and effective large-scale model refinement. Across six mathematical reasoning benchmarks using Qwen 1.7B, 8B, and 14B base models, STAPO consistently demonstrates superior entropy stability and achieves an average performance improvement of 7.13\% ($ρ_{\mathrm{T}}$=1.0, top-p=1.0) and 3.69\% ($ρ_{\mathrm{T}}$=0.7, top-p=0.9) over GRPO, 20-Entropy and JustRL.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T14:46:48Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shiqi Liu</name>
+    </author>
+    <author>
+      <name>Zeyu He</name>
+    </author>
+    <author>
+      <name>Guojian Zhan</name>
+    </author>
+    <author>
+      <name>Letian Tao</name>
+    </author>
+    <author>
+      <name>Zhilong Zheng</name>
+    </author>
+    <author>
+      <name>Jiang Wu</name>
+    </author>
+    <author>
+      <name>Yinuo Wang</name>
+    </author>
+    <author>
+      <name>Yang Guan</name>
+    </author>
+    <author>
+      <name>Kehua Sheng</name>
+    </author>
+    <author>
+      <name>Bo Zhang</name>
+    </author>
+    <author>
+      <name>Keqiang Li</name>
+    </author>
+    <author>
+      <name>Jingliang Duan</name>
+    </author>
+    <author>
+      <name>Shengbo Eben Li</name>
+    </author>
+  </entry>
+</feed>

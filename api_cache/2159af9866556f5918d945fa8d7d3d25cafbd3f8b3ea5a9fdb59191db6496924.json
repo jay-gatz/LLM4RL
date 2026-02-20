@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qn4oIBkX5Tcc9CRGLU+k5jBcRMI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16290v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:46:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16290v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16290v1</id>
+    <title>Aladdin-FTI @ AMIYA Three Wishes for Arabic NLP: Fidelity, Diglossia, and Multidialectal Generation</title>
+    <updated>2026-02-18T09:15:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.16290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Arabic dialects have long been under-represented in Natural Language Processing (NLP) research due to their non-standardization and high variability, which pose challenges for computational modeling. Recent advances in the field, such as Large Language Models (LLMs), offer promising avenues to address this gap by enabling Arabic to be modeled as a pluricentric language rather than a monolithic system. This paper presents Aladdin-FTI, our submission to the AMIYA shared task. The proposed system is designed to both generate and translate dialectal Arabic (DA). Specifically, the model supports text generation in Moroccan, Egyptian, Palestinian, Syrian, and Saudi dialects, as well as bidirectional translation between these dialects, Modern Standard Arabic (MSA), and English. The code and trained model are publicly available.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T09:15:20Z</published>
+    <arxiv:comment>13 pages, Paper submitted to the AMIYA shared task at the VarDial workshop, co-located with EACL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jonathan Mutal</name>
+    </author>
+    <author>
+      <name>Perla Al Almaoui</name>
+    </author>
+    <author>
+      <name>Simon Hengchen</name>
+    </author>
+    <author>
+      <name>Pierrette Bouillon</name>
+    </author>
+  </entry>
+</feed>

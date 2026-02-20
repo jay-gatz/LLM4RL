@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ucH93Z2WlAonzi6MfWVBvV9BPd4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10564v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10564v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10564v2</id>
+    <title>SplitCom: Communication-efficient Split Federated Fine-tuning of LLMs via Temporal Compression</title>
+    <updated>2026-02-12T07:04:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.10564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated fine-tuning of on-device large language models (LLMs) mitigates privacy concerns by preventing raw data sharing. However, the intensive computational and memory demands pose significant challenges for resource-constrained edge devices. To overcome these limitations, split federated learning (SFL) emerges as a promising solution that partitions the model into lightweight client-side and compute-intensive server-side sub-models, thus offloading the primary training workload to a powerful server. Nevertheless, high-dimensional activation exchanges in SFL lead to excessive communication overhead. To overcome this, we propose SplitCom, a communication-efficient SFL framework for LLMs that exploits temporal redundancy in activations across consecutive training epochs. Inspired by video compression, the core innovation of our framework lies in selective activation uploading only when a noticeable deviation from previous epochs occurs. To balance communication efficiency and learning performance, we introduce two adaptive threshold control schemes based on 1) bang-bang control or 2) deep deterministic policy gradient (DDPG)-based reinforcement learning. Moreover, we implement dimensionality reduction techniques to alleviate client-side memory requirements. Furthermore, we extend SplitCom to the U-shape architecture, ensuring the server never accesses clients' labels. Extensive simulations and laboratory experiments demonstrate that SplitCom reduces uplink communication costs by up to 98.6\,\% in its standard configuration and total communication costs by up to 95.8\,\% in its U-shape variant without noticeably compromising model performance.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T06:25:53Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Yulin Tang</name>
+    </author>
+    <author>
+      <name>Yiyang Song</name>
+    </author>
+    <author>
+      <name>Cong Wu</name>
+    </author>
+    <author>
+      <name>Xihui Liu</name>
+    </author>
+    <author>
+      <name>Pan Li</name>
+    </author>
+    <author>
+      <name>Xianhao Chen</name>
+    </author>
+  </entry>
+</feed>

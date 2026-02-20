@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oOt+4dPtveJcHtPcOuFlmYcYtgY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19099v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19099v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19099v1</id>
+    <title>m2sv: A Scalable Benchmark for Map-to-Street-View Spatial Reasoning</title>
+    <updated>2026-01-27T02:01:56Z</updated>
+    <link href="https://arxiv.org/abs/2601.19099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision--language models (VLMs) achieve strong performance on many multimodal benchmarks but remain brittle on spatial reasoning tasks that require aligning abstract overhead representations with egocentric views. We introduce m2sv, a scalable benchmark for map-to-street-view spatial reasoning that asks models to infer camera viewing direction by aligning a north-up overhead map with a Street View image captured at the same real-world intersection. We release m2sv-20k, a geographically diverse benchmark with controlled ambiguity, along with m2sv-sft-11k, a curated set of structured reasoning traces for supervised fine-tuning.
+  Despite strong performance on existing multimodal benchmarks, the best evaluated VLM achieves only 65.2% accuracy on m2sv, far below the human baseline of 95%. While supervised fine-tuning and reinforcement learning yield consistent gains, cross-benchmark evaluations reveal limited transfer. Beyond aggregate accuracy, we systematically analyze difficulty in map-to-street-view reasoning using both structural signals and human effort, and conduct an extensive failure analysis of adapted open models. Our findings highlight persistent gaps in geometric alignment, evidence aggregation, and reasoning consistency, motivating future work on grounded spatial reasoning across viewpoints.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T02:01:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yosub Shin</name>
+    </author>
+    <author>
+      <name>Michael Buriek</name>
+    </author>
+    <author>
+      <name>Igor Molybog</name>
+    </author>
+  </entry>
+</feed>

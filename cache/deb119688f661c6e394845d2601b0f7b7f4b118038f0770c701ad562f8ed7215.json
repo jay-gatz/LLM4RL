@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/njx68lg8uAb+CIb4t4+WaehuhT0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03022v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03022v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03022v1</id>
+    <title>STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models</title>
+    <updated>2026-02-03T02:41:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.03022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proliferation of Large Language Models (LLMs) in function calling is pivotal for creating advanced AI agents, yet their large scale hinders widespread adoption, necessitating transferring their capabilities into smaller ones. However, existing paradigms are often plagued by overfitting, training instability, ineffective binary rewards for multi-solution tasks, and the difficulty of synergizing techniques. We introduce STAR: Similarity-guided Teacher-Assisted Refinement, a novel holistic framework that effectively transfers LLMs' capabilities to super-tiny models. STAR consists of two core technical innovations: (1) Constrained Knowledge Distillation (CKD), a training objective that augments top-k forward KL divergence to suppress confidently incorrect predictions, ensuring training stability while preserving exploration capacity for downstream RL. STAR holistically synergizes these strategies within a cohesive training curriculum, enabling super-tiny models to achieve exceptional performance on complex function calling tasks; (2) Similarity-guided RL (Sim-RL), a RL mechanism that introduces a fine-grained, similarity-based reward. This provides a robust, continuous, and rich signal for better policy optimization by evaluating the similarity between generated outputs and the ground truth. Extensive experiments on challenging and renowned benchmarks demonstrate the effectiveness of our method. Our STAR models establish SOTA in their size classes, significantly outperforming baselines. Remarkably, our 0.6B STAR model achieves the best performance among all open models under 1B, surpassing even several well-known open models at a larger scale. STAR demonstrates a training framework that distills capabilities of LLMs into super-tiny models, paving the way for powerful, accessible, and efficient AI agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T02:41:11Z</published>
+    <arxiv:comment>The paper has been accepted to ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiliang Ni</name>
+    </author>
+    <author>
+      <name>Jiachen Pu</name>
+    </author>
+    <author>
+      <name>Zhongyi Yang</name>
+    </author>
+    <author>
+      <name>Jingfeng Luo</name>
+    </author>
+    <author>
+      <name>Conggang Hu</name>
+    </author>
+  </entry>
+</feed>

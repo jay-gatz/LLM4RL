@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TTO2ji4EK6/ZVYvO8Od65b75RHI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.01952v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.01952v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.01952v1</id>
+    <title>WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks</title>
+    <updated>2025-06-02T17:59:45Z</updated>
+    <link href="https://arxiv.org/abs/2506.01952v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.01952v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Powered by a large language model (LLM), a web browsing agent operates web browsers in a human-like manner and offers a highly transparent path toward automating a wide range of everyday tasks. As web agents become increasingly capable and demonstrate proficiency in general browsing tasks, a critical question emerges: Can they go beyond general browsing to robustly handle tasks that are tedious and complex, or chores that humans often avoid doing themselves? In this paper, we introduce WebChoreArena, a new fully reproducible benchmark comprising 532 carefully curated tasks designed to extend the scope of WebArena beyond general browsing to more labor-intensive and tedious tasks. WebChoreArena systematically integrates three key challenges: (i) Massive Memory tasks requiring accurate retrieval of large amounts of information in the observations, (ii) Calculation tasks demanding precise mathematical reasoning, and (iii) Long-Term Memory tasks necessitating long-term memory across multiple webpages. Built on top of the fully reproducible and widely adopted four WebArena simulation environments, WebChoreArena ensures strict reproducibility and enables fair, direct comparisons with the established WebArena benchmark, offering key insights into agent progress. Our experimental results demonstrate that as LLMs evolve, represented by GPT-4o, Claude 3.7 Sonnet, and Gemini 2.5 Pro, significant improvements in performance are observed on WebChoreArena. These findings suggest that WebChoreArena is well-suited to measure the advancement of state-of-the-art LLMs with greater clarity. Nevertheless, the results also indicate that even with Gemini 2.5 Pro, there remains substantial room for improvement compared to WebArena, highlighting the increased challenges posed by WebChoreArena.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-02T17:59:45Z</published>
+    <arxiv:comment>Project Page: https://webchorearena.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Atsuyuki Miyai</name>
+    </author>
+    <author>
+      <name>Zaiying Zhao</name>
+    </author>
+    <author>
+      <name>Kazuki Egashira</name>
+    </author>
+    <author>
+      <name>Atsuki Sato</name>
+    </author>
+    <author>
+      <name>Tatsumi Sunada</name>
+    </author>
+    <author>
+      <name>Shota Onohara</name>
+    </author>
+    <author>
+      <name>Hiromasa Yamanishi</name>
+    </author>
+    <author>
+      <name>Mashiro Toyooka</name>
+    </author>
+    <author>
+      <name>Kunato Nishina</name>
+    </author>
+    <author>
+      <name>Ryoma Maeda</name>
+    </author>
+    <author>
+      <name>Kiyoharu Aizawa</name>
+    </author>
+    <author>
+      <name>Toshihiko Yamasaki</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nAnLEQ5areAA2+WvX7T80KpXrLI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16607v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:51:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16607v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16607v1</id>
+    <title>CitiLink-Summ: Summarization of Discussion Subjects in European Portuguese Municipal Meeting Minutes</title>
+    <updated>2026-02-18T17:03:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.16607v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16607v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Municipal meeting minutes are formal records documenting the discussions and decisions of local government, yet their content is often lengthy, dense, and difficult for citizens to navigate. Automatic summarization can help address this challenge by producing concise summaries for each discussion subject. Despite its potential, research on summarizing discussion subjects in municipal meeting minutes remains largely unexplored, especially in low-resource languages, where the inherent complexity of these documents adds further challenges. A major bottleneck is the scarcity of datasets containing high-quality, manually crafted summaries, which limits the development and evaluation of effective summarization models for this domain. In this paper, we present CitiLink-Summ, a new corpus of European Portuguese municipal meeting minutes, comprising 100 documents and 2,322 manually hand-written summaries, each corresponding to a distinct discussion subject. Leveraging this dataset, we establish baseline results for automatic summarization in this domain, employing state-of-the-art generative models (e.g., BART, PRIMERA) as well as large language models (LLMs), evaluated with both lexical and semantic metrics such as ROUGE, BLEU, METEOR, and BERTScore. CitiLink-Summ provides the first benchmark for municipal-domain summarization in European Portuguese, offering a valuable resource for advancing NLP research on complex administrative texts.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T17:03:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Miguel Marques</name>
+    </author>
+    <author>
+      <name>Ana Luísa Fernandes</name>
+    </author>
+    <author>
+      <name>Ana Filipa Pacheco</name>
+    </author>
+    <author>
+      <name>Rute Rebouças</name>
+    </author>
+    <author>
+      <name>Inês Cantante</name>
+    </author>
+    <author>
+      <name>José Isidro</name>
+    </author>
+    <author>
+      <name>Luís Filipe Cunha</name>
+    </author>
+    <author>
+      <name>Alípio Jorge</name>
+    </author>
+    <author>
+      <name>Nuno Guimarães</name>
+    </author>
+    <author>
+      <name>Sérgio Nunes</name>
+    </author>
+    <author>
+      <name>António Leal</name>
+    </author>
+    <author>
+      <name>Purificação Silvano</name>
+    </author>
+    <author>
+      <name>Ricardo Campos</name>
+    </author>
+  </entry>
+</feed>

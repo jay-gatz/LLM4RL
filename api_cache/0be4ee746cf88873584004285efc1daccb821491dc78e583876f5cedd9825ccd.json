@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8GmvyycG29Qe538KLZgPu7BqbTk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14869v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14869v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14869v1</id>
+    <title>Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution</title>
+    <updated>2026-02-16T16:02:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.14869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models are increasingly trained and fine-tuned, practitioners need methods to identify which training data drive specific behaviors, particularly unintended ones. Training Data Attribution (TDA) methods address this by estimating datapoint influence. Existing approaches like influence functions are both computationally expensive and attribute based on single test examples, which can bias results toward syntactic rather than semantic similarity. To address these issues of scalability and influence to abstract behavior, we leverage interpretable structures within the model during the attribution. First, we introduce Concept Influence which attribute model behavior to semantic directions (such as linear probes or sparse autoencoder features) rather than individual test examples. Second, we show that simple probe-based attribution methods are first-order approximations of Concept Influence that achieve comparable performance while being over an order-of-magnitude faster. We empirically validate Concept Influence and approximations across emergent misalignment benchmarks and real post-training datasets, and demonstrate they achieve comparable performance to classical influence functions while being substantially more scalable. More broadly, we show that incorporating interpretable structure within traditional TDA pipelines can enable more scalable, explainable, and better control of model behavior through data.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T16:02:09Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matthew Kowal</name>
+    </author>
+    <author>
+      <name>Goncalo Paulo</name>
+    </author>
+    <author>
+      <name>Louis Jaburi</name>
+    </author>
+    <author>
+      <name>Tom Tseng</name>
+    </author>
+    <author>
+      <name>Lev E McKinney</name>
+    </author>
+    <author>
+      <name>Stefan Heimersheim</name>
+    </author>
+    <author>
+      <name>Aaron David Tucker</name>
+    </author>
+    <author>
+      <name>Adam Gleave</name>
+    </author>
+    <author>
+      <name>Kellin Pelrine</name>
+    </author>
+  </entry>
+</feed>

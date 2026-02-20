@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IScweQJUmSoE4QE6QKMTK+dY/4s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2010.02903&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:32:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2010.02903" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2010.02903v1</id>
+    <title>Keep CALM and Explore: Language Models for Action Generation in Text-based Games</title>
+    <updated>2020-10-06T17:36:29Z</updated>
+    <link href="https://arxiv.org/abs/2010.02903v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.02903v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-based games present a unique challenge for autonomous agents to operate in natural language and handle enormous action spaces. In this paper, we propose the Contextual Action Language Model (CALM) to generate a compact set of action candidates at each game state. Our key insight is to train language models on human gameplay, where people demonstrate linguistic priors and a general game sense for promising actions conditioned on game history. We combine CALM with a reinforcement learning agent which re-ranks the generated action candidates to maximize in-game rewards. We evaluate our approach using the Jericho benchmark, on games unseen by CALM during training. Our method obtains a 69% relative improvement in average game score over the previous state-of-the-art model. Surprisingly, on half of these games, CALM is competitive with or better than other models that have access to ground truth admissible actions. Code and data are available at https://github.com/princeton-nlp/calm-textgame.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-06T17:36:29Z</published>
+    <arxiv:comment>EMNLP 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shunyu Yao</name>
+    </author>
+    <author>
+      <name>Rohan Rao</name>
+    </author>
+    <author>
+      <name>Matthew Hausknecht</name>
+    </author>
+    <author>
+      <name>Karthik Narasimhan</name>
+    </author>
+  </entry>
+</feed>

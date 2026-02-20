@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cFyh7T2zSyRMNEa+pCLfPWVfvT4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05535v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05535v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05535v1</id>
+    <title>Detecting Misbehaviors of Large Vision-Language Models by Evidential Uncertainty Quantification</title>
+    <updated>2026-02-05T10:51:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.05535v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05535v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large vision-language models (LVLMs) have shown substantial advances in multimodal understanding and generation. However, when presented with incompetent or adversarial inputs, they frequently produce unreliable or even harmful content, such as fact hallucinations or dangerous instructions. This misalignment with human expectations, referred to as \emph{misbehaviors} of LVLMs, raises serious concerns for deployment in critical applications. These misbehaviors are found to stem from epistemic uncertainty, specifically either conflicting internal knowledge or the absence of supporting information. However, existing uncertainty quantification methods, which typically capture only overall epistemic uncertainty, have shown limited effectiveness in identifying such issues. To address this gap, we propose Evidential Uncertainty Quantification (EUQ), a fine-grained method that captures both information conflict and ignorance for effective detection of LVLM misbehaviors. In particular, we interpret features from the model output head as either supporting (positive) or opposing (negative) evidence. Leveraging Evidence Theory, we model and aggregate this evidence to quantify internal conflict and knowledge gaps within a single forward pass. We extensively evaluate our method across four categories of misbehavior, including hallucinations, jailbreaks, adversarial vulnerabilities, and out-of-distribution (OOD) failures, using state-of-the-art LVLMs, and find that EUQ consistently outperforms strong baselines, showing that hallucinations correspond to high internal conflict and OOD failures to high ignorance. Furthermore, layer-wise evidential uncertainty dynamics analysis helps interpret the evolution of internal representations from a new perspective. The source code is available at https://github.com/HT86159/EUQ.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T10:51:39Z</published>
+    <arxiv:comment>Accepted to ICLR 2026. Code is available at https://github.com/HT86159/EUQ</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Xiaofei Liu</name>
+    </author>
+    <author>
+      <name>Yi Qin</name>
+    </author>
+    <author>
+      <name>Li Duan</name>
+    </author>
+    <author>
+      <name>Liping Jing</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CK+V4/EyrfPCefux0n1jKUQoHaA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.00225v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.00225v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.00225v3</id>
+    <title>Should You Use Your Large Language Model to Explore or Exploit?</title>
+    <updated>2026-02-17T18:41:00Z</updated>
+    <link href="https://arxiv.org/abs/2502.00225v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.00225v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We evaluate the ability of the current generation of large language models (LLMs) to help a decision-making agent facing an exploration-exploitation tradeoff. While previous work has largely study the ability of LLMs to solve combined exploration-exploitation tasks, we take a more systematic approach and use LLMs to explore and exploit in silos in various (contextual) bandit tasks. We find that reasoning models show the most promise for solving exploitation tasks, although they are still too expensive or too slow to be used in many practical settings. Motivated by this, we study tool use and in-context summarization using non-reasoning models. We find that these mitigations may be used to substantially improve performance on medium-difficulty tasks, however even then, all LLMs we study perform worse than a simple linear regression, even in non-linear settings. On the other hand, we find that LLMs do help at exploring large action spaces with inherent semantics, by suggesting suitable candidates to explore.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-31T23:42:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Keegan Harris</name>
+    </author>
+    <author>
+      <name>Aleksandrs Slivkins</name>
+    </author>
+  </entry>
+</feed>

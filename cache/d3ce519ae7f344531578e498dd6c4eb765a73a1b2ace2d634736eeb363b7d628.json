@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/caNoZ2/3eh1yxOjsj7KczJPGZyk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08040v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08040v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08040v1</id>
+    <title>FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability-Plasticity Tradeoff</title>
+    <updated>2026-02-08T16:17:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.08040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks trained on nonstationary data must balance stability (i.e., retaining prior knowledge) and plasticity (i.e., adapting to new tasks). Standard reinitialization methods, which reinitialize weights toward their original values, are widely used but difficult to tune: conservative reinitializations fail to restore plasticity, while aggressive ones erase useful knowledge. We propose FIRE, a principled reinitialization method that explicitly balances the stability-plasticity tradeoff. FIRE quantifies stability through Squared Frobenius Error (SFE), measuring proximity to past weights, and plasticity through Deviation from Isometry (DfI), reflecting weight isotropy. The reinitialization point is obtained by solving a constrained optimization problem, minimizing SFE subject to DfI being zero, which is efficiently approximated by Newton-Schulz iteration. FIRE is evaluated on continual visual learning (CIFAR-10 with ResNet-18), language modeling (OpenWebText with GPT-0.1B), and reinforcement learning (HumanoidBench with SAC and Atari games with DQN). Across all domains, FIRE consistently outperforms both naive training without intervention and standard reinitialization methods, demonstrating effective balancing of the stability-plasticity tradeoff.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T16:17:03Z</published>
+    <arxiv:comment>ICLR'26 (oral)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Isaac Han</name>
+    </author>
+    <author>
+      <name>Sangyeon Park</name>
+    </author>
+    <author>
+      <name>Seungwon Oh</name>
+    </author>
+    <author>
+      <name>Donghu Kim</name>
+    </author>
+    <author>
+      <name>Hojoon Lee</name>
+    </author>
+    <author>
+      <name>Kyung-Joong Kim</name>
+    </author>
+  </entry>
+</feed>

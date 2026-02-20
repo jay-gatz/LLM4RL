@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pmDGgwz6xvJQsLtZjD6ifNgqTog</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15377v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15377v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15377v1</id>
+    <title>Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework</title>
+    <updated>2026-02-17T06:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.15377v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15377v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Customer service automation has seen growing demand within digital transformation. Existing approaches either rely on modular system designs with extensive agent orchestration or employ over-simplified instruction schemas, providing limited guidance and poor generalizability. This paper introduces an orchestration-free framework using Task-Oriented Flowcharts (TOFs) to enable end-to-end automation without manual intervention. We first define the components and evaluation metrics for TOFs, then formalize a cost-efficient flowchart construction algorithm to abstract procedural knowledge from service dialogues. We emphasize local deployment of small language models and propose decentralized distillation with flowcharts to mitigate data scarcity and privacy issues in model training. Extensive experiments validate the effectiveness in various service tasks, with superior quantitative and application performance compared to strong baselines and market products. By releasing a web-based system demonstration with case studies, we aim to promote streamlined creation of future service automation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T06:17:37Z</published>
+    <arxiv:comment>Accepted by TheWebConf 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mengze Hong</name>
+    </author>
+    <author>
+      <name>Chen Jason Zhang</name>
+    </author>
+    <author>
+      <name>Zichang Guo</name>
+    </author>
+    <author>
+      <name>Hanlin Gu</name>
+    </author>
+    <author>
+      <name>Di Jiang</name>
+    </author>
+    <author>
+      <name>Li Qing</name>
+    </author>
+  </entry>
+</feed>

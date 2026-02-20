@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xDOB9/ZE4GJmZptnOSPHt0Fu7nU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.21782v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:19:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.21782v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.21782v1</id>
+    <title>Accelerating Scientific Discovery with Autonomous Goal-evolving Agents</title>
+    <updated>2025-12-25T20:54:41Z</updated>
+    <link href="https://arxiv.org/abs/2512.21782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.21782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There has been unprecedented interest in developing agents that expand the boundary of scientific discovery, primarily by optimizing quantitative objective functions specified by scientists. However, for grand challenges in science , these objectives are only imperfect proxies. We argue that automating objective function design is a central, yet unmet requirement for scientific discovery agents. In this work, we introduce the Scientific Autonomous Goal-evolving Agent (SAGA) to amend this challenge. SAGA employs a bi-level architecture in which an outer loop of LLM agents analyzes optimization outcomes, proposes new objectives, and converts them into computable scoring functions, while an inner loop performs solution optimization under the current objectives. This bi-level design enables systematic exploration of the space of objectives and their trade-offs, rather than treating them as fixed inputs. We demonstrate the framework through a broad spectrum of applications, including antibiotic design, inorganic materials design, functional DNA sequence design, and chemical process design, showing that automating objective formulation can substantially improve the effectiveness of scientific discovery agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-25T20:54:41Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanqi Du</name>
+    </author>
+    <author>
+      <name>Botao Yu</name>
+    </author>
+    <author>
+      <name>Tianyu Liu</name>
+    </author>
+    <author>
+      <name>Tony Shen</name>
+    </author>
+    <author>
+      <name>Junwu Chen</name>
+    </author>
+    <author>
+      <name>Jan G. Rittig</name>
+    </author>
+    <author>
+      <name>Kunyang Sun</name>
+    </author>
+    <author>
+      <name>Yikun Zhang</name>
+    </author>
+    <author>
+      <name>Zhangde Song</name>
+    </author>
+    <author>
+      <name>Bo Zhou</name>
+    </author>
+    <author>
+      <name>Cassandra Masschelein</name>
+    </author>
+    <author>
+      <name>Yingze Wang</name>
+    </author>
+    <author>
+      <name>Haorui Wang</name>
+    </author>
+    <author>
+      <name>Haojun Jia</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Hongyu Zhao</name>
+    </author>
+    <author>
+      <name>Martin Ester</name>
+    </author>
+    <author>
+      <name>Teresa Head-Gordon</name>
+    </author>
+    <author>
+      <name>Carla P. Gomes</name>
+    </author>
+    <author>
+      <name>Huan Sun</name>
+    </author>
+    <author>
+      <name>Chenru Duan</name>
+    </author>
+    <author>
+      <name>Philippe Schwaller</name>
+    </author>
+    <author>
+      <name>Wengong Jin</name>
+    </author>
+  </entry>
+</feed>

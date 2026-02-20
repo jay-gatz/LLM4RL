@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0BwvCSSeSYnea8xl9NJXmTEEnYg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15645v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15645v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15645v1</id>
+    <title>CARE Drive A Framework for Evaluating Reason-Responsiveness of Vision Language Models in Automated Driving</title>
+    <updated>2026-02-17T15:13:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.15645v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15645v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models, including vision language models, are increasingly used in automated driving to interpret scenes, recommend actions, and generate natural language explanations. However, existing evaluation methods primarily assess outcome based performance, such as safety and trajectory accuracy, without determining whether model decisions reflect human relevant considerations. As a result, it remains unclear whether explanations produced by such models correspond to genuine reason responsive decision making or merely post hoc rationalizations. This limitation is especially significant in safety critical domains because it can create false confidence. To address this gap, we propose CARE Drive, Context Aware Reasons Evaluation for Driving, a model agnostic framework for evaluating reason responsiveness in vision language models applied to automated driving. CARE Drive compares baseline and reason augmented model decisions under controlled contextual variation to assess whether human reasons causally influence decision behavior. The framework employs a two stage evaluation process. Prompt calibration ensures stable outputs. Systematic contextual perturbation then measures decision sensitivity to human reasons such as safety margins, social pressure, and efficiency constraints. We demonstrate CARE Drive in a cyclist overtaking scenario involving competing normative considerations. Results show that explicit human reasons significantly influence model decisions, improving alignment with expert recommended behavior. However, responsiveness varies across contextual factors, indicating uneven sensitivity to different types of reasons. These findings provide empirical evidence that reason responsiveness in foundation models can be systematically evaluated without modifying model parameters.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:13:36Z</published>
+    <arxiv:comment>21 pages, on submission to Transportation Research Part C</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lucas Elbert Suryana</name>
+    </author>
+    <author>
+      <name>Farah Bierenga</name>
+    </author>
+    <author>
+      <name>Sanne van Buuren</name>
+    </author>
+    <author>
+      <name>Pepijn Kooij</name>
+    </author>
+    <author>
+      <name>Elsefien Tulleners</name>
+    </author>
+    <author>
+      <name>Federico Scari</name>
+    </author>
+    <author>
+      <name>Simeon Calvert</name>
+    </author>
+    <author>
+      <name>Bart van Arem</name>
+    </author>
+    <author>
+      <name>Arkady Zgonnikov</name>
+    </author>
+  </entry>
+</feed>

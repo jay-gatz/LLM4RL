@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TJbS5KEHX1OaBB7IodmnCGURxo8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.10727v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:45:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.10727v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.10727v3</id>
+    <title>MLLM-Tool: A Multimodal Large Language Model For Tool Agent Learning</title>
+    <updated>2025-04-11T10:01:13Z</updated>
+    <link href="https://arxiv.org/abs/2401.10727v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.10727v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, the astonishing performance of large language models (LLMs) in natural language comprehension and generation tasks triggered lots of exploration of using them as central controllers to build agent systems. Multiple studies focus on bridging the LLMs to external tools to extend the application scenarios. However, the current LLMs' ability to perceive tool use is limited to a single text query, which may result in ambiguity in understanding the users' real intentions. LLMs are expected to eliminate that by perceiving the information in the visual- or auditory-grounded instructions. Therefore, in this paper, we propose MLLM-Tool, a system incorporating open-source LLMs and multi-modal encoders so that the learned LLMs can be conscious of multi-modal input instruction and then select the function-matched tool correctly. To facilitate the evaluation of the model's capability, we collect a dataset featuring multi-modal input tools from HuggingFace. Another essential feature of our dataset is that it also contains multiple potential choices for the same instruction due to the existence of identical functions and synonymous functions, which provides more potential solutions for the same query. The experiments reveal that our MLLM-Tool is capable of recommending appropriate tools for multi-modal instructions. Codes and data are available at https://github.com/MLLM-Tool/MLLM-Tool.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-19T14:44:37Z</published>
+    <arxiv:comment>WACV 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenyu Wang</name>
+    </author>
+    <author>
+      <name>Weixin Luo</name>
+    </author>
+    <author>
+      <name>Sixun Dong</name>
+    </author>
+    <author>
+      <name>Xiaohua Xuan</name>
+    </author>
+    <author>
+      <name>Zhengxin Li</name>
+    </author>
+    <author>
+      <name>Lin Ma</name>
+    </author>
+    <author>
+      <name>Shenghua Gao</name>
+    </author>
+  </entry>
+</feed>

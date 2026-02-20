@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vZfS/oBAfmMCAsgk0cvzAeSUado</id>
+  <title>arXiv Query: search_query=&amp;id_list=2110.08207&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2110.08207" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.08207v3</id>
+    <title>Multitask Prompted Training Enables Zero-Shot Task Generalization</title>
+    <updated>2022-03-17T17:53:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.08207v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.08207v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have recently been shown to attain reasonable zero-shot generalization on a diverse set of tasks (Brown et al., 2020). It has been hypothesized that this is a consequence of implicit multitask learning in language models' pretraining (Radford et al., 2019). Can zero-shot generalization instead be directly induced by explicit multitask learning? To test this question at scale, we develop a system for easily mapping any natural language tasks into a human-readable prompted form. We convert a large set of supervised datasets, each with multiple prompts with diverse wording. These prompted datasets allow for benchmarking the ability of a model to perform completely held-out tasks. We fine-tune a pretrained encoder-decoder model (Raffel et al., 2020; Lester et al., 2021) on this multitask mixture covering a wide variety of tasks. The model attains strong zero-shot performance on several standard datasets, often outperforming models up to 16x its size. Further, our approach attains strong performance on a subset of tasks from the BIG-bench benchmark, outperforming models up to 6x its size. All trained models are available at https://github.com/bigscience-workshop/t-zero and all prompts are available at https://github.com/bigscience-workshop/promptsource.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-15T17:08:57Z</published>
+    <arxiv:comment>ICLR 2022 Spotlight (with extended discussion)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Victor Sanh</name>
+    </author>
+    <author>
+      <name>Albert Webson</name>
+    </author>
+    <author>
+      <name>Colin Raffel</name>
+    </author>
+    <author>
+      <name>Stephen H. Bach</name>
+    </author>
+    <author>
+      <name>Lintang Sutawika</name>
+    </author>
+    <author>
+      <name>Zaid Alyafeai</name>
+    </author>
+    <author>
+      <name>Antoine Chaffin</name>
+    </author>
+    <author>
+      <name>Arnaud Stiegler</name>
+    </author>
+    <author>
+      <name>Teven Le Scao</name>
+    </author>
+    <author>
+      <name>Arun Raja</name>
+    </author>
+    <author>
+      <name>Manan Dey</name>
+    </author>
+    <author>
+      <name>M Saiful Bari</name>
+    </author>
+    <author>
+      <name>Canwen Xu</name>
+    </author>
+    <author>
+      <name>Urmish Thakker</name>
+    </author>
+    <author>
+      <name>Shanya Sharma Sharma</name>
+    </author>
+    <author>
+      <name>Eliza Szczechla</name>
+    </author>
+    <author>
+      <name>Taewoon Kim</name>
+    </author>
+    <author>
+      <name>Gunjan Chhablani</name>
+    </author>
+    <author>
+      <name>Nihal Nayak</name>
+    </author>
+    <author>
+      <name>Debajyoti Datta</name>
+    </author>
+    <author>
+      <name>Jonathan Chang</name>
+    </author>
+    <author>
+      <name>Mike Tian-Jian Jiang</name>
+    </author>
+    <author>
+      <name>Han Wang</name>
+    </author>
+    <author>
+      <name>Matteo Manica</name>
+    </author>
+    <author>
+      <name>Sheng Shen</name>
+    </author>
+    <author>
+      <name>Zheng Xin Yong</name>
+    </author>
+    <author>
+      <name>Harshit Pandey</name>
+    </author>
+    <author>
+      <name>Rachel Bawden</name>
+    </author>
+    <author>
+      <name>Thomas Wang</name>
+    </author>
+    <author>
+      <name>Trishala Neeraj</name>
+    </author>
+    <author>
+      <name>Jos Rozen</name>
+    </author>
+    <author>
+      <name>Abheesht Sharma</name>
+    </author>
+    <author>
+      <name>Andrea Santilli</name>
+    </author>
+    <author>
+      <name>Thibault Fevry</name>
+    </author>
+    <author>
+      <name>Jason Alan Fries</name>
+    </author>
+    <author>
+      <name>Ryan Teehan</name>
+    </author>
+    <author>
+      <name>Tali Bers</name>
+    </author>
+    <author>
+      <name>Stella Biderman</name>
+    </author>
+    <author>
+      <name>Leo Gao</name>
+    </author>
+    <author>
+      <name>Thomas Wolf</name>
+    </author>
+    <author>
+      <name>Alexander M. Rush</name>
+    </author>
+  </entry>
+</feed>

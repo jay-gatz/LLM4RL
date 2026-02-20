@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Njf8WiUfI+Ga+jKDhdUhUE0LxZc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02137v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02137v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02137v2</id>
+    <title>DCoPilot: Generative AI-Empowered Policy Adaptation for Dynamic Data Center Operations</title>
+    <updated>2026-02-03T08:43:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.02137v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02137v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern data centers (DCs) hosting artificial intelligence (AI)-dedicated devices operate at high power densities with rapidly varying workloads, making minute-level adaptation essential for safe and energy-efficient operation. However, manually designing piecewise deep reinforcement learning (DRL) agents cannot keep pace with frequent dynamics shifts and service-level agreement (SLA) changes of an evolving DC. This specification-to-policy lag causes a lack of timely, effective control policies, which may lead to service outages. To bridge the gap, we present DCoPilot, a hybrid framework for generative control policies in dynamic DC operation. DCoPilot synergizes two distinct generative paradigms, i.e., a large language model (LLM) that performs symbolic generation of structured reward forms, and a hypernetwork that conducts parametric generation of policy weights. DCoPilot operates through three coordinated phases: (i) simulation scale-up, which stress-tests reward candidates across diverse simulation-ready (SimReady) scenes; (ii) meta policy distillation, where a hypernetwork is trained to output policy weights conditioned on SLA and scene embeddings; and (iii) online adaptation, enabling zero-shot policy generation in response to updated specifications. Evaluated across five control task families spanning diverse DC components, DCoPilot achieves near-zero constraint violations and outperforms all baselines across specification variations. Ablation studies validate the effectiveness of LLM-based unified reward generation in enabling stable hypernetwork convergence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T14:18:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Minghao Li</name>
+    </author>
+    <author>
+      <name>Ruihang Wang</name>
+    </author>
+    <author>
+      <name>Rui Tan</name>
+    </author>
+    <author>
+      <name>Yonggang Wen</name>
+    </author>
+  </entry>
+</feed>

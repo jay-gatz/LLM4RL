@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1tBG86i45mYVzP51u1VnqSbW4IQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.14923v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.14923v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.14923v2</id>
+    <title>Imprompter: Tricking LLM Agents into Improper Tool Use</title>
+    <updated>2024-10-22T00:53:48Z</updated>
+    <link href="https://arxiv.org/abs/2410.14923v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.14923v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) Agents are an emerging computing paradigm that blends generative machine learning with tools such as code interpreters, web browsing, email, and more generally, external resources. These agent-based systems represent an emerging shift in personal computing. We contribute to the security foundations of agent-based systems and surface a new class of automatically computed obfuscated adversarial prompt attacks that violate the confidentiality and integrity of user resources connected to an LLM agent. We show how prompt optimization techniques can find such prompts automatically given the weights of a model. We demonstrate that such attacks transfer to production-level agents. For example, we show an information exfiltration attack on Mistral's LeChat agent that analyzes a user's conversation, picks out personally identifiable information, and formats it into a valid markdown command that results in leaking that data to the attacker's server. This attack shows a nearly 80% success rate in an end-to-end evaluation. We conduct a range of experiments to characterize the efficacy of these attacks and find that they reliably work on emerging agent-based systems like Mistral's LeChat, ChatGLM, and Meta's Llama. These attacks are multimodal, and we show variants in the text-only and image domains.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-19T01:00:57Z</published>
+    <arxiv:comment>website: https://imprompter.ai code: https://github.com/Reapor-Yurnero/imprompter v2 changelog: add new results to Table 3, correct several typos</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Xiaohan Fu</name>
+    </author>
+    <author>
+      <name>Shuheng Li</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Yihao Liu</name>
+    </author>
+    <author>
+      <name>Rajesh K. Gupta</name>
+    </author>
+    <author>
+      <name>Taylor Berg-Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Earlence Fernandes</name>
+    </author>
+  </entry>
+</feed>

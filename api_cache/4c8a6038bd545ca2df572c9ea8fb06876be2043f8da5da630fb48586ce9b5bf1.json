@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K1caO6Asvq/VEJ+WwdH8kkYld3M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.12200v4&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.12200v4" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.12200v4</id>
+    <title>PRO-V-R1: Reasoning Enhanced Programming Agent for RTL Verification</title>
+    <updated>2025-12-08T23:18:22Z</updated>
+    <link href="https://arxiv.org/abs/2506.12200v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.12200v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Register-Transfer Level (RTL) verification is a primary bottleneck, consuming 60-70% of development time. While Large Language Models (LLMs) show promise for RTL automation, their performance and research focus have overwhelmingly centered on RTL generation rather than verification. Current methods for RTL verification rely on large scale proprietary models (e.g., GPT-4o) to generate Python-based functional references, incurring a high cost and raising data-privacy risks. To date, an end-to-end open-source solution for autonomous verification remains absent.
+  We introduce PRO-V-R1, the first trainable open-source agentic framework for autonomous RTL verification. Our contributions are threefold: (1) we design PRO-V sys, a modular agentic system that couples LLM-based reasoning with programmatic tool use for RTL verification; (2) we establish a data construction pipeline that leverages existing RTL datasets to build simulation-validated, expert-level trajectories tailored for supervised fine-tuning (SFT) RTL verification agents; and (3) we implement an efficient reinforcement learning (RL) algorithm that uses verification-specific rewards derived from program-tool feedback to optimize the end-to-end verification workflow. Our empirical evaluation demonstrates PRO-V-R1 achieves a 57.7% functional correctness rate and 34.0% in robust fault detection, significantly outperforming the base model's 25.7% and 21.8% (respectively) from the state-of-the-art (SOTA) automatic verification system. This configuration also outperforms large-scale proprietary LLMs in functional correctness and shows comparable robustness for fault detection.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-13T20:06:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yujie Zhao</name>
+    </author>
+    <author>
+      <name>Zhijing Wu</name>
+    </author>
+    <author>
+      <name>Boqin Yuan</name>
+    </author>
+    <author>
+      <name>Zhongming Yu</name>
+    </author>
+    <author>
+      <name>Hejia Zhang</name>
+    </author>
+    <author>
+      <name>Wentao Ni</name>
+    </author>
+    <author>
+      <name>Chia-Tung Ho</name>
+    </author>
+    <author>
+      <name>Haoxing Ren</name>
+    </author>
+    <author>
+      <name>Jishen Zhao</name>
+    </author>
+  </entry>
+</feed>

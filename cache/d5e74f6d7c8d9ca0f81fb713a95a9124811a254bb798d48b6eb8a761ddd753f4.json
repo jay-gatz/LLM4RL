@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z/qVkClAGN5estjI4GgHgmpbO0I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18356v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18356v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18356v1</id>
+    <title>Making medical vision-language models think causally across modalities with retrieval-augmented cross-modal reasoning</title>
+    <updated>2026-01-26T11:03:00Z</updated>
+    <link href="https://arxiv.org/abs/2601.18356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Medical vision-language models (VLMs) achieve strong performance in diagnostic reporting and image-text alignment, yet their underlying reasoning mechanisms remain fundamentally correlational, exhibiting reliance on superficial statistical associations that fail to capture the causal pathophysiological mechanisms central to clinical decision-making. This limitation makes them fragile, prone to hallucinations, and sensitive to dataset biases. Retrieval-augmented generation (RAG) offers a partial remedy by grounding predictions in external knowledge. However, conventional RAG depends on semantic similarity, introducing new spurious correlations. We propose Multimodal Causal Retrieval-Augmented Generation, a framework that integrates causal inference principles with multimodal retrieval. It retrieves clinically relevant exemplars and causal graphs from external sources, conditioning model reasoning on counterfactual and interventional evidence rather than correlations alone. Applied to radiology report generation, diagnosis prediction, and visual question answering, it improves factual accuracy, robustness to distribution shifts, and interpretability. Our results highlight causal retrieval as a scalable path toward medical VLMs that think beyond pattern matching, enabling trustworthy multimodal reasoning in high-stakes clinical settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T11:03:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Weiqin Yang</name>
+    </author>
+    <author>
+      <name>Haowen Xue</name>
+    </author>
+    <author>
+      <name>Qingyi Peng</name>
+    </author>
+    <author>
+      <name>Hexuan Hu</name>
+    </author>
+    <author>
+      <name>Qian Huang</name>
+    </author>
+    <author>
+      <name>Tingbo Zhang</name>
+    </author>
+  </entry>
+</feed>

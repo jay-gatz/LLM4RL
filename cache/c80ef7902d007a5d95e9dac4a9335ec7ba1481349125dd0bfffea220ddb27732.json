@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fJuGAXWiXgmjKHUznSiTFzx7Edo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03454v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03454v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03454v1</id>
+    <title>Contextualized Visual Personalization in Vision-Language Models</title>
+    <updated>2026-02-03T12:21:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.03454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite recent progress in vision-language models (VLMs), existing approaches often fail to generate personalized responses based on the user's specific experiences, as they lack the ability to associate visual inputs with a user's accumulated visual-textual context. We newly formalize this challenge as contextualized visual personalization, which requires the visual recognition and textual retrieval of personalized visual experiences by VLMs when interpreting new images. To address this issue, we propose CoViP, a unified framework that treats personalized image captioning as a core task for contextualized visual personalization and improves this capability through reinforcement-learning-based post-training and caption-augmented generation. We further introduce diagnostic evaluations that explicitly rule out textual shortcut solutions and verify whether VLMs truly leverage visual context. Extensive experiments demonstrate that existing open-source and proprietary VLMs exhibit substantial limitations, while CoViP not only improves personalized image captioning but also yields holistic gains across downstream personalization tasks. These results highlight CoViP as a crucial stage for enabling robust and generalizable contextualized visual personalization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T12:21:26Z</published>
+    <arxiv:comment>Project Page: https://github.com/oyt9306/CoViP</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yeongtak Oh</name>
+    </author>
+    <author>
+      <name>Sangwon Yu</name>
+    </author>
+    <author>
+      <name>Junsung Park</name>
+    </author>
+    <author>
+      <name>Han Cheol Moon</name>
+    </author>
+    <author>
+      <name>Jisoo Mok</name>
+    </author>
+    <author>
+      <name>Sungroh Yoon</name>
+    </author>
+  </entry>
+</feed>

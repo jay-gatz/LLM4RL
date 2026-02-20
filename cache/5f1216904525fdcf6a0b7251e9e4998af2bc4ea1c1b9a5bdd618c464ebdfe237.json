@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xb9OT7Sm/1xeIOqmn/L8ab6sgt4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06619v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06619v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06619v1</id>
+    <title>CauCLIP: Bridging the Sim-to-Real Gap in Surgical Video Understanding via Causality-Inspired Vision-Language Modeling</title>
+    <updated>2026-02-06T11:23:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.06619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surgical phase recognition is a critical component for context-aware decision support in intelligent operating rooms, yet training robust models is hindered by limited annotated clinical videos and large domain gaps between synthetic and real surgical data. To address this, we propose CauCLIP, a causality-inspired vision-language framework that leverages CLIP to learn domain-invariant representations for surgical phase recognition without access to target domain data. Our approach integrates a frequency-based augmentation strategy to perturb domain-specific attributes while preserving semantic structures, and a causal suppression loss that mitigates non-causal biases and reinforces causal surgical features. These components are combined in a unified training framework that enables the model to focus on stable causal factors underlying surgical workflows. Experiments on the SurgVisDom hard adaptation benchmark demonstrate that our method substantially outperforms all competing approaches, highlighting the effectiveness of causality-guided vision-language models for domain-generalizable surgical video understanding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T11:23:17Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yuxin He</name>
+    </author>
+    <author>
+      <name>An Li</name>
+    </author>
+    <author>
+      <name>Cheng Xue</name>
+    </author>
+  </entry>
+</feed>

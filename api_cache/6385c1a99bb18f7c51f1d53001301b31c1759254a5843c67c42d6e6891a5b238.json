@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JzOxFweWyGpPhewPbLds10s2ivA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09801v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09801v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09801v1</id>
+    <title>Tiny Moves: Game-based Hypothesis Refinement</title>
+    <updated>2026-02-10T14:04:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.09801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most machine learning approaches to scientific discovery frame hypotheses as end-to-end predictions, obscuring the incremental structure of scientific reasoning. We propose The Hypothesis Game, a symbolic formalism for hypothesis refinement in which LLM agents operate on a shared hypothesis state using a fixed grammar of reasoning moves. The framework is motivated by the observation that scientific progress often proceeds through small, localized revisions, grounded in domain context, rather than extensive rewrites. We instantiate a minimal game with LLM agents and evaluate it on pathway-level mechanistic refinement tasks. In the primary setting of corruption recovery, where hypotheses contain controlled errors, the game-based approach consistently removes more errors and achieves higher precision than strong prompting baselines, while preserving valid structure through incremental edits. In a secondary reconstruction setting from partial cues, it performs comparably to the strongest baseline, indicating that explicit move-based refinement remains competitive even when ground-truth recovery is difficult. These findings support game-based reasoning as a principled route to more controllable, interpretable, and transferable hypothesis refinement systems for scientific discovery.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T14:04:29Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Agnieszka Dobrowolska</name>
+    </author>
+    <author>
+      <name>Rogier Hintzen</name>
+    </author>
+    <author>
+      <name>Martin Balla</name>
+    </author>
+    <author>
+      <name>Karl Gemayel</name>
+    </author>
+    <author>
+      <name>Sabine Reichert</name>
+    </author>
+    <author>
+      <name>Thomas Charman</name>
+    </author>
+    <author>
+      <name>Jen Ning Lim</name>
+    </author>
+    <author>
+      <name>Lindsay Edwards</name>
+    </author>
+    <author>
+      <name>Anna Gogleva</name>
+    </author>
+  </entry>
+</feed>

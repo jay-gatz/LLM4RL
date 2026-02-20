@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nwO2edeKaxmzEGJAjDJ6gF6n3lE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01137v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01137v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01137v1</id>
+    <title>Self-Generative Adversarial Fine-Tuning for Large Language Models</title>
+    <updated>2026-02-01T10:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.01137v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01137v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning large language models (LLMs) for alignment typically relies on supervised fine-tuning or reinforcement learning from human feedback, both limited by the cost and scarcity of high-quality annotations. Recent self-play and synthetic data approaches reduce this dependence but often rely on heuristic assumptions or ungrounded self-evaluation, which can cause bias accumulation and performance drift. In this paper, we propose Self-Generative Adversarial LLM (SGALM), a unified fine-tuning framework that formulates alignment as a generative adversarial game within a single LLM. SGALM jointly evolves generation and discrimination capabilities without external reward models. Theoretical and empirical results demonstrate that SGALM achieves state-of-the-art performance, serves as an effective alignment algorithm and a robust synthetic data engine.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T10:20:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shiguang Wu</name>
+    </author>
+    <author>
+      <name>Yaqing Wang</name>
+    </author>
+    <author>
+      <name>Quanming Yao</name>
+    </author>
+  </entry>
+</feed>

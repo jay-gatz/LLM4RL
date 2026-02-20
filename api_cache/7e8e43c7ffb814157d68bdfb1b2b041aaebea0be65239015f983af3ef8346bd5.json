@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SW39DiKY75uGH5OJZset1CKlFN4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.24109v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.24109v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24109v1</id>
+    <title>PFEA: An LLM-based High-Level Natural Language Planning and Feedback Embodied Agent for Human-Centered AI</title>
+    <updated>2025-10-28T06:28:21Z</updated>
+    <link href="https://arxiv.org/abs/2510.24109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid advancement of Large Language Models (LLMs) has marked a significant breakthrough in Artificial Intelligence (AI), ushering in a new era of Human-centered Artificial Intelligence (HAI). HAI aims to better serve human welfare and needs, thereby placing higher demands on the intelligence level of robots, particularly in aspects such as natural language interaction, complex task planning, and execution. Intelligent agents powered by LLMs have opened up new pathways for realizing HAI. However, existing LLM-based embodied agents often lack the ability to plan and execute complex natural language control tasks online. This paper explores the implementation of intelligent robotic manipulating agents based on Vision-Language Models (VLMs) in the physical world. We propose a novel embodied agent framework for robots, which comprises a human-robot voice interaction module, a vision-language agent module and an action execution module. The vision-language agent itself includes a vision-based task planner, a natural language instruction converter, and a task performance feedback evaluator. Experimental results demonstrate that our agent achieves a 28\% higher average task success rate in both simulated and real environments compared to approaches relying solely on LLM+CLIP, significantly improving the execution success rate of high-level natural language instruction tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T06:28:21Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenbin Ding</name>
+    </author>
+    <author>
+      <name>Jun Chen</name>
+    </author>
+    <author>
+      <name>Mingjia Chen</name>
+    </author>
+    <author>
+      <name>Fei Xie</name>
+    </author>
+    <author>
+      <name>Qi Mao</name>
+    </author>
+    <author>
+      <name>Philip Dames</name>
+    </author>
+  </entry>
+</feed>

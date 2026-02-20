@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K8HOpxQagWY6rFx62A5ItUgjVvA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07125v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07125v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07125v1</id>
+    <title>Reasoning-Augmented Representations for Multimodal Retrieval</title>
+    <updated>2026-02-06T19:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.07125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Universal Multimodal Retrieval (UMR) seeks any-to-any search across text and vision, yet modern embedding models remain brittle when queries require latent reasoning (e.g., resolving underspecified references or matching compositional constraints). We argue this brittleness is often data-induced: when images carry "silent" evidence and queries leave key semantics implicit, a single embedding pass must both reason and compress, encouraging spurious feature matching. We propose a data-centric framework that decouples these roles by externalizing reasoning before retrieval. Using a strong Vision--Language Model, we make implicit semantics explicit by densely captioning visual evidence in corpus entries, resolving ambiguous multimodal references in queries, and rewriting verbose instructions into concise retrieval constraints. Inference-time enhancement alone is insufficient; the retriever must be trained on these semantically dense representations to avoid distribution shift and fully exploit the added signal. Across M-BEIR, our reasoning-augmented training method yields consistent gains over strong baselines, with ablations showing that corpus enhancement chiefly benefits knowledge-intensive queries while query enhancement is critical for compositional modification requests. We publicly release our code at https://github.com/AugmentedRetrieval/ReasoningAugmentedRetrieval.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T19:01:54Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Jianrui Zhang</name>
+    </author>
+    <author>
+      <name>Anirudh Sundara Rajan</name>
+    </author>
+    <author>
+      <name>Brandon Han</name>
+    </author>
+    <author>
+      <name>Soochahn Lee</name>
+    </author>
+    <author>
+      <name>Sukanta Ganguly</name>
+    </author>
+    <author>
+      <name>Yong Jae Lee</name>
+    </author>
+  </entry>
+</feed>

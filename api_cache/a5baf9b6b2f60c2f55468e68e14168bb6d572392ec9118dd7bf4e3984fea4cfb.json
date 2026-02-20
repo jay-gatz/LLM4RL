@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3RwIz4K34QntW540LJprnRDEZXw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.23348v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:39:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.23348v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.23348v1</id>
+    <title>SWE-Debate: Competitive Multi-Agent Debate for Software Issue Resolution</title>
+    <updated>2025-07-31T08:54:46Z</updated>
+    <link href="https://arxiv.org/abs/2507.23348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.23348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Issue resolution has made remarkable progress thanks to the advanced reasoning capabilities of large language models (LLMs). Recently, agent-based frameworks such as SWE-agent have further advanced this progress by enabling autonomous, tool-using agents to tackle complex software engineering tasks. While existing agent-based issue resolution approaches are primarily based on agents' independent explorations, they often get stuck in local solutions and fail to identify issue patterns that span across different parts of the codebase. To address this limitation, we propose SWE-Debate, a competitive multi-agent debate framework that encourages diverse reasoning paths and achieves more consolidated issue localization. SWE-Debate first creates multiple fault propagation traces as localization proposals by traversing a code dependency graph. Then, it organizes a three-round debate among specialized agents, each embodying distinct reasoning perspectives along the fault propagation trace. This structured competition enables agents to collaboratively converge on a consolidated fix plan. Finally, this consolidated fix plan is integrated into an MCTS-based code modification agent for patch generation. Experiments on the SWE-bench benchmark show that SWE-Debate achieves new state-of-the-art results in open-source agent frameworks and outperforms baselines by a large margin.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-31T08:54:46Z</published>
+    <arxiv:comment>Our code and data are available at https://github.com/YerbaPage/SWE-Debate</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Han Li</name>
+    </author>
+    <author>
+      <name>Yuling Shi</name>
+    </author>
+    <author>
+      <name>Shaoxin Lin</name>
+    </author>
+    <author>
+      <name>Xiaodong Gu</name>
+    </author>
+    <author>
+      <name>Heng Lian</name>
+    </author>
+    <author>
+      <name>Xin Wang</name>
+    </author>
+    <author>
+      <name>Yantao Jia</name>
+    </author>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Qianxiang Wang</name>
+    </author>
+  </entry>
+</feed>

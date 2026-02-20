@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Pa9ZAYsUPcR6Y+2RiwIeWWWyaX8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05547v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05547v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05547v1</id>
+    <title>Multi-Task GRPO: Reliable LLM Reasoning Across Tasks</title>
+    <updated>2026-02-05T11:06:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.05547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>RL-based post-training with GRPO is widely used to improve large language models on individual reasoning tasks. However, real-world deployment requires reliable performance across diverse tasks. A straightforward multi-task adaptation of GRPO often leads to imbalanced outcomes, with some tasks dominating optimization while others stagnate. Moreover, tasks can vary widely in how frequently prompts yield zero advantages (and thus zero gradients), which further distorts their effective contribution to the optimization signal. To address these issues, we propose a novel Multi-Task GRPO (MT-GRPO) algorithm that (i) dynamically adapts task weights to explicitly optimize worst-task performance and promote balanced progress across tasks, and (ii) introduces a ratio-preserving sampler to ensure task-wise policy gradients reflect the adapted weights. Experiments on both 3-task and 9-task settings show that MT-GRPO consistently outperforms baselines in worst-task accuracy. In particular, MT-GRPO achieves 16-28% and 6% absolute improvement on worst-task performance over standard GRPO and DAPO, respectively, while maintaining competitive average accuracy. Moreover, MT-GRPO requires 50% fewer training steps to reach 50% worst-task accuracy in the 3-task setting, demonstrating substantially improved efficiency in achieving reliable performance across tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T11:06:37Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shyam Sundhar Ramesh</name>
+    </author>
+    <author>
+      <name>Xiaotong Ji</name>
+    </author>
+    <author>
+      <name>Matthieu Zimmer</name>
+    </author>
+    <author>
+      <name>Sangwoong Yoon</name>
+    </author>
+    <author>
+      <name>Zhiyong Wang</name>
+    </author>
+    <author>
+      <name>Haitham Bou Ammar</name>
+    </author>
+    <author>
+      <name>Aurelien Lucchi</name>
+    </author>
+    <author>
+      <name>Ilija Bogunovic</name>
+    </author>
+  </entry>
+</feed>

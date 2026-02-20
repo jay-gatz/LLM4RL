@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KGHSdrlNmPxcqpydyI1tYXvUFvQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15485v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15485v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15485v2</id>
+    <title>SecCodeBench-V2 Technical Report</title>
+    <updated>2026-02-18T08:08:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.15485v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15485v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce SecCodeBench-V2, a publicly released benchmark for evaluating Large Language Model (LLM) copilots' capabilities of generating secure code. SecCodeBench-V2 comprises 98 generation and fix scenarios derived from Alibaba Group's industrial productions, where the underlying security issues span 22 common CWE (Common Weakness Enumeration) categories across five programming languages: Java, C, Python, Go, and JavaScript. SecCodeBench-V2 adopts a function-level task formulation: each scenario provides a complete project scaffold and requires the model to implement or patch a designated target function under fixed interfaces and dependencies. For each scenario, SecCodeBench-V2 provides executable proof-of-concept (PoC) test cases for both functional validation and security verification. All test cases are authored and double-reviewed by security experts, ensuring high fidelity, broad coverage, and reliable ground truth. Beyond the benchmark itself, we build a unified evaluation pipeline that assesses models primarily via dynamic execution. For most scenarios, we compile and run model-generated artifacts in isolated environments and execute PoC test cases to validate both functional correctness and security properties. For scenarios where security issues cannot be adjudicated with deterministic test cases, we additionally employ an LLM-as-a-judge oracle. To summarize performance across heterogeneous scenarios and difficulty levels, we design a Pass@K-based scoring protocol with principled aggregation over scenarios and severity, enabling holistic and comparable evaluation across models. Overall, SecCodeBench-V2 provides a rigorous and reproducible foundation for assessing the security posture of AI coding assistants, with results and artifacts released at https://alibaba.github.io/sec-code-bench. The benchmark is publicly available at https://github.com/alibaba/sec-code-bench.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T10:47:06Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Longfei Chen</name>
+    </author>
+    <author>
+      <name>Ji Zhao</name>
+    </author>
+    <author>
+      <name>Lanxiao Cui</name>
+    </author>
+    <author>
+      <name>Tong Su</name>
+    </author>
+    <author>
+      <name>Xingbo Pan</name>
+    </author>
+    <author>
+      <name>Ziyang Li</name>
+    </author>
+    <author>
+      <name>Yongxing Wu</name>
+    </author>
+    <author>
+      <name>Qijiang Cao</name>
+    </author>
+    <author>
+      <name>Qiyao Cai</name>
+    </author>
+    <author>
+      <name>Jing Zhang</name>
+    </author>
+    <author>
+      <name>Yuandong Ni</name>
+    </author>
+    <author>
+      <name>Junyao He</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Chao Ge</name>
+    </author>
+    <author>
+      <name>Xuhuai Lu</name>
+    </author>
+    <author>
+      <name>Zeyu Gao</name>
+    </author>
+    <author>
+      <name>Yuxin Cui</name>
+    </author>
+    <author>
+      <name>Weisen Chen</name>
+    </author>
+    <author>
+      <name>Yuxuan Peng</name>
+    </author>
+    <author>
+      <name>Shengping Wang</name>
+    </author>
+    <author>
+      <name>Qi Li</name>
+    </author>
+    <author>
+      <name>Yukai Huang</name>
+    </author>
+    <author>
+      <name>Yukun Liu</name>
+    </author>
+    <author>
+      <name>Tuo Zhou</name>
+    </author>
+    <author>
+      <name>Terry Yue Zhuo</name>
+    </author>
+    <author>
+      <name>Junyang Lin</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+  </entry>
+</feed>

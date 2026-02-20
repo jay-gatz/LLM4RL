@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TWbxjs6fGRoLUsP7mv19ZX2ITJ8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.13653v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.13653v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.13653v1</id>
+    <title>TimeART: Towards Agentic Time Series Reasoning via Tool-Augmentation</title>
+    <updated>2026-01-20T06:39:10Z</updated>
+    <link href="https://arxiv.org/abs/2601.13653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.13653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time series data widely exist in real-world cyber-physical systems. Though analyzing and interpreting them contributes to significant values, e.g, disaster prediction and financial risk control, current workflows mainly rely on human data scientists, which requires significant labor costs and lacks automation. To tackle this, we introduce TimeART, a framework fusing the analytical capability of strong out-of-the-box tools and the reasoning capability of Large Language Models (LLMs), which serves as a fully agentic data scientist for Time Series Question Answering (TSQA). To teach the LLM-based Time Series Reasoning Models (TSRMs) strategic tool-use, we also collect a 100k expert trajectory corpus called TimeToolBench. To enhance TSRMs' generalization capability, we then devise a four-stage training strategy, which boosts TSRMs through learning from their own early experiences and self-reflections. Experimentally, we train an 8B TSRM on TimeToolBench and equip it with the TimeART framework, and it achieves consistent state-of-the-art performance on multiple TSQA tasks, which pioneers a novel approach towards agentic time series reasoning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T06:39:10Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xingjian Wu</name>
+    </author>
+    <author>
+      <name>Junkai Lu</name>
+    </author>
+    <author>
+      <name>Zhengyu Li</name>
+    </author>
+    <author>
+      <name>Xiangfei Qiu</name>
+    </author>
+    <author>
+      <name>Jilin Hu</name>
+    </author>
+    <author>
+      <name>Chenjuan Guo</name>
+    </author>
+    <author>
+      <name>Christian S. Jensen</name>
+    </author>
+    <author>
+      <name>Bin Yang</name>
+    </author>
+  </entry>
+</feed>

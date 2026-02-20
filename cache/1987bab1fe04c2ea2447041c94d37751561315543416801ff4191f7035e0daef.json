@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TVfjvvS9d2/UzYYeC6r1/iu1zjQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2306.04488&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:23:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2306.04488" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04488v2</id>
+    <title>Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards</title>
+    <updated>2023-10-16T13:53:14Z</updated>
+    <link href="https://arxiv.org/abs/2306.04488v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04488v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models are first pre-trained on vast unsupervised datasets and then fine-tuned on labeled data. Reinforcement learning, notably from human feedback (RLHF), can further align the network with the intended usage. Yet the imperfections in the proxy reward may hinder the training and lead to suboptimal results; the diversity of objectives in real-world tasks and human opinions exacerbate the issue. This paper proposes embracing the heterogeneity of diverse rewards by following a multi-policy strategy. Rather than focusing on a single a priori reward, we aim for Pareto-optimal generalization across the entire space of preferences. To this end, we propose rewarded soup, first specializing multiple networks independently (one for each proxy reward) and then interpolating their weights linearly. This succeeds empirically because we show that the weights remain linearly connected when fine-tuned on diverse rewards from a shared pre-trained initialization. We demonstrate the effectiveness of our approach for text-to-text (summarization, Q&amp;A, helpful assistant, review), text-image (image captioning, text-to-image generation, visual grounding, VQA), and control (locomotion) tasks. We hope to enhance the alignment of deep models, and how they interact with the world in all its diversity.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T14:58:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alexandre Ramé</name>
+    </author>
+    <author>
+      <name>Guillaume Couairon</name>
+    </author>
+    <author>
+      <name>Mustafa Shukor</name>
+    </author>
+    <author>
+      <name>Corentin Dancette</name>
+    </author>
+    <author>
+      <name>Jean-Baptiste Gaya</name>
+    </author>
+    <author>
+      <name>Laure Soulier</name>
+    </author>
+    <author>
+      <name>Matthieu Cord</name>
+    </author>
+  </entry>
+</feed>

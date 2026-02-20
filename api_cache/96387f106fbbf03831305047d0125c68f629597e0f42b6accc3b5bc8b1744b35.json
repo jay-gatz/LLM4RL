@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jXxkQsf3ARTVOxUn3PrDCmbI+hw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.15718v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.15718v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15718v2</id>
+    <title>ToolMind Technical Report: A Large-Scale, Reasoning-Enhanced Tool-Use Dataset</title>
+    <updated>2025-12-05T09:32:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.15718v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15718v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents have developed rapidly in recent years to solve complex real-world problems using external tools. However, the scarcity of high-quality trajectories still hinders the development of stronger LLM agents. Most existing works on multi-turn dialogue synthesis validate correctness only at the trajectory level, which may overlook turn-level errors that can propagate during training and degrade model performance. To address these limitations, we introduce ToolMind, a large-scale, high-quality tool-agentic dataset with 160k synthetic data instances generated using over 20k tools and 200k augmented open-source data instances. Our data synthesis pipeline first constructs a function graph based on parameter correlations and then uses a multi-agent framework to simulate realistic user-assistant-tool interactions. Beyond trajectory-level validation, we employ fine-grained turn-level filtering to remove erroneous or suboptimal steps, ensuring that only high-quality reasoning traces are retained. This approach mitigates error amplification during training while preserving self-corrective reasoning signals essential for robust tool-use learning. Models fine-tuned on ToolMind show significant improvements over baselines on several benchmarks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-12T13:01:23Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chen Yang</name>
+    </author>
+    <author>
+      <name>Ran Le</name>
+    </author>
+    <author>
+      <name>Yun Xing</name>
+    </author>
+    <author>
+      <name>Zhenwei An</name>
+    </author>
+    <author>
+      <name>Zongchao Chen</name>
+    </author>
+    <author>
+      <name>Wayne Xin Zhao</name>
+    </author>
+    <author>
+      <name>Yang Song</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+  </entry>
+</feed>

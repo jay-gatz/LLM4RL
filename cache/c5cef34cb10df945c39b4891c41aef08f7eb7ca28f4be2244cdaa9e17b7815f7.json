@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FAvayDVpDUeu//nlv4eTSW3361Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12470v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12470v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12470v1</id>
+    <title>Designing RNAs with Language Models</title>
+    <updated>2026-02-12T22:57:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.12470v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12470v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>RNA design, the task of finding a sequence that folds into a target secondary structure, has broad biological and biomedical impact but remains computationally challenging due to the exponentially large sequence space and exponentially many competing folds. Traditional approaches treat it as an optimization problem, relying on per-instance heuristics or constraint-based search. We instead reframe RNA design as conditional sequence generation and introduce a reusable neural approximator, instantiated as an autoregressive language model (LM), that maps target structures directly to sequences. We first train our model in a supervised setting on random-induced structure-sequence pairs, and then use reinforcement learning (RL) to optimize end-to-end metrics. We also propose methods to select a small subset for RL that greatly improves RL efficiency and quality. Across four datasets, our approach outperforms state-of-the-art systems on key metrics such as Boltzmann probability while being 1.7x faster, establishing conditional LM generation as a scalable, task-agnostic alternative to per-instance optimization for RNA design. Our code and data are available at https://github.com/KuNyaa/RNA-Design-LM.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T22:57:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Milan Gautam</name>
+    </author>
+    <author>
+      <name>Ning Dai</name>
+    </author>
+    <author>
+      <name>Tianshuo Zhou</name>
+    </author>
+    <author>
+      <name>Bowen Xie</name>
+    </author>
+    <author>
+      <name>David Mathews</name>
+    </author>
+    <author>
+      <name>Liang Huang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kI6fdZLKpJEvz9mkCWh4lbKGYzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.11816v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.11816v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.11816v1</id>
+    <title>POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation</title>
+    <updated>2026-01-16T22:38:21Z</updated>
+    <link href="https://arxiv.org/abs/2601.11816v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.11816v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Enterprise back office workflows require agentic systems that are auditable, policy-aligned, and operationally predictable, capabilities that generic multi-agent setups often fail to deliver. We present POLARIS (Policy-Aware LLM Agentic Reasoning for Integrated Systems), a governed orchestration framework that treats automation as typed plan synthesis and validated execution over LLM agents. A planner proposes structurally diverse, type checked directed acyclic graphs (DAGs), a rubric guided reasoning module selects a single compliant plan, and execution is guarded by validator gated checks, a bounded repair loop, and compiled policy guardrails that block or route side effects before they occur. Applied to document centric finance tasks, POLARIS produces decision grade artifacts and full execution traces while reducing human intervention. Empirically, POLARIS achieves a micro F1 of 0.81 on the SROIE dataset and, on a controlled synthetic suite, achieves 0.95 to 1.00 precision for anomaly routing with preserved audit trails. These evaluations constitute an initial benchmark for governed Agentic AI. POLARIS provides a methodological and benchmark reference for policy-aligned Agentic AI. Keywords Agentic AI, Enterprise Automation, Back-Office Tasks, Benchmarks, Governance, Typed Planning, Evaluation</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T22:38:21Z</published>
+    <arxiv:comment>Workshop on Agentic AI Benchmarks and Applications for Enterprise Tasks: AAAI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zahra Moslemi</name>
+    </author>
+    <author>
+      <name>Keerthi Koneru</name>
+    </author>
+    <author>
+      <name>Yen-Ting Lee</name>
+    </author>
+    <author>
+      <name>Sheethal Kumar</name>
+    </author>
+    <author>
+      <name>Ramesh Radhakrishnan</name>
+    </author>
+  </entry>
+</feed>

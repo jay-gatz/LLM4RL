@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cGPjeulzPyZuGH0eBr1Nq1E8f9I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16704v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16704v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16704v1</id>
+    <title>Reinforced Fast Weights with Next-Sequence Prediction</title>
+    <updated>2026-02-18T18:53:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.16704v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16704v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fast weight architectures offer a promising alternative to attention-based transformers for long-context modeling by maintaining constant memory overhead regardless of context length. However, their potential is limited by the next-token prediction (NTP) training paradigm. NTP optimizes single-token predictions and ignores semantic coherence across multiple tokens following a prefix. Consequently, fast weight models, which dynamically update their parameters to store contextual information, learn suboptimal representations that fail to capture long-range dependencies. We introduce REFINE (Reinforced Fast weIghts with Next sEquence prediction), a reinforcement learning framework that trains fast weight models under the next-sequence prediction (NSP) objective. REFINE selects informative token positions based on prediction entropy, generates multi-token rollouts, assigns self-supervised sequence-level rewards, and optimizes the model with group relative policy optimization (GRPO). REFINE is applicable throughout the training lifecycle of pre-trained language models: mid-training, post-training, and test-time training. Our experiments on LaCT-760M and DeltaNet-1.3B demonstrate that REFINE consistently outperforms supervised fine-tuning with NTP across needle-in-a-haystack retrieval, long-context question answering, and diverse tasks in LongBench. REFINE provides an effective and versatile framework for improving long-context modeling in fast weight architectures.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T18:53:18Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hee Seung Hwang</name>
+    </author>
+    <author>
+      <name>Xindi Wu</name>
+    </author>
+    <author>
+      <name>Sanghyuk Chun</name>
+    </author>
+    <author>
+      <name>Olga Russakovsky</name>
+    </author>
+  </entry>
+</feed>

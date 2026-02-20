@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0mxUpOzJNq+Iwz1F2LQIIi3ZJ5o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15730v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15730v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15730v1</id>
+    <title>Causal Effect Estimation with Latent Textual Treatments</title>
+    <updated>2026-02-17T17:06:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.15730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the causal effects of text on downstream outcomes is a central task in many applications. Estimating such effects requires researchers to run controlled experiments that systematically vary textual features. While large language models (LLMs) hold promise for generating text, producing and evaluating controlled variation requires more careful attention. In this paper, we present an end-to-end pipeline for the generation and causal estimation of latent textual interventions. Our work first performs hypothesis generation and steering via sparse autoencoders (SAEs), followed by robust causal estimation. Our pipeline addresses both computational and statistical challenges in text-as-treatment experiments. We demonstrate that naive estimation of causal effects suffers from significant bias as text inherently conflates treatment and covariate information. We describe the estimation bias induced in this setting and propose a solution based on covariate residualization. Our empirical results show that our pipeline effectively induces variation in target features and mitigates estimation error, providing a robust foundation for causal effect estimation in text-as-treatment settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T17:06:12Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Omri Feldman</name>
+    </author>
+    <author>
+      <name>Amar Venugopal</name>
+    </author>
+    <author>
+      <name>Jann Spiess</name>
+    </author>
+    <author>
+      <name>Amir Feder</name>
+    </author>
+  </entry>
+</feed>

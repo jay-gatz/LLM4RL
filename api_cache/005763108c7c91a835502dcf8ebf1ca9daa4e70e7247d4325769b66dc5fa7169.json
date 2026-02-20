@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DKMrUG2//XeYuidR0R/Cn059g4Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15143v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15143v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15143v1</id>
+    <title>Protecting Language Models Against Unauthorized Distillation through Trace Rewriting</title>
+    <updated>2026-02-16T19:40:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.15143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge distillation is a widely adopted technique for transferring capabilities from LLMs to smaller, more efficient student models. However, unauthorized use of knowledge distillation takes unfair advantage of the considerable effort and cost put into developing frontier models. We investigate methods for modifying teacher-generated reasoning traces to achieve two objectives that deter unauthorized distillation: (1) \emph{anti-distillation}, or degrading the training usefulness of query responses, and (2) \emph{API watermarking}, which embeds verifiable signatures in student models. We introduce several approaches for dynamically rewriting a teacher's reasoning outputs while preserving answer correctness and semantic coherence. Two of these leverage the rewriting capabilities of LLMs, while others use gradient-based techniques. Our experiments show that a simple instruction-based rewriting approach achieves a strong anti-distillation effect while maintaining or even improving teacher performance. Furthermore, we show that our rewriting approach also enables highly reliable watermark detection with essentially no false alarms.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T19:40:07Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xinhang Ma</name>
+    </author>
+    <author>
+      <name>William Yeoh</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Yevgeniy Vorobeychik</name>
+    </author>
+  </entry>
+</feed>

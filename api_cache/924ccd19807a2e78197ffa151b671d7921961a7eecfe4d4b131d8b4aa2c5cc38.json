@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2oGoeIBC27lsVHysJn+iVVM65tg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14130v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14130v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14130v1</id>
+    <title>Algebraic Quantum Intelligence: A New Framework for Reproducible Machine Creativity</title>
+    <updated>2026-02-15T13:02:57Z</updated>
+    <link href="https://arxiv.org/abs/2602.14130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have achieved remarkable success in generating fluent and contextually appropriate text; however, their capacity to produce genuinely creative outputs remains limited. This paper posits that this limitation arises from a structural property of contemporary LLMs: when provided with rich context, the space of future generations becomes strongly constrained, and the generation process is effectively governed by near-deterministic dynamics. Recent approaches such as test-time scaling and context adaptation improve performance but do not fundamentally alter this constraint. To address this issue, we propose Algebraic Quantum Intelligence (AQI) as a computational framework that enables systematic expansion of semantic space. AQI is formulated as a noncommutative algebraic structure inspired by quantum theory, allowing properties such as order dependence, interference, and uncertainty to be implemented in a controlled and designable manner. Semantic states are represented as vectors in a Hilbert space, and their evolution is governed by C-values computed from noncommutative operators, thereby ensuring the coexistence and expansion of multiple future semantic possibilities. In this study, we implement AQI by extending a transformer-based LLM with more than 600 specialized operators. We evaluate the resulting system on creative reasoning benchmarks spanning ten domains under an LLM-as-a-judge protocol. The results show that AQI consistently outperforms strong baseline models, yielding statistically significant improvements and reduced cross-domain variance. These findings demonstrate that noncommutative algebraic dynamics can serve as a practical and reproducible foundation for machine creativity. Notably, this architecture has already been deployed in real-world enterprise environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T13:02:57Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kazuo Yano</name>
+    </author>
+    <author>
+      <name>Jonghyeok Lee</name>
+    </author>
+    <author>
+      <name>Tae Ishitomi</name>
+    </author>
+    <author>
+      <name>Hironobu Kawaguchi</name>
+    </author>
+    <author>
+      <name>Akira Koyama</name>
+    </author>
+    <author>
+      <name>Masakuni Ota</name>
+    </author>
+    <author>
+      <name>Yuki Ota</name>
+    </author>
+    <author>
+      <name>Nobuo Sato</name>
+    </author>
+    <author>
+      <name>Keita Shimada</name>
+    </author>
+    <author>
+      <name>Sho Takematsu</name>
+    </author>
+    <author>
+      <name>Ayaka Tobinai</name>
+    </author>
+    <author>
+      <name>Satomi Tsuji</name>
+    </author>
+    <author>
+      <name>Kazunori Yanagi</name>
+    </author>
+    <author>
+      <name>Keiko Yano</name>
+    </author>
+    <author>
+      <name>Manabu Harada</name>
+    </author>
+    <author>
+      <name>Yuki Matsuda</name>
+    </author>
+    <author>
+      <name>Kazunori Matsumoto</name>
+    </author>
+    <author>
+      <name>Kenichi Matsumura</name>
+    </author>
+    <author>
+      <name>Hamae Matsuo</name>
+    </author>
+    <author>
+      <name>Yumi Miyazaki</name>
+    </author>
+    <author>
+      <name>Kotaro Murai</name>
+    </author>
+    <author>
+      <name>Tatsuya Ohshita</name>
+    </author>
+    <author>
+      <name>Marie Seki</name>
+    </author>
+    <author>
+      <name>Shun Tanoue</name>
+    </author>
+    <author>
+      <name>Tatsuki Terakado</name>
+    </author>
+    <author>
+      <name>Yuko Ichimaru</name>
+    </author>
+    <author>
+      <name>Mirei Saito</name>
+    </author>
+    <author>
+      <name>Akihiro Otsuka</name>
+    </author>
+    <author>
+      <name>Koji Ara</name>
+    </author>
+  </entry>
+</feed>

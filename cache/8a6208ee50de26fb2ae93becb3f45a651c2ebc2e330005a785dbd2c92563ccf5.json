@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cTYB6lLO4PdVH3dRdT/UbwcIzhM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22352v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:13:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22352v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22352v1</id>
+    <title>Recoverability Has a Law: The ERR Measure for Tool-Augmented Agents</title>
+    <updated>2026-01-29T21:55:50Z</updated>
+    <link href="https://arxiv.org/abs/2601.22352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language model agents often appear capable of self-recovery after failing tool call executions, yet this behavior lacks a formal explanation. We present a predictive theory that resolves this gap by showing that recoverability follows a measurable law. To elaborate, we formalize recoverability through Expected Recovery Regret (ERR), which quantifies the deviation of a recovery policy from the optimal one under stochastic execution noise, and derive a first-order relationship between ERR and an empirical observable quantity, the Efficiency Score (ES). This yields a falsifiable first-order quantitative law of recovery dynamics in tool-using agents. We empirically validate the law across five tool-use benchmarks spanning controlled perturbations, diagnostic reasoning, and real-world APIs. Across model scales, perturbation regimes, and recovery horizons, predicted regret under the ERR-ES law closely matched observed post-failure regret measured from Monte Carlo rollouts, within delta less than or equal to 0.05. Our results reveal that recoverability is not an artifact of model scale or architecture, but a governed property of interaction dynamics, providing a theoretical foundation for execution-level robustness in language agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T21:55:50Z</published>
+    <arxiv:comment>Preprint for ICML Submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sri Vatsa Vuddanti</name>
+    </author>
+    <author>
+      <name>Satwik Kumar Chittiprolu</name>
+    </author>
+  </entry>
+</feed>

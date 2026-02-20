@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RtjQZxOkOR+uSvPNPyGOq7DhjY8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06845&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:55:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06845" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06845v1</id>
+    <title>Code Evolution for Control: Synthesizing Policies via LLM-Driven Evolutionary Search</title>
+    <updated>2026-01-11T10:21:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.06845v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06845v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing effective control policies for autonomous systems remains a fundamental challenge, traditionally addressed through reinforcement learning or manual engineering. While reinforcement learning has achieved remarkable success, it often suffers from high sample complexity, reward shaping difficulties, and produces opaque neural network policies that are hard to interpret or verify. Manual design, on the other hand, requires substantial domain expertise and struggles to scale across diverse tasks. In this work, we demonstrate that LLM-driven evolutionary search can effectively synthesize interpretable control policies in the form of executable code. By treating policy synthesis as a code evolution problem, we harness the LLM's prior knowledge of programming patterns and control heuristics while employing evolutionary search to explore the solution space systematically. We implement our approach using EvoToolkit, a framework that seamlessly integrates LLM-driven evolution with customizable fitness evaluation. Our method iteratively evolves populations of candidate policy programs, evaluating them against task-specific objectives and selecting superior individuals for reproduction. This process yields compact, human-readable control policies that can be directly inspected, modified, and formally verified. This work highlights the potential of combining foundation models with evolutionary computation for synthesizing trustworthy control policies in autonomous systems. Code is available at https://github.com/pgg3/EvoControl.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-11T10:21:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ping Guo</name>
+    </author>
+    <author>
+      <name>Chao Li</name>
+    </author>
+    <author>
+      <name>Yinglan Feng</name>
+    </author>
+    <author>
+      <name>Chaoning Zhang</name>
+    </author>
+  </entry>
+</feed>

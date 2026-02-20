@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wmjug7KCy9HTFWKKzaPVzdAd4n8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.16334v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2305.16334v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16334v1</id>
+    <title>OlaGPT: Empowering LLMs With Human-like Problem-Solving Abilities</title>
+    <updated>2023-05-23T09:36:51Z</updated>
+    <link href="https://arxiv.org/abs/2305.16334v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16334v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In most current research, large language models (LLMs) are able to perform reasoning tasks by generating chains of thought through the guidance of specific prompts. However, there still exists a significant discrepancy between their capability in solving complex reasoning problems and that of humans. At present, most approaches focus on chains of thought (COT) and tool use, without considering the adoption and application of human cognitive frameworks. It is well-known that when confronting complex reasoning challenges, humans typically employ various cognitive abilities, and necessitate interaction with all aspects of tools, knowledge, and the external environment information to accomplish intricate tasks. This paper introduces a novel intelligent framework, referred to as OlaGPT. OlaGPT carefully studied a cognitive architecture framework, and propose to simulate certain aspects of human cognition. The framework involves approximating different cognitive modules, including attention, memory, reasoning, learning, and corresponding scheduling and decision-making mechanisms. Inspired by the active learning mechanism of human beings, it proposes a learning unit to record previous mistakes and expert opinions, and dynamically refer to them to strengthen their ability to solve similar problems. The paper also outlines common effective reasoning frameworks for human problem-solving and designs Chain-of-Thought (COT) templates accordingly. A comprehensive decision-making mechanism is also proposed to maximize model accuracy. The efficacy of OlaGPT has been stringently evaluated on multiple reasoning datasets, and the experimental outcomes reveal that OlaGPT surpasses state-of-the-art benchmarks, demonstrating its superior performance. Our implementation of OlaGPT is available on GitHub: \url{https://github.com/oladata-team/OlaGPT}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T09:36:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuanzhen Xie</name>
+    </author>
+    <author>
+      <name>Tao Xie</name>
+    </author>
+    <author>
+      <name>Mingxiong Lin</name>
+    </author>
+    <author>
+      <name>WenTao Wei</name>
+    </author>
+    <author>
+      <name>Chenglin Li</name>
+    </author>
+    <author>
+      <name>Beibei Kong</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+    <author>
+      <name>Chengxiang Zhuo</name>
+    </author>
+    <author>
+      <name>Bo Hu</name>
+    </author>
+    <author>
+      <name>Zang Li</name>
+    </author>
+  </entry>
+</feed>

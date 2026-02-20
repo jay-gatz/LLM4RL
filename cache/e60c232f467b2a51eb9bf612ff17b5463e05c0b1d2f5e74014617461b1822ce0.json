@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KEAZ/3RnBGzmAhwEX/bNT2LpY80</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05818v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05818v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05818v2</id>
+    <title>TKG-Thinker: Towards Dynamic Reasoning over Temporal Knowledge Graphs via Agentic Reinforcement Learning</title>
+    <updated>2026-02-07T04:47:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.05818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal knowledge graph question answering (TKGQA) aims to answer time-sensitive questions by leveraging temporal knowledge bases. While Large Language Models (LLMs) demonstrate significant potential in TKGQA, current prompting strategies constrain their efficacy in two primary ways. First, they are prone to reasoning hallucinations under complex temporal constraints. Second, static prompting limits model autonomy and generalization, as it lack optimization through dynamic interaction with temporal knowledge graphs (TKGs) environments. To address these limitations, we propose \textbf{TKG-Thinker}, a novel agent equipped with autonomous planning and adaptive retrieval capabilities for reasoning over TKGs. Specifically, TKG-Thinker performs in-depth temporal reasoning through dynamic multi-turn interactions with TKGs via a dual-training strategy. We first apply Supervised Fine-Tuning (SFT) with chain of thought data to instill core planning capabilities, followed by a Reinforcement Learning (RL) stage that leverages multi-dimensional rewards to refine reasoning policies under intricate temporal constraints. Experimental results on benchmark datasets with three open-source LLMs show that TKG-Thinker achieves state-of-the-art performance and exhibits strong generalization across complex TKGQA settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T16:08:36Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zihao Jiang</name>
+    </author>
+    <author>
+      <name>Miao Peng</name>
+    </author>
+    <author>
+      <name>Zhenyan Shan</name>
+    </author>
+    <author>
+      <name>Wenjie Xu</name>
+    </author>
+    <author>
+      <name>Ben Liu</name>
+    </author>
+    <author>
+      <name>Gong Chen</name>
+    </author>
+    <author>
+      <name>Ziqi Gao</name>
+    </author>
+    <author>
+      <name>Min Peng</name>
+    </author>
+  </entry>
+</feed>

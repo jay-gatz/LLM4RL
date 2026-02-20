@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hTbAvWl6NrBQ4o0G+Z39UgPe+KY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.09283&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.09283" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.09283v3</id>
+    <title>Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey</title>
+    <updated>2024-03-27T13:55:14Z</updated>
+    <link href="https://arxiv.org/abs/2402.09283v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.09283v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are now commonplace in conversation applications. However, their risks of misuse for generating harmful responses have raised serious societal concerns and spurred recent research on LLM conversation safety. Therefore, in this survey, we provide a comprehensive overview of recent studies, covering three critical aspects of LLM conversation safety: attacks, defenses, and evaluations. Our goal is to provide a structured summary that enhances understanding of LLM conversation safety and encourages further investigation into this important subject. For easy reference, we have categorized all the studies mentioned in this survey according to our taxonomy, available at: https://github.com/niconi19/LLM-conversation-safety.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-14T16:14:03Z</published>
+    <arxiv:comment>Accepted to NAACL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhichen Dong</name>
+    </author>
+    <author>
+      <name>Zhanhui Zhou</name>
+    </author>
+    <author>
+      <name>Chao Yang</name>
+    </author>
+    <author>
+      <name>Jing Shao</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+  </entry>
+</feed>

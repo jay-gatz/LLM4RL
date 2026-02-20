@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WuLGO8dhoevT9fZxJSKoW3Luy1M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00222v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00222v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00222v2</id>
+    <title>MapDream: Task-Driven Map Learning for Vision-Language Navigation</title>
+    <updated>2026-02-03T09:27:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.00222v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00222v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Navigation (VLN) requires agents to follow natural language instructions in partially observed 3D environments, motivating map representations that aggregate spatial context beyond local perception. However, most existing approaches rely on hand-crafted maps constructed independently of the navigation policy. We argue that maps should instead be learned representations shaped directly by navigation objectives rather than exhaustive reconstructions. Based on this insight, we propose MapDream, a map-in-the-loop framework that formulates map construction as autoregressive bird's-eye-view (BEV) image synthesis. The framework jointly learns map generation and action prediction, distilling environmental context into a compact three-channel BEV map that preserves only navigation-critical affordances. Supervised pre-training bootstraps a reliable mapping-to-control interface, while the autoregressive design enables end-to-end joint optimization through reinforcement fine-tuning. Experiments on R2R-CE and RxR-CE achieve state-of-the-art monocular performance, validating task-driven generative map learning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T17:33:16Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Guoxin Lian</name>
+    </author>
+    <author>
+      <name>Shuo Wang</name>
+    </author>
+    <author>
+      <name>Yucheng Wang</name>
+    </author>
+    <author>
+      <name>Yongcai Wang</name>
+    </author>
+    <author>
+      <name>Maiyue Chen</name>
+    </author>
+    <author>
+      <name>Kaihui Wang</name>
+    </author>
+    <author>
+      <name>Bo Zhang</name>
+    </author>
+    <author>
+      <name>Zhizhong Su</name>
+    </author>
+    <author>
+      <name>Deying Li</name>
+    </author>
+    <author>
+      <name>Zhaoxin Fan</name>
+    </author>
+  </entry>
+</feed>

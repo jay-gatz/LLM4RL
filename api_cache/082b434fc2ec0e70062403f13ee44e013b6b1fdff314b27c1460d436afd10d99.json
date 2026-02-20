@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I3zp472/0j4pnhg6AuVqaPcGrmQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.17297&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.17297" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.17297v1</id>
+    <title>InternLM2 Technical Report</title>
+    <updated>2024-03-26T00:53:24Z</updated>
+    <link href="https://arxiv.org/abs/2403.17297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.17297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of Large Language Models (LLMs) like ChatGPT and GPT-4 has sparked discussions on the advent of Artificial General Intelligence (AGI). However, replicating such advancements in open-source models has been challenging. This paper introduces InternLM2, an open-source LLM that outperforms its predecessors in comprehensive evaluations across 6 dimensions and 30 benchmarks, long-context modeling, and open-ended subjective evaluations through innovative pre-training and optimization techniques. The pre-training process of InternLM2 is meticulously detailed, highlighting the preparation of diverse data types including text, code, and long-context data. InternLM2 efficiently captures long-term dependencies, initially trained on 4k tokens before advancing to 32k tokens in pre-training and fine-tuning stages, exhibiting remarkable performance on the 200k ``Needle-in-a-Haystack" test. InternLM2 is further aligned using Supervised Fine-Tuning (SFT) and a novel Conditional Online Reinforcement Learning from Human Feedback (COOL RLHF) strategy that addresses conflicting human preferences and reward hacking. By releasing InternLM2 models in different training stages and model sizes, we provide the community with insights into the model's evolution.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T00:53:24Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zheng Cai</name>
+    </author>
+    <author>
+      <name>Maosong Cao</name>
+    </author>
+    <author>
+      <name>Haojiong Chen</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Keyu Chen</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Xun Chen</name>
+    </author>
+    <author>
+      <name>Zehui Chen</name>
+    </author>
+    <author>
+      <name>Zhi Chen</name>
+    </author>
+    <author>
+      <name>Pei Chu</name>
+    </author>
+    <author>
+      <name>Xiaoyi Dong</name>
+    </author>
+    <author>
+      <name>Haodong Duan</name>
+    </author>
+    <author>
+      <name>Qi Fan</name>
+    </author>
+    <author>
+      <name>Zhaoye Fei</name>
+    </author>
+    <author>
+      <name>Yang Gao</name>
+    </author>
+    <author>
+      <name>Jiaye Ge</name>
+    </author>
+    <author>
+      <name>Chenya Gu</name>
+    </author>
+    <author>
+      <name>Yuzhe Gu</name>
+    </author>
+    <author>
+      <name>Tao Gui</name>
+    </author>
+    <author>
+      <name>Aijia Guo</name>
+    </author>
+    <author>
+      <name>Qipeng Guo</name>
+    </author>
+    <author>
+      <name>Conghui He</name>
+    </author>
+    <author>
+      <name>Yingfan Hu</name>
+    </author>
+    <author>
+      <name>Ting Huang</name>
+    </author>
+    <author>
+      <name>Tao Jiang</name>
+    </author>
+    <author>
+      <name>Penglong Jiao</name>
+    </author>
+    <author>
+      <name>Zhenjiang Jin</name>
+    </author>
+    <author>
+      <name>Zhikai Lei</name>
+    </author>
+    <author>
+      <name>Jiaxing Li</name>
+    </author>
+    <author>
+      <name>Jingwen Li</name>
+    </author>
+    <author>
+      <name>Linyang Li</name>
+    </author>
+    <author>
+      <name>Shuaibin Li</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Yining Li</name>
+    </author>
+    <author>
+      <name>Hongwei Liu</name>
+    </author>
+    <author>
+      <name>Jiangning Liu</name>
+    </author>
+    <author>
+      <name>Jiawei Hong</name>
+    </author>
+    <author>
+      <name>Kaiwen Liu</name>
+    </author>
+    <author>
+      <name>Kuikun Liu</name>
+    </author>
+    <author>
+      <name>Xiaoran Liu</name>
+    </author>
+    <author>
+      <name>Chengqi Lv</name>
+    </author>
+    <author>
+      <name>Haijun Lv</name>
+    </author>
+    <author>
+      <name>Kai Lv</name>
+    </author>
+    <author>
+      <name>Li Ma</name>
+    </author>
+    <author>
+      <name>Runyuan Ma</name>
+    </author>
+    <author>
+      <name>Zerun Ma</name>
+    </author>
+    <author>
+      <name>Wenchang Ning</name>
+    </author>
+    <author>
+      <name>Linke Ouyang</name>
+    </author>
+    <author>
+      <name>Jiantao Qiu</name>
+    </author>
+    <author>
+      <name>Yuan Qu</name>
+    </author>
+    <author>
+      <name>Fukai Shang</name>
+    </author>
+    <author>
+      <name>Yunfan Shao</name>
+    </author>
+    <author>
+      <name>Demin Song</name>
+    </author>
+    <author>
+      <name>Zifan Song</name>
+    </author>
+    <author>
+      <name>Zhihao Sui</name>
+    </author>
+    <author>
+      <name>Peng Sun</name>
+    </author>
+    <author>
+      <name>Yu Sun</name>
+    </author>
+    <author>
+      <name>Huanze Tang</name>
+    </author>
+    <author>
+      <name>Bin Wang</name>
+    </author>
+    <author>
+      <name>Guoteng Wang</name>
+    </author>
+    <author>
+      <name>Jiaqi Wang</name>
+    </author>
+    <author>
+      <name>Jiayu Wang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Yudong Wang</name>
+    </author>
+    <author>
+      <name>Ziyi Wang</name>
+    </author>
+    <author>
+      <name>Xingjian Wei</name>
+    </author>
+    <author>
+      <name>Qizhen Weng</name>
+    </author>
+    <author>
+      <name>Fan Wu</name>
+    </author>
+    <author>
+      <name>Yingtong Xiong</name>
+    </author>
+    <author>
+      <name>Chao Xu</name>
+    </author>
+    <author>
+      <name>Ruiliang Xu</name>
+    </author>
+    <author>
+      <name>Hang Yan</name>
+    </author>
+    <author>
+      <name>Yirong Yan</name>
+    </author>
+    <author>
+      <name>Xiaogui Yang</name>
+    </author>
+    <author>
+      <name>Haochen Ye</name>
+    </author>
+    <author>
+      <name>Huaiyuan Ying</name>
+    </author>
+    <author>
+      <name>Jia Yu</name>
+    </author>
+    <author>
+      <name>Jing Yu</name>
+    </author>
+    <author>
+      <name>Yuhang Zang</name>
+    </author>
+    <author>
+      <name>Chuyu Zhang</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Pan Zhang</name>
+    </author>
+    <author>
+      <name>Peng Zhang</name>
+    </author>
+    <author>
+      <name>Ruijie Zhang</name>
+    </author>
+    <author>
+      <name>Shuo Zhang</name>
+    </author>
+    <author>
+      <name>Songyang Zhang</name>
+    </author>
+    <author>
+      <name>Wenjian Zhang</name>
+    </author>
+    <author>
+      <name>Wenwei Zhang</name>
+    </author>
+    <author>
+      <name>Xingcheng Zhang</name>
+    </author>
+    <author>
+      <name>Xinyue Zhang</name>
+    </author>
+    <author>
+      <name>Hui Zhao</name>
+    </author>
+    <author>
+      <name>Qian Zhao</name>
+    </author>
+    <author>
+      <name>Xiaomeng Zhao</name>
+    </author>
+    <author>
+      <name>Fengzhe Zhou</name>
+    </author>
+    <author>
+      <name>Zaida Zhou</name>
+    </author>
+    <author>
+      <name>Jingming Zhuo</name>
+    </author>
+    <author>
+      <name>Yicheng Zou</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Dahua Lin</name>
+    </author>
+  </entry>
+</feed>

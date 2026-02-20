@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lKjw2UREVpNsOiudHzJ6blElTSc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.14762v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.14762v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.14762v1</id>
+    <title>Workflows vs Agents for Code Translation</title>
+    <updated>2025-12-15T20:35:11Z</updated>
+    <link href="https://arxiv.org/abs/2512.14762v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.14762v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Translating algorithms from high-level languages like MATLAB to hardware description languages (HDLs) is a resource-intensive but necessary step for deployment on FPGAs and ASICs. While large language models (LLMs) offer a path to automation, their limited training on HDL code makes end-to-end transpilation brittle and prone to syntax errors. We compare two LLM-driven methods for syntax repair in a MATLAB-to-HDL pipeline: a structured, expert-designed flow that follows a fixed sequence of operations, and a more autonomous agentic approach that uses the Model Context Protocol (MCP) \cite{anthropic2024mcp} to dynamically select its own tools. We study 42 MATLAB signal-processing functions and isolate the syntax-repair stage. Across three model scales, the agentic approach is more effective at resolving initial syntax errors, unblocking a greater number of candidates to proceed through the pipeline. This upstream improvement yields measurable downstream improvements, most notably on mid-sized models, where it increases the simulation reach rate by over 20 percentage points. We hypothesize the gains come from short prompts, aggressive context management, and conditional tool use. Conditional retrieval helps at 8B and 30B; at 235B final-success gains are small and a naive RAG variant attains the highest final success. Our findings suggest that these agentic frameworks, when properly designed, are most effective at compensating for the capacity limits of small and mid-sized models.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T20:35:11Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <arxiv:journal_ref>NeurIPS 2025 Fourth Workshop on Deep Learning for Code</arxiv:journal_ref>
+    <author>
+      <name>Henry Gray</name>
+    </author>
+    <author>
+      <name>Tom Yotam</name>
+    </author>
+    <author>
+      <name>Octavian Udrea</name>
+    </author>
+  </entry>
+</feed>

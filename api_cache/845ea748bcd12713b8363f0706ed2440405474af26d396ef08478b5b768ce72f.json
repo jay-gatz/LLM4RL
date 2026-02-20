@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WByCuqDb2zZK5qFwPiMOISDOBa8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.05746&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.05746" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.05746v1</id>
+    <title>LLMs Will Always Hallucinate, and We Need to Live With This</title>
+    <updated>2024-09-09T16:01:58Z</updated>
+    <link href="https://arxiv.org/abs/2409.05746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.05746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models become more ubiquitous across domains, it becomes important to examine their inherent limitations critically. This work argues that hallucinations in language models are not just occasional errors but an inevitable feature of these systems. We demonstrate that hallucinations stem from the fundamental mathematical and logical structure of LLMs. It is, therefore, impossible to eliminate them through architectural improvements, dataset enhancements, or fact-checking mechanisms. Our analysis draws on computational theory and Godel's First Incompleteness Theorem, which references the undecidability of problems like the Halting, Emptiness, and Acceptance Problems. We demonstrate that every stage of the LLM process-from training data compilation to fact retrieval, intent classification, and text generation-will have a non-zero probability of producing hallucinations. This work introduces the concept of Structural Hallucination as an intrinsic nature of these systems. By establishing the mathematical certainty of hallucinations, we challenge the prevailing notion that they can be fully mitigated.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-09T16:01:58Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Sourav Banerjee</name>
+    </author>
+    <author>
+      <name>Ayushi Agarwal</name>
+    </author>
+    <author>
+      <name>Saloni Singla</name>
+    </author>
+  </entry>
+</feed>

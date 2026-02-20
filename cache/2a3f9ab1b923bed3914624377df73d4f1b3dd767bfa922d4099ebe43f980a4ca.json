@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sCV/L9m4WV1x9C9h3Q89yP/RT+0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14095v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14095v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14095v1</id>
+    <title>NEST: Nascent Encoded Steganographic Thoughts</title>
+    <updated>2026-02-15T11:05:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.14095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monitoring chain-of-thought (CoT) reasoning is a foundational safety technique for large language model (LLM) agents; however, this oversight is compromised if models learn to conceal their reasoning. We explore the potential for steganographic CoT -- where models hide secret reasoning within innocuous text -- to inform risk assessment and deployment policies. We systematically evaluate the limits of steganographic capabilities across 28 models, ranging from past generations to the current frontier. We measure monitor evasion, refusal rates, encoding fidelity, and hidden task accuracy across four datasets, comparing steganographic acrostics against plain reasoning and filler-token baselines. We find that current models cannot yet sustain hidden reasoning for complex math and arithmetic tasks. However, in a simplified counting experiment, Claude Opus 4.5 achieved 92% accuracy on the hidden task, demonstrating nascent capability. Notably, in rare cases (&lt;1%), GPT-5.2 might refuse steganographic instructions while simultaneously complying with them. Our findings underscore the need for continuous evaluation of steganographic risks. This study provides a methodology to preemptively detect and prevent hidden reasoning that might empower misaligned scheming and deceptive behavior.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T11:05:18Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Artem Karpov</name>
+    </author>
+  </entry>
+</feed>

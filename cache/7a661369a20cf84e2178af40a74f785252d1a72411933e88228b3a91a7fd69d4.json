@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pDFihc4I8qj04nP+6Edul8tE+xc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.10955v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.10955v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.10955v1</id>
+    <title>Beyond Max Tokens: Stealthy Resource Amplification via Tool Calling Chains in LLM Agents</title>
+    <updated>2026-01-16T02:47:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.10955v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.10955v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The agent-tool communication loop is a critical attack surface in modern Large Language Model (LLM) agents. Existing Denial-of-Service (DoS) attacks, primarily triggered via user prompts or injected retrieval-augmented generation (RAG) context, are ineffective for this new paradigm. They are fundamentally single-turn and often lack a task-oriented approach, making them conspicuous in goal-oriented workflows and unable to exploit the compounding costs of multi-turn agent-tool interactions. We introduce a stealthy, multi-turn economic DoS attack that operates at the tool layer under the guise of a correctly completed task. Our method adjusts text-visible fields and a template-governed return policy in a benign, Model Context Protocol (MCP)-compatible tool server, optimizing these edits with a Monte Carlo Tree Search (MCTS) optimizer. These adjustments leave function signatures unchanged and preserve the final payload, steering the agent into prolonged, verbose tool-calling sequences using text-only notices. This compounds costs across turns, escaping single-turn caps while keeping the final answer correct to evade validation. Across six LLMs on the ToolBench and BFCL benchmarks, our attack expands tasks into trajectories exceeding 60,000 tokens, inflates costs by up to 658x, and raises energy by 100-560x. It drives GPU KV cache occupancy from &lt;1% to 35-74% and cuts co-running throughput by approximately 50%. Because the server remains protocol-compatible and task outcomes are correct, conventional checks fail. These results elevate the agent-tool interface to a first-class security frontier, demanding a paradigm shift from validating final answers to monitoring the economic and computational cost of the entire agentic process.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T02:47:45Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kaiyu Zhou</name>
+    </author>
+    <author>
+      <name>Yongsen Zheng</name>
+    </author>
+    <author>
+      <name>Yicheng He</name>
+    </author>
+    <author>
+      <name>Meng Xue</name>
+    </author>
+    <author>
+      <name>Xueluan Gong</name>
+    </author>
+    <author>
+      <name>Yuji Wang</name>
+    </author>
+    <author>
+      <name>Kwok-Yan Lam</name>
+    </author>
+  </entry>
+</feed>

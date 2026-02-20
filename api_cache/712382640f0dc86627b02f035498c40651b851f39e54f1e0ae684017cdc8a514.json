@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PVH3T8iGZ8HI5baJeWSmd5/tMS0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.10158&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.10158" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.10158v2</id>
+    <title>Character-LLM: A Trainable Agent for Role-Playing</title>
+    <updated>2023-12-14T11:49:17Z</updated>
+    <link href="https://arxiv.org/abs/2310.10158v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.10158v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) can be used to serve as agents to simulate human behaviors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ability stimulates us to wonder whether LLMs can simulate a person in a higher form than simple human behaviors. Therefore, we aim to train an agent with the profile, experience, and emotional states of a specific person instead of using limited prompts to instruct ChatGPT API. In this work, we introduce Character-LLM that teach LLMs to act as specific people such as Beethoven, Queen Cleopatra, Julius Caesar, etc. Our method focuses on editing profiles as experiences of a certain character and training models to be personal simulacra with these experiences. To assess the effectiveness of our approach, we build a test playground that interviews trained agents and evaluates whether the agents \textit{memorize} their characters and experiences. Experimental results show interesting observations that help build future simulacra of humankind.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-16T07:58:56Z</published>
+    <arxiv:comment>To appear at EMNLP 2023; Repo at https://github.com/choosewhatulike/trainable-agents</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yunfan Shao</name>
+    </author>
+    <author>
+      <name>Linyang Li</name>
+    </author>
+    <author>
+      <name>Junqi Dai</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+  </entry>
+</feed>

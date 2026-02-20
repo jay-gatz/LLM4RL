@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FCi80Nt/SnS18hz2UjBbr1MYhtY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.12224&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:28:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.12224" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.12224v1</id>
+    <title>LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation</title>
+    <updated>2023-12-28T15:09:14Z</updated>
+    <link href="https://arxiv.org/abs/2401.12224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.12224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Driven by Moore's Law, the complexity and scale of modern chip design are increasing rapidly. Electronic Design Automation (EDA) has been widely applied to address the challenges encountered in the full chip design process. However, the evolution of very large-scale integrated circuits has made chip design time-consuming and resource-intensive, requiring substantial prior expert knowledge. Additionally, intermediate human control activities are crucial for seeking optimal solutions. In system design stage, circuits are usually represented with Hardware Description Language (HDL) as a textual format. Recently, Large Language Models (LLMs) have demonstrated their capability in context understanding, logic reasoning and answer generation. Since circuit can be represented with HDL in a textual format, it is reasonable to question whether LLMs can be leveraged in the EDA field to achieve fully automated chip design and generate circuits with improved power, performance, and area (PPA). In this paper, we present a systematic study on the application of LLMs in the EDA field, categorizing it into the following cases: 1) assistant chatbot, 2) HDL and script generation, and 3) HDL verification and analysis. Additionally, we highlight the future research direction, focusing on applying LLMs in logic synthesis, physical design, multi-modal feature extraction and alignment of circuits. We collect relevant papers up-to-date in this field via the following link: https://github.com/Thinklab-SJTU/Awesome-LLM4EDA.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-28T15:09:14Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Ruizhe Zhong</name>
+    </author>
+    <author>
+      <name>Xingbo Du</name>
+    </author>
+    <author>
+      <name>Shixiong Kai</name>
+    </author>
+    <author>
+      <name>Zhentao Tang</name>
+    </author>
+    <author>
+      <name>Siyuan Xu</name>
+    </author>
+    <author>
+      <name>Hui-Ling Zhen</name>
+    </author>
+    <author>
+      <name>Jianye Hao</name>
+    </author>
+    <author>
+      <name>Qiang Xu</name>
+    </author>
+    <author>
+      <name>Mingxuan Yuan</name>
+    </author>
+    <author>
+      <name>Junchi Yan</name>
+    </author>
+  </entry>
+</feed>

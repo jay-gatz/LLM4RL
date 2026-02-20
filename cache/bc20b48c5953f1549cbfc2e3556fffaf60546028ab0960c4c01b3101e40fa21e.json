@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0ispUOJrrgfj4CHSZiVUC+O4bkE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.12373v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.12373v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.12373v3</id>
+    <title>WebCanvas: Benchmarking Web Agents in Online Environments</title>
+    <updated>2024-07-16T06:19:21Z</updated>
+    <link href="https://arxiv.org/abs/2406.12373v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.12373v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For web agents to be practically useful, they must adapt to the continuously evolving web environment characterized by frequent updates to user interfaces and content. However, most existing benchmarks only capture the static aspects of the web. To bridge this gap, we introduce WebCanvas, an innovative online evaluation framework for web agents that effectively addresses the dynamic nature of web interactions. WebCanvas contains three main components to facilitate realistic assessments: (1) A novel evaluation metric which reliably capture critical intermediate actions or states necessary for task completions while disregarding noise caused by insignificant events or changed web-elements. (2) A benchmark dataset called Mind2Web-Live, a refined version of original Mind2Web static dataset containing 542 tasks with 2439 intermediate evaluation states; (3) Lightweight and generalizable annotation tools and testing pipelines that enables the community to collect and maintain the high-quality, up-to-date dataset. Building on WebCanvas, we open-source an agent framework with extensible modules for reasoning, providing a foundation for the community to conduct online inference and evaluations. Our best-performing agent achieves a task success rate of 23.1% and a task completion rate of 48.8% on the Mind2Web-Live test set. Additionally, we analyze the performance discrepancies across various websites, domains, and experimental environments. We encourage the community to contribute further insights on online agent evaluation, thereby advancing this field of research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T07:58:33Z</published>
+    <arxiv:comment>Our platform, tool and dataset are publically available at https://www.imean.ai/web-canvas/ and https://huggingface.co/datasets/iMeanAI/Mind2Web-Live/</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yichen Pan</name>
+    </author>
+    <author>
+      <name>Dehan Kong</name>
+    </author>
+    <author>
+      <name>Sida Zhou</name>
+    </author>
+    <author>
+      <name>Cheng Cui</name>
+    </author>
+    <author>
+      <name>Yifei Leng</name>
+    </author>
+    <author>
+      <name>Bing Jiang</name>
+    </author>
+    <author>
+      <name>Hangyu Liu</name>
+    </author>
+    <author>
+      <name>Yanyi Shang</name>
+    </author>
+    <author>
+      <name>Shuyan Zhou</name>
+    </author>
+    <author>
+      <name>Tongshuang Wu</name>
+    </author>
+    <author>
+      <name>Zhengyang Wu</name>
+    </author>
+  </entry>
+</feed>

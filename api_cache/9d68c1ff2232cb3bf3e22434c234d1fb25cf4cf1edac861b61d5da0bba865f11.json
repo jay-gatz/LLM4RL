@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OaLTh4KPSMhfZdXNzsVQ7GInPWI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07608v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07608v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07608v1</id>
+    <title>HistoMet: A Pan-Cancer Deep Learning Framework for Prognostic Prediction of Metastatic Progression and Site Tropism from Primary Tumor Histopathology</title>
+    <updated>2026-02-07T16:25:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.07608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metastatic Progression remains the leading cause of cancer-related mortality, yet predicting whether a primary tumor will metastasize and where it will disseminate directly from histopathology remains a fundamental challenge. Although whole-slide images (WSIs) provide rich morphological information, prior computational pathology approaches typically address metastatic status or site prediction as isolated tasks, and do not explicitly model the clinically sequential decision process of metastatic risk assessment followed by downstream site-specific evaluation. To address this research gap, we present a decision-aware, concept-aligned MIL framework, HistoMet, for prognostic metastatic outcome prediction from primary tumor WSIs. Our proposed framework adopts a two-module prediction pipeline in which the likelihood of metastatic progression from the primary tumor is first estimated, followed by conditional prediction of metastatic site for high-risk cases. To guide representation learning and improve clinical interpretability, our framework integrates linguistically defined and data-adaptive metastatic concepts through a pretrained pathology vision-language model. We evaluate HistoMet on a multi-institutional pan-cancer cohort of 6504 patients with metastasis follow-up and site annotations. Under clinically relevant high-sensitivity screening settings (95 percent sensitivity), HistoMet significantly reduces downstream workload while maintaining high metastatic risk recall. Conditional on metastatic cases, HistoMet achieves a macro F1 of 74.6 with a standard deviation of 1.3 and a macro one-vs-rest AUC of 92.1. These results demonstrate that explicitly modeling clinical decision structure enables robust and deployable prognostic prediction of metastatic progression and site tropism directly from primary tumor histopathology.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T16:25:02Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yixin Chen</name>
+    </author>
+    <author>
+      <name>Ziyu Su</name>
+    </author>
+    <author>
+      <name>Lingbin Meng</name>
+    </author>
+    <author>
+      <name>Elshad Hasanov</name>
+    </author>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Anil Parwani</name>
+    </author>
+    <author>
+      <name>M. Khalid Khan Niazi</name>
+    </author>
+  </entry>
+</feed>

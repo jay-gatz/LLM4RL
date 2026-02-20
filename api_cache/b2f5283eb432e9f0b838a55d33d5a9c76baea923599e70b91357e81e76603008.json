@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hSAoaDwImpxh/LW677xFEAFDZms</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14170v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14170v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14170v1</id>
+    <title>Explainable Interictal Epileptiform Discharge Detection Method Based on Scalp EEG and Retrieval-Augmented Generation</title>
+    <updated>2026-02-15T14:51:26Z</updated>
+    <link href="https://arxiv.org/abs/2602.14170v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14170v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The detection of interictal epileptiform discharge (IED) is crucial for the diagnosis of epilepsy, but automated methods often lack interpretability. This study proposes IED-RAG, an explainable multimodal framework for joint IED detection and report generation. Our approach employs a dual-encoder to extract electrophysiological and semantic features, aligned via contrastive learning in a shared EEG-text embedding space. During inference, clinically relevant EEG-text pairs are retrieved from a vector database as explicit evidence to condition a large language model (LLM) for the generation of evidence-based reports. Evaluated on a private dataset from Wuhan Children's Hospital and the public TUH EEG Events Corpus (TUEV), the framework achieved balanced accuracies of 89.17\% and 71.38\%, with BLEU scores of 89.61\% and 64.14\%, respectively. The results demonstrate that retrieval of explicit evidence enhances both diagnostic performance and clinical interpretability compared to standard black-box methods.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T14:51:26Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Yu Zhu</name>
+    </author>
+    <author>
+      <name>Jiayang Guo</name>
+    </author>
+    <author>
+      <name>Jun Jiang</name>
+    </author>
+    <author>
+      <name>Peipei Gu</name>
+    </author>
+    <author>
+      <name>Xin Shu</name>
+    </author>
+    <author>
+      <name>Duo Chen</name>
+    </author>
+  </entry>
+</feed>

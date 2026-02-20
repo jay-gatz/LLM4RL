@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V6f68m/+E4eoYVs59Fk+IMtEJr4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01685v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01685v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01685v1</id>
+    <title>Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment</title>
+    <updated>2026-02-02T05:56:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.01685v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01685v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are commonly aligned with human preferences using reinforcement learning from human feedback (RLHF). In this method, LLM policies are generally optimized through reward maximization with Kullback-Leibler (KL) divergence regularization of the reference policy. However, KL and its $f$-divergence variants only compare token probabilities at identical indices, failing to capture semantic similarity. We propose Wasserstein Policy Regularization (WPR), a semantic-aware regularization for the RLHF framework based on the entropy-regularized Wasserstein distance, which incorporates the geometry of the token space. The dual formulation of the distance expresses the regularization as penalty terms applied to the reward via optimal dual variables, which yield a tractable objective compatible with standard RL algorithms. Empirically, our method outperforms KL- and $f$-divergence-based baselines, demonstrating the benefits of semantic-aware policy distances for alignment. Our code is available at https://github.com/aailab-kaist/WPR.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T05:56:16Z</published>
+    <arxiv:comment>Accepted at ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Byeonghu Na</name>
+    </author>
+    <author>
+      <name>Hyungho Na</name>
+    </author>
+    <author>
+      <name>Yeongmin Kim</name>
+    </author>
+    <author>
+      <name>Suhyeon Jo</name>
+    </author>
+    <author>
+      <name>HeeSun Bae</name>
+    </author>
+    <author>
+      <name>Mina Kang</name>
+    </author>
+    <author>
+      <name>Il-Chul Moon</name>
+    </author>
+  </entry>
+</feed>

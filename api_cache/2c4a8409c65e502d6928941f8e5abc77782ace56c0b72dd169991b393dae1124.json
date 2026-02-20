@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ogF/qBsRRVYeMsPandhs83D8sUY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.08870v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.08870v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08870v2</id>
+    <title>Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents</title>
+    <updated>2026-01-11T12:46:13Z</updated>
+    <link href="https://arxiv.org/abs/2512.08870v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08870v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are widely deployed in complex interactive tasks, yet privacy constraints often preclude centralized optimization and co-evolution across dynamic environments. Despite the demonstrated success of Federated Learning (FL) on static datasets, its effectiveness in open-ended, self-evolving agent systems remains largely unexplored. In such settings, the direct application of standard FL is particularly challenging, as heterogeneous tasks and sparse, trajectory-level reward signals give rise to severe gradient instability, which undermines the global optimization process. To bridge this gap, we propose Fed-SE, a Federated Self-Evolution framework for LLM agents that establishes a local evolution-global aggregation paradigm. Locally, agents employ parameter-efficient fine-tuning on filtered, high-return trajectories to achieve stable gradient updates. Globally, Fed-SE aggregates updates within a low-rank subspace, reducing communication cost across clients. Experiments across five heterogeneous environments demonstrate that Fed-SE improves average task success rates by 10\% over the state-of-the-art FedIT, validating its effectiveness in cross-environment knowledge transfer under privacy constraints.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T18:04:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiang Chen</name>
+    </author>
+    <author>
+      <name>Yuling Shi</name>
+    </author>
+    <author>
+      <name>Qizhen Lan</name>
+    </author>
+    <author>
+      <name>Yuchao Qiu</name>
+    </author>
+    <author>
+      <name>Min Wang</name>
+    </author>
+    <author>
+      <name>Xiaodong Gu</name>
+    </author>
+    <author>
+      <name>Yanfu Yan</name>
+    </author>
+  </entry>
+</feed>

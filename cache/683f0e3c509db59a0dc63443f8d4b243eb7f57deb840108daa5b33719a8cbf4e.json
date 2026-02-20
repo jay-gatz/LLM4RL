@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jGXJwVRxQuhwqYLwEn6mIx+cnsI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.10216&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.10216" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.10216v2</id>
+    <title>Regularizing Hidden States Enables Learning Generalizable Reward Model for LLMs</title>
+    <updated>2024-10-23T08:22:44Z</updated>
+    <link href="https://arxiv.org/abs/2406.10216v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.10216v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward models trained on human preference data have been proven to effectively align Large Language Models (LLMs) with human intent within the framework of reinforcement learning from human feedback (RLHF). However, current reward models have limited generalization capabilities to unseen prompts and responses, which can lead to an unexpected phenomenon known as reward over-optimization, resulting in a decline in actual performance due to excessive optimization of rewards. While previous research has advocated for constraining policy optimization, our study introduces a novel approach to enhance the reward model's generalization ability against distribution shifts by regularizing the hidden states. Specifically, we retain the base model's language model head and incorporate a suite of text-generation losses to preserve the hidden states' text-generation capabilities, while concurrently learning a reward head behind the same hidden states. Our experimental results demonstrate that the introduced regularization technique markedly improves the accuracy of learned reward models across a variety of out-of-distribution (OOD) tasks and effectively alleviates the over-optimization issue in RLHF, offering a more reliable and robust preference learning paradigm.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-14T17:49:59Z</published>
+    <arxiv:comment>NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Rui Yang</name>
+    </author>
+    <author>
+      <name>Ruomeng Ding</name>
+    </author>
+    <author>
+      <name>Yong Lin</name>
+    </author>
+    <author>
+      <name>Huan Zhang</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+  </entry>
+</feed>

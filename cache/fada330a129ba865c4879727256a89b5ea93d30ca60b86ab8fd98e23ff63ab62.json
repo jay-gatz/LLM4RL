@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dOMaKVKKMaM1+aEO7NOnYaZmTBY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21420v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21420v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21420v1</id>
+    <title>ConceptMoE: Adaptive Token-to-Concept Compression for Implicit Compute Allocation</title>
+    <updated>2026-01-29T08:58:22Z</updated>
+    <link href="https://arxiv.org/abs/2601.21420v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21420v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models allocate uniform computation across all tokens, ignoring that some sequences are trivially predictable while others require deep reasoning. We introduce ConceptMoE, which dynamically merges semantically similar tokens into concept representations, performing implicit token-level compute allocation. A learnable chunk module identifies optimal boundaries by measuring inter-token similarity, compressing sequences by a target ratio $R$ before they enter the compute-intensive concept model. Crucially, the MoE architecture enables controlled evaluation: we reallocate saved computation to match baseline activated FLOPs (excluding attention map computation) and total parameters, isolating genuine architectural benefits. Under these conditions, ConceptMoE consistently outperforms standard MoE across language and vision-language tasks, achieving +0.9 points on language pretraining, +2.3 points on long context understanding, and +0.6 points on multimodal benchmarks. When converting pretrained MoE during continual training with layer looping, gains reach +5.5 points, demonstrating practical applicability. Beyond performance, ConceptMoE reduces attention computation by up to $R^2\times$ and KV cache by $R\times$. At $R=2$, empirical measurements show prefill speedups reaching 175\% and decoding speedups up to 117\% on long sequences. The minimal architectural modifications enable straightforward integration into existing MoE, demonstrating that adaptive concept-level processing fundamentally improves both effectiveness and efficiency of large language models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T08:58:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zihao Huang</name>
+    </author>
+    <author>
+      <name>Jundong Zhou</name>
+    </author>
+    <author>
+      <name>Xingwei Qu</name>
+    </author>
+    <author>
+      <name>Qiyang Min</name>
+    </author>
+    <author>
+      <name>Ge Zhang</name>
+    </author>
+  </entry>
+</feed>

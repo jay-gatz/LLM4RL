@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D54ufQ0dnLHx8TYPJgHM4ec1QF0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12244v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12244v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12244v1</id>
+    <title>Any House Any Task: Scalable Long-Horizon Planning for Abstract Human Tasks</title>
+    <updated>2026-02-12T18:28:28Z</updated>
+    <link href="https://arxiv.org/abs/2602.12244v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12244v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open world language conditioned task planning is crucial for robots operating in large-scale household environments. While many recent works attempt to address this problem using Large Language Models (LLMs) via prompting or training, a key challenge remains scalability. Performance often degrades rapidly with increasing environment size, plan length, instruction ambiguity, and constraint complexity. In this work, we propose Any House Any Task (AHAT), a household task planner optimized for long-horizon planning in large environments given ambiguous human instructions. At its core, AHAT utilizes an LLM trained to map task instructions and textual scene graphs into grounded subgoals defined in the Planning Domain Definition Language (PDDL). These subgoals are subsequently solved to generate feasible and optimal long-horizon plans through explicit symbolic reasoning. To enhance the model's ability to decompose complex and ambiguous intentions, we introduce TGPO, a novel reinforcement learning algorithm that integrates external correction of intermediate reasoning traces into Group Relative Policy Optimization (GRPO). Experiments demonstrate that AHAT achieves significant performance gains over state-of-the-art prompting, planning, and learning methods, particularly in human-style household tasks characterized by brief instructions but requiring complex execution plans.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T18:28:28Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhihong Liu</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Rengming Huang</name>
+    </author>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Panpan Cai</name>
+    </author>
+  </entry>
+</feed>

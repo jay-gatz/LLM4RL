@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cuTC9pi7bejJB37K2REOvzGBzVI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15312v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15312v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15312v1</id>
+    <title>Extracting Consumer Insight from Text: A Large Language Model Approach to Emotion and Evaluation Measurement</title>
+    <updated>2026-02-17T02:33:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.15312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurately measuring consumer emotions and evaluations from unstructured text remains a core challenge for marketing research and practice. This study introduces the Linguistic eXtractor (LX), a fine-tuned, large language model trained on consumer-authored text that also has been labeled with consumers' self-reported ratings of 16 consumption-related emotions and four evaluation constructs: trust, commitment, recommendation, and sentiment. LX consistently outperforms leading models, including GPT-4 Turbo, RoBERTa, and DeepSeek, achieving 81% macro-F1 accuracy on open-ended survey responses and greater than 95% accuracy on third-party-annotated Amazon and Yelp reviews. An application of LX to online retail data, using seemingly unrelated regression, affirms that review-expressed emotions predict product ratings, which in turn predict purchase behavior. Most emotional effects are mediated by product ratings, though some emotions, such as discontent and peacefulness, influence purchase directly, indicating that emotional tone provides meaningful signals beyond star ratings. To support its use, a no-code, cost-free, LX web application is available, enabling scalable analyses of consumer-authored text. In establishing a new methodological foundation for consumer perception measurement, this research demonstrates new methods for leveraging large language models to advance marketing research and practice, thereby achieving validated detection of marketing constructs from consumer data.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T02:33:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Stephan Ludwig</name>
+    </author>
+    <author>
+      <name>Peter J. Danaher</name>
+    </author>
+    <author>
+      <name>Xiaohao Yang</name>
+    </author>
+    <author>
+      <name>Yu-Ting Lin</name>
+    </author>
+    <author>
+      <name>Ehsan Abedin</name>
+    </author>
+    <author>
+      <name>Dhruv Grewal</name>
+    </author>
+    <author>
+      <name>Lan Du</name>
+    </author>
+  </entry>
+</feed>

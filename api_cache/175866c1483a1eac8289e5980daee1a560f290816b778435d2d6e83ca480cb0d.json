@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9tQzLB4U6KAwWgZorLKv7OJ8ZcI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.12917&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.12917" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12917v2</id>
+    <title>Training Language Models to Self-Correct via Reinforcement Learning</title>
+    <updated>2024-10-04T17:28:45Z</updated>
+    <link href="https://arxiv.org/abs/2409.12917v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12917v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training self-correction typically depend on either multiple models, a more advanced model, or additional forms of supervision. To address these shortcomings, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior. In particular, we observe that training via SFT falls prey to either a distribution mismatch between mistakes made by the data-collection policy and the model's own responses, or to behavior collapse, where learning implicitly prefers only a certain mode of correction behavior that is often not effective at self-correction on test problems. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction behavior that is effective at test time as opposed to fitting high-reward responses for a given prompt. This regularization process includes an initial phase of multi-turn RL on a base model to generate a policy initialization that is less susceptible to collapse, followed by using a reward bonus to amplify self-correction. With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on MATH and HumanEval.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T17:16:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+    <author>
+      <name>Vincent Zhuang</name>
+    </author>
+    <author>
+      <name>Rishabh Agarwal</name>
+    </author>
+    <author>
+      <name>Yi Su</name>
+    </author>
+    <author>
+      <name>John D Co-Reyes</name>
+    </author>
+    <author>
+      <name>Avi Singh</name>
+    </author>
+    <author>
+      <name>Kate Baumli</name>
+    </author>
+    <author>
+      <name>Shariq Iqbal</name>
+    </author>
+    <author>
+      <name>Colton Bishop</name>
+    </author>
+    <author>
+      <name>Rebecca Roelofs</name>
+    </author>
+    <author>
+      <name>Lei M Zhang</name>
+    </author>
+    <author>
+      <name>Kay McKinney</name>
+    </author>
+    <author>
+      <name>Disha Shrivastava</name>
+    </author>
+    <author>
+      <name>Cosmin Paduraru</name>
+    </author>
+    <author>
+      <name>George Tucker</name>
+    </author>
+    <author>
+      <name>Doina Precup</name>
+    </author>
+    <author>
+      <name>Feryal Behbahani</name>
+    </author>
+    <author>
+      <name>Aleksandra Faust</name>
+    </author>
+  </entry>
+</feed>

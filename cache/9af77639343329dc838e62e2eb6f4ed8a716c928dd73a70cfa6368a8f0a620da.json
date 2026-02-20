@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9AgBgna5fJfjivNkQCNxDmu8ak4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.12183&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.12183" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12183v3</id>
+    <title>To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning</title>
+    <updated>2025-05-07T18:00:45Z</updated>
+    <link href="https://arxiv.org/abs/2409.12183v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12183v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-thought (CoT) via prompting is the de facto method for eliciting reasoning capabilities from large language models (LLMs). But for what kinds of tasks is this extra ``thinking'' really helpful? To analyze this, we conducted a quantitative meta-analysis covering over 100 papers using CoT and ran our own evaluations of 20 datasets across 14 models. Our results show that CoT gives strong performance benefits primarily on tasks involving math or logic, with much smaller gains on other types of tasks. On MMLU, directly generating the answer without CoT leads to almost identical accuracy as CoT unless the question or model's response contains an equals sign, indicating symbolic operations and reasoning. Following this finding, we analyze the behavior of CoT on these problems by separating planning and execution and comparing against tool-augmented LLMs. Much of CoT's gain comes from improving symbolic execution, but it underperforms relative to using a symbolic solver. Our results indicate that CoT can be applied selectively, maintaining performance while saving inference costs. Furthermore, they suggest a need to move beyond prompt-based CoT to new paradigms that better leverage intermediate computation across the whole range of LLM applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-18T17:55:00Z</published>
+    <arxiv:comment>Published at ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zayne Sprague</name>
+    </author>
+    <author>
+      <name>Fangcong Yin</name>
+    </author>
+    <author>
+      <name>Juan Diego Rodriguez</name>
+    </author>
+    <author>
+      <name>Dongwei Jiang</name>
+    </author>
+    <author>
+      <name>Manya Wadhwa</name>
+    </author>
+    <author>
+      <name>Prasann Singhal</name>
+    </author>
+    <author>
+      <name>Xinyu Zhao</name>
+    </author>
+    <author>
+      <name>Xi Ye</name>
+    </author>
+    <author>
+      <name>Kyle Mahowald</name>
+    </author>
+    <author>
+      <name>Greg Durrett</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/a8JvtgUl131n/oJ6nnh/M2ln19I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16500v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16500v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16500v1</id>
+    <title>Optimizing Soft Prompt Tuning via Structural Evolution</title>
+    <updated>2026-02-18T14:43:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.16500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Soft prompt tuning leverages continuous embeddings to capture task-specific information in large pre-trained language models (LLMs), achieving competitive performance in few-shot settings. However, soft prompts rely on high-dimensional, implicit representations and lack explicit semantics and traceable training behaviors, which limits their interpretability. To address this limitation, we propose a soft prompt tuning optimization method based on topological morphological evolution. Specifically, we employ persistent homology from topological data analysis (TDA) to quantify the structural representations of soft prompts in continuous parameter space and their training process evolution. Quantitative analysis shows that topologically stable and compact soft prompts achieve better downstream performance. Based on this empirical observation, we construct a loss function for optimizing soft prompt tuning, termed Topological Soft Prompt Loss (TSLoss). TSLoss guides the model to learn structurally stable adaptations by quantifying inter-parameter connectivity and redundancy. Extensive experiments show that training with TSLoss accelerates convergence and improves tuning performance, providing an interpretable method to understand and optimize soft prompt tuning from structural and topological perspectives.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T14:43:20Z</published>
+    <arxiv:comment>This manuscript has been submitted to IEEE Transactions on Knowledge and Data Engineering (TKDE) for peer review</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhenzhen Huang</name>
+    </author>
+    <author>
+      <name>Chaoning Zhang</name>
+    </author>
+    <author>
+      <name>Haoyu Bian</name>
+    </author>
+    <author>
+      <name>Songbo Zhang</name>
+    </author>
+    <author>
+      <name>Chi-lok Andy Tai</name>
+    </author>
+    <author>
+      <name>Jiaquan Zhang</name>
+    </author>
+    <author>
+      <name>Caiyan Qin</name>
+    </author>
+    <author>
+      <name>Jingjing Qu</name>
+    </author>
+    <author>
+      <name>Yalan Ye</name>
+    </author>
+    <author>
+      <name>Yang Yang</name>
+    </author>
+    <author>
+      <name>Heng Tao Shen</name>
+    </author>
+  </entry>
+</feed>

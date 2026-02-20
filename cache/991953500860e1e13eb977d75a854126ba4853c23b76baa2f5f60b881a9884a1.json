@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vgav+wxXN+aGzWjZNQTKS2uwqvI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.24653&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:54:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.24653" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24653v2</id>
+    <title>RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for Generalizable Embodied Intelligence</title>
+    <updated>2026-01-06T07:45:23Z</updated>
+    <link href="https://arxiv.org/abs/2512.24653v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24653v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While data-driven imitation learning has revolutionized robotic manipulation, current approaches remain constrained by the scarcity of large-scale, diverse real-world demonstrations. Consequently, the ability of existing models to generalize across long-horizon bimanual tasks and mobile manipulation in unstructured environments remains limited. To bridge this gap, we present RoboMIND 2.0, a comprehensive real-world dataset comprising over 310K dual-arm manipulation trajectories collected across six distinct robot embodiments and 739 complex tasks. Crucially, to support research in contact-rich and spatially extended tasks, the dataset incorporates 12K tactile-enhanced episodes and 20K mobile manipulation trajectories. Complementing this physical data, we construct high-fidelity digital twins of our real-world environments, releasing an additional 20K-trajectory simulated dataset to facilitate robust sim-to-real transfer. To fully exploit the potential of RoboMIND 2.0, we propose MIND-2 system, a hierarchical dual-system frame-work optimized via offline reinforcement learning. MIND-2 integrates a high-level semantic planner (MIND-2-VLM) to decompose abstract natural language instructions into grounded subgoals, coupled with a low-level Vision-Language-Action executor (MIND-2-VLA), which generates precise, proprioception-aware motor actions.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T05:59:40Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Chengkai Hou</name>
+    </author>
+    <author>
+      <name>Kun Wu</name>
+    </author>
+    <author>
+      <name>Jiaming Liu</name>
+    </author>
+    <author>
+      <name>Zhengping Che</name>
+    </author>
+    <author>
+      <name>Di Wu</name>
+    </author>
+    <author>
+      <name>Fei Liao</name>
+    </author>
+    <author>
+      <name>Guangrun Li</name>
+    </author>
+    <author>
+      <name>Jingyang He</name>
+    </author>
+    <author>
+      <name>Qiuxuan Feng</name>
+    </author>
+    <author>
+      <name>Zhao Jin</name>
+    </author>
+    <author>
+      <name>Chenyang Gu</name>
+    </author>
+    <author>
+      <name>Zhuoyang Liu</name>
+    </author>
+    <author>
+      <name>Nuowei Han</name>
+    </author>
+    <author>
+      <name>Xiangju Mi</name>
+    </author>
+    <author>
+      <name>Yaoxu Lv</name>
+    </author>
+    <author>
+      <name>Yankai Fu</name>
+    </author>
+    <author>
+      <name>Gaole Dai</name>
+    </author>
+    <author>
+      <name>Langzhe Gu</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Yuheng Zhang</name>
+    </author>
+    <author>
+      <name>Yixue Zhang</name>
+    </author>
+    <author>
+      <name>Xinhua Wang</name>
+    </author>
+    <author>
+      <name>Shichao Fan</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+    <author>
+      <name>Zhen Zhao</name>
+    </author>
+    <author>
+      <name>Ning Liu</name>
+    </author>
+    <author>
+      <name>Zhiyuan Xu</name>
+    </author>
+    <author>
+      <name>Pei Ren</name>
+    </author>
+    <author>
+      <name>Junjie Ji</name>
+    </author>
+    <author>
+      <name>Haonan Liu</name>
+    </author>
+    <author>
+      <name>Kuan Cheng</name>
+    </author>
+    <author>
+      <name>Shanghang Zhang</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+  </entry>
+</feed>

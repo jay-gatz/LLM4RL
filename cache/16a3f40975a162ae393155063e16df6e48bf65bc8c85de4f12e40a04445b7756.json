@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pouCS1BOkHrJMvYir/AclEzpkew</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04672v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04672v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04672v1</id>
+    <title>AGILE: Hand-Object Interaction Reconstruction from Video via Agentic Generation</title>
+    <updated>2026-02-04T15:42:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.04672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconstructing dynamic hand-object interactions from monocular videos is critical for dexterous manipulation data collection and creating realistic digital twins for robotics and VR. However, current methods face two prohibitive barriers: (1) reliance on neural rendering often yields fragmented, non-simulation-ready geometries under heavy occlusion, and (2) dependence on brittle Structure-from-Motion (SfM) initialization leads to frequent failures on in-the-wild footage. To overcome these limitations, we introduce AGILE, a robust framework that shifts the paradigm from reconstruction to agentic generation for interaction learning. First, we employ an agentic pipeline where a Vision-Language Model (VLM) guides a generative model to synthesize a complete, watertight object mesh with high-fidelity texture, independent of video occlusions. Second, bypassing fragile SfM entirely, we propose a robust anchor-and-track strategy. We initialize the object pose at a single interaction onset frame using a foundation model and propagate it temporally by leveraging the strong visual similarity between our generated asset and video observations. Finally, a contact-aware optimization integrates semantic, geometric, and interaction stability constraints to enforce physical plausibility. Extensive experiments on HO3D, DexYCB, and in-the-wild videos reveal that AGILE outperforms baselines in global geometric accuracy while demonstrating exceptional robustness on challenging sequences where prior art frequently collapses. By prioritizing physical validity, our method produces simulation-ready assets validated via real-to-sim retargeting for robotic applications.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T15:42:58Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jin-Chuan Shi</name>
+    </author>
+    <author>
+      <name>Binhong Ye</name>
+    </author>
+    <author>
+      <name>Tao Liu</name>
+    </author>
+    <author>
+      <name>Junzhe He</name>
+    </author>
+    <author>
+      <name>Yangjinhui Xu</name>
+    </author>
+    <author>
+      <name>Xiaoyang Liu</name>
+    </author>
+    <author>
+      <name>Zeju Li</name>
+    </author>
+    <author>
+      <name>Hao Chen</name>
+    </author>
+    <author>
+      <name>Chunhua Shen</name>
+    </author>
+  </entry>
+</feed>

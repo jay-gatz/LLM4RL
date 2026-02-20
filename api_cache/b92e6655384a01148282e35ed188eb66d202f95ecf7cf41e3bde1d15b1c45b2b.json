@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t8dSrxOQMRe/3IEs+Q54tzXP1FE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21972v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21972v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21972v3</id>
+    <title>Learning Decentralized LLM Collaboration with Multi-Agent Actor Critic</title>
+    <updated>2026-02-13T23:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2601.21972v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21972v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has explored optimizing LLM collaboration through Multi-Agent Reinforcement Learning (MARL). However, most MARL fine-tuning approaches rely on predefined execution protocols, which often require centralized execution. Decentralized LLM collaboration is more appealing in practice, as agents can run inference in parallel with flexible deployments. Also, current approaches use Monte Carlo methods for fine-tuning, which suffer from high variance and thus require more samples to train effectively. Actor-critic methods are prevalent in MARL for dealing with these issues, so we developed Multi-Agent Actor-Critic (MAAC) methods to optimize decentralized LLM collaboration. In this paper, we analyze when and why these MAAC methods are beneficial. We propose 2 MAAC approaches, \textbf{CoLLM-CC} with a \textbf{C}entralized \textbf{C}ritic and \textbf{CoLLM-DC} with \textbf{D}ecentralized \textbf{C}ritics. Our experiments across writing, coding, and game-playing domains show that Monte Carlo methods and CoLLM-DC can achieve performance comparable to CoLLM-CC in short-horizon and dense-reward settings. However, they both underperform CoLLM-CC on long-horizon or sparse-reward tasks, where Monte Carlo methods require substantially more samples and CoLLM-DC struggles to converge. Our code is available at https://github.com/OpenMLRL/CoMLRL/releases/tag/v1.3.6.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T16:50:30Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shuo Liu</name>
+    </author>
+    <author>
+      <name>Tianle Chen</name>
+    </author>
+    <author>
+      <name>Ryan Amiri</name>
+    </author>
+    <author>
+      <name>Christopher Amato</name>
+    </author>
+  </entry>
+</feed>

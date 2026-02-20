@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+1m2zhDzON39RKqSj7CAaODOidE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09173v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09173v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09173v1</id>
+    <title>$n$-Musketeers: Reinforcement Learning Shapes Collaboration Among Language Models</title>
+    <updated>2026-02-09T20:27:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.09173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progress in reinforcement learning with verifiable rewards (RLVR) shows that small, specialized language models (SLMs) can exhibit structured reasoning without relying on large monolithic LLMs. We introduce soft hidden-state collaboration, where multiple heterogeneous frozen SLM experts are integrated through their internal representations via a trainable attention interface. Experiments on Reasoning Gym and GSM8K show that this latent integration is competitive with strong single-model RLVR baselines. Ablations further reveal a dual mechanism of expert utilization: for simpler arithmetic domains, performance gains can largely be explained by static expert preferences, whereas more challenging settings induce increasingly concentrated and structured expert attention over training, indicating emergent specialization in how the router connects to relevant experts. Overall, hidden-state collaboration provides a compact mechanism for leveraging frozen experts, while offering an observational window into expert utilization patterns and their evolution under RLVR.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T20:27:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ryozo Masukawa</name>
+    </author>
+    <author>
+      <name>Sanggeon Yun</name>
+    </author>
+    <author>
+      <name>Hyunwoo Oh</name>
+    </author>
+    <author>
+      <name>SuhgHeon Jeong</name>
+    </author>
+    <author>
+      <name>Raheeb Hassa</name>
+    </author>
+    <author>
+      <name>Hanning Chen</name>
+    </author>
+    <author>
+      <name>Wenjun Huang</name>
+    </author>
+    <author>
+      <name>Mahdi Imani</name>
+    </author>
+    <author>
+      <name>Pietro Mercati</name>
+    </author>
+    <author>
+      <name>Nathaniel D. Bastian</name>
+    </author>
+    <author>
+      <name>Mohsen Imani</name>
+    </author>
+  </entry>
+</feed>

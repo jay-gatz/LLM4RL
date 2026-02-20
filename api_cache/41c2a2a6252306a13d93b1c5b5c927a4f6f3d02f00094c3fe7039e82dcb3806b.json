@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zC1Yz9qCIs2r/Xw3mMYC5V++uvo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.10687v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.10687v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.10687v2</id>
+    <title>Who Gets the Reward, Who Gets the Blame? Evaluation-Aligned Training Signals for Multi-LLM Agents</title>
+    <updated>2025-11-17T19:45:26Z</updated>
+    <link href="https://arxiv.org/abs/2511.10687v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.10687v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) in multi-agent systems (MAS) have shown promise for complex tasks, yet current training methods lack principled ways to connect system-level evaluation with agent-level and message-level learning. We propose a theoretical framework that unifies cooperative game-theoretic attribution with process reward modeling to transform system evaluation into agent credit and then into response-level signals. Unlike prior approaches that rely only on attribution (e.g., Shapley) or step-level labels (e.g., PRM), our method produces local, signed, and credit-conserving signals. In success cases, Shapley-based credit assignment fairly allocates outcomes across agents and is refined into per-message rewards that promote cooperation while discouraging redundancy or sabotage. In failure cases, first-error localization yields repair-aware preferences that penalize harmful steps while rewarding corrective attempts. The resulting signals are bounded, cooperative, and directly compatible with reinforcement-based or preference-based post-training, providing a unified and auditable pathway from global evaluation to local supervision in LLM multi-agent training. Our contribution is conceptual: we present a theoretical foundation and training signals, leaving empirical validation for future work.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T22:21:08Z</published>
+    <arxiv:comment>Withdrawing temporarily to coordinate revisions with co-authors. A revised version will be resubmitted</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Chih-Hsuan Yang</name>
+    </author>
+    <author>
+      <name>Tanwi Mallick</name>
+    </author>
+    <author>
+      <name>Le Chen</name>
+    </author>
+    <author>
+      <name>Krishnan Raghavan</name>
+    </author>
+    <author>
+      <name>Azton Wells</name>
+    </author>
+    <author>
+      <name>Amal Gueroudji</name>
+    </author>
+    <author>
+      <name>Ian T. Foster</name>
+    </author>
+    <author>
+      <name>Rajeev Thakur</name>
+    </author>
+  </entry>
+</feed>

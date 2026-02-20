@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2kDCFS4FJ3gHZwGM7aSBoqOAUI4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.10102&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.10102" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.10102v1</id>
+    <title>Trustworthiness in Retrieval-Augmented Generation Systems: A Survey</title>
+    <updated>2024-09-16T09:06:44Z</updated>
+    <link href="https://arxiv.org/abs/2409.10102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.10102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-Augmented Generation (RAG) has quickly grown into a pivotal paradigm in the development of Large Language Models (LLMs). While much of the current research in this field focuses on performance optimization, particularly in terms of accuracy and efficiency, the trustworthiness of RAG systems remains an area still under exploration. From a positive perspective, RAG systems are promising to enhance LLMs by providing them with useful and up-to-date knowledge from vast external databases, thereby mitigating the long-standing problem of hallucination. While from a negative perspective, RAG systems are at the risk of generating undesirable contents if the retrieved information is either inappropriate or poorly utilized. To address these concerns, we propose a unified framework that assesses the trustworthiness of RAG systems across six key dimensions: factuality, robustness, fairness, transparency, accountability, and privacy. Within this framework, we thoroughly review the existing literature on each dimension. Additionally, we create the evaluation benchmark regarding the six dimensions and conduct comprehensive evaluations for a variety of proprietary and open-source models. Finally, we identify the potential challenges for future research based on our investigation results. Through this work, we aim to lay a structured foundation for future investigations and provide practical insights for enhancing the trustworthiness of RAG systems in real-world applications.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-16T09:06:44Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yujia Zhou</name>
+    </author>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Xiaoxi Li</name>
+    </author>
+    <author>
+      <name>Jiajie Jin</name>
+    </author>
+    <author>
+      <name>Hongjin Qian</name>
+    </author>
+    <author>
+      <name>Zheng Liu</name>
+    </author>
+    <author>
+      <name>Chaozhuo Li</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Ho</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+  </entry>
+</feed>

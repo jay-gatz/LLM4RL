@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VxQNoP5Ga4ljB4pc31HIiOtHItE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00028v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00028v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00028v1</id>
+    <title>ELLMPEG: An Edge-based Agentic LLM Video Processing Tool</title>
+    <updated>2026-01-17T14:51:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.00028v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00028v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs), the foundation of generative AI systems like ChatGPT, are transforming many fields and applications, including multimedia, enabling more advanced content generation, analysis, and interaction. However, cloud-based LLM deployments face three key limitations: high computational and energy demands, privacy and reliability risks from remote processing, and recurring API costs. Recent advances in agentic AI, especially in structured reasoning and tool use, offer a better way to exploit open and locally deployed tools and LLMs. This paper presents ELLMPEG, an edge-enabled agentic LLM framework for the automated generation of video-processing commands. ELLMPEG integrates tool-aware Retrieval-Augmented Generation (RAG) with iterative self-reflection to produce and locally verify executable FFmpeg and VVenC commands directly at the edge, eliminating reliance on external cloud APIs. To evaluate ELLMPEG, we collect a dedicated prompt dataset comprising 480 diverse queries covering different categories of FFmpeg and the Versatile Video Codec (VVC) encoder (VVenC) commands. We validate command generation accuracy and evaluate four open-source LLMs based on command validity, tokens generated per second, inference time, and energy efficiency. We also execute the generated commands to assess their runtime correctness and practical applicability. Experimental results show that Qwen2.5, when augmented with the ELLMPEG framework, achieves an average command-generation accuracy of 78 % with zero recurring API cost, outperforming all other open-source models across both the FFmpeg and VVenC datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-17T14:51:21Z</published>
+    <arxiv:comment>12 pages, 5 tables, 8 Figures, accepted for the MMSys 2026 conference</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zoha Azimi</name>
+    </author>
+    <author>
+      <name>Reza Farahani</name>
+    </author>
+    <author>
+      <name>Radu Prodan</name>
+    </author>
+    <author>
+      <name>Christian Timmerer</name>
+    </author>
+  </entry>
+</feed>

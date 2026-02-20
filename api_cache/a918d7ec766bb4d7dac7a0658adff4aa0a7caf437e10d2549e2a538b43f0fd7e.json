@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7X8TAQs89+zP1c/cAE0uTkCpkOA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07776v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07776v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07776v1</id>
+    <title>CoLF: Learning Consistent Leader-Follower Policies for Vision-Language-Guided Multi-Robot Cooperative Transport</title>
+    <updated>2026-02-08T02:21:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.07776v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07776v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we address vision-language-guided multi-robot cooperative transport, where each robot grounds natural-language instructions from onboard camera observations. A key challenge in this decentralized setting is perceptual misalignment across robots, where viewpoint differences and language ambiguity can yield inconsistent interpretations and degrade cooperative transport. To mitigate this problem, we adopt a dependent leader-follower design, where one robot serves as the leader and the other as the follower. Although such a leader-follower structure appears straightforward, learning with independent and symmetric agents often yields symmetric or unstable behaviors without explicit inductive biases. To address this challenge, we propose Consistent Leader-Follower (CoLF), a multi-agent reinforcement learning (MARL) framework for stable leader-follower role differentiation. CoLF consists of two key components: (1) an asymmetric policy design that induces leader-follower role differentiation, and (2) a mutual-information-based training objective that maximizes a variational lower bound, encouraging the follower to predict the leader's action from its local observation. The leader and follower policies are jointly optimized under the centralized training and decentralized execution (CTDE) framework to balance task execution and consistent cooperative behaviors. We validate CoLF in both simulation and real-robot experiments using two quadruped robots. The demonstration video is available at https://sites.google.com/view/colf/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T02:21:47Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Joachim Yann Despature</name>
+    </author>
+    <author>
+      <name>Kazuki Shibata</name>
+    </author>
+    <author>
+      <name>Takamitsu Matsubara</name>
+    </author>
+  </entry>
+</feed>

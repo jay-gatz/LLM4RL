@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mUvMrFXIpHGmuK5qSwE9DdypHbc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.00492&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.00492" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00492v1</id>
+    <title>Is Temperature the Creativity Parameter of Large Language Models?</title>
+    <updated>2024-05-01T12:59:37Z</updated>
+    <link href="https://arxiv.org/abs/2405.00492v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00492v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are applied to all sorts of creative tasks, and their outputs vary from beautiful, to peculiar, to pastiche, into plain plagiarism. The temperature parameter of an LLM regulates the amount of randomness, leading to more diverse outputs; therefore, it is often claimed to be the creativity parameter. Here, we investigate this claim using a narrative generation task with a predetermined fixed context, model and prompt. Specifically, we present an empirical analysis of the LLM output for different temperature values using four necessary conditions for creativity in narrative generation: novelty, typicality, cohesion, and coherence. We find that temperature is weakly correlated with novelty, and unsurprisingly, moderately correlated with incoherence, but there is no relationship with either cohesion or typicality. However, the influence of temperature on creativity is far more nuanced and weak than suggested by the "creativity parameter" claim; overall results suggest that the LLM generates slightly more novel outputs as temperatures get higher. Finally, we discuss ideas to allow more controlled LLM creativity, rather than relying on chance via changing the temperature parameter.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-01T12:59:37Z</published>
+    <arxiv:comment>To be published in the Proceedings of the 15th International Conference on Computational Creativity (ICCC'24), 8 pages, 2 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Max Peeperkorn</name>
+    </author>
+    <author>
+      <name>Tom Kouwenhoven</name>
+    </author>
+    <author>
+      <name>Dan Brown</name>
+    </author>
+    <author>
+      <name>Anna Jordanous</name>
+    </author>
+  </entry>
+</feed>

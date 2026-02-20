@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9KnXNH6xc5vXuaBtrnDM6eIHymw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14216v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14216v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14216v1</id>
+    <title>Reasoning Language Models for complex assessments tasks: Evaluating parental cooperation from child protection case reports</title>
+    <updated>2026-02-15T16:14:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.14216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Purpose: Reasoning language models (RLMs) have demonstrated significant advances in solving complex reasoning tasks. We examined their potential to assess parental cooperation during CPS interventions using case reports, a case factor characterized by ambiguous and conflicting information. Methods: A four stage workflow comprising (1) case reports collection, (2) reasoning-based assessment of parental cooperation, (3) automated category extraction, and (4) case labeling was developed. The performance of RLMs with different parameter sizes (255B, 32B, 4B) was compared against human validated data. Two expert human reviewers (EHRs) independently classified a weighted random sample of reports. Results: The largest RLM achieved the highest accuracy (89%), outperforming the initial approach (80%). Classification accuracy was higher for mothers (93%) than for fathers (85%), and EHRs exhibited similar differences. Conclusions: RLMs' reasoning can effectively assess complex case factors such as parental cooperation. Lower accuracy in assessing fathers' cooperation supports the argument of a stronger professional focus on mothers in CPS interventions.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T16:14:19Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Dragan Stoll</name>
+    </author>
+    <author>
+      <name>Brian E. Perron</name>
+    </author>
+    <author>
+      <name>Zia Qi</name>
+    </author>
+    <author>
+      <name>Selina Steinmann</name>
+    </author>
+    <author>
+      <name>Nicole F. Eicher</name>
+    </author>
+    <author>
+      <name>Andreas Jud</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zHkzdXUiKqWzQcP+qXmrEZYsVg0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00415v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00415v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00415v1</id>
+    <title>PolarMem: A Training-Free Polarized Latent Graph Memory for Verifiable Multimodal Agents</title>
+    <updated>2026-01-31T00:13:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.00415v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00415v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As multimodal agents evolve from passive observers to long-horizon decision-makers, they require memory systems that provide not just information availability but logical verifiability. A fundamental limitation of current architectures is the epistemic asymmetry inherent in probabilistic vision-language models and dense associative memories: they conflate semantic affinity with factual existence and structurally fail to encode negative constraints. To this end, we introduce PolarMem, a training-free Polarized Latent Graph Memory designed to ground agent reasoning in verifiable evidence. PolarMem transforms fuzzy perceptual likelihoods into discrete logical constraints through non-parametric distributional partitioning. Furthermore, it employs a polarized graph topology with orthogonal inhibitory connections to explicitly store verified negation as a primary cognitive state. At inference time, we enforce a logic-dominant retrieval paradigm, suppressing hallucinatory patterns that violate negative constraints. Extensive evaluation across eight frozen Vision--Language Models and six benchmarks demonstrates that PolarMem functions as a robust cognitive system, establishing a foundation for verifiable multimodal agents. Our code is available at https://github.com/czs-ict/PolarMem.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T00:13:56Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhisheng Chen</name>
+    </author>
+    <author>
+      <name>Tingyu Wu</name>
+    </author>
+    <author>
+      <name>Zijie Zhou</name>
+    </author>
+    <author>
+      <name>Zhengwei Xie</name>
+    </author>
+    <author>
+      <name>Ziyan Weng</name>
+    </author>
+    <author>
+      <name>Yingwei Zhang</name>
+    </author>
+  </entry>
+</feed>

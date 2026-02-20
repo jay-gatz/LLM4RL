@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F1NW3+D+2XhUrPUwsLhxzxOs+Ps</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.03715&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:57:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.03715" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.03715v1</id>
+    <title>Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences</title>
+    <updated>2024-04-04T17:56:41Z</updated>
+    <link href="https://arxiv.org/abs/2404.03715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.03715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies post-training large language models (LLMs) using preference feedback from a powerful oracle to help a model iteratively improve over itself. The typical approach for post-training LLMs involves Reinforcement Learning from Human Feedback (RLHF), which traditionally separates reward learning and subsequent policy optimization. However, such a reward maximization approach is limited by the nature of "point-wise" rewards (such as Bradley-Terry model), which fails to express complex intransitive or cyclic preference relations. While advances on RLHF show reward learning and policy optimization can be merged into a single contrastive objective for stability, they yet still remain tethered to the reward maximization framework. Recently, a new wave of research sidesteps the reward maximization presumptions in favor of directly optimizing over "pair-wise" or general preferences. In this paper, we introduce Direct Nash Optimization (DNO), a provable and scalable algorithm that marries the simplicity and stability of contrastive learning with theoretical generality from optimizing general preferences. Because DNO is a batched on-policy algorithm using a regression-based objective, its implementation is straightforward and efficient. Moreover, DNO enjoys monotonic improvement across iterations that help it improve even over a strong teacher (such as GPT-4). In our experiments, a resulting 7B parameter Orca-2.5 model aligned by DNO achieves the state-of-the-art win-rate against GPT-4-Turbo of 33% on AlpacaEval 2.0 (even after controlling for response length), an absolute gain of 26% (7% to 33%) over the initializing model. It outperforms models with far more parameters, including Mistral Large, Self-Rewarding LM (70B parameters), and older versions of GPT-4.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-04T17:56:41Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Corby Rosset</name>
+    </author>
+    <author>
+      <name>Ching-An Cheng</name>
+    </author>
+    <author>
+      <name>Arindam Mitra</name>
+    </author>
+    <author>
+      <name>Michael Santacroce</name>
+    </author>
+    <author>
+      <name>Ahmed Awadallah</name>
+    </author>
+    <author>
+      <name>Tengyang Xie</name>
+    </author>
+  </entry>
+</feed>

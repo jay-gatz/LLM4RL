@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D4M9KR1nhdFTl7/Zwvq3X96qKiI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00632v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00632v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00632v1</id>
+    <title>Towards Sample-Efficient and Stable Reinforcement Learning for LLM-based Recommendation</title>
+    <updated>2026-01-31T10:02:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.00632v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00632v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Long Chain-of-Thought (Long CoT) reasoning has shown promise in Large Language Models (LLMs), its adoption for enhancing recommendation quality is growing rapidly. In this work, we critically examine this trend and argue that Long CoT is inherently ill-suited for the sequential recommendation domain. We attribute this misalignment to two primary factors: excessive inference latency and the lack of explicit cognitive reasoning patterns in user behavioral data. Driven by these observations, we propose pivoting away from the CoT structure to directly leverage its underlying mechanism: Reinforcement Learning (RL), to explore the item space. However, applying RL directly faces significant obstacles, notably low sample efficiency-where most actions fail to provide learning signals-and training instability. To overcome these limitations, we propose RISER, a novel Reinforced Item Space Exploration framework for Recommendation. RISER is designed to transform non-learnable trajectories into effective pairwise preference data for optimization. Furthermore, it incorporates specific strategies to ensure stability, including the prevention of redundant rollouts and the constraint of token-level update magnitudes. Extensive experiments on three real-world datasets show that RISER significantly outperforms competitive baselines, establishing a robust paradigm for RL-enhanced LLM recommendation. Our code will be available at https://anonymous.4open.science/r/RISER/.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T10:02:43Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Hongxun Ding</name>
+    </author>
+    <author>
+      <name>Keqin Bao</name>
+    </author>
+    <author>
+      <name>Jizhi Zhang</name>
+    </author>
+    <author>
+      <name>Yi Fang</name>
+    </author>
+    <author>
+      <name>Wenxin Xu</name>
+    </author>
+    <author>
+      <name>Fuli Feng</name>
+    </author>
+    <author>
+      <name>Xiangnan He</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5SR8nvYo20ApZ0/LYLnqMfk2m9M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15508v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15508v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15508v1</id>
+    <title>Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for Sustainable Recommendations</title>
+    <updated>2026-02-17T11:30:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.15508v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15508v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the era of responsible and sustainable AI, information retrieval and recommender systems must expand their scope beyond traditional accuracy metrics to incorporate environmental sustainability. However, this research line is severely limited by the lack of item-level environmental impact data in standard benchmarks. This paper introduces Eco-Amazon, a novel resource designed to bridge this gap. Our resource consists of an enriched version of three widely used Amazon datasets (i.e., Home, Clothing, and Electronics) augmented with Product Carbon Footprint (PCF) metadata. CO2e emission scores were generated using a zero-shot framework that leverages Large Language Models (LLMs) to estimate item-level PCF based on product attributes. Our contribution is three-fold: (i) the release of the Eco-Amazon datasets, enriching item metadata with PCF signals; (ii) the LLM-based PCF estimation script, which allows researchers to enrich any product catalogue and reproduce our results; (iii) a use case demonstrating how PCF estimates can be exploited to promote more sustainable products. By providing these environmental signals, Eco-Amazon enables the community to develop, benchmark, and evaluate the next generation of sustainable retrieval and recommendation models. Our resource is available at https://doi.org/10.5281/zenodo.18549130, while our source code is available at: http://github.com/giuspillo/EcoAmazon/.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T11:30:11Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Giuseppe Spillo</name>
+    </author>
+    <author>
+      <name>Allegra De Filippo</name>
+    </author>
+    <author>
+      <name>Cataldo Musto</name>
+    </author>
+    <author>
+      <name>Michela Milano</name>
+    </author>
+    <author>
+      <name>Giovanni Semeraro</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/37HOfKR0wi+PrwXrPuc30n5mFIM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06328v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06328v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06328v1</id>
+    <title>ToolGym: an Open-world Tool-using Environment for Scalable Agent Testing and Data Curation</title>
+    <updated>2026-01-09T21:59:31Z</updated>
+    <link href="https://arxiv.org/abs/2601.06328v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06328v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-using LLM agents still struggle in open-world settings with large tool pools, long-horizon objectives, wild constraints, and unreliable tool states. For scalable and realistic training and testing, we introduce an open-world tool-using environment, built on 5,571 format unified tools across 204 commonly used apps. It includes a task creation engine that synthesizes long-horizon, multi-tool workflows with wild constraints, and a state controller that injects interruptions and failures to stress-test robustness. On top of this environment, we develop a tool select-then-execute agent framework with a planner-actor decomposition to separate deliberate reasoning and self-correction from step-wise execution. Comprehensive evaluation of state-of-the-art LLMs reveals the misalignment between tool planning and execution abilities, the constraint following weakness of existing LLMs, and DeepSeek-v3.2's strongest robustness. Finally, we collect 1,170 trajectories from our environment to fine-tune LLMs, achieving superior performance to baselines using 119k samples, indicating the environment's value as both a realistic benchmark and a data engine for tool-using agents. Our code and data will be publicly released.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T21:59:31Z</published>
+    <arxiv:comment>Submitted to ACL 2026 12 pages, 4 figures Ziqiao Xi and Shuang Liang contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ziqiao Xi</name>
+    </author>
+    <author>
+      <name>Shuang Liang</name>
+    </author>
+    <author>
+      <name>Qi Liu</name>
+    </author>
+    <author>
+      <name>Jiaqing Zhang</name>
+    </author>
+    <author>
+      <name>Letian Peng</name>
+    </author>
+    <author>
+      <name>Fang Nan</name>
+    </author>
+    <author>
+      <name>Meshal Nayim</name>
+    </author>
+    <author>
+      <name>Tianhui Zhang</name>
+    </author>
+    <author>
+      <name>Rishika Mundada</name>
+    </author>
+    <author>
+      <name>Lianhui Qin</name>
+    </author>
+    <author>
+      <name>Biwei Huang</name>
+    </author>
+    <author>
+      <name>Kun Zhou</name>
+    </author>
+  </entry>
+</feed>

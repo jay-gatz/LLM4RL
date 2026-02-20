@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GXrc4DaIHJze843SOF082bcUzqY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15350v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15350v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15350v1</id>
+    <title>Fine-Tuning LLMs to Generate Economical and Reliable Actions for the Power Grid</title>
+    <updated>2026-02-17T04:33:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.15350v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15350v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public Safety Power Shutoffs (PSPS) force rapid topology changes that can render standard operating points infeasible, requiring operators to quickly identify corrective transmission switching actions that reduce load shedding while maintaining acceptable voltage behavior. We present a verifiable, multi-stage adaptation pipeline that fine-tunes an instruction-tuned large language model (LLM) to generate \emph{open-only} corrective switching plans from compact PSPS scenario summaries under an explicit switching budget. First, supervised fine-tuning distills a DC-OPF MILP oracle into a constrained action grammar that enables reliable parsing and feasibility checks. Second, direct preference optimization refines the policy using AC-evaluated preference pairs ranked by a voltage-penalty metric, injecting voltage-awareness beyond DC imitation. Finally, best-of-$N$ selection provides an inference-time addition by choosing the best feasible candidate under the target metric. On IEEE 118-bus PSPS scenarios, fine-tuning substantially improves DC objective values versus zero-shot generation, reduces AC power-flow failure from 50\% to single digits, and improves voltage-penalty outcomes on the common-success set. Code and data-generation scripts are released to support reproducibility.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T04:33:02Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Mohamad Chehade</name>
+    </author>
+    <author>
+      <name>Hao Zhu</name>
+    </author>
+  </entry>
+</feed>

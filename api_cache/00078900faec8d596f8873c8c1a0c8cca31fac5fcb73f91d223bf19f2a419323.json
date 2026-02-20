@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l950zCn636bFD9vIdl3QrWLnywY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18510v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18510v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18510v1</id>
+    <title>Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates</title>
+    <updated>2026-01-26T14:16:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.18510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Model (LLM) agents excel at general tasks, they inherently struggle with continual adaptation due to the frozen weights after deployment. Conventional reinforcement learning (RL) offers a solution but incurs prohibitive computational costs and the risk of catastrophic forgetting. We introduce Just-In-Time Reinforcement Learning (JitRL), a training-free framework that enables test-time policy optimization without any gradient updates. JitRL maintains a dynamic, non-parametric memory of experiences and retrieves relevant trajectories to estimate action advantages on-the-fly. These estimates are then used to directly modulate the LLM's output logits. We theoretically prove that this additive update rule is the exact closed-form solution to the KL-constrained policy optimization objective. Extensive experiments on WebArena and Jericho demonstrate that JitRL establishes a new state-of-the-art among training-free methods. Crucially, JitRL outperforms the performance of computationally expensive fine-tuning methods (e.g., WebRL) while reducing monetary costs by over 30 times, offering a scalable path for continual learning agents. The code is available at https://github.com/liushiliushi/JitRL.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T14:16:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yibo Li</name>
+    </author>
+    <author>
+      <name>Zijie Lin</name>
+    </author>
+    <author>
+      <name>Ailin Deng</name>
+    </author>
+    <author>
+      <name>Xuan Zhang</name>
+    </author>
+    <author>
+      <name>Yufei He</name>
+    </author>
+    <author>
+      <name>Shuo Ji</name>
+    </author>
+    <author>
+      <name>Tri Cao</name>
+    </author>
+    <author>
+      <name>Bryan Hooi</name>
+    </author>
+  </entry>
+</feed>

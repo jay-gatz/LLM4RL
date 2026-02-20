@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zjXoJOwzK88W4a2ko8MW+uO4b+c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.01320v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.01320v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.01320v1</id>
+    <title>Adaptive Hierarchical Evaluation of LLMs and SAST tools for CWE Prediction in Python</title>
+    <updated>2026-01-04T01:13:37Z</updated>
+    <link href="https://arxiv.org/abs/2601.01320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.01320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models have become integral to software development, yet they frequently generate vulnerable code. Existing code vulnerability detection benchmarks employ binary classification, lacking the CWE-level specificity required for actionable feedback in iterative correction systems. We present ALPHA (Adaptive Learning via Penalty in Hierarchical Assessment), the first function-level Python benchmark that evaluates both LLMs and SAST tools using hierarchically aware, CWE-specific penalties. ALPHA distinguishes between over-generalisation, over-specification, and lateral errors, reflecting practical differences in diagnostic utility. Evaluating seven LLMs and two SAST tools, we find LLMs substantially outperform SAST, though SAST demonstrates higher precision when detections occur. Critically, prediction consistency varies dramatically across models (8.26%-81.87% agreement), with significant implications for feedback-driven systems. We further outline a pathway for future work incorporating ALPHA penalties into supervised fine-tuning, which could provide principled hierarchy-aware vulnerability detection pending empirical validation.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-04T01:13:37Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Muntasir Adnan</name>
+    </author>
+    <author>
+      <name>Carlos C. N. Kuhn</name>
+    </author>
+  </entry>
+</feed>

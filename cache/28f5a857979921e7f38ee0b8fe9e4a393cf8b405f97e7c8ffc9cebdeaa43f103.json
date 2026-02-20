@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VCRApZvClItnJC3HIq752flGu/k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17699v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17699v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17699v1</id>
+    <title>SQL-Trail: Multi-Turn Reinforcement Learning with Interleaved Feedback for Text-to-SQL</title>
+    <updated>2026-01-25T05:16:52Z</updated>
+    <link href="https://arxiv.org/abs/2601.17699v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17699v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While large language models (LLMs) have substantially improved Text-to-SQL generation, a pronounced gap remains between AI systems and human experts on challenging benchmarks such as BIRD-SQL. We argue this gap stems largely from the prevailing single-pass paradigm, which lacks the iterative reasoning, schema exploration, and error-correction behaviors that humans naturally employ. To address this limitation, we introduce SQL-Trail, a multi-turn reinforcement learning (RL) agentic framework for Text-to-SQL. Rather than producing a query in one shot, SQL-Trail interacts with the database environment and uses execution feedback to iteratively refine its predictions. Our approach centers on two key ideas: (i) an adaptive turn-budget allocation mechanism that scales the agent's interaction depth to match question difficulty, and (ii) a composite reward panel that jointly incentivizes SQL correctness and efficient exploration. Across benchmarks, SQL-Trail sets a new state of the art and delivers strong data efficiency--up to 18x higher than prior single-pass RL state-of-the-art methods. Notably, our 7B and 14B models outperform substantially larger proprietary systems by 5% on average, underscoring the effectiveness of interactive, agentic workflows for robust Text-to-SQL generation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-25T05:16:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Harper Hua</name>
+    </author>
+    <author>
+      <name>Zhen Han</name>
+    </author>
+    <author>
+      <name>Zhengyuan Shen</name>
+    </author>
+    <author>
+      <name>Jeremy Lee</name>
+    </author>
+    <author>
+      <name>Patrick Guan</name>
+    </author>
+    <author>
+      <name>Qi Zhu</name>
+    </author>
+    <author>
+      <name>Sullam Jeoung</name>
+    </author>
+    <author>
+      <name>Yueyan Chen</name>
+    </author>
+    <author>
+      <name>Yunfei Bai</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+    <author>
+      <name>Vassilis Ioannidis</name>
+    </author>
+    <author>
+      <name>Huzefa Rangwala</name>
+    </author>
+  </entry>
+</feed>

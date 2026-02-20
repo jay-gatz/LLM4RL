@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mnCq1jZganV58bksTOGDhh0/5is</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.03864&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.03864" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.03864v4</id>
+    <title>When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment</title>
+    <updated>2023-11-03T14:54:25Z</updated>
+    <link href="https://arxiv.org/abs/2307.03864v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.03864v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) algorithms face two distinct challenges: learning effective representations of past and present observations, and determining how actions influence future returns. Both challenges involve modeling long-term dependencies. The Transformer architecture has been very successful to solve problems that involve long-term dependencies, including in the RL domain. However, the underlying reason for the strong performance of Transformer-based RL methods remains unclear: is it because they learn effective memory, or because they perform effective credit assignment? After introducing formal definitions of memory length and credit assignment length, we design simple configurable tasks to measure these distinct quantities. Our empirical results reveal that Transformers can enhance the memory capability of RL algorithms, scaling up to tasks that require memorizing observations $1500$ steps ago. However, Transformers do not improve long-term credit assignment. In summary, our results provide an explanation for the success of Transformers in RL, while also highlighting an important area for future research and benchmark design. Our code is open-sourced at https://github.com/twni2016/Memory-RL</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-07T23:34:12Z</published>
+    <arxiv:comment>NeurIPS 2023 (Oral)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianwei Ni</name>
+    </author>
+    <author>
+      <name>Michel Ma</name>
+    </author>
+    <author>
+      <name>Benjamin Eysenbach</name>
+    </author>
+    <author>
+      <name>Pierre-Luc Bacon</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/klkVYRCHhw0SYYjVqwhAwUGzIbM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14819v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14819v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14819v1</id>
+    <title>Testimole-Conversational: A 30-Billion-Word Italian Discussion Board Corpus (1996-2024) for Language Modeling and Sociolinguistic Research</title>
+    <updated>2026-02-16T15:12:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.14819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present "Testimole-conversational" a massive collection of discussion boards messages in the Italian language. The large size of the corpus, more than 30B word-tokens (1996-2024), renders it an ideal dataset for native Italian Large Language Models'pre-training. Furthermore, discussion boards' messages are a relevant resource for linguistic as well as sociological analysis. The corpus captures a rich variety of computer-mediated communication, offering insights into informal written Italian, discourse dynamics, and online social interaction in wide time span. Beyond its relevance for NLP applications such as language modelling, domain adaptation, and conversational analysis, it also support investigations of language variation and social phenomena in digital communication. The resource will be made freely available to the research community.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T15:12:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Matteo Rinaldi</name>
+    </author>
+    <author>
+      <name>Rossella Varvara</name>
+    </author>
+    <author>
+      <name>Viviana Patti</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yCPb6u/f1gxkVdgbSgms1Qk5Byc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.21686v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.21686v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21686v1</id>
+    <title>Matrix: Peer-to-Peer Multi-Agent Synthetic Data Generation Framework</title>
+    <updated>2025-11-26T18:59:28Z</updated>
+    <link href="https://arxiv.org/abs/2511.21686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Synthetic data has become increasingly important for training large language models, especially when real data is scarce, expensive, or privacy-sensitive. Many such generation tasks require coordinated multi-agent workflows, where specialized agents collaborate to produce data that is higher quality, more diverse, and structurally richer. However, existing frameworks for multi-agent synthesis often depend on a centralized orchestrator, creating scalability bottlenecks, or are hardcoded for specific domains, limiting flexibility. We present \textbf{Matrix}, a decentralized framework that represents both control and data flow as serialized messages passed through distributed queues. This peer-to-peer design eliminates the central orchestrator. Each task progresses independently through lightweight agents, while compute-intensive operations, such as LLM inference or containerized environments, are handled by distributed services. Built on Ray, Matrix scales to tens of thousands of concurrent agentic workflows and provides a modular, configurable design that enables easy adaptation to a wide range of data generation workflows. We evaluate Matrix across diverse synthesis scenarios, such as multi-agent collaborative dialogue, web-based reasoning data extraction, and tool-use trajectory generation in customer service environments. In all cases, Matrix achieves $2$--$15\times$ higher data generation throughput under identical hardware resources, without compromising output quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T18:59:28Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dong Wang</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Ansong Ni</name>
+    </author>
+    <author>
+      <name>Ching-Feng Yeh</name>
+    </author>
+    <author>
+      <name>Youssef Emad</name>
+    </author>
+    <author>
+      <name>Xinjie Lei</name>
+    </author>
+    <author>
+      <name>Liam Robbins</name>
+    </author>
+    <author>
+      <name>Karthik Padthe</name>
+    </author>
+    <author>
+      <name>Hu Xu</name>
+    </author>
+    <author>
+      <name>Xian Li</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Ramya Raghavendra</name>
+    </author>
+    <author>
+      <name>Lifei Huang</name>
+    </author>
+    <author>
+      <name>Carole-Jean Wu</name>
+    </author>
+    <author>
+      <name>Shang-Wen Li</name>
+    </author>
+  </entry>
+</feed>

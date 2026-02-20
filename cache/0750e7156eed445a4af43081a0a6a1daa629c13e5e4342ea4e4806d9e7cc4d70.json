@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l3Kt7pJPtwgft9gu5DsE6XFmOOY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06794v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06794v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06794v1</id>
+    <title>No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning</title>
+    <updated>2026-01-11T07:29:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.06794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Critique-guided reinforcement learning (RL) has emerged as a powerful paradigm for training LLM agents by augmenting sparse outcome rewards with natural-language feedback. However, current methods often rely on static or offline critic models, which fail to adapt as the policy evolves. In on-policy RL, the agent's error patterns shift over time, causing stationary critics to become stale and providing feedback of diminishing utility. To address this, we introduce ECHO (Evolving Critic for Hindsight-Guided Optimization)}, a framework that jointly optimizes the policy and critic through a synchronized co-evolutionary loop. ECHO utilizes a cascaded rollout mechanism where the critic generates multiple diagnoses for an initial trajectory, followed by policy refinement to enable group-structured advantage estimation. We address the challenge of learning plateaus via a saturation-aware gain shaping objective, which rewards the critic for inducing incremental improvements in high-performing trajectories. By employing dual-track GRPO updates, ECHO ensures the critic's feedback stays synchronized with the evolving policy. Experimental results show that ECHO yields more stable training and higher long-horizon task success across open-world environments.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-11T07:29:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhicong Li</name>
+    </author>
+    <author>
+      <name>Lingjie Jiang</name>
+    </author>
+    <author>
+      <name>Yulan Hu</name>
+    </author>
+    <author>
+      <name>Xingchen Zeng</name>
+    </author>
+    <author>
+      <name>Yixia Li</name>
+    </author>
+    <author>
+      <name>Xiangwen Zhang</name>
+    </author>
+    <author>
+      <name>Guanhua Chen</name>
+    </author>
+    <author>
+      <name>Zheng Pan</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+  </entry>
+</feed>

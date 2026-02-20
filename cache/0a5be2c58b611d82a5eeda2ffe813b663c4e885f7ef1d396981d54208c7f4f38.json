@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gDGlnE/z8iBQrSsp3sRdSUe8T3k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01563v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01563v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01563v1</id>
+    <title>AdNanny: One Reasoning LLM for All Offline Ads Recommendation Tasks</title>
+    <updated>2026-02-02T02:56:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.01563v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01563v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have shown strong capabilities in Natural Language Understanding and Generation, but deploying them directly in online advertising systems is often impractical due to strict millisecond-level latency constraints. This has motivated the use of LLMs offline to improve retrieval, ranking, and recommendation models. Existing solutions typically fine-tune separate LLMs for individual tasks such as query-ad relevance labeling, keyword-based query generation, and user profiling. This results in redundant models, high maintenance cost, and limited performance gains despite substantial overlap in domain knowledge and reasoning patterns. We introduce AdNanny, a unified reasoning-centric LLM that serves as a shared backbone for offline advertising tasks. AdNanny is obtained by fine-tuning a public 671B-parameter DeepSeek-R1 checkpoint using a scalable training system that supports hybrid dense-MoE parallelism. We construct reasoning-augmented corpora that pair structured supervision with step-by-step natural language explanations. A multi-task supervised fine-tuning stage with adaptive reweighting enables AdNanny to handle diverse labeling and generation tasks in a consistent reasoning format. This is followed by reinforcement learning using downstream advertising metrics to align model behavior with online retrieval and ranking objectives. AdNanny is deployed in production within Bing Ads, where it significantly reduces manual labeling effort and improves accuracy across multiple offline tasks. By consolidating many task-specific models into a single reasoning-centric foundation model, AdNanny provides a scalable and cost-effective solution for large-scale advertising systems.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T02:56:11Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Nan Hu</name>
+    </author>
+    <author>
+      <name>Han Li</name>
+    </author>
+    <author>
+      <name>Jimeng Sun</name>
+    </author>
+    <author>
+      <name>Lu Wang</name>
+    </author>
+    <author>
+      <name>Fangkai Yang</name>
+    </author>
+    <author>
+      <name>Bo Qiao</name>
+    </author>
+    <author>
+      <name>Pu Zhao</name>
+    </author>
+    <author>
+      <name>David Dai</name>
+    </author>
+    <author>
+      <name>Mengyu Liu</name>
+    </author>
+    <author>
+      <name>Yuefeng Zhan</name>
+    </author>
+    <author>
+      <name>Jianjin Zhang</name>
+    </author>
+    <author>
+      <name>Weihao Han</name>
+    </author>
+    <author>
+      <name>Allen Sun</name>
+    </author>
+    <author>
+      <name>Qingwei Lin</name>
+    </author>
+    <author>
+      <name>Saravan Rajmohan</name>
+    </author>
+    <author>
+      <name>Dongmei Zhang</name>
+    </author>
+    <author>
+      <name>Denvy Deng</name>
+    </author>
+    <author>
+      <name>Feng Sun</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+  </entry>
+</feed>

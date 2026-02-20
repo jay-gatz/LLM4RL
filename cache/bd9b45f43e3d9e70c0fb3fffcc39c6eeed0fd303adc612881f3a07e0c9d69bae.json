@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wpSV++KkryrVrKkU+3WPBvk7j4Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.11933v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.11933v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.11933v1</id>
+    <title>InData: Towards Secure Multi-Step, Tool-Based Data Analysis</title>
+    <updated>2025-11-14T23:15:41Z</updated>
+    <link href="https://arxiv.org/abs/2511.11933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.11933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model agents for data analysis typically generate and execute code directly on databases. However, when applied to sensitive data, this approach poses significant security risks. To address this issue, we propose a security-motivated alternative: restrict LLMs from direct code generation and data access, and require them to interact with data exclusively through a predefined set of secure, verified tools. Although recent tool-use benchmarks exist, they primarily target tool selection and simple execution rather than the compositional, multi-step reasoning needed for complex data analysis. To reduce this gap, we introduce Indirect Data Engagement (InData), a dataset designed to assess LLMs' multi-step tool-based reasoning ability. InData includes data analysis questions at three difficulty levels--Easy, Medium, and Hard--capturing increasing reasoning complexity. We benchmark 15 open-source LLMs on InData and find that while large models (e.g., gpt-oss-120b) achieve high accuracy on Easy tasks (97.3%), performance drops sharply on Hard tasks (69.6%). These results show that current LLMs still lack robust multi-step tool-based reasoning ability. With InData, we take a step toward enabling the development and evaluation of LLMs with stronger multi-step tool-use capabilities. We will publicly release the dataset and code.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-14T23:15:41Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Karthikeyan K</name>
+    </author>
+    <author>
+      <name>Raghuveer Thirukovalluru</name>
+    </author>
+    <author>
+      <name>Bhuwan Dhingra</name>
+    </author>
+    <author>
+      <name>David Edwin Carlson</name>
+    </author>
+  </entry>
+</feed>

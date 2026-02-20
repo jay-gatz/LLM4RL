@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4CtauJumcGZSR+zlUruiX/YaAWc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.13657&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:24:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.13657" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13657v3</id>
+    <title>Why Do Multi-Agent LLM Systems Fail?</title>
+    <updated>2025-10-26T23:25:18Z</updated>
+    <link href="https://arxiv.org/abs/2503.13657v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13657v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite enthusiasm for Multi-Agent LLM Systems (MAS), their performance gains on popular benchmarks are often minimal. This gap highlights a critical need for a principled understanding of why MAS fail. Addressing this question requires systematic identification and analysis of failure patterns. We introduce MAST-Data, a comprehensive dataset of 1600+ annotated traces collected across 7 popular MAS frameworks. MAST-Data is the first multi-agent system dataset to outline the failure dynamics in MAS for guiding the development of better future systems. To enable systematic classification of failures for MAST-Data, we build the first Multi-Agent System Failure Taxonomy (MAST). We develop MAST through rigorous analysis of 150 traces, guided closely by expert human annotators and validated by high inter-annotator agreement (kappa = 0.88). This process identifies 14 unique modes, clustered into 3 categories: (i) system design issues, (ii) inter-agent misalignment, and (iii) task verification. To enable scalable annotation, we develop an LLM-as-a-Judge pipeline with high agreement with human annotations. We leverage MAST and MAST-Data to analyze failure patterns across models (GPT4, Claude 3, Qwen2.5, CodeLlama) and tasks (coding, math, general agent), demonstrating improvement headrooms from better MAS design. Our analysis provides insights revealing that identified failures require more sophisticated solutions, highlighting a clear roadmap for future research. We publicly release our comprehensive dataset (MAST-Data), the MAST, and our LLM annotator to facilitate widespread research and development in MAS.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T19:04:38Z</published>
+    <arxiv:comment>ArXiv v3</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mert Cemri</name>
+    </author>
+    <author>
+      <name>Melissa Z. Pan</name>
+    </author>
+    <author>
+      <name>Shuyi Yang</name>
+    </author>
+    <author>
+      <name>Lakshya A. Agrawal</name>
+    </author>
+    <author>
+      <name>Bhavya Chopra</name>
+    </author>
+    <author>
+      <name>Rishabh Tiwari</name>
+    </author>
+    <author>
+      <name>Kurt Keutzer</name>
+    </author>
+    <author>
+      <name>Aditya Parameswaran</name>
+    </author>
+    <author>
+      <name>Dan Klein</name>
+    </author>
+    <author>
+      <name>Kannan Ramchandran</name>
+    </author>
+    <author>
+      <name>Matei Zaharia</name>
+    </author>
+    <author>
+      <name>Joseph E. Gonzalez</name>
+    </author>
+    <author>
+      <name>Ion Stoica</name>
+    </author>
+  </entry>
+</feed>

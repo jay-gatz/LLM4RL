@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7IL5dZ24WRbnPtEQYmh0ERkNP1Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17082v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17082v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17082v1</id>
+    <title>Do VLMs Have a Moral Backbone? A Study on the Fragile Morality of Vision-Language Models</title>
+    <updated>2026-01-23T06:00:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.17082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite substantial efforts toward improving the moral alignment of Vision-Language Models (VLMs), it remains unclear whether their ethical judgments are stable in realistic settings. This work studies moral robustness in VLMs, defined as the ability to preserve moral judgments under textual and visual perturbations that do not alter the underlying moral context. We systematically probe VLMs with a diverse set of model-agnostic multimodal perturbations and find that their moral stances are highly fragile, frequently flipping under simple manipulations. Our analysis reveals systematic vulnerabilities across perturbation types, moral domains, and model scales, including a sycophancy trade-off where stronger instruction-following models are more susceptible to persuasion. We further show that lightweight inference-time interventions can partially restore moral stability. These results demonstrate that moral alignment alone is insufficient and that moral robustness is a necessary criterion for the responsible deployment of VLMs.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T06:00:09Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Zhining Liu</name>
+    </author>
+    <author>
+      <name>Tianyi Wang</name>
+    </author>
+    <author>
+      <name>Xiao Lin</name>
+    </author>
+    <author>
+      <name>Penghao Ouyang</name>
+    </author>
+    <author>
+      <name>Gaotang Li</name>
+    </author>
+    <author>
+      <name>Ze Yang</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+    <author>
+      <name>Sumit Keswani</name>
+    </author>
+    <author>
+      <name>Vishwa Pardeshi</name>
+    </author>
+    <author>
+      <name>Huijun Zhao</name>
+    </author>
+    <author>
+      <name>Wei Fan</name>
+    </author>
+    <author>
+      <name>Hanghang Tong</name>
+    </author>
+  </entry>
+</feed>

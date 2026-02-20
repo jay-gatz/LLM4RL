@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2q6b15yOSC+u9fQf3RA++wN2w3g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.14483&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:14:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2305.14483" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14483v1</id>
+    <title>Language Model Self-improvement by Reinforcement Learning Contemplation</title>
+    <updated>2023-05-23T19:25:52Z</updated>
+    <link href="https://arxiv.org/abs/2305.14483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have exhibited remarkable performance across various natural language processing (NLP) tasks. However, fine-tuning these models often necessitates substantial supervision, which can be expensive and time-consuming to obtain. This paper introduces a novel unsupervised method called LanguageModel Self-Improvement by Reinforcement Learning Contemplation (SIRLC) that improves LLMs without reliance on external labels. Our approach is grounded in the observation that it is simpler for language models to assess text quality than to generate text. Building on this insight, SIRLC assigns LLMs dual roles as both student and teacher. As a student, the LLM generates answers to unlabeled questions, while as a teacher, it evaluates the generated text and assigns scores accordingly. The model parameters are updated using reinforcement learning to maximize the evaluation score. We demonstrate that SIRLC can be applied to various NLP tasks, such as reasoning problems, text generation, and machine translation. Our experiments show that SIRLC effectively improves LLM performance without external supervision, resulting in a 5.6% increase in answering accuracy for reasoning tasks and a rise in BERTScore from 0.82 to 0.86 for translation tasks. Furthermore, SIRLC can be applied to models of different sizes, showcasing its broad applicability.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T19:25:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jing-Cheng Pang</name>
+    </author>
+    <author>
+      <name>Pengyuan Wang</name>
+    </author>
+    <author>
+      <name>Kaiyuan Li</name>
+    </author>
+    <author>
+      <name>Xiong-Hui Chen</name>
+    </author>
+    <author>
+      <name>Jiacheng Xu</name>
+    </author>
+    <author>
+      <name>Zongzhang Zhang</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+  </entry>
+</feed>

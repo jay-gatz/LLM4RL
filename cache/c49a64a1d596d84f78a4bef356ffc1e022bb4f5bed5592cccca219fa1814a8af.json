@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z+jrMpYqABprSeW0jsqWv9i5eJE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.26020v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.26020v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.26020v1</id>
+    <title>PORTool: Tool-Use LLM Training with Rewarded Tree</title>
+    <updated>2025-10-29T23:28:53Z</updated>
+    <link href="https://arxiv.org/abs/2510.26020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.26020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current tool-use large language models (LLMs) are trained on static datasets, enabling them to interact with external tools and perform multi-step, tool-integrated reasoning, which produces tool-call trajectories. However, these models imitate how a query is resolved in a generic tool-call routine, thereby failing to explore possible solutions and demonstrating limited performance in an evolved, dynamic tool-call environment. In this work, we propose PORTool, a reinforcement learning (RL) method that encourages a tool-use LLM to explore various trajectories yielding the correct answer. Specifically, this method starts with generating multiple rollouts for a given query, and some of them share the first few tool-call steps, thereby forming a tree-like structure. Next, we assign rewards to each step, based on its ability to produce a correct answer and make successful tool calls. A shared step across different trajectories receives the same reward, while different steps under the same fork receive different rewards. Finally, these step-wise rewards are used to calculate fork-relative advantages, blended with trajectory-relative advantages, to train the LLM for tool use. The experiments utilize 17 tools to address user queries, covering both time-sensitive and time-invariant topics. We conduct ablation studies to systematically justify the necessity and the design robustness of step-wise rewards. Furthermore, we compare the proposed PORTool with other training approaches and demonstrate significant improvements in final accuracy and the number of tool-call steps.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T23:28:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Feijie Wu</name>
+    </author>
+    <author>
+      <name>Weiwu Zhu</name>
+    </author>
+    <author>
+      <name>Yuxiang Zhang</name>
+    </author>
+    <author>
+      <name>Soumya Chatterjee</name>
+    </author>
+    <author>
+      <name>Jiarong Zhu</name>
+    </author>
+    <author>
+      <name>Fan Mo</name>
+    </author>
+    <author>
+      <name>Rodin Luo</name>
+    </author>
+    <author>
+      <name>Jing Gao</name>
+    </author>
+  </entry>
+</feed>

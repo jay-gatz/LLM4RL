@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fjKldHSttee3MvYIPD5WtsZmlOc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.08942v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.08942v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.08942v2</id>
+    <title>AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories</title>
+    <updated>2025-10-06T15:46:30Z</updated>
+    <link href="https://arxiv.org/abs/2504.08942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.08942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web agents enable users to perform tasks on web browsers through natural language interaction. Evaluating web agents trajectories is an important problem, since it helps us determine whether the agent successfully completed the tasks. Rule-based methods are widely used for this purpose, but they are challenging to extend to new tasks and may not always recognize successful trajectories. We may achieve higher accuracy through human evaluation, but the process would be substantially slower and more expensive. Automatic evaluations with LLMs may avoid the challenges of designing new rules and manually annotating trajectories, enabling faster and cost-effective evaluation. However, it is unclear how effective they are at evaluating web agents. To this end, we propose AgentRewardBench, the first benchmark to assess the effectiveness of LLM judges for evaluating web agents. AgentRewardBench contains 1302 trajectories across 5 benchmarks and 4 LLMs. Each trajectory in AgentRewardBench is reviewed by an expert, who answers questions pertaining to the success, side effects, and repetitiveness of the agent. Using our benchmark, we evaluate 12 LLM judges and find that no single LLM excels across all benchmarks. We also find that the rule-based evaluation used by common benchmarks tends to underreport the success rate of web agents, highlighting a key weakness of rule-based evaluation and the need to develop more flexible automatic evaluations. We release the benchmark at: https://agent-reward-bench.github.io</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-11T19:49:22Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xing Han Lù</name>
+    </author>
+    <author>
+      <name>Amirhossein Kazemnejad</name>
+    </author>
+    <author>
+      <name>Nicholas Meade</name>
+    </author>
+    <author>
+      <name>Arkil Patel</name>
+    </author>
+    <author>
+      <name>Dongchan Shin</name>
+    </author>
+    <author>
+      <name>Alejandra Zambrano</name>
+    </author>
+    <author>
+      <name>Karolina Stańczak</name>
+    </author>
+    <author>
+      <name>Peter Shaw</name>
+    </author>
+    <author>
+      <name>Christopher J. Pal</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+  </entry>
+</feed>

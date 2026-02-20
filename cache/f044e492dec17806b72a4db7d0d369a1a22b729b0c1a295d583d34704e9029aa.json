@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PNcns3bWpgSAO8VrlOgvN7u1YV0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02873v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02873v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02873v1</id>
+    <title>ViThinker: Active Vision-Language Reasoning via Dynamic Perceptual Querying</title>
+    <updated>2026-02-02T22:29:57Z</updated>
+    <link href="https://arxiv.org/abs/2602.02873v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02873v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-Thought (CoT) reasoning excels in language models but struggles in vision-language models due to premature visual-to-text conversion that discards continuous information such as geometry and spatial layout. While recent methods enhance CoT through static enumeration or attention-based selection, they remain passive, i.e., processing pre-computed inputs rather than actively seeking task-relevant details. Inspired by human active perception, we introduce ViThinker, a framework that enables vision-language models to autonomously generate decision (query) tokens triggering the synthesis of expert-aligned visual features on demand. ViThinker internalizes vision-expert capabilities during training, performing generative mental simulation during inference without external tool calls. Through a two-stage curriculum: first distilling frozen experts into model parameters, then learning task-driven querying via sparsity penalties, i.e., ViThinker discovers minimal sufficient perception for each reasoning step. Evaluations across vision-centric benchmarks demonstrate consistent improvements, validating that active query generation outperforms passive approaches in both perceptual grounding and reasoning accuracy.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T22:29:57Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Weihang You</name>
+    </author>
+    <author>
+      <name>Qingchan Zhu</name>
+    </author>
+    <author>
+      <name>David Liu</name>
+    </author>
+    <author>
+      <name>Yi Pan</name>
+    </author>
+    <author>
+      <name>Geng Yuan</name>
+    </author>
+    <author>
+      <name>Hanqi Jiang</name>
+    </author>
+  </entry>
+</feed>

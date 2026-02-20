@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fGNutLQx2s7RWVM2U+vS5UUrC8A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.13945v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.13945v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13945v1</id>
+    <title>FANTAstic SEquences and Where to Find Them: Faithful and Efficient API Call Generation through State-tracked Constrained Decoding and Reranking</title>
+    <updated>2024-07-18T23:44:02Z</updated>
+    <link href="https://arxiv.org/abs/2407.13945v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13945v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>API call generation is the cornerstone of large language models' tool-using ability that provides access to the larger world. However, existing supervised and in-context learning approaches suffer from high training costs, poor data efficiency, and generated API calls that can be unfaithful to the API documentation and the user's request. To address these limitations, we propose an output-side optimization approach called FANTASE. Two of the unique contributions of FANTASE are its State-Tracked Constrained Decoding (SCD) and Reranking components. SCD dynamically incorporates appropriate API constraints in the form of Token Search Trie for efficient and guaranteed generation faithfulness with respect to the API documentation. The Reranking component efficiently brings in the supervised signal by leveraging a lightweight model as the discriminator to rerank the beam-searched candidate generations of the large language model. We demonstrate the superior performance of FANTASE in API call generation accuracy, inference efficiency, and context efficiency with DSTC8 and API Bank datasets.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-18T23:44:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhuoer Wang</name>
+    </author>
+    <author>
+      <name>Leonardo F. R. Ribeiro</name>
+    </author>
+    <author>
+      <name>Alexandros Papangelis</name>
+    </author>
+    <author>
+      <name>Rohan Mukherjee</name>
+    </author>
+    <author>
+      <name>Tzu-Yen Wang</name>
+    </author>
+    <author>
+      <name>Xinyan Zhao</name>
+    </author>
+    <author>
+      <name>Arijit Biswas</name>
+    </author>
+    <author>
+      <name>James Caverlee</name>
+    </author>
+    <author>
+      <name>Angeliki Metallinou</name>
+    </author>
+  </entry>
+</feed>

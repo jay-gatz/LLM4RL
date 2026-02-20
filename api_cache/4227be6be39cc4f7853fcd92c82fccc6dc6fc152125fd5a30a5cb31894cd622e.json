@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hff8qIvPp0lbx5ShTg4m7LrUPK0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.02445v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.02445v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02445v1</id>
+    <title>When Refusals Fail: Unstable Safety Mechanisms in Long-Context LLM Agents</title>
+    <updated>2025-12-02T06:12:02Z</updated>
+    <link href="https://arxiv.org/abs/2512.02445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving complex or long-horizon problems often requires large language models (LLMs) to use external tools and operate over a significantly longer context window. New LLMs enable longer context windows and support tool calling capabilities. Prior works have focused mainly on evaluation of LLMs on long-context prompts, leaving agentic setup relatively unexplored, both from capability and safety perspectives. Our work addresses this gap. We find that LLM agents could be sensitive to length, type, and placement of the context, exhibiting unexpected and inconsistent shifts in task performance and in refusals to execute harmful requests. Models with 1M-2M token context windows show severe degradation already at 100K tokens, with performance drops exceeding 50\% for both benign and harmful tasks. Refusal rates shift unpredictably: GPT-4.1-nano increases from $\sim$5\% to $\sim$40\% while Grok 4 Fast decreases from $\sim$80\% to $\sim$10\% at 200K tokens. Our work shows potential safety issues with agents operating on longer context and opens additional questions on the current metrics and paradigm for evaluating LLM agent safety on long multi-step tasks. In particular, our results on LLM agents reveal a notable divergence in both capability and safety performance compared to prior evaluations of LLMs on similar criteria.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T06:12:02Z</published>
+    <arxiv:comment>12 pages, 11 figures. Accepted at AAAI 2026 TrustAgent Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tsimur Hadeliya</name>
+    </author>
+    <author>
+      <name>Mohammad Ali Jauhar</name>
+    </author>
+    <author>
+      <name>Nidhi Sakpal</name>
+    </author>
+    <author>
+      <name>Diogo Cruz</name>
+    </author>
+  </entry>
+</feed>

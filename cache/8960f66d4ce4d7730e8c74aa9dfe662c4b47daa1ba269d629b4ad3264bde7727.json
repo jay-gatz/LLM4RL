@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/76iM01bQOFL6ghp+uswEknRX2Ms</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.02289v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.02289v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02289v3</id>
+    <title>Multi-Objective Agentic Rewrites for Unstructured Data Processing</title>
+    <updated>2026-01-09T05:06:26Z</updated>
+    <link href="https://arxiv.org/abs/2512.02289v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02289v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One year ago, we open-sourced DocETL, a declarative system for LLM-powered data processing that, as of November 2025, has 3.2K GitHub stars and users across domains (e.g., journalism, law, medicine, policy, finance, and urban planning). In DocETL, users build pipelines by composing operators described in natural language, also known as semantic operators, with an LLM executing each operator's logic. However, due to complexity in the operator or the data it operates on, LLMs often give inaccurate results. To address this challenge, DocETL introduced rewrite directives, or abstract rules that guide LLM agents in rewriting pipelines by decomposing operators or data. For example, decomposing a single filter("is this email sent from an executive and discussing fraud?") into the conjunction of two separate semantic filters may improve accuracy. However, DocETL only optimizes for accuracy, not cost. How do we optimize for both?
+  We present MOAR (Multi-Objective Agentic Rewrites), a new optimizer for DocETL. To target cost optimization, we introduce two new categories of directives and extend all three existing categories with new ones, bringing the total to over 30 directives -- more than doubling what DocETL originally had. Moreover, since operators can interact with each other unpredictably due to LLM behavior, optimizing operators or sub-pipelines individually can yield suboptimal overall plans. Recognizing this, we design a new global search algorithm that explores rewrites in the context of entire pipelines. Since the space of rewrites is infinite -- pipelines can be rewritten in many ways, and each rewritten pipeline can itself be rewritten -- our algorithm adapts a multi-armed bandit framework to prioritize which pipelines to rewrite. Across six workloads, MOAR achieves 27% higher accuracy than ABACUS, the next-best optimizer, while matching its best accuracy at 55% of its cost.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T00:08:24Z</published>
+    <arxiv:comment>22 pages, 6 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Lindsey Linxi Wei</name>
+    </author>
+    <author>
+      <name>Shreya Shankar</name>
+    </author>
+    <author>
+      <name>Sepanta Zeighami</name>
+    </author>
+    <author>
+      <name>Yeounoh Chung</name>
+    </author>
+    <author>
+      <name>Fatma Ozcan</name>
+    </author>
+    <author>
+      <name>Aditya G. Parameswaran</name>
+    </author>
+  </entry>
+</feed>

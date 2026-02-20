@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iNKKYzAM8QIJTbiOH0evqLS1pfI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.17419&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.17419" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17419v6</id>
+    <title>From System 1 to System 2: A Survey of Reasoning Large Language Models</title>
+    <updated>2025-06-25T02:24:46Z</updated>
+    <link href="https://arxiv.org/abs/2502.17419v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17419v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 thinking. Recently, reasoning LLMs like OpenAI's o1/o3 and DeepSeek's R1 have demonstrated expert-level performance in fields such as mathematics and coding, closely mimicking the deliberate reasoning of System 2 and showcasing human-like cognitive abilities. This survey begins with a brief overview of the progress in foundational LLMs and the early development of System 2 technologies, exploring how their combination has paved the way for reasoning LLMs. Next, we discuss how to construct reasoning LLMs, analyzing their features, the core methods enabling advanced reasoning, and the evolution of various reasoning LLMs. Additionally, we provide an overview of reasoning benchmarks, offering an in-depth comparison of the performance of representative reasoning LLMs. Finally, we explore promising directions for advancing reasoning LLMs and maintain a real-time \href{https://github.com/zzli2022/Awesome-Slow-Reason-System}{GitHub Repository} to track the latest developments. We hope this survey will serve as a valuable resource to inspire innovation and drive progress in this rapidly evolving field.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T18:50:52Z</published>
+    <arxiv:comment>Slow-thinking, Large Language Models, Human-like Reasoning, Decision Making in AI, AGI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhong-Zhi Li</name>
+    </author>
+    <author>
+      <name>Duzhen Zhang</name>
+    </author>
+    <author>
+      <name>Ming-Liang Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxin Zhang</name>
+    </author>
+    <author>
+      <name>Zengyan Liu</name>
+    </author>
+    <author>
+      <name>Yuxuan Yao</name>
+    </author>
+    <author>
+      <name>Haotian Xu</name>
+    </author>
+    <author>
+      <name>Junhao Zheng</name>
+    </author>
+    <author>
+      <name>Pei-Jie Wang</name>
+    </author>
+    <author>
+      <name>Xiuyi Chen</name>
+    </author>
+    <author>
+      <name>Yingying Zhang</name>
+    </author>
+    <author>
+      <name>Fei Yin</name>
+    </author>
+    <author>
+      <name>Jiahua Dong</name>
+    </author>
+    <author>
+      <name>Zhiwei Li</name>
+    </author>
+    <author>
+      <name>Bao-Long Bi</name>
+    </author>
+    <author>
+      <name>Ling-Rui Mei</name>
+    </author>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Xiao Liang</name>
+    </author>
+    <author>
+      <name>Zhijiang Guo</name>
+    </author>
+    <author>
+      <name>Le Song</name>
+    </author>
+    <author>
+      <name>Cheng-Lin Liu</name>
+    </author>
+  </entry>
+</feed>

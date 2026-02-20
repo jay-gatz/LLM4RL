@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Pw7WbhgExzxb8jPQQ6opsOfG3zw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.13232v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.13232v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.13232v2</id>
+    <title>Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation</title>
+    <updated>2025-03-29T08:59:09Z</updated>
+    <link href="https://arxiv.org/abs/2410.13232v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.13232v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have recently gained much attention in building autonomous agents. However, the performance of current LLM-based web agents in long-horizon tasks is far from optimal, often yielding errors such as repeatedly buying a non-refundable flight ticket. By contrast, humans can avoid such an irreversible mistake, as we have an awareness of the potential outcomes (e.g., losing money) of our actions, also known as the "world model". Motivated by this, our study first starts with preliminary analyses, confirming the absence of world models in current LLMs (e.g., GPT-4o, Claude-3.5-Sonnet, etc.). Then, we present a World-model-augmented (WMA) web agent, which simulates the outcomes of its actions for better decision-making. To overcome the challenges in training LLMs as world models predicting next observations, such as repeated elements across observations and long HTML inputs, we propose a transition-focused observation abstraction, where the prediction objectives are free-form natural language descriptions exclusively highlighting important state differences between time steps. Experiments on WebArena and Mind2Web show that our world models improve agents' policy selection without training and demonstrate our agents' cost- and time-efficiency compared to recent tree-search-based agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-17T05:37:00Z</published>
+    <arxiv:comment>ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hyungjoo Chae</name>
+    </author>
+    <author>
+      <name>Namyoung Kim</name>
+    </author>
+    <author>
+      <name>Kai Tzu-iunn Ong</name>
+    </author>
+    <author>
+      <name>Minju Gwak</name>
+    </author>
+    <author>
+      <name>Gwanwoo Song</name>
+    </author>
+    <author>
+      <name>Jihoon Kim</name>
+    </author>
+    <author>
+      <name>Sunghwan Kim</name>
+    </author>
+    <author>
+      <name>Dongha Lee</name>
+    </author>
+    <author>
+      <name>Jinyoung Yeo</name>
+    </author>
+  </entry>
+</feed>

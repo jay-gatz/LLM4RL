@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dZPdL+E30N1AECQAvydFDAp63Wo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10399v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10399v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10399v1</id>
+    <title>LocoVLM: Grounding Vision and Language for Adapting Versatile Legged Locomotion Policies</title>
+    <updated>2026-02-11T01:00:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.10399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in legged locomotion learning are still dominated by the utilization of geometric representations of the environment, limiting the robot's capability to respond to higher-level semantics such as human instructions. To address this limitation, we propose a novel approach that integrates high-level commonsense reasoning from foundation models into the process of legged locomotion adaptation. Specifically, our method utilizes a pre-trained large language model to synthesize an instruction-grounded skill database tailored for legged robots. A pre-trained vision-language model is employed to extract high-level environmental semantics and ground them within the skill database, enabling real-time skill advisories for the robot. To facilitate versatile skill control, we train a style-conditioned policy capable of generating diverse and robust locomotion skills with high fidelity to specified styles. To the best of our knowledge, this is the first work to demonstrate real-time adaptation of legged locomotion using high-level reasoning from environmental semantics and instructions with instruction-following accuracy of up to 87% without the need for online query to on-the-cloud foundation models.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T01:00:18Z</published>
+    <arxiv:comment>Project page: https://locovlm.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>I Made Aswin Nahrendra</name>
+    </author>
+    <author>
+      <name>Seunghyun Lee</name>
+    </author>
+    <author>
+      <name>Dongkyu Lee</name>
+    </author>
+    <author>
+      <name>Hyun Myung</name>
+    </author>
+  </entry>
+</feed>

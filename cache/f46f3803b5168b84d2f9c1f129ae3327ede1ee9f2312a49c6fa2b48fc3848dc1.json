@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WzcwzNHVzrZBd3r1dTAumLnDBG0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15650v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15650v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15650v1</id>
+    <title>Concept-Enhanced Multimodal RAG: Towards Interpretable and Accurate Radiology Report Generation</title>
+    <updated>2026-02-17T15:18:07Z</updated>
+    <link href="https://arxiv.org/abs/2602.15650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radiology Report Generation (RRG) through Vision-Language Models (VLMs) promises to reduce documentation burden, improve reporting consistency, and accelerate clinical workflows. However, their clinical adoption remains limited by the lack of interpretability and the tendency to hallucinate findings misaligned with imaging evidence. Existing research typically treats interpretability and accuracy as separate objectives, with concept-based explainability techniques focusing primarily on transparency, while Retrieval-Augmented Generation (RAG) methods targeting factual grounding through external retrieval. We present Concept-Enhanced Multimodal RAG (CEMRAG), a unified framework that decomposes visual representations into interpretable clinical concepts and integrates them with multimodal RAG. This approach exploits enriched contextual prompts for RRG, improving both interpretability and factual accuracy. Experiments on MIMIC-CXR and IU X-Ray across multiple VLM architectures, training regimes, and retrieval configurations demonstrate consistent improvements over both conventional RAG and concept-only baselines on clinical accuracy metrics and standard NLP measures. These results challenge the assumed trade-off between interpretability and performance, showing that transparent visual concepts can enhance rather than compromise diagnostic accuracy in medical VLMs. Our modular design decomposes interpretability into visual transparency and structured language model conditioning, providing a principled pathway toward clinically trustworthy AI-assisted radiology.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:18:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Marco Salmè</name>
+    </author>
+    <author>
+      <name>Federico Siciliano</name>
+    </author>
+    <author>
+      <name>Fabrizio Silvestri</name>
+    </author>
+    <author>
+      <name>Paolo Soda</name>
+    </author>
+    <author>
+      <name>Rosa Sicilia</name>
+    </author>
+    <author>
+      <name>Valerio Guarrasi</name>
+    </author>
+  </entry>
+</feed>

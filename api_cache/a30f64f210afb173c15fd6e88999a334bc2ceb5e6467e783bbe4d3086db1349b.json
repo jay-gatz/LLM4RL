@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4VXdNE8xyG4oqV0yf56RAP4JOqA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07629v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07629v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07629v2</id>
+    <title>LCLA: Language-Conditioned Latent Alignment for Vision-Language Navigation</title>
+    <updated>2026-02-10T02:40:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.07629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose LCLA (Language-Conditioned Latent Alignment), a framework for vision-language navigation that learns modular perception-action interfaces by aligning sensory observations to a latent representation of an expert policy. The expert is first trained with privileged state information, inducing a latent space sufficient for control, after which its latent interface and action head are frozen. A lightweight adapter is then trained to map raw visual-language observations, via a frozen vision-language model, into the expert's latent space, reducing the problem of visuomotor learning to supervised latent alignment rather than end-to-end policy optimization. This decoupling enforces a stable contract between perception and control, enabling expert behavior to be reused across sensing modalities and environmental variations. We instantiate LCLA and evaluate it on a vision-language indoor navigation task, where aligned latent spaces yield strong in-distribution performance and robust zero-shot generalization to unseen environments, lighting conditions, and viewpoints while remaining lightweight at inference time.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T17:20:43Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Nitesh Subedi</name>
+    </author>
+    <author>
+      <name>Adam Haroon</name>
+    </author>
+    <author>
+      <name>Samuel Tetteh</name>
+    </author>
+    <author>
+      <name>Prajwal Koirala</name>
+    </author>
+    <author>
+      <name>Cody Fleming</name>
+    </author>
+    <author>
+      <name>Soumik Sarkar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vy8fxGsS9XQqJKcvVwTy/i+vQcw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.11221v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.11221v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11221v1</id>
+    <title>WebRouter: Query-specific Router via Variational Information Bottleneck for Cost-sensitive Web Agent</title>
+    <updated>2025-10-13T10:05:43Z</updated>
+    <link href="https://arxiv.org/abs/2510.11221v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11221v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-brained web agents offer powerful capabilities for web automation but face a critical cost-performance trade-off. The challenge is amplified by web agents' inherently complex prompts that include goals, action histories, and environmental states, leading to degraded LLM ensemble performance. To address this, we introduce WebRouter, a novel query-specific router trained from an information-theoretic perspective. Our core contribution is a cost-aware Variational Information Bottleneck (ca-VIB) objective, which learns a compressed representation of the input prompt while explicitly penalizing the expected operational cost. Experiments on five real-world websites from the WebVoyager benchmark show that WebRouter reduces operational costs by a striking 87.8\% compared to a GPT-4o baseline, while incurring only a 3.8\% accuracy drop.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T10:05:43Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <author>
+      <name>Jinlong Hu</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Junfeng Liu</name>
+    </author>
+    <author>
+      <name>Xuejun Liu</name>
+    </author>
+  </entry>
+</feed>

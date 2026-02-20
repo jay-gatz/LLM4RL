@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4q/ExVzpGv8Ykh2GZbdUe1fA5x8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14228&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:55:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14228" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14228v1</id>
+    <title>Attention-Based Offline Reinforcement Learning and Clustering for Interpretable Sepsis Treatment</title>
+    <updated>2026-01-20T18:41:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.14228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sepsis remains one of the leading causes of mortality in intensive care units, where timely and accurate treatment decisions can significantly impact patient outcomes. In this work, we propose an interpretable decision support framework. Our system integrates four core components: (1) a clustering-based stratification module that categorizes patients into low, intermediate, and high-risk groups upon ICU admission, using clustering with statistical validation; (2) a synthetic data augmentation pipeline leveraging variational autoencoders (VAE) and diffusion models to enrich underrepresented trajectories such as fluid or vasopressor administration; (3) an offline reinforcement learning (RL) agent trained using Advantage Weighted Regression (AWR) with a lightweight attention encoder and supported by an ensemble models for conservative, safety-aware treatment recommendations; and (4) a rationale generation module powered by a multi-modal large language model (LLM), which produces natural-language justifications grounded in clinical context and retrieved expert knowledge. Evaluated on the MIMIC-III and eICU datasets, our approach achieves high treatment accuracy while providing clinicians with interpretable and robust policy recommendations.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T18:41:44Z</published>
+    <arxiv:comment>8 pages, 6 figures, Conference: IEEE International Conference on Machine Learning and Applications 2025 (ICMLA 2025): https://www.icmla-conference.org/icmla25/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Punit Kumar</name>
+    </author>
+    <author>
+      <name>Vaibhav Saran</name>
+    </author>
+    <author>
+      <name>Divyesh Patel</name>
+    </author>
+    <author>
+      <name>Nitin Kulkarni</name>
+    </author>
+    <author>
+      <name>Alina Vereshchaka</name>
+    </author>
+  </entry>
+</feed>

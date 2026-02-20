@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Lgv8Zd9beAn6LYPDVZN7jy5FuY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00453v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00453v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00453v1</id>
+    <title>FedMOA: Federated GRPO for Personalized Reasoning LLMs under Heterogeneous Rewards</title>
+    <updated>2026-01-31T02:00:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.00453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Group Relative Policy Optimization (GRPO) has recently emerged as an effective approach for improving the reasoning capabilities of large language models through online multi-objective reinforcement learning. While personalization on private data is increasingly vital, traditional Reinforcement Learning (RL) alignment is often memory-prohibitive for on-device federated learning due to the overhead of maintaining a separate critic network. GRPO's critic-free architecture enables feasible on-device training, yet transitioning to a federated setting introduces systemic challenges: heterogeneous reward definitions, imbalanced multi-objective optimization, and high training costs. We propose FedMOA, a federated GRPO framework for multi-objective alignment under heterogeneous rewards. FedMOA stabilizes local training through an online adaptive weighting mechanism via hypergradient descent, which prioritizes primary reasoning as auxiliary objectives saturate. On the server side, it utilizes a task- and accuracy-aware aggregation strategy to prioritize high-quality updates. Experiments on mathematical reasoning and code generation benchmarks demonstrate that FedMOA consistently outperforms federated averaging, achieving accuracy gains of up to 2.2% while improving global performance, personalization, and multi-objective balance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T02:00:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziyao Wang</name>
+    </author>
+    <author>
+      <name>Daeun Jung</name>
+    </author>
+    <author>
+      <name>Yexiao He</name>
+    </author>
+    <author>
+      <name>Guoheng Sun</name>
+    </author>
+    <author>
+      <name>Zheyu Shen</name>
+    </author>
+    <author>
+      <name>Myungjin Lee</name>
+    </author>
+    <author>
+      <name>Ang Li</name>
+    </author>
+  </entry>
+</feed>

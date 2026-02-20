@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YYJCjM0eU/pz15H892G1lQA/WlU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01672v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01672v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01672v1</id>
+    <title>Scaling Search-Augmented LLM Reasoning via Adaptive Information Control</title>
+    <updated>2026-02-02T05:40:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.01672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Search-augmented reasoning agents interleave multi-step reasoning with external information retrieval, but uncontrolled retrieval often leads to redundant evidence, context saturation, and unstable learning. Existing approaches rely on outcome-based reinforcement learning (RL), which provides limited guidance for regulating information acquisition. We propose DeepControl, a framework for adaptive information control based on a formal notion of information utility, which measures the marginal value of retrieved evidence under a given reasoning state. Building on this utility, we introduce retrieval continuation and granularity control mechanisms that selectively regulate when to continue and stop retrieval, and how much information to expand. An annealed control strategy enables the agent to internalize effective information acquisition behaviors during training. Extensive experiments across seven benchmarks demonstrate that our method consistently outperforms strong baselines. In particular, our approach achieves average performance improvements of 9.4% and 8.6% on Qwen2.5-7B and Qwen2.5-3B, respectively, over strong outcome-based RL baselines, and consistently outperforms both retrieval-free and retrieval-based reasoning methods without explicit information control. These results highlight the importance of adaptive information control for scaling search-augmented reasoning agents to complex, real-world information environments.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T05:40:38Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Siheng Xiong</name>
+    </author>
+    <author>
+      <name>Oguzhan Gungordu</name>
+    </author>
+    <author>
+      <name>Blair Johnson</name>
+    </author>
+    <author>
+      <name>James C. Kerce</name>
+    </author>
+    <author>
+      <name>Faramarz Fekri</name>
+    </author>
+  </entry>
+</feed>

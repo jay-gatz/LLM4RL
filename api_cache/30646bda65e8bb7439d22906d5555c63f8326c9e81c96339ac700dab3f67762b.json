@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SmG+h58fouoNTSu5t5HcQqF4n0s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.00672v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.00672v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.00672v1</id>
+    <title>ML-Tool-Bench: Tool-Augmented Planning for ML Tasks</title>
+    <updated>2025-11-29T23:59:40Z</updated>
+    <link href="https://arxiv.org/abs/2512.00672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.00672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of autonomous machine learning (ML) agents capable of end-to-end data science workflows represents a significant frontier in artificial intelligence. These agents must orchestrate complex sequences of data analysis, feature engineering, model selection, and hyperparameter optimization, tasks that require sophisticated planning and iteration. While recent work on building ML agents has explored using large language models (LLMs) for direct code generation, tool-augmented approaches offer greater modularity and reliability. However, existing tool-use benchmarks focus primarily on task-specific tool selection or argument extraction for tool invocation, failing to evaluate the sophisticated planning capabilities required for ML Agents. In this work, we introduce a comprehensive benchmark for evaluating tool-augmented ML agents using a curated set of 61 specialized tools and 15 tabular ML challenges from Kaggle. Our benchmark goes beyond traditional tool-use evaluation by incorporating an in-memory named object management, allowing agents to flexibly name, save, and retrieve intermediate results throughout the workflows. We demonstrate that standard ReAct-style approaches struggle to generate valid tool sequences for complex ML pipelines, and that tree search methods with LLM-based evaluation underperform due to inconsistent state scoring. To address these limitations, we propose two simple approaches: 1) using shaped deterministic rewards with structured textual feedback, and 2) decomposing the original problem into a sequence of sub-tasks, which significantly improves trajectory validity and task performance. Using GPT-4o, our approach improves over ReAct by 16.52 percentile positions, taking the median across all Kaggle challenges. We believe our work provides a foundation for developing more capable tool-augmented planning ML agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-29T23:59:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yaswanth Chittepu</name>
+    </author>
+    <author>
+      <name>Raghavendra Addanki</name>
+    </author>
+    <author>
+      <name>Tung Mai</name>
+    </author>
+    <author>
+      <name>Anup Rao</name>
+    </author>
+    <author>
+      <name>Branislav Kveton</name>
+    </author>
+  </entry>
+</feed>

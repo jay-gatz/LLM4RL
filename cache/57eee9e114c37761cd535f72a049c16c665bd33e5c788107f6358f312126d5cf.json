@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rJPM086yNnndAlXohgV24iAkTmU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2508.14323v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:38:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2508.14323v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.14323v2</id>
+    <title>Beyond Semantic Similarity: Reducing Unnecessary API Calls via Behavior-Aligned Retriever</title>
+    <updated>2025-08-25T04:46:11Z</updated>
+    <link href="https://arxiv.org/abs/2508.14323v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.14323v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-augmented large language models (LLMs) leverage external functions to extend their capabilities, but inaccurate function calls can lead to inefficiencies and increased costs.Existing methods address this challenge by fine-tuning LLMs or using demonstration-based prompting, yet they often suffer from high training overhead and fail to account for inconsistent demonstration samples, which misguide the model's invocation behavior. In this paper, we trained a behavior-aligned retriever (BAR), which provides behaviorally consistent demonstrations to help LLMs make more accurate tool-using decisions. To train the BAR, we construct a corpus including different function-calling behaviors, i.e., calling or non-calling.We use the contrastive learning framework to train the BAR with customized positive/negative pairs and a dual-negative contrastive loss, ensuring robust retrieval of behaviorally consistent examples.Experiments demonstrate that our approach significantly reduces erroneous function calls while maintaining high task performance, offering a cost-effective and efficient solution for tool-augmented LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-20T00:35:50Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yixin Chen</name>
+    </author>
+    <author>
+      <name>Ying Xiong</name>
+    </author>
+    <author>
+      <name>Shangyu Wu</name>
+    </author>
+    <author>
+      <name>Yufei Cui</name>
+    </author>
+    <author>
+      <name>Xue Liu</name>
+    </author>
+    <author>
+      <name>Nan Guan</name>
+    </author>
+    <author>
+      <name>Chun Jason Xue</name>
+    </author>
+  </entry>
+</feed>

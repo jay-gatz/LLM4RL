@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pc7cgdHGORmAbLVfldDZV7X9XA0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13670v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13670v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13670v1</id>
+    <title>Advancing Analytic Class-Incremental Learning through Vision-Language Calibration</title>
+    <updated>2026-02-14T08:32:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.13670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Class-incremental learning (CIL) with pre-trained models (PTMs) faces a critical trade-off between efficient adaptation and long-term stability. While analytic learning enables rapid, recursive closed-form updates, its efficacy is often compromised by accumulated errors and feature incompatibility. In this paper, we first conduct a systematic study to dissect the failure modes of PTM-based analytic CIL, identifying representation rigidity as the primary bottleneck. Motivated by these insights, we propose \textbf{VILA}, a novel dual-branch framework that advances analytic CIL via a two-level vision-language calibration strategy. Specifically, we coherently fuse plastic, task-adapted features with a frozen, universal semantic anchor at the feature level through geometric calibration, and leverage cross-modal priors at the decision level to rectify prediction bias. This confluence maintains analytic-learning's extreme efficiency while overcoming its inherent brittleness. Extensive experiments across eight benchmarks demonstrate that VILA consistently yields superior performance, particularly in fine-grained and long-sequence scenarios. Our framework harmonizes high-fidelity prediction with the simplicity of analytic learning. Our code is available at https://github.com/byzhaoAI/VILA</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T08:32:51Z</published>
+    <arxiv:comment>14 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Binyu Zhao</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xingrui Yu</name>
+    </author>
+    <author>
+      <name>Zhaonian Zou</name>
+    </author>
+    <author>
+      <name>Ivor Tsang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HnQom4RamIEDidjWU2k8u1hTlAo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10717v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10717v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10717v1</id>
+    <title>Say, Dream, and Act: Learning Video World Models for Instruction-Driven Robot Manipulation</title>
+    <updated>2026-02-11T10:23:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.10717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic manipulation requires anticipating how the environment evolves in response to actions, yet most existing systems lack this predictive capability, often resulting in errors and inefficiency. While Vision-Language Models (VLMs) provide high-level guidance, they cannot explicitly forecast future states, and existing world models either predict only short horizons or produce spatially inconsistent frames. To address these challenges, we propose a framework for fast and predictive video-conditioned action. Our approach first selects and adapts a robust video generation model to ensure reliable future predictions, then applies adversarial distillation for fast, few-step video generation, and finally trains an action model that leverages both generated videos and real observations to correct spatial errors. Extensive experiments show that our method produces temporally coherent, spatially accurate video predictions that directly support precise manipulation, achieving significant improvements in embodiment consistency, spatial referring ability, and task completion over existing baselines. Codes &amp; Models will be released.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T10:23:52Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Songen Gu</name>
+    </author>
+    <author>
+      <name>Yunuo Cai</name>
+    </author>
+    <author>
+      <name>Tianyu Wang</name>
+    </author>
+    <author>
+      <name>Simo Wu</name>
+    </author>
+    <author>
+      <name>Yanwei Fu</name>
+    </author>
+  </entry>
+</feed>

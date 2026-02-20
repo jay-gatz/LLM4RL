@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2oWol0FlLaD9frrOPaAD9ao5/uA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.15172v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.15172v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.15172v1</id>
+    <title>Skills Made to Order: Efficient Acquisition of Robot Cooking Skills Guided by Multiple Forms of Internet Data</title>
+    <updated>2024-09-23T16:25:44Z</updated>
+    <link href="https://arxiv.org/abs/2409.15172v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.15172v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study explores the utility of various internet data sources to select among a set of template robot behaviors to perform skills. Learning contact-rich skills involving tool use from internet data sources has typically been challenging due to the lack of physical information such as contact existence, location, areas, and force in this data. Prior works have generally used internet data and foundation models trained on this data to generate low-level robot behavior. We hypothesize that these data and models may be better suited to selecting among a set of basic robot behaviors to perform these contact-rich skills. We explore three methods of template selection: querying large language models, comparing video of robot execution to retrieved human video using features from a pretrained video encoder common in prior work, and performing the same comparison using features from an optic flow encoder trained on internet data. Our results show that LLMs are surprisingly capable template selectors despite their lack of visual information, optical flow encoding significantly outperforms video encoders trained with an order of magnitude more data, and important synergies exist between various forms of internet data for template selection. By exploiting these synergies, we create a template selector using multiple forms of internet data that achieves a 79\% success rate on a set of 16 different cooking skills involving tool-use.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-23T16:25:44Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Mrinal Verghese</name>
+    </author>
+    <author>
+      <name>Christopher Atkeson</name>
+    </author>
+  </entry>
+</feed>

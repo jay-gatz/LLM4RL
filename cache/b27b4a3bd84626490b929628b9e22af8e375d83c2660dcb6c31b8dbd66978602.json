@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K5MeoBqq64bYms0yBt3yVpf7P8k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2306.00622&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2306.00622" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.00622v1</id>
+    <title>ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing</title>
+    <updated>2023-06-01T12:45:53Z</updated>
+    <link href="https://arxiv.org/abs/2306.00622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.00622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given the rapid ascent of large language models (LLMs), we study the question: (How) can large language models help in reviewing of scientific papers or proposals? We first conduct some pilot studies where we find that (i) GPT-4 outperforms other LLMs (Bard, Vicuna, Koala, Alpaca, LLaMa, Dolly, OpenAssistant, StableLM), and (ii) prompting with a specific question (e.g., to identify errors) outperforms prompting to simply write a review. With these insights, we study the use of LLMs (specifically, GPT-4) for three tasks:
+  1. Identifying errors: We construct 13 short computer science papers each with a deliberately inserted error, and ask the LLM to check for the correctness of these papers. We observe that the LLM finds errors in 7 of them, spanning both mathematical and conceptual errors.
+  2. Verifying checklists: We task the LLM to verify 16 closed-ended checklist questions in the respective sections of 15 NeurIPS 2022 papers. We find that across 119 {checklist question, paper} pairs, the LLM had an 86.6% accuracy.
+  3. Choosing the "better" paper: We generate 10 pairs of abstracts, deliberately designing each pair in such a way that one abstract was clearly superior than the other. The LLM, however, struggled to discern these relatively straightforward distinctions accurately, committing errors in its evaluations for 6 out of the 10 pairs.
+  Based on these experiments, we think that LLMs have a promising use as reviewing assistants for specific reviewing tasks, but not (yet) for complete evaluations of papers or proposals.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-01T12:45:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ryan Liu</name>
+    </author>
+    <author>
+      <name>Nihar B. Shah</name>
+    </author>
+  </entry>
+</feed>

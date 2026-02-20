@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pioT6CD+3YF/9rfe3EqB+VgeJgY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06391v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06391v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06391v1</id>
+    <title>POINTS-GUI-G: GUI-Grounding Journey</title>
+    <updated>2026-02-06T05:14:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.06391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid advancement of vision-language models has catalyzed the emergence of GUI agents, which hold immense potential for automating complex tasks, from online shopping to flight booking, thereby alleviating the burden of repetitive digital workflows. As a foundational capability, GUI grounding is typically established as a prerequisite for end-to-end task execution. It enables models to precisely locate interface elements, such as text and icons, to perform accurate operations like clicking and typing. Unlike prior works that fine-tune models already possessing strong spatial awareness (e.g., Qwen3-VL), we aim to master the full technical pipeline by starting from a base model with minimal grounding ability, such as POINTS-1.5. We introduce POINTS-GUI-G-8B, which achieves state-of-the-art performance with scores of 59.9 on ScreenSpot-Pro, 66.0 on OSWorld-G, 95.7 on ScreenSpot-v2, and 49.9 on UI-Vision. Our model's success is driven by three key factors: (1) Refined Data Engineering, involving the unification of diverse open-source datasets format alongside sophisticated strategies for augmentation, filtering, and difficulty grading; (2) Improved Training Strategies, including continuous fine-tuning of the vision encoder to enhance perceptual accuracy and maintaining resolution consistency between training and inference; and (3) Reinforcement Learning (RL) with Verifiable Rewards. While RL is traditionally used to bolster reasoning, we demonstrate that it significantly improves precision in the perception-intensive GUI grounding task. Furthermore, GUI grounding provides a natural advantage for RL, as rewards are easily verifiable and highly accurate.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T05:14:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhongyin Zhao</name>
+    </author>
+    <author>
+      <name>Yuan Liu</name>
+    </author>
+    <author>
+      <name>Yikun Liu</name>
+    </author>
+    <author>
+      <name>Haicheng Wang</name>
+    </author>
+    <author>
+      <name>Le Tian</name>
+    </author>
+    <author>
+      <name>Xiao Zhou</name>
+    </author>
+    <author>
+      <name>Yangxiu You</name>
+    </author>
+    <author>
+      <name>Zilin Yu</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+  </entry>
+</feed>

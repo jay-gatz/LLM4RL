@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NoKxByPC/j0iuKKqzUnfTxJHjoM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14523v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14523v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14523v1</id>
+    <title>Large Language Model-Powered Evolutionary Code Optimization on a Phylogenetic Tree</title>
+    <updated>2026-01-20T22:32:52Z</updated>
+    <link href="https://arxiv.org/abs/2601.14523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimizing scientific computing algorithms for modern GPUs is a labor-intensive and iterative process involving repeated code modification, benchmarking, and tuning across complex hardware and software stacks. Recent work has explored large language model (LLM)-assisted evolutionary methods for automated code optimization, but these approaches primarily rely on outcome-based selection and random mutation, underutilizing the rich trajectory information generated during iterative optimization. We propose PhyloEvolve, an LLM-agent system that reframes GPU-oriented algorithm optimization as an In-Context Reinforcement Learning (ICRL) problem. This formulation enables trajectory-conditioned reuse of optimization experience without model retraining. PhyloEvolve integrates Algorithm Distillation and prompt-based Decision Transformers into an iterative workflow, treating sequences of algorithm modifications and performance feedback as first-class learning signals. To organize optimization history, we introduce a phylogenetic tree representation that captures inheritance, divergence, and recombination among algorithm variants, enabling backtracking, cross-lineage transfer, and reproducibility. The system combines elite trajectory pooling, multi-island parallel exploration, and containerized execution to balance exploration and exploitation across heterogeneous hardware. We evaluate PhyloEvolve on scientific computing workloads including PDE solvers, manifold learning, and spectral graph algorithms, demonstrating consistent improvements in runtime, memory efficiency, and correctness over baseline and evolutionary methods. Code is published at: https://github.com/annihi1ation/phylo_evolve</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T22:32:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Leyi Zhao</name>
+    </author>
+    <author>
+      <name>Weijie Huang</name>
+    </author>
+    <author>
+      <name>Yitong Guo</name>
+    </author>
+    <author>
+      <name>Jiang Bian</name>
+    </author>
+    <author>
+      <name>Chenghong Wang</name>
+    </author>
+    <author>
+      <name>Xuhong Zhang</name>
+    </author>
+  </entry>
+</feed>

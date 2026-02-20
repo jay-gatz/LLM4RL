@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rh30I1Cr4ZC60QqVL9jjdt0/r+g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2408.04682v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:43:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2408.04682v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.04682v2</id>
+    <title>ToolSandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities</title>
+    <updated>2025-04-16T22:20:21Z</updated>
+    <link href="https://arxiv.org/abs/2408.04682v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.04682v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large language models (LLMs) advancements sparked a growing research interest in tool assisted LLMs solving real-world challenges, which calls for comprehensive evaluation of tool-use capabilities. While previous works focused on either evaluating over stateless web services (RESTful API), based on a single turn user prompt, or an off-policy dialog trajectory, ToolSandbox includes stateful tool execution, implicit state dependencies between tools, a built-in user simulator supporting on-policy conversational evaluation and a dynamic evaluation strategy for intermediate and final milestones over an arbitrary trajectory. We show that open source and proprietary models have a significant performance gap, and complex tasks like State Dependency, Canonicalization and Insufficient Information defined in ToolSandbox are challenging even the most capable SOTA LLMs, providing brand-new insights into tool-use LLM capabilities. ToolSandbox evaluation framework is released at https://github.com/apple/ToolSandbox</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-08T05:45:42Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiarui Lu</name>
+    </author>
+    <author>
+      <name>Thomas Holleis</name>
+    </author>
+    <author>
+      <name>Yizhe Zhang</name>
+    </author>
+    <author>
+      <name>Bernhard Aumayer</name>
+    </author>
+    <author>
+      <name>Feng Nan</name>
+    </author>
+    <author>
+      <name>Felix Bai</name>
+    </author>
+    <author>
+      <name>Shuang Ma</name>
+    </author>
+    <author>
+      <name>Shen Ma</name>
+    </author>
+    <author>
+      <name>Mengyu Li</name>
+    </author>
+    <author>
+      <name>Guoli Yin</name>
+    </author>
+    <author>
+      <name>Zirui Wang</name>
+    </author>
+    <author>
+      <name>Ruoming Pang</name>
+    </author>
+  </entry>
+</feed>

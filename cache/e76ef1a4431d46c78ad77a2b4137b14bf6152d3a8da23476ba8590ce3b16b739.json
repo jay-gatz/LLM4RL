@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1knoz3BVendO/fWyVM/SOpkVu98</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21278v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21278v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21278v1</id>
+    <title>GeoRC: A Benchmark for Geolocation Reasoning Chains</title>
+    <updated>2026-01-29T05:18:40Z</updated>
+    <link href="https://arxiv.org/abs/2601.21278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Models (VLMs) are good at recognizing the global location of a photograph -- their geolocation prediction accuracy rivals the best human experts. But many VLMs are startlingly bad at explaining which image evidence led to their prediction, even when their location prediction is correct. The reasoning chains produced by VLMs frequently hallucinate scene attributes to support their location prediction (e.g. phantom writing, imagined infrastructure, misidentified flora). In this paper, we introduce the first benchmark for geolocation reasoning chains. We focus on the global location prediction task in the popular GeoGuessr game which draws from Google Street View spanning more than 100 countries. We collaborate with expert GeoGuessr players, including the reigning world champion, to produce 800 ground truth reasoning chains for 500 query scenes. These expert reasoning chains address hundreds of different discriminative visual attributes such as license plate shape, architecture, and soil properties to name just a few. We evaluate LLM-as-a-judge and VLM-as-a-judge strategies for scoring VLM-generated reasoning chains against our expert reasoning chains and find that Qwen 3 LLM-as-a-judge correlates best with human scoring. Our benchmark reveals that while large, closed-source VLMs such as Gemini and GPT 5 rival human experts at prediction locations, they still lag behind human experts when it comes to producing auditable reasoning chains. Open weights VLMs such as Llama and Qwen catastrophically fail on our benchmark -- they perform only slightly better than a baseline in which an LLM hallucinates a reasoning chain with oracle knowledge of the photo location but no visual information at all. We believe the gap between human experts and VLMs on this task points to VLM limitations at extracting fine-grained visual attributes from high resolution images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T05:18:40Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mohit Talreja</name>
+    </author>
+    <author>
+      <name>Joshua Diao</name>
+    </author>
+    <author>
+      <name>Jim Thannikary James</name>
+    </author>
+    <author>
+      <name>Radu Casapu</name>
+    </author>
+    <author>
+      <name>Tejas Santanam</name>
+    </author>
+    <author>
+      <name>Ethan Mendes</name>
+    </author>
+    <author>
+      <name>Alan Ritter</name>
+    </author>
+    <author>
+      <name>Wei Xu</name>
+    </author>
+    <author>
+      <name>James Hays</name>
+    </author>
+  </entry>
+</feed>

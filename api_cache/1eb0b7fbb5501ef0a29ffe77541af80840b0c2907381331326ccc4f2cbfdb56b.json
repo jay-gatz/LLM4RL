@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZipWnOD0TO+8PQP6KI1CWclZ0AA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15189v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15189v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15189v1</id>
+    <title>ScrapeGraphAI-100k: A Large-Scale Dataset for LLM-Based Web Information Extraction</title>
+    <updated>2026-02-16T20:56:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.15189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of large language models for web information extraction is becoming increasingly fundamental to modern web information retrieval pipelines. However, existing datasets tend to be small, synthetic or text-only, failing to capture the structural context of the web. We introduce ScrapeGraphAI-100k, a large-scale dataset comprising real-world LLM extraction events, collected via opt-in ScrapeGraphAI telemetry during Q2 and Q3 of 2025. Starting from 9M events, we deduplicate and balance by schema to produce 93,695 examples spanning diverse domains and languages. Each instance includes Markdown content, a prompt, a JSON schema, the LLM response, and complexity/validation metadata. We characterize the datasets structural diversity and its failure modes as schema complexity increases. We also provide a fine-tuning experiment showing that a small language model (1.7B) trained on a subset narrows the gap to larger baselines (30B), underscoring the datasets utility for efficient extraction. ScrapeGraphAI-100k enables fine-tuning small models, benchmarking structured extraction, and studying schema induction for web IR indexing, and is publicly available on HuggingFace.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T20:56:59Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>William Brach</name>
+    </author>
+    <author>
+      <name>Francesco Zuppichini</name>
+    </author>
+    <author>
+      <name>Marco Vinciguerra</name>
+    </author>
+    <author>
+      <name>Lorenzo Padoan</name>
+    </author>
+  </entry>
+</feed>

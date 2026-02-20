@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fJkm2czuQqe0IZMmNLto2hC2r7k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06270v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06270v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06270v1</id>
+    <title>VowelPrompt: Hearing Speech Emotions from Text via Vowel-level Prosodic Augmentation</title>
+    <updated>2026-02-06T00:09:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.06270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Emotion recognition in speech presents a complex multimodal challenge, requiring comprehension of both linguistic content and vocal expressivity, particularly prosodic features such as fundamental frequency, intensity, and temporal dynamics. Although large language models (LLMs) have shown promise in reasoning over textual transcriptions for emotion recognition, they typically neglect fine-grained prosodic information, limiting their effectiveness and interpretability. In this work, we propose VowelPrompt, a linguistically grounded framework that augments LLM-based emotion recognition with interpretable, fine-grained vowel-level prosodic cues. Drawing on phonetic evidence that vowels serve as primary carriers of affective prosody, VowelPrompt extracts pitch-, energy-, and duration-based descriptors from time-aligned vowel segments, and converts these features into natural language descriptions for better interpretability. Such a design enables LLMs to jointly reason over lexical semantics and fine-grained prosodic variation. Moreover, we adopt a two-stage adaptation procedure comprising supervised fine-tuning (SFT) followed by Reinforcement Learning with Verifiable Reward (RLVR), implemented via Group Relative Policy Optimization (GRPO), to enhance reasoning capability, enforce structured output adherence, and improve generalization across domains and speaker variations. Extensive evaluations across diverse benchmark datasets demonstrate that VowelPrompt consistently outperforms state-of-the-art emotion recognition methods under zero-shot, fine-tuned, cross-domain, and cross-linguistic conditions, while enabling the generation of interpretable explanations that are jointly grounded in contextual semantics and fine-grained prosodic structure.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T00:09:14Z</published>
+    <arxiv:comment>Accepted to ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yancheng Wang</name>
+    </author>
+    <author>
+      <name>Osama Hanna</name>
+    </author>
+    <author>
+      <name>Ruiming Xie</name>
+    </author>
+    <author>
+      <name>Xianfeng Rui</name>
+    </author>
+    <author>
+      <name>Maohao Shen</name>
+    </author>
+    <author>
+      <name>Xuedong Zhang</name>
+    </author>
+    <author>
+      <name>Christian Fuegen</name>
+    </author>
+    <author>
+      <name>Jilong Wu</name>
+    </author>
+    <author>
+      <name>Debjyoti Paul</name>
+    </author>
+    <author>
+      <name>Arthur Guo</name>
+    </author>
+    <author>
+      <name>Zhihong Lei</name>
+    </author>
+    <author>
+      <name>Ozlem Kalinli</name>
+    </author>
+    <author>
+      <name>Qing He</name>
+    </author>
+    <author>
+      <name>Yingzhen Yang</name>
+    </author>
+  </entry>
+</feed>

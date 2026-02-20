@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KcMAyKjDjOTvvtx5vMKIIQb442o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01869v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01869v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01869v1</id>
+    <title>ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents</title>
+    <updated>2026-02-02T09:43:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.01869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-driven agents demonstrate strong performance in sequential decision-making but often rely on on-the-fly reasoning, re-deriving solutions even in recurring scenarios. This insufficient experience reuse leads to computational redundancy and execution instability. To bridge this gap, we propose ProcMEM, a framework that enables agents to autonomously learn procedural memory from interaction experiences without parameter updates. By formalizing a Skill-MDP, ProcMEM transforms passive episodic narratives into executable Skills defined by activation, execution, and termination conditions to ensure executability. To achieve reliable reusability without capability degradation, we introduce Non-Parametric PPO, which leverages semantic gradients for high-quality candidate generation and a PPO Gate for robust Skill verification. Through score-based maintenance, ProcMEM sustains compact, high-quality procedural memory. Experimental results across in-domain, cross-task, and cross-agent scenarios demonstrate that ProcMEM achieves superior reuse rates and significant performance gains with extreme memory compression. Visualized evolutionary trajectories and Skill distributions further reveal how ProcMEM transparently accumulates, refines, and reuses procedural knowledge to facilitate long-term autonomy.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T09:43:12Z</published>
+    <arxiv:comment>20 Pages, 6 Figures, 4 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qirui Mi</name>
+    </author>
+    <author>
+      <name>Zhijian Ma</name>
+    </author>
+    <author>
+      <name>Mengyue Yang</name>
+    </author>
+    <author>
+      <name>Haoxuan Li</name>
+    </author>
+    <author>
+      <name>Yisen Wang</name>
+    </author>
+    <author>
+      <name>Haifeng Zhang</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+  </entry>
+</feed>

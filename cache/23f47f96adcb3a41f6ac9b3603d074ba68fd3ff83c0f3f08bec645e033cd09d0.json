@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/38PaOmWA951XFIRpr3MVdHIZHRM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16093v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16093v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16093v1</id>
+    <title>SAMTok: Representing Any Mask with Two Words</title>
+    <updated>2026-01-22T16:44:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.16093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pixel-wise capabilities are essential for building interactive intelligent systems. However, pixel-wise multi-modal LLMs (MLLMs) remain difficult to scale due to complex region-level encoders, specialized segmentation decoders, and incompatible training objectives. To address these challenges, we present SAMTok, a discrete mask tokenizer that converts any region mask into two special tokens and reconstructs the mask using these tokens with high fidelity. By treating masks as new language tokens, SAMTok enables base MLLMs (such as the QwenVL series) to learn pixel-wise capabilities through standard next-token prediction and simple reinforcement learning, without architectural modifications and specialized loss design. SAMTok builds on SAM2 and is trained on 209M diverse masks using a mask encoder and residual vector quantizer to produce discrete, compact, and information-rich tokens. With 5M SAMTok-formatted mask understanding and generation data samples, QwenVL-SAMTok attains state-of-the-art or comparable results on region captioning, region VQA, grounded conversation, referring segmentation, scene graph parsing, and multi-round interactive segmentation. We further introduce a textual answer-matching reward that enables efficient reinforcement learning for mask generation, delivering substantial improvements on GRES and GCG benchmarks. Our results demonstrate a scalable and straightforward paradigm for equipping MLLMs with strong pixel-wise capabilities. Our code and models are available.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-22T16:44:09Z</published>
+    <arxiv:comment>27 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yikang Zhou</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Dengxian Gong</name>
+    </author>
+    <author>
+      <name>Yuanzheng Wu</name>
+    </author>
+    <author>
+      <name>Ye Tian</name>
+    </author>
+    <author>
+      <name>Haochen Wang</name>
+    </author>
+    <author>
+      <name>Haobo Yuan</name>
+    </author>
+    <author>
+      <name>Jiacong Wang</name>
+    </author>
+    <author>
+      <name>Lu Qi</name>
+    </author>
+    <author>
+      <name>Hao Fei</name>
+    </author>
+    <author>
+      <name>Anran Wang</name>
+    </author>
+    <author>
+      <name>Zhuochen Wang</name>
+    </author>
+    <author>
+      <name>Yujing Wang</name>
+    </author>
+    <author>
+      <name>Cheng Chen</name>
+    </author>
+    <author>
+      <name>Shunping Ji</name>
+    </author>
+    <author>
+      <name>Xiangtai Li</name>
+    </author>
+  </entry>
+</feed>

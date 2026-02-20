@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XUU45fJjm/upK9KO10x2UJ4U8ds</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.20328v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:57:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.20328v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.20328v2</id>
+    <title>Video models are zero-shot learners and reasoners</title>
+    <updated>2025-09-29T20:44:46Z</updated>
+    <link href="https://arxiv.org/abs/2509.20328v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.20328v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The remarkable zero-shot capabilities of Large Language Models (LLMs) have propelled natural language processing from task-specific models to unified, generalist foundation models. This transformation emerged from simple primitives: large, generative models trained on web-scale data. Curiously, the same primitives apply to today's generative video models. Could video models be on a trajectory towards general-purpose vision understanding, much like LLMs developed general-purpose language understanding? We demonstrate that Veo 3 can solve a broad variety of tasks it wasn't explicitly trained for: segmenting objects, detecting edges, editing images, understanding physical properties, recognizing object affordances, simulating tool use, and more. These abilities to perceive, model, and manipulate the visual world enable early forms of visual reasoning like maze and symmetry solving. Veo's emergent zero-shot capabilities indicate that video models are on a path to becoming unified, generalist vision foundation models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-24T17:17:27Z</published>
+    <arxiv:comment>Project page: https://video-zero-shot.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Thaddäus Wiedemer</name>
+    </author>
+    <author>
+      <name>Yuxuan Li</name>
+    </author>
+    <author>
+      <name>Paul Vicol</name>
+    </author>
+    <author>
+      <name>Shixiang Shane Gu</name>
+    </author>
+    <author>
+      <name>Nick Matarese</name>
+    </author>
+    <author>
+      <name>Kevin Swersky</name>
+    </author>
+    <author>
+      <name>Been Kim</name>
+    </author>
+    <author>
+      <name>Priyank Jaini</name>
+    </author>
+    <author>
+      <name>Robert Geirhos</name>
+    </author>
+  </entry>
+</feed>

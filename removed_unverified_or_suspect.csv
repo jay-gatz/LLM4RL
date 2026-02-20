@@ -1,0 +1,1050 @@
+Raw_Title,Raw_ArXiv_or_DOI,Source,Issue,Notes
+$\mathcal{X}$-KD: General Experiential Knowledge Distillation for Large Language Models,arXiv:2602.12674v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+$n$-Musketeers: Reinforcement Learning Shapes Collaboration Among Language Models,arXiv:2602.09173v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"<b>REINFORCEMENT LEARNING: AN INTRODUCTION </b>by Richard S. Sutton and Andrew G. Barto, Adaptive Computation and Machine Learning series, MIT Press (Bradford Book), Cambridge, Mass., 1998, xviii + 322 pp, ISBN 0-262-19398-1, (hardback, £31.95).",10.1017/s0263574799211174,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Closer Look at Reward Decomposition for High-Level Robotic Explanations,10.1109/icdl55364.2023.10364407,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"A Comprehensive Survey of Continual Learning: Theory, Method and Application",10.1109/tpami.2024.3367329,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A comprehensive survey on safe reinforcement learning,,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Generalized Algorithm for Multi-Objective Reinforcement Learning and Policy Adaptation,arXiv:1908.08342,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Goal Without a Plan Is Just a Wish: Efficient and Effective Global Planner Training for Long-Horizon Agent Tasks,arXiv:2510.05608,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+A GPT‐4 Reticular Chemist for Guiding MOF Discovery**,10.1002/anie.202311983,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"A little less conversation, a little more action, please: Investigating the physical common-sense of LLMs in a 3D embodied environment",arXiv:2410.23242v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+A new look at the statistical model identification,10.1109/tac.1974.1100705,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A review of large language models and autonomous agents in chemistry,10.1039/d4sc03921a,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+A review on modeling of flexible deformable object for dexterous robotic manipulation,10.1177/1729881419848894,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+A roadmap for AI-driven protein design,10.5281/zenodo.18498884,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+A roadmap for AI-driven protein design,10.5281/zenodo.18498885,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility,arXiv:2504.07086v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+A Survey of End-to-End Driving: Architectures and Training Methods,10.1109/tnnls.2020.3043505,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Explainable Reinforcement Learning,arXiv:2202.08434,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Monte Carlo Tree Search Methods,10.1109/tciaig.2012.2186810,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Multi-Task Deep Reinforcement Learning,10.3390/electronics9091363,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Reinforcement Learning from Human Feedback,arXiv:2312.14925v3,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+A Survey of Reinforcement Learning Informed by Natural Language,10.24963/ijcai.2019/880,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Reinforcement Learning Informed by Natural Language,arXiv:1906.03926v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey of Visual Transformers,10.1109/tnnls.2022.3227717,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+A Survey of WebAgents: Towards Next-Generation AI Agents for Web Automation with Large Foundation Models,10.1145/3711896.3736555,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+A Survey on Curriculum Learning,10.1109/tpami.2021.3069908,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+A survey on large language model based autonomous agents,10.1007/s11704-024-40231-1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+A Survey on Multimodal Large Language Models for Autonomous Driving,10.1109/wacvw60836.2024.00106,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"A Survey on Recent Advancements in Autonomous Driving Using Deep Reinforcement Learning: Applications, Challenges, and Solutions",10.1109/tits.2024.3452480,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+A Survey on the Memory Mechanism of Large Language Model based Agents,arXiv:2404.13501v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+A Unified Continual Learning Framework with General Parameter-Efficient Tuning,10.1109/iccv51070.2023.01055,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+A Very Brief and Critical Discussion on AutoML,arXiv:1811.03822,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Abstractive Red-Teaming of Language Model Character,arXiv:2602.12318v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models,arXiv:2311.02379,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Accuracy-Aware MLLM Task Offloading and Resource Allocation in UAV-Assisted Satellite Edge Computing,10.3390/drones9070500,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Achieving Olympia-Level Geometry Large Language Model Agent via Complexity Boosting Reinforcement Learning,arXiv:2512.10534v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Active Example Selection for In-Context Learning,arXiv:2211.04486v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+AdaptiveGPT: Towards Intelligent Adaptive Learning,10.1007/s11042-024-20144-8,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+AdaReasoner: Dynamic Tool Orchestration for Iterative Visual Reasoning,arXiv:2601.18631v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Addressing Bias Through Ensemble Learning and Regularized Fine-Tuning,arXiv:2402.00910v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+ADEPT: RL-Aligned Agentic Decoding of Emotion via Evidence Probing Tools -- From Consensus Learning to Ambiguity-Driven Emotion Reasoning,arXiv:2602.12714v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Agent RL Scaling Law: Agent RL with Spontaneous Code Execution for Mathematical Problem Solving,arXiv:2505.07773v4,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",arXiv:2602.12430v3,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+"Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",arXiv:2602.12430,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning,arXiv:2602.10090v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning,arXiv:2602.10090,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning,arXiv:2602.04284v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents,arXiv:2602.06485v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research,arXiv:2602.06540v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+AgentFold: Long-Horizon Web Agents with Proactive Context Management,arXiv:2510.24699v1,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Agentic AI: The age of reasoning-A review,10.1016/j.jai.2025.08.003,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents,arXiv:2601.01885v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning,arXiv:2505.01441v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ALIVE: Awakening LLM Reasoning via Adversarial Learning and Instructive Verbal Evaluation,arXiv:2602.05472v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+An algorithm for planning collision-free paths among polyhedral obstacles,10.1145/359156.359164,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+An LLM-driven Framework for Multiple-Vehicle Dispatching and Navigation in Smart City Landscapes,10.1109/icra57147.2024.10610578,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Analyzing the impact of LLMs in Data Science lifecycle: a systematic mapping study,10.1007/s41060-026-01041-9,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+AnomSeer: Reinforcing Multimodal LLMs to Reason for Time-Series Anomaly Detection,arXiv:2602.08868v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Are More Tokens Rational? Inference-Time Scaling in Language Models as Adaptive Resource Rationality,arXiv:2602.10329v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking,arXiv:2601.06487v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ASTER: Agentic Scaling with Tool-integrated Extended Reasoning,arXiv:2602.01204v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ASTER: Agentic Scaling with Tool-integrated Extended Reasoning,arXiv:2602.01204,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Asynchronous Large Language Model Enhanced Planner for Autonomous Driving,arXiv:2406.14556v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Attention Is All You Need,10.48550/arxiv.1706.03762,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+AuTAgent: A Reinforcement Learning Framework for Tool-Augmented Audio Reasoning,arXiv:2602.13685v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Auto MC-Reward: Automated Dense Reward Design with Large Language Models for Minecraft,10.1109/cvpr52733.2024.01554,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Auto-Pytorch: Multi-Fidelity MetaLearning for Efficient and Robust AutoDL,10.1109/tpami.2021.3067763,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Automated Planning and Acting,10.1017/cbo9781139583923,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Autonomous chemical research with large language models,10.1038/s41586-023-06792-0,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+AutoTool: Dynamic Tool Selection and Integration for Agentic Reasoning,arXiv:2512.13278v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+AWPO: Enhancing Tool-Use of Large Language Models through Adaptive Integration of Reasoning Rewards,arXiv:2512.19126v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Balancing Faithfulness and Performance in Reasoning via Multi-Listener Soft Execution,arXiv:2602.16154v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,arXiv:1810.04805v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning,10.1016/s0004-3702(99)00052-1,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Beyond AGI IV: Continuity of Intelligence,10.5281/zenodo.18655422,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond AGI IV: Continuity of Intelligence,10.5281/zenodo.18655421,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Correctness: Learning Robust Reasoning via Transfer,arXiv:2602.08489v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Correctness: Learning Robust Reasoning via Transfer,arXiv:2602.08489,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Correctness: Rewarding Faithful Reasoning in Retrieval-Augmented Generation,arXiv:2510.13272,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models,arXiv:2602.12628v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Outcome Verification: Verifiable Process Reward Models for Structured Reasoning,arXiv:2601.17223,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Scalar Scores: Reinforcement Learning for Error-Aware Quality Estimation of Machine Translation,arXiv:2602.08600v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Scalar Scores: Reinforcement Learning for Error-Aware Quality Estimation of Machine Translation,arXiv:2602.08600,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Single-Shot: Multi-step Tool Retrieval via Query Planning,arXiv:2601.07782v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond SMILES: Evaluating Agentic Systems for Drug Discovery,arXiv:2602.10163v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Variance: Prompt-Efficient RLVR via Rare-Event Amplification and Bidirectional Pairing,arXiv:2602.03452v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Words: Evaluating and Bridging Epistemic Divergence in User-Agent Interaction via Theory of Mind,arXiv:2602.13832v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Beyond Words: Evaluating and Bridging Epistemic Divergence in User-Agent Interaction via Theory of Mind,arXiv:2602.13832,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Bias and Fairness in Large Language Models: A Survey,10.1162/coli_a_00524,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT),arXiv:2512.15790v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"BNAI, NO-TOKEN, and MIND-UNITY: Pillars of a Systemic Revolution in Artificial Intelligence",arXiv:2201.11903,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Bootstrapping Object-Level Planning with Large Language Models,10.1109/icra55743.2025.11127365,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Building Autonomous GUI Navigation via Agentic-Q Estimation and Step-Wise Policy Optimization,arXiv:2602.13653v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Building Emotional Intelligence into Digital Therapy AI Agents through Neurofeedback,10.17863/cam.123923,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents,arXiv:2602.16699v1,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Can large language models explore in-context?,arXiv:2403.15371v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Can Multimodal Large Language Models Enhance Performance Benefits Among Higher Education Students? An Investigation Based on the Task-Technology Fit Theory and the Artificial Intelligence Device Use Acceptance Model,10.3390/su162310780,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Can Wikipedia Help Offline Reinforcement Learning?,arXiv:2201.12122,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Cancer statistics, 2023",10.3322/caac.21763,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+CaStL: Constraints as Specifications Through Llm Translation for Long-Horizon Task and Motion Planning,10.1109/icra55743.2025.11127555,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+CC-NET: Image Complexity Guided Network Compression for Biomedical Image Segmentation,10.1109/isbi.2019.8759448,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+"Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation",10.1609/icaps.v35i1.36119,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ChatGPT for Robotics: Design Principles and Model Abilities,10.1109/access.2024.3387941,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+ChatGPT Research Group for Optimizing the Crystallinity of MOFs and COFs,10.1021/acscentsci.3c01087,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Cloth grasp point detection based on multiple-view geometric cues with application to robotic towel folding,10.1109/robot.2010.5509439,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use,arXiv:2602.12268v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use,arXiv:2602.12268,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Code2World: A GUI World Model via Renderable Code Generation,arXiv:2602.09856v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Collaborating with language models for embodied reasoning,arXiv:2302.00763v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CoLT: Reasoning with Chain of Latent Tool Calls,arXiv:2602.04246v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CompassVerifier: A Unified and Robust Verifier for LLMs Evaluation and Outcome Reward,10.48448/83m7-vr90,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Competitive Programming with Large Reasoning Models,arXiv:2502.06807v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models,arXiv:2602.12036v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Constrained Decision Transformer for Offline Safe Reinforcement Learning,arXiv:2302.07351,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Constraint-Rectified Training for Efficient Chain-of-Thought,arXiv:2602.12526v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Constraints Penalized Q-learning for Safe Offline Reinforcement Learning,10.1609/aaai.v36i8.20855,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Contextual Rollout Bandits for Reinforcement Learning with Verifiable Rewards,arXiv:2602.08499v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Control Reinforcement Learning: Interpretable Token-Level Steering of LLMs via Sparse Autoencoder Features,arXiv:2602.10437v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Cooperative Edge Caching with Large Language Model in Wireless Networks,arXiv:2602.13307v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+COptiDICE: Offline Constrained Reinforcement Learning via Stationary Distribution Correction Estimation,arXiv:2204.08957v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation,10.1145/3637528.3671901,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CPMobius: Iterative Coach-Player Reasoning for Data-Free Reinforcement Learning,arXiv:2602.02979v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Credit Where It is Due: Cross-Modality Connectivity Drives Precise Reinforcement Learning for MLLM Reasoning,arXiv:2602.11455v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CRL-VLA: Continual Vision-Language-Action Learning,arXiv:2602.03445v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Crossing the Reward Bridge: Expanding RL with Verifiable Rewards Across Diverse Domains,arXiv:2503.23829v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+CURL: Contrastive Unsupervised Representations for Reinforcement Learning,arXiv:2004.04136,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Curriculum learning,10.1145/1553374.1553380,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+D4RL: Datasets for Deep Data-Driven Reinforcement Learning,arXiv:2004.07219v4,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+DAPO: An Open-Source LLM Reinforcement Learning System at Scale,arXiv:2503.14476v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Data-Centric Interpretability for LLM-based Multi-Agent Reinforcement Learning,arXiv:2602.05183v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Data-Efficient Reinforcement Learning with Self-Predictive Representations,arXiv:2007.05929v4,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+DataChef: Cooking Up Optimal Data Recipes for LLM Adaptation via Reinforcement Learning,arXiv:2602.11089v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement Learning,arXiv:2602.02395v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Decision Transformer: Reinforcement Learning via Sequence Modeling,arXiv:2106.01345,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Deconstructing The Ethics of Large Language Models from Long-standing Issues to New-emerging Dilemmas: A Survey,arXiv:2406.05392v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Decoupling Representation Learning from Reinforcement Learning,arXiv:2009.08319,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance,arXiv:2602.03491v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Deductive Reinforcement Learning for Visual Autonomous Urban Driving Navigation,10.1109/tnnls.2021.3109284,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+"Deep learning, reinforcement learning, and world models",10.1016/j.neunet.2022.03.037,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Deep reinforcement learning with smooth policy update: Application to robotic cloth manipulation,10.1016/j.robot.2018.11.004,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping,arXiv:2510.12979,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Demystifying Long Chain-of-Thought Reasoning in LLMs,arXiv:2502.03373v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+DeRL: Coupling Decomposition in Action Space for Reinforcement Learning Task,10.1109/tetci.2023.3326551,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning,arXiv:2406.11896v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Discovery and Reinforcement of Tool-Integrated Reasoning Chains via Rollout Trees,arXiv:2601.08274v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",arXiv:1910.01108v4,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"Divide, Harmonize, Then Conquer It: Shooting Multi-Commodity Flow Problems with Multimodal Language Models",arXiv:2602.11057v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents,10.1145/3696410.3714765,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Document Reconstruction Unlocks Scalable Long-Context RLVR,arXiv:2602.08237v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?,arXiv:2504.13837v5,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Dota 2 with Large Scale Deep Reinforcement Learning,arXiv:1912.06680v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Dream to Control: Learning Behaviors by Latent Imagination,arXiv:1912.01603,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Drive Like a Human: Rethinking Autonomous Driving with Large Language Models,10.1109/wacvw60836.2024.00102,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Driving with LLMs: Fusing Object-Level Vector Modality for Explainable Autonomous Driving,10.1109/icra57147.2024.10611018,papers.csv,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+DT-HRL: Mastering Long-Sequence Manipulation with Reimagined Hierarchical Reinforcement Learning,10.3390/biomimetics10090577,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Dual-View Visual Contextualization for Web Navigation,10.1109/cvpr52733.2024.01369,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Dynamic Long Context Reasoning over Compressed Memory via End-to-End Reinforcement Learning,arXiv:2602.08382v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Dynamics of Manipulation Robots,10.1007/978-3-642-81854-7,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+ECG-R1: Protocol-Guided and Modality-Agnostic MLLM for Reliable ECG Interpretation,arXiv:2602.04279v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Efficient Adversarial Training in LLMs with Continuous Attacks,arXiv:2405.15589v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Efficient Estimation of Kernel Surrogate Models for Task Attribution,arXiv:2602.03783v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Efficient Multi-Task Reinforcement Learning via Task-Specific Action Correction,arXiv:2404.05950v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Efficient Policy Adaptation with Contrastive Prompt Ensemble for Embodied Agents,arXiv:2412.11484,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Efficient Prompting via Dynamic In-Context Learning,arXiv:2305.11170v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+"Ego4D: Around the World in 3,000 Hours of Egocentric Video",10.1109/cvpr52688.2022.01842,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+ElecBench: a Power Dispatch Evaluation Benchmark for Large Language Models,arXiv:2407.05365v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+ELLA: Exploration through Learned Language Abstraction,arXiv:2103.05825,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+EMA Policy Gradient: Taming Reinforcement Learning for LLMs with EMA Anchor and Top-k KL,arXiv:2602.04417v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Embodied intelligence in manufacturing: leveraging large language models for autonomous industrial robotics,10.1007/s10845-023-02294-y,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Emergent Abilities of Large Language Models,arXiv:2206.07682,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Emergent analogical reasoning in large language models,10.1038/s41562-023-01659-w,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Emergent autonomous scientific research capabilities of large language models,arXiv:2304.05332v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Emergent language: a survey and taxonomy,10.1007/s10458-025-09691-y,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning,arXiv:2508.19598v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+End-to-End Robotic Reinforcement Learning without Reward Engineering,arXiv:1904.07854v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Enhancement of long-horizon task planning via active and passive modification in large language models,10.1038/s41598-025-91448-4,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+EPlus-LLM: A large language model-based computing platform for automated building energy modeling,10.1016/j.apenergy.2024.123431,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Evaluation of character creation of large language models,10.54254/2977-3903/2025.20514,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+EventMemAgent: Hierarchical Event-Centric Memory for Online Video Understanding with Adaptive Tool Use,arXiv:2602.15329v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Evolution Through Large Models,10.1007/978-981-99-3814-8_11,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Evolutionary System Prompt Learning can Facilitate Reinforcement Learning for LLMs,arXiv:2602.14697v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Evolutionary System Prompt Learning can Facilitate Reinforcement Learning for LLMs,arXiv:2602.14697,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Evolving LLM-Derived Control Policies for Residential EV Charging and Vehicle-to-Grid Energy Optimization,arXiv:2602.07275v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects",arXiv:2401.03428v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions,arXiv:2509.18847v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Fairness in Large Language Models: A Taxonomic Survey,10.1145/3682112.3682117,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+FaithRL: Learning to Reason Faithfully through Step-Level Faithfulness Maximization,arXiv:2602.03507v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Fake-HR1: Rethinking Reasoning of Vision Language Model for Synthetic Image Detection,arXiv:2602.10042v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Features as Rewards: Scalable Supervision for Open-Ended Tasks via Interpretability,arXiv:2602.10067v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments,arXiv:2508.08791v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Fine-Tuning Large Language Models with User-Level Differential Privacy,arXiv:2407.07737v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning,arXiv:2405.10292v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability-Plasticity Tradeoff,arXiv:2602.08040v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Flexible Entropy Control in RLVR with Gradient-Preserving Perspective,arXiv:2602.09782v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Foundation models in robotics: Applications, challenges, and the future",10.1177/02783649241281508,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+From Absolute to Relative: Rethinking Reward Shaping in Group-Based Reinforcement Learning,arXiv:2601.23058,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+From Correction to Mastery: Reinforced Distillation of Large Language Model Agents,arXiv:2509.14257v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+From Evidence to Trajectory: Abductive Reasoning Path Synthesis for Training Retrieval-Augmented Generation Agents,arXiv:2509.23071v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+From Operation to Cognition: Automatic Modeling Cognitive Dependencies from User Demonstrations for GUI Task Automation,10.1145/3706598.3713356,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models,arXiv:2601.15690v1,prior_core,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models,arXiv:2601.15690,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+From Pixels to Policies: Reinforcing Spatial Reasoning in Language Models for Content-Aware Layout Design,arXiv:2602.13912v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+From Reasoning to Super-Intelligence: A Search-Theoretic Perspective,arXiv:2507.15865,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+From screens to scenes: A survey of embodied AI in healthcare,10.1016/j.inffus.2025.103033,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+From Skills to Symbols: Learning Symbolic Representations for Abstract High-Level Planning,10.1613/jair.5575,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+GAIA -- A Large Language Model for Advanced Power Dispatch,arXiv:2408.03847v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments,arXiv:2602.11964v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+General generative AI-based image augmentation method for robust rooftop PV segmentation,10.1016/j.apenergy.2024.123554,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+General learned delegation by clones,arXiv:2602.13262v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Generating Data-Driven Reasoning Rubrics for Domain-Adaptive Reward Modeling,arXiv:2602.06795v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Generating Training Data with Language Models: Towards Zero-Shot Language Understanding,arXiv:2202.04538,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Generating with Confidence: Uncertainty Quantification for Black-box Large Language Models,arXiv:2305.19187v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Generative AI Agents With Large Language Model for Satellite Networks via a Mixture of Experts Transmission,10.1109/jsac.2024.3459037,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+GenerativeGUI: Dynamic GUI Generation Leveraging LLMs for Enhanced User Interaction on Chat Interfaces,10.1145/3706599.3719743,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+GenSeg-R1: RL-Driven Vision-Language Grounding for Fine-Grained Referring Segmentation,arXiv:2602.09701v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+GFlowPO: Generative Flow Network as a Language Model Prompt Optimizer,arXiv:2602.03358v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+GLM: General Language Model Pretraining with Autoregressive Blank Infilling,10.18653/v1/2022.acl-long.26,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements",arXiv:2402.10963v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+GMRES: A Generalized Minimal Residual Algorithm for Solving Nonsymmetric Linear Systems,10.1137/0907058,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Goal Misgeneralization in Deep Reinforcement Learning,arXiv:2105.14111,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Goal-Conditioned Predictive Coding for Offline Reinforcement Learning,arXiv:2307.03406,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Goldilocks RL: Tuning Task Difficulty to Escape Sparse Rewards for Reasoning,arXiv:2602.14868v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Gorilla: Large Language Model Connected with Massive APIs,arXiv:2305.15334v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+GPT-2C,10.1145/3487351.3492723,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Grandmaster level in StarCraft II using multi-agent reinforcement learning,10.1038/s41586-019-1724-z,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Graph of Thoughts: Solving Elaborate Problems with Large Language Models,10.1609/aaai.v38i16.29720,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Graph Reasoning Paradigm: Structured and Symbolic Reasoning with Topology-Aware Reinforcement Learning for Large Language Models,arXiv:2601.12995,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Graph-O1 : Monte Carlo Tree Search with Reinforcement Learning for Text-Attributed Graph Reasoning,arXiv:2512.17912,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning,arXiv:2302.02662v5,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning,10.48550/arxiv.2302.02662,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Guide Your Agent with Adaptive Multimodal Rewards,arXiv:2309.10790,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Guided Verifier: Collaborative Multimodal Reasoning via Dynamic Process Supervision,arXiv:2602.04290v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Guiding Large Language Models via Directional Stimulus Prompting,arXiv:2302.11520v4,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+High Fidelity Textual User Representation over Heterogeneous Sources via Reinforcement Learning,arXiv:2602.07333v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+History Compression via Language Models in Reinforcement Learning,arXiv:2205.12258,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+How Far Are LLMs from Professional Poker Players? Revisiting Game-Theoretic Reasoning with Agentic Tool Use,arXiv:2602.00528v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+How2Everything: Mining the Web for How-To Procedures to Evaluate and Improve LLMs,arXiv:2602.08808v1,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Human-level control through deep reinforcement learning,10.1038/nature14236,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+ImageNet classification with deep convolutional neural networks,10.1145/3065386,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Implicit Strategic Optimization: Rethinking Long-Horizon Decision-Making in Adversarial Poker Environments,arXiv:2602.08041v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Improving Generalization in Reinforcement Learning with Mixture Regularization,arXiv:2010.10814,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Improving HPC Code Generation Capability of LLMs via Online Reinforcement Learning with Real-Machine Benchmark Rewards,arXiv:2602.12049v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Improving Vision-and-Language Navigation with Image-Text Pairs from the Web,10.1007/978-3-030-58539-6_16,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+"Incentivizing Consistent, Effective and Scalable Reasoning Capability in Audio LLMs via Reasoning Process Rewards",arXiv:2510.20867,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Inference-Time Scaling for Generalist Reward Modeling,arXiv:2504.02495v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Inferring cancer disease response from radiology reports using large language models with data augmentation and prompting,10.1093/jamia/ocad133,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+InfoAgent: Advancing Autonomous Information-Seeking Agents,arXiv:2509.25189v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Integrated task and motion planning in belief space,10.1177/0278364913484072,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Integrating symbolic and geometric planning for mobile manipulation,10.1109/ssrr.2009.5424160,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+"Intelligenza artificiale generativa nella medicina di laboratorio: innovazioni, limiti e considerazioni etiche",10.23736/s0393-0564.24.00003-0,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+IntentRL: Training Proactive User-intent Agents for Open-ended Deep Research via Reinforcement Learning,arXiv:2602.03468v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Interactive Fiction Games: A Colossal Adventure,10.1609/aaai.v34i05.6297,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Interactive Language: Talking to Robots in Real Time,10.1109/lra.2023.3295255,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Internalizing Meta-Experience into Memory for Guided Reinforcement Learning in Large Language Models,arXiv:2602.10224v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Intrinsic Credit Assignment for Long Horizon Interaction,arXiv:2602.12342v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Intrinsic Scene Properties from a Single RGB-D Image,10.1109/cvpr.2013.10,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Introduction to AI Robotics,10.1108/ir.2001.28.3.266.1,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Inverse Reward Design,arXiv:1711.02827,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Jackpot: Optimal Budgeted Rejection Sampling for Extreme Actor-Policy Mismatch Reinforcement Learning,arXiv:2602.06107v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Just-In-Time Reinforcement Learning: Continual Learning in LLM Agents Without Gradient Updates,arXiv:2601.18510v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Keep CALM and Explore: Language Models for Action Generation in Text-based Games,arXiv:2010.02903v1,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning,arXiv:2602.14293v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning,arXiv:2602.14293,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+KoLA: Carefully Benchmarking World Knowledge of Large Language Models,arXiv:2306.09296,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Lane2Seq: Towards Unified Lane Detection via Sequence Generation,10.1109/cvpr52733.2024.01603,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Language as an Abstraction for Hierarchical Deep Reinforcement Learning,arXiv:1906.07343,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Language Model Self-improvement by Reinforcement Learning Contemplation,arXiv:2305.14483v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Language Models are Few-Shot Learners,arXiv:2005.14165,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+LanGWM: Language Grounded World Model,arXiv:2311.17593,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Large Artificial Intelligence Model Guided Deep Reinforcement Learning for Resource Allocation in Non Terrestrial Networks,arXiv:2601.08254,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Large Language Model (LLM) for Telecommunications: A Comprehensive Survey on Principles, Key Techniques, and Opportunities",10.1109/comst.2024.3465447,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Large Language Model Unlearning,arXiv:2310.10683v2,papers.csv,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Large Language Model-Powered Evolutionary Code Optimization on a Phylogenetic Tree,arXiv:2601.14523v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Large Language Models Are Human-Level Prompt Engineers,arXiv:2211.01910,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Large Language Models for Physics Instrument Design,arXiv:2601.07580,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Large language models in medicine,10.1038/s41591-023-02448-8,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, and Future Prospects",10.36227/techrxiv.23589741.v4,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+"Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, and Future Prospects",10.36227/techrxiv.23589741.v3,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Latent Poincaré Shaping for Agentic Reinforcement Learning,arXiv:2602.09375v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learned-Rule-Augmented Large Language Model Evaluators,arXiv:2512.01958,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning Abstractions for Hierarchical Planning in Program-Synthesis Agents,arXiv:2602.00929v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning Latent Dynamics for Planning from Pixels,arXiv:1811.04551,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory,arXiv:2602.06025v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning Query-Specific Rubrics from Human Preferences for DeepResearch Report Generation,arXiv:2602.03619v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning Rewards From Linguistic Feedback,10.1609/aaai.v35i7.16749,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning Self-Correction in Vision-Language Models via Rollout Augmentation,arXiv:2602.08503v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Combat Compounding-Error in Model-Based Reinforcement Learning,arXiv:1912.11206v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning to Configure Agentic AI Systems,arXiv:2602.11574v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Configure Agentic AI Systems,arXiv:2602.11574,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Evict from Key-Value Cache,arXiv:2602.10238v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Evict from Key-Value Cache,arXiv:2602.10238,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Generate Better Than Your LLM,arXiv:2306.11816v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to Inject: Automated Prompt Injection via Reinforcement Learning,arXiv:2602.05746v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning to interpret natural language commands through human-robot dialog,,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning to Model the World with Language,arXiv:2308.01399,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning to Model the World with Language,arXiv:2308.01399v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning to Parse Natural Language Commands to a Robot Control System,10.1007/978-3-319-00065-7_28,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning to Reason without External Rewards,arXiv:2505.19590v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Learning Transferable Visual Models From Natural Language Supervision,arXiv:2103.00020,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Learning User Interests via Reasoning and Distillation for Cross-Domain News Recommendation,arXiv:2602.15005v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR,arXiv:2602.05261v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Leveraging Generative AI and Large Language Models: A Comprehensive Roadmap for Healthcare Integration,10.3390/healthcare11202776,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Likelihood-Based Reward Designs for General LLM Reasoning,arXiv:2602.03979v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+LiLMaps: Learnable Implicit Language Maps,10.32388/d8q0y8,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+LLaMA: Open and Efficient Foundation Language Models,arXiv:2302.13971,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+LLM Critics Help Catch LLM Bugs,arXiv:2407.00215v1,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+LLM Post-Training: A Deep Dive into Reasoning Large Language Models,arXiv:2502.21321v2,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+LLM-based Multi-Agent Reinforcement Learning: Current and Future Directions,arXiv:2405.11106v1,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models,arXiv:2310.03903v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models,10.1109/iccv51070.2023.00280,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+LLMOrbit: A Circular Taxonomy of Large Language Models -From Scaling Walls to Agentic AI Systems,arXiv:2601.14053v1,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning,arXiv:2502.14768v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Long Chain-of-Thought Compression via Fine-Grained Group Policy Optimization,arXiv:2602.10048v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Long Short-Term Memory,10.1162/neco.1997.9.8.1735,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+LongR: Unleashing Long-Context Reasoning via Reinforcement Learning with Dense Utility Rewards,arXiv:2602.05758v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+LongR: Unleashing Long-Context Reasoning via Reinforcement Learning with Dense Utility Rewards,arXiv:2602.05758,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+LoRA: Low-Rank Adaptation of Large Language Models,arXiv:2106.09685,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+M2CURL: Sample-Efficient Multimodal Reinforcement Learning via Self-Supervised Representation Learning for Robotic Manipulation,arXiv:2401.17032v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design,arXiv:2602.14926v1,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design,arXiv:2602.14926,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Mamba: Linear-Time Sequence Modeling with Selective State Spaces,arXiv:2312.00752v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with Agentic Pipeline Parallelism,arXiv:2511.11373,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Masked World Models for Visual Control,arXiv:2206.14244,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Mastering Atari with Discrete World Models,arXiv:2010.02193,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+"Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",arXiv:1911.08265v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Mastering the game of Go with deep neural networks and tree search,10.1038/nature16961,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Mathematical discoveries from program search with large language models,10.1038/s41586-023-06924-6,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Measuring and Narrowing the Compositionality Gap in Language Models,10.18653/v1/2023.findings-emnlp.378,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Mechanics of Robotic Manipulation,10.7551/mitpress/4527.001.0001,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+MedSAM-Agent: Empowering Interactive Medical Image Segmentation with Multi-turn Agentic Reinforcement Learning,arXiv:2602.03320v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs,arXiv:2602.12705v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Meta-Sel: Efficient Demonstration Selection for In-Context Learning via Supervised Meta-Learning,arXiv:2602.12123v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+MiniRec: Data-Efficient Reinforcement Learning for LLM-based Recommendation,arXiv:2602.04278v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment,10.1007/978-3-031-72998-0_18,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Mitigating Strategy Preference Bias in Emotional Support Conversation via Uncertainty Estimations,arXiv:2509.12661,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Mixture of Masters: Sparse Chess Language Models with Player Routing,arXiv:2602.04447v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Mobile battery energy storage system control with knowledge‐assisted deep reinforcement learning,10.1049/enc2.12075,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+MobileManiBench: Simplifying Model Verification for Mobile Manipulation,arXiv:2602.05233v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Modular Multitask Reinforcement Learning with Policy Sketches,arXiv:1611.01796,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization,arXiv:2512.20135v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+MomaGraph: State-Aware Unified Scene Graphs with Vision-Language Model for Embodied Task Planning,arXiv:2512.16909,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Motif: Intrinsic Motivation from Artificial Intelligence Feedback,arXiv:2310.00166v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+MuJoCo: A physics engine for model-based control,10.1109/iros.2012.6386109,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Multi-sensor surface analysis for robotic ironing,10.1109/icra.2016.7487788,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+"Multi-Step Reasoning with Large Language Models, a Survey",10.1145/3774896,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Multimodal transformer with adaptive modality weighting for multimodal sentiment analysis,10.1016/j.neucom.2023.127181,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Multitask Learning and Reinforcement Learning for Personalized Dialog Generation: An Empirical Study,10.1109/tnnls.2020.2975035,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Multitask Prompted Training Enables Zero-Shot Task Generalization,arXiv:2110.08207v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Native Reasoning Models: Training Language Models to Reason on Unverifiable Data,arXiv:2602.11549v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Natural Language-conditioned Reinforcement Learning with Inside-out Task Language Development and Translation,arXiv:2302.09368v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Natural Questions: A Benchmark for Question Answering Research,10.1162/tacl_a_00276,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+New Skills or Sharper Primitives? A Probabilistic Perspective on the Emergence of Reasoning in RLVR,arXiv:2602.08281v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning,arXiv:2601.06794v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+OdorAgent: Generate Odor Sequences for Movies Based on Large Language Model,10.1109/vr58804.2024.00034,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Offline Reinforcement Learning as One Big Sequence Modeling Problem,arXiv:2106.02039,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+OmniVL-Guard: Towards Unified Vision-Language Forgery Detection and Grounding via Balanced RL,arXiv:2602.10687v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+On the Optimal Reasoning Length for RL-Trained Language Models,arXiv:2602.09591v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS),10.1609/icaps.v34i1.31503,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS),arXiv:2401.02500,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents,arXiv:2512.20957v5,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Online Causal Kalman Filtering for Stable and Effective Policy Optimization,arXiv:2602.10609v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback,arXiv:2307.15217,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Open-Vocabulary Predictive World Models from Sensor Observations,10.3390/s24144735,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+OpenChat: Advancing Open-source Language Models with Mixed-Quality Data,arXiv:2309.11235v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+OpenTinker: Separating Concerns in Agentic Reinforcement Learning,arXiv:2601.07376v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PAFT: Prompt-Agnostic Fine-Tuning,arXiv:2502.12859v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Parameter-Efficient Mixture-of-Experts Architecture for Pre-trained Language Models,arXiv:2203.01104v4,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+PEARL: Self-Evolving Assistant for Time Management with Reinforcement Learning,arXiv:2601.11957v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PEGRL: Improving Machine Translation by Post-Editing Guided Reinforcement Learning,arXiv:2602.03352v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PEGRL: Improving Machine Translation by Post-Editing Guided Reinforcement Learning,arXiv:2602.03352,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Perception of cloth in assistive robotic manipulation tasks,10.1007/s11047-020-09784-5,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Perceptual-Evidence Anchored Reinforced Learning for Multimodal Reasoning,arXiv:2511.18437,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Personalized dynamic lighting via LLM-Empowered multi-Agent reinforcement learning: From user intent to photometric control,10.1016/j.eswa.2026.131633,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PlotGen: Multi-Agent LLM-based Scientific Data Visualization via Multimodal Retrieval Feedback,10.1145/3701716.3716888,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+POINTS-GUI-G: GUI-Grounding Journey,arXiv:2602.06391v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PORTool: Tool-Use LLM Training with Rewarded Tree,arXiv:2510.26020v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration,10.18653/v1/2023.emnlp-main.740,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Predicting LLM Output Length via Entropy-Guided Representations,arXiv:2602.11812,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",arXiv:2404.14367v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Prepare Reasoning Language Models for Multi-Agent Debate with Self-Debate Reinforcement Learning,arXiv:2601.22297,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Privileged Information Distillation for Language Models,arXiv:2602.04942v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+PRO-V-R1: Reasoning Enhanced Programming Agent for RTL Verification,arXiv:2506.12200v4,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Procedures as a representation for data in a computer program for understanding natural language,,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing,10.18653/v1/d13-1,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Proceedings of the 24th international conference on Machine learning,10.1145/1273496,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+ProgPrompt: Generating Situated Robot Task Plans using Large Language Models,10.1109/icra48891.2023.10161317,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+ProgPrompt: program generation for situated robot task planning using large language models,10.1007/s10514-023-10135-3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Prompter: Utilizing Large Language Model Prompting for a Data Efficient Embodied Instruction Following,arXiv:2211.03267v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Proof-RM: A Scalable and Generalizable Reward Model for Math Proof,arXiv:2602.02377v1,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Proof-RM: A Scalable and Generalizable Reward Model for Math Proof,arXiv:2602.02377,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models,arXiv:2505.24864v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Proximal Policy Optimization Algorithms,arXiv:1707.06347v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation,arXiv:1806.10293,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+QUATRO: Query-Adaptive Trust Region Policy Optimization for LLM Fine-tuning,arXiv:2602.04620v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Query Rewriting for Retrieval-Augmented Large Language Models,arXiv:2305.14283v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Query Rewriting in Retrieval-Augmented Large Language Models,10.18653/v1/2023.emnlp-main.322,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+QuRL: Efficient Reinforcement Learning with Quantized Rollout,arXiv:2602.13953v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning,arXiv:2503.05592v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+R3-RAG: Learning Step-by-Step Reasoning and Retrieval for LLMs via Reinforcement Learning,10.48448/ptzk-5w25,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+R3M: A Universal Visual Representation for Robot Manipulation,arXiv:2203.12601v3,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Rapid generation method of process routes based on multi-agent collaboration with LLMs,10.1016/j.aei.2025.103733,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+RE-MOVE: An Adaptive Policy Design for Robotic Navigation Tasks in Dynamic Environments via Language-Based Feedback,arXiv:2303.07622,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Read and Reap the Rewards: Learning to Play Atari with the Help of Instruction Manuals,arXiv:2302.04449,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Real-Time Perception Meets Reactive Motion Generation,10.1109/lra.2018.2795645,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL,arXiv:2602.03773,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Reasoning with Exploration: An Entropy Perspective,arXiv:2506.14758v4,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+REBEL: Reward Regularization-Based Approach for Robotic Reinforcement Learning from Human Feedback,arXiv:2312.14436v3,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+ReCoRe: Regularized Contrastive Representation Learning of World Model,10.1109/cvpr52733.2024.02161,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reflexion: Language Agents with Verbal Reinforcement Learning,arXiv:2303.11366,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Reinforcement Learning for Chain of Thought Compression with One-Domain-to-All Generalization,arXiv:2601.06052v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Reinforcement Learning for Engineering Design Automation,10.1016/j.aei.2022.101612,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reinforcement Learning in Healthcare: A Survey,10.1145/3477600,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reinforcement Learning with Action-Free Pre-Training from Videos,arXiv:2203.13880,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reinforcement Learning with Promising Tokens for Large Language Models,arXiv:2602.03195v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Reinforcement Learning: A Survey,10.1613/jair.301,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reinforcement World Model Learning for LLM-based Agents,arXiv:2602.05842v2,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Reinforcement World Model Learning for LLM-based Agents,arXiv:2602.05842,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+rePIRL: Learn PRM with Inverse RL for LLM Reasoning,arXiv:2602.07832v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing,arXiv:2512.16864,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Representation Learning with Contrastive Predictive Coding,arXiv:1807.03748v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Research Report: AI Security is a LangSec Problem,10.1109/spw67851.2025.00011,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning,arXiv:2503.19470v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent,arXiv:2312.10003v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ResT: Reshaping Token-Level Policy Gradients for Tool-Use Large Language Models,arXiv:2509.21826v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Rethinking Atrous Convolution for Semantic Image Segmentation,arXiv:1706.05587,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Rethinking the Design Space of Reinforcement Learning for Diffusion Models: On the Importance of Likelihood Estimation Beyond Loss Design,arXiv:2602.04663v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Rethinking the Trust Region in LLM Reinforcement Learning,arXiv:2602.04879v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,arXiv:2005.11401v4,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Reward (Mis)design for autonomous driving,10.1016/j.artint.2022.103829,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Reward Design with Language Models,arXiv:2303.00001,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Reward Function Design in Reinforcement Learning,10.1007/978-3-030-41188-6_3,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+"Reward Modeling for Reinforcement Learning-Based LLM Reasoning: Design, Challenges, and Evaluation",arXiv:2602.09305v1,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+"Reward Modeling for Reinforcement Learning-Based LLM Reasoning: Design, Challenges, and Evaluation",arXiv:2602.09305,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Rewards as Labels: Revisiting RLVR from a Classification Perspective,arXiv:2602.05630v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Rich-Media Re-Ranker: A User Satisfaction-Driven LLM Re-ranking Framework for Rich-Media Search,arXiv:2602.05408v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization,arXiv:2504.05812v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RL Based Adaptive Prompt Optimization for User-Centric Structured Sentence Simplification via Small Language Models,10.1142/s1793351x26410035,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RL-VLA$^3$: Reinforcement Learning VLA Accelerating via Full Asynchronism,arXiv:2602.05765v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RL-VLM-F: Reinforcement Learning from Vision Language Foundation Model Feedback,arXiv:2402.03681v4,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System",arXiv:2602.02488v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning,arXiv:2410.02089v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedback for LLMs,10.1145/3743127,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+RLinf-USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI,arXiv:2602.07837v3,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Robot Utility Models: General Policies for Zero-Shot Deployment in New Environments,10.1109/icra55743.2025.11127857,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models,10.15607/rss.2023.xix.029,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Rollout-Training Co-Design for Efficient LLM-Based Multi-Agent Reinforcement Learning,arXiv:2602.09578v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Rollout-Training Co-Design for Efficient LLM-Based Multi-Agent Reinforcement Learning,arXiv:2602.09578,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+RT-1: Robotics Transformer for Real-World Control at Scale,10.15607/rss.2023.xix.025,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control,arXiv:2307.15818,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Rule Based Rewards for Language Model Safety,arXiv:2411.01111v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Scaling Agentic Verifier for Competitive Coding,arXiv:2602.04254v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Scaling In-Context Online Learning Capability of LLMs via Cross-Episode Meta-RL,arXiv:2602.04089v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Scaling Laws for Neural Language Models,arXiv:2001.08361,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Scaling Laws for Reward Model Overoptimization,arXiv:2210.10760,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data,10.32388/8vog0o,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning,arXiv:2503.09516v5,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Self-Challenging Language Model Agents,arXiv:2506.01716v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Self-Corrective Task Planning by Inverse Prompting with Large Language Models,10.1109/icra55743.2025.11128028,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models,arXiv:2601.18734,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Self-playing Adversarial Language Game Enhances LLM Reasoning,arXiv:2404.10642v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Self-Refine: Iterative Refinement with Self-Feedback,arXiv:2303.17651v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Self-Refined Large Language Model as Automated Reward Function Designer for Deep Reinforcement Learning in Robotics,arXiv:2309.06687,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Semantic HELM: A Human-Readable Memory for Reinforcement Learning,arXiv:2306.09312,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Separate Bombs from Firecrackers: Intention-guided Vulnerability Assessment via LLM,10.1145/3797896,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Seq2Seq2Seq: Lossless Data Compression via Discrete Latent Transformers and Reinforcement Learning,arXiv:2602.12146v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SFR-DeepResearch: Towards Effective Reinforcement Learning for Autonomously Reasoning Single Agents,arXiv:2509.06283v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models,arXiv:2304.03738v3,pdf_ref,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+SimuScene: Training and Benchmarking Code Generation to Simulate Physical Scenarios,arXiv:2602.10840v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning,arXiv:2602.08234v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference,arXiv:2307.02628v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models,arXiv:2309.10062v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents,arXiv:2512.22322,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems,arXiv:2602.14471v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems,arXiv:2602.14471,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SPARC: Separating Perception And Reasoning Circuits for Test-time Scaling of VLMs,arXiv:2602.06566v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Spec-o3: A Tool-Augmented Vision-Language Agent for Rare Celestial Object Candidate Vetting via Automated Spectral Inspection,arXiv:2601.06498v1,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+SPELL: Self-Play Reinforcement Learning for evolving Long-Context Language Models,arXiv:2509.23863,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SplitCom: Communication-efficient Split Federated Fine-tuning of LLMs via Temporal Compression,arXiv:2602.10564v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+StagePilot: A Deep Reinforcement Learning Agent for Stage-Controlled Cybergrooming Simulation,arXiv:2602.05060v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+STAPO: Stabilizing Reinforcement Learning for LLMs by Silencing Rare Spurious Tokens,arXiv:2602.15620v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+STARLING: Self-supervised Training of Text-based Reinforcement Learning Agent with Large Language Models,arXiv:2406.05872v1,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+State2Explanation: Concept-Based Explanations to Benefit Agent Learning and User Understanding,arXiv:2309.12482,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+StealthRL: Reinforcement Learning Paraphrase Attacks for Multi-Detector Evasion of AI-Text Detectors,arXiv:2602.08934v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models,arXiv:2503.16419v4,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Stop Rewarding Hallucinated Steps: Faithfulness-Aware Step-Level Reinforcement Learning for Small Reasoning Models,arXiv:2602.05897v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Strips: A new approach to the application of theorem proving to problem solving,10.1016/0004-3702(71)90010-5,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Structural Lock-In IV: Cognitive Flexibility Collapse in Contemporary LLMs,10.5281/zenodo.18227604,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Structural Lock-In IV: Cognitive Flexibility Collapse in Contemporary LLMs,10.5281/zenodo.18227603,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models,arXiv:2304.01852v4,papers.csv,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Superhuman AI for multiplayer poker,10.1126/science.aay2400,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Supervised Pretraining Can Learn In-Context Reinforcement Learning,arXiv:2306.14892,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+SWE-Master: Unleashing the Potential of Software Engineering Agents via Post-Training,arXiv:2602.03411v1,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution,arXiv:2502.18449v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+SWE-World: Building Software Engineering Agents in Docker-Free Environments,arXiv:2602.03419v1,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use,arXiv:2504.04736v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Synthetic Interaction Data for Scalable Personalization in Large Language Models,arXiv:2602.12394v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Synthetic Interaction Data for Scalable Personalization in Large Language Models,arXiv:2602.12394,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Systematic literature studies,10.1145/2372251.2372257,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+TableMind: An Autonomous Programmatic Agent for Tool-Augmented Table Reasoning,arXiv:2509.06278v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Talking about Large Language Models,10.1145/3624724,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs,10.1145/3663547.3746401,citation_expand,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Test-time Recursive Thinking: Self-Improvement without External Feedback,arXiv:2602.03094v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Testing Language Model Agents Safely in the Wild,arXiv:2311.10538v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Text2Motion: from natural language instructions to feasible plans,10.1007/s10514-023-10131-7,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use Agents,arXiv:2601.07264v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents,arXiv:2602.14224v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+The Mathematics of Coordinated Control of Prosthetic Arms and Manipulators,10.1115/1.3426611,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+The Measurement of Observer Agreement for Categorical Data,10.2307/2529310,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+The Optimal Token Baseline: Variance Reduction for Long-Horizon LLM-RL,arXiv:2602.07078v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+The Perils of Trial-and-Error Reward Design: Misdesign through Overfitting and Invalid Task Specifications,10.1609/aaai.v37i5.25733,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+The PRISMA Statement for Reporting Systematic Reviews and Meta-Analyses of Studies That Evaluate Health Care Interventions: Explanation and Elaboration,10.7326/0003-4819-151-4-200908180-00136,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+The Procedural Planning Abilities of Cloud-Based LLMS in Embodied Environments: A Meta-Analysis,10.1109/ainit65432.2025.11035707,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+The rise and potential of large language model based agents: a survey,10.1007/s11432-024-4222-0,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+The temporal logic of programs,10.1109/sfcs.1977.32,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Think Before You Act: Unified Policy for Interleaving Language Reasoning with Actions,arXiv:2304.11063v1,pdf_ref,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Thinking with Programming Vision: Towards a Unified View for Thinking with Images,arXiv:2512.03746v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",arXiv:2602.13692v1,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments,arXiv:2602.02459v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TidyBot: personalized robot assistance with large language models,10.1007/s10514-023-10139-z,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Time Series Reasoning via Process-Verifiable Thinking Data Synthesis and Scheduling for Tailored LLM Reasoning,arXiv:2602.07830v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Timely Machine: Awareness of Time Makes Test-Time Scaling Agentic,arXiv:2601.16486,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TKG-Thinker: Towards Dynamic Reasoning over Temporal Knowledge Graphs via Agentic Reinforcement Learning,arXiv:2602.05818v2,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models,arXiv:2602.12566v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Tool-Augmented Hybrid Ensemble Reasoning with Distillation for Bilingual Mathematical Problem Solving,arXiv:2512.19093v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning,arXiv:2505.16410v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ToolExpander: Extending the Frontiers of Tool-Using Reinforcement Learning to Weak LLMs,arXiv:2510.07737v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration,arXiv:2511.21689v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback,arXiv:2601.10156v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ToolSelf: Unifying Task Execution and Self-Reconfiguration via Tool-Driven Intrinsic Adaptation,arXiv:2602.07883v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ToRL: Scaling Tool-Integrated RL,arXiv:2503.23383v1,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Toward Robust Multimodal Learning using Multimodal Foundational Models,arXiv:2401.13697v1,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Toward Training Superintelligent Software Agents through Self-Play SWE-RL,arXiv:2512.18552v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Towards AGI A Pragmatic Approach Towards Self Evolving Agent,arXiv:2601.11658v1,prior_core,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Towards Applicable Reinforcement Learning: Improving the Generalization and Sample Efficiency with Policy Ensemble,10.24963/ijcai.2022/508,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Towards Efficient Large Language Reasoning Models via Extreme-Ratio Chain-of-Thought Compression,arXiv:2602.08324v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Towards Optimizing Human-Centric Objectives in AI-Assisted Decision-Making With Offline Reinforcement Learning,arXiv:2403.05911v2,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Towards Reasoning in Large Language Models: A Survey,arXiv:2212.10403v2,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance,arXiv:2512.11421v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TrailBlazer: History-Guided Reinforcement Learning for Black-Box LLM Jailbreaking,arXiv:2602.06440v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TrailBlazer: History-Guided Reinforcement Learning for Black-Box LLM Jailbreaking,arXiv:2602.06440,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Training Compute-Optimal Large Language Models,arXiv:2203.15556,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Training Language Models to Reason Efficiently,arXiv:2502.04463v4,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Training Language Models to Self-Correct via Reinforcement Learning,arXiv:2409.12917v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Training Reasoning Models on Saturated Problems via Failure-Prefix Conditioning,arXiv:2601.20829,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TransDreamer: Reinforcement Learning with Transformer World Models,arXiv:2202.09481,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context,arXiv:1901.02860v3,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Tree of Thoughts: Deliberate Problem Solving with Large Language Models,arXiv:2305.10601,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Tree Training: Accelerating Agentic LLMs Training via Shared Prefix Reuse,arXiv:2511.00413v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TTRL: Test-Time Reinforcement Learning,arXiv:2504.16084v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+TVCACHE: A Stateful Tool-Value Cache for Post-Training LLM Agents,arXiv:2602.10986v1,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+TwinRL-VLA: Digital Twin-Driven Reinforcement Learning for Real-World Robotic Manipulation,arXiv:2602.09023v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and Bipolar Float Reward,arXiv:2601.03205,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Understanding Degradation with Vision Language Model,arXiv:2602.04565v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Understanding Natural Language Commands for Robotic Navigation and Mobile Manipulation,10.1609/aaai.v25i1.7979,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Unfamiliar Finetuning Examples Control How Language Models Hallucinate,arXiv:2403.05612v2,papers.csv,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Unifying Modern AI with Robotics: Survey on MDPs with Diffusion and Foundation Models,10.36227/techrxiv.174494994.46313754/v1,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Unlocking Robotic Autonomy: A Survey on the Applications of Foundation Models,10.1007/s12555-024-0438-7,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval,arXiv:2602.06034v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Veri-R1: Toward Precise and Faithful Claim Verification via Online Reinforcement Learning,arXiv:2510.01932,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training,arXiv:2602.10693v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+VirtualHome: Simulating Household Activities Via Programs,10.1109/cvpr.2018.00886,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments,10.1109/cvpr.2018.00387,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models,arXiv:2503.06749v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+Visual Language Maps for Robot Navigation,10.1109/icra48891.2023.10160969,citation_expand,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Visual Navigation With Multiple Goals Based on Deep Reinforcement Learning,10.1109/tnnls.2021.3057424,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+VLM-Guided Experience Replay,arXiv:2602.01915v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use,arXiv:2505.19255v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"Walk the talk: connecting language, knowledge, and action in route instructions",,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems,arXiv:2506.13666v1,targeted_search,Irrelevant_or_unclear_scope,Survey/review without direct RL-loop method contribution
+Weakly Supervised Learning of Semantic Parsers for Mapping Instructions to Actions,10.1162/tacl_a_00209,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning,arXiv:2505.16421v2,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+WebGPT: Browser-assisted question-answering with human feedback,arXiv:2112.09332v3,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+WebVLN: Vision-and-Language Navigation on Websites,10.1609/aaai.v38i2.27878,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent,arXiv:2508.05748v3,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+What Does Vision Tool-Use Reinforcement Learning Really Learn? Disentangling Tool-Induced and Intrinsic Effects for Crop-and-Zoom,arXiv:2602.01334v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+What learning algorithm is in-context learning? Investigations with linear models,arXiv:2211.15661,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+What Matters in Learning from Offline Human Demonstrations for Robot Manipulation,arXiv:2108.03298,pdf_ref,Irrelevant_or_unclear_scope,No clear LLM signal
+What to do and how to do it: Translating natural language directives into temporal and dynamic logic representation for goal management and action execution,10.1109/robot.2009.5152776,citation_expand,Irrelevant_or_unclear_scope,No clear LLM signal
+When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification,arXiv:2602.11199v1,prior_core,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+When and What to Ask: AskBench and Rubric-Guided RLVR for LLM Clarification,arXiv:2602.11199,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+When Is Compositional Reasoning Learnable from Verifiable Rewards?,arXiv:2602.07992v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+When Silence Is Golden: Can LLMs Learn to Abstain in Temporal QA and Beyond?,arXiv:2602.04755v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+When Silence Is Golden: Can LLMs Learn to Abstain in Temporal QA and Beyond?,arXiv:2602.04755,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+When to Memorize and When to Stop: Gated Recurrent Memory for Long-Context Reasoning,arXiv:2602.10560v1,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct,arXiv:2308.09583v3,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+World Modelling Improves Language Model Agents,arXiv:2506.02918v2,targeted_search,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+XAI meets LLMs: A Survey of the Relation between Explainable AI and Large Language Models,arXiv:2407.15248v1,pdf_ref,Irrelevant_or_unclear_scope,No clear RL-loop or control signal
+Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization,arXiv:2512.24615v1,targeted_search,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+ZeroSearch: Incentivize the Search Capability of LLMs without Searching,arXiv:2505.04588v2,papers.csv,Irrelevant_or_unclear_scope,Insufficient evidence that LLM improves RL loops
+"""It's Weird That it Knows What I Want"": Usability and Interactions with Copilot for Novice Programmers",10.1145/3617367,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+3D-VLA: A 3D Vision-Language-Action Generative World Model,10.48550/arxiv.2403.09631,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Chain-of-Thought Prompting Approach with LLMs for Evaluating Students' Formative Assessment Responses in Science,10.1609/aaai.v38i21.30364,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Complete Survey on LLM-based AI Chatbots,10.48550/arxiv.2406.16937,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Comprehensive Overview of Large Language Models,10.1145/3744746,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Comprehensive Study of ChatGPT: Advancements, Limitations, and Ethical Considerations in Natural Language Processing and Cybersecurity",10.3390/info14080462,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment",10.48550/arxiv.2504.15585,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More",10.48550/arxiv.2407.16216,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness",10.1145/3768165,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Critical Review of Large Language Model on Software Engineering: An Example from ChatGPT and Automated Program Repair,10.48550/arxiv.2310.08879,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Minimaximalist Approach to Reinforcement Learning from Human Feedback,10.48550/arxiv.2401.04056,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A multi-action deep reinforcement learning framework for flexible Job-shop scheduling problem,10.1016/j.eswa.2022.117796,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A New Era in LLM Security: Exploring Security Concerns in Real-World LLM-based Systems,10.48550/arxiv.2402.18649,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A review of research on reinforcement learning algorithms for multi-agents,10.1016/j.neucom.2024.128068,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",10.1109/access.2024.3365742,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey of Large Language Models,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends",10.48550/arxiv.2311.10372,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Efficient Inference for Large Language Models,10.48550/arxiv.2404.14294,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Evaluating Large Language Models in Code Generation Tasks,10.48550/arxiv.2408.16498,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Evaluation of Large Language Models,10.1145/3641289,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",10.1145/3703155,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Survey on Large Language Model (LLM) Security and Privacy: The Good, the Bad, and the Ugly",10.1016/j.hcc.2024.100211,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Large Language Model Acceleration based on KV Cache Management,10.48550/arxiv.2412.19442,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A survey on large language model based autonomous agents,10.1007/s11704-024-40231-1,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Large Language Models for Code Generation,10.1145/3747588,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A survey on large language models for recommendation,10.1007/s11280-024-01291-2,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Large Language Models for Software Engineering,10.48550/arxiv.2312.15223,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on LLM-as-a-Judge,10.48550/arxiv.2411.15594,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A survey on LLM-based multi-agent systems: workflow, infrastructure, and challenges",10.1007/s44336-024-00009-2,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A survey on model-based reinforcement learning,10.1007/s11432-022-3696-5,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A survey on multimodal large language models,10.1093/nsr/nwae403,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems",10.1109/tnnls.2023.3250269,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models,10.1145/3637528.3671470,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Recent Advances in LLM-Based Multi-turn Dialogue Systems,10.1145/3771090,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on the Memory Mechanism of Large Language Model-based Agents,10.1145/3748302,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Survey on Vision-Language-Action Models for Embodied AI,10.48550/arxiv.2405.14093,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Systematic Study and Comprehensive Evaluation of ChatGPT on Benchmark Datasets,10.48550/arxiv.2305.18486,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A Systematic Study on Reinforcement Learning Based Applications,10.3390/en16031512,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+A-MEM: Agentic Memory for LLM Agents,10.48550/arxiv.2502.12110,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners,10.48550/arxiv.2302.01877,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs,10.48550/arxiv.2404.16873,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AEGIS: Online Adaptive AI Content Safety Moderation with Ensemble of LLM Experts,10.48550/arxiv.2404.05993,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AFlow: Automating Agentic Workflow Generation,10.48550/arxiv.2410.10762,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents,10.48550/arxiv.2408.07199,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation,10.48550/arxiv.2312.13010,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG,10.48550/arxiv.2501.09136,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways,10.1145/3716628,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",10.1016/j.inffus.2025.103599,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AI Alignment: A Comprehensive Survey,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AI and Ethics: A Systematic Review of the Ethical Considerations of Large Language Model Use in Surgery Research,10.3390/healthcare12080825,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Aligning Large Language Models with Human: A Survey,10.48550/arxiv.2307.12966,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AlphaMath Almost Zero: process Supervision without process,10.52202/079017-0870,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training,10.48550/arxiv.2309.17179,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+An Embodied Generalist Agent in 3D World,10.48550/arxiv.2311.12871,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+An LLM Compiler for Parallel Function Calling,10.48550/arxiv.2312.04511,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Artificial Intelligence (AI) Trust Framework and Maturity Model: Applying an Entropy Lens to Improve Security, Privacy, and Ethical AI",10.3390/e25101429,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Assessing the research landscape and clinical utility of large language models: a scoping review,10.1186/s12911-024-02459-6,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models,10.18653/v1/2024.naacl-long.347,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+At the Dawn of Generative AI Era: A Tutorial-cum-Survey on New Frontiers in 6G Wireless Intelligence,10.1109/ojcoms.2024.3362271,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey",10.48550/arxiv.2402.09283,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Augmenting large language models with chemistry tools,10.1038/s42256-024-00832-8,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AUTOGEN: A Personalized Large Language Model for Academic Enhancement-Ethics and Proof of Principle,10.1080/15265161.2023.2233356,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Automatically Correcting Large Language Models: Surveying the Landscape of Diverse Automated Correction Strategies,10.1162/tacl_a_00660,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Benchmarking Large Language Models for News Summarization,10.1162/tacl_a_00632,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Better & Faster Large Language Models via Multi-token Prediction,10.48550/arxiv.2404.19737,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Bias and Unfairness in Information Retrieval Systems: New Challenges in the LLM Era,10.1145/3637528.3671458,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Can an Embodied Agent Find Your ""Cat-shaped Mug""? LLM-Based Zero-Shot Object Navigation",10.1109/lra.2023.3346800,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Can ChatGPT Defend its Belief in Truth? Evaluating LLM Reasoning via Debate,10.18653/v1/2023.findings-emnlp.795,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Can large language models provide useful feedback on research papers? A large-scale empirical analysis,10.48550/arxiv.2310.01783,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Can Large Language Models Transform Computational Social Science?,10.1162/coli_a_00502,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs,10.48550/arxiv.2305.03111,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation,10.48550/arxiv.2310.06987,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CATCHM: A novel network-based credit card fraud detection method using node representation learning,10.1016/j.dss.2022.113866,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Chain of Agents: Large Language Models Collaborating on Long-Context Tasks,10.48550/arxiv.2406.02818,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Chain of Attack: a Semantic-Driven Contextual Multi-Turn attacker for LLM,10.48550/arxiv.2405.05610,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis Testing,10.1145/3613904.3642016,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Character-LLM: A Trainable Agent for Role-Playing,10.48550/arxiv.2310.10158,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Characterization of Large Language Model Development in the Datacenter,10.48550/arxiv.2403.07648,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory,10.48550/arxiv.2306.03901,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatDev: Communicative Agents for Software Development,10.18653/v1/2024.acl-long.810,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGLM-Math: Improving Math Problem-Solving in Large Language Models with a Self-Critique Pipeline,10.48550/arxiv.2404.02893,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGPT and large language models in academia: opportunities and challenges,10.1186/s13040-023-00339-9,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGPT and large language models in orthopedics: from education and surgery to research,10.1186/s40634-023-00700-1,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGPT effects on cognitive skills of undergraduate students: Receiving instant responses from AI-based conversational large language models (LLMs),10.1016/j.caeai.2023.100198,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGPT for good? On opportunities and challenges of large language models for education,10.1016/j.lindif.2023.102274,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChatGPT for shaping the future of dentistry: the potential of multi-modal large language model,10.1038/s41368-023-00239-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CHESS: Contextual Harnessing for Efficient SQL Synthesis,10.48550/arxiv.2405.16755,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ChipNeMo: Domain-Adapted LLMs for Chip Design,10.48550/arxiv.2311.00176,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ClassEval: A Manually-Crafted Benchmark for Evaluating LLMs on Class-level Code Generation,10.48550/arxiv.2308.01861,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CoAnnotating: Uncertainty-Guided Work Allocation between Human and Large Language Models for Data Annotation,10.18653/v1/2023.emnlp-main.92,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes,10.1145/3631802.3631830,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CodePlan: Repository-Level Coding using LLMs and Planning,10.1145/3643757,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CodeT5+: Open Code Large Language Models for Code Understanding and Generation,10.48550/arxiv.2305.07922,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+COLD-Attack: Jailbreaking LLMs with Stealthiness and Controllability,10.48550/arxiv.2402.08679,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Comparing Code Explanations Created by Students and Large Language Models,10.1145/3587102.3588785,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM,10.1145/3613904.3642830,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Consciousness in Artificial Intelligence: Insights from the Science of Consciousness,10.48550/arxiv.2308.08708,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Constitutional AI: Harmlessness from AI Feedback,10.48550/arxiv.2212.08073,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Continual Learning of Large Language Models: A Comprehensive Survey,10.1145/3735633,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Corex: Pushing the Boundaries of Complex Reasoning through Multi-Model Collaboration,10.48550/arxiv.2310.00280,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models,10.1145/3701228,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+CS1-LLM: Integrating LLMs into CS1 Instruction,10.1145/3649217.3653584,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving,10.48550/arxiv.2407.13690,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Data Interpreter: An LLM Agent For Data Science,10.48550/arxiv.2402.18679,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DB-GPT: Large Language Model Meets Database,10.1007/s41019-023-00235-6,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Debating with More Persuasive LLMs Leads to More Truthful Answers,10.48550/arxiv.2402.06782,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Deep Learning and Neural Networks: Decision-Making Implications,10.3390/sym15091723,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Deep Reinforcement Learning for Robotics: A Survey of Real-World Successes,10.48550/arxiv.2408.03539,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning,10.1038/s41586-025-09422-z,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Demystifying Long Chain-of-Thought Reasoning in LLMs,arXiv:2502.03373v1,prior_core,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents",10.48550/arxiv.2302.01560,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Designing Heterogeneous LLM Agents for Financial Sentiment Analysis,10.1145/3688399,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Detecting hallucinations in large language models using semantic entropy,10.1038/s41586-024-07421-0,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning,10.48550/arxiv.2208.06193,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Direct Preference Optimization of Video Large Multimodal Models from Language Model Reward,10.48550/arxiv.2404.01258,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Do LLM Agents Exhibit Social Behavior?,10.48550/arxiv.2312.15198,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Do LLMs Exhibit Human-like Response Biases? A Case Study in Survey Design,10.1162/tacl_a_00685,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models,10.48550/arxiv.2403.17336,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DRG-LLaMA : tuning LLaMA model to predict diagnosis-related group for hospitalized patients,10.48550/arxiv.2309.12625,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DriveVLM: The Convergence of Autonomous Driving and Large Vision-Language Models,10.48550/arxiv.2402.12289,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning,10.48550/arxiv.2402.17453,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization,10.48550/arxiv.2310.02170,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities,10.18653/v1/2024.acl-long.829,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+EdgeShard: Efficient LLM Inference via Collaborative Edge Computing,10.1109/jiot.2024.3524255,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Effects of Generative Chatbots in Higher Education,10.3390/info14090492,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Efficient Large Language Models: A Survey,10.48550/arxiv.2312.03863,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Embodied intelligence in manufacturing: leveraging large language models for autonomous industrial robotics,10.1007/s10845-023-02294-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Embodied LLM Agents Learn to Cooperate in Organized Teams,10.48550/arxiv.2403.12482,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld,10.1109/cvpr52733.2024.02482,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Embodied Task Planning with Large Language Models,10.48550/arxiv.2307.01848,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought,10.48550/arxiv.2305.15021,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,10.48550/arxiv.2305.19118,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Evaluating large language models as agents in the clinic,10.1038/s41746-024-01083-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Evaluating the Moral Beliefs Encoded in LLMs,10.48550/arxiv.2307.14324,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Evolutionary Reinforcement Learning: A Survey,10.34133/icomputing.0025,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Executable Code Actions Elicit Better LLM Agents,10.48550/arxiv.2402.01030,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Explainability for Large Language Models: A Survey,10.1145/3639372,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Explainable, interpretable, and trustworthy AI for an intelligent digital twin: A case study on remaining useful life",10.1016/j.engappai.2023.107620,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Exploiting Programmatic Behavior of LLMs: Dual-Use Through Standard Security Attacks,10.1109/spw63631.2024.00018,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Exploration in Deep Reinforcement Learning: A Survey,10.1016/j.inffus.2022.03.003,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Exploring the Potential of Large Language Models (LLMs)in Learning on Graphs,10.1145/3655103.3655110,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Exploring the potential of using ChatGPT in physics education,10.1186/s40561-023-00273-7,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation",10.48550/arxiv.2409.12941,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Faithful Logical Reasoning via Symbolic Chain-of-Thought,10.48550/arxiv.2405.18357,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Farsight: Fostering Responsible AI Awareness During AI Application Prototyping,10.1145/3613904.3642335,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Fast Best-of-N Decoding via Speculative Rejection,10.48550/arxiv.2410.20290,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Feedback Loops With Language Models Drive In-Context Reward Hacking,10.48550/arxiv.2402.06627,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+FinBen: A Holistic Financial Benchmark for Large Language Models,10.52202/079017-3033,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+FinBERT : A Large Language Model for Extracting Information from Financial Text†,10.1111/1911-3846.12832,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Fine-tuning ChatGPT for Automatic Scoring,10.48550/arxiv.2310.10072,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+FinGPT: Open-Source Financial Large Language Models,10.48550/arxiv.2306.06031,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+FinMem: A Performance-Enhanced LLM Trading Agent With Layered Memory and Character Design,10.1109/tbdata.2025.3593370,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Foundational Challenges in Assuring Alignment and Safety of Large Language Models,10.48550/arxiv.2404.09932,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+From Persona to Personalization: A Survey on Role-Playing Language Agents,10.48550/arxiv.2404.18231,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+From System 1 to System 2: A Survey of Reasoning Large Language Models,10.48550/arxiv.2502.17419,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+From Text to Transformation: A Comprehensive Review of Large Language Models' Versatility,10.48550/arxiv.2402.16142,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models,10.1109/icra57147.2024.10610566,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Generalized Planning in PDDL Domains with Pretrained Large Language Models,10.48550/arxiv.2305.11014,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Generative Artificial Intelligence for Software Engineering-A Research Agenda,10.1002/spe.70005,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Generative artificial intelligence in drug discovery: basic framework, recent advances, challenges, and opportunities",10.3389/fphar.2024.1331062,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Generative Echo Chamber? Effect of LLM-Powered Search Systems on Diverse Information Seeking,10.1145/3613904.3642459,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Goal-Conditioned Imitation Learning using Score-based Diffusion Policies,10.48550/arxiv.2304.02532,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Goal-Conditioned Reinforcement Learning: Problems and Solutions,10.24963/ijcai.2022/770,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"GPT, large language models (LLMs) and generative artificial intelligence (GAI) models in geospatial science: a systematic review",10.1080/17538947.2024.2353122,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+GPT-4 Doesn't Know It's Wrong: An Analysis of Iterative Prompting for Reasoning Problems,10.48550/arxiv.2310.12397,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Graph Retrieval-Augmented Generation: A Survey,10.1145/3777378,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+GraspGPT: Leveraging Semantic Knowledge From a Large Language Model for Task-Oriented Grasping,10.1109/lra.2023.3320012,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Grounded Decoding: Guiding Text Generation with Grounded Models for Robot Control,10.48550/arxiv.2303.00855,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Harnessing Multiple Large Language Models: A Survey on LLM Ensemble,10.48550/arxiv.2502.18036,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,10.1145/3649506,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Hierarchical Planning Through Goal-Conditioned Offline Reinforcement Learning,10.48550/arxiv.2205.11790,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Hierarchical Reinforcement Learning: A Survey and Open Research Challenges,10.3390/make4010009,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+High-throughput Generative Inference of Large Language Models with a Single GPU,10.48550/arxiv.2303.06865,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+HIQL: Offline Goal-Conditioned RL with Latent States as Actions,10.48550/arxiv.2307.11949,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+How Can Recommender Systems Benefit from Large Language Models: A Survey,10.1145/3678004,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+How Novices Use LLM-based Code Generators to Solve CS1 Coding Tasks in a Self-Paced Learning Environment,10.1145/3631802.3631806,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+How to Train Data-Efficient LLMs,10.48550/arxiv.2402.09668,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Human-in-the-Loop Reinforcement Learning: A Survey and Position on Requirements, Challenges, and Opportunities",10.1613/jair.1.15348,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Human-LLM Collaborative Annotation Through Effective Verification of LLM Labels,10.1145/3613904.3641960,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Human-Timescale Adaptation in an Open-Ended Task Space,10.48550/arxiv.2301.07608,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Hybrid fuzzy AHP-TOPSIS approach to prioritizing solutions for inverse reinforcement learning,10.1007/s40747-022-00807-5,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents",10.48550/arxiv.2401.00812,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition,10.48550/arxiv.2311.16119,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Improved Baselines with Visual Instruction Tuning,10.1109/cvpr52733.2024.02484,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Improving Code Generation by Training with Natural Language Feedback,10.48550/arxiv.2303.16749,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+In-context Reinforcement Learning with Algorithm Distillation,10.48550/arxiv.2210.14215,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+InferFix: End-to-End Program Repair with LLMs,10.1145/3611643.3613892,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Inner Monologue: Embodied Reasoning through Planning with Language Models,10.48550/arxiv.2207.05608,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Intelligent problem-solving as integrated hierarchical reinforcement learning,10.1038/s42256-021-00433-9,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Investigating Cultural Alignment of Large Language Models,10.48550/arxiv.2402.13231,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Is Conditional Generative Modeling all you need for Decision-Making?,10.48550/arxiv.2211.15657,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Is Temperature the Creativity Parameter of Large Language Models?,10.48550/arxiv.2405.00492,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study,10.48550/arxiv.2305.13860,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates,10.48550/arxiv.2402.18540,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+KG-RAG: Bridging the Gap Between Knowledge and Creativity,10.48550/arxiv.2405.12035,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Language Models Learn to Mislead Humans via RLHF,10.48550/arxiv.2409.12822,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Language to Rewards for Robotic Skill Synthesis,10.48550/arxiv.2306.08647,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Model based Multi-Agents: A Survey of Progress and Challenges,10.48550/arxiv.2402.01680,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Model Enhanced Multi-Agent Systems for 6G Communications,10.1109/mwc.016.2300600,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Model for Vulnerability Detection and Repair: Literature Review and the Road Ahead,10.1145/3708522,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Model-Brained GUI Agents: A Survey,10.48550/arxiv.2411.18279,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models,10.1145/3606337,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Large language models (LLMs): survey, technical frameworks, and future challenges",10.1007/s10462-024-10888-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models and Games: A Survey and Roadmap,10.1109/tg.2024.3461510,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models Are Human-Level Prompt Engineers,10.48550/arxiv.2211.01910,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models are Zero-Shot Reasoners,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models as General Pattern Machines,10.48550/arxiv.2307.04721,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large language models empowered agent-based modeling and simulation: a survey and perspectives,10.1057/s41599-024-03611-3,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large language models for chemistry robotics,10.1007/s10514-023-10136-2,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Code Analysis: Do LLMs Really Do Their Job?,10.48550/arxiv.2310.12357,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large language models for generative information extraction: a survey,10.1007/s11704-024-40555-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Information Retrieval: A Survey,10.1145/3748304,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Mental Health Applications: Systematic Review,10.2196/57400,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Robotics: A Survey,10.48550/arxiv.2311.07226,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Large Language Models for Robotics: Opportunities, Challenges, and Perspectives",10.48550/arxiv.2401.04334,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Software Engineering: A Systematic Literature Review,10.1145/3695988,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models for Test-Free Fault Localization,10.1145/3597503.3623342,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models in Cybersecurity: State-of-the-Art,10.48550/arxiv.2402.00891,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large language models in medicine,10.1038/s41591-023-02448-8,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models meet Collaborative Filtering: An Efficient All-round LLM-based Recommender System,10.1145/3637528.3671931,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models on Graphs: A Comprehensive Survey,10.1109/tkde.2024.3469578,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large Language Models: A Survey,10.48550/arxiv.2402.06196,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Large-scale Multi-modal Pre-trained Models: A Comprehensive Survey,10.1007/s11633-022-1410-8,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Learning to Reason under Off-Policy Guidance,10.48550/arxiv.2504.14945,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models,10.48550/arxiv.2308.11462,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Let the LLMs Talk: Simulating Human-to-Human Conversational QA via Zero-Shot LLM-to-LLM Interactions,10.1145/3616855.3635856,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LILAC: Log Parsing using LLMs with Adaptive Parsing Cache,10.1145/3643733,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks,10.1145/3708359.3712091,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Llama 2: Open Foundation and Fine-Tuned Chat Models,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models,10.48550/arxiv.2403.13372,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"LLM for Test Script Generation and Migration: Challenges, Capabilities, and Opportunities",10.1109/qrs60937.2023.00029,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM in a flash: Efficient Large Language Model Inference with Limited Memory,10.48550/arxiv.2312.11514,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM+P: Empowering Large Language Models with Optimal Planning Proficiency,10.48550/arxiv.2304.11477,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models,10.48550/arxiv.2304.01933,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Assisted Content Analysis: Using Large Language Models to Support Deductive Coding,10.48550/arxiv.2306.14924,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-based agentic systems in medicine and healthcare,10.1038/s42256-024-00944-1,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead",10.1145/3712003,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Ensemble: Optimal Large Language Model Ensemble Method for E-commerce Product Attribute Value Extraction,10.1145/3626772.3661357,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Eval: Unified Multi-Dimensional Automatic Evaluation for Open-Domain Conversations with Large Language Models,10.48550/arxiv.2305.13711,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Mod: Can Large Language Models Assist Content Moderation?,10.1145/3613905.3650828,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models,10.1109/iccv51070.2023.00280,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM-Pruner: On the Structural Pruning of Large Language Models,10.48550/arxiv.2305.11627,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation,10.48550/arxiv.2401.12224,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLMParser: An Exploratory Study on Using Large Language Models for Log Parsing,10.1145/3597503.3639150,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLMs Accelerate Annotation for Medical Information Extraction,10.48550/arxiv.2312.02296,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLMs and generative agent-based models for complex systems research.,10.1016/j.plrev.2024.10.013,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!",10.48550/arxiv.2502.07374,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",10.48550/arxiv.2402.01817,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLMs for knowledge graph construction and reasoning: recent capabilities and future opportunities,10.1007/s11280-024-01297-w,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"LLMs Will Always Hallucinate, and We Need to Live With This",10.48550/arxiv.2409.05746,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning,10.48550/arxiv.2305.12295,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Long-context LLMs Struggle with Long In-context Learning,10.48550/arxiv.2404.02060,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MART: Improving LLM Safety with Multi-round Automatic Red-Teaming,10.48550/arxiv.2311.07689,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MDAgents: An Adaptive Collaboration of LLMs for Medical Decision-Making,10.52202/079017-2522,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Mechanistic Interpretability for AI Safety - A Review,10.48550/arxiv.2404.14082,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Mental-LLM,10.1145/3643540,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MetaAgents: Large Language Model Based Agents for Decision-Making on Teaming,10.1145/3711032,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MetaGPT: Meta Programming for Multi-Agent Collaborative Framework,10.48550/arxiv.2308.00352,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Mitigating the Alignment Tax of RLHF,10.48550/arxiv.2309.06256,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Mixture-of-Agents Enhances Large Language Model Capabilities,10.48550/arxiv.2406.04692,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+MM-LLMs: Recent Advances in MultiModal Large Language Models,10.48550/arxiv.2401.13601,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models,10.48550/arxiv.2306.08018,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Multi-agent Architecture Search via Agentic Supernet,10.48550/arxiv.2502.04180,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Multi-Agent Collaboration Mechanisms: A Survey of LLMs,10.48550/arxiv.2501.06322,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents,10.48550/arxiv.2306.03314,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Multi-Agent Deep Reinforcement Learning for Multi-Robot Applications: A Survey,10.3390/s23073625,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Multi-Agent Reinforcement Learning is a Sequence Modeling Problem,10.48550/arxiv.2205.14953,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning,10.1109/tpami.2025.3554559,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+NavGPT: Explicit Reasoning in Vision-and-Language Navigation with Large Language Models,10.48550/arxiv.2305.16986,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails,10.48550/arxiv.2310.10501,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Next-Generation Database Interfaces: A Survey of LLM-Based Text-to-SQL,10.1109/tkde.2025.3609486,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+NPHardEval: Dynamic Benchmark on Reasoning Ability of Large Language Models via Complexity Classes,10.48550/arxiv.2312.14890,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+NVLM: Open Frontier-Class Multimodal LLMs,10.48550/arxiv.2409.11402,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Offline Pre-trained Multi-agent Decision Transformer,10.1007/s11633-022-1383-7,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+OmniDrive: A Holistic Vision-Language Dataset for Autonomous Driving with Counterfactual Reasoning,10.1109/cvpr52734.2025.02090,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On Hardware Security Bug Code Fixes by Prompting Large Language Models,10.1109/tifs.2024.3374558,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On Memorization of Large Language Models in Logical Reasoning,10.48550/arxiv.2410.23123,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the assessment of generative AI in modeling tasks: an experience report with ChatGPT and UML,10.1007/s10270-023-01105-5,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the conversational persuasiveness of GPT-4,10.1038/s41562-025-02194-6,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the creativity of large language models,10.1007/s00146-024-02127-3,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the Planning Abilities of Large Language Models (A Critical Investigation with a Proposed Benchmark),10.48550/arxiv.2302.06706,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling (APS),10.1609/icaps.v34i1.31503,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks,10.48550/arxiv.2402.08115,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Open-source LLMs for text annotation: a practical guide for model setting and fine-tuning,10.1007/s42001-024-00345-9,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset,10.48550/arxiv.2402.10176,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Opportunities and risks of large language models in psychiatry,10.1038/s44277-024-00010-z,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+OriGen: Enhancing RTL Code Generation with Code-to-Code Augmentation and Self-Reflection,10.1145/3676536.3676830,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation,arXiv:2505.23885v2,prior_core,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+PAL: Program-aided Language Models,10.48550/arxiv.2211.10435,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+PaLM: Scaling Language Modeling with Pathways,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+PaperBench: Evaluating AI's Ability to Replicate AI Research,10.48550/arxiv.2504.01848,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Patterns of Student Help-Seeking When Using a Large Language Model-Powered Programming Assistant,10.1145/3636243.3636249,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Performance and biases of Large Language Models in public opinion simulation,10.1057/s41599-024-03609-x,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Perils and opportunities in using large language models in psychological research,10.1093/pnasnexus/pgae245,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Personalization of Large Language Models: A Survey,10.48550/arxiv.2411.00027,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Personalizing Reinforcement Learning from Human Feedback with Variational Preference Learning,10.48550/arxiv.2408.10075,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks,10.48550/arxiv.2503.09572,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Playing repeated games with large language models,10.1038/s41562-025-02172-y,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+PLeak: Prompt Leaking Attacks against Large Language Model Applications,10.1145/3658644.3670370,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Practical and ethical challenges of large language models in education: A systematic scoping review,10.1111/bjet.13370,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+PRD: Peer Rank and Discussion Improve Large Language Model based Evaluations,10.48550/arxiv.2307.02762,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Principled Reinforcement Learning with Human Feedback from Pairwise or K-wise Comparisons,10.48550/arxiv.2301.11270,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Process Reinforcement through Implicit Rewards,arXiv:2502.01456v2,prior_core,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Programmable and Customized Intelligence for Traffic Steering in 5G Networks Using Open RAN Architectures,10.1109/tmc.2023.3266642,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Prompt Engineering: a methodology for optimizing interactions with AI-Language Models in the field of engineering,10.15446/dyna.v90n230.111700,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Prompt Injection attack against LLM-integrated Applications,10.48550/arxiv.2306.05499,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Prompting meaning: a hermeneutic approach to optimising prompt engineering with ChatGPT,10.1007/s00146-023-01752-8,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Proximal Policy Optimization With Policy Feedback,10.1109/tsmc.2021.3098451,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Q-learning Decision Transformer: Leveraging Dynamic Programming for Conditional Sequence Modelling in Offline RL,10.48550/arxiv.2209.03993,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents,10.48550/arxiv.2402.03610,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts,10.48550/arxiv.2411.15114,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Reasoning with Language Model is Planning with World Model,10.48550/arxiv.2305.14992,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Recommender Systems in the Era of Large Language Models (LLMs),10.1109/tkde.2024.3392335,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RedPajama: an Open Dataset for Training Large Language Models,10.48550/arxiv.2411.12372,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models,10.48550/arxiv.2501.03262,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Reinforcement and Deep Reinforcement Learning-based Solutions for Machine Maintenance Planning, Scheduling Policies, and Optimization",10.48550/arxiv.2307.03860,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Reinforcement learning algorithms: A brief survey,10.1016/j.eswa.2023.120495,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RestGPT: Connecting Large Language Models with Real-World Applications via RESTful APIs,10.48550/arxiv.2306.06624,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Rethinking machine unlearning for large language models,10.1038/s42256-025-00985-0,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ReTool: Reinforcement Learning for Strategic Tool Use in LLMs,10.48550/arxiv.2504.11536,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Retrieval Augmented Generation (RAG) and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely,10.48550/arxiv.2409.14924,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Retrieval-Augmented Generation for Large Language Models: A Survey,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing,10.48550/arxiv.2306.00622,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards,10.48550/arxiv.2306.04488,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems",10.48550/arxiv.2401.05778,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RouteLLM: Learning to Route LLMs with Preference Data,10.48550/arxiv.2406.18665,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+RTLFixer: Automatically Fixing RTL Syntax Errors with Large Language Models,10.1145/3649329.3657353,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Safe LoRA: the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models,10.48550/arxiv.2405.16833,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Safe multi-agent reinforcement learning for multi-robot control,10.1016/j.artint.2023.103905,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Task Planning,10.48550/arxiv.2307.06135,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation,10.48550/arxiv.2311.03348,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Scaling Large-Language-Model-based Multi-Agent Collaboration,10.48550/arxiv.2406.07155,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,10.48550/arxiv.2408.03314,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+SciAgents: Automating Scientific Discovery Through Bioinspired Multi‐Agent Intelligent Graph Reasoning,10.1002/adma.202413523,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+SCRIMP: Scalable Communication for Reinforcement- and Imitation-Learning-Based Multi-Agent Pathfinding,10.1109/iros55552.2023.10342305,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Security and Privacy Challenges of Large Language Models: A Survey,10.1145/3712001,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Self-Collaboration Code Generation via ChatGPT,10.1145/3672459,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Self-Planning Code Generation with Large Language Models,10.1145/3672456,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models,10.1162/coli.a.16,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs,10.48550/arxiv.2410.18451,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models,10.1109/iros58592.2024.10802322,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Software Testing With Large Language Models: Survey, Landscape, and Vision",10.1109/tse.2024.3368208,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Structure-informed Language Models Are Protein Designers,10.1101/2023.02.03.526917,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Students' use of large language models in engineering education: A case study on technology acceptance, perceptions, efficacy, and detection chances",10.1016/j.caeai.2023.100172,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+SummIt: Iterative Text Summarization via ChatGPT,10.48550/arxiv.2305.14835,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Supporting Human-AI Collaboration in Auditing LLMs with LLMs,10.1145/3600211.3604712,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Systematic Evaluation of LLM-as-a-Judge in LLM Alignment Tasks: Explainable Metrics and Diverse Prompt Templates,10.48550/arxiv.2408.13006,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Taken out of context: On measuring situational awareness in LLMs,10.48550/arxiv.2309.00667,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+TaskBench: Benchmarking Large Language Models for Task Automation,10.48550/arxiv.2311.18760,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education,10.1145/3613904.3642349,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Teaching Large Language Models to Self-Debug,10.48550/arxiv.2304.05128,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Text Classification via Large Language Models,10.18653/v1/2023.findings-emnlp.603,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"TextGrad: Automatic ""Differentiation"" via Text",10.48550/arxiv.2406.07496,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Challenge of Using LLMs to Simulate Human Behavior: A Causal Inference Perspective,10.2139/ssrn.4650172,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks,10.48550/arxiv.2502.08235,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Effects of Generative AI on Computing Students' Help-Seeking Preferences,10.1145/3636243.3636248,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The ethics of ChatGPT in medicine and healthcare: a systematic review on Large Language Models (LLMs),10.1038/s41746-024-01157-x,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Internal State of an LLM Knows When its Lying,10.18653/v1/2023.findings-emnlp.68,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The potential of generative AI for personalized persuasion at scale,10.1038/s41598-024-53755-0,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The promise and challenges of generative AI in education,10.1080/0144929x.2024.2394886,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"The Reversal Curse: LLMs trained on ""A is B"" fail to learn ""B is A""",,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Robots Are Here: Navigating the Generative AI Revolution in Computing Education,10.1145/3623762.3633499,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+The Science of Detecting LLM-Generated Text,10.1145/3624725,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks,10.48550/arxiv.2412.14161,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs,10.48550/arxiv.2501.18585,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning,10.48550/arxiv.2409.12183,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Token-Budget-Aware LLM Reasoning,10.48550/arxiv.2412.18547,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+TokenPacker: Efficient Visual Projector for Multimodal LLM,10.1007/s11263-025-02491-7,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Tool learning with large language models: a survey,10.1007/s11704-024-40678-2,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Towards an understanding of large language models in software engineering tasks,10.1007/s10664-024-10602-0,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought,10.48550/arxiv.2501.04682,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Training large language models on narrow tasks can lead to broad misalignment,10.1038/s41586-025-09937-5,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Trustworthiness in Retrieval-Augmented Generation Systems: A Survey,10.48550/arxiv.2409.10102,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Trustworthy safety improvement for autonomous driving using reinforcement learning,10.1016/j.trc.2022.103656,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Understanding HTML with Large Language Models,10.48550/arxiv.2210.03945,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Understanding LLMs: A Comprehensive Overview from Training to Inference,10.48550/arxiv.2401.02038,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges",10.1109/comst.2023.3239220,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Understanding R1-Zero-Like Training: A Critical Perspective,10.48550/arxiv.2503.20783,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Understanding User Experience in Large Language Model Interactions,10.48550/arxiv.2401.08329,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Unifying Large Language Models and Knowledge Graphs: A Roadmap,10.1109/tkde.2024.3352100,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Unleashing the potential of prompt engineering in Large Language Models: a comprehensive review,,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Unlocking the Potential of ChatGPT: A Comprehensive Exploration of its Applications, Advantages, Limitations, and Future Directions in Natural Language Processing",10.48550/arxiv.2304.02017,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities",10.48550/arxiv.2308.12833,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Using an LLM to Help with Code Understanding,10.1145/3597503.3639187,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Using Large Language Models for Hyperparameter Optimization,10.48550/arxiv.2312.04528,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Using large language models in psychology,10.1038/s44159-023-00241-5,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Using text-to-image generation for architectural design ideation,10.1177/14780771231222783,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models,10.48550/arxiv.2307.05973,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+WebThinker: Empowering Large Reasoning Models with Deep Research Capability,10.48550/arxiv.2504.21776,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+What Matters in Language Conditioned Robotic Imitation Learning Over Unstructured Data,10.1109/lra.2022.3196123,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+When Do Transformers Shine in RL? Decoupling Memory from Credit Assignment,10.48550/arxiv.2307.03864,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+When does return-conditioned supervised learning work for offline reinforcement learning?,10.48550/arxiv.2206.01079,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"When Large Language Model Agents Meet 6G Networks: Perception, Grounding, and Alignment",10.1109/mwc.005.2400019,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+When LLMs meet cybersecurity: a systematic literature review,10.1186/s42400-025-00361-w,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Why Do Multi-Agent LLM Systems Fail?,10.48550/arxiv.2503.13657,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Why Johnny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts,10.1145/3544548.3581388,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+Wiki-LLaVA: Hierarchical Retrieval-Augmented Generation for Multimodal LLMs,10.1109/cvprw63382.2024.00188,papers.csv,Irrelevant_pre_filter,No clear LLM+RL signal in title/abstract
+"""Think 2555-2565. before you act: Unified policy for interleaving language reasoning with",,pdf_ref,Unverified,
+A survey of explainable et al,,pdf_ref,Unverified,
+"Advances in neural information processing systems, vol. 33, Den Driessche, J. Schrittwieser, I. Antonoglou et al",,pdf_ref,Unverified,
+"ArXiv, vol. abs/2203.15556, et al",,pdf_ref,Unverified,
+Can Wikipedia Help Offline ment Learning with Transformer World Models,,pdf_ref,Unverified,
+Chain-of-thought prompting elicits reasoning in large language models,,pdf_ref,Unverified,
+"Computational Linguistics, pp. 1-79, G. Konidaris",,pdf_ref,Unverified,
+Con- ment learning,,pdf_ref,Unverified,
+Constraints penalized q-learning for safe language models for optimised coordination in textual multi-agent offline reinforcement learning,,pdf_ref,Unverified,
+CURL: Contrastive Unsuper-,,pdf_ref,Unverified,
+Dream to control: tree search methods,,pdf_ref,Unverified,
+Efficient and A. Zeng,,pdf_ref,Unverified,
+Efficient multi-task reinforcement learning via selective behavior sharing,,pdf_ref,Unverified,
+Efficient policy adaptation with of egocentric video,,pdf_ref,Unverified,
+"Ella: Exploration C. Finn, C. Fu et al",,pdf_ref,Unverified,
+Emergent analogical reasoning deep reinforcement learning,,pdf_ref,Unverified,
+"Eplus-llm: A large language J. Foerster, T. Rocktäschel et al",,pdf_ref,Unverified,
+Exploration-guided Q. Le et al,,pdf_ref,Unverified,
+Exploration-guided reward shaping for reinforcement learning under sparse rewards,,pdf_ref,Unverified,
+"Frontiers of Computer Science, vol. 18, no. 6, p. 186345, 2024. and W. Chen",,pdf_ref,Unverified,
+"Goal-conditioned predictive [155] J. Robine, M. Höftmann, T. Uelwer, and S. Harmeling",,pdf_ref,Unverified,
+"Grounding language to non- U. Alon, N. Dziri et al",,pdf_ref,Unverified,
+Grounding language to nonmarkovian tasks with no supervision of task specifications,,pdf_ref,Unverified,
+"Guide G. Sastry, A. Askell et al",,pdf_ref,Unverified,
+Guiding Pretraining in Reinforcement Learning with 257219404 Large Language Models,,pdf_ref,Unverified,
+"Hard tasks first: Multi- [79] M. Yang, W. Huang, W. Tu, Q. Qu, Y. Shen, and K. Lei",,pdf_ref,Unverified,
+Hard tasks first: Multitask reinforcement learning through task scheduling,,pdf_ref,Unverified,
+Improving language understanding by generative pre-training,,pdf_ref,Unverified,
+in The Twelfth International and A. Zeng,,pdf_ref,Unverified,
+Informing reinforcement learning agents by grounding language to markov decision processes,,pdf_ref,Unverified,
+J. Pfau,,pdf_ref,Unverified,
+Leveraging large language models for optimised coordination in textual multi-agent reinforcement learning,,pdf_ref,Unverified,
+"Mastering Atari with [175] C. B. Browne, E. Powley, D. Whitehouse, S. M. Lucas, P. I. Cowling, Discrete World Models",,pdf_ref,Unverified,
+"Mismatch quest: Visual and textual J. Scarlett, Eds., vol. 202. PMLR, 23-29 Jul 2023, pp. 10 835-10 866. feedback for image-text misalignment",,pdf_ref,Unverified,
+"Mobile battery energy storage system control with [32] D. A. Boiko, R. MacKnight, B. Kline, and G. Gomes",,pdf_ref,Unverified,
+"Modular multitask reinforcement Y. Zhu, L. Fan et al",,pdf_ref,Unverified,
+"Offline reinforcement learning as [152] Y. Matsuo, Y. LeCun, M. Sahani, D. Precup, D. Silver, M. Sugiyama, one big sequence modeling problem",,pdf_ref,Unverified,
+"Paco: Parameter- [81] Y. Liu, Y. Zhang, Y. Wang, F. Hou, J. Yuan, J. Tian, Y. Zhang, Z. Shi compositional multi-task reinforcement learning",,pdf_ref,Unverified,
+Paco: Parametercompositional multi-task reinforcement learning,,pdf_ref,Unverified,
+"Pre-trained language models for interactive decision- P. Abbeel, A. Srinivas et al",,pdf_ref,Unverified,
+Pre-trained language models for interactive decisionmaking,,pdf_ref,Unverified,
+"Progprompt: program generation for Gomez, L. Kaiser, and I. Polosukhin",,pdf_ref,Unverified,
+"RE-MOVE: An Adaptive D. Yogatama, M. Bosma et al",,pdf_ref,Unverified,
+ReAct: Synergizing Reasoning and Acting in Language Models,,papers.csv,Unverified,
+Rebel: A general game playing ai,,pdf_ref,Unverified,
+"Reflexion: Language Agents with Verbal Reinforcement [173] L. Wang, C. Ma, X. Feng, Z. Zhang, H. Yang, J. Zhang, Z. Chen, Learning",,pdf_ref,Unverified,
+Reinforcement learning: An introduction. 5929. MIT press,,pdf_ref,Unverified,
+"Reward Design S. Singh, and R. Fox",,pdf_ref,Unverified,
+Safety-aware human-inthe-loop reinforcement learning with shared control for autonomous driving,,pdf_ref,Unverified,
+Self-refine: Iterative refinement with selffeedback,,pdf_ref,Unverified,
+Soft actor-critic: Offpolicy maximum entropy deep reinforcement learning with a stochastic actor,,pdf_ref,Unverified,
+"Superhuman ai for [34] H. Tan, Z. Guo, Z. Lin, Y. Chen, D. Huang, W. Yuan, H. Zhang, and multiplayer poker",,pdf_ref,Unverified,
+"Training language models to follow D. Quillen, E. Holly et al",,pdf_ref,Unverified,
+Transformerbased World Models Are Happy With 100k Interactions,,pdf_ref,Unverified,
+Transformers are SampleEfficient World Models,,pdf_ref,Unverified,
+"What [67] H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, learning algorithm is in-context learning? investigations with linear T. Lacroix, B. Rozière, N. Goyal et al",,pdf_ref,Unverified,

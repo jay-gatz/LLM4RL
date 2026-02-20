@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NwUJEFEQQDaYUKi6f2F2nSaY57s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07275v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07275v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07275v1</id>
+    <title>Evolving LLM-Derived Control Policies for Residential EV Charging and Vehicle-to-Grid Energy Optimization</title>
+    <updated>2026-02-06T23:59:33Z</updated>
+    <link href="https://arxiv.org/abs/2602.07275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This research presents a novel application of Evolutionary Computation to the domain of residential electric vehicle (EV) energy management. While reinforcement learning (RL) achieves high performance in vehicle-to-grid (V2G) optimization, it typically produces opaque "black-box" neural networks that are difficult for consumers and regulators to audit. Addressing this interpretability gap, we propose a program search framework that leverages Large Language Models (LLMs) as intelligent mutation operators within an iterative prompt-evaluation-repair loop. Utilizing the high-fidelity EV2Gym simulation environment as a fitness function, the system undergoes successive refinement cycles to synthesize executable Python policies that balance profit maximization, user comfort, and physical safety constraints. We benchmark four prompting strategies: Imitation, Reasoning, Hybrid and Runtime, evaluating their ability to discover adaptive control logic. Results demonstrate that the Hybrid strategy produces concise, human-readable heuristics that achieve 118% of the baseline profit, effectively discovering complex behaviors like anticipatory arbitrage and hysteresis without explicit programming. This work establishes LLM-driven Evolutionary Computation as a practical approach for generating EV charging control policies that are transparent, inspectable, and suitable for real residential deployment.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T23:59:33Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Vishesh Purnananda</name>
+    </author>
+    <author>
+      <name>Benjamin John Wruck</name>
+    </author>
+    <author>
+      <name>Mingyu Guo</name>
+    </author>
+  </entry>
+</feed>

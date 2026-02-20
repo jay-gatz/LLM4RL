@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xHz/IziVk0txA0sul5ncQY0f9uA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16169v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16169v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16169v1</id>
+    <title>Discrete Stochastic Localization for Non-autoregressive Generation</title>
+    <updated>2026-02-18T04:05:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.16169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-autoregressive (NAR) generation reduces decoding latency by predicting many tokens in parallel, but iterative refinement often suffers from error accumulation and distribution shift under self-generated drafts. Masked diffusion language models (MDLMs) and their remasking samplers (e.g., ReMDM) can be viewed as modern NAR iterative refinement, where generation repeatedly revises a partially observed draft. In this work we show that \emph{training alone} can substantially improve the step-efficiency of MDLM/ReMDM sampling. We propose \textsc{DSL} (Discrete Stochastic Localization), which trains a single SNR-invariant denoiser across a continuum of corruption levels, bridging intermediate draft noise and mask-style endpoint corruption within one Diffusion Transformer. On OpenWebText, \textsc{DSL} fine-tuning yields large MAUVE gains at low step budgets, surpassing the MDLM+ReMDM baseline with \(\sim\)4$\times$ fewer denoiser evaluations, and matches autoregressive quality at high budgets. Analyses show improved self-correction and uncertainty calibration, making remasking markedly more compute-efficient.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T04:05:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yunshu Wu</name>
+    </author>
+    <author>
+      <name>Jiayi Cheng</name>
+    </author>
+    <author>
+      <name>Partha Thakuria</name>
+    </author>
+    <author>
+      <name>Rob Brekelmans</name>
+    </author>
+    <author>
+      <name>Evangelos E. Papalexakis</name>
+    </author>
+    <author>
+      <name>Greg Ver Steeg</name>
+    </author>
+  </entry>
+</feed>

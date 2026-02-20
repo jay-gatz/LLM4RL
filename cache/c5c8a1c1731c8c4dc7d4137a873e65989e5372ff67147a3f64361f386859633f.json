@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/s+45TmvUuX1L0hfUNvjwSwqodss</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15872v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15872v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15872v1</id>
+    <title>MARVL: Multi-Stage Guidance for Robotic Manipulation via Vision-Language Models</title>
+    <updated>2026-01-28T11:25:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.15872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing dense reward functions is pivotal for efficient robotic Reinforcement Learning (RL). However, most dense rewards rely on manual engineering, which fundamentally limits the scalability and automation of reinforcement learning. While Vision-Language Models (VLMs) offer a promising path to reward design, naive VLM rewards often misalign with task progress, struggle with spatial grounding, and show limited understanding of task semantics. To address these issues, we propose MARVL-Multi-stAge guidance for Robotic manipulation via Vision-Language models. MARVL fine-tunes a VLM for spatial and semantic consistency and decomposes tasks into multi-stage subtasks with task direction projection for trajectory sensitivity. Empirically, MARVL significantly outperforms existing VLM-reward methods on the Meta-World benchmark, demonstrating superior sample efficiency and robustness on sparse-reward manipulation tasks.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T11:25:13Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xunlan Zhou</name>
+    </author>
+    <author>
+      <name>Xuanlin Chen</name>
+    </author>
+    <author>
+      <name>Shaowei Zhang</name>
+    </author>
+    <author>
+      <name>Xiangkun Li</name>
+    </author>
+    <author>
+      <name>ShengHua Wan</name>
+    </author>
+    <author>
+      <name>Xiaohai Hu</name>
+    </author>
+    <author>
+      <name>Yuan Lei</name>
+    </author>
+    <author>
+      <name>Le Gan</name>
+    </author>
+    <author>
+      <name>De-chuan Zhan</name>
+    </author>
+  </entry>
+</feed>

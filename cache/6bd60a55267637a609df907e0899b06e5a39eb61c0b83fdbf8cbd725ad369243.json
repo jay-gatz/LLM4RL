@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6RDgiYJHGMiyT/VxSBTYxo4x4Rg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08537v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08537v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08537v1</id>
+    <title>UniPlan: Vision-Language Task Planning for Mobile Manipulation with Unified PDDL Formulation</title>
+    <updated>2026-02-09T11:35:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.08537v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08537v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Integration of VLM reasoning with symbolic planning has proven to be a promising approach to real-world robot task planning. Existing work like UniDomain effectively learns symbolic manipulation domains from real-world demonstrations, described in Planning Domain Definition Language (PDDL), and has successfully applied them to real-world tasks. These domains, however, are restricted to tabletop manipulation. We propose UniPlan, a vision-language task planning system for long-horizon mobile-manipulation in large-scale indoor environments, that unifies scene topology, visuals, and robot capabilities into a holistic PDDL representation. UniPlan programmatically extends learned tabletop domains from UniDomain to support navigation, door traversal, and bimanual coordination. It operates on a visual-topological map, comprising navigation landmarks anchored with scene images. Given a language instruction, UniPlan retrieves task-relevant nodes from the map and uses a VLM to ground the anchored image into task-relevant objects and their PDDL states; next, it reconnects these nodes to a compressed, densely-connected topological map, also represented in PDDL, with connectivity and costs derived from the original map; Finally, a mobile-manipulation plan is generated using off-the-shelf PDDL solvers. Evaluated on human-raised tasks in a large-scale map with real-world imagery, UniPlan significantly outperforms VLM and LLM+PDDL planning in success rate, plan quality, and computational efficiency.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T11:35:21Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Haoming Ye</name>
+    </author>
+    <author>
+      <name>Yunxiao Xiao</name>
+    </author>
+    <author>
+      <name>Cewu Lu</name>
+    </author>
+    <author>
+      <name>Panpan Cai</name>
+    </author>
+  </entry>
+</feed>

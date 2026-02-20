@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nox9udRR/Cy62SUxKEaNXXO835k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14259v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14259v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14259v1</id>
+    <title>Detecting LLM Hallucinations via Embedding Cluster Geometry: A Three-Type Taxonomy with Measurable Signatures</title>
+    <updated>2026-02-15T18:14:10Z</updated>
+    <link href="https://arxiv.org/abs/2602.14259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a geometric taxonomy of large language model hallucinations based on observable signatures in token embedding cluster structure. By analyzing the static embedding spaces of 11 transformer models spanning encoder (BERT, RoBERTa, ELECTRA, DeBERTa, ALBERT, MiniLM, DistilBERT) and decoder (GPT-2) architectures, we identify three operationally distinct hallucination types: Type 1 (center-drift) under weak context, Type 2 (wrong-well convergence) to locally coherent but contextually incorrect cluster regions, and Type 3 (coverage gaps) where no cluster structure exists. We introduce three measurable geometric statistics: α (polarity coupling), \b{eta} (cluster cohesion), and λ_s (radial information gradient). Across all 11 models, polarity structure (α &gt; 0.5) is universal (11/11), cluster cohesion (\b{eta} &gt; 0) is universal (11/11), and the radial information gradient is significant (9/11, p &lt; 0.05). We demonstrate that the two models failing λ_s significance -- ALBERT and MiniLM -- do so for architecturally explicable reasons: factorized embedding compression and distillation-induced isotropy, respectively. These findings establish the geometric prerequisites for type-specific hallucination detection and yield testable predictions about architecture-dependent vulnerability profiles.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T18:14:10Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Matic Korun</name>
+    </author>
+  </entry>
+</feed>

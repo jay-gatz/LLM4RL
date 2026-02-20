@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J1H4k4CQDK2ctjT826zpE4cxhPc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18734v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18734v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18734v1</id>
+    <title>Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models</title>
+    <updated>2026-01-26T17:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2601.18734v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18734v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge distillation improves large language model (LLM) reasoning by compressing the knowledge of a teacher LLM to train smaller LLMs. On-policy distillation advances this approach by having the student sample its own trajectories while a teacher LLM provides dense token-level supervision, addressing the distribution mismatch between training and inference in off-policy distillation methods. However, on-policy distillation typically requires a separate, often larger, teacher LLM and does not explicitly leverage ground-truth solutions available in reasoning datasets. Inspired by the intuition that a sufficiently capable LLM can rationalize external privileged reasoning traces and teach its weaker self (i.e., the version without access to privileged information), we introduce On-Policy Self-Distillation (OPSD), a framework where a single model acts as both teacher and student by conditioning on different contexts. The teacher policy conditions on privileged information (e.g., verified reasoning traces) while the student policy sees only the question; training minimizes the per-token divergence between these distributions over the student's own rollouts. We demonstrate the efficacy of our method on multiple mathematical reasoning benchmarks, achieving 4-8x token efficiency compared to reinforcement learning methods such as GRPO and superior performance over off-policy distillation methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T17:56:50Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Siyan Zhao</name>
+    </author>
+    <author>
+      <name>Zhihui Xie</name>
+    </author>
+    <author>
+      <name>Mengchen Liu</name>
+    </author>
+    <author>
+      <name>Jing Huang</name>
+    </author>
+    <author>
+      <name>Guan Pang</name>
+    </author>
+    <author>
+      <name>Feiyu Chen</name>
+    </author>
+    <author>
+      <name>Aditya Grover</name>
+    </author>
+  </entry>
+</feed>

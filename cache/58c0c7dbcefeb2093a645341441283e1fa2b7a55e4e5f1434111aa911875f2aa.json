@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rxixYP8ytbqW3z1tJkJ5BN1M0GU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20321v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20321v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20321v2</id>
+    <title>TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation</title>
+    <updated>2026-01-30T13:45:08Z</updated>
+    <link href="https://arxiv.org/abs/2601.20321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have recently emerged as powerful generalists for robotic manipulation. However, due to their predominant reliance on visual modalities, they fundamentally lack the physical intuition required for contact-rich tasks that require precise force regulation and physical reasoning. Existing attempts to incorporate vision-based tactile sensing into VLA models typically treat tactile inputs as auxiliary visual textures, thereby overlooking the underlying correlation between surface deformation and interaction dynamics. To bridge this gap, we propose a paradigm shift from tactile-vision alignment to tactile-force alignment. Here, we introduce TaF-VLA, a framework that explicitly grounds high-dimensional tactile observations in physical interaction forces. To facilitate this, we develop an automated tactile-force data acquisition device and curate the TaF-Dataset, comprising over 10 million synchronized tactile observations, 6-axis force/torque, and matrix force map. To align sequential tactile observations with interaction forces, the central component of our approach is the Tactile-Force Adapter (TaF-Adapter), a tactile sensor encoder that extracts discretized latent information for encoding tactile observations. This mechanism ensures that the learned representations capture history-dependent, noise-insensitive physical dynamics rather than static visual textures. Finally, we integrate this force-aligned encoder into a VLA backbone. Extensive real-world experiments demonstrate that TaF-VLA policy significantly outperforms state-of-the-art tactile-vision-aligned and vision-only baselines on contact-rich tasks, verifying its ability to achieve robust, force-aware manipulation through cross-modal physical reasoning.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T07:34:41Z</published>
+    <arxiv:comment>17pages,9fig</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuzhe Huang</name>
+    </author>
+    <author>
+      <name>Pei Lin</name>
+    </author>
+    <author>
+      <name>Wanlin Li</name>
+    </author>
+    <author>
+      <name>Daohan Li</name>
+    </author>
+    <author>
+      <name>Jiajun Li</name>
+    </author>
+    <author>
+      <name>Jiaming Jiang</name>
+    </author>
+    <author>
+      <name>Chenxi Xiao</name>
+    </author>
+    <author>
+      <name>Ziyuan Jiao</name>
+    </author>
+  </entry>
+</feed>

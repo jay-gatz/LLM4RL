@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IBXWeUo47P2vbHxPq/YAA6Qv0Xo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00743v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00743v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00743v1</id>
+    <title>SA-VLA: Spatially-Aware Flow-Matching for Vision-Language-Action Reinforcement Learning</title>
+    <updated>2026-01-31T14:16:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.00743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models exhibit strong generalization in robotic manipulation, yet reinforcement learning (RL) fine-tuning often degrades robustness under spatial distribution shifts. For flow-matching VLA policies, this degradation is closely associated with the erosion of spatial inductive bias during RL adaptation, as sparse rewards and spatially agnostic exploration increasingly favor short-horizon visual cues. To address this issue, we propose \textbf{SA-VLA}, a spatially-aware RL adaptation framework that preserves spatial grounding during policy optimization by aligning representation learning, reward design, and exploration with task geometry. SA-VLA fuses implicit spatial representations with visual tokens, provides dense rewards that reflect geometric progress, and employs \textbf{SCAN}, a spatially-conditioned annealed exploration strategy tailored to flow-matching dynamics. Across challenging multi-object and cluttered manipulation benchmarks, SA-VLA enables stable RL fine-tuning and improves zero-shot spatial generalization, yielding more robust and transferable behaviors. Code and project page are available at https://xupan.top/Projects/savla.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T14:16:24Z</published>
+    <arxiv:comment>Version 1</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Xu Pan</name>
+    </author>
+    <author>
+      <name>Zhenglin Wan</name>
+    </author>
+    <author>
+      <name>Xingrui Yu</name>
+    </author>
+    <author>
+      <name>Xianwei Zheng</name>
+    </author>
+    <author>
+      <name>Youkai Ke</name>
+    </author>
+    <author>
+      <name>Ming Sun</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Ziwei Wang</name>
+    </author>
+    <author>
+      <name>Ivor Tsang</name>
+    </author>
+  </entry>
+</feed>

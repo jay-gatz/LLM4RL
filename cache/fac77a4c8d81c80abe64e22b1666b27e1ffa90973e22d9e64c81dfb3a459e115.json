@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cvUbGq2f9+b7VmDlYZgGnWN4Hfc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.20616v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.20616v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.20616v2</id>
+    <title>Training Task Reasoning LLM Agents for Multi-turn Task Planning via Single-turn Reinforcement Learning</title>
+    <updated>2025-12-08T18:53:34Z</updated>
+    <link href="https://arxiv.org/abs/2509.20616v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.20616v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated remarkable capabilities in knowledge acquisition, reasoning, and tool use, making them promising candidates for autonomous agent applications. However, training LLM agents for complex multi-turn task planning faces significant challenges, including sparse episode-wise rewards, credit assignment across long horizons, and the computational overhead of reinforcement learning in multi-turn interaction settings. To this end, this paper introduces a novel approach that transforms multi-turn task planning into single-turn task reasoning problems, enabling efficient policy optimization through Group Relative Policy Optimization (GRPO) with dense and verifiable reward from expert trajectories. Our theoretical analysis shows that GRPO improvement on single-turn task reasoning results in a lower bound of the multi-turn success probability under the minimal turns, as well as the generalization to subtasks with shorter horizons. Experimental evaluation on the complex task planning benchmark demonstrates that our 1.5B parameter model trained with single-turn GRPO achieves superior performance compared to larger baseline models up to 14B parameters, with success rates of 70% for long-horizon planning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-24T23:47:36Z</published>
+    <arxiv:comment>Accepted by IEEE Control Systems Letters (L-CSS)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hanjiang Hu</name>
+    </author>
+    <author>
+      <name>Changliu Liu</name>
+    </author>
+    <author>
+      <name>Na Li</name>
+    </author>
+    <author>
+      <name>Yebin Wang</name>
+    </author>
+  </entry>
+</feed>

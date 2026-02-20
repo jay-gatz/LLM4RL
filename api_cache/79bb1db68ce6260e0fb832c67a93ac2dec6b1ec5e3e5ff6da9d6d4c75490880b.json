@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dh6cHWS5fvciFYXu+9uPd4UYYBs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14183v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14183v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14183v1</id>
+    <title>Exploring a Multimodal Chatbot as a Facilitator in Therapeutic Art Activity</title>
+    <updated>2026-02-15T15:14:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.14183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Therapeutic art activities, such as expressive drawing and painting, require the synergy between creative visual production and interactive dialogue. Recent advancements in Multimodal Large Language Models (MLLMs) have expanded the capacity of computing systems to interpret both textual and visual data, offering a new frontier for AI-mediated therapeutic support. This work-in-progress paper introduces an MLLM-powered chatbot that analyzes visual creation in real-time while engaging the creator in reflective conversations. We conducted an evaluation with five experts in art therapy and related fields, which demonstrated the chatbot's potential to facilitate therapeutic engagement, and highlighted several areas for future development, including entryways and risk management, bespoke alignment of user profile and therapeutic style, balancing conversational depth and width, and enriching visual interactivity. These themes provide a design roadmap for designing the future AI-mediated creative expression tools.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T15:14:27Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Le Lin</name>
+    </author>
+    <author>
+      <name>Zihao Zhu</name>
+    </author>
+    <author>
+      <name>Rainbow Tin Hung Ho</name>
+    </author>
+    <author>
+      <name>Jing Liao</name>
+    </author>
+    <author>
+      <name>Yuhan Luo</name>
+    </author>
+  </entry>
+</feed>

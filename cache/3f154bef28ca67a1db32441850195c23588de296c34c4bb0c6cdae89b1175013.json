@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hglDmtpq3THIkJGaLxOsR4oOVlo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14188v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14188v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14188v1</id>
+    <title>GPT-5 vs Other LLMs in Long Short-Context Performance</title>
+    <updated>2026-02-15T15:26:25Z</updated>
+    <link href="https://arxiv.org/abs/2602.14188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the significant expansion of the context window in Large Language Models (LLMs), these models are theoretically capable of processing millions of tokens in a single pass. However, research indicates a significant gap between this theoretical capacity and the practical ability of models to robustly utilize information within long contexts, especially in tasks that require a comprehensive understanding of numerous details. This paper evaluates the performance of four state-of-the-art models (Grok-4, GPT-4, Gemini 2.5, and GPT-5) on long short-context tasks. For this purpose, three datasets were used: two supplementary datasets for retrieving culinary recipes and math problems, and a primary dataset of 20K social media posts for depression detection. The results show that as the input volume on the social media dataset exceeds 5K posts (70K tokens), the performance of all models degrades significantly, with accuracy dropping to around 50-53% for 20K posts. Notably, in the GPT-5 model, despite the sharp decline in accuracy, its precision remained high at approximately 95%, a feature that could be highly effective for sensitive applications like depression detection. This research also indicates that the "lost in the middle" problem has been largely resolved in newer models. This study emphasizes the gap between the theoretical capacity and the actual performance of models on complex, high-volume data tasks and highlights the importance of metrics beyond simple accuracy for practical applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T15:26:25Z</published>
+    <arxiv:comment>10 pages, 7 figures. Accepted for publication in the 3rd International Conference on Foundation and Large Language Models (FLLM2025). IEEE. The final version will be available in IEEE Xplore</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nima Esmi</name>
+      <arxiv:affiliation>Bernoulli Institute, RUG, Groningen, Netherlands</arxiv:affiliation>
+      <arxiv:affiliation>ISRC, Khazar University, Baku, Azerbaijan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Maryam Nezhad-Moghaddam</name>
+      <arxiv:affiliation>Department of Computer Engineering, University of Guilan, Rasht, Iran</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fatemeh Borhani</name>
+      <arxiv:affiliation>Department of Computer Engineering, University of Guilan, Rasht, Iran</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Asadollah Shahbahrami</name>
+      <arxiv:affiliation>ISRC, Khazar University, Baku, Azerbaijan</arxiv:affiliation>
+      <arxiv:affiliation>Department of Computer Engineering, University of Guilan, Rasht, Iran</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Amin Daemdoost</name>
+      <arxiv:affiliation>Department of Computer Engineering, University of Guilan, Rasht, Iran</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Georgi Gaydadjiev</name>
+      <arxiv:affiliation>QCE Department, TU Delft, Delft, Netherlands</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

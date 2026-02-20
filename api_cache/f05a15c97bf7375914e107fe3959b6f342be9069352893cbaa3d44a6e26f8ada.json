@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CbaRnJUHjpLHw8NMi+e06vHz0ms</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.00212&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.00212" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.00212v3</id>
+    <title>Pairwise Proximal Policy Optimization: Harnessing Relative Feedback for LLM Alignment</title>
+    <updated>2023-10-10T02:32:08Z</updated>
+    <link href="https://arxiv.org/abs/2310.00212v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.00212v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) can acquire extensive world knowledge through pre-training on large corpora. However, due to exposure to low-quality data, LLMs may exhibit harmful behavior without aligning with human values. The dominant approach for steering LLMs towards beneficial behavior involves Reinforcement Learning with Human Feedback (RLHF), with Proximal Policy Optimization (PPO) serving as the default RL optimizer. Despite its effectiveness, PPO has limitations when optimizing rewards trained from comparison-based loss. Primarily, PPO is not invariant to equivalent reward functions containing identical preference information due to the need to calibrate the reward scale. Additionally, PPO's necessity for token-wise updates introduces complexity in both function approximation and algorithm design compared to trajectory-wise optimization. This paper proposes a new framework, reinforcement learning with relative feedback, and a novel trajectory-wise policy gradient algorithm, Pairwise Proximal Policy Optimization (P3O) that operates directly on comparative rewards. We show theoretically that P3O is invariant to equivalent rewards and avoids the complexity of PPO. Empirical evaluations demonstrate that P3O outperforms PPO in the KL-Reward trade-off and can align with human preferences as well as or better than prior methods. In summary, this work introduces a simpler yet effective approach for aligning LLMs to human preferences through relative feedback.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-30T01:23:22Z</published>
+    <arxiv:comment>19 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tianhao Wu</name>
+    </author>
+    <author>
+      <name>Banghua Zhu</name>
+    </author>
+    <author>
+      <name>Ruoyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhaojin Wen</name>
+    </author>
+    <author>
+      <name>Kannan Ramchandran</name>
+    </author>
+    <author>
+      <name>Jiantao Jiao</name>
+    </author>
+  </entry>
+</feed>

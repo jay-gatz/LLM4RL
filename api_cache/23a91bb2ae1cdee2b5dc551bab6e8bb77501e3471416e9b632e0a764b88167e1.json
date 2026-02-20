@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ErXI0cdJFdFpsZFYhnQW/iFLnCk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15591v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15591v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15591v1</id>
+    <title>Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution</title>
+    <updated>2026-02-17T14:03:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.15591v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15591v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Testing functionality in Software-Defined Vehicles is challenging because requirements are written in natural language, specifications combine text, tables, and diagrams, while test assets are scattered across heterogeneous toolchains. Large Language Models and Vision-Language Models are used to extract signals and behavioral logic to automatically generate Gherkin scenarios, which are then converted into runnable test scripts. The Vehicle Signal Specification (VSS) integration standardizes signal references, supporting portability across subsystems and test benches. The pipeline uses retrieval-augmented generation to preselect candidate VSS signals before mapping. We evaluate the approach on the safety-relevant Child Presence Detection System, executing the generated tests in a virtual environment and on an actual vehicle. Our evaluation covers Gherkin validity, VSS mapping quality, and end-to-end executability. Results show that 32 of 36 requirements (89\%) can be transformed into executable scenarios in our setting, while human review and targeted substitutions remain necessary. This paper is a feasibility and architectural demonstration of an end-to-end requirements-to-test pipeline for SDV subsystems, evaluated on a CPDS case in simulation and Vehicle-in-the-Loop settings.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T14:03:35Z</published>
+    <arxiv:comment>accepted at CAiSE 2026 main</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Denesa Zyberaj</name>
+    </author>
+    <author>
+      <name>Lukasz Mazur</name>
+    </author>
+    <author>
+      <name>Pascal Hirmer</name>
+    </author>
+    <author>
+      <name>Nenad Petrovic</name>
+    </author>
+    <author>
+      <name>Marco Aiello</name>
+    </author>
+    <author>
+      <name>Alois Knoll</name>
+    </author>
+  </entry>
+</feed>

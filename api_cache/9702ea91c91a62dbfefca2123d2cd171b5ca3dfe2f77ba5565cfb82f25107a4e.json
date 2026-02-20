@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zmK3G4Q5X7gCDVem+oNH3k97//8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.07462v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.07462v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.07462v2</id>
+    <title>Understanding LLM Agent Behaviours via Game Theory: Strategy Recognition, Biases and Multi-Agent Dynamics</title>
+    <updated>2025-12-11T20:32:28Z</updated>
+    <link href="https://arxiv.org/abs/2512.07462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.07462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) increasingly operate as autonomous decision-makers in interactive and multi-agent systems and human societies, understanding their strategic behaviour has profound implications for safety, coordination, and the design of AI-driven social and economic infrastructures. Assessing such behaviour requires methods that capture not only what LLMs output, but the underlying intentions that guide their decisions. In this work, we extend the FAIRGAME framework to systematically evaluate LLM behaviour in repeated social dilemmas through two complementary advances: a payoff-scaled Prisoners Dilemma isolating sensitivity to incentive magnitude, and an integrated multi-agent Public Goods Game with dynamic payoffs and multi-agent histories. These environments reveal consistent behavioural signatures across models and languages, including incentive-sensitive cooperation, cross-linguistic divergence and end-game alignment toward defection. To interpret these patterns, we train traditional supervised classification models on canonical repeated-game strategies and apply them to FAIRGAME trajectories, showing that LLMs exhibit systematic, model- and language-dependent behavioural intentions, with linguistic framing at times exerting effects as strong as architectural differences. Together, these findings provide a unified methodological foundation for auditing LLMs as strategic agents and reveal systematic cooperation biases with direct implications for AI governance, collective decision-making, and the design of safe multi-agent systems.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-08T11:40:03Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Trung-Kiet Huynh</name>
+    </author>
+    <author>
+      <name>Duy-Minh Dao-Sy</name>
+    </author>
+    <author>
+      <name>Thanh-Bang Cao</name>
+    </author>
+    <author>
+      <name>Phong-Hao Le</name>
+    </author>
+    <author>
+      <name>Hong-Dan Nguyen</name>
+    </author>
+    <author>
+      <name>Phu-Quy Nguyen-Lam</name>
+    </author>
+    <author>
+      <name>Minh-Luan Nguyen-Vo</name>
+    </author>
+    <author>
+      <name>Hong-Phat Pham</name>
+    </author>
+    <author>
+      <name>Phu-Hoa Pham</name>
+    </author>
+    <author>
+      <name>Thien-Kim Than</name>
+    </author>
+    <author>
+      <name>Chi-Nguyen Tran</name>
+    </author>
+    <author>
+      <name>Huy Tran</name>
+    </author>
+    <author>
+      <name>Gia-Thoai Tran-Le</name>
+    </author>
+    <author>
+      <name>Alessio Buscemi</name>
+    </author>
+    <author>
+      <name>Le Hong Trang</name>
+    </author>
+    <author>
+      <name>The Anh Han</name>
+    </author>
+  </entry>
+</feed>

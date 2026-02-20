@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//VU8RdTbiU72HBQKVPvnoj9qTV8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18730v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18730v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18730v1</id>
+    <title>Reflect: Transparent Principle-Guided Reasoning for Constitutional Alignment at Scale</title>
+    <updated>2026-01-26T17:54:54Z</updated>
+    <link href="https://arxiv.org/abs/2601.18730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The constitutional framework of alignment aims to align large language models (LLMs) with value-laden principles written in natural language (such as to avoid using biased language). Prior work has focused on parameter fine-tuning techniques, such as reinforcement learning from human feedback (RLHF), to instill these principles. However, these approaches are computationally demanding, require careful engineering and tuning, and often require difficult-to-obtain human annotation data. We propose \textsc{reflect}, an inference-time framework for constitutional alignment that does not require any training or data, providing a plug-and-play approach for aligning an instruction-tuned model to a set of principles. \textsc{reflect} operates entirely in-context, combining a (i) constitution-conditioned base response with post-generation (ii) self-evaluation, (iii)(a) self-critique, and (iii)(b) final revision. \textsc{reflect}'s technique of explicit in-context reasoning over principles during post-generation outperforms standard few-shot prompting and provides transparent reasoning traces. Our results demonstrate that \textsc{reflect} significantly improves LLM conformance to diverse and complex principles, including principles quite distinct from those emphasized in the model's original parameter fine-tuning, without sacrificing factual reasoning. \textsc{reflect} is particularly effective at reducing the rate of rare but significant violations of principles, thereby improving safety and robustness in the tail end of the distribution of generations. Finally, we show that \textsc{reflect} naturally generates useful training data for traditional parameter fine-tuning techniques, allowing for efficient scaling and the reduction of inference-time computational overhead in long-term deployment scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T17:54:54Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Henry Bell</name>
+    </author>
+    <author>
+      <name>Caroline Zhang</name>
+    </author>
+    <author>
+      <name>Mohammed Mobasserul Haque</name>
+    </author>
+    <author>
+      <name>Dhaval Potdar</name>
+    </author>
+    <author>
+      <name>Samia Zaman</name>
+    </author>
+    <author>
+      <name>Brandon Fain</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/93GmFVoi3kSTvnX2P9YZQzXJP34</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09901v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09901v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09901v1</id>
+    <title>QP-OneModel: A Unified Generative LLM for Multi-Task Query Understanding in Xiaohongshu Search</title>
+    <updated>2026-02-10T15:38:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.09901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Query Processing (QP) bridges user intent and content supply in large-scale Social Network Service (SNS) search engines. Traditional QP systems rely on pipelines of isolated discriminative models (e.g., BERT), suffering from limited semantic understanding and high maintenance overhead. While Large Language Models (LLMs) offer a potential solution, existing approaches often optimize sub-tasks in isolation, neglecting intrinsic semantic synergy and necessitating independent iterations. Moreover, standard generative methods often lack grounding in SNS scenarios, failing to bridge the gap between open-domain corpora and informal SNS linguistic patterns, while struggling to adhere to rigorous business definitions. We present QP-OneModel, a Unified Generative LLM for Multi-Task Query Understanding in the SNS domain. We reformulate heterogeneous sub-tasks into a unified sequence generation paradigm, adopting a progressive three-stage alignment strategy culminating in multi-reward Reinforcement Learning. Furthermore, QP-OneModel generates intent descriptions as a novel high-fidelity semantic signal, effectively augmenting downstream tasks such as query rewriting and ranking. Offline evaluations show QP-OneModel achieves a 7.35% overall gain over discriminative baselines, with significant F1 boosts in NER (+9.01%) and Term Weighting (+9.31%). It also exhibits superior generalization, surpassing a 32B model by 7.60% accuracy on unseen tasks. Fully deployed at Xiaohongshu, online A/B tests confirm its industrial value, optimizing retrieval relevance (DCG) by 0.21% and lifting user retention by 0.044%.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T15:38:17Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Jianzhao Huang</name>
+    </author>
+    <author>
+      <name>Xiaorui Huang</name>
+    </author>
+    <author>
+      <name>Fei Zhao</name>
+    </author>
+    <author>
+      <name>Yunpeng Liu</name>
+    </author>
+    <author>
+      <name>Hui Zhang</name>
+    </author>
+    <author>
+      <name>Fangcheng Shi</name>
+    </author>
+    <author>
+      <name>Congfeng Li</name>
+    </author>
+    <author>
+      <name>Zechen Sun</name>
+    </author>
+    <author>
+      <name>Yi Wu</name>
+    </author>
+    <author>
+      <name>Yao Hu</name>
+    </author>
+    <author>
+      <name>Yunhan Bai</name>
+    </author>
+    <author>
+      <name>Shaosheng Cao</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g9oO8AoN63cedGFRMa2/ZMrNrao</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11243v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11243v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11243v1</id>
+    <title>Evaluating Memory Structure in LLM Agents</title>
+    <updated>2026-02-11T17:32:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.11243v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11243v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern LLM-based agents and chat assistants rely on long-term memory frameworks to store reusable knowledge, recall user preferences, and augment reasoning. As researchers create more complex memory architectures, it becomes increasingly difficult to analyze their capabilities and guide future memory designs. Most long-term memory benchmarks focus on simple fact retention, multi-hop recall, and time-based changes. While undoubtedly important, these capabilities can often be achieved with simple retrieval-augmented LLMs and do not test complex memory hierarchies. To bridge this gap, we propose StructMemEval - a benchmark that tests the agent's ability to organize its long-term memory, not just factual recall. We gather a suite of tasks that humans solve by organizing their knowledge in a specific structure: transaction ledgers, to-do lists, trees and others. Our initial experiments show that simple retrieval-augmented LLMs struggle with these tasks, whereas memory agents can reliably solve them if prompted how to organize their memory. However, we also find that modern LLMs do not always recognize the memory structure when not prompted to do so. This highlights an important direction for future improvements in both LLM training and memory frameworks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T17:32:23Z</published>
+    <arxiv:comment>Preprint, work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alina Shutova</name>
+    </author>
+    <author>
+      <name>Alexandra Olenina</name>
+    </author>
+    <author>
+      <name>Ivan Vinogradov</name>
+    </author>
+    <author>
+      <name>Anton Sinitsin</name>
+    </author>
+  </entry>
+</feed>

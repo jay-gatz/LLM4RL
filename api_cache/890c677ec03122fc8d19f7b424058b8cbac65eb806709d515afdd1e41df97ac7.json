@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/isqXLmvzjjMJlJoGj6R8ETUfEEE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.11514&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.11514" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.11514v3</id>
+    <title>LLM in a flash: Efficient Large Language Model Inference with Limited Memory</title>
+    <updated>2024-07-30T23:37:20Z</updated>
+    <link href="https://arxiv.org/abs/2312.11514v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.11514v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are central to modern natural language processing, delivering exceptional performance in various tasks. However, their substantial computational and memory requirements present challenges, especially for devices with limited DRAM capacity. This paper tackles the challenge of efficiently running LLMs that exceed the available DRAM capacity by storing the model parameters in flash memory, but bringing them on demand to DRAM. Our method involves constructing an inference cost model that takes into account the characteristics of flash memory, guiding us to optimize in two critical areas: reducing the volume of data transferred from flash and reading data in larger, more contiguous chunks. Within this hardware-informed framework, we introduce two principal techniques. First, "windowing" strategically reduces data transfer by reusing previously activated neurons, and second, "row-column bundling", tailored to the sequential data access strengths of flash memory, increases the size of data chunks read from flash memory. These methods collectively enable running models up to twice the size of the available DRAM, with a 4-5x and 20-25x increase in inference speed compared to naive loading approaches in CPU and GPU, respectively. Our integration of sparsity awareness, context-adaptive loading, and a hardware-oriented design paves the way for effective inference of LLMs on devices with limited memory.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-12T18:57:08Z</published>
+    <arxiv:comment>ACL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Keivan Alizadeh</name>
+    </author>
+    <author>
+      <name>Iman Mirzadeh</name>
+    </author>
+    <author>
+      <name>Dmitry Belenko</name>
+    </author>
+    <author>
+      <name>Karen Khatamifard</name>
+    </author>
+    <author>
+      <name>Minsik Cho</name>
+    </author>
+    <author>
+      <name>Carlo C Del Mundo</name>
+    </author>
+    <author>
+      <name>Mohammad Rastegari</name>
+    </author>
+    <author>
+      <name>Mehrdad Farajtabar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y5stM8OwiE9lj/OY5EUTlAotozo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.21730v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:25:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.21730v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21730v1</id>
+    <title>A Benchmark for Procedural Memory Retrieval in Language Agents</title>
+    <updated>2025-11-21T08:08:53Z</updated>
+    <link href="https://arxiv.org/abs/2511.21730v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21730v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current AI agents excel in familiar settings, but fail sharply when faced with novel tasks with unseen vocabularies -- a core limitation of procedural memory systems. We present the first benchmark that isolates procedural memory retrieval from task execution, evaluating whether agents can recognize functionally equivalent procedures that span different object instantiations. Using ALFWorld, we construct dual corpora of expert and LLM-generated trajectories and evaluate six retrieval methods using systematically stratified queries. Our results expose a clear generalization cliff: embedding-based methods perform strongly on familiar contexts, yet degrade considerably on novel ones, while LLM-generated procedural abstractions demonstrate reliable cross-context transfer. Controlled ablations show that although embeddings capture some lexical-level abstraction, they fundamentally treat procedures as unordered bags of words, discarding temporal structure necessary for cross-context transfer. Corpus scale delivers far larger gains than representation enrichment, revealing an architectural ceiling in current encoders. Our benchmark offers the first diagnostic framework separating genuine procedural understanding from surface-level memorization and gives tools for developing retrieval systems capable of dependable generalization. Resources available at our GitHub repository (https://github.com/qpiai/Proced_mem_bench).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-21T08:08:53Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ishant Kohar</name>
+    </author>
+    <author>
+      <name>Aswanth Krishnan</name>
+    </author>
+  </entry>
+</feed>

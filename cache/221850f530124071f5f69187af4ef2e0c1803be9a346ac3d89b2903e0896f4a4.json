@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IGq/f2s+wrgJSKJuvVonqVv43sg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.06749&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:11:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.06749" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.06749v3</id>
+    <title>Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models</title>
+    <updated>2026-02-05T16:21:33Z</updated>
+    <link href="https://arxiv.org/abs/2503.06749v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.06749v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>DeepSeek-R1-Zero has successfully demonstrated the emergence of reasoning capabilities in LLMs purely through Reinforcement Learning (RL). Inspired by this breakthrough, we explore how RL can be utilized to enhance the reasoning capability of MLLMs. However, direct training with RL struggles to activate complex reasoning capabilities such as questioning and reflection in MLLMs, due to the absence of substantial high-quality multimodal reasoning data. To address this issue, we propose the reasoning MLLM, Vision-R1, to improve multimodal reasoning capability. Specifically, we first construct a high-quality multimodal CoT dataset without human annotations by leveraging an existing MLLM and DeepSeek-R1 through modality bridging and data filtering to obtain a 200K multimodal CoT dataset, Vision-R1-cold dataset. It serves as cold-start initialization data for Vision-R1. To mitigate the optimization challenges caused by overthinking after cold start, we propose Progressive Thinking Suppression Training (PTST) strategy and employ Group Relative Policy Optimization (GRPO) with the hard formatting result reward function to gradually refine the model's ability to learn correct and complex reasoning processes on a 10K multimodal math dataset. Comprehensive experiments show our model achieves an average improvement of $\sim$6% across various multimodal math reasoning benchmarks. Vision-R1-7B achieves a 73.5% accuracy on the widely used MathVista benchmark, which is only 0.4% lower than the leading reasoning model, OpenAI O1. Scaling up the amount of multimodal math data in the RL training, Vision-R1-32B and Vison-R1-72B achieves 76.4% and 78.2% MathVista benchmark scores, respectively. The datasets and code will be released in: https://github.com/Osilly/Vision-R1 .</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-09T20:06:45Z</published>
+    <arxiv:comment>Accepted to ICLR 2026. Code is available at https://github.com/Osilly/Vision-R1</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Wenxuan Huang</name>
+    </author>
+    <author>
+      <name>Bohan Jia</name>
+    </author>
+    <author>
+      <name>Zijie Zhai</name>
+    </author>
+    <author>
+      <name>Shaosheng Cao</name>
+    </author>
+    <author>
+      <name>Zheyu Ye</name>
+    </author>
+    <author>
+      <name>Fei Zhao</name>
+    </author>
+    <author>
+      <name>Zhe Xu</name>
+    </author>
+    <author>
+      <name>Yao Hu</name>
+    </author>
+    <author>
+      <name>Shaohui Lin</name>
+    </author>
+  </entry>
+</feed>

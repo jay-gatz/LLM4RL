@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zZ32u/lQ/OsIoaRho8u3A7YR6s0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.05812&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.05812" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.05812v3</id>
+    <title>Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization</title>
+    <updated>2025-05-18T13:41:33Z</updated>
+    <link href="https://arxiv.org/abs/2504.05812v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.05812v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing methods to enhance the reasoning capability of large language models predominantly rely on supervised fine-tuning (SFT) followed by reinforcement learning (RL) on reasoning-specific data. These approaches critically depend on external supervisions--such as labeled reasoning traces, verified golden answers, or pre-trained reward models. In this work, we propose Entropy Minimized Policy Optimization (\ours), which makes an early attempt at fully unsupervised LLM reasoning incentivization. By continuously minimizing the predictive entropy of LLMs on unlabeled questions in a latent semantic space, \ours achieves competitive performance compared to supervised counterparts on both mathematical and free-form natural reasoning tasks. Specifically, without any supervised signals, \ours boosts the accuracy of Qwen2.5-Math-7B Base from 30.7\% to 48.1\% on mathematical benchmarks and improves the accuracy of Qwen2.5-7B Base from 32.1\% to 50.1\% on MMLU-Pro. Primary experiments and analysis are also provided to interpret the effectiveness of \ours. Code is available at https://github.com/QingyangZhang/EMPO.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-08T08:48:51Z</published>
+    <arxiv:comment>Ongoing work. First released on April 8, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Qingyang Zhang</name>
+    </author>
+    <author>
+      <name>Haitao Wu</name>
+    </author>
+    <author>
+      <name>Changqing Zhang</name>
+    </author>
+    <author>
+      <name>Peilin Zhao</name>
+    </author>
+    <author>
+      <name>Yatao Bian</name>
+    </author>
+  </entry>
+</feed>

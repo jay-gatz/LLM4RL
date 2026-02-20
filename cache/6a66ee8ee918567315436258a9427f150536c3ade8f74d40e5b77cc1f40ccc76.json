@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yaOWBqBbshlt+MS+QpcR4TTaL0Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19585v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19585v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19585v2</id>
+    <title>LLM-Enhanced Reinforcement Learning for Long-Term User Satisfaction in Interactive Recommendation</title>
+    <updated>2026-02-06T14:47:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.19585v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19585v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive recommender systems can dynamically adapt to user feedback, but often suffer from content homogeneity and filter bubble effects due to overfitting short-term user preferences. While recent efforts aim to improve content diversity, they predominantly operate in static or one-shot settings, neglecting the long-term evolution of user interests. Reinforcement learning provides a principled framework for optimizing long-term user satisfaction by modeling sequential decision-making processes. However, its application in recommendation is hindered by sparse, long-tailed user-item interactions and limited semantic planning capabilities. In this work, we propose LLM-Enhanced Reinforcement Learning (LERL), a novel hierarchical recommendation framework that integrates the semantic planning power of LLM with the fine-grained adaptability of RL. LERL consists of a high-level LLM-based planner that selects semantically diverse content categories, and a low-level RL policy that recommends personalized items within the selected semantic space. This hierarchical design narrows the action space, enhances planning efficiency, and mitigates overexposure to redundant content. Extensive experiments on real-world datasets demonstrate that LERL significantly improves long-term user satisfaction when compared with state-of-the-art baselines. The implementation of LERL is available at https://github.com/1163710212/LERL.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T13:22:30Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Chongjun Xia</name>
+    </author>
+    <author>
+      <name>Yanchun Peng</name>
+    </author>
+    <author>
+      <name>Xianzhi Wang</name>
+    </author>
+  </entry>
+</feed>

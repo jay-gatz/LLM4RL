@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ksGW8qJk1HNsPyOBTo2l8A+o4e0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.01258&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.01258" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.01258v2</id>
+    <title>Direct Preference Optimization of Video Large Multimodal Models from Language Model Reward</title>
+    <updated>2024-04-02T12:47:49Z</updated>
+    <link href="https://arxiv.org/abs/2404.01258v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.01258v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Preference modeling techniques, such as direct preference optimization (DPO), has shown effective in enhancing the generalization abilities of large language model (LLM). However, in tasks involving video instruction-following, providing informative feedback, especially for detecting hallucinations in generated responses, remains a significant challenge. Previous studies have explored using large large multimodal models (LMMs) as reward models to guide preference modeling, but their ability to accurately assess the factuality of generated responses compared to corresponding videos has not been conclusively established. This paper introduces a novel framework that utilizes detailed video captions as a proxy of video content, enabling language models to incorporate this information as supporting evidence for scoring video Question Answering (QA) predictions. Our approach demonstrates robust alignment with OpenAI GPT-4V model's reward mechanism, which directly takes video frames as input. Furthermore, we show that applying this tailored reward through DPO significantly improves the performance of video LMMs on video QA tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-01T17:28:16Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ruohong Zhang</name>
+    </author>
+    <author>
+      <name>Liangke Gui</name>
+    </author>
+    <author>
+      <name>Zhiqing Sun</name>
+    </author>
+    <author>
+      <name>Yihao Feng</name>
+    </author>
+    <author>
+      <name>Keyang Xu</name>
+    </author>
+    <author>
+      <name>Yuanhan Zhang</name>
+    </author>
+    <author>
+      <name>Di Fu</name>
+    </author>
+    <author>
+      <name>Chunyuan Li</name>
+    </author>
+    <author>
+      <name>Alexander Hauptmann</name>
+    </author>
+    <author>
+      <name>Yonatan Bisk</name>
+    </author>
+    <author>
+      <name>Yiming Yang</name>
+    </author>
+  </entry>
+</feed>

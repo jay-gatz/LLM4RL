@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XXkACOkVHEVys3SzWYAzNduqUVE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02709v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:12:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02709v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02709v2</id>
+    <title>ATLAS : Adaptive Self-Evolutionary Research Agent with Task-Distributed Multi-LLM Supporters</title>
+    <updated>2026-02-12T22:37:34Z</updated>
+    <link href="https://arxiv.org/abs/2602.02709v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02709v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent multi-LLM agent systems perform well in prompt optimization and automated problem-solving, but many either keep the solver frozen after fine-tuning or rely on a static preference-optimization loop, which becomes intractable for long-horizon tasks. We propose ATLAS (Adaptive Task-distributed Learning for Agentic Self-evolution), a task-distributed framework that iteratively develops a lightweight research agent while delegating complementary roles to specialized supporter agents for exploration, hyperparameter tuning, and reference policy management. Our core algorithm, Evolving Direct Preference Optimization (EvoDPO), adaptively updates the phase-indexed reference policy. We provide a theoretical regret analysis for a preference-based contextual bandit under concept drift. In addition, experiments were conducted on non-stationary linear contextual bandits and scientific machine learning (SciML) loss reweighting for the 1D Burgers' equation. Both results show that ATLAS improves stability and performance over a static single-agent baseline.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T19:23:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ujin Jeon</name>
+    </author>
+    <author>
+      <name>Jiyong Kwon</name>
+    </author>
+    <author>
+      <name>Madison Ann Sullivan</name>
+    </author>
+    <author>
+      <name>Caleb Eunho Lee</name>
+    </author>
+    <author>
+      <name>Guang Lin</name>
+    </author>
+  </entry>
+</feed>

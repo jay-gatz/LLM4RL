@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ck1eK0DM09Ix9D7kWSYeWmamCZs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.04535v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.04535v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04535v2</id>
+    <title>GTM: Simulating the World of Tools for AI Agents</title>
+    <updated>2025-12-05T06:40:32Z</updated>
+    <link href="https://arxiv.org/abs/2512.04535v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04535v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of external tools is pivotal for empowering Large Language Model (LLM) agents with real-world capabilities. However, training these agents through direct, continuous interaction with diverse tools is often prohibitively expensive, slow, and introduces additional development and maintenance overhead. To address this challenge, we introduce the Generalist Tool Model (GTM), a 1.5-billion-parameter model that learns to act as a universal tool simulator. With only prompt-level configuration, GTM accesses tool functionalities along with input arguments and generates outputs that faithfully mimic real tool execution, providing a fast and cost-effective solution that eliminates development overhead. To build GTM, we propose the Context-Aware Response Generation (CARG) pipeline, which synthesizes comprehensive training data covering over 20,000 tools across 300 domains including physics, medicine, robotics, and finance. Through this pipeline, GTM learns to produce not only syntactically correct outputs but also logically coherent and contextually appropriate responses. Experiments demonstrate that GTM produces high-quality outputs with strong consistency and reliability. Besides when used in real reinforcement learning scenarios for agent training, GTM exhibits significantly faster simulation speed compared to real tools while maintaining comparable output quality, along with remarkable generalization and domain adaptability. Our results establish GTM as a foundational component for developing future AI agents, enabling efficient and scalable training of tool-augmented systems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T07:33:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhenzhen Ren</name>
+    </author>
+    <author>
+      <name>Xinpeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhenxing Qian</name>
+    </author>
+    <author>
+      <name>Yan Gao</name>
+    </author>
+    <author>
+      <name>Yu Shi</name>
+    </author>
+    <author>
+      <name>Shuxin Zheng</name>
+    </author>
+    <author>
+      <name>Jiyan He</name>
+    </author>
+  </entry>
+</feed>

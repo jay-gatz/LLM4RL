@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/stU0ns4xy/CYm3B2Cl4Jw9YH4n8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08590v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08590v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08590v1</id>
+    <title>SDFed: Bridging Local Global Discrepancy via Subspace Refinement and Divergence Control in Federated Prompt Learning</title>
+    <updated>2026-02-09T12:33:00Z</updated>
+    <link href="https://arxiv.org/abs/2602.08590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language pretrained models offer strong transferable representations, yet adapting them in privacy-sensitive multi-party settings is challenging due to the high communication cost of federated optimization and the limited local data on clients. Federated prompt learning mitigates this issue by keeping the VLPM backbone frozen and collaboratively training lightweight prompt parameters. However, existing approaches typically enforce a unified prompt structure and length across clients, which is inadequate under practical client heterogeneity in both data distributions and system resources, and may further introduce conflicts between globally shared and locally optimal knowledge. To address these challenges, we propose \textbf{SDFed}, a heterogeneous federated prompt learning framework that bridges Local-Global Discrepancy via Subspace Refinement and Divergence Control. SDFed maintains a fixed-length global prompt for efficient aggregation while allowing each client to learn a variable-length local prompt to better match its data characteristics and capacity. To mitigate local-global conflicts and facilitate effective knowledge transfer, SDFed introduces a subspace refinement method for local prompts and an information retention and divergence control strategy that preserves key local information while maintaining appropriate separability between global and local representations. Extensive experiments on several datasets demonstrate that SDFed consistently improves performance and robustness in heterogeneous federated settings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T12:33:00Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yicheng Di</name>
+    </author>
+    <author>
+      <name>Wei Yuan</name>
+    </author>
+    <author>
+      <name>Tieke He</name>
+    </author>
+    <author>
+      <name>Zhanjie Zhang</name>
+    </author>
+    <author>
+      <name>Ao Ma</name>
+    </author>
+    <author>
+      <name>Yuan Liu</name>
+    </author>
+    <author>
+      <name>Hongzhi Yin</name>
+    </author>
+  </entry>
+</feed>

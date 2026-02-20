@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/G8mOYKvc7cwG76Pe69+Q/B/lBHU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.20718v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.20718v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20718v1</id>
+    <title>ST-PPO: Stabilized Off-Policy Proximal Policy Optimization for Multi-Turn Agents Training</title>
+    <updated>2025-11-25T05:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2511.20718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>PPO has been widely adopted for training large language models (LLMs) at the token level in multi-turn dialogue and reasoning tasks. However, its performance is often unstable and prone to collapse. Through empirical analysis, we identify two main sources of instability in this setting: (1)~token-level importance sampling, which is misaligned with the natural granularity of multi-turn environments that have distinct turn-level stages, and (2) inaccurate advantage estimates from off-policy samples, where the critic has not learned to evaluate certain state-action pairs, resulting in high-variance gradients and unstable updates. To address these challenges, we introduce two complementary stabilization techniques: (1) turn-level importance sampling, which aligns optimization with the natural structure of multi-turn reasoning, and (2) clipping-bias correction, which normalizes gradients by downweighting unreliable, highly off-policy samples. Depending on how these components are combined, we obtain three variants: Turn-PPO (turn-level sampling only), S-PPO (clipping-bias correction applied to token-level PPO), and ST-PPO (turn-level sampling combined with clipping-bias correction). In our experiments, we primarily study ST-PPO and S-PPO, which together demonstrate how the two stabilization mechanisms address complementary sources of instability. Experiments on multi-turn search tasks across general QA, multi-hop QA, and medical multiple-choice QA benchmarks show that ST-PPO and S-PPO consistently prevent the performance collapses observed in large-model training, maintain lower clipping ratios throughout optimization, and achieve higher task performance than standard token-level PPO. These results demonstrate that combining turn-level importance sampling with clipping-bias correction provides a practical and scalable solution for stabilizing multi-turn LLM agent training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T05:54:02Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenliang Li</name>
+    </author>
+    <author>
+      <name>Adel Elmahdy</name>
+    </author>
+    <author>
+      <name>Alex Boyd</name>
+    </author>
+    <author>
+      <name>Zhongruo Wang</name>
+    </author>
+    <author>
+      <name>Alfredo Garcia</name>
+    </author>
+    <author>
+      <name>Parminder Bhatia</name>
+    </author>
+    <author>
+      <name>Taha Kass-Hout</name>
+    </author>
+    <author>
+      <name>Cao Xiao</name>
+    </author>
+    <author>
+      <name>Mingyi Hong</name>
+    </author>
+  </entry>
+</feed>

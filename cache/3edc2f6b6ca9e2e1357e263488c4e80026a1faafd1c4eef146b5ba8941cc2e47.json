@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D/txGefnA+l/3Tti77e2qgYGonQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.18847v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.18847v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.18847v2</id>
+    <title>Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions</title>
+    <updated>2025-09-25T14:17:18Z</updated>
+    <link href="https://arxiv.org/abs/2509.18847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.18847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-augmented large language models (LLMs) are usually trained with supervised imitation or coarse-grained reinforcement learning that optimizes single tool calls. Current self-reflection practices rely on heuristic prompts or one-way reasoning: the model is urged to 'think more' instead of learning error diagnosis and repair. This is fragile in multi-turn interactions; after a failure the model often repeats the same mistake. We propose structured reflection, which turns the path from error to repair into an explicit, controllable, and trainable action. The agent produces a short yet precise reflection: it diagnoses the failure using evidence from the previous step and then proposes a correct, executable follow-up call. For training we combine DAPO and GSPO objectives with a reward scheme tailored to tool use, optimizing the stepwise strategy Reflect, then Call, then Final. To evaluate, we introduce Tool-Reflection-Bench, a lightweight benchmark that programmatically checks structural validity, executability, parameter correctness, and result consistency. Tasks are built as mini trajectories of erroneous call, reflection, and corrected call, with disjoint train and test splits. Experiments on BFCL v3 and Tool-Reflection-Bench show large gains in multi-turn tool-call success and error recovery, and a reduction of redundant calls. These results indicate that making reflection explicit and optimizing it directly improves the reliability of tool interaction and offers a reproducible path for agents to learn from failure.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-23T09:35:49Z</published>
+    <arxiv:comment>27pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Junhao Su</name>
+    </author>
+    <author>
+      <name>Yuanliang Wan</name>
+    </author>
+    <author>
+      <name>Junwei Yang</name>
+    </author>
+    <author>
+      <name>Hengyu Shi</name>
+    </author>
+    <author>
+      <name>Tianyang Han</name>
+    </author>
+    <author>
+      <name>Junfeng Luo</name>
+    </author>
+    <author>
+      <name>Yurui Qiu</name>
+    </author>
+  </entry>
+</feed>

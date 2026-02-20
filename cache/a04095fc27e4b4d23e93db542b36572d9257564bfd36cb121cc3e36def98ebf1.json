@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RUpvFJf1ghOXGL8/9UCOtZQEiNM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14357v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14357v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14357v1</id>
+    <title>Key Considerations for Domain Expert Involvement in LLM Design and Evaluation: An Ethnographic Study</title>
+    <updated>2026-02-16T00:21:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.14357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly developed for use in complex professional domains, yet little is known about how teams design and evaluate these systems in practice. This paper examines the challenges and trade-offs in LLM development through a 12-week ethnographic study of a team building a pedagogical chatbot. The researcher observed design and evaluation activities and conducted interviews with both developers and domain experts. Analysis revealed four key practices: creating workarounds for data collection, turning to augmentation when expert input was limited, co-developing evaluation criteria with experts, and adopting hybrid expert-developer-LLM evaluation strategies. These practices show how teams made strategic decisions under constraints and demonstrate the central role of domain expertise in shaping the system. Challenges included expert motivation and trust, difficulties structuring participatory design, and questions around ownership and integration of expert knowledge. We propose design opportunities for future LLM development workflows that emphasize AI literacy, transparent consent, and frameworks recognizing evolving expert roles.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T00:21:58Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Annalisa Szymanski</name>
+    </author>
+    <author>
+      <name>Oghenemaro Anuyah</name>
+    </author>
+    <author>
+      <name>Toby Jia-Jun Li</name>
+    </author>
+    <author>
+      <name>Ronald A. Metoyer</name>
+    </author>
+  </entry>
+</feed>

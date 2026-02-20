@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jMLlHATMPHAxi4Dx6xEEszfvElE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20075v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20075v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20075v1</id>
+    <title>Sparse CLIP: Co-Optimizing Interpretability and Performance in Contrastive Learning</title>
+    <updated>2026-01-27T21:39:00Z</updated>
+    <link href="https://arxiv.org/abs/2601.20075v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20075v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contrastive Language-Image Pre-training (CLIP) has become a cornerstone in vision-language representation learning, powering diverse downstream tasks and serving as the default vision backbone in multimodal large language models (MLLMs). Despite its success, CLIP's dense and opaque latent representations pose significant interpretability challenges. A common assumption is that interpretability and performance are in tension: enforcing sparsity during training degrades accuracy, motivating recent post-hoc approaches such as Sparse Autoencoders (SAEs). However, these post-hoc approaches often suffer from degraded downstream performance and loss of CLIP's inherent multimodal capabilities, with most learned features remaining unimodal.
+  We propose a simple yet effective approach that integrates sparsity directly into CLIP training, yielding representations that are both interpretable and performant. Compared to SAEs, our Sparse CLIP representations preserve strong downstream task performance, achieve superior interpretability, and retain multimodal capabilities. We show that multimodal sparse features enable straightforward semantic concept alignment and reveal training dynamics of how cross-modal knowledge emerges. Finally, as a proof of concept, we train a vision-language model on sparse CLIP representations that enables interpretable, vision-based steering capabilities. Our findings challenge conventional wisdom that interpretability requires sacrificing accuracy and demonstrate that interpretability and performance can be co-optimized, offering a promising design principle for future models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T21:39:00Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chuan Qin</name>
+    </author>
+    <author>
+      <name>Constantin Venhoff</name>
+    </author>
+    <author>
+      <name>Sonia Joseph</name>
+    </author>
+    <author>
+      <name>Fanyi Xiao</name>
+    </author>
+    <author>
+      <name>Stefan Scherer</name>
+    </author>
+  </entry>
+</feed>

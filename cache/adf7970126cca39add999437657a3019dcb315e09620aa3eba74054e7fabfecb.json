@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W1bo9LOuprkt4FZ6ZIzUMo/U/WE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.13010&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.13010" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13010v3</id>
+    <title>AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation</title>
+    <updated>2024-05-24T11:47:24Z</updated>
+    <link href="https://arxiv.org/abs/2312.13010v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.13010v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advancement of natural language processing (NLP) has been significantly boosted by the development of transformer-based large language models (LLMs). These models have revolutionized NLP tasks, particularly in code generation, aiding developers in creating software with enhanced efficiency. Despite their advancements, challenges in balancing code snippet generation with effective test case generation and execution persist. To address these issues, this paper introduces Multi-Agent Assistant Code Generation (AgentCoder), a novel solution comprising a multi-agent framework with specialized agents: the programmer agent, the test designer agent, and the test executor agent. During the coding procedure, the programmer agent will focus on the code generation and refinement based on the test executor agent's feedback. The test designer agent will generate test cases for the generated code, and the test executor agent will run the code with the test cases and write the feedback to the programmer. This collaborative system ensures robust code generation, surpassing the limitations of single-agent models and traditional methodologies. Our extensive experiments on 9 code generation models and 12 enhancement approaches showcase AgentCoder's superior performance over existing code generation models and prompt engineering techniques across various benchmarks. For example, AgentCoder (GPT-4) achieves 96.3\% and 91.8\% pass@1 in HumanEval and MBPP datasets with an overall token overhead of 56.9K and 66.3K, while state-of-the-art obtains only 90.2\% and 78.9\% pass@1 with an overall token overhead of 138.2K and 206.5K.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-20T13:22:41Z</published>
+    <arxiv:comment>24 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dong Huang</name>
+    </author>
+    <author>
+      <name>Jie M. Zhang</name>
+    </author>
+    <author>
+      <name>Michael Luck</name>
+    </author>
+    <author>
+      <name>Qingwen Bu</name>
+    </author>
+    <author>
+      <name>Yuhao Qing</name>
+    </author>
+    <author>
+      <name>Heming Cui</name>
+    </author>
+  </entry>
+</feed>

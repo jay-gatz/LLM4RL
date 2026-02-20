@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FO80wQdjy3dpHop5aSfM4SYc7Gs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.19367v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.19367v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19367v1</id>
+    <title>CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations</title>
+    <updated>2026-01-27T08:49:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.19367v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19367v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fully Homomorphic Encryption (FHE) enables computations directly on encrypted data, but its high computational cost remains a significant barrier. Writing efficient FHE code is a complex task requiring cryptographic expertise, and finding the optimal sequence of program transformations is often intractable. In this paper, we propose CHEHAB RL, a novel framework that leverages deep reinforcement learning (RL) to automate FHE code optimization. Instead of relying on predefined heuristics or combinatorial search, our method trains an RL agent to learn an effective policy for applying a sequence of rewriting rules to automatically vectorize scalar FHE code while reducing instruction latency and noise growth. The proposed approach supports the optimization of both structured and unstructured code. To train the agent, we synthesize a diverse dataset of computations using a large language model (LLM). We integrate our proposed approach into the CHEHAB FHE compiler and evaluate it on a suite of benchmarks, comparing its performance against Coyote, a state-of-the-art vectorizing FHE compiler. The results show that our approach generates code that is $5.3\times$ faster in execution, accumulates $2.54\times$ less noise, while the compilation process itself is $27.9\times$ faster than Coyote (geometric means).</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T08:49:09Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Bilel Sefsaf</name>
+    </author>
+    <author>
+      <name>Abderraouf Dandani</name>
+    </author>
+    <author>
+      <name>Abdessamed Seddiki</name>
+    </author>
+    <author>
+      <name>Arab Mohammed</name>
+    </author>
+    <author>
+      <name>Eduardo Chielle</name>
+    </author>
+    <author>
+      <name>Michail Maniatakos</name>
+    </author>
+    <author>
+      <name>Riyadh Baghdadi</name>
+    </author>
+  </entry>
+</feed>

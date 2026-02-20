@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WEuSRROqo26zVUGdGRpnHLzReVg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.01527v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.01527v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.01527v1</id>
+    <title>TPS-Bench: Evaluating AI Agents' Tool Planning \&amp; Scheduling Abilities in Compounding Tasks</title>
+    <updated>2025-11-03T12:45:39Z</updated>
+    <link href="https://arxiv.org/abs/2511.01527v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.01527v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents have exhibited strong problem-solving competence across domains like research and coding. Yet, it remains underexplored whether LLM agents can tackle compounding real-world problems that require a diverse set of tools to complete. Given a broad, heterogeneous tool repository, LLM agents must not only select appropriate tools based on task planning analysis but also strategically schedule the execution order to ensure efficiency. This paper introduces TPS-Bench to benchmark the ability of LLM agents in solving such problems that demand Tool Planning and Scheduling. TPS-Bench collects 200 compounding tasks of two difficulty levels, based on a tool repository containing hundreds of model context protocol (MCP) tools. In particular, each task is composed of multiple subtasks, such as web search, map navigation, calendar checking, etc., and each subtask can be completed by a basic tool. Our evaluation emphasizes both task completion rate and efficiency. The empirical studies on popular closed-source and open-source LLMs indicate that most models can perform reasonable tool planning, but differ in scheduling. For example, GLM-4.5 achieves an outperforming task completion rate of 64.72% with extensive sequential tool calls, hence suffering from significantly long execution time. By contrast, GPT-4o prioritizes parallel tool calls but achieves only a 45.08% completion rate. Considering reinforcement learning (RL) can be a viable way to improve the scheduling efficiency without compromising performance, we perform an initial study on Qwen3-1.7B and witness a 14% reduction in execution time alongside a 6% gain in task completion rate based on rarely 100 RL training samples. Our code is available https://github.com/hanwenxu1/mcp-agent.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-03T12:45:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Hanwen Xu</name>
+    </author>
+    <author>
+      <name>Xuyao Huang</name>
+    </author>
+    <author>
+      <name>Yuzhe Liu</name>
+    </author>
+    <author>
+      <name>Kai Yu</name>
+    </author>
+    <author>
+      <name>Zhijie Deng</name>
+    </author>
+  </entry>
+</feed>

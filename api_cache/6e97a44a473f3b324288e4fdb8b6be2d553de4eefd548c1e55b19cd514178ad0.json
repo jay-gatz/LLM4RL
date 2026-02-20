@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9pZtRCApoTGlWISVjTtjMdUdhkI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2304.01933&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:30:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2304.01933" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.01933v3</id>
+    <title>LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models</title>
+    <updated>2023-10-09T15:38:46Z</updated>
+    <link href="https://arxiv.org/abs/2304.01933v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.01933v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The success of large language models (LLMs), like GPT-4 and ChatGPT, has led to the development of numerous cost-effective and accessible alternatives that are created by finetuning open-access LLMs with task-specific data (e.g., ChatDoctor) or instruction data (e.g., Alpaca). Among the various fine-tuning methods, adapter-based parameter-efficient fine-tuning (PEFT) is undoubtedly one of the most attractive topics, as it only requires fine-tuning a few external parameters instead of the entire LLMs while achieving comparable or even better performance. To enable further research on PEFT methods of LLMs, this paper presents LLM-Adapters, an easy-to-use framework that integrates various adapters into LLMs and can execute these adapter-based PEFT methods of LLMs for different tasks. The framework includes state-of-the-art open-access LLMs such as LLaMA, BLOOM, and GPT-J, as well as widely used adapters such as Series adapters, Parallel adapter, Prompt-based learning and Reparametrization-based methods. Moreover, we conduct extensive empirical studies on the impact of adapter types, placement locations, and hyper-parameters to the best design for each adapter-based methods. We evaluate the effectiveness of the adapters on fourteen datasets from two different reasoning tasks, Arithmetic Reasoning and Commonsense Reasoning. The results demonstrate that using adapter-based PEFT in smaller-scale LLMs (7B) with few extra trainable parameters yields comparable, and in some cases superior, performance to powerful LLMs (175B) in zero-shot inference on both reasoning tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-04T16:31:37Z</published>
+    <arxiv:comment>EMNLP 2023. The code of our framework can be found at https://github.com/AGI-Edgerunners/LLM-Adapters. We will keep all of the code open-source and continue to update the framework with new adapters, LLMs, and tasks</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhiqiang Hu</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Yihuai Lan</name>
+    </author>
+    <author>
+      <name>Wanyu Xu</name>
+    </author>
+    <author>
+      <name>Ee-Peng Lim</name>
+    </author>
+    <author>
+      <name>Lidong Bing</name>
+    </author>
+    <author>
+      <name>Xing Xu</name>
+    </author>
+    <author>
+      <name>Soujanya Poria</name>
+    </author>
+    <author>
+      <name>Roy Ka-Wei Lee</name>
+    </author>
+  </entry>
+</feed>

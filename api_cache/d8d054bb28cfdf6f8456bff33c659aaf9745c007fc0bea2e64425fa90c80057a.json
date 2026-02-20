@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FT8mrk96QLedNuoTCTsxPf9CgBE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14106v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14106v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14106v1</id>
+    <title>Anticipating Adversary Behavior in DevSecOps Scenarios through Large Language Models</title>
+    <updated>2026-02-15T11:43:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.14106v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14106v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The most valuable asset of any cloud-based organization is data, which is increasingly exposed to sophisticated cyberattacks. Until recently, the implementation of security measures in DevOps environments was often considered optional by many government entities and critical national services operating in the cloud. This includes systems managing sensitive information, such as electoral processes or military operations, which have historically been valuable targets for cybercriminals. Resistance to security implementation is often driven by concerns over losing agility in software development, increasing the risk of accumulated vulnerabilities. Nowadays, patching software is no longer enough; adopting a proactive cyber defense strategy, supported by Artificial Intelligence (AI), is crucial to anticipating and mitigating threats. Thus, this work proposes integrating the Security Chaos Engineering (SCE) methodology with a new LLM-based flow to automate the creation of attack defense trees that represent adversary behavior and facilitate the construction of SCE experiments based on these graphical models, enabling teams to stay one step ahead of attackers and implement previously unconsidered defenses. Further detailed information about the experiment performed, along with the steps to replicate it, can be found in the following repository: https://github.com/mariomc14/devsecops-adversary-llm.git.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T11:43:04Z</published>
+    <arxiv:comment>8 pages, 3 figures, paper in proceedings of the X National Cybersecurity Research Conference (JNIC) in Zaragoza, Spain, June, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mario Marín Caballero</name>
+    </author>
+    <author>
+      <name>Miguel Betancourt Alonso</name>
+    </author>
+    <author>
+      <name>Daniel Díaz-López</name>
+    </author>
+    <author>
+      <name>Angel Luis Perales Gómez</name>
+    </author>
+    <author>
+      <name>Pantaleone Nespoli</name>
+    </author>
+    <author>
+      <name>Gregorio Martínez Pérez</name>
+    </author>
+  </entry>
+</feed>

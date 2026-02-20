@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hYR94oUytkWx6hmUE0St30K6rdY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.16119&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.16119" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16119v3</id>
+    <title>Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition</title>
+    <updated>2024-03-03T00:12:16Z</updated>
+    <link href="https://arxiv.org/abs/2311.16119v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16119v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are deployed in interactive contexts with direct user engagement, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking. To address this lacuna, we launch a global prompt hacking competition, which allows for free-form human input attacks. We elicit 600K+ adversarial prompts against three state-of-the-art LLMs. We describe the dataset, which empirically verifies that current LLMs can indeed be manipulated via prompt hacking. We also present a comprehensive taxonomical ontology of the types of adversarial prompts.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-24T18:18:11Z</published>
+    <arxiv:comment>34 pages, 8 figures Codebase: https://github.com/PromptLabs/hackaprompt Dataset: https://huggingface.co/datasets/hackaprompt/hackaprompt-dataset/blob/main/README.md Playground: https://huggingface.co/spaces/hackaprompt/playground</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sander Schulhoff</name>
+    </author>
+    <author>
+      <name>Jeremy Pinto</name>
+    </author>
+    <author>
+      <name>Anaum Khan</name>
+    </author>
+    <author>
+      <name>Louis-François Bouchard</name>
+    </author>
+    <author>
+      <name>Chenglei Si</name>
+    </author>
+    <author>
+      <name>Svetlina Anati</name>
+    </author>
+    <author>
+      <name>Valen Tagliabue</name>
+    </author>
+    <author>
+      <name>Anson Liu Kost</name>
+    </author>
+    <author>
+      <name>Christopher Carnahan</name>
+    </author>
+    <author>
+      <name>Jordan Boyd-Graber</name>
+    </author>
+  </entry>
+</feed>

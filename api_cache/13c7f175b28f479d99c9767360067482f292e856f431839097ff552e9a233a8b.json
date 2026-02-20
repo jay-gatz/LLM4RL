@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7+PJYelihvKoWmRWQv4U7vsYguk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15315v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15315v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15315v1</id>
+    <title>Training-Free Zero-Shot Anomaly Detection in 3D Brain MRI with 2D Foundation Models</title>
+    <updated>2026-02-17T02:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.15315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Zero-shot anomaly detection (ZSAD) has gained increasing attention in medical imaging as a way to identify abnormalities without task-specific supervision, but most advances remain limited to 2D datasets. Extending ZSAD to 3D medical images has proven challenging, with existing methods relying on slice-wise features and vision-language models, which fail to capture volumetric structure. In this paper, we introduce a fully training-free framework for ZSAD in 3D brain MRI that constructs localized volumetric tokens by aggregating multi-axis slices processed by 2D foundation models. These 3D patch tokens restore cubic spatial context and integrate directly with distance-based, batch-level anomaly detection pipelines. The framework provides compact 3D representations that are practical to compute on standard GPUs and require no fine-tuning, prompts, or supervision. Our results show that training-free, batch-based ZSAD can be effectively extended from 2D encoders to full 3D MRI volumes, offering a simple and robust approach for volumetric anomaly detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T02:46:45Z</published>
+    <arxiv:comment>Accepted for MIDL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tai Le-Gia</name>
+    </author>
+    <author>
+      <name>Jaehyun Ahn</name>
+    </author>
+  </entry>
+</feed>

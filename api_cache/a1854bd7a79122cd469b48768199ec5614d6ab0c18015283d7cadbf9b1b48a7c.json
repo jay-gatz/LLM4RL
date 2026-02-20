@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KYKIBWI4kK4GSUZulcThLH9m0h8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16412v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:43:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16412v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16412v1</id>
+    <title>ReMoRa: Multimodal Large Language Model based on Refined Motion Representation for Long-Video Understanding</title>
+    <updated>2026-02-18T12:37:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.16412v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16412v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While multimodal large language models (MLLMs) have shown remarkable success across a wide range of tasks, long-form video understanding remains a significant challenge. In this study, we focus on video understanding by MLLMs. This task is challenging because processing a full stream of RGB frames is computationally intractable and highly redundant, as self-attention have quadratic complexity with sequence length. In this paper, we propose ReMoRa, a video MLLM that processes videos by operating directly on their compressed representations. A sparse set of RGB keyframes is retained for appearance, while temporal dynamics are encoded as a motion representation, removing the need for sequential RGB frames. These motion representations act as a compact proxy for optical flow, capturing temporal dynamics without full frame decoding. To refine the noise and low fidelity of block-based motions, we introduce a module to denoise and generate a fine-grained motion representation. Furthermore, our model compresses these features in a way that scales linearly with sequence length. We demonstrate the effectiveness of ReMoRa through extensive experiments across a comprehensive suite of long-video understanding benchmarks. ReMoRa outperformed baseline methods on multiple challenging benchmarks, including LongVideoBench, NExT-QA, and MLVU.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T12:37:35Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Daichi Yashima</name>
+    </author>
+    <author>
+      <name>Shuhei Kurita</name>
+    </author>
+    <author>
+      <name>Yusuke Oda</name>
+    </author>
+    <author>
+      <name>Komei Sugiura</name>
+    </author>
+  </entry>
+</feed>

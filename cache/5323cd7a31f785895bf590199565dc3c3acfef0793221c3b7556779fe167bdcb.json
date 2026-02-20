@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NnMga3s7dO8hiUvGkEYDEijy2YA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15397v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15397v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15397v1</id>
+    <title>ActionCodec: What Makes for Good Action Tokenizers</title>
+    <updated>2026-02-17T07:07:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.15397v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15397v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models leveraging the native autoregressive paradigm of Vision-Language Models (VLMs) have demonstrated superior instruction-following and training efficiency. Central to this paradigm is action tokenization, yet its design has primarily focused on reconstruction fidelity, failing to address its direct impact on VLA optimization. Consequently, the fundamental question of \textit{what makes for good action tokenizers} remains unanswered. In this paper, we bridge this gap by establishing design principles specifically from the perspective of VLA optimization. We identify a set of best practices based on information-theoretic insights, including maximized temporal token overlap, minimized vocabulary redundancy, enhanced multimodal mutual information, and token independence. Guided by these principles, we introduce \textbf{ActionCodec}, a high-performance action tokenizer that significantly enhances both training efficiency and VLA performance across diverse simulation and real-world benchmarks. Notably, on LIBERO, a SmolVLM2-2.2B fine-tuned with ActionCodec achieves a 95.5\% success rate without any robotics pre-training. With advanced architectural enhancements, this reaches 97.4\%, representing a new SOTA for VLA models without robotics pre-training. We believe our established design principles, alongside the released model, will provide a clear roadmap for the community to develop more effective action tokenizers.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T07:07:15Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zibin Dong</name>
+    </author>
+    <author>
+      <name>Yicheng Liu</name>
+    </author>
+    <author>
+      <name>Shiduo Zhang</name>
+    </author>
+    <author>
+      <name>Baijun Ye</name>
+    </author>
+    <author>
+      <name>Yifu Yuan</name>
+    </author>
+    <author>
+      <name>Fei Ni</name>
+    </author>
+    <author>
+      <name>Jingjing Gong</name>
+    </author>
+    <author>
+      <name>Xipeng Qiu</name>
+    </author>
+    <author>
+      <name>Hang Zhao</name>
+    </author>
+    <author>
+      <name>Yinchuan Li</name>
+    </author>
+    <author>
+      <name>Jianye Hao</name>
+    </author>
+  </entry>
+</feed>

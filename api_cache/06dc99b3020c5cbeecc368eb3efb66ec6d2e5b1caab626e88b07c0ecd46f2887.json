@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3XrVa2wHoag0Zgssre9IKEkeaEw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01915v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01915v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01915v1</id>
+    <title>VLM-Guided Experience Replay</title>
+    <updated>2026-02-02T10:19:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.01915v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01915v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Large Language Models (LLMs) and Vision-Language Models (VLMs) have enabled powerful semantic and multimodal reasoning capabilities, creating new opportunities to enhance sample efficiency, high-level planning, and interpretability in reinforcement learning (RL). While prior work has integrated LLMs and VLMs into various components of RL, the replay buffer, a core component for storing and reusing experiences, remains unexplored. We propose addressing this gap by leveraging VLMs to guide the prioritization of experiences in the replay buffer. Our key idea is to use a frozen, pre-trained VLM (requiring no fine-tuning) as an automated evaluator to identify and prioritize promising sub-trajectories from the agent's experiences. Across scenarios, including game-playing and robotics, spanning both discrete and continuous domains, agents trained with our proposed prioritization method achieve 11-52% higher average success rates and improve sample efficiency by 19-45% compared to previous approaches. https://esharony.me/projects/vlm-rb/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T10:19:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Elad Sharony</name>
+    </author>
+    <author>
+      <name>Tom Jurgenson</name>
+    </author>
+    <author>
+      <name>Orr Krupnik</name>
+    </author>
+    <author>
+      <name>Dotan Di Castro</name>
+    </author>
+    <author>
+      <name>Shie Mannor</name>
+    </author>
+  </entry>
+</feed>

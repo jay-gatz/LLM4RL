@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Lk3NwbYg/BO5M0alfyOEMA5ajq0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.22217v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.22217v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.22217v1</id>
+    <title>Optimizing NetGPT via Routing-Based Synergy and Reinforcement Learning</title>
+    <updated>2025-11-27T08:40:08Z</updated>
+    <link href="https://arxiv.org/abs/2511.22217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.22217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents at the network edge offer low-latency execution for routine queries. In contrast, complex requests often require the superior capability of cloud models, incurring higher latency and cost. To navigate this quality-cost trade-off under dynamic network conditions, we propose a cloud-edge synergy for NetGPT that integrates network-aware routing with on-edge self-improvement. Specifically, our framework routes structured tool-calling requests to cloud or edge agents via a novel scoring policy. We prove that, under mild regularity assumptions, the optimal routing rule admits a unique fallback threshold with monotone dependence on bandwidth and round-trip time (RTT). Concurrently, based on the dataset collected from requests routed to the cloud and corresponding responses, we instantiate a schema-preserving reinforcement learning (RL) to improve the capability of the edge agent. We analyze a supervised finetuning (SFT)-anchored composite objective that combines a reverse-KL trust-region step with a forward-KL realignment toward the SFT prior, explaining stability and constraining policy drift. Both the network-aware routing policy and the edge agent are updated coherently. Experiments across controlled network states and pricing schedules demonstrate smooth quality-cost frontiers, consistent gains of dynamic fallback thresholds over fixed policies, and sustained reductions in offloading while maintaining task success and schema-correct outputs.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-27T08:40:08Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Yuxuan Chen</name>
+    </author>
+    <author>
+      <name>Rongpeng Li</name>
+    </author>
+    <author>
+      <name>Xianfu Chen</name>
+    </author>
+    <author>
+      <name>Celimuge Wu</name>
+    </author>
+    <author>
+      <name>Chenghui Peng</name>
+    </author>
+    <author>
+      <name>Zhifeng Zhao</name>
+    </author>
+    <author>
+      <name>Honggang Zhang</name>
+    </author>
+  </entry>
+</feed>

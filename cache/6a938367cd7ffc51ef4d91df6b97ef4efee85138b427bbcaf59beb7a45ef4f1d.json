@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R45Nm3UIFQx+e7kiM3CEzSVimsE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11351v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11351v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11351v1</id>
+    <title>Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization</title>
+    <updated>2026-02-11T20:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.11351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proactive large language model (LLM) agents aim to actively plan, query, and interact over multiple turns, enabling efficient task completion beyond passive instruction following and making them essential for real-world, user-centric applications. Agentic reinforcement learning (RL) has recently emerged as a promising solution for training such agents in multi-turn settings, allowing interaction strategies to be learned from feedback. However, existing pipelines face a critical challenge in balancing task performance with user engagement, as passive agents can not efficiently adapt to users' intentions while overuse of human feedback reduces their satisfaction. To address this trade-off, we propose BAO, an agentic RL framework that combines behavior enhancement to enrich proactive reasoning and information-gathering capabilities with behavior regularization to suppress inefficient or redundant interactions and align agent behavior with user expectations. We evaluate BAO on multiple tasks from the UserRL benchmark suite, and demonstrate that it substantially outperforms proactive agentic RL baselines while achieving comparable or even superior performance to commercial LLM agents, highlighting its effectiveness for training proactive, user-aligned LLM agents in complex multi-turn scenarios. Our website: https://proactive-agentic-rl.github.io/.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T20:40:43Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yihang Yao</name>
+    </author>
+    <author>
+      <name>Zhepeng Cen</name>
+    </author>
+    <author>
+      <name>Haohong Lin</name>
+    </author>
+    <author>
+      <name>Shiqi Liu</name>
+    </author>
+    <author>
+      <name>Zuxin Liu</name>
+    </author>
+    <author>
+      <name>Jiacheng Zhu</name>
+    </author>
+    <author>
+      <name>Zhang-Wei Hong</name>
+    </author>
+    <author>
+      <name>Laixi Shi</name>
+    </author>
+    <author>
+      <name>Ding Zhao</name>
+    </author>
+  </entry>
+</feed>

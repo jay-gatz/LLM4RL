@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p41Nb9n2wNLFmRfNcA2thC8EQ1Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10655v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10655v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10655v2</id>
+    <title>Assessing Vision-Language Models for Perception in Autonomous Underwater Robotic Software</title>
+    <updated>2026-02-13T08:33:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.10655v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10655v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous Underwater Robots (AURs) operate in challenging underwater environments, including low visibility and harsh water conditions. Such conditions present challenges for software engineers developing perception modules for the AUR software. To successfully carry out these tasks, deep learning has been incorporated into the AUR software to support its operations. However, the unique challenges of underwater environments pose difficulties for deep learning models, which often rely on labeled data that is scarce and noisy. This may undermine the trustworthiness of AUR software that relies on perception modules. Vision-Language Models (VLMs) offer promising solutions for AUR software as they generalize to unseen objects and remain robust in noisy conditions by inferring information from contextual cues. Despite this potential, their performance and uncertainty in underwater environments remain understudied from a software engineering perspective. Motivated by the needs of an industrial partner in assurance and risk management for maritime systems to assess the potential use of VLMs in this context, we present an empirical evaluation of VLM-based perception modules within the AUR software. We assess their ability to detect underwater trash by computing performance, uncertainty, and their relationship, to enable software engineers to select appropriate VLMs for their AUR software.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T08:59:44Z</published>
+    <arxiv:comment>16 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Muhammad Yousaf</name>
+    </author>
+    <author>
+      <name>Aitor Arrieta</name>
+    </author>
+    <author>
+      <name>Shaukat Ali</name>
+    </author>
+    <author>
+      <name>Paolo Arcaini</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+  </entry>
+</feed>

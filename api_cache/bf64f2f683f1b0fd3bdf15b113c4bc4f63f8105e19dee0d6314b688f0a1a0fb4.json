@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F3khjudv616XY7t6Z2crTTTwPto</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.17464v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:45:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.17464v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.17464v3</id>
+    <title>Efficient Tool Use with Chain-of-Abstraction Reasoning</title>
+    <updated>2025-01-08T16:27:29Z</updated>
+    <link href="https://arxiv.org/abs/2401.17464v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.17464v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To achieve faithful reasoning that aligns with human expectations, large language models (LLMs) need to ground their reasoning to real-world knowledge (e.g., web facts, math and physical rules). Tools help LLMs access this external knowledge, but there remains challenges for fine-tuning LLM agents (e.g., Toolformer) to invoke tools in multi-step reasoning problems, where inter-connected tool calls require holistic and efficient tool usage planning.
+  In this work, we propose a new method for LLMs to better leverage tools in multi-step reasoning. Our method, Chain-of-Abstraction (CoA), trains LLMs to first decode reasoning chains with abstract placeholders, and then call domain tools to reify each reasoning chain by filling in specific knowledge. This planning with abstract chains enables LLMs to learn more general reasoning strategies, which are robust to shifts of domain knowledge (e.g., math results) relevant to different reasoning questions. It also allows LLMs to perform decoding and calling of external tools in parallel, which avoids the inference delay caused by waiting for tool responses. In mathematical reasoning and Wiki QA domains, we show that our method consistently outperforms previous chain-of-thought and tool-augmented baselines on both in-distribution and out-of-distribution test sets, with an average ~6% absolute QA accuracy improvement. LLM agents trained with our method also show more efficient tool use, with inference speed being on average ~1.4x faster than baseline tool-augmented LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-30T21:53:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Silin Gao</name>
+    </author>
+    <author>
+      <name>Jane Dwivedi-Yu</name>
+    </author>
+    <author>
+      <name>Ping Yu</name>
+    </author>
+    <author>
+      <name>Xiaoqing Ellen Tan</name>
+    </author>
+    <author>
+      <name>Ramakanth Pasunuru</name>
+    </author>
+    <author>
+      <name>Olga Golovneva</name>
+    </author>
+    <author>
+      <name>Koustuv Sinha</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Antoine Bosselut</name>
+    </author>
+    <author>
+      <name>Tianlu Wang</name>
+    </author>
+  </entry>
+</feed>

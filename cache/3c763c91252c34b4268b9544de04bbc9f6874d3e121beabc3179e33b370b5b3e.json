@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g0yKyO/2gtVF8CKijBsVgHHVKJY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13949v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13949v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13949v1</id>
+    <title>Experiential Reinforcement Learning</title>
+    <updated>2026-02-15T01:23:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.13949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has become the central approach for language models (LMs) to learn from environmental reward or feedback. In practice, the environmental feedback is usually sparse and delayed. Learning from such signals is challenging, as LMs must implicitly infer how observed failures should translate into behavioral changes for future iterations. We introduce Experiential Reinforcement Learning (ERL), a training paradigm that embeds an explicit experience-reflection-consolidation loop into the reinforcement learning process. Given a task, the model generates an initial attempt, receives environmental feedback, and produces a reflection that guides a refined second attempt, whose success is reinforced and internalized into the base policy. This process converts feedback into structured behavioral revision, improving exploration and stabilizing optimization while preserving gains at deployment without additional inference cost. Across sparse-reward control environments and agentic reasoning benchmarks, ERL consistently improves learning efficiency and final performance over strong reinforcement learning baselines, achieving gains of up to +81% in complex multi-step environments and up to +11% in tool-using reasoning tasks. These results suggest that integrating explicit self-reflection into policy training provides a practical mechanism for transforming feedback into durable behavioral improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T01:23:48Z</published>
+    <arxiv:comment>26 pages, 9 tables, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Taiwei Shi</name>
+    </author>
+    <author>
+      <name>Sihao Chen</name>
+    </author>
+    <author>
+      <name>Bowen Jiang</name>
+    </author>
+    <author>
+      <name>Linxin Song</name>
+    </author>
+    <author>
+      <name>Longqi Yang</name>
+    </author>
+    <author>
+      <name>Jieyu Zhao</name>
+    </author>
+  </entry>
+</feed>

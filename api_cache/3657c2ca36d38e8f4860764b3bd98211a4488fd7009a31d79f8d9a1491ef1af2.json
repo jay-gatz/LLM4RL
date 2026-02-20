@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Lr7cm/sckl7LuVocv5EpGDnX07E</id>
+  <title>arXiv Query: search_query=&amp;id_list=2305.11170&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2305.11170" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.11170v1</id>
+    <title>Efficient Prompting via Dynamic In-Context Learning</title>
+    <updated>2023-05-18T17:58:31Z</updated>
+    <link href="https://arxiv.org/abs/2305.11170v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.11170v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The primary way of building AI applications is shifting from training specialist models to prompting generalist models. A common practice for prompting generalist models, often referred to as in-context learning, is to append a few examples (demonstrations) to the prompt to help the model better understand the task. While effective, in-context learning can be inefficient because it makes the input prompt much longer, consuming valuable space in the context window and leading to larger computational costs. In this paper, we propose DynaICL, a recipe for efficient prompting with black-box generalist models that dynamically allocate in-context examples according to the input complexity and the computational budget. To achieve this, we train a meta controller that predicts the number of in-context examples suitable for the generalist model to make a good prediction based on the performance-efficiency trade-off for a specific input. We then dynamically allocate the number of demonstrations for an input according to predictions from the meta controller and the given computation budget. Experimental results show that dynamic example allocation helps achieve a better performance-efficiency trade-off in two practical settings where computational resources or the required performance is constrained. Specifically, DynaICL saves up to 46% token budget compared to the common practice that allocates the same number of in-context examples to each input. We also find that a meta controller trained on a certain backbone model and tasks can successfully generalize to unseen models and tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-18T17:58:31Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wangchunshu Zhou</name>
+    </author>
+    <author>
+      <name>Yuchen Eleanor Jiang</name>
+    </author>
+    <author>
+      <name>Ryan Cotterell</name>
+    </author>
+    <author>
+      <name>Mrinmaya Sachan</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OzLrmY6s3gqENPOyMt/Ba3NuUlk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07013v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07013v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07013v1</id>
+    <title>Steering to Say No: Configurable Refusal via Activation Steering in Vision Language Models</title>
+    <updated>2026-01-31T10:54:33Z</updated>
+    <link href="https://arxiv.org/abs/2602.07013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid advancement of Vision Language Models (VLMs), refusal mechanisms have become a critical component for ensuring responsible and safe model behavior. However, existing refusal strategies are largely \textit{one-size-fits-all} and fail to adapt to diverse user needs and contextual constraints, leading to either under-refusal or over-refusal. In this work, we firstly explore the challenges mentioned above and develop \textbf{C}onfigurable \textbf{R}efusal in \textbf{VLM}s (\textbf{CR-VLM}), a robust and efficient approach for {\em configurable} refusal based on activation steering. CR-VLM consists of three integrated components: (1) extracting a configurable refusal vector via a teacher-forced mechanism to amplify the refusal signal; (2) introducing a gating mechanism that mitigates over-refusal by preserving acceptance for in-scope queries; and (3) designing a counterfactual vision enhancement module that aligns visual representations with refusal requirements. Comprehensive experiments across multiple datasets and various VLMs demonstrate that CR-VLM achieves effective, efficient, and robust configurable refusals, offering a scalable path toward user-adaptive safety alignment in VLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T10:54:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiaxi Yang</name>
+    </author>
+    <author>
+      <name>Shicheng Liu</name>
+    </author>
+    <author>
+      <name>Yuchen Yang</name>
+    </author>
+    <author>
+      <name>Dongwon Lee</name>
+    </author>
+  </entry>
+</feed>

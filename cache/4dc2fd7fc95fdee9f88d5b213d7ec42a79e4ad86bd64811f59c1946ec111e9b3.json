@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d/obDw+9L7+XWB6KuUMmiPNi09o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01204v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01204v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01204v1</id>
+    <title>ASTER: Agentic Scaling with Tool-integrated Extended Reasoning</title>
+    <updated>2026-02-01T12:46:02Z</updated>
+    <link href="https://arxiv.org/abs/2602.01204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) has emerged as a dominant paradigm for eliciting long-horizon reasoning in Large Language Models (LLMs). However, scaling Tool-Integrated Reasoning (TIR) via RL remains challenging due to interaction collapse: a pathological state where models fail to sustain multi-turn tool usage, instead degenerating into heavy internal reasoning with only trivial, post-hoc code verification. We systematically study three questions: (i) how cold-start SFT induces an agentic, tool-using behavioral prior, (ii) how the interaction density of cold-start trajectories shapes exploration and downstream RL outcomes, and (iii) how the RL interaction budget affects learning dynamics and generalization under varying inference-time budgets. We then introduce ASTER (Agentic Scaling with Tool-integrated Extended Reasoning), a framework that circumvents this collapse through a targeted cold-start strategy prioritizing interaction-dense trajectories. We find that a small expert cold-start set of just 4K interaction-dense trajectories yields the strongest downstream performance, establishing a robust prior that enables superior exploration during extended RL training. Extensive evaluations demonstrate that ASTER-4B achieves state-of-the-art results on competitive mathematical benchmarks, reaching 90.0% on AIME 2025, surpassing leading frontier open-source models, including DeepSeek-V3.2-Exp.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T12:46:02Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuqin Zhang</name>
+    </author>
+    <author>
+      <name>Quan He</name>
+    </author>
+    <author>
+      <name>Zhenrui Zheng</name>
+    </author>
+    <author>
+      <name>Zongzhang Zhang</name>
+    </author>
+    <author>
+      <name>Xu He</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tv22SZEAle5/nkDWD0IvksxFBmE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08167v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08167v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08167v1</id>
+    <title>Self-Supervised Bootstrapping of Action-Predictive Embodied Reasoning</title>
+    <updated>2026-02-09T00:10:17Z</updated>
+    <link href="https://arxiv.org/abs/2602.08167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied Chain-of-Thought (CoT) reasoning has significantly enhanced Vision-Language-Action (VLA) models, yet current methods rely on rigid templates to specify reasoning primitives (e.g., objects in the scene, high-level plans, structural affordances). These templates can force policies to process irrelevant information that distracts from critical action-prediction signals. This creates a bottleneck: without successful policies, we cannot verify reasoning quality; without quality reasoning, we cannot build robust policies. We introduce R&amp;B-EnCoRe, which enables models to bootstrap embodied reasoning from internet-scale knowledge through self-supervised refinement. By treating reasoning as a latent variable within importance-weighted variational inference, models can generate and distill a refined reasoning training dataset of embodiment-specific strategies without external rewards, verifiers, or human annotation. We validate R&amp;B-EnCoRe across manipulation (Franka Panda in simulation, WidowX in hardware), legged navigation (bipedal, wheeled, bicycle, quadruped), and autonomous driving embodiments using various VLA architectures with 1B, 4B, 7B, and 30B parameters. Our approach achieves 28% gains in manipulation success, 101% improvement in navigation scores, and 21% reduction in collision-rate metric over models that indiscriminately reason about all available primitives. R&amp;B-EnCoRe enables models to distill reasoning that is predictive of successful control, bypassing manual annotation engineering while grounding internet-scale knowledge in physical execution.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T00:10:17Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Milan Ganai</name>
+    </author>
+    <author>
+      <name>Katie Luo</name>
+    </author>
+    <author>
+      <name>Jonas Frey</name>
+    </author>
+    <author>
+      <name>Clark Barrett</name>
+    </author>
+    <author>
+      <name>Marco Pavone</name>
+    </author>
+  </entry>
+</feed>

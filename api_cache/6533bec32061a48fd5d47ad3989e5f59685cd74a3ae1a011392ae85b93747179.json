@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZPZbRUov0gFn7s4k1LLc3pbIfw8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22582v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22582v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22582v1</id>
+    <title>MC-GRPO: Median-Centered Group Relative Policy Optimization for Small-Rollout Reinforcement Learning</title>
+    <updated>2026-01-30T05:24:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.22582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Group-relative policy optimization methods train language models by generating multiple rollouts per prompt and normalizing rewards with a shared mean reward baseline. In resource-constrained settings where the rollout budget is small, accuracy often degrades. We find that noise in the shared baseline induces advantage sign flips, where some rollouts receive an incorrect advantage sign, and the update direction is reversed. To address this, we propose Median-Centered Group Relative Policy Optimization (MC-GRPO), a simple and effective solution for small-rollout training. Our main idea is to replace the mean baseline with a median baseline: the median is far less sensitive to outlier rewards than the mean, mitigating the sign flips under small rollout size (G). We generate one additional rollout for median reference (G+1), and compute advantages by using the group median. With an odd-sized group, exactly one completion is the median and receives zero advantage, we exclude this pivot rollout from backpropagation so the number of gradient-contributing samples per prompt remains G, preserving the core update cost of standard G-rollout training. Across various GRPO-family methods and a wide range of models and scales, this median-centered training consistently improves stability and final accuracy in the low-rollout regime, reducing the gap between G=2 and G=8 to within 1%. Code is available at https://github.com/lotusroot-kim/MC-GRPO</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T05:24:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Youngeun Kim</name>
+    </author>
+  </entry>
+</feed>

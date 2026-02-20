@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6S5HXZr+rG31APZG2xGzKcuxF6c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2501.03262&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2501.03262" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.03262v9</id>
+    <title>REINFORCE++: Stabilizing Critic-Free Policy Optimization with Global Advantage Normalization</title>
+    <updated>2025-11-10T15:11:13Z</updated>
+    <link href="https://arxiv.org/abs/2501.03262v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.03262v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning from Human Feedback~(RLHF) plays a crucial role in aligning Large Language Models~(LLMs). The dominant algorithm, Proximal Policy Optimization~(PPO), employs a critic network to estimate advantages, which introduces significant computational and memory overhead. To address this, a family of critic-free algorithms (e.g., GRPO, RLOO) has emerged. However, these methods typically rely on \textit{prompt-level (local)} advantage normalization, which suffers from inaccurate advantage estimation, a tendency to overfit, and, as we show, is a theoretically biased estimator. To solve these challenges, we introduce REINFORCE++, a critic-free framework centered on \textbf{Global Advantage Normalization}. By normalizing advantages across the entire global batch rather than small, prompt-specific groups, our method provides a more stable and theoretically sound, \textit{effectively unbiased} estimate (whose bias vanishes as batch size increases). We introduce two variants: REINFORCE++, a highly efficient and general algorithm ($k \ge 1$) for general-domain RLHF, and REINFORCE++ /w baseline, a robust group-sampling variant ($k &gt; 1$) for complex reasoning tasks. Our empirical evaluation demonstrates that each variant shows superior stability and performance in its respective domain, outperforming existing methods and even PPO in complex agentic settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-04T02:08:06Z</published>
+    <arxiv:comment>refactor</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jian Hu</name>
+    </author>
+    <author>
+      <name>Jason Klein Liu</name>
+    </author>
+    <author>
+      <name>Haotian Xu</name>
+    </author>
+    <author>
+      <name>Wei Shen</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zYPEODkiMNzT8efxW0LWlgWWQAw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.18868v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:25:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.18868v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18868v2</id>
+    <title>KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits</title>
+    <updated>2026-02-11T00:57:46Z</updated>
+    <link href="https://arxiv.org/abs/2511.18868v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18868v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-performance GPU kernels are critical for efficient LLM serving, yet their optimization remains a bottleneck requiring deep system expertise. While code LLMs show promise in generating functionally correct code, kernel optimization is intrinsically a search problem over a vast optimization space. The fundamental mismatch prevents existing LLM agents from efficiently exploring the optimization space for diverse hardware and compute patterns. To bridge the gap, we present KernelBand, a framework that formulates kernel optimization as a Multi-Armed Bandit (MAB) problem, explicitly balancing exploration and exploitation to unlock the potential of code LLMs. To navigate the infinite arm space of optimization strategies applied to candidate kernels, we design two key mechanisms: a hardware-aware pruning strategy via profiling bounds and a trace-driven clustering algorithm that leverages Lipschitz continuity. Theoretically, we prove that KernelBand reduces the regret bound to depend on the compact covering number of runtime clusters, ensuring sample-efficient discovery of high-performance kernels. Extensive experiments on TritonBench-G with three GPU architectures and four code LLMs show that KernelBand consistently and substantially outperforms state-of-the-art methods with over 33% average improvement.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-24T08:11:50Z</published>
+    <arxiv:comment>19 pages (9 pages main text), 4 figures. v2: Full revision</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dezhi Ran</name>
+    </author>
+    <author>
+      <name>Shuxiao Xie</name>
+    </author>
+    <author>
+      <name>Mingfang Ji</name>
+    </author>
+    <author>
+      <name>Anmin Liu</name>
+    </author>
+    <author>
+      <name>Mengzhou Wu</name>
+    </author>
+    <author>
+      <name>Yuan Cao</name>
+    </author>
+    <author>
+      <name>Yuzhe Guo</name>
+    </author>
+    <author>
+      <name>Hao Yu</name>
+    </author>
+    <author>
+      <name>Linyi Li</name>
+    </author>
+    <author>
+      <name>Yitao Hu</name>
+    </author>
+    <author>
+      <name>Wei Yang</name>
+    </author>
+    <author>
+      <name>Tao Xie</name>
+    </author>
+  </entry>
+</feed>

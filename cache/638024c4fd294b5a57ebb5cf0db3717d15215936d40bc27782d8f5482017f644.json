@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//J21EJObGcqckJDAuzUMN5ce22Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15829v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:31:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15829v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15829v1</id>
+    <title>Operationalising the Superficial Alignment Hypothesis via Task Complexity</title>
+    <updated>2026-02-17T18:59:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.15829v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15829v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The superficial alignment hypothesis (SAH) posits that large language models learn most of their knowledge during pre-training, and that post-training merely surfaces this knowledge. The SAH, however, lacks a precise definition, which has led to (i) different and seemingly orthogonal arguments supporting it, and (ii) important critiques to it. We propose a new metric called task complexity: the length of the shortest program that achieves a target performance on a task. In this framework, the SAH simply claims that pre-trained models drastically reduce the complexity of achieving high performance on many tasks. Our definition unifies prior arguments supporting the SAH, interpreting them as different strategies to find such short programs. Experimentally, we estimate the task complexity of mathematical reasoning, machine translation, and instruction following; we then show that these complexities can be remarkably low when conditioned on a pre-trained model. Further, we find that pre-training enables access to strong performances on our tasks, but it can require programs of gigabytes of length to access them. Post-training, on the other hand, collapses the complexity of reaching this same performance by several orders of magnitude. Overall, our results highlight that task adaptation often requires surprisingly little information -- often just a few kilobytes.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T18:59:39Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tomás Vergara-Browne</name>
+    </author>
+    <author>
+      <name>Darshan Patil</name>
+    </author>
+    <author>
+      <name>Ivan Titov</name>
+    </author>
+    <author>
+      <name>Siva Reddy</name>
+    </author>
+    <author>
+      <name>Tiago Pimentel</name>
+    </author>
+    <author>
+      <name>Marius Mosbach</name>
+    </author>
+  </entry>
+</feed>

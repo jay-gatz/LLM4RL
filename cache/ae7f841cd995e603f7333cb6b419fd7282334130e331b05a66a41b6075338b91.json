@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//AagYbk1bZ+pYkJ7cAB7WsVNE2w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22664v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22664v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22664v1</id>
+    <title>Real-Time Aligned Reward Model beyond Semantics</title>
+    <updated>2026-01-30T07:32:35Z</updated>
+    <link href="https://arxiv.org/abs/2601.22664v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22664v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning from Human Feedback (RLHF) is a pivotal technique for aligning large language models (LLMs) with human preferences, yet it is susceptible to reward overoptimization, in which policy models overfit to the reward model, exploit spurious reward patterns instead of faithfully capturing human intent. Prior mitigations primarily relies on surface semantic information and fails to efficiently address the misalignment between the reward model (RM) and the policy model caused by continuous policy distribution shifts. This inevitably leads to an increasing reward discrepancy, exacerbating reward overoptimization. To address these limitations, we introduce R2M (Real-Time Aligned Reward Model), a novel lightweight RLHF framework. R2M goes beyond vanilla reward models that solely depend on the semantic representations of a pretrained LLM. Instead, it leverages the evolving hidden states of the policy (namely policy feedback) to align with the real-time distribution shift of the policy during the RL process. This work points to a promising new direction for improving the performance of reward models through real-time utilization of feedback from policy models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T07:32:35Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zixuan Huang</name>
+    </author>
+    <author>
+      <name>Xin Xia</name>
+    </author>
+    <author>
+      <name>Yuxi Ren</name>
+    </author>
+    <author>
+      <name>Jianbin Zheng</name>
+    </author>
+    <author>
+      <name>Xuefeng Xiao</name>
+    </author>
+    <author>
+      <name>Hongyan Xie</name>
+    </author>
+    <author>
+      <name>Li Huaqiu</name>
+    </author>
+    <author>
+      <name>Songshi Liang</name>
+    </author>
+    <author>
+      <name>Zhongxiang Dai</name>
+    </author>
+    <author>
+      <name>Fuzhen Zhuang</name>
+    </author>
+    <author>
+      <name>Jianxin Li</name>
+    </author>
+    <author>
+      <name>Yikun Ban</name>
+    </author>
+    <author>
+      <name>Deqing Wang</name>
+    </author>
+  </entry>
+</feed>

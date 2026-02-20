@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fl8HXiYWc9QY5tMmJZ5rt11wpas</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.04792&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.04792" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04792v2</id>
+    <title>Direct Language Model Alignment from Online AI Feedback</title>
+    <updated>2024-02-29T20:59:17Z</updated>
+    <link href="https://arxiv.org/abs/2402.04792v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04792v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct alignment from preferences (DAP) methods, such as DPO, have recently emerged as efficient alternatives to reinforcement learning from human feedback (RLHF), that do not require a separate reward model. However, the preference datasets used in DAP methods are usually collected ahead of training and never updated, thus the feedback is purely offline. Moreover, responses in these datasets are often sampled from a language model distinct from the one being aligned, and since the model evolves over training, the alignment phase is inevitably off-policy. In this study, we posit that online feedback is key and improves DAP methods. Our method, online AI feedback (OAIF), uses an LLM as annotator: on each training iteration, we sample two responses from the current model and prompt the LLM annotator to choose which one is preferred, thus providing online feedback. Despite its simplicity, we demonstrate via human evaluation in several tasks that OAIF outperforms both offline DAP and RLHF methods. We further show that the feedback leveraged in OAIF is easily controllable, via instruction prompts to the LLM annotator.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-07T12:31:13Z</published>
+    <arxiv:comment>18 pages, 9 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shangmin Guo</name>
+    </author>
+    <author>
+      <name>Biao Zhang</name>
+    </author>
+    <author>
+      <name>Tianlin Liu</name>
+    </author>
+    <author>
+      <name>Tianqi Liu</name>
+    </author>
+    <author>
+      <name>Misha Khalman</name>
+    </author>
+    <author>
+      <name>Felipe Llinares</name>
+    </author>
+    <author>
+      <name>Alexandre Rame</name>
+    </author>
+    <author>
+      <name>Thomas Mesnard</name>
+    </author>
+    <author>
+      <name>Yao Zhao</name>
+    </author>
+    <author>
+      <name>Bilal Piot</name>
+    </author>
+    <author>
+      <name>Johan Ferret</name>
+    </author>
+    <author>
+      <name>Mathieu Blondel</name>
+    </author>
+  </entry>
+</feed>

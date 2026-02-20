@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ggI7RWuFAqqk1SjuTgyQm7VHJ2U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.01524v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.01524v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.01524v1</id>
+    <title>WALT: Web Agents that Learn Tools</title>
+    <updated>2025-10-01T23:41:47Z</updated>
+    <link href="https://arxiv.org/abs/2510.01524v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.01524v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web agents promise to automate complex browser tasks, but current methods remain brittle -- relying on step-by-step UI interactions and heavy LLM reasoning that break under dynamic layouts and long horizons. Humans, by contrast, exploit website-provided functionality through high-level operations like search, filter, and sort. We introduce WALT (Web Agents that Learn Tools), a framework that reverse-engineers latent website functionality into reusable invocable tools. Rather than hypothesizing ad-hoc skills, WALT exposes robust implementations of automations already designed into websites -- spanning discovery (search, filter, sort), communication (post, comment, upvote), and content management (create, edit, delete). Tools abstract away low-level execution: instead of reasoning about how to click and type, agents simply call search(query) or create(listing). This shifts the computational burden from fragile step-by-step reasoning to reliable tool invocation. On VisualWebArena and WebArena, WALT achieves higher success with fewer steps and less LLM-dependent reasoning, establishing a robust and generalizable paradigm for browser automation.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T23:41:47Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Viraj Prabhu</name>
+    </author>
+    <author>
+      <name>Yutong Dai</name>
+    </author>
+    <author>
+      <name>Matthew Fernandez</name>
+    </author>
+    <author>
+      <name>Jing Gu</name>
+    </author>
+    <author>
+      <name>Krithika Ramakrishnan</name>
+    </author>
+    <author>
+      <name>Yanqi Luo</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Junnan Li</name>
+    </author>
+    <author>
+      <name>Zeyuan Chen</name>
+    </author>
+    <author>
+      <name>Ran Xu</name>
+    </author>
+  </entry>
+</feed>

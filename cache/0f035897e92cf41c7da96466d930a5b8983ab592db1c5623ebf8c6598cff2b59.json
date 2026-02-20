@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sf6/kkxxWEuWDfALe+mkCLCf/2w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16052v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:49:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16052v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16052v1</id>
+    <title>MoE-Spec: Expert Budgeting for Efficient Speculative Decoding</title>
+    <updated>2026-02-17T22:02:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.16052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Speculative decoding accelerates Large Language Model (LLM) inference by verifying multiple drafted tokens in parallel. However, for Mixture-of-Experts (MoE) models, this parallelism introduces a severe bottleneck: large draft trees activate many unique experts, significantly increasing memory pressure and diminishing speedups from speculative decoding relative to autoregressive decoding. Prior methods reduce speculation depth when MoE verification becomes expensive. We propose MoE-Spec, a training-free verification-time expert budgeting method that decouples speculation depth from memory cost by enforcing a fixed expert capacity limit at each layer, loading only the experts that contribute most to verification and dropping the long tail of rarely used experts that drive bandwidth overhead. Experiments across multiple model scales and datasets show that this method yields 10--30\% higher throughput than state-of-the-art speculative decoding baselines (EAGLE-3) at comparable quality, with flexibility to trade accuracy for further latency reductions through tighter budgets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T22:02:36Z</published>
+    <arxiv:comment>12 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bradley McDanel</name>
+    </author>
+    <author>
+      <name>Steven Li</name>
+    </author>
+    <author>
+      <name>Sruthikesh Surineni</name>
+    </author>
+    <author>
+      <name>Harshit Khaitan</name>
+    </author>
+  </entry>
+</feed>

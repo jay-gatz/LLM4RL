@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mwB+Y9ue1CD4eEQE8NH1m/vNFXY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.24609v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.24609v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24609v1</id>
+    <title>Reinforcement Learning-Augmented LLM Agents for Collaborative Decision Making and Performance Optimization</title>
+    <updated>2025-12-31T03:59:18Z</updated>
+    <link href="https://arxiv.org/abs/2512.24609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) perform well in language tasks but often lack collaborative awareness and struggle to optimize global performance in multi-agent settings. We present a reinforcement learning-augmented LLM agent framework that formulates cooperation as a decentralized partially observable Markov decision process (Dec-POMDP) and adopts centralized training with decentralized execution (CTDE). We introduce Group Relative Policy Optimization (GRPO) to jointly optimize agent policies with access to global signals during training, together with a simplified joint reward that balances task quality, speed, and coordination cost. On collaborative writing and coding benchmarks, our framework delivers a 3x increase in task processing speed over single-agent baselines, 98.7% structural/style consistency in writing, and a 74.6% test pass rate in coding. The approach consistently outperforms strong multi-agent LLM baselines and provides a practical path toward reliable collaboration in complex workflows.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T03:59:18Z</published>
+    <arxiv:comment>Accepted by IEEE ICFTIC 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dong Qiu</name>
+    </author>
+    <author>
+      <name>Duo Xu</name>
+    </author>
+    <author>
+      <name>Limengxi Yue</name>
+    </author>
+  </entry>
+</feed>

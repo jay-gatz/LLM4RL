@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/heEqwVGxSf1fnt7RRjSWuxzjoRs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15761v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15761v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15761v1</id>
+    <title>A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings</title>
+    <updated>2026-02-17T17:47:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.15761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid adoption of large language models (LLMs) in automated code refactoring, assessing and ensuring functional equivalence between LLM-generated refactoring and the original implementation becomes critical. While prior work typically relies on predefined test cases to evaluate correctness, in this work, we leverage differential fuzzing to check functional equivalence in LLM-generated code refactorings. Unlike test-based evaluation, a differential fuzzing-based equivalence checker needs no predefined test cases and can explore a much larger input space by executing and comparing thousands of automatically generated test inputs. In a large-scale evaluation of six LLMs (CodeLlama, Codestral, StarChat2, Qwen-2.5, Olmo-3, and GPT-4o) across three datasets and two refactoring types, we find that LLMs show a non-trivial tendency to alter program semantics, producing 19-35% functionally non-equivalent refactorings. Our experiments further demonstrate that about 21% of these non-equivalent refactorings remain undetected by the existing test suites of the three evaluated datasets. Collectively, the findings of this study imply that reliance on existing tests might overestimate functional equivalence in LLM-generated code refactorings, which remain prone to semantic divergence.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T17:47:13Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Simantika Bhattacharjee Dristi</name>
+    </author>
+    <author>
+      <name>Matthew B. Dwyer</name>
+    </author>
+  </entry>
+</feed>

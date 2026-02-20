@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//3VxujfR9vHVvaPpQqCKInuPhrg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.03285v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.03285v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03285v1</id>
+    <title>WAREX: Web Agent Reliability Evaluation on Existing Benchmarks</title>
+    <updated>2025-09-28T20:51:05Z</updated>
+    <link href="https://arxiv.org/abs/2510.03285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in browser-based LLM agents have shown promise for automating tasks ranging from simple form filling to hotel booking or online shopping. Current benchmarks measure agent performance in controlled environments, such as containers or stable networks, where websites behave deterministically. However, in the real world, users access websites over networks and HTTPS connections that introduce instability from multiple sources: client-side, server-side issues or broader system failures. Moreover, live websites are prone to web attacks such Cross-Site Scripting, as well as general site modifications which can cause unexpected or malicious pop-ups or improper functionality. To address this gap, we present WAREX: Web Agent Reliability Evaluation on Existing Benchmarks. We measure the impact of WAREX across three popular benchmarks: WebArena, WebVoyager, and REAL. Our experiments show that introducing WAREX leads to significant drops in task success rates, highlighting the limited robustness of state-of-the-art agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-28T20:51:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Su Kara</name>
+    </author>
+    <author>
+      <name>Fazle Faisal</name>
+    </author>
+    <author>
+      <name>Suman Nath</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WAbn1WOLWNjyvKzhAidwDfcLQ1A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11661v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11661v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11661v1</id>
+    <title>Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Collaborative Optimization Paradigm</title>
+    <updated>2026-02-12T07:26:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.11661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While reinforcement learning for large language model alignment has progressed rapidly in recent years, transferring these paradigms to high-stakes medical question answering reveals a fundamental paradigm mismatch. Reinforcement Learning from Human Feedback relies on preference annotations that are prohibitively expensive and often fail to reflect the absolute correctness of medical facts. Reinforcement Learning from Verifiable Rewards lacks effective automatic verifiers and struggles to handle complex clinical contexts. Meanwhile, medical alignment requires the simultaneous optimization of correctness, safety, and compliance, yet multi-objective heterogeneous reward signals are prone to scale mismatch and optimization conflicts.To address these challenges, we propose a robust medical alignment paradigm. We first construct a holistic multi-dimensional medical alignment matrix that decomposes alignment objectives into four categories: fundamental capabilities, expert knowledge, online feedback, and format specifications. Within each category, we establish a closed loop of where observable metrics inform attributable diagnosis, which in turn drives optimizable rewards, thereby providing fine-grained, high-resolution supervision signals for subsequent iterative optimization. To resolve gradient domination and optimization instability problem caused by heterogeneous signals, we further propose a unified optimization mechanism. This mechanism employs Reference-Frozen Normalization to align reward scales and implements a Tri-Factor Adaptive Dynamic Weighting strategy to achieve collaborative optimization that is weakness-oriented, risk-prioritized, and redundancy-reducing. Experimental results demonstrate the effectiveness of our proposed paradigm in real-world medical scenario evaluations, establishing a new paradigm for complex alignment in vertical domains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T07:26:23Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianxiang Xu</name>
+    </author>
+    <author>
+      <name>Jiayi Liu</name>
+    </author>
+    <author>
+      <name>Yixuan Tong</name>
+    </author>
+    <author>
+      <name>Jialu Xu</name>
+    </author>
+    <author>
+      <name>Yunqing Wei</name>
+    </author>
+    <author>
+      <name>Kaiwen Feng</name>
+    </author>
+    <author>
+      <name>PanPan Hou</name>
+    </author>
+    <author>
+      <name>Kangping Yin</name>
+    </author>
+    <author>
+      <name>Jiyuan Hu</name>
+    </author>
+    <author>
+      <name>Hao Zhou</name>
+    </author>
+    <author>
+      <name>Zhenxin Ma</name>
+    </author>
+    <author>
+      <name>Jian Xu</name>
+    </author>
+    <author>
+      <name>Guanjun Jiang</name>
+    </author>
+  </entry>
+</feed>

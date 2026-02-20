@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2urMMesy7UOyOOj0QjAMr6UBzrQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.18383v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.18383v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.18383v2</id>
+    <title>MENTOR: A Reinforcement Learning Framework for Enabling Tool Use in Small Models via Teacher-Optimized Rewards</title>
+    <updated>2025-10-28T04:50:06Z</updated>
+    <link href="https://arxiv.org/abs/2510.18383v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.18383v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distilling the tool-using capabilities of large language models (LLMs) into smaller, more efficient small language models (SLMs) is a key challenge for their practical application. The predominant approach, supervised fine-tuning (SFT), suffers from poor generalization as it trains models to imitate a static set of teacher trajectories rather than learn a robust methodology. While reinforcement learning (RL) offers an alternative, the standard RL using sparse rewards fails to effectively guide SLMs, causing them to struggle with inefficient exploration and adopt suboptimal strategies. To address these distinct challenges, we propose MENTOR, a framework that synergistically combines RL with teacher-guided distillation. Instead of simple imitation, MENTOR employs an RL-based process to learn a more generalizable policy through exploration. In addition, to solve the problem of reward sparsity, it uses a teacher's reference trajectory to construct a dense, composite teacher-guided reward that provides fine-grained guidance. Extensive experiments demonstrate that MENTOR significantly improves the cross-domain generalization and strategic competence of SLMs compared to both SFT and standard sparse-reward RL baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-21T08:03:14Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>ChangSu Choi</name>
+    </author>
+    <author>
+      <name>Hoyun Song</name>
+    </author>
+    <author>
+      <name>Dongyeon Kim</name>
+    </author>
+    <author>
+      <name>WooHyeon Jung</name>
+    </author>
+    <author>
+      <name>Minkyung Cho</name>
+    </author>
+    <author>
+      <name>Sunjin Park</name>
+    </author>
+    <author>
+      <name>NohHyeob Bae</name>
+    </author>
+    <author>
+      <name>Seona Yu</name>
+    </author>
+    <author>
+      <name>KyungTae Lim</name>
+    </author>
+  </entry>
+</feed>

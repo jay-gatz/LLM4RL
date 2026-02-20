@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VRNYMyC8JU34NwVySW06w+3SqEk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07992v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:45:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07992v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07992v1</id>
+    <title>When Is Compositional Reasoning Learnable from Verifiable Rewards?</title>
+    <updated>2026-02-08T14:31:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.07992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of compositional reasoning in large language models through reinforcement learning with verifiable rewards (RLVR) has been a key driver of recent empirical successes. Despite this progress, it remains unclear which compositional problems are learnable in this setting using outcome-level feedback alone. In this work, we theoretically study the learnability of compositional problems in autoregressive models under RLVR training. We identify a quantity that we call the task-advantage ratio, a joint property of the compositional problem and the base model, that characterizes which tasks and compositions are learnable from outcome-level feedback. On the positive side, using this characterization, we show that compositional problems where correct intermediate steps provide a clear advantage are efficiently learnable with RLVR. We also analyze how such an advantage naturally arises in different problems. On the negative side, when the structural advantage is not present, RLVR may converge to suboptimal compositions. We prove that, in some cases, the quality of the base model determines if such an advantage exists and whether RLVR will converge to a suboptimal solution. We hope our analysis can provide a principled theoretical understanding of when and why RLVR succeeds and when it does not.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-08T14:31:54Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Daniel Barzilai</name>
+    </author>
+    <author>
+      <name>Yotam Wolf</name>
+    </author>
+    <author>
+      <name>Ronen Basri</name>
+    </author>
+  </entry>
+</feed>

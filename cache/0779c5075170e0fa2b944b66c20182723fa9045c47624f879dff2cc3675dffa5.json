@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YCOloOaakh2aUWexe5k3zsQVwgg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2412.15115&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2412.15115" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.15115v2</id>
+    <title>Qwen2.5 Technical Report</title>
+    <updated>2025-01-03T02:18:21Z</updated>
+    <link href="https://arxiv.org/abs/2412.15115v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.15115v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this report, we introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs. Compared to previous iterations, Qwen 2.5 has been significantly improved during both the pre-training and post-training stages. In terms of pre-training, we have scaled the high-quality pre-training datasets from the previous 7 trillion tokens to 18 trillion tokens. This provides a strong foundation for common sense, expert knowledge, and reasoning capabilities. In terms of post-training, we implement intricate supervised finetuning with over 1 million samples, as well as multistage reinforcement learning. Post-training techniques enhance human preference, and notably improve long text generation, structural data analysis, and instruction following. To handle diverse and varied use cases effectively, we present Qwen2.5 LLM series in rich sizes. Open-weight offerings include base and instruction-tuned models, with quantized versions available. In addition, for hosted solutions, the proprietary models currently include two mixture-of-experts (MoE) variants: Qwen2.5-Turbo and Qwen2.5-Plus, both available from Alibaba Cloud Model Studio. Qwen2.5 has demonstrated top-tier performance on a wide range of benchmarks evaluating language understanding, reasoning, mathematics, coding, human preference alignment, etc. Specifically, the open-weight flagship Qwen2.5-72B-Instruct outperforms a number of open and proprietary models and demonstrates competitive performance to the state-of-the-art open-weight model, Llama-3-405B-Instruct, which is around 5 times larger. Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness while performing competitively against GPT-4o-mini and GPT-4o respectively. Additionally, as the foundation, Qwen2.5 models have been instrumental in training specialized models such as Qwen2.5-Math, Qwen2.5-Coder, QwQ, and multimodal models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-19T17:56:09Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> Qwen</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>An Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Baosong Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Beichen Zhang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Binyuan Hui</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bo Zheng</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bowen Yu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chengyuan Li</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dayiheng Liu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Haoran Wei</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Huan Lin</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jianhong Tu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jianwei Zhang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jianxin Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiaxi Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jingren Zhou</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Junyang Lin</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kai Dang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Keming Lu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Keqin Bao</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kexin Yang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Le Yu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mei Li</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mingfeng Xue</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pei Zhang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Qin Zhu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rui Men</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Runji Lin</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tianhao Li</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tianyi Tang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tingyu Xia</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xingzhang Ren</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xuancheng Ren</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yang Fan</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yang Su</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yichang Zhang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yu Wan</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yuqiong Liu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zeyu Cui</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhenru Zhang</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zihan Qiu</name>
+      <arxiv:affiliation>additional authors not shown</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

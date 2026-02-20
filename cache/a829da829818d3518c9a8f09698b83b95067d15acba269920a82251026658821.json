@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lham7oixYWRthnnj8G8GxuXNLFA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.23037v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.23037v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.23037v3</id>
+    <title>Agentic Large Language Models, a survey</title>
+    <updated>2025-11-22T08:55:19Z</updated>
+    <link href="https://arxiv.org/abs/2503.23037v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.23037v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Background: There is great interest in agentic LLMs, large language models that act as agents.
+  Objectives: We review the growing body of work in this area and provide a research agenda.
+  Methods: Agentic LLMs are LLMs that (1) reason, (2) act, and (3) interact. We organize the literature according to these three categories.
+  Results: The research in the first category focuses on reasoning, reflection, and retrieval, aiming to improve decision making; the second category focuses on action models, robots, and tools, aiming for agents that act as useful assistants; the third category focuses on multi-agent systems, aiming for collaborative task solving and simulating interaction to study emergent social behavior. We find that works mutually benefit from results in other categories: retrieval enables tool use, reflection improves multi-agent collaboration, and reasoning benefits all categories.
+  Conclusions: We discuss applications of agentic LLMs and provide an agenda for further research. Important applications are in medical diagnosis, logistics and financial market analysis. Meanwhile, self-reflective agents playing roles and interacting with one another augment the process of scientific research itself. Further, agentic LLMs provide a solution for the problem of LLMs running out of training data: inference-time behavior generates new training states, such that LLMs can keep learning without needing ever larger datasets. We note that there is risk associated with LLM assistants taking action in the real world-safety, liability and security are open problems-while agentic LLMs are also likely to benefit society.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-29T11:02:20Z</published>
+    <arxiv:comment>Website: https://askeplaat.github.io/agentic-llm-survey-site/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>JAIR volume 84, article 29, December 2025</arxiv:journal_ref>
+    <author>
+      <name>Aske Plaat</name>
+    </author>
+    <author>
+      <name>Max van Duijn</name>
+    </author>
+    <author>
+      <name>Niki van Stein</name>
+    </author>
+    <author>
+      <name>Mike Preuss</name>
+    </author>
+    <author>
+      <name>Peter van der Putten</name>
+    </author>
+    <author>
+      <name>Kees Joost Batenburg</name>
+    </author>
+    <arxiv:doi>10.1613/jair.1.18675</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1613/jair.1.18675" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0TIzi4bhbtxGE/h8K+fl7QOK8Tw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20649v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:06:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20649v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20649v1</id>
+    <title>P2S: Probabilistic Process Supervision for General-Domain Reasoning Question Answering</title>
+    <updated>2026-01-28T14:35:20Z</updated>
+    <link href="https://arxiv.org/abs/2601.20649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While reinforcement learning with verifiable rewards (RLVR) has advanced LLM reasoning in structured domains like mathematics and programming, its application to general-domain reasoning tasks remains challenging due to the absence of verifiable reward signals. To this end, methods like Reinforcement Learning with Reference Probability Reward (RLPR) have emerged, leveraging the probability of generating the final answer as a reward signal. However, these outcome-focused approaches neglect crucial step-by-step supervision of the reasoning process itself. To address this gap, we introduce Probabilistic Process Supervision (P2S), a novel self-supervision framework that provides fine-grained process rewards without requiring a separate reward model or human-annotated reasoning steps. During reinforcement learning, P2S synthesizes and filters a high-quality reference reasoning chain (gold-CoT). The core of our method is to calculate a Path Faithfulness Reward (PFR) for each reasoning step, which is derived from the conditional probability of generating the gold-CoT's suffix, given the model's current reasoning prefix. Crucially, this PFR can be flexibly integrated with any outcome-based reward, directly tackling the reward sparsity problem by providing dense guidance. Extensive experiments on reading comprehension and medical Question Answering benchmarks show that P2S significantly outperforms strong baselines.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T14:35:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenlin Zhong</name>
+    </author>
+    <author>
+      <name>Chengyuan Liu</name>
+    </author>
+    <author>
+      <name>Yiquan Wu</name>
+    </author>
+    <author>
+      <name>Bovin Tan</name>
+    </author>
+    <author>
+      <name>Changlong Sun</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Xiaozhong Liu</name>
+    </author>
+    <author>
+      <name>Kun Kuang</name>
+    </author>
+  </entry>
+</feed>

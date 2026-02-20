@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qH0hqKLr6CKZt54jblTor8rfQoA</id>
+  <title>arXiv Query: search_query=&amp;id_list=1912.06680&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:33:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1912.06680" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06680v1</id>
+    <title>Dota 2 with Large Scale Deep Reinforcement Learning</title>
+    <updated>2019-12-13T19:56:40Z</updated>
+    <link href="https://arxiv.org/abs/1912.06680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.06680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On April 13th, 2019, OpenAI Five became the first AI system to defeat the world champions at an esports game. The game of Dota 2 presents novel challenges for AI systems such as long time horizons, imperfect information, and complex, continuous state-action spaces, all challenges which will become increasingly central to more capable AI systems. OpenAI Five leveraged existing reinforcement learning techniques, scaled to learn from batches of approximately 2 million frames every 2 seconds. We developed a distributed training system and tools for continual training which allowed us to train OpenAI Five for 10 months. By defeating the Dota 2 world champion (Team OG), OpenAI Five demonstrates that self-play reinforcement learning can achieve superhuman performance on a difficult task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-13T19:56:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name> OpenAI</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Christopher Berner</name>
+    </author>
+    <author>
+      <name>Greg Brockman</name>
+    </author>
+    <author>
+      <name>Brooke Chan</name>
+    </author>
+    <author>
+      <name>Vicki Cheung</name>
+    </author>
+    <author>
+      <name>Przemysław Dębiak</name>
+    </author>
+    <author>
+      <name>Christy Dennison</name>
+    </author>
+    <author>
+      <name>David Farhi</name>
+    </author>
+    <author>
+      <name>Quirin Fischer</name>
+    </author>
+    <author>
+      <name>Shariq Hashme</name>
+    </author>
+    <author>
+      <name>Chris Hesse</name>
+    </author>
+    <author>
+      <name>Rafal Józefowicz</name>
+    </author>
+    <author>
+      <name>Scott Gray</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Jakub Pachocki</name>
+    </author>
+    <author>
+      <name>Michael Petrov</name>
+    </author>
+    <author>
+      <name>Henrique P. d. O. Pinto</name>
+    </author>
+    <author>
+      <name>Jonathan Raiman</name>
+    </author>
+    <author>
+      <name>Tim Salimans</name>
+    </author>
+    <author>
+      <name>Jeremy Schlatter</name>
+    </author>
+    <author>
+      <name>Jonas Schneider</name>
+    </author>
+    <author>
+      <name>Szymon Sidor</name>
+    </author>
+    <author>
+      <name>Ilya Sutskever</name>
+    </author>
+    <author>
+      <name>Jie Tang</name>
+    </author>
+    <author>
+      <name>Filip Wolski</name>
+    </author>
+    <author>
+      <name>Susan Zhang</name>
+    </author>
+  </entry>
+</feed>

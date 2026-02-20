@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WzgOWADHva4PSqef4yGoub/E9TY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.13690&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.13690" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13690v2</id>
+    <title>DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving</title>
+    <updated>2024-12-23T17:32:21Z</updated>
+    <link href="https://arxiv.org/abs/2407.13690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving mathematical problems requires advanced reasoning abilities and presents notable challenges for large language models. Previous works usually synthesize data from proprietary models to augment existing datasets, followed by instruction tuning to achieve top-tier results. However, our analysis of these datasets reveals severe biases towards easy queries, with frequent failures to generate any correct response for the most challenging queries. Hypothesizing that difficult queries are crucial to learn complex reasoning, we propose Difficulty-Aware Rejection Tuning (DART), a method that allocates difficult queries more trials during the synthesis phase, enabling more extensive training on difficult samples. Utilizing DART, we have created new datasets for mathematical problem-solving that focus more on difficult queries and are substantially smaller than previous ones. Remarkably, our synthesis process solely relies on a 7B-sized open-weight model, without reliance on the commonly used proprietary GPT-4. We fine-tune various base models on our datasets ranging from 7B to 70B in size, resulting in a series of strong models called DART-MATH. In comprehensive in-domain and out-of-domain evaluation on 6 mathematical benchmarks, DART-MATH outperforms vanilla rejection tuning significantly, being superior or comparable to previous arts, despite using much smaller datasets and no proprietary models. Furthermore, our results position our synthetic datasets as the most effective and cost-efficient publicly available resources for advancing mathematical problem-solving.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T07:14:02Z</published>
+    <arxiv:comment>NeurIPS 2024. Data and model checkpoints are available at https://github.com/hkust-nlp/dart-math</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuxuan Tong</name>
+    </author>
+    <author>
+      <name>Xiwen Zhang</name>
+    </author>
+    <author>
+      <name>Rui Wang</name>
+    </author>
+    <author>
+      <name>Ruidong Wu</name>
+    </author>
+    <author>
+      <name>Junxian He</name>
+    </author>
+  </entry>
+</feed>

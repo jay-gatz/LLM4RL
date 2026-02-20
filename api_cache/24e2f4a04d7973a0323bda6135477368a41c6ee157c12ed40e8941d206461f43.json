@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gmvqiV8Ja7s1zW4kR6Y3Xk/f908</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14934v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14934v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14934v1</id>
+    <title>Activation-Space Uncertainty Quantification for Pretrained Networks</title>
+    <updated>2026-02-16T17:17:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.14934v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14934v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reliable uncertainty estimates are crucial for deploying pretrained models; yet, many strong methods for quantifying uncertainty require retraining, Monte Carlo sampling, or expensive second-order computations and may alter a frozen backbone's predictions. To address this, we introduce Gaussian Process Activations (GAPA), a post-hoc method that shifts Bayesian modeling from weights to activations. GAPA replaces standard nonlinearities with Gaussian-process activations whose posterior mean exactly matches the original activation, preserving the backbone's point predictions by construction while providing closed-form epistemic variances in activation space. To scale to modern architectures, we use a sparse variational inducing-point approximation over cached training activations, combined with local k-nearest-neighbor subset conditioning, enabling deterministic single-pass uncertainty propagation without sampling, backpropagation, or second-order information. Across regression, classification, image segmentation, and language modeling, GAPA matches or outperforms strong post-hoc baselines in calibration and out-of-distribution detection while remaining efficient at test time.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T17:17:08Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Richard Bergna</name>
+    </author>
+    <author>
+      <name>Stefan Depeweg</name>
+    </author>
+    <author>
+      <name>Sergio Calvo-Ordoñez</name>
+    </author>
+    <author>
+      <name>Jonathan Plenk</name>
+    </author>
+    <author>
+      <name>Alvaro Cartea</name>
+    </author>
+    <author>
+      <name>Jose Miguel Hernández-Lobato</name>
+    </author>
+  </entry>
+</feed>

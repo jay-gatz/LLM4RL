@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//n8XTYMPpBPFETfLVqLYDS+UKMs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21484v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21484v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21484v1</id>
+    <title>ETS: Energy-Guided Test-Time Scaling for Training-Free RL Alignment</title>
+    <updated>2026-01-29T10:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2601.21484v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21484v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) post-training alignment for language models is effective, but also costly and unstable in practice, owing to its complicated training process. To address this, we propose a training-free inference method to sample directly from the optimal RL policy. The transition probability applied to Masked Language Modeling (MLM) consists of a reference policy model and an energy term. Based on this, our algorithm, Energy-Guided Test-Time Scaling (ETS), estimates the key energy term via online Monte Carlo, with a provable convergence rate. Moreover, to ensure practical efficiency, ETS leverages modern acceleration frameworks alongside tailored importance sampling estimators, substantially reducing inference latency while provably preserving sampling quality. Experiments on MLM (including autoregressive models and diffusion language models) across reasoning, coding, and science benchmarks show that our ETS consistently improves generation quality, validating its effectiveness and design.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T10:06:52Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiuyu Li</name>
+    </author>
+    <author>
+      <name>Jinkai Zhang</name>
+    </author>
+    <author>
+      <name>Mingyang Yi</name>
+    </author>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Longqiang Wang</name>
+    </author>
+    <author>
+      <name>Yue Wang</name>
+    </author>
+    <author>
+      <name>Ju Fan</name>
+    </author>
+  </entry>
+</feed>

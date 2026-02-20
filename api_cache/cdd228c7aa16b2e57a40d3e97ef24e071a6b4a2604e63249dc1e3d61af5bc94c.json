@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yWNduB84WhdIDQ+Q6v6uB+8fq50</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07464v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07464v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07464v1</id>
+    <title>SED-SFT: Selectively Encouraging Diversity in Supervised Fine-Tuning</title>
+    <updated>2026-02-07T09:39:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.07464v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07464v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (RL) has emerged as the standard post-training paradigm for large language models (LLMs). However, the conventional SFT process, driven by Cross-Entropy (CE) loss, often induces mode collapse, where models over-concentrate on specific response patterns. This lack of distributional diversity severely restricts the exploration efficiency required for subsequent RL. While recent studies have attempted to improve SFT by replacing the CE loss, aiming to preserve diversity or refine the update policy, they fail to adequately balance diversity and accuracy, thereby yielding suboptimal performance after RL. To address the mode collapse problem, we propose SED-SFT, which adaptively encourages diversity based on the token exploration space. This framework introduces a selective entropy regularization term with a selective masking mechanism into the optimization objective. Extensive experiments across eight mathematical benchmarks demonstrate that SED-SFT significantly enhances generation diversity with a negligible computational overhead increase compared with CE loss, yielding average improvements of 2.06 and 1.20 points in subsequent RL performance over standard CE-based baselines on Llama-3.2-3B-Instruct and Qwen2.5-Math-7B-Instruct, respectively. The code is publicly available at https://github.com/pppa2019/SED-SFT</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T09:39:21Z</published>
+    <arxiv:comment>The code is publicly available at https://github.com/pppa2019/SED-SFT</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yijie Chen</name>
+    </author>
+    <author>
+      <name>Yijin Liu</name>
+    </author>
+    <author>
+      <name>Fandong Meng</name>
+    </author>
+  </entry>
+</feed>

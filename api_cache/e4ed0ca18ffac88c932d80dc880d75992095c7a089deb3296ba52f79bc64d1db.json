@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fV9n4ePwguDkNOXjh/4iHmsG5Vg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12684v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12684v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12684v1</id>
+    <title>Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution</title>
+    <updated>2026-02-13T07:30:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.12684v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12684v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this report, we introduce Xiaomi-Robotics-0, an advanced vision-language-action (VLA) model optimized for high performance and fast and smooth real-time execution. The key to our method lies in a carefully designed training recipe and deployment strategy. Xiaomi-Robotics-0 is first pre-trained on large-scale cross-embodiment robot trajectories and vision-language data, endowing it with broad and generalizable action-generation capabilities while avoiding catastrophic forgetting of the visual-semantic knowledge of the underlying pre-trained VLM. During post-training, we propose several techniques for training the VLA model for asynchronous execution to address the inference latency during real-robot rollouts. During deployment, we carefully align the timesteps of consecutive predicted action chunks to ensure continuous and seamless real-time rollouts. We evaluate Xiaomi-Robotics-0 extensively in simulation benchmarks and on two challenging real-robot tasks that require precise and dexterous bimanual manipulation. Results show that our method achieves state-of-the-art performance across all simulation benchmarks. Moreover, Xiaomi-Robotics-0 can roll out fast and smoothly on real robots using a consumer-grade GPU, achieving high success rates and throughput on both real-robot tasks. To facilitate future research, code and model checkpoints are open-sourced at https://xiaomi-robotics-0.github.io</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T07:30:43Z</published>
+    <arxiv:comment>Project page: https://xiaomi-robotics-0.github.io</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Rui Cai</name>
+    </author>
+    <author>
+      <name>Jun Guo</name>
+    </author>
+    <author>
+      <name>Xinze He</name>
+    </author>
+    <author>
+      <name>Piaopiao Jin</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Bingxuan Lin</name>
+    </author>
+    <author>
+      <name>Futeng Liu</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Fei Ma</name>
+    </author>
+    <author>
+      <name>Kun Ma</name>
+    </author>
+    <author>
+      <name>Feng Qiu</name>
+    </author>
+    <author>
+      <name>Heng Qu</name>
+    </author>
+    <author>
+      <name>Yifei Su</name>
+    </author>
+    <author>
+      <name>Qiao Sun</name>
+    </author>
+    <author>
+      <name>Dong Wang</name>
+    </author>
+    <author>
+      <name>Donghao Wang</name>
+    </author>
+    <author>
+      <name>Yunhong Wang</name>
+    </author>
+    <author>
+      <name>Rujie Wu</name>
+    </author>
+    <author>
+      <name>Diyun Xiang</name>
+    </author>
+    <author>
+      <name>Yu Yang</name>
+    </author>
+    <author>
+      <name>Hangjun Ye</name>
+    </author>
+    <author>
+      <name>Yuan Zhang</name>
+    </author>
+    <author>
+      <name>Quanyun Zhou</name>
+    </author>
+  </entry>
+</feed>

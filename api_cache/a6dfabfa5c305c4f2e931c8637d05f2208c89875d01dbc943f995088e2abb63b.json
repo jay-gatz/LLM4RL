@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QWr+qlAe+iUr6znf+x4a56F8JQA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09578v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09578v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09578v1</id>
+    <title>Rollout-Training Co-Design for Efficient LLM-Based Multi-Agent Reinforcement Learning</title>
+    <updated>2026-02-10T09:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.09578v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09578v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite algorithm-level innovations for multi-agent reinforcement learning (MARL), the underlying networked infrastructure for large-scale MARL training remains underexplored. Existing training frameworks primarily optimize for single-agent scenarios and fail to address the unique system-level challenges of MARL, including rollout-training synchronization barriers, rollout load imbalance, and training resource underutilization. To bridge this gap, we propose FlexMARL, the first end-to-end training framework that holistically optimizes rollout, training, and their orchestration for large-scale LLM-based MARL. Specifically, FlexMARL introduces the joint orchestrator to manage data flow under the rollout-training disaggregated architecture. Building upon the experience store, a novel micro-batch driven asynchronous pipeline eliminates the synchronization barriers while providing strong consistency guarantees. Rollout engine adopts a parallel sampling scheme combined with hierarchical load balancing, which adapts to skewed inter/intra-agent request patterns. Training engine achieves on-demand hardware binding through agent-centric resource allocation. The training states of different agents are swapped via unified and location-agnostic communication. Empirical results on a large-scale production cluster demonstrate that FlexMARL achieves up to 7.3x speedup and improves hardware utilization by up to 5.6x compared to existing frameworks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T09:27:03Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhida Jiang</name>
+    </author>
+    <author>
+      <name>Zhaolong Xing</name>
+    </author>
+    <author>
+      <name>Jiawei Lu</name>
+    </author>
+    <author>
+      <name>Yipei Niu</name>
+    </author>
+    <author>
+      <name>Qingyuan Sang</name>
+    </author>
+    <author>
+      <name>Liangxu Zhang</name>
+    </author>
+    <author>
+      <name>Wenquan Dai</name>
+    </author>
+    <author>
+      <name>Junhua Shu</name>
+    </author>
+    <author>
+      <name>Jiaxing Wang</name>
+    </author>
+    <author>
+      <name>Qiangyu Pei</name>
+    </author>
+    <author>
+      <name>Qiong Chen</name>
+    </author>
+    <author>
+      <name>Xinyu Liu</name>
+    </author>
+    <author>
+      <name>Fangming Liu</name>
+    </author>
+    <author>
+      <name>Ai Han</name>
+    </author>
+    <author>
+      <name>Zhen Chen</name>
+    </author>
+    <author>
+      <name>Ke Zhang</name>
+    </author>
+  </entry>
+</feed>

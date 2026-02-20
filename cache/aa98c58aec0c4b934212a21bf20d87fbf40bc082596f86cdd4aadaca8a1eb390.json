@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NrQcqLtDkxZ1xCVJXMiDSUZjt1o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.07919v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:51:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2503.07919v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.07919v3</id>
+    <title>BEARCUBS: A benchmark for computer-using web agents</title>
+    <updated>2025-07-24T17:45:05Z</updated>
+    <link href="https://arxiv.org/abs/2503.07919v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.07919v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern web agents possess computer use abilities that allow them to interact with webpages by sending commands to a virtual keyboard and mouse. While such agents have considerable potential to assist human users with complex tasks, evaluating their capabilities in real-world settings poses a major challenge. To this end, we introduce BEARCUBS, a "smallbut mighty" benchmark of 111 information-seeking questions designed to evaluate a web agent's ability to search, browse, and identify factual information from the web. Unlike prior web agent benchmarks, solving BEARCUBS requires (1) accessing live web content rather than synthetic or simulated pages, which captures the unpredictability of real-world web interactions; and (2) performing a broad range of multimodal interactions (e.g., video understanding, 3D navigation) that cannot be bypassed via text-based workarounds. Each question in BEARCUBS has a corresponding short, unambiguous answer and a human-validated browsing trajectory, allowing for transparent evaluation of agent performance and strategies. A human study confirms that BEARCUBS questions are solvable but non-trivial (84.7% human accuracy), revealing domain knowledge gaps and overlooked details as common failure points. We find that ChatGPT Agent significantly outperforms other computer-using agents with an overall accuracy of 65.8% (compared to e.g., Operator's 23.4%), showcasing substantial progress in tasks involving real computer use, such as playing web games and navigating 3D environments. Nevertheless, closing the gap to human performance requires improvements in areas like fine control, complex data filtering, and execution speed. To facilitate future research, BEARCUBS will be updated periodically to replace invalid or contaminated questions, keeping the benchmark fresh for future generations of web agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T23:50:30Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yixiao Song</name>
+    </author>
+    <author>
+      <name>Katherine Thai</name>
+    </author>
+    <author>
+      <name>Chau Minh Pham</name>
+    </author>
+    <author>
+      <name>Yapei Chang</name>
+    </author>
+    <author>
+      <name>Mazin Nadaf</name>
+    </author>
+    <author>
+      <name>Mohit Iyyer</name>
+    </author>
+  </entry>
+</feed>

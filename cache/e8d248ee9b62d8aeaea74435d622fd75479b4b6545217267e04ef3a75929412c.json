@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yo4BsgjWxGVKqQmfTls6xL7Dwik</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14777v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14777v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14777v1</id>
+    <title>Emergently Misaligned Language Models Show Behavioral Self-Awareness That Shifts With Subsequent Realignment</title>
+    <updated>2026-02-16T14:29:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.14777v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14777v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has demonstrated that large language models (LLMs) fine-tuned on incorrect trivia question-answer pairs exhibit toxicity - a phenomenon later termed "emergent misalignment". Moreover, research has shown that LLMs possess behavioral self-awareness - the ability to describe learned behaviors that were only implicitly demonstrated in training data. Here, we investigate the intersection of these phenomena. We fine-tune GPT-4.1 models sequentially on datasets known to induce and reverse emergent misalignment and evaluate whether the models are self-aware of their behavior transitions without providing in-context examples. Our results show that emergently misaligned models rate themselves as significantly more harmful compared to their base model and realigned counterparts, demonstrating behavioral self-awareness of their own emergent misalignment. Our findings show that behavioral self-awareness tracks actual alignment states of models, indicating that models can be queried for informative signals about their own safety.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T14:29:46Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Laurène Vaugrante</name>
+    </author>
+    <author>
+      <name>Anietta Weckauff</name>
+    </author>
+    <author>
+      <name>Thilo Hagendorff</name>
+    </author>
+  </entry>
+</feed>

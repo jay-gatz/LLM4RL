@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Li1DYfcGWZxgbS1bxmjGx+W7YR4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07027v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07027v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07027v1</id>
+    <title>Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models</title>
+    <updated>2026-02-02T16:02:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.07027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models (VLMs) such as CLIP enable strong zero-shot recognition but suffer substantial degradation under distribution shifts. Test-Time Adaptation (TTA) aims to improve robustness using only unlabeled test samples, yet most prompt-based TTA methods rely on entropy minimization -- an approach that can amplify spurious correlations and induce overconfident errors when classes share visual features. We propose Fair Context Learning (FCL), an episodic TTA framework that avoids entropy minimization by explicitly addressing shared-evidence bias. Motivated by our additive evidence decomposition assumption, FCL decouples adaptation into (i) augmentation-based exploration to identify plausible class candidates, and (ii) fairness-driven calibration that adapts text contexts to equalize sensitivity to common visual evidence. This fairness constraint mitigates partial feature obsession and enables effective calibration of text embeddings without relying on entropy reduction. Through extensive evaluation, we empirically validate our theoretical motivation and show that FCL achieves competitive adaptation performance relative to state-of-the-art TTA methods across diverse domain-shift and fine-grained benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T16:02:50Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sanggeon Yun</name>
+    </author>
+    <author>
+      <name>Ryozo Masukawa</name>
+    </author>
+    <author>
+      <name>SungHeon Jeong</name>
+    </author>
+    <author>
+      <name>Wenjun Huang</name>
+    </author>
+    <author>
+      <name>Hanning Chen</name>
+    </author>
+    <author>
+      <name>Mohsen Imani</name>
+    </author>
+  </entry>
+</feed>

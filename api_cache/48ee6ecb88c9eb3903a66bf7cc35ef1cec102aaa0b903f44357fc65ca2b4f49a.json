@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BvgrgbCs+JZ/okprIsROQ1hhgNA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16590v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:28:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16590v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16590v1</id>
+    <title>A Contrastive Learning Framework Empowered by Attention-based Feature Adaptation for Street-View Image Classification</title>
+    <updated>2026-02-18T16:41:32Z</updated>
+    <link href="https://arxiv.org/abs/2602.16590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Street-view image attribute classification is a vital downstream task of image classification, enabling applications such as autonomous driving, urban analytics, and high-definition map construction. It remains computationally demanding whether training from scratch, initialising from pre-trained weights, or fine-tuning large models. Although pre-trained vision-language models such as CLIP offer rich image representations, existing adaptation or fine-tuning methods often rely on their global image embeddings, limiting their ability to capture fine-grained, localised attributes essential in complex, cluttered street scenes. To address this, we propose CLIP-MHAdapter, a variant of the current lightweight CLIP adaptation paradigm that appends a bottleneck MLP equipped with multi-head self-attention operating on patch tokens to model inter-patch dependencies. With approximately 1.4 million trainable parameters, CLIP-MHAdapter achieves superior or competitive accuracy across eight attribute classification tasks on the Global StreetScapes dataset, attaining new state-of-the-art results while maintaining low computational cost. The code is available at https://github.com/SpaceTimeLab/CLIP-MHAdapter.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T16:41:32Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qi You</name>
+    </author>
+    <author>
+      <name>Yitai Cheng</name>
+    </author>
+    <author>
+      <name>Zichao Zeng</name>
+    </author>
+    <author>
+      <name>James Haworth</name>
+    </author>
+  </entry>
+</feed>

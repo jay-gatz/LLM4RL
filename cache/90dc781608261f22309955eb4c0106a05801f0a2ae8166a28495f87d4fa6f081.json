@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VzAsMXlq2zsC8KP9NUFogP8fI4A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08828v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08828v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08828v1</id>
+    <title>VideoVeritas: AI-Generated Video Detection via Perception Pretext Reinforcement Learning</title>
+    <updated>2026-02-09T16:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2602.08828v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08828v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing capability of video generation poses escalating security risks, making reliable detection increasingly essential. In this paper, we introduce VideoVeritas, a framework that integrates fine-grained perception and fact-based reasoning. We observe that while current multi-modal large language models (MLLMs) exhibit strong reasoning capacity, their granular perception ability remains limited. To mitigate this, we introduce Joint Preference Alignment and Perception Pretext Reinforcement Learning (PPRL). Specifically, rather than directly optimizing for detection task, we adopt general spatiotemporal grounding and self-supervised object counting in the RL stage, enhancing detection performance with simple perception pretext tasks. To facilitate robust evaluation, we further introduce MintVid, a light yet high-quality dataset containing 3K videos from 9 state-of-the-art generators, along with a real-world collected subset that has factual errors in content. Experimental results demonstrate that existing methods tend to bias towards either superficial reasoning or mechanical analysis, while VideoVeritas achieves more balanced performance across diverse benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T16:00:01Z</published>
+    <arxiv:comment>Project: https://github.com/EricTan7/VideoVeritas</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hao Tan</name>
+    </author>
+    <author>
+      <name>Jun Lan</name>
+    </author>
+    <author>
+      <name>Senyuan Shi</name>
+    </author>
+    <author>
+      <name>Zichang Tan</name>
+    </author>
+    <author>
+      <name>Zijian Yu</name>
+    </author>
+    <author>
+      <name>Huijia Zhu</name>
+    </author>
+    <author>
+      <name>Weiqiang Wang</name>
+    </author>
+    <author>
+      <name>Jun Wan</name>
+    </author>
+    <author>
+      <name>Zhen Lei</name>
+    </author>
+  </entry>
+</feed>

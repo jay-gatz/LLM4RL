@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qCxq64alSH8zPMM0VFhwtezKDdM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.16833&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.16833" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.16833v2</id>
+    <title>Safe LoRA: the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models</title>
+    <updated>2025-01-05T21:51:46Z</updated>
+    <link href="https://arxiv.org/abs/2405.16833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.16833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While large language models (LLMs) such as Llama-2 or GPT-4 have shown impressive zero-shot performance, fine-tuning is still necessary to enhance their performance for customized datasets, domain-specific tasks, or other private needs. However, fine-tuning all parameters of LLMs requires significant hardware resources, which can be impractical for typical users. Therefore, parameter-efficient fine-tuning such as LoRA have emerged, allowing users to fine-tune LLMs without the need for considerable computing resources, with little performance degradation compared to fine-tuning all parameters. Unfortunately, recent studies indicate that fine-tuning can increase the risk to the safety of LLMs, even when data does not contain malicious content. To address this challenge, we propose Safe LoRA, a simple one-liner patch to the original LoRA implementation by introducing the projection of LoRA weights from selected layers to the safety-aligned subspace, effectively reducing the safety risks in LLM fine-tuning while maintaining utility. It is worth noting that Safe LoRA is a training-free and data-free approach, as it only requires the knowledge of the weights from the base and aligned LLMs. Our extensive experiments demonstrate that when fine-tuning on purely malicious data, Safe LoRA retains similar safety performance as the original aligned model. Moreover, when the fine-tuning dataset contains a mixture of both benign and malicious data, Safe LoRA mitigates the negative effect made by malicious data while preserving performance on downstream tasks. Our codes are available at \url{https://github.com/IBM/SafeLoRA}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-27T05:04:05Z</published>
+    <arxiv:comment>This is the camera-ready version accepted for NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chia-Yi Hsu</name>
+    </author>
+    <author>
+      <name>Yu-Lin Tsai</name>
+    </author>
+    <author>
+      <name>Chih-Hsun Lin</name>
+    </author>
+    <author>
+      <name>Pin-Yu Chen</name>
+    </author>
+    <author>
+      <name>Chia-Mu Yu</name>
+    </author>
+    <author>
+      <name>Chun-Ying Huang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PSs/PqDL/4yXNo5uqpuzX9NlhEE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.20675v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.20675v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20675v1</id>
+    <title>bi-modal textual prompt learning for vision-language models in remote sensing</title>
+    <updated>2026-01-28T14:58:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.20675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt learning (PL) has emerged as an effective strategy to adapt vision-language models (VLMs), such as CLIP, for downstream tasks under limited supervision. While PL has demonstrated strong generalization on natural image datasets, its transferability to remote sensing (RS) imagery remains underexplored. RS data present unique challenges, including multi-label scenes, high intra-class variability, and diverse spatial resolutions, that hinder the direct applicability of existing PL methods. In particular, current prompt-based approaches often struggle to identify dominant semantic cues and fail to generalize to novel classes in RS scenarios. To address these challenges, we propose BiMoRS, a lightweight bi-modal prompt learning framework tailored for RS tasks. BiMoRS employs a frozen image captioning model (e.g., BLIP-2) to extract textual semantic summaries from RS images. These captions are tokenized using a BERT tokenizer and fused with high-level visual features from the CLIP encoder. A lightweight cross-attention module then conditions a learnable query prompt on the fused textual-visual representation, yielding contextualized prompts without altering the CLIP backbone. We evaluate BiMoRS on four RS datasets across three domain generalization (DG) tasks and observe consistent performance gains, outperforming strong baselines by up to 2% on average. Codes are available at https://github.com/ipankhi/BiMoRS.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T14:58:14Z</published>
+    <arxiv:comment>Accepted in ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pankhi Kashyap</name>
+    </author>
+    <author>
+      <name>Mainak Singha</name>
+    </author>
+    <author>
+      <name>Biplab Banerjee</name>
+    </author>
+  </entry>
+</feed>

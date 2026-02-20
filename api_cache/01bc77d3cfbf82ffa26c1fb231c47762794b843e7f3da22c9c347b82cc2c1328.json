@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WSJynMQ0GI7zQfkviFx43QGd/3U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02994v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02994v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02994v1</id>
+    <title>Video-OPD: Efficient Post-Training of Multimodal Large Language Models for Temporal Video Grounding via On-Policy Distillation</title>
+    <updated>2026-02-03T02:05:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.02994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has emerged as a principled post-training paradigm for Temporal Video Grounding (TVG) due to its on-policy optimization, yet existing GRPO-based methods remain fundamentally constrained by sparse reward signals and substantial computational overhead. We propose Video-OPD, an efficient post-training framework for TVG inspired by recent advances in on-policy distillation. Video-OPD optimizes trajectories sampled directly from the current policy, thereby preserving alignment between training and inference distributions, while a frontier teacher supplies dense, token-level supervision via a reverse KL divergence objective. This formulation preserves the on-policy property critical for mitigating distributional shift, while converting sparse, episode-level feedback into fine-grained, step-wise learning signals. Building on Video-OPD, we introduce Teacher-Validated Disagreement Focusing (TVDF), a lightweight training curriculum that iteratively prioritizes trajectories that are both teacher-reliable and maximally informative for the student, thereby improving training efficiency. Empirical results demonstrate that Video-OPD consistently outperforms GRPO while achieving substantially faster convergence and lower computational cost, establishing on-policy distillation as an effective alternative to conventional reinforcement learning for TVG.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T02:05:48Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jiaze Li</name>
+    </author>
+    <author>
+      <name>Hao Yin</name>
+    </author>
+    <author>
+      <name>Haoran Xu</name>
+    </author>
+    <author>
+      <name>Boshen Xu</name>
+    </author>
+    <author>
+      <name>Wenhui Tan</name>
+    </author>
+    <author>
+      <name>Zewen He</name>
+    </author>
+    <author>
+      <name>Jianzhong Ju</name>
+    </author>
+    <author>
+      <name>Zhenbo Luo</name>
+    </author>
+    <author>
+      <name>Jian Luan</name>
+    </author>
+  </entry>
+</feed>

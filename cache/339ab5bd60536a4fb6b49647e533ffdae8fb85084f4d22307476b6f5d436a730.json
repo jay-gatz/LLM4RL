@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KNqYeBs0n66u9GoVOAZccKpUMy8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12978v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12978v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12978v1</id>
+    <title>Learning Native Continuation for Action Chunking Flow Policies</title>
+    <updated>2026-02-13T14:56:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.12978v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12978v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Action chunking enables Vision Language Action (VLA) models to run in real time, but naive chunked execution often exhibits discontinuities at chunk boundaries. Real-Time Chunking (RTC) alleviates this issue but is external to the policy, leading to spurious multimodal switching and trajectories that are not intrinsically smooth. We propose Legato, a training-time continuation method for action-chunked flow-based VLA policies. Specifically, Legato initializes denoising from a schedule-shaped mixture of known actions and noise, exposing the model to partial action information. Moreover, Legato reshapes the learned flow dynamics to ensure that the denoising process remains consistent between training and inference under per-step guidance. Legato further uses randomized schedule condition during training to support varying inference delays and achieve controllable smoothness. Empirically, Legato produces smoother trajectories and reduces spurious multimodal switching during execution, leading to less hesitation and shorter task completion time. Extensive real-world experiments show that Legato consistently outperforms RTC across five manipulation tasks, achieving approximately 10% improvements in both trajectory smoothness and task completion time.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T14:56:06Z</published>
+    <arxiv:comment>Project page: https://lyfeng001.github.io/Legato/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yufeng Liu</name>
+    </author>
+    <author>
+      <name>Hang Yu</name>
+    </author>
+    <author>
+      <name>Juntu Zhao</name>
+    </author>
+    <author>
+      <name>Bocheng Li</name>
+    </author>
+    <author>
+      <name>Di Zhang</name>
+    </author>
+    <author>
+      <name>Mingzhu Li</name>
+    </author>
+    <author>
+      <name>Wenxuan Wu</name>
+    </author>
+    <author>
+      <name>Yingdong Hu</name>
+    </author>
+    <author>
+      <name>Junyuan Xie</name>
+    </author>
+    <author>
+      <name>Junliang Guo</name>
+    </author>
+    <author>
+      <name>Dequan Wang</name>
+    </author>
+    <author>
+      <name>Yang Gao</name>
+    </author>
+  </entry>
+</feed>

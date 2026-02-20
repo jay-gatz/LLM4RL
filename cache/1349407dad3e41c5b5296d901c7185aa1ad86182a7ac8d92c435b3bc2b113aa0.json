@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mcs5Ix/1ln+AB0jErmJcWipwqhc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.23253v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.23253v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.23253v1</id>
+    <title>Training-Free Test-Time Adaptation with Brownian Distance Covariance in Vision-Language Models</title>
+    <updated>2026-01-30T18:21:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.23253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.23253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models suffer performance degradation under domain shift, limiting real-world applicability. Existing test-time adaptation methods are computationally intensive, rely on back-propagation, and often focus on single modalities. To address these issues, we propose Training-free Test-Time Adaptation with Brownian Distance Covariance (TaTa). TaTa leverages Brownian Distance Covariance-a powerful statistical measure that captures both linear and nonlinear dependencies via pairwise distances-to dynamically adapt VLMs to new domains without training or back-propagation. This not only improves efficiency but also enhances stability by avoiding disruptive weight updates. TaTa further integrates attribute-enhanced prompting to improve vision-language inference with descriptive visual cues. Combined with dynamic clustering and pseudo-label refinement, it effectively recalibrates the model for novel visual contexts. Experiments across diverse datasets show that TaTa significantly reduces computational cost while achieving state-of-the-art performance in domain and cross-dataset generalization.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T18:21:45Z</published>
+    <arxiv:comment>Accepted in ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Chun-Wun Cheng</name>
+    </author>
+    <author>
+      <name>Angelica I. Aviles-Rivero</name>
+    </author>
+    <author>
+      <name>Zhihai He</name>
+    </author>
+    <author>
+      <name>Liang-Jie Zhang</name>
+    </author>
+  </entry>
+</feed>

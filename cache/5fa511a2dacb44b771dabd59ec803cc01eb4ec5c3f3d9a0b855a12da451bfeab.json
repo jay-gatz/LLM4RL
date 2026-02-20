@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/00v6zLYtZAQ1ygjb66eKUOcwfFM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02459v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02459v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02459v1</id>
+    <title>TIC-VLA: A Think-in-Control Vision-Language-Action Model for Robot Navigation in Dynamic Environments</title>
+    <updated>2026-02-02T18:47:49Z</updated>
+    <link href="https://arxiv.org/abs/2602.02459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robots in dynamic, human-centric environments must follow language instructions while maintaining real-time reactive control. Vision-language-action (VLA) models offer a promising framework, but they assume temporally aligned reasoning and control, despite semantic inference being inherently delayed relative to real-time action. We introduce Think-in-Control (TIC)-VLA, a latency-aware framework that explicitly models delayed semantic reasoning during action generation. TIC-VLA defines a delayed semantic-control interface that conditions action generation on delayed vision-language semantic states and explicit latency metadata, in addition to current observations, enabling policies to compensate for asynchronous reasoning. We further propose a latency-consistent training pipeline that injects reasoning inference delays during imitation learning and online reinforcement learning, aligning training with asynchronous deployment. To support realistic evaluation, we present DynaNav, a physics-accurate, photo-realistic simulation suite for language-guided navigation in dynamic environments. Extensive experiments in simulation and on a real robot show that TIC-VLA consistently outperforms prior VLA models while maintaining robust real-time control under multi-second reasoning latency. Project website: https://ucla-mobility.github.io/TIC-VLA/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T18:47:49Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zhiyu Huang</name>
+    </author>
+    <author>
+      <name>Yun Zhang</name>
+    </author>
+    <author>
+      <name>Johnson Liu</name>
+    </author>
+    <author>
+      <name>Rui Song</name>
+    </author>
+    <author>
+      <name>Chen Tang</name>
+    </author>
+    <author>
+      <name>Jiaqi Ma</name>
+    </author>
+  </entry>
+</feed>

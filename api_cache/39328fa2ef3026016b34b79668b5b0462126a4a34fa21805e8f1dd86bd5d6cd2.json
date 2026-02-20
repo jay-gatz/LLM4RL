@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vO61u/J0U5qWmbuoN0LwkrPKhAM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05261v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:48:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05261v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05261v1</id>
+    <title>Length-Unbiased Sequence Policy Optimization: Revealing and Controlling Response Length Variation in RLVR</title>
+    <updated>2026-02-05T03:35:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.05261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent applications of Reinforcement Learning with Verifiable Rewards (RLVR) to Large Language Models (LLMs) and Vision-Language Models (VLMs) have demonstrated significant success in enhancing reasoning capabilities for complex tasks. During RLVR training, an increase in response length is often regarded as a key factor contributing to the growth of reasoning ability. However, the patterns of change in response length vary significantly across different RLVR algorithms during the training process. To provide a fundamental explanation for these variations, this paper conducts an in-depth analysis of the components of mainstream RLVR algorithms. We present a theoretical analysis of the factors influencing response length and validate our theory through extensive experimentation. Building upon these theoretical findings, we propose the Length-Unbiased Sequence Policy Optimization (LUSPO) algorithm. Specifically, we rectify the length bias inherent in Group Sequence Policy Optimization (GSPO), rendering its loss function unbiased with respect to response length and thereby resolving the issue of response length collapse. We conduct extensive experiments across mathematical reasoning benchmarks and multimodal reasoning scenarios, where LUSPO consistently achieves superior performance. Empirical results demonstrate that LUSPO represents a novel, state-of-the-art optimization strategy compared to existing methods such as GRPO and GSPO.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T03:35:38Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Fanfan Liu</name>
+    </author>
+    <author>
+      <name>Youyang Yin</name>
+    </author>
+    <author>
+      <name>Peng Shi</name>
+    </author>
+    <author>
+      <name>Siqi Yang</name>
+    </author>
+    <author>
+      <name>Zhixiong Zeng</name>
+    </author>
+    <author>
+      <name>Haibo Qiu</name>
+    </author>
+  </entry>
+</feed>

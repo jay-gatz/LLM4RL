@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c2tFVH/ZuYwvs1LEO9usRQaqwWU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.08713v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.08713v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08713v1</id>
+    <title>Towards Understanding Multimodal Fine-Tuning: Spatial Features</title>
+    <updated>2026-02-06T18:48:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.08713v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08713v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contemporary Vision-Language Models (VLMs) achieve strong performance on a wide range of tasks by pairing a vision encoder with a pre-trained language model, fine-tuned for visual-text inputs. Yet despite these gains, it remains unclear how language backbone representations adapt during multimodal training and when vision-specific capabilities emerge. In this work, we present the first mechanistic analysis of VLM adaptation. Using stage-wise model diffing, a technique that isolates representational changes introduced during multimodal fine-tuning, we reveal how a language model learns to "see". We first identify vision-preferring features that emerge or reorient during fine-tuning. We then show that a selective subset of these features reliably encodes spatial relations, revealed through controlled shifts to spatial prompts. Finally, we trace the causal activation of these features to a small group of attention heads. Our findings show that stage-wise model diffing reveals when and where spatially grounded multimodal features arise. It also provides a clearer view of modality fusion by showing how visual grounding reshapes features that were previously text-only. This methodology enhances the interpretability of multimodal training and provides a foundation for understanding and refining how pretrained language models acquire vision-grounded capabilities.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T18:48:18Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lachin Naghashyar</name>
+    </author>
+    <author>
+      <name>Hunar Batra</name>
+    </author>
+    <author>
+      <name>Ashkan Khakzar</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Ronald Clark</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Constantin Venhoff</name>
+    </author>
+  </entry>
+</feed>

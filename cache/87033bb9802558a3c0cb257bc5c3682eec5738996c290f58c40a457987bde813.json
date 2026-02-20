@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wtLVpV0QkG/ZRVKYkIlqeV/XTp4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.19849v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.19849v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.19849v1</id>
+    <title>Agentic Reinforced Policy Optimization</title>
+    <updated>2025-07-26T07:53:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.19849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.19849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale reinforcement learning with verifiable rewards (RLVR) has demonstrated its effectiveness in harnessing the potential of large language models (LLMs) for single-turn reasoning tasks. In realistic reasoning scenarios, LLMs can often utilize external tools to assist in task-solving processes. However, current RL algorithms inadequately balance the models' intrinsic long-horizon reasoning capabilities and their proficiency in multi-turn tool interactions. To bridge this gap, we propose Agentic Reinforced Policy Optimization (ARPO), a novel agentic RL algorithm tailored for training multi-turn LLM-based agents. Through preliminary experiments, we observe that LLMs tend to exhibit highly uncertain behavior, characterized by an increase in the entropy distribution of generated tokens, immediately following interactions with external tools. Motivated by this observation, ARPO incorporates an entropy-based adaptive rollout mechanism, dynamically balancing global trajectory sampling and step-level sampling, thereby promoting exploration at steps with high uncertainty after tool usage. By integrating an advantage attribution estimation, ARPO enables LLMs to internalize advantage differences in stepwise tool-use interactions. Our experiments across 13 challenging benchmarks in computational reasoning, knowledge reasoning, and deep search domains demonstrate ARPO's superiority over trajectory-level RL algorithms. Remarkably, ARPO achieves improved performance using only half of the tool-use budget required by existing methods, offering a scalable solution for aligning LLM-based agents with real-time dynamic environments. Our code and datasets are released at https://github.com/dongguanting/ARPO</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-26T07:53:11Z</published>
+    <arxiv:comment>Working on progress</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guanting Dong</name>
+    </author>
+    <author>
+      <name>Hangyu Mao</name>
+    </author>
+    <author>
+      <name>Kai Ma</name>
+    </author>
+    <author>
+      <name>Licheng Bao</name>
+    </author>
+    <author>
+      <name>Yifei Chen</name>
+    </author>
+    <author>
+      <name>Zhongyuan Wang</name>
+    </author>
+    <author>
+      <name>Zhongxia Chen</name>
+    </author>
+    <author>
+      <name>Jiazhen Du</name>
+    </author>
+    <author>
+      <name>Huiyang Wang</name>
+    </author>
+    <author>
+      <name>Fuzheng Zhang</name>
+    </author>
+    <author>
+      <name>Guorui Zhou</name>
+    </author>
+    <author>
+      <name>Yutao Zhu</name>
+    </author>
+    <author>
+      <name>Ji-Rong Wen</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+  </entry>
+</feed>

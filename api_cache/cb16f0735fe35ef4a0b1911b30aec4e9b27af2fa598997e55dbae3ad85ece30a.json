@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3nAtO8IhQtLFYbjKBE3QM9A6W/Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.00831v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:24:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.00831v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.00831v2</id>
+    <title>ReJump: A Tree-Jump Representation for Analyzing and Improving LLM Reasoning</title>
+    <updated>2025-12-09T07:23:46Z</updated>
+    <link href="https://arxiv.org/abs/2512.00831v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.00831v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Reasoning Models (LRMs) are Large Language Models (LLMs) explicitly trained to generate long-form Chain-of-Thoughts (CoTs), achieving impressive success on challenging tasks like math and programming. However, their underlying reasoning "algorithms" remain poorly understood. To investigate this, we propose ReJump, which represents a reasoning trace as a visitation order over nodes in a tree of intermediate problem-solving steps. Transitions between nodes, which we term jumps, include adjacent moves that capture behaviors such as calculation, and non-adjacent moves that capture behaviors such as backtracking and verification. ReJump enables analyzing LLM reasoning with diverse metrics that quantify exploration, exploitation, overthinking, forgetting, and verification. Using our proposed LLM agent to extract reasoning traces into ReJump format, we evaluate state-of-the-art LRMs on two tasks and find that models with similar accuracy can exhibit distinct reasoning behaviors, while different tasks favor different reasoning styles (e.g., varying balance between exploration and exploitation). To further understand how learning strategies shape reasoning, we use ReJump to compare distilled LRMs with their teachers, CoT-prompted LLMs with LRMs, and to examine how the number of reasoning examples and reinforcement learning affect reasoning behavior. Finally, we show that ReJump can improve reasoning quality at test time through strategies such as ReJump-guided Best-of-N selection and prompt selection. Our code is publicly available at https://github.com/UW-Madison-Lee-Lab/ReJump.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-30T10:39:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yuchen Zeng</name>
+    </author>
+    <author>
+      <name>Shuibai Zhang</name>
+    </author>
+    <author>
+      <name>Wonjun Kang</name>
+    </author>
+    <author>
+      <name>Shutong Wu</name>
+    </author>
+    <author>
+      <name>Lynnix Zou</name>
+    </author>
+    <author>
+      <name>Ying Fan</name>
+    </author>
+    <author>
+      <name>Heeju Kim</name>
+    </author>
+    <author>
+      <name>Ziqian Lin</name>
+    </author>
+    <author>
+      <name>Jungtaek Kim</name>
+    </author>
+    <author>
+      <name>Hyung Il Koo</name>
+    </author>
+    <author>
+      <name>Dimitris Papailiopoulos</name>
+    </author>
+    <author>
+      <name>Kangwook Lee</name>
+    </author>
+  </entry>
+</feed>

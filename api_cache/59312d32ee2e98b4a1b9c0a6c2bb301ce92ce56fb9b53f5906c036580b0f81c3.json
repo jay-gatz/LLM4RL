@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K39iPgbq4ox9NTiLiQ7lmON9gLg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.16409v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.16409v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16409v1</id>
+    <title>Gen-DBA: Generative Database Agents (Towards a Move 37 for Databases)</title>
+    <updated>2026-01-23T02:55:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.16409v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16409v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Move\,37 marks one of the major breakthroughs in AI in terms of its ability to surpass human expertise and discover novel strategies beyond the traditional game play in the strategic two-player board game of Go. The domains of Natural Language Processing, Computer Vision, and Robotics have also undergone a similar phenomenon through the advent of large foundational models in the form of Large Language Models (LLMs), Vision Language Models (VLMs) and Vision Language Action models (VLAs), respectively. In this paper, we investigate the current state of Artificial Intelligence for Database Systems research (AI4DB), and assess how far AI4DB systems are from achieving their own Move\,37 moment. We envision a Generative Database Agent (Gen-DBA, for short) as the pathway to achieving Move\,37 for database systems that will bring generative reasoning and creativity into the realm of database learning tasks. This vision paper explores this direction by presenting the recipe for building Gen-DBA that encompasses but is not limited to a Transformer backbone, a hardware-grounded tokenization mechanism, a two-stage Goal-Directed Next Token Prediction training paradigm, and a generative inference process.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T02:55:42Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Yeasir Rayhan</name>
+    </author>
+    <author>
+      <name>Walid G. Aref</name>
+    </author>
+  </entry>
+</feed>

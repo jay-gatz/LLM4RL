@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3UHJ7MNas+MMpqQtlqlB/WQfL5o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00653v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00653v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00653v2</id>
+    <title>Non-Contrastive Vision-Language Learning with Predictive Embedding Alignment</title>
+    <updated>2026-02-11T12:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.00653v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00653v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models have transformed multimodal representation learning, yet dominant contrastive approaches like CLIP require large batch sizes, careful negative sampling, and extensive hyperparameter tuning. We introduce NOVA, a NOn-contrastive Vision-language Alignment framework based on joint embedding prediction with distributional regularization. NOVA aligns visual representations to a frozen, domain-specific text encoder by predicting text embeddings from augmented image views, while enforcing an isotropic Gaussian structure via Sketched Isotropic Gaussian Regularization (SIGReg). This eliminates the need for negative sampling, momentum encoders, or stop-gradients, reducing the training objective to a single hyperparameter. We evaluate NOVA on zeroshot chest X-ray classification using ClinicalBERT as the text encoder and Vision Transformers trained from scratch on MIMIC-CXR. On zero-shot classification across three benchmark datasets, NOVA outperforms multiple standard baselines while exhibiting substantially more consistent training runs. Our results demonstrate that non-contrastive vision-language pretraining offers a simpler, more stable, and more effective alternative to contrastive methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T10:57:46Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lukas Kuhn</name>
+    </author>
+    <author>
+      <name>Giuseppe Serra</name>
+    </author>
+    <author>
+      <name>Florian Buettner</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RKPD0Dsf4mrVabce4xjlmakNmrk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00247v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00247v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00247v1</id>
+    <title>CAPA: Contribution-Aware Pruning and FFN Approximation for Efficient Large Vision-Language Models</title>
+    <updated>2026-01-30T19:09:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.00247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient inference in Large Vision-Language Models is constrained by the high cost of processing thousands of visual tokens, yet it remains unclear which tokens and computations can be safely removed. While attention scores are commonly used to estimate visual token importance, they are an imperfect proxy for actual contribution. We show that Attention Contribution, which weights attention probabilities by value vector magnitude, provides a more accurate criterion for visual token selection. Our empirical analysis reveals that visual attention sinks are functionally heterogeneous, comprising Probability Dumps with low contribution that can be safely pruned, and Structural Anchors with high contribution essential for maintaining model performance. Further, we identify substantial redundancy in Feed-Forward Networks (FFNs) associated with visual tokens, particularly in intermediate layers where image tokens exhibit linear behavior. Based on our findings, we introduce CAPA (Contribution-Aware Pruning and FFN Approximation), a dual-strategy framework that prunes visual tokens using attention contribution at critical functional transitions and reduces FFN computation through efficient linear approximations. Experiments on various benchmarks across baselines show that CAPA achieves competent efficiency--performance trade-offs with improved robustness.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T19:09:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Samyak Jha</name>
+    </author>
+    <author>
+      <name>Junho Kim</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pYWdIHUVNZcbSZ0ec84RE2Ytqgo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2201.12122&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:32:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2201.12122" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2201.12122v3</id>
+    <title>Can Wikipedia Help Offline Reinforcement Learning?</title>
+    <updated>2022-07-24T03:13:16Z</updated>
+    <link href="https://arxiv.org/abs/2201.12122v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.12122v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning reinforcement learning (RL) models has been challenging because of a lack of large scale off-the-shelf datasets as well as high variance in transferability among different environments. Recent work has looked at tackling offline RL from the perspective of sequence modeling with improved results as result of the introduction of the Transformer architecture. However, when the model is trained from scratch, it suffers from slow convergence speeds. In this paper, we look to take advantage of this formulation of reinforcement learning as sequence modeling and investigate the transferability of pre-trained sequence models on other domains (vision, language) when finetuned on offline RL tasks (control, games). To this end, we also propose techniques to improve transfer between these domains. Results show consistent performance gains in terms of both convergence speed and reward on a variety of environments, accelerating training by 3-6x and achieving state-of-the-art performance in a variety of tasks using Wikipedia-pretrained and GPT2 language models. We hope that this work not only brings light to the potentials of leveraging generic sequence modeling techniques and pre-trained models for RL, but also inspires future work on sharing knowledge between generative modeling tasks of completely different domains.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-28T13:55:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Machel Reid</name>
+    </author>
+    <author>
+      <name>Yutaro Yamada</name>
+    </author>
+    <author>
+      <name>Shixiang Shane Gu</name>
+    </author>
+  </entry>
+</feed>

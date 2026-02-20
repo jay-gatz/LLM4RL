@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4PS2i74SsfCPoXH29JWXiMXOHTQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2403.13372&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2403.13372" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.13372v4</id>
+    <title>LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models</title>
+    <updated>2024-06-27T22:44:48Z</updated>
+    <link href="https://arxiv.org/abs/2403.13372v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.13372v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks. However, it requires non-trivial efforts to implement these methods on different models. We present LlamaFactory, a unified framework that integrates a suite of cutting-edge efficient training methods. It provides a solution for flexibly customizing the fine-tuning of 100+ LLMs without the need for coding through the built-in web UI LlamaBoard. We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks. It has been released at https://github.com/hiyouga/LLaMA-Factory and received over 25,000 stars and 3,000 forks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-20T08:08:54Z</published>
+    <arxiv:comment>13 pages, accepted to ACL 2024 System Demonstration Track</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yaowei Zheng</name>
+    </author>
+    <author>
+      <name>Richong Zhang</name>
+    </author>
+    <author>
+      <name>Junhao Zhang</name>
+    </author>
+    <author>
+      <name>Yanhan Ye</name>
+    </author>
+    <author>
+      <name>Zheyan Luo</name>
+    </author>
+    <author>
+      <name>Zhangchi Feng</name>
+    </author>
+    <author>
+      <name>Yongqiang Ma</name>
+    </author>
+  </entry>
+</feed>

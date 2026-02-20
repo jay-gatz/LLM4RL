@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5trAEP7a6xH0ZphuAHZ6ud/B3Pg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.13161v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:44:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2406.13161v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.13161v1</id>
+    <title>APPL: A Prompt Programming Language for Harmonious Integration of Programs and Large Language Model Prompts</title>
+    <updated>2024-06-19T02:29:59Z</updated>
+    <link href="https://arxiv.org/abs/2406.13161v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.13161v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have become increasingly capable of handling diverse tasks with the aid of well-crafted prompts and integration of external tools, but as task complexity rises, the workflow involving LLMs can be complicated and thus challenging to implement and maintain. To address this challenge, we propose APPL, A Prompt Programming Language that acts as a bridge between computer programs and LLMs, allowing seamless embedding of prompts into Python functions, and vice versa. APPL provides an intuitive and Python-native syntax, an efficient parallelized runtime with asynchronous semantics, and a tracing module supporting effective failure diagnosis and replaying without extra costs. We demonstrate that APPL programs are intuitive, concise, and efficient through three representative scenarios: Chain-of-Thought with self-consistency (CoT-SC), ReAct tool use agent, and multi-agent chat. Experiments on three parallelizable workflows further show that APPL can effectively parallelize independent LLM calls, with a significant speedup ratio that almost matches the estimation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-19T02:29:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Honghua Dong</name>
+    </author>
+    <author>
+      <name>Qidong Su</name>
+    </author>
+    <author>
+      <name>Yubo Gao</name>
+    </author>
+    <author>
+      <name>Zhaoyu Li</name>
+    </author>
+    <author>
+      <name>Yangjun Ruan</name>
+    </author>
+    <author>
+      <name>Gennady Pekhimenko</name>
+    </author>
+    <author>
+      <name>Chris J. Maddison</name>
+    </author>
+    <author>
+      <name>Xujie Si</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TervPpbveEuCfUCO7XxVe606eJ0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2007.05929&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:34:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2007.05929" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2007.05929v4</id>
+    <title>Data-Efficient Reinforcement Learning with Self-Predictive Representations</title>
+    <updated>2021-05-20T09:15:57Z</updated>
+    <link href="https://arxiv.org/abs/2007.05929v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.05929v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While deep reinforcement learning excels at solving tasks where large amounts of data can be collected through virtually unlimited interaction with the environment, learning from limited interaction remains a key challenge. We posit that an agent can learn more efficiently if we augment reward maximization with self-supervised objectives based on structure in its visual input and sequential interaction with the environment. Our method, Self-Predictive Representations(SPR), trains an agent to predict its own latent state representations multiple steps into the future. We compute target representations for future states using an encoder which is an exponential moving average of the agent's parameters and we make predictions using a learned transition model. On its own, this future prediction objective outperforms prior methods for sample-efficient deep RL from pixels. We further improve performance by adding data augmentation to the future prediction loss, which forces the agent's representations to be consistent across multiple views of an observation. Our full self-supervised objective, which combines future prediction and data augmentation, achieves a median human-normalized score of 0.415 on Atari in a setting limited to 100k steps of environment interaction, which represents a 55% relative improvement over the previous state-of-the-art. Notably, even in this limited data regime, SPR exceeds expert human scores on 7 out of 26 games. The code associated with this work is available at https://github.com/mila-iqia/spr</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-12T07:38:15Z</published>
+    <arxiv:comment>The first two authors contributed equally to this work. v4 includes new ablations and reformatting for ICLR camera ready</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Max Schwarzer</name>
+    </author>
+    <author>
+      <name>Ankesh Anand</name>
+    </author>
+    <author>
+      <name>Rishab Goel</name>
+    </author>
+    <author>
+      <name>R Devon Hjelm</name>
+    </author>
+    <author>
+      <name>Aaron Courville</name>
+    </author>
+    <author>
+      <name>Philip Bachman</name>
+    </author>
+  </entry>
+</feed>

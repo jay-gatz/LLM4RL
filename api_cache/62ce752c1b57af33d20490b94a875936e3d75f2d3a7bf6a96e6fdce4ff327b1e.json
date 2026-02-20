@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uHkITEkhqWwzo5JtfHZXQjMjk8g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2407.07737&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:37:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2407.07737" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.07737v1</id>
+    <title>Fine-Tuning Large Language Models with User-Level Differential Privacy</title>
+    <updated>2024-07-10T15:07:58Z</updated>
+    <link href="https://arxiv.org/abs/2407.07737v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.07737v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate practical and scalable algorithms for training large language models (LLMs) with user-level differential privacy (DP) in order to provably safeguard all the examples contributed by each user. We study two variants of DP-SGD with: (1) example-level sampling (ELS) and per-example gradient clipping, and (2) user-level sampling (ULS) and per-user gradient clipping. We derive a novel user-level DP accountant that allows us to compute provably tight privacy guarantees for ELS. Using this, we show that while ELS can outperform ULS in specific settings, ULS generally yields better results when each user has a diverse collection of examples. We validate our findings through experiments in synthetic mean estimation and LLM fine-tuning tasks under fixed compute budgets. We find that ULS is significantly better in settings where either (1) strong privacy guarantees are required, or (2) the compute budget is large. Notably, our focus on LLM-compatible training algorithms allows us to scale to models with hundreds of millions of parameters and datasets with hundreds of thousands of users.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-10T15:07:58Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zachary Charles</name>
+    </author>
+    <author>
+      <name>Arun Ganesh</name>
+    </author>
+    <author>
+      <name>Ryan McKenna</name>
+    </author>
+    <author>
+      <name>H. Brendan McMahan</name>
+    </author>
+    <author>
+      <name>Nicole Mitchell</name>
+    </author>
+    <author>
+      <name>Krishna Pillutla</name>
+    </author>
+    <author>
+      <name>Keith Rush</name>
+    </author>
+  </entry>
+</feed>

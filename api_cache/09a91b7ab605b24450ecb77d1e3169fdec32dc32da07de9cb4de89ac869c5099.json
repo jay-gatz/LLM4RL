@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I+4vv+4RlYQLopk4z54hofdawSg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2409.12941&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:24:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2409.12941" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12941v3</id>
+    <title>Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation</title>
+    <updated>2025-01-24T19:23:15Z</updated>
+    <link href="https://arxiv.org/abs/2409.12941v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12941v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated significant performance improvements across various cognitive tasks. An emerging application is using LLMs to enhance retrieval-augmented generation (RAG) capabilities. These systems require LLMs to understand user queries, retrieve relevant information, and synthesize coherent and accurate responses. Given the increasing real-world deployment of such systems, comprehensive evaluation becomes crucial. To this end, we propose FRAMES (Factuality, Retrieval, And reasoning MEasurement Set), a high-quality evaluation dataset designed to test LLMs' ability to provide factual responses, assess retrieval capabilities, and evaluate the reasoning required to generate final answers. While previous work has provided datasets and benchmarks to evaluate these abilities in isolation, FRAMES offers a unified framework that provides a clearer picture of LLM performance in end-to-end RAG scenarios. Our dataset comprises challenging multi-hop questions that require the integration of information from multiple sources. We present baseline results demonstrating that even state-of-the-art LLMs struggle with this task, achieving 0.40 accuracy with no retrieval. The accuracy is significantly improved with our proposed multi-step retrieval pipeline, achieving an accuracy of 0.66 (&gt;50% improvement). We hope our work will help bridge evaluation gaps and assist in developing more robust and capable RAG systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T17:52:07Z</published>
+    <arxiv:comment>Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL), 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Satyapriya Krishna</name>
+    </author>
+    <author>
+      <name>Kalpesh Krishna</name>
+    </author>
+    <author>
+      <name>Anhad Mohananey</name>
+    </author>
+    <author>
+      <name>Steven Schwarcz</name>
+    </author>
+    <author>
+      <name>Adam Stambler</name>
+    </author>
+    <author>
+      <name>Shyam Upadhyay</name>
+    </author>
+    <author>
+      <name>Manaal Faruqui</name>
+    </author>
+  </entry>
+</feed>

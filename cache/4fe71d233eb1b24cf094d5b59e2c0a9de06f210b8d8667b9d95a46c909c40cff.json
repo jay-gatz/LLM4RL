@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jNk5Urdulpm47KpULb0lXpK/BlQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.15585&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.15585" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.15585v4</id>
+    <title>A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment</title>
+    <updated>2025-06-09T02:36:20Z</updated>
+    <link href="https://arxiv.org/abs/2504.15585v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.15585v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The remarkable success of Large Language Models (LLMs) has illuminated a promising pathway toward achieving Artificial General Intelligence for both academic and industrial communities, owing to their unprecedented performance across various applications. As LLMs continue to gain prominence in both research and commercial domains, their security and safety implications have become a growing concern, not only for researchers and corporations but also for every nation. Currently, existing surveys on LLM safety primarily focus on specific stages of the LLM lifecycle, e.g., deployment phase or fine-tuning phase, lacking a comprehensive understanding of the entire "lifechain" of LLMs. To address this gap, this paper introduces, for the first time, the concept of "full-stack" safety to systematically consider safety issues throughout the entire process of LLM training, deployment, and eventual commercialization. Compared to the off-the-shelf LLM safety surveys, our work demonstrates several distinctive advantages: (I) Comprehensive Perspective. We define the complete LLM lifecycle as encompassing data preparation, pre-training, post-training, deployment and final commercialization. To our knowledge, this represents the first safety survey to encompass the entire lifecycle of LLMs. (II) Extensive Literature Support. Our research is grounded in an exhaustive review of over 800+ papers, ensuring comprehensive coverage and systematic organization of security issues within a more holistic understanding. (III) Unique Insights. Through systematic literature analysis, we have developed reliable roadmaps and perspectives for each chapter. Our work identifies promising research directions, including safety in data generation, alignment techniques, model editing, and LLM-based agent systems. These insights provide valuable guidance for researchers pursuing future work in this field.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-22T05:02:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Zhenhong Zhou</name>
+    </author>
+    <author>
+      <name>Jiahao Wu</name>
+    </author>
+    <author>
+      <name>Miao Yu</name>
+    </author>
+    <author>
+      <name>Shiqian Zhao</name>
+    </author>
+    <author>
+      <name>Chenlong Yin</name>
+    </author>
+    <author>
+      <name>Jinhu Fu</name>
+    </author>
+    <author>
+      <name>Yibo Yan</name>
+    </author>
+    <author>
+      <name>Hanjun Luo</name>
+    </author>
+    <author>
+      <name>Liang Lin</name>
+    </author>
+    <author>
+      <name>Zhihao Xu</name>
+    </author>
+    <author>
+      <name>Haolang Lu</name>
+    </author>
+    <author>
+      <name>Xinye Cao</name>
+    </author>
+    <author>
+      <name>Xinyun Zhou</name>
+    </author>
+    <author>
+      <name>Weifei Jin</name>
+    </author>
+    <author>
+      <name>Fanci Meng</name>
+    </author>
+    <author>
+      <name>Shicheng Xu</name>
+    </author>
+    <author>
+      <name>Junyuan Mao</name>
+    </author>
+    <author>
+      <name>Yu Wang</name>
+    </author>
+    <author>
+      <name>Hao Wu</name>
+    </author>
+    <author>
+      <name>Minghe Wang</name>
+    </author>
+    <author>
+      <name>Fan Zhang</name>
+    </author>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Wenjie Qu</name>
+    </author>
+    <author>
+      <name>Yue Liu</name>
+    </author>
+    <author>
+      <name>Chengwei Liu</name>
+    </author>
+    <author>
+      <name>Yifan Zhang</name>
+    </author>
+    <author>
+      <name>Qiankun Li</name>
+    </author>
+    <author>
+      <name>Chongye Guo</name>
+    </author>
+    <author>
+      <name>Yalan Qin</name>
+    </author>
+    <author>
+      <name>Zhaoxin Fan</name>
+    </author>
+    <author>
+      <name>Kai Wang</name>
+    </author>
+    <author>
+      <name>Yi Ding</name>
+    </author>
+    <author>
+      <name>Donghai Hong</name>
+    </author>
+    <author>
+      <name>Jiaming Ji</name>
+    </author>
+    <author>
+      <name>Yingxin Lai</name>
+    </author>
+    <author>
+      <name>Zitong Yu</name>
+    </author>
+    <author>
+      <name>Xinfeng Li</name>
+    </author>
+    <author>
+      <name>Yifan Jiang</name>
+    </author>
+    <author>
+      <name>Yanhui Li</name>
+    </author>
+    <author>
+      <name>Xinyu Deng</name>
+    </author>
+    <author>
+      <name>Junlin Wu</name>
+    </author>
+    <author>
+      <name>Dongxia Wang</name>
+    </author>
+    <author>
+      <name>Yihao Huang</name>
+    </author>
+    <author>
+      <name>Yufei Guo</name>
+    </author>
+    <author>
+      <name>Jen-tse Huang</name>
+    </author>
+    <author>
+      <name>Qiufeng Wang</name>
+    </author>
+    <author>
+      <name>Xiaolong Jin</name>
+    </author>
+    <author>
+      <name>Wenxuan Wang</name>
+    </author>
+    <author>
+      <name>Dongrui Liu</name>
+    </author>
+    <author>
+      <name>Yanwei Yue</name>
+    </author>
+    <author>
+      <name>Wenke Huang</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>Heng Chang</name>
+    </author>
+    <author>
+      <name>Tianlin Li</name>
+    </author>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+    <author>
+      <name>Chenghao Li</name>
+    </author>
+    <author>
+      <name>Jiawei Li</name>
+    </author>
+    <author>
+      <name>Lei Bai</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <author>
+      <name>Qing Guo</name>
+    </author>
+    <author>
+      <name>Jingyi Wang</name>
+    </author>
+    <author>
+      <name>Tianlong Chen</name>
+    </author>
+    <author>
+      <name>Joey Tianyi Zhou</name>
+    </author>
+    <author>
+      <name>Xiaojun Jia</name>
+    </author>
+    <author>
+      <name>Weisong Sun</name>
+    </author>
+    <author>
+      <name>Cong Wu</name>
+    </author>
+    <author>
+      <name>Jing Chen</name>
+    </author>
+    <author>
+      <name>Xuming Hu</name>
+    </author>
+    <author>
+      <name>Yiming Li</name>
+    </author>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Ningyu Zhang</name>
+    </author>
+    <author>
+      <name>Luu Anh Tuan</name>
+    </author>
+    <author>
+      <name>Guowen Xu</name>
+    </author>
+    <author>
+      <name>Jiaheng Zhang</name>
+    </author>
+    <author>
+      <name>Tianwei Zhang</name>
+    </author>
+    <author>
+      <name>Xingjun Ma</name>
+    </author>
+    <author>
+      <name>Jindong Gu</name>
+    </author>
+    <author>
+      <name>Liang Pang</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Bo An</name>
+    </author>
+    <author>
+      <name>Jun Sun</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+    <author>
+      <name>Lingjuan Lyu</name>
+    </author>
+    <author>
+      <name>Yuval Elovici</name>
+    </author>
+    <author>
+      <name>Bhavya Kailkhura</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+    <author>
+      <name>Hongwei Li</name>
+    </author>
+    <author>
+      <name>Wenyuan Xu</name>
+    </author>
+    <author>
+      <name>Yizhou Sun</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Qing Li</name>
+    </author>
+    <author>
+      <name>Ke Tang</name>
+    </author>
+    <author>
+      <name>Yu-Gang Jiang</name>
+    </author>
+    <author>
+      <name>Felix Juefei-Xu</name>
+    </author>
+    <author>
+      <name>Hui Xiong</name>
+    </author>
+    <author>
+      <name>Xiaofeng Wang</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+    <author>
+      <name>Qingsong Wen</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+</feed>

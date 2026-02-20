@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MGRYX/zNVfFze20CPfPxHjWqhzE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2410.18451&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:23:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2410.18451" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.18451v1</id>
+    <title>Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs</title>
+    <updated>2024-10-24T06:06:26Z</updated>
+    <link href="https://arxiv.org/abs/2410.18451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.18451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this report, we introduce a collection of methods to enhance reward modeling for LLMs, focusing specifically on data-centric techniques. We propose effective data selection and filtering strategies for curating high-quality open-source preference datasets, culminating in the Skywork-Reward data collection, which contains only 80K preference pairs -- significantly smaller than existing datasets. Using this curated dataset, we developed the Skywork-Reward model series -- Skywork-Reward-Gemma-27B and Skywork-Reward-Llama-3.1-8B -- with the former currently holding the top position on the RewardBench leaderboard. Notably, our techniques and datasets have directly enhanced the performance of many top-ranked models on RewardBench, highlighting the practical impact of our contributions in real-world preference learning applications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T06:06:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chris Yuhao Liu</name>
+    </author>
+    <author>
+      <name>Liang Zeng</name>
+    </author>
+    <author>
+      <name>Jiacai Liu</name>
+    </author>
+    <author>
+      <name>Rui Yan</name>
+    </author>
+    <author>
+      <name>Jujie He</name>
+    </author>
+    <author>
+      <name>Chaojie Wang</name>
+    </author>
+    <author>
+      <name>Shuicheng Yan</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Yahui Zhou</name>
+    </author>
+  </entry>
+</feed>

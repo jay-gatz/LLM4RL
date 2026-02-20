@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wO4lLvuko2arwCAC6wkX0L5eT8A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2405.14573v5&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:52:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2405.14573v5" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.14573v5</id>
+    <title>AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents</title>
+    <updated>2025-04-06T20:37:50Z</updated>
+    <link href="https://arxiv.org/abs/2405.14573v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.14573v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents that execute human tasks by controlling computers can enhance human productivity and application accessibility. However, progress in this field will be driven by realistic and reproducible benchmarks. We present AndroidWorld, a fully functional Android environment that provides reward signals for 116 programmatic tasks across 20 real-world Android apps. Unlike existing interactive environments, which provide a static test set, AndroidWorld dynamically constructs tasks that are parameterized and expressed in natural language in unlimited ways, thus enabling testing on a much larger and more realistic suite of tasks. To ensure reproducibility, each task includes dedicated initialization, success-checking, and tear-down logic, which modifies and inspects the device's system state. We experiment with baseline agents to test AndroidWorld and provide initial results on the benchmark. Our best agent can complete 30.6% of AndroidWorld's tasks, leaving ample room for future work. Furthermore, we adapt a popular desktop web agent to work on Android, which we find to be less effective on mobile, suggesting future research is needed to achieve universal, cross-platform agents. Finally, we also conduct a robustness analysis, showing that task variations can significantly affect agent performance, demonstrating that without such testing, agent performance metrics may not fully reflect practical challenges. AndroidWorld and the experiments in this paper are available at github.com/google-research/android_world.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T13:48:54Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Christopher Rawles</name>
+    </author>
+    <author>
+      <name>Sarah Clinckemaillie</name>
+    </author>
+    <author>
+      <name>Yifan Chang</name>
+    </author>
+    <author>
+      <name>Jonathan Waltz</name>
+    </author>
+    <author>
+      <name>Gabrielle Lau</name>
+    </author>
+    <author>
+      <name>Marybeth Fair</name>
+    </author>
+    <author>
+      <name>Alice Li</name>
+    </author>
+    <author>
+      <name>William Bishop</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Folawiyo Campbell-Ajala</name>
+    </author>
+    <author>
+      <name>Daniel Toyama</name>
+    </author>
+    <author>
+      <name>Robert Berry</name>
+    </author>
+    <author>
+      <name>Divya Tyamagundlu</name>
+    </author>
+    <author>
+      <name>Timothy Lillicrap</name>
+    </author>
+    <author>
+      <name>Oriana Riva</name>
+    </author>
+  </entry>
+</feed>

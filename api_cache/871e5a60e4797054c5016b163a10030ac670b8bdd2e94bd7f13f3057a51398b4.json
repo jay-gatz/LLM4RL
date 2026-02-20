@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dZswtMnx9S6WrVHsL2DPCLPlTeM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06359v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06359v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06359v1</id>
+    <title>Training Data Selection with Gradient Orthogonality for Efficient Domain Adaptation</title>
+    <updated>2026-02-06T03:41:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.06359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning large language models (LLMs) for specialized domains often necessitates a trade-off between acquiring domain expertise and retaining general reasoning capabilities, a phenomenon known as catastrophic forgetting. Existing remedies face a dichotomy: gradient surgery methods offer geometric safety but incur prohibitive computational costs via online projections, while efficient data selection approaches reduce overhead but remain blind to conflict-inducing gradient directions. In this paper, we propose Orthogonal Gradient Selection (OGS), a data-centric method that harmonizes domain performance, general capability retention, and training efficiency. OGS shifts the geometric insights of gradient projection from the optimizer to the data selection stage by treating data selection as a constrained decision-making process. By leveraging a lightweight Navigator model and reinforcement learning techniques, OGS dynamically identifies training samples whose gradients are orthogonal to a general-knowledge anchor. This approach ensures naturally safe updates for target models without modifying the optimizer or incurring runtime projection costs. Experiments across medical, legal, and financial domains demonstrate that OGS achieves excellent results, significantly improving domain performance and training efficiency while maintaining or even enhancing performance on general tasks such as GSM8K.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T03:41:40Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xiyang Zhang</name>
+    </author>
+    <author>
+      <name>Yuanhe Tian</name>
+    </author>
+    <author>
+      <name>Hongzhi Wang</name>
+    </author>
+    <author>
+      <name>Yan Song</name>
+    </author>
+  </entry>
+</feed>

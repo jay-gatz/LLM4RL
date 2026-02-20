@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/x/mwuLdh5q0fmsyFSPXZxx7vojQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15327v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:34:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15327v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15327v1</id>
+    <title>Prescriptive Scaling Reveals the Evolution of Language Model Capabilities</title>
+    <updated>2026-02-17T03:13:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.15327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For deploying foundation models, practitioners increasingly need prescriptive scaling laws: given a pre training compute budget, what downstream accuracy is attainable with contemporary post training practice, and how stable is that mapping as the field evolves? Using large scale observational evaluations with 5k observational and 2k newly sampled data on model performance, we estimate capability boundaries, high conditional quantiles of benchmark scores as a function of log pre training FLOPs, via smoothed quantile regression with a monotone, saturating sigmoid parameterization. We validate the temporal reliability by fitting on earlier model generations and evaluating on later releases. Across various tasks, the estimated boundaries are mostly stable, with the exception of math reasoning that exhibits a consistently advancing boundary over time. We then extend our approach to analyze task dependent saturation and to probe contamination related shifts on math reasoning tasks. Finally, we introduce an efficient algorithm that recovers near full data frontiers using roughly 20% of evaluation budget. Together, our work releases the Proteus 2k, the latest model performance evaluation dataset, and introduces a practical methodology for translating compute budgets into reliable performance expectations and for monitoring when capability boundaries shift across time.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T03:13:51Z</published>
+    <arxiv:comment>Blog Post: https://jkjin.com/prescriptive-scaling</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Hanlin Zhang</name>
+    </author>
+    <author>
+      <name>Jikai Jin</name>
+    </author>
+    <author>
+      <name>Vasilis Syrgkanis</name>
+    </author>
+    <author>
+      <name>Sham Kakade</name>
+    </author>
+  </entry>
+</feed>

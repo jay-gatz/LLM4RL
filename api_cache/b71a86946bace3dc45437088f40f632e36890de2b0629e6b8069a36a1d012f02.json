@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CDR/fZNJWqUVYrdvjnL1HCpW1ok</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14589v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14589v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14589v1</id>
+    <title>MATEO: A Multimodal Benchmark for Temporal Reasoning and Planning in LVLMs</title>
+    <updated>2026-02-16T09:41:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.14589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents need to plan to achieve complex goals that involve orchestrating perception, sub-goal decomposition, and execution. These plans consist of ordered steps structured according to a Temporal Execution Order (TEO, a directed acyclic graph that ensures each step executes only after its preconditions are satisfied. Existing research on foundational models' understanding of temporal execution is limited to automatically derived annotations, approximations of the TEO as a linear chain, or text-only inputs. To address this gap, we introduce MATEO (MultimodAl Temporal Execution Order), a benchmark designed to assess and improve the temporal reasoning abilities of Large Vision Language Models (LVLMs) required for real-world planning. We acquire a high-quality professional multimodal recipe corpus, authored through a standardized editorial process that decomposes instructions into discrete steps, each paired with corresponding images. We collect TEO annotations as graphs by designing and using a scalable crowdsourcing pipeline. Using MATEO, we evaluate six state-of-the-art LVLMs across model scales, varying language context, multimodal input structure, and fine-tuning strategies.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T09:41:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Gabriel Roccabruna</name>
+    </author>
+    <author>
+      <name>Olha Khomyn</name>
+    </author>
+    <author>
+      <name>Giuseppe Riccardi</name>
+    </author>
+  </entry>
+</feed>

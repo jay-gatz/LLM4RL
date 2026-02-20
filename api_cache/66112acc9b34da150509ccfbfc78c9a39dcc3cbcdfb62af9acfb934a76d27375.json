@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/onVCVNIYVYJ0WH0p2S0wVkupn9s</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16157v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:29:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16157v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16157v1</id>
+    <title>Peeking Ahead of the Field Study: Exploring VLM Personas as Support Tools for Embodied Studies in HCI</title>
+    <updated>2026-02-18T03:12:21Z</updated>
+    <link href="https://arxiv.org/abs/2602.16157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Field studies are irreplaceable but costly, time-consuming, and error-prone, which need careful preparation. Inspired by rapid-prototyping in manufacturing, we propose a fast, low-cost evaluation method using Vision-Language Model (VLM) personas to simulate outcomes comparable to field results. While LLMs show human-like reasoning and language capabilities, autonomous vehicle (AV)-pedestrian interaction requires spatial awareness, emotional empathy, and behavioral generation. This raises our research question: To what extent can VLM personas mimic human responses in field studies? We conducted parallel studies: 1) one real-world study with 20 participants, and 2) one video-study using 20 VLM personas, both on a street-crossing task. We compared their responses and interviewed five HCI researchers on potential applications. Results show that VLM personas mimic human response patterns (e.g., average crossing times of 5.25 s vs. 5.07 s) lack the behavioral variability and depth. They show promise for formative studies, field study preparation, and human data augmentation.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T03:12:21Z</published>
+    <arxiv:comment>Accepted to CHI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Xinyue Gui</name>
+    </author>
+    <author>
+      <name>Ding Xia</name>
+    </author>
+    <author>
+      <name>Mark Colley</name>
+    </author>
+    <author>
+      <name>Yuan Li</name>
+    </author>
+    <author>
+      <name>Vishal Chauhan</name>
+    </author>
+    <author>
+      <name>Anubhav Anubhav</name>
+    </author>
+    <author>
+      <name>Zhongyi Zhou</name>
+    </author>
+    <author>
+      <name>Ehsan Javanmardi</name>
+    </author>
+    <author>
+      <name>Stela Hanbyeol Seo</name>
+    </author>
+    <author>
+      <name>Chia-Ming Chang</name>
+    </author>
+    <author>
+      <name>Manabu Tsukada</name>
+    </author>
+    <author>
+      <name>Takeo Igarashi</name>
+    </author>
+  </entry>
+</feed>

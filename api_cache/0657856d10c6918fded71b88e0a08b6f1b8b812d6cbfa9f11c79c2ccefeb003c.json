@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yjE3Pl8XbsqFF5U9R3WwVmrJtPE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2404.14082&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:27:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2404.14082" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.14082v3</id>
+    <title>Mechanistic Interpretability for AI Safety -- A Review</title>
+    <updated>2024-08-23T23:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2404.14082v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.14082v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding AI systems' inner workings is critical for ensuring value alignment and safety. This review explores mechanistic interpretability: reverse engineering the computational mechanisms and representations learned by neural networks into human-understandable algorithms and concepts to provide a granular, causal understanding. We establish foundational concepts such as features encoding knowledge within neural activations and hypotheses about their representation and computation. We survey methodologies for causally dissecting model behaviors and assess the relevance of mechanistic interpretability to AI safety. We examine benefits in understanding, control, alignment, and risks such as capability gains and dual-use concerns. We investigate challenges surrounding scalability, automation, and comprehensive interpretation. We advocate for clarifying concepts, setting standards, and scaling techniques to handle complex models and behaviors and expand to domains such as vision and reinforcement learning. Mechanistic interpretability could help prevent catastrophic outcomes as AI systems become more powerful and inscrutable.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-22T11:01:51Z</published>
+    <arxiv:comment>Accepted to TMLR; for an HTML version, visit https://leonardbereska.github.io/blog/2024/mechinterpreview/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Leonard Bereska</name>
+    </author>
+    <author>
+      <name>Efstratios Gavves</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hkZdAK4vr9Alb1DlZBYR39kxWJQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15819v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:31:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15819v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15819v1</id>
+    <title>VideoSketcher: Video Models Prior Enable Versatile Sequential Sketch Generation</title>
+    <updated>2026-02-17T18:55:03Z</updated>
+    <link href="https://arxiv.org/abs/2602.15819v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15819v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sketching is inherently a sequential process, in which strokes are drawn in a meaningful order to explore and refine ideas. However, most generative models treat sketches as static images, overlooking the temporal structure that underlies creative drawing. We present a data-efficient approach for sequential sketch generation that adapts pretrained text-to-video diffusion models to generate sketching processes. Our key insight is that large language models and video diffusion models offer complementary strengths for this task: LLMs provide semantic planning and stroke ordering, while video diffusion models serve as strong renderers that produce high-quality, temporally coherent visuals. We leverage this by representing sketches as short videos in which strokes are progressively drawn on a blank canvas, guided by text-specified ordering instructions. We introduce a two-stage fine-tuning strategy that decouples the learning of stroke ordering from the learning of sketch appearance. Stroke ordering is learned using synthetic shape compositions with controlled temporal structure, while visual appearance is distilled from as few as seven manually authored sketching processes that capture both global drawing order and the continuous formation of individual strokes. Despite the extremely limited amount of human-drawn sketch data, our method generates high-quality sequential sketches that closely follow text-specified orderings while exhibiting rich visual detail. We further demonstrate the flexibility of our approach through extensions such as brush style conditioning and autoregressive sketch generation, enabling additional controllability and interactive, collaborative drawing.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T18:55:03Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Hui Ren</name>
+    </author>
+    <author>
+      <name>Yuval Alaluf</name>
+    </author>
+    <author>
+      <name>Omer Bar Tal</name>
+    </author>
+    <author>
+      <name>Alexander Schwing</name>
+    </author>
+    <author>
+      <name>Antonio Torralba</name>
+    </author>
+    <author>
+      <name>Yael Vinker</name>
+    </author>
+  </entry>
+</feed>

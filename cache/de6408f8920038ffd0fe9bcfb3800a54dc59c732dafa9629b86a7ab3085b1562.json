@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/shrwlAakMmq4i1IRenykfaaohZY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.25320v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.25320v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25320v1</id>
+    <title>GAP: Graph-Based Agent Planning with Parallel Tool Use and Reinforcement Learning</title>
+    <updated>2025-10-29T09:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2510.25320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous agents powered by large language models (LLMs) have shown impressive capabilities in tool manipulation for complex task-solving. However, existing paradigms such as ReAct rely on sequential reasoning and execution, failing to exploit the inherent parallelism among independent sub-tasks. This sequential bottleneck leads to inefficient tool utilization and suboptimal performance in multi-step reasoning scenarios. We introduce Graph-based Agent Planning (GAP), a novel framework that explicitly models inter-task dependencies through graph-based planning to enable adaptive parallel and serial tool execution. Our approach trains agent foundation models to decompose complex tasks into dependency-aware sub-task graphs, autonomously determining which tools can be executed in parallel and which must follow sequential dependencies. This dependency-aware orchestration achieves substantial improvements in both execution efficiency and task accuracy. To train GAP, we construct a high-quality dataset of graph-based planning traces derived from the Multi-Hop Question Answering (MHQA) benchmark. We employ a two-stage training strategy: supervised fine-tuning (SFT) on the curated dataset, followed by reinforcement learning (RL) with a correctness-based reward function on strategically sampled queries where tool-based reasoning provides maximum value. Experimental results on MHQA datasets demonstrate that GAP significantly outperforms traditional ReAct baselines, particularly on multi-step retrieval tasks, while achieving dramatic improvements in tool invocation efficiency through intelligent parallelization. The project page is available at: https://github.com/WJQ7777/Graph-Agent-Planning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T09:35:55Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jiaqi Wu</name>
+    </author>
+    <author>
+      <name>Qinlao Zhao</name>
+    </author>
+    <author>
+      <name>Zefeng Chen</name>
+    </author>
+    <author>
+      <name>Kai Qin</name>
+    </author>
+    <author>
+      <name>Yifei Zhao</name>
+    </author>
+    <author>
+      <name>Xueqian Wang</name>
+    </author>
+    <author>
+      <name>Yuhang Yao</name>
+    </author>
+  </entry>
+</feed>

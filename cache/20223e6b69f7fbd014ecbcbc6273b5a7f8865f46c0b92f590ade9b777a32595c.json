@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k7TtK9uSqf/RsTHR8GIcYaxTRbc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11960v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11960v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11960v1</id>
+    <title>Benchmarking Vision-Language Models for French PDF-to-Markdown Conversion</title>
+    <updated>2026-02-12T13:55:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.11960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This report evaluates PDF-to-Markdown conversion using recent Vision-Language Models (VLMs) on challenging French documents. Document parsing is a critical step for Retrieval-Augmented Generation (RAG) pipelines, where transcription and layout errors propagate to downstream retrieval and grounding. Existing benchmarks often emphasize English or Chinese and can over-penalize benign formatting and linearization choices (e.g., line breaks, list segmentation, alternative table renderings) that are largely irrelevant for downstream use.
+  We introduce a French-focused benchmark of difficult pages selected via model-disagreement sampling from a corpus of 60{,}000 documents, covering handwritten forms, complex layouts, dense tables, and graphics-rich pages. Evaluation is performed with unit-test-style checks that target concrete failure modes (text presence, reading order, and local table constraints) combined with category-specific normalization designed to discount presentation-only variance. Across 15 models, we observe substantially higher robustness for the strongest proprietary models on handwriting and forms, while several open-weights systems remain competitive on standard printed layouts.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T13:55:43Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bruno Rigal</name>
+    </author>
+    <author>
+      <name>Victor Dupriez</name>
+    </author>
+    <author>
+      <name>Alexis Mignon</name>
+    </author>
+    <author>
+      <name>Ronan Le Hy</name>
+    </author>
+    <author>
+      <name>Nicolas Mery</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//AGLl3NQ1sUqCy/cHp/FOfN1Ij4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03249v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:58:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03249v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03249v1</id>
+    <title>Accordion-Thinking: Self-Regulated Step Summaries for Efficient and Readable LLM Reasoning</title>
+    <updated>2026-02-03T08:34:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.03249v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03249v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling test-time compute via long Chain-ofThought unlocks remarkable gains in reasoning capabilities, yet it faces practical limits due to the linear growth of KV cache and quadratic attention complexity. In this paper, we introduce Accordion-Thinking, an end-to-end framework where LLMs learn to self-regulate the granularity of the reasoning steps through dynamic summarization. This mechanism enables a Fold inference mode, where the model periodically summarizes its thought process and discards former thoughts to reduce dependency on historical tokens. We apply reinforcement learning to incentivize this capability further, uncovering a critical insight: the accuracy gap between the highly efficient Fold mode and the exhaustive Unfold mode progressively narrows and eventually vanishes over the course of training. This phenomenon demonstrates that the model learns to encode essential reasoning information into compact summaries, achieving effective compression of the reasoning context. Our Accordion-Thinker demonstrates that with learned self-compression, LLMs can tackle complex reasoning tasks with minimal dependency token overhead without compromising solution quality, and it achieves a 3x throughput while maintaining accuracy on a 48GB GPU memory configuration, while the structured step summaries provide a human-readable account of the reasoning process.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T08:34:20Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhicheng Yang</name>
+    </author>
+    <author>
+      <name>Zhijiang Guo</name>
+    </author>
+    <author>
+      <name>Yinya Huang</name>
+    </author>
+    <author>
+      <name>Yongxin Wang</name>
+    </author>
+    <author>
+      <name>Wenlei Shi</name>
+    </author>
+    <author>
+      <name>Yiwei Wang</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+    <author>
+      <name>Jing Tang</name>
+    </author>
+  </entry>
+</feed>

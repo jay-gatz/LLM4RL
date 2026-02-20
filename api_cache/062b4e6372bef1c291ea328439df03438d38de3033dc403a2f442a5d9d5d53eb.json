@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QE5u6fbZNvw2Wpn3y8gR3o+0RVo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14432v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14432v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14432v1</id>
+    <title>S2D: Selective Spectral Decay for Quantization-Friendly Conditioning of Neural Activations</title>
+    <updated>2026-02-16T03:41:06Z</updated>
+    <link href="https://arxiv.org/abs/2602.14432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation outliers in large-scale transformer models pose a fundamental challenge to model quantization, creating excessively large ranges that cause severe accuracy drops during quantization. We empirically observe that outlier severity intensifies with pre-training scale (e.g., progressing from CLIP to the more extensively trained SigLIP and SigLIP2). Through theoretical analysis as well as empirical correlation studies, we establish the direct link between these activation outliers and dominant singular values of the weights. Building on this insight, we propose Selective Spectral Decay ($S^2D$), a geometrically-principled conditioning method that surgically regularizes only the weight components corresponding to the largest singular values during fine-tuning. Through extensive experiments, we demonstrate that $S^2D$ significantly reduces activation outliers and produces well-conditioned representations that are inherently quantization-friendly. Models trained with $S^2D$ achieve up to 7% improved PTQ accuracy on ImageNet under W4A4 quantization and 4% gains when combined with QAT. These improvements also generalize across downstream tasks and vision-language models, enabling the scaling of increasingly large and rigorously trained models without sacrificing deployment efficiency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T03:41:06Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arnav Chavan</name>
+    </author>
+    <author>
+      <name>Nahush Lele</name>
+    </author>
+    <author>
+      <name>Udbhav Bamba</name>
+    </author>
+    <author>
+      <name>Sankalp Dayal</name>
+    </author>
+    <author>
+      <name>Aditi Raghunathan</name>
+    </author>
+    <author>
+      <name>Deepak Gupta</name>
+    </author>
+  </entry>
+</feed>

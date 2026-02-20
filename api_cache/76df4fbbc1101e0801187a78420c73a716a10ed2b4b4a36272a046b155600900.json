@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ln5/HzwtBZISWjE9PT/xGcpQVKI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.25189v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.25189v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25189v1</id>
+    <title>InfoAgent: Advancing Autonomous Information-Seeking Agents</title>
+    <updated>2025-09-29T17:59:57Z</updated>
+    <link href="https://arxiv.org/abs/2509.25189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building Large Language Model agents that expand their capabilities by interacting with external tools represents a new frontier in AI research and applications. In this paper, we introduce InfoAgent, a deep research agent powered by an innovative data synthesis pipeline and orchestrated web search tools. To construct challenging, hard-to-find queries,we build entity trees and apply sub-tree sampling with entity fuzzification to systematically increase question difficulty. Unlike prior work that relies heavily on commercial search tools, we develop a dedicated self-hosted search infrastructure, enhancing transparency of agent environments and facilitating further advancement of agent capacity. We evaluate the effectiveness of our data pipeline by measuring the average number of tool calls required to correctly answer a question, and also show that our agent yields better performance when equipped with our tools. Our \mbox{InfoAgent} is post-trained from Qwen3-14B using a two-stage recipe: cold-start supervised finetuning to instill long-horizon search behaviors, followed by reinforcement learning which significantly improves reasoning-driven tool use. With our methods, InfoAgent achieves 15.3\% accuracy on BrowseComp, 29.2\% on BrowseComp-ZH, and 40.4\% on Xbench-DS, outperforming prior open-source deep research agents such as WebSailor-72B and DeepDive-32B.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T17:59:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Gongrui Zhang</name>
+    </author>
+    <author>
+      <name>Jialiang Zhu</name>
+    </author>
+    <author>
+      <name>Ruiqi Yang</name>
+    </author>
+    <author>
+      <name>Kai Qiu</name>
+    </author>
+    <author>
+      <name>Miaosen Zhang</name>
+    </author>
+    <author>
+      <name>Zhirong Wu</name>
+    </author>
+    <author>
+      <name>Qi Dai</name>
+    </author>
+    <author>
+      <name>Bei Liu</name>
+    </author>
+    <author>
+      <name>Chong Luo</name>
+    </author>
+    <author>
+      <name>Zhengyuan Yang</name>
+    </author>
+    <author>
+      <name>Linjie Li</name>
+    </author>
+    <author>
+      <name>Lijuan Wang</name>
+    </author>
+    <author>
+      <name>Weizhu Chen</name>
+    </author>
+    <author>
+      <name>Yuan Zhang</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Zhaoyi Liu</name>
+    </author>
+    <author>
+      <name>Xin Geng</name>
+    </author>
+    <author>
+      <name>Baining Guo</name>
+    </author>
+  </entry>
+</feed>

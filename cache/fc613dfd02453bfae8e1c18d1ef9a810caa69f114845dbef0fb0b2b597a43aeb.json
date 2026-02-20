@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i87fYHzU8MYW80/wGluzHcR9v6I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.18540&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.18540" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.18540v2</id>
+    <title>Keeping LLMs Aligned After Fine-tuning: The Crucial Role of Prompt Templates</title>
+    <updated>2025-01-17T01:43:21Z</updated>
+    <link href="https://arxiv.org/abs/2402.18540v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.18540v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public LLMs such as the Llama 2-Chat underwent alignment training and were considered safe. Recently Qi et al. [2024] reported that even benign fine-tuning on seemingly safe datasets can give rise to unsafe behaviors in the models. The current paper is about methods and best practices to mitigate such loss of alignment. We focus on the setting where a public model is fine-tuned before serving users for specific usage, where the model should improve on the downstream task while maintaining alignment. Through extensive experiments on several chat models (Meta's Llama 2-Chat, Mistral AI's Mistral 7B Instruct v0.2, and OpenAI's GPT-3.5 Turbo), this paper uncovers that the prompt templates used during fine-tuning and inference play a crucial role in preserving safety alignment, and proposes the ``Pure Tuning, Safe Testing'' (PTST) strategy -- fine-tune models without a safety prompt, but include it at test time. This seemingly counterintuitive strategy incorporates an intended distribution shift to encourage alignment preservation. Fine-tuning experiments on GSM8K, ChatDoctor, and OpenOrca show that PTST significantly reduces the rise of unsafe behaviors.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T18:23:49Z</published>
+    <arxiv:comment>NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaifeng Lyu</name>
+    </author>
+    <author>
+      <name>Haoyu Zhao</name>
+    </author>
+    <author>
+      <name>Xinran Gu</name>
+    </author>
+    <author>
+      <name>Dingli Yu</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+  </entry>
+</feed>

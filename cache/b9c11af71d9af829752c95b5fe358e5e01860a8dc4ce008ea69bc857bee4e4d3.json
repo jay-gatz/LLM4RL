@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8zygrFQIwgXHH5h/qj0zaCFndsQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21847v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21847v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21847v1</id>
+    <title>READY: Reward Discovery for Meta-Black-Box Optimization</title>
+    <updated>2026-01-29T15:23:18Z</updated>
+    <link href="https://arxiv.org/abs/2601.21847v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21847v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Meta-Black-Box Optimization (MetaBBO) is an emerging avenue within Optimization community, where algorithm design policy could be meta-learned by reinforcement learning to enhance optimization performance. So far, the reward functions in existing MetaBBO works are designed by human experts, introducing certain design bias and risks of reward hacking. In this paper, we use Large Language Model~(LLM) as an automated reward discovery tool for MetaBBO. Specifically, we consider both effectiveness and efficiency sides. On effectiveness side, we borrow the idea of evolution of heuristics, introducing tailored evolution paradigm in the iterative LLM-based program search process, which ensures continuous improvement. On efficiency side, we additionally introduce multi-task evolution architecture to support parallel reward discovery for diverse MetaBBO approaches. Such parallel process also benefits from knowledge sharing across tasks to accelerate convergence. Empirical results demonstrate that the reward functions discovered by our approach could be helpful for boosting existing MetaBBO works, underscoring the importance of reward design in MetaBBO. We provide READY's project at https://anonymous.4open.science/r/ICML_READY-747F.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T15:23:18Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zechuan Huang</name>
+    </author>
+    <author>
+      <name>Zhiguang Cao</name>
+    </author>
+    <author>
+      <name>Hongshu Guo</name>
+    </author>
+    <author>
+      <name>Yue-Jiao Gong</name>
+    </author>
+    <author>
+      <name>Zeyuan Ma</name>
+    </author>
+  </entry>
+</feed>

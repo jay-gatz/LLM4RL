@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pl2FU5A/f0ebFT2b5ILxLQmlewc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22297v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22297v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22297v1</id>
+    <title>Prepare Reasoning Language Models for Multi-Agent Debate with Self-Debate Reinforcement Learning</title>
+    <updated>2026-01-29T20:21:44Z</updated>
+    <link href="https://arxiv.org/abs/2601.22297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The reasoning abilities of large language models (LLMs) have been substantially improved by reinforcement learning with verifiable rewards (RLVR). At test time, collaborative reasoning through Multi-Agent Debate (MAD) has emerged as a promising approach for enhancing LLM performance. However, current RLVR methods typically train LLMs to solve problems in isolation, without explicitly preparing them to synthesize and benefit from different rationales that arise during debate. In this work, we propose Self-Debate Reinforcement Learning (SDRL), a training framework that equips a single LLM with strong standalone problem-solving ability and the capability to learn from diverse reasoning trajectories in MAD. Given a prompt, SDRL first samples multiple candidate solutions, then constructs a debate context with diverse reasoning paths and generates second-turn responses conditioned on this context. Finally, SDRL jointly optimizes both the initial and debate-conditioned responses, yielding a model that is effective as both a standalone solver and a debate participant. Experiments across multiple base models and reasoning benchmarks show that SDRL improves overall MAD performance while simultaneously strengthening single model reasoning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T20:21:44Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chenxi Liu</name>
+    </author>
+    <author>
+      <name>Yanshuo Chen</name>
+    </author>
+    <author>
+      <name>Ruibo Chen</name>
+    </author>
+    <author>
+      <name>Tianyi Xiong</name>
+    </author>
+    <author>
+      <name>Tong Zheng</name>
+    </author>
+    <author>
+      <name>Heng Huang</name>
+    </author>
+  </entry>
+</feed>

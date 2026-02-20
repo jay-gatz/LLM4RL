@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bm8X19rEzpZSc9jTILvaW0hY5wU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.10538&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:36:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2311.10538" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10538v3</id>
+    <title>Testing Language Model Agents Safely in the Wild</title>
+    <updated>2023-12-03T13:18:09Z</updated>
+    <link href="https://arxiv.org/abs/2311.10538v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10538v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We design a basic safety monitor (AgentMonitor) that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the AgentMonitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-17T14:06:05Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Silen Naihin</name>
+    </author>
+    <author>
+      <name>David Atkinson</name>
+    </author>
+    <author>
+      <name>Marc Green</name>
+    </author>
+    <author>
+      <name>Merwane Hamadi</name>
+    </author>
+    <author>
+      <name>Craig Swift</name>
+    </author>
+    <author>
+      <name>Douglas Schonholtz</name>
+    </author>
+    <author>
+      <name>Adam Tauman Kalai</name>
+    </author>
+    <author>
+      <name>David Bau</name>
+    </author>
+  </entry>
+</feed>

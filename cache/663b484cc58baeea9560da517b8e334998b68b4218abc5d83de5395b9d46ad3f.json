@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1OTCD6J3YbiZse0Md7Hv5H7Z8hw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01649v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01649v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01649v1</id>
+    <title>Contribution-aware Token Compression for Efficient Video Understanding via Reinforcement Learning</title>
+    <updated>2026-02-02T05:09:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.01649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video large language models have demonstrated remarkable capabilities in video understanding tasks. However, the redundancy of video tokens introduces significant computational overhead during inference, limiting their practical deployment. Many compression algorithms are proposed to prioritize retaining features with the highest attention scores to minimize perturbations in attention computations. However, the correlation between attention scores and their actual contribution to correct answers remains ambiguous. To address the above limitation, we propose a novel \textbf{C}ontribution-\textbf{a}ware token \textbf{Co}mpression algorithm for \textbf{VID}eo understanding (\textbf{CaCoVID}) that explicitly optimizes the token selection policy based on the contribution of tokens to correct predictions. First, we introduce a reinforcement learning-based framework that optimizes a policy network to select video token combinations with the greatest contribution to correct predictions. This paradigm shifts the focus from passive token preservation to active discovery of optimal compressed token combinations. Secondly, we propose a combinatorial policy optimization algorithm with online combination space sampling, which dramatically reduces the exploration space for video token combinations and accelerates the convergence speed of policy optimization. Extensive experiments on diverse video understanding benchmarks demonstrate the effectiveness of CaCoVID. Codes will be released.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T05:09:48Z</published>
+    <arxiv:comment>This paper is accepted by AAAI2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yinchao Ma</name>
+    </author>
+    <author>
+      <name>Qiang Zhou</name>
+    </author>
+    <author>
+      <name>Zhibin Wang</name>
+    </author>
+    <author>
+      <name>Xianing Chen</name>
+    </author>
+    <author>
+      <name>Hanqing Yang</name>
+    </author>
+    <author>
+      <name>Jun Song</name>
+    </author>
+    <author>
+      <name>Bo Zheng</name>
+    </author>
+  </entry>
+</feed>

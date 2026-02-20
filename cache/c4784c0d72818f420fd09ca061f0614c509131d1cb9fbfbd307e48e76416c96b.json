@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qDAtsZ71TxaRAntfowsZbYjoVE4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.03610&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:24:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.03610" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.03610v1</id>
+    <title>RAP: Retrieval-Augmented Planning with Contextual Memory for Multimodal LLM Agents</title>
+    <updated>2024-02-06T00:53:27Z</updated>
+    <link href="https://arxiv.org/abs/2402.03610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.03610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Owing to recent advancements, Large Language Models (LLMs) can now be deployed as agents for increasingly complex decision-making applications in areas including robotics, gaming, and API integration. However, reflecting past experiences in current decision-making processes, an innate human behavior, continues to pose significant challenges. Addressing this, we propose Retrieval-Augmented Planning (RAP) framework, designed to dynamically leverage past experiences corresponding to the current situation and context, thereby enhancing agents' planning capabilities. RAP distinguishes itself by being versatile: it excels in both text-only and multimodal environments, making it suitable for a wide range of tasks. Empirical evaluations demonstrate RAP's effectiveness, where it achieves SOTA performance in textual scenarios and notably enhances multimodal LLM agents' performance for embodied tasks. These results highlight RAP's potential in advancing the functionality and applicability of LLM agents in complex, real-world applications.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T00:53:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tomoyuki Kagaya</name>
+    </author>
+    <author>
+      <name>Thong Jing Yuan</name>
+    </author>
+    <author>
+      <name>Yuxuan Lou</name>
+    </author>
+    <author>
+      <name>Jayashree Karlekar</name>
+    </author>
+    <author>
+      <name>Sugiri Pranata</name>
+    </author>
+    <author>
+      <name>Akira Kinose</name>
+    </author>
+    <author>
+      <name>Koki Oguri</name>
+    </author>
+    <author>
+      <name>Felix Wick</name>
+    </author>
+    <author>
+      <name>Yang You</name>
+    </author>
+  </entry>
+</feed>

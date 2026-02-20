@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/box7f4YDsSBajuVWRDGVl+LDL7c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.03822v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.03822v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.03822v1</id>
+    <title>They Said Memes Were Harmless-We Found the Ones That Hurt: Decoding Jokes, Symbols, and Cultural References</title>
+    <updated>2026-02-03T18:29:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.03822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.03822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Meme-based social abuse detection is challenging because harmful intent often relies on implicit cultural symbolism and subtle cross-modal incongruence. Prior approaches, from fusion-based methods to in-context learning with Large Vision-Language Models (LVLMs), have made progress but remain limited by three factors: i) cultural blindness (missing symbolic context), ii) boundary ambiguity (satire vs. abuse confusion), and iii) lack of interpretability (opaque model reasoning). We introduce CROSS-ALIGN+, a three-stage framework that systematically addresses these limitations: (1) Stage I mitigates cultural blindness by enriching multimodal representations with structured knowledge from ConceptNet, Wikidata, and Hatebase; (2) Stage II reduces boundary ambiguity through parameter-efficient LoRA adapters that sharpen decision boundaries; and (3) Stage III enhances interpretability by generating cascaded explanations. Extensive experiments on five benchmarks and eight LVLMs demonstrate that CROSS-ALIGN+ consistently outperforms state-of-the-art methods, achieving up to 17% relative F1 improvement while providing interpretable justifications for each decision.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T18:29:46Z</published>
+    <arxiv:comment>Accepted at the The Web Conference 2026 (Research Track)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sahil Tripathi</name>
+    </author>
+    <author>
+      <name>Gautam Siddharth Kashyap</name>
+    </author>
+    <author>
+      <name>Mehwish Nasim</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Jiechao Gao</name>
+    </author>
+    <author>
+      <name>Usman Naseem</name>
+    </author>
+  </entry>
+</feed>

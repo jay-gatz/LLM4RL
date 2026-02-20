@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/E62bLgRKqQuAFLmscz5vkBSa01Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.13136&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.13136" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13136v1</id>
+    <title>The Language Barrier: Dissecting Safety Challenges of LLMs in Multilingual Contexts</title>
+    <updated>2024-01-23T23:12:09Z</updated>
+    <link href="https://arxiv.org/abs/2401.13136v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13136v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As the influence of large language models (LLMs) spans across global communities, their safety challenges in multilingual settings become paramount for alignment research. This paper examines the variations in safety challenges faced by LLMs across different languages and discusses approaches to alleviating such concerns. By comparing how state-of-the-art LLMs respond to the same set of malicious prompts written in higher- vs. lower-resource languages, we observe that (1) LLMs tend to generate unsafe responses much more often when a malicious prompt is written in a lower-resource language, and (2) LLMs tend to generate more irrelevant responses to malicious prompts in lower-resource languages. To understand where the discrepancy can be attributed, we study the effect of instruction tuning with reinforcement learning from human feedback (RLHF) or supervised finetuning (SFT) on the HH-RLHF dataset. Surprisingly, while training with high-resource languages improves model alignment, training in lower-resource languages yields minimal improvement. This suggests that the bottleneck of cross-lingual alignment is rooted in the pretraining stage. Our findings highlight the challenges in cross-lingual LLM safety, and we hope they inform future research in this direction.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-23T23:12:09Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lingfeng Shen</name>
+    </author>
+    <author>
+      <name>Weiting Tan</name>
+    </author>
+    <author>
+      <name>Sihao Chen</name>
+    </author>
+    <author>
+      <name>Yunmo Chen</name>
+    </author>
+    <author>
+      <name>Jingyu Zhang</name>
+    </author>
+    <author>
+      <name>Haoran Xu</name>
+    </author>
+    <author>
+      <name>Boyuan Zheng</name>
+    </author>
+    <author>
+      <name>Philipp Koehn</name>
+    </author>
+    <author>
+      <name>Daniel Khashabi</name>
+    </author>
+  </entry>
+</feed>

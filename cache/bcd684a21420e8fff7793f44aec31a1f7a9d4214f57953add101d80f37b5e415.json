@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hqxWPxcK8q3qs68aWlK0gGY3/lI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22467v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22467v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22467v1</id>
+    <title>CARE: Multi-Task Pretraining for Latent Continuous Action Representation in Robot Control</title>
+    <updated>2026-01-30T02:28:32Z</updated>
+    <link href="https://arxiv.org/abs/2601.22467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Vision-Language-Action (VLA) models have shown promise for robot control, but their dependence on action supervision limits scalability and generalization. To address this challenge, we introduce CARE, a novel framework designed to train VLA models for robotic task execution. Unlike existing methods that depend on action annotations during pretraining, CARE eliminates the need for explicit action labels by leveraging only video-text pairs. These weakly aligned data sources enable the model to learn continuous latent action representations through a newly designed multi-task pretraining objective. During fine-tuning, a small set of labeled data is used to train the action head for control. Experimental results across various simulation tasks demonstrate CARE's superior success rate, semantic interpretability, and ability to avoid shortcut learning. These results underscore CARE's scalability, interpretability, and effectiveness in robotic control with weak supervision.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T02:28:32Z</published>
+    <arxiv:comment>Accepted to 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jiaqi Shi</name>
+    </author>
+    <author>
+      <name>Xulong Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoyang Qu</name>
+    </author>
+    <author>
+      <name>Jianzong Wang</name>
+    </author>
+  </entry>
+</feed>

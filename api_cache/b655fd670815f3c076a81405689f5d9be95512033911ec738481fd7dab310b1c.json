@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TgMa4evgJi6MlRy45P6YOhyJ/LI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14302v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14302v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14302v1</id>
+    <title>Floe: Federated Specialization for Real-Time LLM-SLM Inference</title>
+    <updated>2026-02-15T20:28:38Z</updated>
+    <link href="https://arxiv.org/abs/2602.14302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deploying large language models (LLMs) in real-time systems remains challenging due to their substantial computational demands and privacy concerns. We propose Floe, a hybrid federated learning framework designed for latency-sensitive, resource-constrained environments. Floe combines a cloud-based black-box LLM with lightweight small language models (SLMs) on edge devices to enable low-latency, privacy-preserving inference. Personal data and fine-tuning remain on-device, while the cloud LLM contributes general knowledge without exposing proprietary weights. A heterogeneity-aware LoRA adaptation strategy enables efficient edge deployment across diverse hardware, and a logit-level fusion mechanism enables real-time coordination between edge and cloud models. Extensive experiments demonstrate that Floe enhances user privacy and personalization. Moreover, it significantly improves model performance and reduces inference latency on edge devices under real-time constraints compared with baseline approaches.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T20:28:38Z</published>
+    <arxiv:comment>Accepted by IEEE Transactions on Parallel and Distributed Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Chunlin Tian</name>
+    </author>
+    <author>
+      <name>Kahou Tam</name>
+    </author>
+    <author>
+      <name>Yebo Wu</name>
+    </author>
+    <author>
+      <name>Shuaihang Zhong</name>
+    </author>
+    <author>
+      <name>Li Li</name>
+    </author>
+    <author>
+      <name>Nicholas D. Lane</name>
+    </author>
+    <author>
+      <name>Chengzhong Xu</name>
+    </author>
+  </entry>
+</feed>

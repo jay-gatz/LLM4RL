@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hpyvngjlDelTmerz72Zy5jWa5Qw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22801v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22801v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22801v1</id>
+    <title>Clipping-Free Policy Optimization for Large Language Models</title>
+    <updated>2026-01-30T10:32:37Z</updated>
+    <link href="https://arxiv.org/abs/2601.22801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has become central to post-training large language models, yet dominant algorithms rely on clipping mechanisms that introduce optimization issues at scale, including zero-gradient regions, reward hacking, and training instability. We propose Clipping-Free Policy Optimization (CFPO), which replaces heuristic clipping with a convex quadratic penalty derived from Total Variation divergence constraints, yielding an everywhere-differentiable objective that enforces stable policy updates without hard boundaries. We evaluate CFPO across both reasoning and alignment settings. In reasoning, CFPO matches clipping-based methods on downstream benchmarks while extending the stable training regime. In alignment, CFPO mitigates verbosity exploitation and reduces capability degradation, while achieving competitive instruction-following performance. CFPO requires only a one-line code change and no additional hyperparameters. Our results suggest that CFPO is a promising drop-in alternative to clipping-based methods for LLM post-training.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T10:32:37Z</published>
+    <arxiv:comment>23 pages, 10 tables, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ömer Veysel Çağatan</name>
+    </author>
+    <author>
+      <name>Barış Akgün</name>
+    </author>
+    <author>
+      <name>Gözde Gül Şahin</name>
+    </author>
+    <author>
+      <name>Xuandong Zhao</name>
+    </author>
+  </entry>
+</feed>

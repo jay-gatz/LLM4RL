@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/unz5N7w2BFbR2lGaS5F72tcBn5g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.24645v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:55:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.24645v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24645v2</id>
+    <title>FunReason-MT Technical Report: Advanced Data Synthesis Solution for Real-world Multi-Turn Tool-use</title>
+    <updated>2025-11-16T17:39:19Z</updated>
+    <link href="https://arxiv.org/abs/2510.24645v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24645v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Function calling (FC) empowers large language models (LLMs) and autonomous agents to interface with external tools, a critical capability for solving complex, real-world problems. As this ability becomes increasingly central to advanced AI systems, the need for high-quality, multi-turn training data to develop and refine it cannot be overstated. Existing data synthesis methods, such as random environment sampling or multi-agent role-playing, are not powerful enough to generate high-quality data in real-world environments. Practical challenges come in three folds: targeted data synthesis, hard query construction, and multi-turn logical dependency. To address these structural deficiencies, we present FunReason-MT, a novel data synthesis framework for real-world multi-turn tool use. FunReason-MT resolves the complexity barrier in multi-turn FC data by employing 1) Environment-API Graph Interactions to gather varied high-quality trajectories with targeted tool, 2) Advanced Tool-Query Synthesis to simplify hard query construction, and 3) Guided Iterative Chain for sophisticated CoT generation. Evaluations on Berkeley Function-Calling Leaderboard (BFCLv3) demonstrate the power of our framework: a 4B model built upon FunReason-MT generated data achieves state-of-the-art performance among comparable-sized models. Further performance improvements on BFCLv4 confirm that FunReason-MT provides a reliable and robust source for agentic learning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T17:15:26Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zengzhuang Xu</name>
+    </author>
+    <author>
+      <name>Bingguang Hao</name>
+    </author>
+    <author>
+      <name>Zechuan Wang</name>
+    </author>
+    <author>
+      <name>Yuntao Wen</name>
+    </author>
+    <author>
+      <name>Xinyi Xu</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+    <author>
+      <name>Long Chen</name>
+    </author>
+    <author>
+      <name>Dong Wang</name>
+    </author>
+    <author>
+      <name>Maolin Wang</name>
+    </author>
+    <author>
+      <name>Tong Zhao</name>
+    </author>
+    <author>
+      <name>Yicheng Chen</name>
+    </author>
+    <author>
+      <name>Cunyin Peng</name>
+    </author>
+    <author>
+      <name>Jinjie Gu</name>
+    </author>
+    <author>
+      <name>Leilei Gan</name>
+    </author>
+    <author>
+      <name>Xiangyu Zhao</name>
+    </author>
+    <author>
+      <name>Chenyi Zhuang</name>
+    </author>
+    <author>
+      <name>Shi Gu</name>
+    </author>
+  </entry>
+</feed>

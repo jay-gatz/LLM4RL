@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/roT3TIEckCmeiz82ZFDd+6F0SsU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2309.16609v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2309.16609v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.16609v1</id>
+    <title>Qwen Technical Report</title>
+    <updated>2023-09-28T17:07:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.16609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.16609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have revolutionized the field of artificial intelligence, enabling natural language processing tasks that were previously thought to be exclusive to humans. In this work, we introduce Qwen, the first installment of our large language model series. Qwen is a comprehensive language model series that encompasses distinct models with varying parameter counts. It includes Qwen, the base pretrained language models, and Qwen-Chat, the chat models finetuned with human alignment techniques. The base language models consistently demonstrate superior performance across a multitude of downstream tasks, and the chat models, particularly those trained using Reinforcement Learning from Human Feedback (RLHF), are highly competitive. The chat models possess advanced tool-use and planning capabilities for creating agent applications, showcasing impressive performance even when compared to bigger models on complex tasks like utilizing a code interpreter. Furthermore, we have developed coding-specialized models, Code-Qwen and Code-Qwen-Chat, as well as mathematics-focused models, Math-Qwen-Chat, which are built upon base language models. These models demonstrate significantly improved performance in comparison with open-source models, and slightly fall behind the proprietary models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-28T17:07:49Z</published>
+    <arxiv:comment>59 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jinze Bai</name>
+    </author>
+    <author>
+      <name>Shuai Bai</name>
+    </author>
+    <author>
+      <name>Yunfei Chu</name>
+    </author>
+    <author>
+      <name>Zeyu Cui</name>
+    </author>
+    <author>
+      <name>Kai Dang</name>
+    </author>
+    <author>
+      <name>Xiaodong Deng</name>
+    </author>
+    <author>
+      <name>Yang Fan</name>
+    </author>
+    <author>
+      <name>Wenbin Ge</name>
+    </author>
+    <author>
+      <name>Yu Han</name>
+    </author>
+    <author>
+      <name>Fei Huang</name>
+    </author>
+    <author>
+      <name>Binyuan Hui</name>
+    </author>
+    <author>
+      <name>Luo Ji</name>
+    </author>
+    <author>
+      <name>Mei Li</name>
+    </author>
+    <author>
+      <name>Junyang Lin</name>
+    </author>
+    <author>
+      <name>Runji Lin</name>
+    </author>
+    <author>
+      <name>Dayiheng Liu</name>
+    </author>
+    <author>
+      <name>Gao Liu</name>
+    </author>
+    <author>
+      <name>Chengqiang Lu</name>
+    </author>
+    <author>
+      <name>Keming Lu</name>
+    </author>
+    <author>
+      <name>Jianxin Ma</name>
+    </author>
+    <author>
+      <name>Rui Men</name>
+    </author>
+    <author>
+      <name>Xingzhang Ren</name>
+    </author>
+    <author>
+      <name>Xuancheng Ren</name>
+    </author>
+    <author>
+      <name>Chuanqi Tan</name>
+    </author>
+    <author>
+      <name>Sinan Tan</name>
+    </author>
+    <author>
+      <name>Jianhong Tu</name>
+    </author>
+    <author>
+      <name>Peng Wang</name>
+    </author>
+    <author>
+      <name>Shijie Wang</name>
+    </author>
+    <author>
+      <name>Wei Wang</name>
+    </author>
+    <author>
+      <name>Shengguang Wu</name>
+    </author>
+    <author>
+      <name>Benfeng Xu</name>
+    </author>
+    <author>
+      <name>Jin Xu</name>
+    </author>
+    <author>
+      <name>An Yang</name>
+    </author>
+    <author>
+      <name>Hao Yang</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Shusheng Yang</name>
+    </author>
+    <author>
+      <name>Yang Yao</name>
+    </author>
+    <author>
+      <name>Bowen Yu</name>
+    </author>
+    <author>
+      <name>Hongyi Yuan</name>
+    </author>
+    <author>
+      <name>Zheng Yuan</name>
+    </author>
+    <author>
+      <name>Jianwei Zhang</name>
+    </author>
+    <author>
+      <name>Xingxuan Zhang</name>
+    </author>
+    <author>
+      <name>Yichang Zhang</name>
+    </author>
+    <author>
+      <name>Zhenru Zhang</name>
+    </author>
+    <author>
+      <name>Chang Zhou</name>
+    </author>
+    <author>
+      <name>Jingren Zhou</name>
+    </author>
+    <author>
+      <name>Xiaohuan Zhou</name>
+    </author>
+    <author>
+      <name>Tianhang Zhu</name>
+    </author>
+  </entry>
+</feed>

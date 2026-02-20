@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bZZHlKn33wAqB4B3X86jUw1sSQY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15631v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15631v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15631v1</id>
+    <title>Meflex: A Multi-agent Scaffolding System for Entrepreneurial Ideation Iteration via Nonlinear Business Plan Writing</title>
+    <updated>2026-02-17T15:01:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.15631v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15631v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Business plan (BP) writing plays a key role in entrepreneurship education by helping learners construct, evaluate, and iteratively refine their ideas. However, conventional BP writing remains a rigid, linear process that often fails to reflect the dynamic and recursive nature of entrepreneurial ideation. This mismatch is particularly challenging for novice entrepreneurial students, who struggle with the substantial cognitive demands of developing and refining ideas. While reflection and meta-reflection are critical strategies for fostering divergent and convergent thinking, existing writing tools rarely scaffold these higher-order processes. To address this gap, we present the Meflex System, a large language model (LLM)-based writing tool that integrates BP writing scaffolding with a nonlinear idea canvas to support iterative ideation through reflection and meta-reflection. We report findings from an exploratory user study with 30 participants that examined the system's usability and cognitive impact. Results show that Meflex effectively scaffolds BP writing, promotes divergent thinking through LLM-supported reflection, and enhances meta-reflective awareness while reducing cognitive load during complex idea development. These findings highlight the potential of non-linear LLM-based writing tools to foster deeper and coherent entrepreneurial thinking.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:01:14Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Lan Luo</name>
+    </author>
+    <author>
+      <name>Dongyijie Primo Pan</name>
+    </author>
+    <author>
+      <name>Junhua Zhu</name>
+    </author>
+    <author>
+      <name>Muzhi Zhou</name>
+    </author>
+    <author>
+      <name>Pan Hui</name>
+    </author>
+  </entry>
+</feed>

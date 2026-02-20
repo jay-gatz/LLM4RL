@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ojsYjunq/+qVuWLX5YNHOknv73Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.07309v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.07309v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07309v1</id>
+    <title>ARM: Role-Conditioned Neuron Transplantation for Training-Free Generalist LLM Agent Merging</title>
+    <updated>2026-01-12T08:31:53Z</updated>
+    <link href="https://arxiv.org/abs/2601.07309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactive large language model agents have advanced rapidly, but most remain specialized to a single environment and fail to adapt robustly to other environments. Model merging offers a training-free alternative by integrating multiple experts into a single model. In this paper, we propose Agent-Role Merging (ARM), an activation-guided, role-conditioned neuron transplantation method for model merging in LLM agents. ARM improves existing merging methods from static natural language tasks to multi-turn agent scenarios, and over the generalization ability across various interactive environments. This is achieved with a well designed 3-step framework: 1) constructing merged backbones, 2) selection based on its role-conditioned activation analysis, and 3) neuron transplantation for fine-grained refinements. Without gradient-based optimization, ARM improves cross-benchmark generalization while enjoying efficiency. Across diverse domains, the model obtained via ARM merging outperforms prior model merging methods and domain-specific expert models, while demonstrating strong out-of-domain generalization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T08:31:53Z</published>
+    <arxiv:comment>17 pages, 12 figures. Project page: https://arkazhuo.github.io/ARM-homepage/</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhuoka Feng</name>
+    </author>
+    <author>
+      <name>Kang Chen</name>
+    </author>
+    <author>
+      <name>Sihan Zhao</name>
+    </author>
+    <author>
+      <name>Kai Xiong</name>
+    </author>
+    <author>
+      <name>Yaoning Wang</name>
+    </author>
+    <author>
+      <name>Minshen Yu</name>
+    </author>
+    <author>
+      <name>Junjie Nian</name>
+    </author>
+    <author>
+      <name>Changyi Xiao</name>
+    </author>
+    <author>
+      <name>Yixin Cao</name>
+    </author>
+    <author>
+      <name>Yugang Jiang</name>
+    </author>
+  </entry>
+</feed>

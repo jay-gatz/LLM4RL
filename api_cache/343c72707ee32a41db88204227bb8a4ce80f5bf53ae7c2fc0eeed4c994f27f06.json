@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B+UjT+yieDCdvTqnBuis8/+/KmA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14098v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14098v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14098v1</id>
+    <title>ForgeryVCR: Visual-Centric Reasoning via Efficient Forensic Tools in MLLMs for Image Forgery Detection and Localization</title>
+    <updated>2026-02-15T11:14:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.14098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Multimodal Large Language Models (MLLMs) for image forgery detection and localization predominantly operate under a text-centric Chain-of-Thought (CoT) paradigm. However, forcing these models to textually characterize imperceptible low-level tampering traces inevitably leads to hallucinations, as linguistic modalities are insufficient to capture such fine-grained pixel-level inconsistencies. To overcome this, we propose ForgeryVCR, a framework that incorporates a forensic toolbox to materialize imperceptible traces into explicit visual intermediates via Visual-Centric Reasoning. To enable efficient tool utilization, we introduce a Strategic Tool Learning post-training paradigm, encompassing gain-driven trajectory construction for Supervised Fine-Tuning (SFT) and subsequent Reinforcement Learning (RL) optimization guided by a tool utility reward. This paradigm empowers the MLLM to act as a proactive decision-maker, learning to spontaneously invoke multi-view reasoning paths including local zoom-in for fine-grained inspection and the analysis of invisible inconsistencies in compression history, noise residuals, and frequency domains. Extensive experiments reveal that ForgeryVCR achieves state-of-the-art (SOTA) performance in both detection and localization tasks, demonstrating superior generalization and robustness with minimal tool redundancy. The project page is available at https://youqiwong.github.io/projects/ForgeryVCR/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T11:14:47Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Youqi Wang</name>
+    </author>
+    <author>
+      <name>Shen Chen</name>
+    </author>
+    <author>
+      <name>Haowei Wang</name>
+    </author>
+    <author>
+      <name>Rongxuan Peng</name>
+    </author>
+    <author>
+      <name>Taiping Yao</name>
+    </author>
+    <author>
+      <name>Shunquan Tan</name>
+    </author>
+    <author>
+      <name>Changsheng Chen</name>
+    </author>
+    <author>
+      <name>Bin Li</name>
+    </author>
+    <author>
+      <name>Shouhong Ding</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i12gNbeAXrj1ucSx8Df9UQJpIDU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01539v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01539v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01539v2</id>
+    <title>MAGIC: A Co-Evolving Attacker-Defender Adversarial Game for Robust LLM Safety</title>
+    <updated>2026-02-06T02:53:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.01539v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01539v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensuring robust safety alignment is crucial for Large Language Models (LLMs), yet existing defenses often lag behind evolving adversarial attacks due to their \textbf{reliance on static, pre-collected data distributions}. In this paper, we introduce \textbf{MAGIC}, a novel multi-turn multi-agent reinforcement learning framework that formulates LLM safety alignment as an adversarial asymmetric game. Specifically, an attacker agent learns to iteratively rewrite original queries into deceptive prompts, while a defender agent simultaneously optimizes its policy to recognize and refuse such inputs. This dynamic process triggers a \textbf{co-evolution}, where the attacker's ever-changing strategies continuously uncover long-tail vulnerabilities, driving the defender to generalize to unseen attack patterns. Remarkably, we observe that the attacker, endowed with initial reasoning ability, evolves \textbf{novel, previously unseen combinatorial strategies} through iterative RL training, underscoring our method's substantial potential. Theoretically, we provide insights into a more robust game equilibrium and derive safety guarantees. Extensive experiments validate our framework's effectiveness, demonstrating superior defense success rates without compromising the helpfulness of the model. Our code is available at https://github.com/BattleWen/MAGIC.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T02:12:28Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiaoyu Wen</name>
+    </author>
+    <author>
+      <name>Zhida He</name>
+    </author>
+    <author>
+      <name>Han Qi</name>
+    </author>
+    <author>
+      <name>Ziyu Wan</name>
+    </author>
+    <author>
+      <name>Zhongtian Ma</name>
+    </author>
+    <author>
+      <name>Ying Wen</name>
+    </author>
+    <author>
+      <name>Tianhang Zheng</name>
+    </author>
+    <author>
+      <name>Xingcheng Xu</name>
+    </author>
+    <author>
+      <name>Chaochao Lu</name>
+    </author>
+    <author>
+      <name>Qiaosheng Zhang</name>
+    </author>
+  </entry>
+</feed>

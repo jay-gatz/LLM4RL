@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6hTGI7GZ1PIvRODa4JZdkCp4pJo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14370v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:37:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14370v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14370v1</id>
+    <title>Competition for attention predicts good-to-bad tipping in AI</title>
+    <updated>2026-02-16T00:43:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.14370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>More than half the global population now carries devices that can run ChatGPT-like language models with no Internet connection and minimal safety oversight -- and hence the potential to promote self-harm, financial losses and extremism among other dangers. Existing safety tools either require cloud connectivity or discover failures only after harm has occurred. Here we show that a large class of potentially dangerous tipping originates at the atomistic scale in such edge AI due to competition for the machinery's attention. This yields a mathematical formula for the dynamical tipping point n*, governed by dot-product competition for attention between the conversation's context and competing output basins, that reveals new control levers. Validated against multiple AI models, the mechanism can be instantiated for different definitions of 'good' and 'bad' and hence in principle applies across domains (e.g. health, law, finance, defense), changing legal landscapes (e.g. EU, UK, US and state level), languages, and cultural settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T00:43:56Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Neil F. Johnson</name>
+    </author>
+    <author>
+      <name>Frank Y. Huo</name>
+    </author>
+  </entry>
+</feed>

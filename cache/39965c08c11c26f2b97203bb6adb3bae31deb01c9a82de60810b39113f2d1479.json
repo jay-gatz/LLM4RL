@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5MTCOTVOWk4CRjC4cRfbhMEyF2U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02684v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02684v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02684v1</id>
+    <title>ADx3: A Collaborative Workflow for High-Quality Accessible Audio Description</title>
+    <updated>2026-02-02T19:02:54Z</updated>
+    <link href="https://arxiv.org/abs/2602.02684v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02684v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Audio description (AD) makes video content accessible to blind and low-vision (BLV) audiences, but producing high-quality descriptions is resource-intensive. Automated AD offers scalability, and prior studies show human-in-the-loop editing and user queries effectively improve narration. We introduce ADx3, a novel framework integrating these three modules: GenAD, upgrading baseline description generation with modern vision-language models (VLMs) guided by accessibility-informed prompting; RefineAD, supporting BLV and sighted users to view and edit drafts through an inclusive interface; and AdaptAD, enabling on-demand user queries. We evaluated GenAD in a study where seven accessibility specialists reviewed VLM-generated descriptions using professional guidelines. Findings show that with tailored prompting, VLMs produce good descriptions meeting basic standards, but excellent descriptions require human edits (RefineAD) and interaction (AdaptAD). ADx3 demonstrates collaborative workflows for accessible content creation, where components reinforce one another and enable continuous improvement: edits guide future baselines and user queries reveal gaps in AI-generated and human-authored descriptions.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T19:02:54Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Lana Do</name>
+    </author>
+    <author>
+      <name>Shasta Ihorn</name>
+    </author>
+    <author>
+      <name>Charity Pitcher-Cooper</name>
+    </author>
+    <author>
+      <name>Juvenal Francisco Barajas</name>
+    </author>
+    <author>
+      <name>Gio Jung</name>
+    </author>
+    <author>
+      <name>Xuan Duy Anh Nguyen</name>
+    </author>
+    <author>
+      <name>Sanjay Mirani</name>
+    </author>
+    <author>
+      <name>Ilmi Yoon</name>
+    </author>
+  </entry>
+</feed>

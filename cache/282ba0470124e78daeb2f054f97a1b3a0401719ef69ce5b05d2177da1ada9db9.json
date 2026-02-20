@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ioLufx1ihQmsBoukVVgww1THehA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14189v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14189v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14189v1</id>
+    <title>Knowing When Not to Answer: Abstention-Aware Scientific Reasoning</title>
+    <updated>2026-02-15T15:29:43Z</updated>
+    <link href="https://arxiv.org/abs/2602.14189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly used to answer and verify scientific claims, yet existing evaluations typically assume that a model must always produce a definitive answer. In scientific settings, however, unsupported or uncertain conclusions can be more harmful than abstaining. We study this problem through an abstention-aware verification framework that decomposes scientific claims into minimal conditions, audits each condition against available evidence using natural language inference (NLI), and selectively decides whether to support, refute, or abstain. We evaluate this framework across two complementary scientific benchmarks: SciFact and PubMedQA, covering both closed-book and open-domain evidence settings. Experiments are conducted with six diverse language models, including encoder-decoder, open-weight chat models, and proprietary APIs. Across all benchmarks and models, we observe that raw accuracy varies only modestly across architectures, while abstention plays a critical role in controlling error. In particular, confidence-based abstention substantially reduces risk at moderate coverage levels, even when absolute accuracy improvements are limited. Our results suggest that in scientific reasoning tasks, the primary challenge is not selecting a single best model, but rather determining when available evidence is sufficient to justify an answer. This work highlights abstention-aware evaluation as a practical and model-agnostic lens for assessing scientific reliability, and provides a unified experimental basis for future work on selective reasoning in scientific domains. Code is available at https://github.com/sabdaljalil2000/ai4science .</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T15:29:43Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Samir Abdaljalil</name>
+    </author>
+    <author>
+      <name>Erchin Serpedin</name>
+    </author>
+    <author>
+      <name>Hasan Kurban</name>
+    </author>
+  </entry>
+</feed>

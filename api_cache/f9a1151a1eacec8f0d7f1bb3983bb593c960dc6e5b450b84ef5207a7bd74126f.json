@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PmZMWGDtVf8D4uiNX+C8x9YucWk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15675v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15675v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15675v1</id>
+    <title>LLM-to-Speech: A Synthetic Data Pipeline for Training Dialectal Text-to-Speech Models</title>
+    <updated>2026-02-17T15:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.15675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the advances in neural text to speech (TTS), many Arabic dialectal varieties remain marginally addressed, with most resources concentrated on Modern Spoken Arabic (MSA) and Gulf dialects, leaving Egyptian Arabic -- the most widely understood Arabic dialect -- severely under-resourced. We address this gap by introducing NileTTS: 38 hours of transcribed speech from two speakers across diverse domains including medical, sales, and general conversations. We construct this dataset using a novel synthetic pipeline: large language models (LLM) generate Egyptian Arabic content, which is then converted to natural speech using audio synthesis tools, followed by automatic transcription and speaker diarization with manual quality verification. We fine-tune XTTS v2, a state-of-the-art multilingual TTS model, on our dataset and evaluate against the baseline model trained on other Arabic dialects. Our contributions include: (1) the first publicly available Egyptian Arabic TTS dataset, (2) a reproducible synthetic data generation pipeline for dialectal TTS, and (3) an open-source fine-tuned model. All resources are released to advance Egyptian Arabic speech synthesis research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T15:58:27Z</published>
+    <arxiv:comment>8 pages, 2 figures, EACL26</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ahmed Khaled Khamis</name>
+    </author>
+    <author>
+      <name>Hesham Ali</name>
+    </author>
+  </entry>
+</feed>

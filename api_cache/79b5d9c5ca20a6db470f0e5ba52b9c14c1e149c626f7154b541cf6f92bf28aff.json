@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lnrNncY4k1GrzX6NEE4IzxxwO4A</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15758v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:32:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15758v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15758v1</id>
+    <title>ChartEditBench: Evaluating Grounded Multi-Turn Chart Editing in Multimodal Language Models</title>
+    <updated>2026-02-17T17:45:34Z</updated>
+    <link href="https://arxiv.org/abs/2602.15758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Multimodal Large Language Models (MLLMs) perform strongly on single-turn chart generation, their ability to support real-world exploratory data analysis remains underexplored. In practice, users iteratively refine visualizations through multi-turn interactions that require maintaining common ground, tracking prior edits, and adapting to evolving preferences. We introduce ChartEditBench, a benchmark for incremental, visually grounded chart editing via code, comprising 5,000 difficulty-controlled modification chains and a rigorously human-verified subset. Unlike prior one-shot benchmarks, ChartEditBench evaluates sustained, context-aware editing. We further propose a robust evaluation framework that mitigates limitations of LLM-as-a-Judge metrics by integrating execution-based fidelity checks, pixel-level visual similarity, and logical code verification. Experiments with state-of-the-art MLLMs reveal substantial degradation in multi-turn settings due to error accumulation and breakdowns in shared context, with strong performance on stylistic edits but frequent execution failures on data-centric transformations. ChartEditBench, establishes a challenging testbed for grounded, intent-aware multimodal programming.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T17:45:34Z</published>
+    <arxiv:comment>16 pages, 13 figures including Supplementary Material</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Manav Nitin Kapadnis</name>
+    </author>
+    <author>
+      <name>Lawanya Baghel</name>
+    </author>
+    <author>
+      <name>Atharva Naik</name>
+    </author>
+    <author>
+      <name>Carolyn Rosé</name>
+    </author>
+  </entry>
+</feed>

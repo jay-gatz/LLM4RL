@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bDterUqOBGC/xwB5TatobiktqNc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.08403&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T21:55:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.08403" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08403v1</id>
+    <title>Owen-Shapley Policy Optimization (OSPO): A Principled RL Algorithm for Generative Search LLMs</title>
+    <updated>2026-01-13T10:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.08403v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08403v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models are increasingly trained via reinforcement learning for personalized recommendation tasks, but standard methods like GRPO rely on sparse, sequence-level rewards that create a credit assignment gap, obscuring which tokens drive success. This gap is especially problematic when models must infer latent user intent from under-specified language without ground truth labels, a reasoning pattern rarely seen during pretraining. We introduce Owen-Shapley Policy Optimization (OSPO), a framework that redistributes sequence-level advantages based on tokens' marginal contributions to outcomes. Unlike value-model-based methods requiring additional computation, OSPO employs potential-based reward shaping via Shapley-Owen attributions to assign segment-level credit while preserving the optimal policy, learning directly from task feedback without parametric value models. By forming coalitions of semantically coherent units (phrases describing product attributes or sentences capturing preferences), OSPO identifies which response parts drive performance. Experiments on Amazon ESCI and H&amp;M Fashion datasets show consistent gains over baselines, with notable test-time robustness to out-of-distribution retrievers unseen during training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T10:17:46Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abhijnan Nath</name>
+    </author>
+    <author>
+      <name>Alireza Bagheri Garakani</name>
+    </author>
+    <author>
+      <name>Tianchen Zhou</name>
+    </author>
+    <author>
+      <name>Fan Yang</name>
+    </author>
+    <author>
+      <name>Nikhil Krishnaswamy</name>
+    </author>
+  </entry>
+</feed>

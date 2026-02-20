@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BmXD6LgT9qH9IwzzKFidzeJPCbM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.24615v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.24615v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.24615v1</id>
+    <title>Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization</title>
+    <updated>2025-12-31T04:17:36Z</updated>
+    <link href="https://arxiv.org/abs/2512.24615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.24615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Large Language Model (LLM) agent frameworks face two significant challenges: high configuration costs and static capabilities. Building a high-quality agent often requires extensive manual effort in tool integration and prompt engineering, while deployed agents struggle to adapt to dynamic environments without expensive fine-tuning. To address these issues, we propose \textbf{Youtu-Agent}, a modular framework designed for the automated generation and continuous evolution of LLM agents. Youtu-Agent features a structured configuration system that decouples execution environments, toolkits, and context management, enabling flexible reuse and automated synthesis. We introduce two generation paradigms: a \textbf{Workflow} mode for standard tasks and a \textbf{Meta-Agent} mode for complex, non-standard requirements, capable of automatically generating tool code, prompts, and configurations. Furthermore, Youtu-Agent establishes a hybrid policy optimization system: (1) an \textbf{Agent Practice} module that enables agents to accumulate experience and improve performance through in-context optimization without parameter updates; and (2) an \textbf{Agent RL} module that integrates with distributed training frameworks to enable scalable and stable reinforcement learning of any Youtu-Agents in an end-to-end, large-scale manner. Experiments demonstrate that Youtu-Agent achieves state-of-the-art performance on WebWalkerQA (71.47\%) and GAIA (72.8\%) using open-weight models. Our automated generation pipeline achieves over 81\% tool synthesis success rate, while the Practice module improves performance on AIME 2024/2025 by +2.7\% and +5.4\% respectively. Moreover, our Agent RL training achieves 40\% speedup with steady performance improvement on 7B LLMs, enhancing coding/reasoning and searching capabilities respectively up to 35\% and 21\% on Maths and general/multi-hop QA benchmarks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-31T04:17:36Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuchen Shi</name>
+    </author>
+    <author>
+      <name>Yuzheng Cai</name>
+    </author>
+    <author>
+      <name>Siqi Cai</name>
+    </author>
+    <author>
+      <name>Zihan Xu</name>
+    </author>
+    <author>
+      <name>Lichao Chen</name>
+    </author>
+    <author>
+      <name>Yulei Qin</name>
+    </author>
+    <author>
+      <name>Zhijian Zhou</name>
+    </author>
+    <author>
+      <name>Xiang Fei</name>
+    </author>
+    <author>
+      <name>Chaofan Qiu</name>
+    </author>
+    <author>
+      <name>Xiaoyu Tan</name>
+    </author>
+    <author>
+      <name>Gang Li</name>
+    </author>
+    <author>
+      <name>Zongyi Li</name>
+    </author>
+    <author>
+      <name>Haojia Lin</name>
+    </author>
+    <author>
+      <name>Guocan Cai</name>
+    </author>
+    <author>
+      <name>Yong Mao</name>
+    </author>
+    <author>
+      <name>Yunsheng Wu</name>
+    </author>
+    <author>
+      <name>Ke Li</name>
+    </author>
+    <author>
+      <name>Xing Sun</name>
+    </author>
+  </entry>
+</feed>

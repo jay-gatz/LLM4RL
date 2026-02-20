@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uqr3UZlHSnpQdJ5+OijeCWzN0g4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.14535v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:46:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.14535v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.14535v2</id>
+    <title>Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition</title>
+    <updated>2023-10-01T00:51:18Z</updated>
+    <link href="https://arxiv.org/abs/2307.14535v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.14535v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a framework for robot skill acquisition, which 1) efficiently scale up data generation of language-labelled robot data and 2) effectively distills this data down into a robust multi-task language-conditioned visuo-motor policy. For (1), we use a large language model (LLM) to guide high-level planning, and sampling-based robot planners (e.g. motion or grasp samplers) for generating diverse and rich manipulation trajectories. To robustify this data-collection process, the LLM also infers a code-snippet for the success condition of each task, simultaneously enabling the data-collection process to detect failure and retry as well as the automatic labeling of trajectories with success/failure. For (2), we extend the diffusion policy single-task behavior-cloning approach to multi-task settings with language conditioning. Finally, we propose a new multi-task benchmark with 18 tasks across five domains to test long-horizon behavior, common-sense reasoning, tool-use, and intuitive physics. We find that our distilled policy successfully learned the robust retrying behavior in its data collection procedure, while improving absolute success rates by 33.2% on average across five domains. Code, data, and additional qualitative results are available on https://www.cs.columbia.edu/~huy/scalingup/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-26T22:52:43Z</published>
+    <arxiv:comment>25 pages, 9 figures, videos and code links on website https://www.cs.columbia.edu/~huy/scalingup/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Huy Ha</name>
+    </author>
+    <author>
+      <name>Pete Florence</name>
+    </author>
+    <author>
+      <name>Shuran Song</name>
+    </author>
+  </entry>
+</feed>

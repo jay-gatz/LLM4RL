@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iUeWucRVc3BQCYqVbKZaafAIoNA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.13832v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:39:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.13832v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.13832v1</id>
+    <title>Beyond Words: Evaluating and Bridging Epistemic Divergence in User-Agent Interaction via Theory of Mind</title>
+    <updated>2026-02-14T16:01:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.13832v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.13832v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have developed rapidly and are widely applied to both general-purpose and professional tasks to assist human users. However, they still struggle to comprehend and respond to the true user needs when intentions and instructions are imprecisely conveyed, leading to a divergence between subjective user believes and true environment states. Resolving this epistemic divergence requires Theory of Mind (ToM), yet existing ToM evaluations for LLMs primarily focus on isolated belief inference, overlooking its functional utility in real-world interaction. To this end, we formalize ToM for LLMs as a mechanism for epistemic divergence detection and resolution, and propose a benchmark, \benchname, to assess how models reconcile user beliefs and profiles in practice. Results across 11 leading models reveal a significant limitation to identify underlying cognitive gaps that impede task success. To bridge this gap, we further curate a trajectory-based ToM dataset linking belief tracking with task-related state inference. The model trained on this data via reinforcement learning shows consistent improvement in reasoning about user mental states, leading to enhanced downstream performance. Our work highlights the practical value of ToM as an essential interaction-level mechanism rather than as a standalone reasoning skill.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-14T16:01:59Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Minyuan Ruan</name>
+    </author>
+    <author>
+      <name>Ziyue Wang</name>
+    </author>
+    <author>
+      <name>Kaiming Liu</name>
+    </author>
+    <author>
+      <name>Yunghwei Lai</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+</feed>

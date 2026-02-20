@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VTyxsjhY6XFjEBCK5szkm2X1N2I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11220v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11220v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11220v1</id>
+    <title>Patch the Distribution Mismatch: RL Rewriting Agent for Stable Off-Policy SFT</title>
+    <updated>2026-02-11T11:51:37Z</updated>
+    <link href="https://arxiv.org/abs/2602.11220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have made rapid progress, yet adapting them to downstream scenarios still commonly relies on supervised fine-tuning (SFT). When downstream data exhibit a substantial distribution shift from the model's prior training distribution, SFT can induce catastrophic forgetting. To narrow this gap, data rewriting has been proposed as a data-centric approach that rewrites downstream training data prior to SFT. However, existing methods typically sample rewrites from a prompt-induced conditional distribution, so the resulting targets are not necessarily aligned with the model's natural QA-style generation distribution. Moreover, reliance on fixed templates can lead to diversity collapse. To address these issues, we cast data rewriting as a policy learning problem and learn a rewriting policy that better matches the backbone's QA-style generation distribution while preserving diversity. Since distributional alignment, diversity and task consistency are automatically evaluable but difficult to optimize end-to-end with differentiable objectives, we leverage reinforcement learning to optimize the rewrite distribution under reward feedback and propose an RL-based data-rewriting agent. The agent jointly optimizes QA-style distributional alignment and diversity under a hard task-consistency gate, thereby constructing a higher-quality rewritten dataset for downstream SFT. Extensive experiments show that our method achieves downstream gains comparable to standard SFT while reducing forgetting on non-downstream benchmarks by 12.34% on average. Our code is available at https://anonymous.4open.science/r/Patch-the-Prompt-Gap-4112 .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T11:51:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiacheng Wang</name>
+    </author>
+    <author>
+      <name>Ping Jian</name>
+    </author>
+    <author>
+      <name>Zhen Yang</name>
+    </author>
+    <author>
+      <name>Zirong Chen</name>
+    </author>
+    <author>
+      <name>Keren Liao</name>
+    </author>
+    <author>
+      <name>Zhongbin Guo</name>
+    </author>
+  </entry>
+</feed>

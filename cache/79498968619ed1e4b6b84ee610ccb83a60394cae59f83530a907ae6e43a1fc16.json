@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/k7wGyEk8o3n4EHqoujmxk5Kt+58</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.26093&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T22:25:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.26093" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.26093v2</id>
+    <title>Reinforced Strategy Optimization for Conversational Recommender Systems via Network-of-Experts</title>
+    <updated>2025-10-01T03:38:59Z</updated>
+    <link href="https://arxiv.org/abs/2509.26093v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.26093v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conversational Recommender Systems (CRSs) aim to provide personalized recommendations through multi-turn natural language interactions with users. Given the strong interaction and reasoning skills of Large Language Models (LLMs), leveraging LLMs for CRSs has recently emerged as a promising direction. However, existing LLM-based methods often lack explicit optimization of interaction strategies, instead relying on unified prompts and the LLM's internal knowledge to decide how to interact, which can lead to suboptimal outcomes. In this paper, we propose a novel Reinforced Strategy Optimization (RSO) method for CRS, which decomposes the process of generating strategy-driven response decisions into the macro-level strategy planning and micro-level strategy adaptation through a network-of-experts architecture. At the macro level, a Planner expert selects macro-level interaction strategies (e.g., recommend, explain, encourage). At the micro level, an Actor expert generates detailed responses conditioned on the selected macro-level strategy, guided by auxiliary experts that provide complementary information such as user preferences and factual grounding. This hierarchical decomposition disentangles the optimization of different sub-tasks involved in CRS response generation, enabling more tractable learning at each level. To address the scarcity of high-quality multi-turn training data, we formulate strategy learning as a reinforcement learning problem, guided by an LLM-based reward model to achieve automatic strategy exploration. Extensive experiments show that RSO significantly improves interaction performance compared to state-of-the-art baselines, demonstrating the effectiveness of explicit hierarchical strategy optimization for CRS.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-30T11:12:01Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiaoyan Zhao</name>
+    </author>
+    <author>
+      <name>Ming Yan</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Yang Deng</name>
+    </author>
+    <author>
+      <name>Jian Wang</name>
+    </author>
+    <author>
+      <name>Fengbin Zhu</name>
+    </author>
+    <author>
+      <name>Yilun Qiu</name>
+    </author>
+    <author>
+      <name>Hong Cheng</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+</feed>

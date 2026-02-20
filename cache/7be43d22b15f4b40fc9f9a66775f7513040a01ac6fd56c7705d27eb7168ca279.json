@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/38Ps81SIeV0DOuIfIymMkZMtVW4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.11937v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:41:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.11937v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.11937v1</id>
+    <title>Extending Puzzle for Mixture-of-Experts Reasoning Models with Application to GPT-OSS Acceleration</title>
+    <updated>2026-02-12T13:36:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.11937v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.11937v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning-focused LLMs improve answer quality by generating longer reasoning traces, but the additional tokens dramatically increase serving cost, motivating inference optimization. We extend and apply Puzzle, a post-training neural architecture search (NAS) framework, to gpt-oss-120B to produce gpt-oss-puzzle-88B, a deployment-optimized derivative. Our approach combines heterogeneous MoE expert pruning, selective replacement of full-context attention with window attention, FP8 KV-cache quantization with calibrated scales, and post-training reinforcement learning to recover accuracy, while maintaining low generation length. In terms of per-token speeds, on an 8XH100 node we achieve 1.63X and 1.22X throughput speedups in long-context and short-context settings, respectively. gpt-oss-puzzle-88B also delivers throughput speedups of 2.82X on a single NVIDIA H100 GPU. However, because token counts can change with reasoning effort and model variants, per-token throughput (tok/s) and latency (ms/token) do not necessarily lead to end-to-end speedups: a 2X throughput gain is erased if traces grow 2X. Conversely, throughput gains can be spent on more reasoning tokens to improve accuracy; we therefore advocate request-level efficiency metrics that normalize throughput by tokens generated and trace an accuracy--speed frontier across reasoning efforts. We show that gpt-oss-puzzle-88B improves over gpt-oss-120B along the entire frontier, delivering up to 1.29X higher request-level efficiency. Across various benchmarks, gpt-oss-puzzle-88B matches or slightly exceeds the parent on suite-average accuracy across reasoning efforts, with retention ranging from 100.8% (high) to 108.2% (low), showing that post-training architecture search can substantially reduce inference costs without sacrificing quality.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T13:36:19Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Akhiad Bercovich</name>
+    </author>
+    <author>
+      <name>Nir Ailon</name>
+    </author>
+    <author>
+      <name>Vladimir Anisimov</name>
+    </author>
+    <author>
+      <name>Tomer Asida</name>
+    </author>
+    <author>
+      <name>Nave Assaf</name>
+    </author>
+    <author>
+      <name>Mohammad Dabbah</name>
+    </author>
+    <author>
+      <name>Ido Galil</name>
+    </author>
+    <author>
+      <name>Amnon Geifman</name>
+    </author>
+    <author>
+      <name>Yonatan Geifman</name>
+    </author>
+    <author>
+      <name>Izhak Golan</name>
+    </author>
+    <author>
+      <name>Roi Koren</name>
+    </author>
+    <author>
+      <name>Itay Levy</name>
+    </author>
+    <author>
+      <name>Zach Moshe</name>
+    </author>
+    <author>
+      <name>Pavlo Molchanov</name>
+    </author>
+    <author>
+      <name>Najeeb Nabwani</name>
+    </author>
+    <author>
+      <name>Mostofa Patwari</name>
+    </author>
+    <author>
+      <name>Omri Puny</name>
+    </author>
+    <author>
+      <name>Tomer Ronen</name>
+    </author>
+    <author>
+      <name>Itamar Schen</name>
+    </author>
+    <author>
+      <name>Elad Segal</name>
+    </author>
+    <author>
+      <name>Ido Shahaf</name>
+    </author>
+    <author>
+      <name>Oren Tropp</name>
+    </author>
+    <author>
+      <name>Ran Zilberstein</name>
+    </author>
+    <author>
+      <name>Ran El-Yaniv</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/63H+CGj7LmMnBgbD2nOaOt1ZQ7c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.15408v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:48:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.15408v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15408v1</id>
+    <title>CURE: Curriculum-guided Multi-task Training for Reliable Anatomy Grounded Report Generation</title>
+    <updated>2026-01-21T19:19:41Z</updated>
+    <link href="https://arxiv.org/abs/2601.15408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Medical vision-language models can automate the generation of radiology reports but struggle with accurate visual grounding and factual consistency. Existing models often misalign textual findings with visual evidence, leading to unreliable or weakly grounded predictions. We present CURE, an error-aware curriculum learning framework that improves grounding and report quality without any additional data. CURE fine-tunes a multimodal instructional model on phrase grounding, grounded report generation, and anatomy-grounded report generation using public datasets. The method dynamically adjusts sampling based on model performance, emphasizing harder samples to improve spatial and textual alignment. CURE improves grounding accuracy by +0.37 IoU, boosts report quality by +0.188 CXRFEScore, and reduces hallucinations by 18.6%. CURE is a data-efficient framework that enhances both grounding accuracy and report reliability. Code is available at https://github.com/PabloMessina/CURE and model weights at https://huggingface.co/pamessina/medgemma-4b-it-cure</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T19:19:41Z</published>
+    <arxiv:comment>31 pages, 7 figures, submitted to CVPR 2026 (under review)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Pablo Messina</name>
+    </author>
+    <author>
+      <name>Andrés Villa</name>
+    </author>
+    <author>
+      <name>Juan León Alcázar</name>
+    </author>
+    <author>
+      <name>Karen Sánchez</name>
+    </author>
+    <author>
+      <name>Carlos Hinojosa</name>
+    </author>
+    <author>
+      <name>Denis Parra</name>
+    </author>
+    <author>
+      <name>Álvaro Soto</name>
+    </author>
+    <author>
+      <name>Bernard Ghanem</name>
+    </author>
+  </entry>
+</feed>

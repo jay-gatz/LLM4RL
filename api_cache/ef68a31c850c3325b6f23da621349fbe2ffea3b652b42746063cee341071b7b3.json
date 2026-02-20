@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p5wP0MOgbXHk3wx2pPkxKa0hVE4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10623v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:42:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10623v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10623v1</id>
+    <title>Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling</title>
+    <updated>2026-02-11T08:14:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.10623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reward models learned from human preferences are central to aligning large language models (LLMs) via reinforcement learning from human feedback, yet they are often vulnerable to reward hacking due to noisy annotations and systematic biases such as response length or style. We propose Bayesian Non-Negative Reward Model (BNRM), a principled reward modeling framework that integrates non-negative factor analysis into Bradley-Terry (BT) preference model. BNRM represents rewards through a sparse, non-negative latent factor generative process that operates at two complementary levels: instance-specific latent variables induce disentangled reward representations, while sparsity over global latent factors acts as an implicit debiasing mechanism that suppresses spurious correlations. Together, this disentanglement-then-debiasing structure enables robust uncertainty-aware reward learning. To scale BNRM to modern LLMs, we develop an amortized variational inference network conditioned on deep model representations, allowing efficient end-to-end training. Extensive empirical results demonstrate that BNRM substantially mitigates reward over-optimization, improves robustness under distribution shifts, and yields more interpretable reward decompositions than strong baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T08:14:11Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhibin Duan</name>
+    </author>
+    <author>
+      <name>Guowei Rong</name>
+    </author>
+    <author>
+      <name>Zhuo Li</name>
+    </author>
+    <author>
+      <name>Bo Chen</name>
+    </author>
+    <author>
+      <name>Mingyuan Zhou</name>
+    </author>
+    <author>
+      <name>Dandan Guo</name>
+    </author>
+  </entry>
+</feed>

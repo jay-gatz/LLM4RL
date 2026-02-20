@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cIy8lHUhrW5jqmp/L148Zdo2ZEQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2502.18980v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T14:42:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2502.18980v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.18980v1</id>
+    <title>PEToolLLM: Towards Personalized Tool Learning in Large Language Models</title>
+    <updated>2025-02-26T09:43:08Z</updated>
+    <link href="https://arxiv.org/abs/2502.18980v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.18980v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool learning has emerged as a promising direction by extending Large Language Models' (LLMs) capabilities with external tools. Existing tool learning studies primarily focus on the general-purpose tool-use capability, which addresses explicit user requirements in instructions. However, they overlook the importance of personalized tool-use capability, leading to an inability to handle implicit user preferences. To address the limitation, we first formulate the task of personalized tool learning, which integrates user's interaction history towards personalized tool usage. To fill the gap of missing benchmarks, we construct PEToolBench, featuring diverse user preferences reflected in interaction history under three distinct personalized settings, and encompassing a wide range of tool-use scenarios. Moreover, we propose a framework PEToolLLaMA to adapt LLMs to the personalized tool learning task, which is trained through supervised fine-tuning and direct preference optimization. Extensive experiments on PEToolBench demonstrate the superiority of PEToolLLaMA over existing LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-26T09:43:08Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Qiancheng Xu</name>
+    </author>
+    <author>
+      <name>Yongqi Li</name>
+    </author>
+    <author>
+      <name>Heming Xia</name>
+    </author>
+    <author>
+      <name>Fan Liu</name>
+    </author>
+    <author>
+      <name>Min Yang</name>
+    </author>
+    <author>
+      <name>Wenjie Li</name>
+    </author>
+  </entry>
+</feed>

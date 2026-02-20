@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/a4QX1bUfbOl6c1Piq0mdvA38g9k</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09367v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09367v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09367v1</id>
+    <title>CAPER: Constrained and Procedural Reasoning for Robotic Scientific Experiments</title>
+    <updated>2026-02-10T03:18:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.09367v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09367v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic assistance in scientific laboratories requires procedurally correct long-horizon manipulation, reliable execution under limited supervision, and robustness in low-demonstration regimes. Such conditions greatly challenge end-to-end vision-language-action (VLA) models, whose assumptions of recoverable errors and data-driven policy learning often break down in protocol-sensitive experiments. We propose CAPER, a framework for Constrained And ProcEdural Reasoning for robotic scientific experiments, which explicitly restricts where learning and reasoning occur in the planning and control pipeline. Rather than strengthening end-to-end policies, CAPER enforces a responsibility-separated structure: task-level reasoning generates procedurally valid action sequences under explicit constraints, mid-level multimodal grounding realizes subtasks without delegating spatial decision-making to large language models, and low-level control adapts to physical uncertainty via reinforcement learning with minimal demonstrations. By encoding procedural commitments through interpretable intermediate representations, CAPER prevents execution-time violations of experimental logic, improving controllability, robustness, and data efficiency. Experiments on a scientific workflow benchmark and a public long-horizon manipulation dataset demonstrate consistent improvements in success rate and procedural correctness, particularly in low-data and long-horizon settings.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T03:18:41Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Jinghan Yang</name>
+    </author>
+    <author>
+      <name>Jingyi Hou</name>
+    </author>
+    <author>
+      <name>Xinbo Yu</name>
+    </author>
+    <author>
+      <name>Wei He</name>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+  </entry>
+</feed>

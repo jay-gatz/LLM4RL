@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WQqehS5zYu9z9G2CVIB2p2kVXhw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2507.23773v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:50:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2507.23773v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.23773v2</id>
+    <title>SimuRA: A World-Model-Driven Simulative Reasoning Architecture for General Goal-Oriented Agents</title>
+    <updated>2025-10-24T17:44:52Z</updated>
+    <link href="https://arxiv.org/abs/2507.23773v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.23773v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents built on foundation models hold enormous promise. Current practice, however, focuses on a one-task-one-agent approach, which not only falls short of scalability and generality, but also faces practical limitations from black-box autoregressive reasoning, where decisions unfold token by token without explicit simulation or counterfactual evaluation of outcomes. Humans, on the other hand, reason and plan by mentally simulating the consequences of actions within an internal model of the world -- a capability that supports flexible, goal-directed behavior across diverse contexts. Moving towards a more general and powerful AI agent, we introduce SimuRA, a goal-oriented architecture for generalized agentic reasoning. Based on a principled formulation of an optimal agent in any general environment, SimuRA addresses the limitations of black-box autoregressive reasoning by incorporating the world model for planning via simulation. Our prototype world model is implemented using LLMs as a substrate, leveraging the natural language as a discrete, hierarchical representation grounded in concepts for planning, while remaining model-agnostic. On complex web-browsing tasks such as flight search, SimuRA improves the success rate from 0% to 32.2% compared to a representative open-web agent baseline. Across tasks, world-model-based planning achieves up to 124% higher task completion rates than a matched black-box autoregressive baseline, demonstrating the advantages of simulative reasoning. We release ReasonerAgent-Web, a web-browsing agent built on SimuRA, as an open-source research demo.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-31T17:57:20Z</published>
+    <arxiv:comment>This submission has been updated to adjust the scope and presentation of the work</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mingkai Deng</name>
+    </author>
+    <author>
+      <name>Jinyu Hou</name>
+    </author>
+    <author>
+      <name>Zhiting Hu</name>
+    </author>
+    <author>
+      <name>Eric Xing</name>
+    </author>
+  </entry>
+</feed>

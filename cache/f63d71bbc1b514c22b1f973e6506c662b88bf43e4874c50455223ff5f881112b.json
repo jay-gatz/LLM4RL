@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S8gAL8ridMxcTbGGQeOlrfg2dJQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.07343v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:42:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.07343v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.07343v1</id>
+    <title>Seeing Roads Through Words: A Language-Guided Framework for RGB-T Driving Scene Segmentation</title>
+    <updated>2026-02-07T03:52:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.07343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.07343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust semantic segmentation of road scenes under adverse illumination, lighting, and shadow conditions remain a core challenge for autonomous driving applications. RGB-Thermal fusion is a standard approach, yet existing methods apply static fusion strategies uniformly across all conditions, allowing modality-specific noise to propagate throughout the network. Hence, we propose CLARITY that dynamically adapts its fusion strategy to the detected scene condition. Guided by vision-language model (VLM) priors, the network learns to modulate each modality's contribution based on the illumination state while leveraging object embeddings for segmentation, rather than applying a fixed fusion policy. We further introduce two mechanisms, i.e., one which preserves valid dark-object semantics that prior noise-suppression methods incorrectly discard, and a hierarchical decoder that enforces structural consistency across scales to sharpen boundaries on thin objects. Experiments on the MFNet dataset demonstrate that CLARITY establishes a new state-of-the-art (SOTA), achieving 62.3% mIoU and 77.5% mAcc.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-07T03:52:04Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ruturaj Reddy</name>
+    </author>
+    <author>
+      <name>Hrishav Bakul Barua</name>
+    </author>
+    <author>
+      <name>Junn Yong Loo</name>
+    </author>
+    <author>
+      <name>Thanh Thi Nguyen</name>
+    </author>
+    <author>
+      <name>Ganesh Krishnasamy</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rgnbXCrmG9zVjgSkJTf5C0Izkh4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2203.12601&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2203.12601" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12601v3</id>
+    <title>R3M: A Universal Visual Representation for Robot Manipulation</title>
+    <updated>2022-11-18T05:57:09Z</updated>
+    <link href="https://arxiv.org/abs/2203.12601v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12601v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how visual representations pre-trained on diverse human video data can enable data-efficient learning of downstream robotic manipulation tasks. Concretely, we pre-train a visual representation using the Ego4D human video dataset using a combination of time-contrastive learning, video-language alignment, and an L1 penalty to encourage sparse and compact representations. The resulting representation, R3M, can be used as a frozen perception module for downstream policy learning. Across a suite of 12 simulated robot manipulation tasks, we find that R3M improves task success by over 20% compared to training from scratch and by over 10% compared to state-of-the-art visual representations like CLIP and MoCo. Furthermore, R3M enables a Franka Emika Panda arm to learn a range of manipulation tasks in a real, cluttered apartment given just 20 demonstrations. Code and pre-trained models are available at https://tinyurl.com/robotr3m.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-23T17:55:09Z</published>
+    <arxiv:comment>Conference on Robot Learning (CoRL) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Suraj Nair</name>
+    </author>
+    <author>
+      <name>Aravind Rajeswaran</name>
+    </author>
+    <author>
+      <name>Vikash Kumar</name>
+    </author>
+    <author>
+      <name>Chelsea Finn</name>
+    </author>
+    <author>
+      <name>Abhinav Gupta</name>
+    </author>
+  </entry>
+</feed>

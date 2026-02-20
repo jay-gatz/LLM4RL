@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/maypvEQSvW+PnezWrxEGinV+CUQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.04528&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.04528" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04528v2</id>
+    <title>Using Large Language Models for Hyperparameter Optimization</title>
+    <updated>2024-11-11T17:30:55Z</updated>
+    <link href="https://arxiv.org/abs/2312.04528v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04528v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper explores the use of foundational large language models (LLMs) in hyperparameter optimization (HPO). Hyperparameters are critical in determining the effectiveness of machine learning models, yet their optimization often relies on manual approaches in limited-budget settings. By prompting LLMs with dataset and model descriptions, we develop a methodology where LLMs suggest hyperparameter configurations, which are iteratively refined based on model performance. Our empirical evaluations on standard benchmarks reveal that within constrained search budgets, LLMs can match or outperform traditional HPO methods like Bayesian optimization across different models on standard benchmarks. Furthermore, we propose to treat the code specifying our model as a hyperparameter, which the LLM outputs and affords greater flexibility than existing HPO approaches.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T18:46:50Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Michael R. Zhang</name>
+    </author>
+    <author>
+      <name>Nishkrit Desai</name>
+    </author>
+    <author>
+      <name>Juhan Bae</name>
+    </author>
+    <author>
+      <name>Jonathan Lorraine</name>
+    </author>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+  </entry>
+</feed>

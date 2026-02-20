@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R9uljCrX7RGGupGHit374h1CJWA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.13860v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:54:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.13860v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13860v1</id>
+    <title>Verification-Guided Context Optimization for Tool Calling via Hierarchical LLMs-as-Editors</title>
+    <updated>2025-12-15T19:48:21Z</updated>
+    <link href="https://arxiv.org/abs/2512.13860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool calling enables large language models (LLMs) to interact with external environments through tool invocation, providing a practical way to overcome the limitations of pretraining. However, the effectiveness of tool use depends heavily on the quality of the associated documentation and knowledge base context. These materials are usually written for human users and are often misaligned with how LLMs interpret information. This problem is even more pronounced in industrial settings, where hundreds of tools with overlapping functionality create challenges in scalability, variability, and ambiguity. We propose Verification-Guided Context Optimization (VGCO), a framework that uses LLMs as editors to automatically refine tool-related documentation and knowledge base context. VGCO works in two stages. First, Evaluation collects real-world failure cases and identifies mismatches between tools and their context. Second, Optimization performs hierarchical editing through offline learning with structure-aware, in-context optimization. The novelty of our LLM editors has three main aspects. First, they use a hierarchical structure that naturally integrates into the tool-calling workflow. Second, they are state-aware, action-specific, and verification-guided, which constrains the search space and enables efficient, targeted improvements. Third, they enable cost-efficient sub-task specialization, either by prompt engineering large editor models or by post-training smaller editor models. Unlike prior work that emphasizes multi-turn reasoning, VGCO focuses on the single-turn, large-scale tool-calling problem and achieves significant improvements in accuracy, robustness, and generalization across LLMs.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T19:48:21Z</published>
+    <arxiv:comment>Accepted by AAAI 2026 Workshop on Agentic AI Benchmarks and Applications for Enterprise Tasks</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Henger Li</name>
+    </author>
+    <author>
+      <name>Shuangjie You</name>
+    </author>
+    <author>
+      <name>Flavio Di Palo</name>
+    </author>
+    <author>
+      <name>Yiyue Qian</name>
+    </author>
+    <author>
+      <name>Ayush Jain</name>
+    </author>
+  </entry>
+</feed>

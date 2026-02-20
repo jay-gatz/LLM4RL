@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DxG/e/lxe1YUpr7ilncWZwL6s9U</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.12716v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.12716v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.12716v1</id>
+    <title>CoDA: A Context-Decoupled Hierarchical Agent with Reinforcement Learning</title>
+    <updated>2025-12-14T14:41:29Z</updated>
+    <link href="https://arxiv.org/abs/2512.12716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.12716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents trained with reinforcement learning (RL) show great promise for solving complex, multi-step tasks. However, their performance is often crippled by "Context Explosion", where the accumulation of long text outputs overwhelms the model's context window and leads to reasoning failures. To address this, we introduce CoDA, a Context-Decoupled hierarchical Agent, a simple but effective reinforcement learning framework that decouples high-level planning from low-level execution. It employs a single, shared LLM backbone that learns to operate in two distinct, contextually isolated roles: a high-level Planner that decomposes tasks within a concise strategic context, and a low-level Executor that handles tool interactions in an ephemeral, isolated workspace. We train this unified agent end-to-end using PECO (Planner-Executor Co-Optimization), a reinforcement learning methodology that applies a trajectory-level reward to jointly optimize both roles, fostering seamless collaboration through context-dependent policy updates. Extensive experiments demonstrate that CoDA achieves significant performance improvements over state-of-the-art baselines on complex multi-hop question-answering benchmarks, and it exhibits strong robustness in long-context scenarios, maintaining stable performance while all other baselines suffer severe degradation, thus further validating the effectiveness of our hierarchical design in mitigating context overload.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-14T14:41:29Z</published>
+    <arxiv:comment>Accepted to WSDM '26 Oral</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xuanzhang Liu</name>
+    </author>
+    <author>
+      <name>Jianglun Feng</name>
+    </author>
+    <author>
+      <name>Zhuoran Zhuang</name>
+    </author>
+    <author>
+      <name>Junzhe Zhao</name>
+    </author>
+    <author>
+      <name>Maofei Que</name>
+    </author>
+    <author>
+      <name>Jieting Li</name>
+    </author>
+    <author>
+      <name>Dianlei Wang</name>
+    </author>
+    <author>
+      <name>Hao Tong</name>
+    </author>
+    <author>
+      <name>Ye Chen</name>
+    </author>
+    <author>
+      <name>Pan Li</name>
+    </author>
+    <arxiv:doi>10.1145/3773966.3777986</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3773966.3777986" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RioKoJHjertMsISx0WKlx7XdWYA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16008v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:30:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16008v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16008v1</id>
+    <title>MAEB: Massive Audio Embedding Benchmark</title>
+    <updated>2026-02-17T21:00:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.16008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the Massive Audio Embedding Benchmark (MAEB), a large-scale benchmark covering 30 tasks across speech, music, environmental sounds, and cross-modal audio-text reasoning in 100+ languages. We evaluate 50+ models and find that no single model dominates across all tasks: contrastive audio-text models excel at environmental sound classification (e.g., ESC50) but score near random on multilingual speech tasks (e.g., SIB-FLEURS), while speech-pretrained models show the opposite pattern. Clustering remains challenging for all models, with even the best-performing model achieving only modest results. We observe that models excelling on acoustic understanding often perform poorly on linguistic tasks, and vice versa. We also show that the performance of audio encoders on MAEB correlates highly with their performance when used in audio large language models. MAEB is derived from MAEB+, a collection of 98 tasks. MAEB is designed to maintain task diversity while reducing evaluation cost, and it integrates into the MTEB ecosystem for unified evaluation across text, image, and audio modalities. We release MAEB and all 98 tasks along with code and a leaderboard at https://github.com/embeddings-benchmark/mteb.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T21:00:51Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Adnan El Assadi</name>
+    </author>
+    <author>
+      <name>Isaac Chung</name>
+    </author>
+    <author>
+      <name>Chenghao Xiao</name>
+    </author>
+    <author>
+      <name>Roman Solomatin</name>
+    </author>
+    <author>
+      <name>Animesh Jha</name>
+    </author>
+    <author>
+      <name>Rahul Chand</name>
+    </author>
+    <author>
+      <name>Silky Singh</name>
+    </author>
+    <author>
+      <name>Kaitlyn Wang</name>
+    </author>
+    <author>
+      <name>Ali Sartaz Khan</name>
+    </author>
+    <author>
+      <name>Marc Moussa Nasser</name>
+    </author>
+    <author>
+      <name>Sufen Fong</name>
+    </author>
+    <author>
+      <name>Pengfei He</name>
+    </author>
+    <author>
+      <name>Alan Xiao</name>
+    </author>
+    <author>
+      <name>Ayush Sunil Munot</name>
+    </author>
+    <author>
+      <name>Aditya Shrivastava</name>
+    </author>
+    <author>
+      <name>Artem Gazizov</name>
+    </author>
+    <author>
+      <name>Niklas Muennighoff</name>
+    </author>
+    <author>
+      <name>Kenneth Enevoldsen</name>
+    </author>
+  </entry>
+</feed>

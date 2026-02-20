@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l/1v2QWCIKeJayls0uglNvqod1I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.00993v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.00993v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.00993v1</id>
+    <title>Aligning LLM agents with human learning and adjustment behavior: a dual agent approach</title>
+    <updated>2025-11-02T16:05:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.00993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.00993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective modeling of how human travelers learn and adjust their travel behavior from interacting with transportation systems is critical for system assessment and planning. However, this task is also difficult due to the complex cognition and decision-making involved in such behavior. Recent research has begun to leverage Large Language Model (LLM) agents for this task. Building on this, we introduce a novel dual-agent framework that enables continuous learning and alignment between LLM agents and human travelers on learning and adaptation behavior from online data streams. Our approach involves a set of LLM traveler agents, equipped with a memory system and a learnable persona, which serve as simulators for human travelers. To ensure behavioral alignment, we introduce an LLM calibration agent that leverages the reasoning and analytical capabilities of LLMs to train the personas of these traveler agents. Working together, this dual-agent system is designed to track and align the underlying decision-making mechanisms of travelers and produce realistic, adaptive simulations. Using a real-world dataset from a day-to-day route choice experiment, we show our approach significantly outperforms existing LLM-based methods in both individual behavioral alignment and aggregate simulation accuracy. Furthermore, we demonstrate that our method moves beyond simple behavioral mimicry to capture the evolution of underlying learning processes, a deeper alignment that fosters robust generalization. Overall, our framework provides a new approach for creating adaptive and behaviorally realistic agents to simulate travelers' learning and adaptation that can benefit transportation simulation and policy analysis.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-02T16:05:33Z</published>
+    <arxiv:comment>32 pages, 6 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tianming Liu</name>
+    </author>
+    <author>
+      <name>Jirong Yang</name>
+    </author>
+    <author>
+      <name>Yafeng Yin</name>
+    </author>
+    <author>
+      <name>Manzi Li</name>
+    </author>
+    <author>
+      <name>Linghao Wang</name>
+    </author>
+    <author>
+      <name>Zheng Zhu</name>
+    </author>
+  </entry>
+</feed>

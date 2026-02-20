@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NH2+m29j1mApd+mvwOpIXa+W6ZQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05746v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:47:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05746v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05746v1</id>
+    <title>Learning to Inject: Automated Prompt Injection via Reinforcement Learning</title>
+    <updated>2026-02-05T15:14:46Z</updated>
+    <link href="https://arxiv.org/abs/2602.05746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection is one of the most critical vulnerabilities in LLM agents; yet, effective automated attacks remain largely unexplored from an optimization perspective. Existing methods heavily depend on human red-teamers and hand-crafted prompts, limiting their scalability and adaptability. We propose AutoInject, a reinforcement learning framework that generates universal, transferable adversarial suffixes while jointly optimizing for attack success and utility preservation on benign tasks. Our black-box method supports both query-based optimization and transfer attacks to unseen models and tasks. Using only a 1.5B parameter adversarial suffix generator, we successfully compromise frontier systems including GPT 5 Nano, Claude Sonnet 3.5, and Gemini 2.5 Flash on the AgentDojo benchmark, establishing a stronger baseline for automated prompt injection research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T15:14:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <author>
+      <name>Florian Tramer</name>
+    </author>
+  </entry>
+</feed>

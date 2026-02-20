@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mpvVUBe3z83dgfexudYRy84En+4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.14480v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.14480v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14480v1</id>
+    <title>Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents</title>
+    <updated>2025-09-17T23:25:00Z</updated>
+    <link href="https://arxiv.org/abs/2509.14480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective interactive tool use requires agents to master Tool Integrated Reasoning (TIR): a complex process involving multi-turn planning and long-context dialogue management. To train agents for this dynamic process, particularly in multi-modal contexts, we introduce a sandbox environment for reinforcement learning (RL) that supports interleaved speech-text rollouts. Our core strategy, Turn-level Adjudicated Reinforcement Learning (TARL), addresses the challenge of credit assignment in long-horizon tasks by employing a Large Language Model (LLM) as a judge to provide turn-level evaluation. To enhance exploration, we integrate a mixed-task training curriculum with mathematical reasoning problems. This unified approach boosts the task pass rate on the text-based $τ$-bench by over 6% compared to strong RL baselines. Crucially, we demonstrate our framework's suitability for fine-tuning a multi-modal foundation model for agentic tasks. By training a base multi-modal LLM on interleaved speech-text rollouts, we equip it with tool-use abilities, paving the way for more natural, voice-driven interactive agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T23:25:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Weiting Tan</name>
+    </author>
+    <author>
+      <name>Xinghua Qu</name>
+    </author>
+    <author>
+      <name>Ming Tu</name>
+    </author>
+    <author>
+      <name>Meng Ge</name>
+    </author>
+    <author>
+      <name>Andy T. Liu</name>
+    </author>
+    <author>
+      <name>Philipp Koehn</name>
+    </author>
+    <author>
+      <name>Lu Lu</name>
+    </author>
+  </entry>
+</feed>

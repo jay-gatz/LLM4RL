@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I5yPjQt7WcNRhH65S8ixXzR8vRg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00686v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00686v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00686v1</id>
+    <title>Learning to Accelerate Vision-Language-Action Models through Adaptive Visual Token Caching</title>
+    <updated>2026-01-31T12:12:51Z</updated>
+    <link href="https://arxiv.org/abs/2602.00686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models have demonstrated remarkable generalization capabilities in robotic manipulation tasks, yet their substantial computational overhead remains a critical obstacle to real-world deployment. Improving inference efficiency is therefore essential for practical robotic applications. Existing acceleration methods often rely on heuristic or static strategies--such as rule-based token caching or pruning--that are decoupled from task objectives and fail to adapt to dynamic scene changes. In this work, we reformulate inference acceleration as a learnable policy optimization problem and propose a novel framework that integrates a dynamic, task-aware decision-making process directly into the VLA model. At its core are two lightweight, cooperative modules: a Cached Token Selector, which determines which tokens should be reused, and a Cache Ratio Predictor, which controls how many tokens to reuse. Training these modules is non-trivial due to their discrete decisions. We address this by adopting a differentiable relaxation that allows gradient-based end-to-end optimization. Extensive experiments on the LIBERO and SIMPLER benchmarks, as well as real-robot evaluations, show that our method achieves a 1.76x wall-clock inference speedup while simultaneously improving the average success rate by 1.9 percentage points (from 75.0% to 76.9%) on LIBERO and by 5.0 percentage points on real-world tasks, significantly outperforming existing baselines. This work highlights the potential of learning task-aware computational allocation policies, paving the way for VLA models that are both powerful and efficient.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T12:12:51Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yujie Wei</name>
+    </author>
+    <author>
+      <name>Jiahan Fan</name>
+    </author>
+    <author>
+      <name>Jiyu Guo</name>
+    </author>
+    <author>
+      <name>Ruichen Zhen</name>
+    </author>
+    <author>
+      <name>Rui Shao</name>
+    </author>
+    <author>
+      <name>Xiu Su</name>
+    </author>
+    <author>
+      <name>Zeke Xie</name>
+    </author>
+    <author>
+      <name>Shuo Yang</name>
+    </author>
+  </entry>
+</feed>

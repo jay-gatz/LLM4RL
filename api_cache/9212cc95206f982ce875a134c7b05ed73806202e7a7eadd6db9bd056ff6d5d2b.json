@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J+PNYDv/TgRYoT3JQmZbycdaSg8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2506.07976v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:50:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2506.07976v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.07976v2</id>
+    <title>Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction</title>
+    <updated>2025-06-10T12:50:18Z</updated>
+    <link href="https://arxiv.org/abs/2506.07976v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.07976v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current paradigm of test-time scaling relies on generating long reasoning traces ("thinking" more) before producing a response. In agent problems that require interaction, this can be done by generating thinking traces before acting in the world. However, this process does not allow agents to acquire new information from the environment or adapt their behavior over time. In this work, we propose to scale test-time interaction, an untapped dimension of test-time scaling that increases the agent's interaction horizon to enable running rich behaviors such as exploration, backtracking, and dynamic re-planning within a single rollout. To demonstrate the promise of this scaling dimension, we study the domain of web agents. We first show that even prompting-based interaction scaling without any training can improve task success on web benchmarks non-trivially. Building on this, we introduce TTI (Test-Time Interaction), a curriculum-based online reinforcement learning (RL) approach that trains agents by adaptively adjusting their rollout lengths. Using a Gemma 3 12B model, TTI produces state-of-the-art open-source, open-data web agents on WebVoyager and WebArena benchmarks. We further show that TTI enables agents to balance exploration and exploitation adaptively. Our results establish interaction scaling as a powerful, complementary axis to scaling per-step compute, offering new avenues for training adaptive agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-09T17:50:02Z</published>
+    <arxiv:comment>Fixed typo in Figure 6 and Conclusion</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Junhong Shen</name>
+    </author>
+    <author>
+      <name>Hao Bai</name>
+    </author>
+    <author>
+      <name>Lunjun Zhang</name>
+    </author>
+    <author>
+      <name>Yifei Zhou</name>
+    </author>
+    <author>
+      <name>Amrith Setlur</name>
+    </author>
+    <author>
+      <name>Shengbang Tong</name>
+    </author>
+    <author>
+      <name>Diego Caples</name>
+    </author>
+    <author>
+      <name>Nan Jiang</name>
+    </author>
+    <author>
+      <name>Tong Zhang</name>
+    </author>
+    <author>
+      <name>Ameet Talwalkar</name>
+    </author>
+    <author>
+      <name>Aviral Kumar</name>
+    </author>
+  </entry>
+</feed>

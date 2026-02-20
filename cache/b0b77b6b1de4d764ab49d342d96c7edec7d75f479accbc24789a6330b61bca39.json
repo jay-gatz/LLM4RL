@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BrSDkkB4Qn5CSCgMk3TZRi3fOzY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14989v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14989v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14989v1</id>
+    <title>ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery</title>
+    <updated>2026-02-16T18:16:19Z</updated>
+    <link href="https://arxiv.org/abs/2602.14989v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14989v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision language models (VLMs) achieve strong performance on RGB imagery, but they do not generalize to thermal images. Thermal sensing plays a critical role in settings where visible light fails, including nighttime surveillance, search and rescue, autonomous driving, and medical screening. Unlike RGB imagery, thermal images encode physical temperature rather than color or texture, requiring perceptual and reasoning capabilities that existing RGB-centric benchmarks do not evaluate. We introduce ThermEval-B, a structured benchmark of approximately 55,000 thermal visual question answering pairs designed to assess the foundational primitives required for thermal vision language understanding. ThermEval-B integrates public datasets with our newly collected ThermEval-D, the first dataset to provide dense per-pixel temperature maps with semantic body-part annotations across diverse indoor and outdoor environments. Evaluating 25 open-source and closed-source VLMs, we find that models consistently fail at temperature-grounded reasoning, degrade under colormap transformations, and default to language priors or fixed responses, with only marginal gains from prompting or supervised fine-tuning. These results demonstrate that thermal understanding requires dedicated evaluation beyond RGB-centric assumptions, positioning ThermEval as a benchmark to drive progress in thermal vision language modeling.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T18:16:19Z</published>
+    <arxiv:comment>8 Pages with 2 figures of main content. 2 pages of References. 10 pages of appendix with 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ayush Shrivastava</name>
+    </author>
+    <author>
+      <name>Kirtan Gangani</name>
+    </author>
+    <author>
+      <name>Laksh Jain</name>
+    </author>
+    <author>
+      <name>Mayank Goel</name>
+    </author>
+    <author>
+      <name>Nipun Batra</name>
+    </author>
+  </entry>
+</feed>

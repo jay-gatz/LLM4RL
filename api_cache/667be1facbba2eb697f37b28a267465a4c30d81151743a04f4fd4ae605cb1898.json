@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nrj7R1uuBzfYjxxBu9csoAvxxGg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00513v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00513v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00513v2</id>
+    <title>Minerva: Reinforcement Learning with Verifiable Rewards for Cyber Threat Intelligence LLMs</title>
+    <updated>2026-02-11T20:33:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.00513v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00513v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cyber threat intelligence (CTI) analysts routinely convert noisy, unstructured security artifacts into standardized, automation-ready representations. Although large language models (LLMs) show promise for this task, existing approaches remain brittle when producing structured CTI outputs and have largely relied on supervised fine-tuning (SFT). In contrast, CTI standards and community-maintained resources define canonical identifiers and schemas that enable deterministic verification of model outputs. We leverage this structure to study reinforcement learning with verifiable rewards (RLVR) for CTI tasks. We introduce \textit{Minerva}, a unified dataset and training pipeline spanning multiple CTI subtasks, each paired with task-specific verifiers that score structured outputs and identifier predictions. To address reward sparsity during rollout, we propose a lightweight self-training mechanism that generates additional verified trajectories and distills them back into the model. Experiments across LLM backbones show consistent improvements in accuracy and robustness over SFT across multiple benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T05:01:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Md Tanvirul Alam</name>
+    </author>
+    <author>
+      <name>Aritran Piplai</name>
+    </author>
+    <author>
+      <name>Ionut Cardei</name>
+    </author>
+    <author>
+      <name>Nidhi Rastogi</name>
+    </author>
+    <author>
+      <name>Peter J Worth</name>
+    </author>
+  </entry>
+</feed>

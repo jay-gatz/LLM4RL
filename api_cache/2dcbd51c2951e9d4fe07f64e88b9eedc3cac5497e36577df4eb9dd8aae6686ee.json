@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HV16fVTsi/EFmrpZdd4gp6VpLxE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10006v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10006v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10006v1</id>
+    <title>Answer First, Reason Later: Aligning Search Relevance via Mode-Balanced Reinforcement Learning</title>
+    <updated>2026-02-10T17:28:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.10006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building a search relevance model that achieves both low latency and high performance is a long-standing challenge in the search industry. To satisfy the millisecond-level response requirements of online systems while retaining the interpretable reasoning traces of Large Language Models (LLMs), we propose a novel \textbf{Answer-First, Reason Later (AFRL)} paradigm. This paradigm requires the model to output the definitive relevance score in the very first token, followed by a structured logical explanation. Inspired by the success of reasoning models, we adopt a "Supervised Fine-Tuning (SFT) + Reinforcement Learning (RL)" pipeline to achieve AFRL. However, directly applying existing RL training often leads to \textbf{mode collapse} in the search relevance task, where the model forgets complex long-tail rules in pursuit of high rewards. From an information theory perspective: RL inherently minimizes the \textbf{Reverse KL divergence}, which tends to seek probability peaks (mode-seeking) and is prone to "reward hacking." On the other hand, SFT minimizes the \textbf{Forward KL divergence}, forcing the model to cover the data distribution (mode-covering) and effectively anchoring expert rules. Based on this insight, we propose a \textbf{Mode-Balanced Optimization} strategy, incorporating an SFT auxiliary loss into Stepwise-GRPO training to balance these two properties. Furthermore, we construct an automated instruction evolution system and a multi-stage curriculum to ensure expert-level data quality. Extensive experiments demonstrate that our 32B teacher model achieves state-of-the-art performance. Moreover, the AFRL architecture enables efficient knowledge distillation, successfully transferring expert-level logic to a 0.6B model, thereby reconciling reasoning depth with deployment latency.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T17:28:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shijie Zhang</name>
+    </author>
+    <author>
+      <name>Xiang Guo</name>
+    </author>
+    <author>
+      <name>Rujun Guo</name>
+    </author>
+    <author>
+      <name>Shaoyu Liu</name>
+    </author>
+    <author>
+      <name>Xiaozhao Wang</name>
+    </author>
+    <author>
+      <name>Guanjun Jiang</name>
+    </author>
+    <author>
+      <name>Kevin Zhang</name>
+    </author>
+  </entry>
+</feed>

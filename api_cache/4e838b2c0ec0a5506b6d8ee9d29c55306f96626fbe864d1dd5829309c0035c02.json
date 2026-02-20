@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CgttfQJ7rxpEbPXfDmFa2rcE2ns</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15864v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:07:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15864v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15864v1</id>
+    <title>ReasonNavi: Human-Inspired Global Map Reasoning for Zero-Shot Embodied Navigation</title>
+    <updated>2026-01-26T19:09:20Z</updated>
+    <link href="https://arxiv.org/abs/2602.15864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied agents often struggle with efficient navigation because they rely primarily on partial egocentric observations, which restrict global foresight and lead to inefficient exploration. In contrast, humans plan using maps: we reason globally first, then act locally. We introduce ReasonNavi, a human-inspired framework that operationalizes this reason-then-act paradigm by coupling Multimodal Large Language Models (MLLMs) with deterministic planners. ReasonNavi converts a top-down map into a discrete reasoning space by room segmentation and candidate target nodes sampling. An MLLM is then queried in a multi-stage process to identify the candidate most consistent with the instruction (object, image, or text goal), effectively leveraging the model's semantic reasoning ability while sidestepping its weakness in continuous coordinate prediction. The selected waypoint is grounded into executable trajectories using a deterministic action planner over an online-built occupancy map, while pretrained object detectors and segmenters ensure robust recognition at the goal. This yields a unified zero-shot navigation framework that requires no MLLM fine-tuning, circumvents the brittleness of RL-based policies and scales naturally with foundation model improvements. Across three navigation tasks, ReasonNavi consistently outperforms prior methods that demand extensive training or heavy scene modeling, offering a scalable, interpretable, and globally grounded solution to embodied navigation. Project page: https://reasonnavi.github.io/</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T19:09:20Z</published>
+    <arxiv:comment>18 pages, 6 figures, Project page: https://reasonnavi.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuzhuo Ao</name>
+    </author>
+    <author>
+      <name>Anbang Wang</name>
+    </author>
+    <author>
+      <name>Yu-Wing Tai</name>
+    </author>
+    <author>
+      <name>Chi-Keung Tang</name>
+    </author>
+  </entry>
+</feed>

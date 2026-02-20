@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CkTPwEdpUUH5fbC0/dC0s5+yP/0</id>
+  <title>arXiv Query: search_query=&amp;id_list=1103.0086v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:53:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=1103.0086v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1103.0086v1</id>
+    <title>A generic trust framework for large-scale open systems using machine learning</title>
+    <updated>2011-03-01T06:03:15Z</updated>
+    <link href="https://arxiv.org/abs/1103.0086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.0086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many large scale distributed systems and on the web, agents need to interact with other unknown agents to carry out some tasks or transactions. The ability to reason about and assess the potential risks in carrying out such transactions is essential for providing a safe and reliable environment. A traditional approach to reason about the trustworthiness of a transaction is to determine the trustworthiness of the specific agent involved, derived from the history of its behavior. As a departure from such traditional trust models, we propose a generic, machine learning approach based trust framework where an agent uses its own previous transactions (with other agents) to build a knowledge base, and utilize this to assess the trustworthiness of a transaction based on associated features, which are capable of distinguishing successful transactions from unsuccessful ones. These features are harnessed using appropriate machine learning algorithms to extract relationships between the potential transaction and previous transactions. The trace driven experiments using real auction dataset show that this approach provides good accuracy and is highly efficient compared to other trust mechanisms, especially when historical information of the specific agent is rare, incomplete or inaccurate.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-01T06:03:15Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Gilles Tredan</name>
+    </author>
+    <author>
+      <name>Anwitaman Datta</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6UNONj/2rOltuthGNq5YlzHBMTU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14653v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14653v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14653v1</id>
+    <title>Is Information Density Uniform when Utterances are Grounded on Perception and Discourse?</title>
+    <updated>2026-02-16T11:25:00Z</updated>
+    <link href="https://arxiv.org/abs/2602.14653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Uniform Information Density (UID) hypothesis posits that speakers are subject to a communicative pressure to distribute information evenly within utterances, minimising surprisal variance. While this hypothesis has been tested empirically, prior studies are limited exclusively to text-only inputs, abstracting away from the perceptual context in which utterances are produced. In this work, we present the first computational study of UID in visually grounded settings. We estimate surprisal using multilingual vision-and-language models over image-caption data in 30 languages and visual storytelling data in 13 languages, together spanning 11 families. We find that grounding on perception consistently smooths the distribution of information, increasing both global and local uniformity across typologically diverse languages compared to text-only settings. In visual narratives, grounding in both image and discourse contexts has additional effects, with the strongest surprisal reductions occurring at the onset of discourse units. Overall, this study takes a first step towards modelling the temporal dynamics of information flow in ecologically plausible, multimodal language use, and finds that grounded language exhibits greater information uniformity, supporting a context-sensitive formulation of UID.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T11:25:00Z</published>
+    <arxiv:comment>Accepted as main paper at EACL 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Matteo Gay</name>
+    </author>
+    <author>
+      <name>Coleman Haley</name>
+    </author>
+    <author>
+      <name>Mario Giulianelli</name>
+    </author>
+    <author>
+      <name>Edoardo Ponti</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QHg+Co3FYPsYAep68BFDj98zImY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21969v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21969v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21969v2</id>
+    <title>Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding</title>
+    <updated>2026-01-30T02:59:30Z</updated>
+    <link href="https://arxiv.org/abs/2601.21969v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21969v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often hallucinate, generating content inconsistent with the input. Retrieval-Augmented Generation (RAG) and Reinforcement Learning with Human Feedback (RLHF) can mitigate hallucinations but require resource-intensive retrieval or large-scale fine-tuning. Decoding-based methods are lighter yet lack explicit hallucination control. To address this, we present Token-Guard, a token-level hallucination control method based on self-checking decoding. Token-Guard performs internal verification at each reasoning step to detect hallucinated tokens before they propagate. Candidate fragments are further evaluated in a latent space with explicit hallucination risk scoring, while iterative pruning and regeneration dynamically correct detected errors. Experiments on HALU datasets show Token-Guard substantially reduces hallucinations and improves generation accuracy, offering a scalable, modular solution for reliable LLM outputs. Our code is publicly available.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T16:48:47Z</published>
+    <arxiv:comment>Accepted by ICLR 2026 main conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ICLR 2026</arxiv:journal_ref>
+    <author>
+      <name>Yifan Zhu</name>
+    </author>
+    <author>
+      <name>Huiqiang Rong</name>
+    </author>
+    <author>
+      <name>Haoran Luo</name>
+    </author>
+  </entry>
+</feed>

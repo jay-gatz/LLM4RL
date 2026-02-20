@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N7IrTs7DannEOc5A9w5TX2O9J+Y</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14102v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:39:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14102v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14102v1</id>
+    <title>DALL: Data Labeling via Data Programming and Active Learning Enhanced by Large Language Models</title>
+    <updated>2026-02-15T11:36:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.14102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep learning models for natural language processing rely heavily on high-quality labeled datasets. However, existing labeling approaches often struggle to balance label quality with labeling cost. To address this challenge, we propose DALL, a text labeling framework that integrates data programming, active learning, and large language models. DALL introduces a structured specification that allows users and large language models to define labeling functions via configuration, rather than code. Active learning identifies informative instances for review, and the large language model analyzes these instances to help users correct labels and to refine or suggest labeling functions. We implement DALL as an interactive labeling system for text labeling tasks. Comparative, ablation, and usability studies demonstrate DALL's efficiency, the effectiveness of its modules, and its usability.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T11:36:15Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Guozheng Li</name>
+    </author>
+    <author>
+      <name>Ao Wang</name>
+    </author>
+    <author>
+      <name>Shaoxiang Wang</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Pengcheng Cao</name>
+    </author>
+    <author>
+      <name>Yang Bai</name>
+    </author>
+    <author>
+      <name>Chi Harold Liu</name>
+    </author>
+  </entry>
+</feed>

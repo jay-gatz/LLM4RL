@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OFB5wRMu90sL8/BH7KfVIZpSmIU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15183v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15183v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15183v1</id>
+    <title>Seeing to Generalize: How Visual Data Corrects Binding Shortcuts</title>
+    <updated>2026-02-16T20:43:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.15183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Models (VLMs) are designed to extend Large Language Models (LLMs) with visual capabilities, yet in this work we observe a surprising phenomenon: VLMs can outperform their underlying LLMs on purely text-only tasks, particularly in long-context information retrieval. To investigate this effect, we build a controlled synthetic retrieval task and find that a transformer trained only on text achieves perfect in-distribution accuracy but fails to generalize out of distribution, while subsequent training on an image-tokenized version of the same task nearly doubles text-only OOD performance. Mechanistic interpretability reveals that visual training changes the model's internal binding strategy: text-only training encourages positional shortcuts, whereas image-based training disrupts them through spatial translation invariance, forcing the model to adopt a more robust symbolic binding mechanism that persists even after text-only examples are reintroduced. We further characterize how binding strategies vary across training regimes, visual encoders, and initializations, and show that analogous shifts occur during pretrained LLM-to-VLM transitions. Our findings suggest that cross-modal training can enhance reasoning and generalization even for tasks grounded in a single modality.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T20:43:12Z</published>
+    <arxiv:comment>Submitted to ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nicolas Buzeta</name>
+    </author>
+    <author>
+      <name>Felipe del Rio</name>
+    </author>
+    <author>
+      <name>Cristian Hinostroza</name>
+    </author>
+    <author>
+      <name>Denis Parra</name>
+    </author>
+    <author>
+      <name>Hans Lobel</name>
+    </author>
+    <author>
+      <name>Rodrigo Toro Icarte</name>
+    </author>
+  </entry>
+</feed>

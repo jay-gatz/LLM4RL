@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/egctg2MoR1TuRDW57qd7gu/O4T8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14743v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14743v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14743v1</id>
+    <title>LLMStructBench: Benchmarking Large Language Model Structured Data Extraction</title>
+    <updated>2026-02-16T13:37:58Z</updated>
+    <link href="https://arxiv.org/abs/2602.14743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present LLMStructBench, a novel benchmark for evaluating Large Language Models (LLMs) on extracting structured data and generating valid JavaScript Object Notation (JSON) outputs from natural-language text. Our open dataset comprises diverse, manually verified parsing scenarios of varying complexity and enables systematic testing across 22 models and five prompting strategies. We further introduce complementary performance metrics that capture both token-level accuracy and document-level validity, facilitating rigorous comparison of model, size, and prompting effects on parsing reliability.
+  In particular, we show that choosing the right prompting strategy is more important than standard attributes such as model size. This especially ensures structural validity for smaller or less reliable models but increase the number of semantic errors. Our benchmark suite is an step towards future research in the area of LLM applied to parsing or Extract, Transform and Load (ETL) applications.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T13:37:58Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sönke Tenckhoff</name>
+    </author>
+    <author>
+      <name>Mario Koddenbrock</name>
+    </author>
+    <author>
+      <name>Erik Rodner</name>
+    </author>
+  </entry>
+</feed>

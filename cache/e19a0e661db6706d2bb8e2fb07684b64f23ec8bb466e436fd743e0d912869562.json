@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V/fEq9kaWkNxaxmI4XDFj95ZPuo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.05483v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.05483v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.05483v1</id>
+    <title>MMUEChange: A Generalized LLM Agent Framework for Intelligent Multi-Modal Urban Environment Change Analysis</title>
+    <updated>2026-01-09T02:34:35Z</updated>
+    <link href="https://arxiv.org/abs/2601.05483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.05483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding urban environment change is essential for sustainable development. However, current approaches, particularly remote sensing change detection, often rely on rigid, single-modal analysis. To overcome these limitations, we propose MMUEChange, a multi-modal agent framework that flexibly integrates heterogeneous urban data via a modular toolkit and a core module, Modality Controller for cross- and intra-modal alignment, enabling robust analysis of complex urban change scenarios. Case studies include: a shift toward small, community-focused parks in New York, reflecting local green space efforts; the spread of concentrated water pollution across districts in Hong Kong, pointing to coordinated water management; and a notable decline in open dumpsites in Shenzhen, with contrasting links between nighttime economic activity and waste types, indicating differing urban pressures behind domestic and construction waste. Compared to the best-performing baseline, the MMUEChange agent achieves a 46.7% improvement in task success rate and effectively mitigates hallucination, demonstrating its capacity to support complex urban change analysis tasks with real-world policy implications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-09T02:34:35Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Applied Soft Computing 190 (2026) 114576</arxiv:journal_ref>
+    <author>
+      <name>Zixuan Xiao</name>
+    </author>
+    <author>
+      <name>Jun Ma</name>
+    </author>
+    <author>
+      <name>Siwei Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.asoc.2026.114576</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asoc.2026.114576" title="doi"/>
+  </entry>
+</feed>

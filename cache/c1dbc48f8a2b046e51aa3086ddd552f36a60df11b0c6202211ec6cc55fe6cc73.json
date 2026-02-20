@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Oe6TqUz8EUBF+SZCWLpTTX0Xzzc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21343v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21343v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21343v2</id>
+    <title>Self-Improving Pretraining: using post-trained models to pretrain better models</title>
+    <updated>2026-02-04T17:31:10Z</updated>
+    <link href="https://arxiv.org/abs/2601.21343v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21343v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensuring safety, factuality and overall quality in the generations of large language models is a critical challenge, especially as these models are increasingly deployed in real-world applications. The prevailing approach to addressing these issues involves collecting expensive, carefully curated datasets and applying multiple stages of fine-tuning and alignment. However, even this complex pipeline cannot guarantee the correction of patterns learned during pretraining. Therefore, addressing these issues during pretraining is crucial, as it shapes a model's core behaviors and prevents unsafe or hallucinated outputs from becoming deeply embedded. To tackle this issue, we introduce a new pretraining method that streams documents and uses reinforcement learning (RL) to improve the next K generated tokens at each step. A strong, post-trained model judges candidate generations -- including model rollouts, the original suffix, and a rewritten suffix -- for quality, safety, and factuality. Early in training, the process relies on the original and rewritten suffixes; as the model improves, RL rewards high-quality rollouts. This approach builds higher quality, safer, and more factual models from the ground up. In experiments, our method gives 36.2% and 18.5% relative improvements over standard pretraining in terms of factuality and safety, and up to 86.3% win rate improvements in overall generation quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T07:09:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ellen Xiaoqing Tan</name>
+    </author>
+    <author>
+      <name>Shehzaad Dhuliawala</name>
+    </author>
+    <author>
+      <name>Jing Xu</name>
+    </author>
+    <author>
+      <name>Ping Yu</name>
+    </author>
+    <author>
+      <name>Sainbayar Sukhbaatar</name>
+    </author>
+    <author>
+      <name>Jason Weston</name>
+    </author>
+    <author>
+      <name>Olga Golovneva</name>
+    </author>
+  </entry>
+</feed>

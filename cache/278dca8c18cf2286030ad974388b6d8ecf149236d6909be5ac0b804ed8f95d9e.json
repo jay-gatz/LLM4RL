@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sFr3LI6cRBhBP5VikcDqUdjS5Vg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.15997&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.15997" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15997v3</id>
+    <title>Aligning Large Language Models with Human Preferences through Representation Engineering</title>
+    <updated>2024-07-03T05:21:02Z</updated>
+    <link href="https://arxiv.org/abs/2312.15997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aligning large language models (LLMs) with human preferences is crucial for enhancing their utility in terms of helpfulness, truthfulness, safety, harmlessness, and interestingness. Existing methods for achieving this alignment often involves employing reinforcement learning from human feedback (RLHF) to fine-tune LLMs based on human labels assessing the relative quality of model responses. Nevertheless, RLHF is susceptible to instability during fine-tuning and presents challenges in implementation.Drawing inspiration from the emerging field of representation engineering (RepE), this study aims to identify relevant representations for high-level human preferences embedded in patterns of activity within an LLM, and achieve precise control of model behavior by transforming its representations. This novel approach, denoted as Representation Alignment from Human Feedback (RAHF), proves to be effective, computationally efficient, and easy to implement.Extensive experiments demonstrate the efficacy of RAHF in not only capturing but also manipulating representations to align with a broad spectrum of human preferences or values, rather than being confined to a singular concept or function (e.g. honesty or bias). RAHF's versatility in accommodating diverse human preferences shows its potential for advancing LLM performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-26T11:01:36Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenhao Liu</name>
+    </author>
+    <author>
+      <name>Xiaohua Wang</name>
+    </author>
+    <author>
+      <name>Muling Wu</name>
+    </author>
+    <author>
+      <name>Tianlong Li</name>
+    </author>
+    <author>
+      <name>Changze Lv</name>
+    </author>
+    <author>
+      <name>Zixuan Ling</name>
+    </author>
+    <author>
+      <name>Jianhao Zhu</name>
+    </author>
+    <author>
+      <name>Cenyuan Zhang</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zheng</name>
+    </author>
+    <author>
+      <name>Xuanjing Huang</name>
+    </author>
+  </entry>
+</feed>

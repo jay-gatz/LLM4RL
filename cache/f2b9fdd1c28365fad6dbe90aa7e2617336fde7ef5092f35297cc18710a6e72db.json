@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xlgxzU/joJxpDrM9CWxzGHLcJwI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12674v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:40:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12674v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12674v1</id>
+    <title>$\mathcal{X}$-KD: General Experiential Knowledge Distillation for Large Language Models</title>
+    <updated>2026-02-13T07:15:10Z</updated>
+    <link href="https://arxiv.org/abs/2602.12674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Knowledge Distillation (KD) for Large Language Models (LLMs) has become increasingly important as models grow in size and complexity. While existing distillation approaches focus on imitating teacher behavior, they often overlook the original learning environment that shaped the teacher's knowledge. Inspired by the experiential learning theory and inverse reinforcement learning, we propose Experiential Knowledge Distillation ($\mathcal{X}$-KD), a novel and general framework that enables student models to learn in the teacher's original learning environment. $\mathcal{X}$-KD adopts the Approximated Variational Reward Imitation Learning (AVRIL) framework to jointly model the teacher's original reward function and perform policy distillation, encouraging consistency between the student policy and the original reward function. Our derivation demonstrates that $\mathcal{X}$-KD follows the supervised learning framework and applies to both sequence-level and divergence-based distillation methods, underlining the simplicity and flexibility of our approach. Empirical results show that $\mathcal{X}$-KD outperforms the generalized KD and MiniLLM baselines on abstractive summarization, machine translation, and arithmetic reasoning tasks. Additionally, $\mathcal{X}$-KD achieves better performance-diversity trade-off and data efficiency than baseline KD approaches.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-13T07:15:10Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuang Cai</name>
+    </author>
+    <author>
+      <name>Yuyu Yuan</name>
+    </author>
+  </entry>
+</feed>

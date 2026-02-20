@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sLoEMIZ1h0XXGKnYZDd6bb75JLM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15809v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:09:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15809v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15809v1</id>
+    <title>Decision Quality Evaluation Framework at Pinterest</title>
+    <updated>2026-02-17T18:45:55Z</updated>
+    <link href="https://arxiv.org/abs/2602.15809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Online platforms require robust systems to enforce content safety policies at scale. A critical component of these systems is the ability to evaluate the quality of moderation decisions made by both human agents and Large Language Models (LLMs). However, this evaluation is challenging due to the inherent trade-offs between cost, scale, and trustworthiness, along with the complexity of evolving policies. To address this, we present a comprehensive Decision Quality Evaluation Framework developed and deployed at Pinterest. The framework is centered on a high-trust Golden Set (GDS) curated by subject matter experts (SMEs), which serves as a ground truth benchmark. We introduce an automated intelligent sampling pipeline that uses propensity scores to efficiently expand dataset coverage. We demonstrate the framework's practical application in several key areas: benchmarking the cost-performance trade-offs of various LLM agents, establishing a rigorous methodology for data-driven prompt optimization, managing complex policy evolution, and ensuring the integrity of policy content prevalence metrics via continuous validation. The framework enables a shift from subjective assessments to a data-driven and quantitative practice for managing content safety systems.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T18:45:55Z</published>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Yuqi Tian</name>
+    </author>
+    <author>
+      <name>Robert Paine</name>
+    </author>
+    <author>
+      <name>Attila Dobi</name>
+    </author>
+    <author>
+      <name>Kevin O'Sullivan</name>
+    </author>
+    <author>
+      <name>Aravindh Manickavasagam</name>
+    </author>
+    <author>
+      <name>Faisal Farooq</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6eEDlUhzrqvbIyXj3cNNXv2zO2w</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.04617v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:43:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.04617v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.04617v1</id>
+    <title>LEAD: Layer-wise Expert-aligned Decoding for Faithful Radiology Report Generation</title>
+    <updated>2026-02-04T14:45:49Z</updated>
+    <link href="https://arxiv.org/abs/2602.04617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.04617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radiology Report Generation (RRG) aims to produce accurate and coherent diagnostics from medical images. Although large vision language models (LVLM) improve report fluency and accuracy, they exhibit hallucinations, generating plausible yet image-ungrounded pathological details. Existing methods primarily rely on external knowledge guidance to facilitate the alignment between generated text and visual information. However, these approaches often ignore the inherent decoding priors and vision-language alignment biases in pretrained models and lack robustness due to reliance on constructed guidance. In this paper, we propose Layer-wise Expert-aligned Decoding (LEAD), a novel method to inherently modify the LVLM decoding trajectory. A multiple experts module is designed for extracting distinct pathological features which are integrated into each decoder layer via a gating mechanism. This layer-wise architecture enables the LLM to consult expert features at every inference step via a learned gating function, thereby dynamically rectifying decoding biases and steering the generation toward factual consistency. Experiments conducted on multiple public datasets demonstrate that the LEAD method yields effective improvements in clinical accuracy metrics and mitigates hallucinations while preserving high generation quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-04T14:45:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ruixiao Yang</name>
+    </author>
+    <author>
+      <name>Yuanhe Tian</name>
+    </author>
+    <author>
+      <name>Xu Yang</name>
+    </author>
+    <author>
+      <name>Huiqi Li</name>
+    </author>
+    <author>
+      <name>Yan Song</name>
+    </author>
+  </entry>
+</feed>

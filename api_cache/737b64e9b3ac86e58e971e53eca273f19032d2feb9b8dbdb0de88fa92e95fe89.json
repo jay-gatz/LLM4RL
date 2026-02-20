@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/05maLYcGDtaGnE5t8f1OhwR8cdM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2411.01111&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:13:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2411.01111" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.01111v1</id>
+    <title>Rule Based Rewards for Language Model Safety</title>
+    <updated>2024-11-02T02:22:21Z</updated>
+    <link href="https://arxiv.org/abs/2411.01111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.01111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning based fine-tuning of large language models (LLMs) on human preferences has been shown to enhance both their capabilities and safety behavior. However, in cases related to safety, without precise instructions to human annotators, the data collected may cause the model to become overly cautious, or to respond in an undesirable style, such as being judgmental. Additionally, as model capabilities and usage patterns evolve, there may be a costly need to add or relabel data to modify safety behavior. We propose a novel preference modeling approach that utilizes AI feedback and only requires a small amount of human data. Our method, Rule Based Rewards (RBR), uses a collection of rules for desired or undesired behaviors (e.g. refusals should not be judgmental) along with a LLM grader. In contrast to prior methods using AI feedback, our method uses fine-grained, composable, LLM-graded few-shot prompts as reward directly in RL training, resulting in greater control, accuracy and ease of updating. We show that RBRs are an effective training method, achieving an F1 score of 97.1, compared to a human-feedback baseline of 91.7, resulting in much higher safety-behavior accuracy through better balancing usefulness and safety.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-02T02:22:21Z</published>
+    <arxiv:comment>Accepted at Neurips 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tong Mu</name>
+    </author>
+    <author>
+      <name>Alec Helyar</name>
+    </author>
+    <author>
+      <name>Johannes Heidecke</name>
+    </author>
+    <author>
+      <name>Joshua Achiam</name>
+    </author>
+    <author>
+      <name>Andrea Vallone</name>
+    </author>
+    <author>
+      <name>Ian Kivlichan</name>
+    </author>
+    <author>
+      <name>Molly Lin</name>
+    </author>
+    <author>
+      <name>Alex Beutel</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Lilian Weng</name>
+    </author>
+  </entry>
+</feed>

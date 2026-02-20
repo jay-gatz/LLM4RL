@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q+yeok+NpP/COWetbmDnuI1dzLA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.07224v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.07224v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07224v1</id>
+    <title>Consolidation or Adaptation? PRISM: Disentangling SFT and RL Data via Gradient Concentration</title>
+    <updated>2026-01-12T05:43:20Z</updated>
+    <link href="https://arxiv.org/abs/2601.07224v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07224v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Hybrid Supervised Fine-Tuning (SFT) followed by Reinforcement Learning (RL) has become the standard paradigm for training LLM agents, effective mechanisms for data allocation between these stages remain largely underexplored. Current data arbitration strategies often rely on surface-level heuristics that fail to diagnose intrinsic learning needs. Since SFT targets pattern consolidation through imitation while RL drives structural adaptation via exploration, misaligning data with these functional roles causes severe optimization interference. We propose PRISM, a dynamics-aware framework grounded in Schema Theory that arbitrates data based on its degree of cognitive conflict with the model's existing knowledge. By analyzing the spatial geometric structure of gradients, PRISM identifies data triggering high spatial concentration as high-conflict signals that require RL for structural restructuring. In contrast, data yielding diffuse updates is routed to SFT for efficient consolidation. Extensive experiments on WebShop and ALFWorld demonstrate that PRISM achieves a Pareto improvement, outperforming state-of-the-art hybrid methods while reducing computational costs by up to 3.22$\times$. Our findings suggest that disentangling data based on internal optimization regimes is crucial for scalable and robust agent alignment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T05:43:20Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yang Zhao</name>
+    </author>
+    <author>
+      <name>Yangou Ouyang</name>
+    </author>
+    <author>
+      <name>Xiao Ding</name>
+    </author>
+    <author>
+      <name>Hepeng Wang</name>
+    </author>
+    <author>
+      <name>Bibo Cai</name>
+    </author>
+    <author>
+      <name>Kai Xiong</name>
+    </author>
+    <author>
+      <name>Jinglong Gao</name>
+    </author>
+    <author>
+      <name>Zhouhao Sun</name>
+    </author>
+    <author>
+      <name>Li Du</name>
+    </author>
+    <author>
+      <name>Bing Qin</name>
+    </author>
+    <author>
+      <name>Ting Liu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4slsyKT8AOL6OvTA6os62xcMqig</id>
+  <title>arXiv Query: search_query=&amp;id_list=2304.11477&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2304.11477" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.11477v3</id>
+    <title>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</title>
+    <updated>2023-09-27T07:29:44Z</updated>
+    <link href="https://arxiv.org/abs/2304.11477v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.11477v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated remarkable zero-shot generalization abilities: state-of-the-art chatbots can provide plausible answers to many common questions that arise in daily life. However, so far, LLMs cannot reliably solve long-horizon planning problems. By contrast, classical planners, once a problem is given in a formatted way, can use efficient search algorithms to quickly identify correct, or even optimal, plans. In an effort to get the best of both worlds, this paper introduces LLM+P, the first framework that incorporates the strengths of classical planners into LLMs. LLM+P takes in a natural language description of a planning problem, then returns a correct (or optimal) plan for solving that problem in natural language. LLM+P does so by first converting the language description into a file written in the planning domain definition language (PDDL), then leveraging classical planners to quickly find a solution, and then translating the found solution back into natural language. Along with LLM+P, we define a diverse set of different benchmark problems taken from common planning scenarios. Via a comprehensive set of experiments on these benchmark problems, we find that LLM+P is able to provide optimal solutions for most problems, while LLMs fail to provide even feasible plans for most problems.\footnote{The code and results are publicly available at https://github.com/Cranial-XIX/llm-pddl.git.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-22T20:34:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <author>
+      <name>Yuqian Jiang</name>
+    </author>
+    <author>
+      <name>Xiaohan Zhang</name>
+    </author>
+    <author>
+      <name>Qiang Liu</name>
+    </author>
+    <author>
+      <name>Shiqi Zhang</name>
+    </author>
+    <author>
+      <name>Joydeep Biswas</name>
+    </author>
+    <author>
+      <name>Peter Stone</name>
+    </author>
+  </entry>
+</feed>

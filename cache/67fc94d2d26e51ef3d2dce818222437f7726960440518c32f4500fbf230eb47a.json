@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rBTfCB0ZL4NeByEJ61pmOLcqk5M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.08967&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.08967" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08967v3</id>
+    <title>ReFT: Reasoning with Reinforced Fine-Tuning</title>
+    <updated>2024-12-13T04:44:11Z</updated>
+    <link href="https://arxiv.org/abs/2401.08967v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08967v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One way to enhance the reasoning capability of Large Language Models (LLMs) is to conduct Supervised Fine-Tuning (SFT) using Chain-of-Thought (CoT) annotations. This approach does not show sufficiently strong generalization ability, however, because the training only relies on the given CoT data. In math problem-solving, for example, there is usually only one annotated reasoning path for each question in the training data. Intuitively, it would be better for the algorithm to learn from multiple annotated reasoning paths given a question. To address this issue, we propose a simple yet effective approach called Reinforced Fine-Tuning (ReFT) to enhance the generalizability of learning LLMs for reasoning, with math problem-solving as an example. ReFT first warmups the model with SFT, and then employs on-line reinforcement learning, specifically the PPO algorithm in this paper, to further fine-tune the model, where an abundance of reasoning paths are automatically sampled given the question and the rewards are naturally derived from the ground-truth answers. Extensive experiments on GSM8K, MathQA, and SVAMP datasets show that ReFT significantly outperforms SFT, and the performance can be potentially further boosted by combining inference-time strategies such as majority voting and re-ranking. Note that ReFT obtains the improvement by learning from the same training questions as SFT, without relying on extra or augmented training questions. This indicates a superior generalization ability for ReFT.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-17T04:43:21Z</published>
+    <arxiv:comment>ACL 2024 main conference; adjust with reviewer comments; 13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Trung Quoc Luong</name>
+    </author>
+    <author>
+      <name>Xinbo Zhang</name>
+    </author>
+    <author>
+      <name>Zhanming Jie</name>
+    </author>
+    <author>
+      <name>Peng Sun</name>
+    </author>
+    <author>
+      <name>Xiaoran Jin</name>
+    </author>
+    <author>
+      <name>Hang Li</name>
+    </author>
+  </entry>
+</feed>

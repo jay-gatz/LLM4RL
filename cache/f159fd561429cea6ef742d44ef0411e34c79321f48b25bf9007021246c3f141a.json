@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y0M/iMD8g4iv9+C0abfLElapwyI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.04023v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:57:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.04023v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04023v1</id>
+    <title>LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions</title>
+    <updated>2025-10-05T04:04:27Z</updated>
+    <link href="https://arxiv.org/abs/2510.04023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in large language models (LLMs) have enabled a new class of AI agents that automate multiple stages of the data science workflow by integrating planning, tool use, and multimodal reasoning across text, code, tables, and visuals. This survey presents the first comprehensive, lifecycle-aligned taxonomy of data science agents, systematically analyzing and mapping forty-five systems onto the six stages of the end-to-end data science process: business understanding and data acquisition, exploratory analysis and visualization, feature engineering, model building and selection, interpretation and explanation, and deployment and monitoring. In addition to lifecycle coverage, we annotate each agent along five cross-cutting design dimensions: reasoning and planning style, modality integration, tool orchestration depth, learning and alignment methods, and trust, safety, and governance mechanisms. Beyond classification, we provide a critical synthesis of agent capabilities, highlight strengths and limitations at each stage, and review emerging benchmarks and evaluation practices. Our analysis identifies three key trends: most systems emphasize exploratory analysis, visualization, and modeling while neglecting business understanding, deployment, and monitoring; multimodal reasoning and tool orchestration remain unresolved challenges; and over 90% lack explicit trust and safety mechanisms. We conclude by outlining open challenges in alignment stability, explainability, governance, and robust evaluation frameworks, and propose future research directions to guide the development of robust, trustworthy, low-latency, transparent, and broadly accessible data science agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T04:04:27Z</published>
+    <arxiv:comment>Survey paper; 45 data science agents; under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mizanur Rahman</name>
+    </author>
+    <author>
+      <name>Amran Bhuiyan</name>
+    </author>
+    <author>
+      <name>Mohammed Saidul Islam</name>
+    </author>
+    <author>
+      <name>Md Tahmid Rahman Laskar</name>
+    </author>
+    <author>
+      <name>Ridwan Mahbub</name>
+    </author>
+    <author>
+      <name>Ahmed Masry</name>
+    </author>
+    <author>
+      <name>Shafiq Joty</name>
+    </author>
+    <author>
+      <name>Enamul Hoque</name>
+    </author>
+  </entry>
+</feed>

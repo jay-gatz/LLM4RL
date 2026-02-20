@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UiFBcdN9u0V3IBYskYBJGdP3FUE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01675v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01675v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01675v1</id>
+    <title>TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios</title>
+    <updated>2026-02-02T05:43:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.01675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLM-based agents are deployed in increasingly complex real-world settings, existing benchmarks underrepresent key challenges such as enforcing global constraints, coordinating multi-tool reasoning, and adapting to evolving user behavior over long, multi-turn interactions. To bridge this gap, we introduce \textbf{TRIP-Bench}, a long-horizon benchmark grounded in realistic travel-planning scenarios. TRIP-Bench leverages real-world data, offers 18 curated tools and 40+ travel requirements, and supports automated evaluation. It includes splits of varying difficulty; the hard split emphasizes long and ambiguous interactions, style shifts, feasibility changes, and iterative version revision. Dialogues span up to 15 user turns, can involve 150+ tool calls, and may exceed 200k tokens of context. Experiments show that even advanced models achieve at most 50\% success on the easy split, with performance dropping below 10\% on hard subsets. We further propose \textbf{GTPO}, an online multi-turn reinforcement learning method with specialized reward normalization and reward differencing. Applied to Qwen2.5-32B-Instruct, GTPO improves constraint satisfaction and interaction robustness, outperforming Gemini-3-Pro in our evaluation. We expect TRIP-Bench to advance practical long-horizon interactive agents, and GTPO to provide an effective online RL recipe for robust long-horizon training.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T05:43:08Z</published>
+    <arxiv:comment>40 pages, 6figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yuanzhe Shen</name>
+    </author>
+    <author>
+      <name>Zisu Huang</name>
+    </author>
+    <author>
+      <name>Zhengyuan Wang</name>
+    </author>
+    <author>
+      <name>Muzhao Tian</name>
+    </author>
+    <author>
+      <name>Zhengkang Guo</name>
+    </author>
+    <author>
+      <name>Chenyang Zhang</name>
+    </author>
+    <author>
+      <name>Shuaiyu Zhou</name>
+    </author>
+    <author>
+      <name>Zengjie Hu</name>
+    </author>
+    <author>
+      <name>Dailin Li</name>
+    </author>
+    <author>
+      <name>Jingwen Xu</name>
+    </author>
+    <author>
+      <name>Kaimin Wang</name>
+    </author>
+    <author>
+      <name>Wenhao Liu</name>
+    </author>
+    <author>
+      <name>Tianlong Li</name>
+    </author>
+    <author>
+      <name>Fengpeng Yue</name>
+    </author>
+    <author>
+      <name>Feng Hong</name>
+    </author>
+    <author>
+      <name>Cao Liu</name>
+    </author>
+    <author>
+      <name>Ke Zeng</name>
+    </author>
+  </entry>
+</feed>

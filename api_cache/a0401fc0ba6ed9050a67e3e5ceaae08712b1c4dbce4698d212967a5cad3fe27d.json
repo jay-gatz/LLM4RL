@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JN7uSwQLXRCMdR2gG4jaS1TJbyk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02963v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02963v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02963v1</id>
+    <title>TRACE: Temporal Radiology with Anatomical Change Explanation for Grounded X-ray Report Generation</title>
+    <updated>2026-02-03T01:03:41Z</updated>
+    <link href="https://arxiv.org/abs/2602.02963v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02963v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Temporal comparison of chest X-rays is fundamental to clinical radiology, enabling detection of disease progression, treatment response, and new findings. While vision-language models have advanced single-image report generation and visual grounding, no existing method combines these capabilities for temporal change detection. We introduce Temporal Radiology with Anatomical Change Explanation (TRACE), the first model that jointly performs temporal comparison, change classification, and spatial localization. Given a prior and current chest X-ray, TRACE generates natural language descriptions of interval changes (worsened, improved, stable) while grounding each finding with bounding box coordinates. TRACE demonstrates effective spatial localization with over 90% grounding accuracy, establishing a foundation for this challenging new task. Our ablation study uncovers an emergent capability: change detection arises only when temporal comparison and spatial grounding are jointly learned, as neither alone enables meaningful change detection. This finding suggests that grounding provides a spatial attention mechanism essential for temporal reasoning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-03T01:03:41Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>OFM Riaz Rahman Aranya</name>
+    </author>
+    <author>
+      <name>Kevin Desai</name>
+    </author>
+  </entry>
+</feed>

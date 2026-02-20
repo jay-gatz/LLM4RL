@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T7ndS+S0STGm+EvdoqWhHDmZWLY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14208v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:38:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14208v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14208v1</id>
+    <title>Fast Catch-Up, Late Switching: Optimal Batch Size Scheduling via Functional Scaling Laws</title>
+    <updated>2026-02-15T16:06:45Z</updated>
+    <link href="https://arxiv.org/abs/2602.14208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Batch size scheduling (BSS) plays a critical role in large-scale deep learning training, influencing both optimization dynamics and computational efficiency. Yet, its theoretical foundations remain poorly understood. In this work, we show that the functional scaling law (FSL) framework introduced in Li et al. (2025a) provides a principled lens for analyzing BSS. Specifically, we characterize the optimal BSS under a fixed data budget and show that its structure depends sharply on task difficulty. For easy tasks, optimal schedules keep increasing batch size throughout. In contrast, for hard tasks, the optimal schedule maintains small batch sizes for most of training and switches to large batches only in a late stage. To explain the emergence of late switching, we uncover a dynamical mechanism -- the fast catch-up effect -- which also manifests in large language model (LLM) pretraining. After switching from small to large batches, the loss rapidly aligns with the constant large-batch trajectory. Using FSL, we show that this effect stems from rapid forgetting of accumulated gradient noise, with the catch-up speed determined by task difficulty. Crucially, this effect implies that large batches can be safely deferred to late training without sacrificing performance, while substantially reducing data consumption. Finally, extensive LLM pretraining experiments -- covering both Dense and MoE architectures with up to 1.1B parameters and 1T tokens -- validate our theoretical predictions. Across all settings, late-switch schedules consistently outperform constant-batch and early-switch baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-15T16:06:45Z</published>
+    <arxiv:comment>34 pages, accepted by ICLR 2026 as a conference paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jinbo Wang</name>
+    </author>
+    <author>
+      <name>Binghui Li</name>
+    </author>
+    <author>
+      <name>Zhanpeng Zhou</name>
+    </author>
+    <author>
+      <name>Mingze Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Sun</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhang</name>
+    </author>
+    <author>
+      <name>Xunliang Cai</name>
+    </author>
+    <author>
+      <name>Lei Wu</name>
+    </author>
+  </entry>
+</feed>

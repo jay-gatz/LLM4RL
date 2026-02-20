@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8v8KnsEEn7X+Jlt9lhuz9eKXGgY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2310.10501&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:29:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2310.10501" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.10501v1</id>
+    <title>NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails</title>
+    <updated>2023-10-16T15:20:30Z</updated>
+    <link href="https://arxiv.org/abs/2310.10501v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.10501v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. Guardrails (or rails for short) are a specific way of controlling the output of an LLM, such as not talking about topics considered harmful, following a predefined dialogue path, using a particular language style, and more. There are several mechanisms that allow LLM providers and developers to add guardrails that are embedded into a specific model at training, e.g. using model alignment. Differently, using a runtime inspired from dialogue management, NeMo Guardrails allows developers to add programmable rails to LLM applications - these are user-defined, independent of the underlying LLM, and interpretable. Our initial results show that the proposed approach can be used with several LLM providers to develop controllable and safe LLM applications using programmable rails.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-16T15:20:30Z</published>
+    <arxiv:comment>Accepted at EMNLP 2023 - Demo track</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Traian Rebedea</name>
+    </author>
+    <author>
+      <name>Razvan Dinu</name>
+    </author>
+    <author>
+      <name>Makesh Sreedhar</name>
+    </author>
+    <author>
+      <name>Christopher Parisien</name>
+    </author>
+    <author>
+      <name>Jonathan Cohen</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nr+6+BN7hnboYMAOzwCcG6GmB8M</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06052v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06052v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06052v2</id>
+    <title>Reinforcement Learning for Chain of Thought Compression with One-Domain-to-All Generalization</title>
+    <updated>2026-01-21T06:34:10Z</updated>
+    <link href="https://arxiv.org/abs/2601.06052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chain-of-thought reasoning in large language models can trigger an "overthinking trap": longer rollouts raise cost and latency yet often yield unreliable accuracy gains. Existing methods use global, static controls that may suppress needed reasoning. We propose mastery-gated, sample-level, soft reinforcement learning compression that penalizes long rollouts only when the model already solves the problem and has produced a shorter rollout. Across benchmarks, it cuts response length by 20-40% with comparable or higher accuracy and generalizes across domains: a model trained on math spontaneously shortens unseen tasks (code, instruction following, general-knowledge QA) without hurting accuracy. We further show two-way transfer between non-agent CoT and tool-use agents: non-agent training reduces SWE-Bench Verified rounds by 13%, while compressing a thinking agent cuts SWE trajectories by 67% tokens and 52% rounds and shortens non-agent outputs by up to 44%. Compression is thus not cosmetic brevity, but an inherent computation policy -- what to keep, and what to forget.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-19T06:30:54Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hanyu Li</name>
+    </author>
+    <author>
+      <name>Jiangshan Duo</name>
+    </author>
+    <author>
+      <name>Bofei Gao</name>
+    </author>
+    <author>
+      <name>Hailin Zhang</name>
+    </author>
+    <author>
+      <name>Sujian Li</name>
+    </author>
+    <author>
+      <name>Xiaotie Deng</name>
+    </author>
+    <author>
+      <name>Liang Zhao</name>
+    </author>
+  </entry>
+</feed>

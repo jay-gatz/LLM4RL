@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KBy9/7j5QfVSlYL18LgkIW7ssgw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10437v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10437v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10437v2</id>
+    <title>Control Reinforcement Learning: Interpretable Token-Level Steering of LLMs via Sparse Autoencoder Features</title>
+    <updated>2026-02-12T02:43:40Z</updated>
+    <link href="https://arxiv.org/abs/2602.10437v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10437v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse autoencoders (SAEs) decompose language model activations into interpretable features, but existing methods reveal only which features activate, not which change model outputs when amplified. We introduce Control Reinforcement Learning (CRL), which trains a policy to select SAE features for steering at each token, producing interpretable intervention logs: the learned policy identifies features that change model outputs when amplified. Adaptive Feature Masking encourages diverse feature discovery while preserving singlefeature interpretability. The framework yields new analysis capabilities: branch point tracking locates tokens where feature choice determines output correctness; critic trajectory analysis separates policy limitations from value estimation errors; layer-wise comparison reveals syntactic features in early layers and semantic features in later layers. On Gemma 2 2B across MMLU, BBQ, GSM8K, HarmBench, and XSTest, CRL achieves improvements while providing per-token intervention logs. These results establish learned feature steering as a mechanistic interpretability tool that complements static feature analysis with dynamic intervention probes</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T02:28:49Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Seonglae Cho</name>
+    </author>
+    <author>
+      <name>Zekun Wu</name>
+    </author>
+    <author>
+      <name>Adriano Koshiyama</name>
+    </author>
+  </entry>
+</feed>

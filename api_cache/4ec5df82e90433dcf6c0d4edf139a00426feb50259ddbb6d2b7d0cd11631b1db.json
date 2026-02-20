@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Uvvwu1PIl1rl6G/ZY5SwIR6cPGg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2504.07086&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:31:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2504.07086" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07086v2</id>
+    <title>A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility</title>
+    <updated>2025-10-06T18:07:34Z</updated>
+    <link href="https://arxiv.org/abs/2504.07086v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07086v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning has emerged as the next major frontier for language models (LMs), with rapid advances from both academic and industrial labs. However, this progress often outpaces methodological rigor, with many evaluations relying on benchmarking practices that lack transparency, robustness, or statistical grounding. In this work, we conduct a comprehensive empirical study and find that current mathematical reasoning benchmarks are highly sensitive to subtle implementation choices--including decoding parameters, random seeds, prompt formatting, and even hardware and software configurations. Performance gains reported in recent studies frequently hinge on unclear comparisons or unreported sources of variance. To address these issues, we propose a standardized evaluation framework with clearly defined best practices and reporting standards. Using this framework, we reassess recent methods and find that most reinforcement learning (RL) approaches yield only modest improvements--far below prior claims--and are prone to overfitting, especially on small-scale benchmarks like AIME'24. In contrast, supervised finetuning (SFT) methods show consistently stronger generalization in the settings we study. To foster reproducibility, we release all code, prompts, and model outputs, for reasoning benchmarks, establishing more rigorous foundations for future work.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-09T17:58:17Z</published>
+    <arxiv:comment>Accepted to COLM 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andreas Hochlehnert</name>
+    </author>
+    <author>
+      <name>Hardik Bhatnagar</name>
+    </author>
+    <author>
+      <name>Vishaal Udandarao</name>
+    </author>
+    <author>
+      <name>Samuel Albanie</name>
+    </author>
+    <author>
+      <name>Ameya Prabhu</name>
+    </author>
+    <author>
+      <name>Matthias Bethge</name>
+    </author>
+  </entry>
+</feed>

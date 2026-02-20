@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NaRDRnS1vma2zbwd2qh5Ae0kAt4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16438v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:11:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16438v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16438v1</id>
+    <title>Intra-Fairness Dynamics: The Bias Spillover Effect in Targeted LLM Alignment</title>
+    <updated>2026-02-18T13:19:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.16438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventional large language model (LLM) fairness alignment largely focuses on mitigating bias along single sensitive attributes, overlooking fairness as an inherently multidimensional and context-specific value. This approach risks creating systems that achieve narrow fairness metrics while exacerbating disparities along untargeted attributes, a phenomenon known as bias spillover. While extensively studied in machine learning, bias spillover remains critically underexplored in LLM alignment. In this work, we investigate how targeted gender alignment affects fairness across nine sensitive attributes in three state-of-the-art LLMs (Mistral 7B, Llama 3.1 8B, Qwen 2.5 7B). Using Direct Preference Optimization and the BBQ benchmark, we evaluate fairness under ambiguous and disambiguous contexts. Our findings reveal noticeable bias spillover: while aggregate results show improvements, context-aware analysis exposes significant degradations in ambiguous contexts, particularly for physical appearance ($p&lt; 0.001$ across all models), sexual orientation, and disability status. We demonstrate that improving fairness along one attribute can inadvertently worsen disparities in others under uncertainty, highlighting the necessity of context-aware, multi-attribute fairness evaluation frameworks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T13:19:11Z</published>
+    <arxiv:comment>Submitted to the BiAlign CHI Workshop 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Eva Paraschou</name>
+    </author>
+    <author>
+      <name>Line Harder Clemmensen</name>
+    </author>
+    <author>
+      <name>Sneha Das</name>
+    </author>
+  </entry>
+</feed>

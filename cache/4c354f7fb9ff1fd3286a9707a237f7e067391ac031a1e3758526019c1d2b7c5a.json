@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d0uJNiSoRmyCSwxKDHXsPRs68yk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02143v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02143v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02143v1</id>
+    <title>Learning Generative Selection for Best-of-N</title>
+    <updated>2026-02-02T14:21:15Z</updated>
+    <link href="https://arxiv.org/abs/2602.02143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scaling test-time compute via parallel sampling can substantially improve LLM reasoning, but is often limited by Best-of-N selection quality. Generative selection methods, such as GenSelect, address this bottleneck, yet strong selection performance remains largely limited to large models. We show that small reasoning models can acquire strong GenSelect capabilities through targeted reinforcement learning. To this end, we synthesize selection tasks from large-scale math and code instruction datasets by filtering to instances with both correct and incorrect candidate solutions, and train 1.7B-parameter models with DAPO to reward correct selections. Across math (AIME24, AIME25, HMMT25) and code (LiveCodeBench) reasoning benchmarks, our models consistently outperform prompting and majority-voting baselines, often approaching or exceeding much larger models. Moreover, these gains generalize to selecting outputs from stronger models despite training only on outputs from weaker models. Overall, our results establish reinforcement learning as a scalable way to unlock strong generative selection in small models, enabling efficient test-time scaling.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T14:21:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shubham Toshniwal</name>
+    </author>
+    <author>
+      <name>Aleksander Ficek</name>
+    </author>
+    <author>
+      <name>Siddhartha Jain</name>
+    </author>
+    <author>
+      <name>Wei Du</name>
+    </author>
+    <author>
+      <name>Vahid Noroozi</name>
+    </author>
+    <author>
+      <name>Sadegh Mahdavi</name>
+    </author>
+    <author>
+      <name>Somshubra Majumdar</name>
+    </author>
+    <author>
+      <name>Igor Gitman</name>
+    </author>
+  </entry>
+</feed>

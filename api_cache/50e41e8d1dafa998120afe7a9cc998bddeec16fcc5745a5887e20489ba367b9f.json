@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p7zGDZL4EWebO+jieFEIJVOhkEg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01200v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01200v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01200v1</id>
+    <title>Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis</title>
+    <updated>2026-02-01T12:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.01200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Developing 3D vision-language models with robust clinical reasoning remains a challenge due to the inherent complexity of volumetric medical imaging, the tendency of models to overfit superficial report patterns, and the lack of interpretability-aware reward designs. In this paper, we propose Med3D-R1, a reinforcement learning framework with a two-stage training process: Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL). During SFT stage, we introduce a residual alignment mechanism to bridge the gap between high-dimensional 3D features and textual embeddings, and an abnormality re-weighting strategy to emphasize clinically informative tokens and reduce structural bias in reports. In RL stage, we redesign the consistency reward to explicitly promote coherent, step-by-step diagnostic reasoning. We evaluate our method on medical multiple-choice visual question answering using two 3D diagnostic benchmarks, CT-RATE and RAD-ChestCT, where our model attains state-of-the-art accuracies of 41.92\% on CT-RATE and 44.99\% on RAD-ChestCT. These results indicate improved abnormality diagnosis and clinical reasoning and outperform prior methods on both benchmarks. Overall, our approach holds promise for enhancing real-world diagnostic workflows by enabling more reliable and transparent 3D medical vision-language systems.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T12:43:11Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haoran Lai</name>
+    </author>
+    <author>
+      <name>Zihang Jiang</name>
+    </author>
+    <author>
+      <name>Kun Zhang</name>
+    </author>
+    <author>
+      <name>Qingsong Yao</name>
+    </author>
+    <author>
+      <name>Rongsheng Wang</name>
+    </author>
+    <author>
+      <name>Zhiyang He</name>
+    </author>
+    <author>
+      <name>Xiaodong Tao</name>
+    </author>
+    <author>
+      <name>Wei Wei</name>
+    </author>
+    <author>
+      <name>Shaohua Kevin Zhou</name>
+    </author>
+  </entry>
+</feed>

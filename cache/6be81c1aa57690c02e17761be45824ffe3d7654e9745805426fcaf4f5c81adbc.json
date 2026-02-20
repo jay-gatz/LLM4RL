@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SR+kosa30atzDcGFUR8GfveCbIo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.05233v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.05233v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05233v1</id>
+    <title>MobileManiBench: Simplifying Model Verification for Mobile Manipulation</title>
+    <updated>2026-02-05T02:49:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.05233v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05233v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language-action models have advanced robotic manipulation but remain constrained by reliance on the large, teleoperation-collected datasets dominated by the static, tabletop scenes. We propose a simulation-first framework to verify VLA architectures before real-world deployment and introduce MobileManiBench, a large-scale benchmark for mobile-based robotic manipulation. Built on NVIDIA Isaac Sim and powered by reinforcement learning, our pipeline autonomously generates diverse manipulation trajectories with rich annotations (language instructions, multi-view RGB-depth-segmentation images, synchronized object/robot states and actions). MobileManiBench features 2 mobile platforms (parallel-gripper and dexterous-hand robots), 2 synchronized cameras (head and right wrist), 630 objects in 20 categories, 5 skills (open, close, pull, push, pick) with over 100 tasks performed in 100 realistic scenes, yielding 300K trajectories. This design enables controlled, scalable studies of robot embodiments, sensing modalities, and policy architectures, accelerating research on data efficiency and generalization. We benchmark representative VLA models and report insights into perception, reasoning, and control in complex simulated environments.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T02:49:52Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Wenbo Wang</name>
+    </author>
+    <author>
+      <name>Fangyun Wei</name>
+    </author>
+    <author>
+      <name>QiXiu Li</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+    <author>
+      <name>Yaobo Liang</name>
+    </author>
+    <author>
+      <name>Chang Xu</name>
+    </author>
+    <author>
+      <name>Jiaolong Yang</name>
+    </author>
+    <author>
+      <name>Baining Guo</name>
+    </author>
+  </entry>
+</feed>

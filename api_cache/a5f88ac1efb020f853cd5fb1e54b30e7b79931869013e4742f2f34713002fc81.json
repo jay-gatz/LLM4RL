@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EmjjcHW6iKBGmJ1slFRt42PKTcI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02786v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:44:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02786v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02786v1</id>
+    <title>LEMON: Local Explanations via Modality-aware OptimizatioN</title>
+    <updated>2026-02-02T20:40:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.02786v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02786v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal models are ubiquitous, yet existing explainability methods are often single-modal, architecture-dependent, or too computationally expensive to run at scale. We introduce LEMON (Local Explanations via Modality-aware OptimizatioN), a model-agnostic framework for local explanations of multimodal predictions. LEMON fits a single modality-aware surrogate with group-structured sparsity to produce unified explanations that disentangle modality-level contributions and feature-level attributions. The approach treats the predictor as a black box and is computationally efficient, requiring relatively few forward passes while remaining faithful under repeated perturbations. We evaluate LEMON on vision-language question answering and a clinical prediction task with image, text, and tabular inputs, comparing against representative multimodal baselines. Across backbones, LEMON achieves competitive deletion-based faithfulness while reducing black-box evaluations by 35-67 times and runtime by 2-8 times compared to strong multimodal baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T20:40:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yu Qin</name>
+    </author>
+    <author>
+      <name>Phillip Sloan</name>
+    </author>
+    <author>
+      <name>Raul Santos-Rodriguez</name>
+    </author>
+    <author>
+      <name>Majid Mirmehdi</name>
+    </author>
+    <author>
+      <name>Telmo de Menezes e Silva Filho</name>
+    </author>
+  </entry>
+</feed>

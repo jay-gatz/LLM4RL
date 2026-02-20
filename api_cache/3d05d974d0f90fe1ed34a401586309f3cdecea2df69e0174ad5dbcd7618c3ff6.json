@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MHMp+5C/LIZMv26iO85yfbGXJgg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21770v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:05:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21770v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21770v2</id>
+    <title>OneMall: One Architecture, More Scenarios -- End-to-End Generative Recommender Family at Kuaishou E-Commerce</title>
+    <updated>2026-02-02T15:05:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.21770v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21770v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the wave of generative recommendation, we present OneMall, an end-to-end generative recommendation framework tailored for e-commerce services at Kuaishou. Our OneMall systematically unifies the e-commerce's multiple item distribution scenarios, such as Product-card, short-video and live-streaming. Specifically, it comprises three key components, aligning the entire model training pipeline to the LLM's pre-training/post-training: (1) E-commerce Semantic Tokenizer: we provide a tokenizer solution that captures both real-world semantics and business-specific item relations across different scenarios; (2) Transformer-based Architecture: we largely utilize Transformer as our model backbone, e.g., employing Query-Former for long sequence compression, Cross-Attention for multi-behavior sequence fusion, and Sparse MoE for scalable auto-regressive generation; (3) Reinforcement Learning Pipeline: we further connect retrieval and ranking models via RL, enabling the ranking model to serve as a reward signal for end-to-end policy retrieval model optimization. Extensive experiments demonstrate that OneMall achieves consistent improvements across all e-commerce scenarios: +13.01\% GMV in product-card, +15.32\% Orders in Short-Video, and +2.78\% Orders in Live-Streaming. OneMall has been deployed, serving over 400 million daily active users at Kuaishou.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T14:22:39Z</published>
+    <arxiv:comment>Work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Kun Zhang</name>
+    </author>
+    <author>
+      <name>Jingming Zhang</name>
+    </author>
+    <author>
+      <name>Wei Cheng</name>
+    </author>
+    <author>
+      <name>Yansong Cheng</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhang</name>
+    </author>
+    <author>
+      <name>Hao Lu</name>
+    </author>
+    <author>
+      <name>Xu Zhang</name>
+    </author>
+    <author>
+      <name>Haixiang Gan</name>
+    </author>
+    <author>
+      <name>Jiangxia Cao</name>
+    </author>
+    <author>
+      <name>Tenglong Wang</name>
+    </author>
+    <author>
+      <name>Ximing Zhang</name>
+    </author>
+    <author>
+      <name>Boyang Xia</name>
+    </author>
+    <author>
+      <name>Kuo Cai</name>
+    </author>
+    <author>
+      <name>Shiyao Wang</name>
+    </author>
+    <author>
+      <name>Hongjian Dou</name>
+    </author>
+    <author>
+      <name>Jinkai Yu</name>
+    </author>
+    <author>
+      <name>Mingxing Wen</name>
+    </author>
+    <author>
+      <name>Qiang Luo</name>
+    </author>
+    <author>
+      <name>Dongxu Liang</name>
+    </author>
+    <author>
+      <name>Chenyi Lei</name>
+    </author>
+    <author>
+      <name>Jun Wang</name>
+    </author>
+    <author>
+      <name>Runan Liu</name>
+    </author>
+    <author>
+      <name>Zhaojie Liu</name>
+    </author>
+    <author>
+      <name>Ruiming Tang</name>
+    </author>
+    <author>
+      <name>Tingting Gao</name>
+    </author>
+    <author>
+      <name>Shaoguo Liu</name>
+    </author>
+    <author>
+      <name>Yuqing Ding</name>
+    </author>
+    <author>
+      <name>Hui Kong</name>
+    </author>
+    <author>
+      <name>Han Li</name>
+    </author>
+    <author>
+      <name>Guorui Zhou</name>
+    </author>
+    <author>
+      <name>Wenwu Ou</name>
+    </author>
+    <author>
+      <name>Kun Gai</name>
+    </author>
+  </entry>
+</feed>

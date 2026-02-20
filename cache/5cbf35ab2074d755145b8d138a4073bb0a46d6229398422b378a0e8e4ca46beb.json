@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LB+Xmi/y4mmCFuj86vuom5k1s+0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.01133v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:01:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.01133v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01133v1</id>
+    <title>Parallel Training in Spiking Neural Networks</title>
+    <updated>2026-02-01T10:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2602.01133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The bio-inspired integrate-fire-reset mechanism of spiking neurons constitutes the foundation for efficient processing in Spiking Neural Networks (SNNs). Recent progress in large models demands that spiking neurons support highly parallel computation to scale efficiently on modern GPUs. This work proposes a novel functional perspective that provides general guidance for designing parallel spiking neurons. We argue that the reset mechanism, which induces complex temporal dependencies and hinders parallel training, should be removed. However, any such modification should satisfy two principles: 1) preserving the functions of reset as a core biological mechanism; and 2) enabling parallel training without sacrificing the serial inference ability of spiking neurons, which underpins their efficiency at test time. To this end, we identify the functions of the reset and analyze how to reconcile parallel training with serial inference, upon which we propose a dynamic decay spiking neuron. We conduct comprehensive testing of our method in terms of: 1) Training efficiency and extrapolation capability. On 16k-length sequences, we achieve a 25.6x training speedup over the pioneering parallel spiking neuron, and our models trained on 2k-length can stably perform inference on sequences as long as 30k. 2) Generality. We demonstrate the consistent effectiveness of the proposed method across five task categories (image classification, neuromorphic event processing, time-series forecasting, language modeling, and reinforcement learning), three network architectures (spiking CNN/Transformer/SSMs), and two spike activation modes (spike/integer activation). 3) Energy consumption. The spiking firing of our neuron is lower than that of vanilla and existing parallel spiking neurons.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T10:10:47Z</published>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Yanbin Huang</name>
+    </author>
+    <author>
+      <name>Man Yao</name>
+    </author>
+    <author>
+      <name>Yuqi Pan</name>
+    </author>
+    <author>
+      <name>Changze Lv</name>
+    </author>
+    <author>
+      <name>Siyuan Xu</name>
+    </author>
+    <author>
+      <name>Xiaoqing Zheng</name>
+    </author>
+    <author>
+      <name>Bo Xu</name>
+    </author>
+    <author>
+      <name>Guoqi Li</name>
+    </author>
+  </entry>
+</feed>

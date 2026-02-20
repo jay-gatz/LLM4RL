@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/a0T4glaXakFIMyNcquoc2AJh9sk</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06498v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06498v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06498v1</id>
+    <title>Spec-o3: A Tool-Augmented Vision-Language Agent for Rare Celestial Object Candidate Vetting via Automated Spectral Inspection</title>
+    <updated>2026-01-10T09:17:51Z</updated>
+    <link href="https://arxiv.org/abs/2601.06498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to the limited generalization and interpretability of deep learning classifiers, The final vetting of rare celestial object candidates still relies on expert visual inspection--a manually intensive process. In this process, astronomers leverage specialized tools to analyze spectra and construct reliable catalogs. However, this practice has become the primary bottleneck, as it is fundamentally incapable of scaling with the data deluge from modern spectroscopic surveys. To bridge this gap, we propose Spec-o3, a tool-augmented vision-language agent that performs astronomer-aligned spectral inspection via interleaved multimodal chain-of-thought reasoning. Spec-o3 is trained with a two-stage post-training recipe: cold-start supervised fine-tuning on expert inspection trajectories followed by outcome-based reinforcement learning on rare-type verification tasks. Evaluated on five rare-object identification tasks from LAMOST, Spec-o3 establishes a new State-of-the-Art, boosting the macro-F1 score from 28.3 to 76.5 with a 7B parameter base model and outperforming both proprietary VLMs and specialized deep models. Crucially, the agent demonstrates strong generalization to unseen inspection tasks across survey shifts (from LAMOST to SDSS/DESI). Expert evaluations confirm that its reasoning traces are coherent and physically consistent, supporting transparent and trustworthy decision-making. Code, data, and models are available at \href{https://github.com/Maxwell-Jia/spec-o3}{Project HomePage}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-10T09:17:51Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Minghui Jia</name>
+    </author>
+    <author>
+      <name>Qichao Zhang</name>
+    </author>
+    <author>
+      <name>Ali Luo</name>
+    </author>
+    <author>
+      <name>Linjing Li</name>
+    </author>
+    <author>
+      <name>Shuo Ye</name>
+    </author>
+    <author>
+      <name>Hailing Lu</name>
+    </author>
+    <author>
+      <name>Wen Hou</name>
+    </author>
+    <author>
+      <name>Dongbin Zhao</name>
+    </author>
+  </entry>
+</feed>

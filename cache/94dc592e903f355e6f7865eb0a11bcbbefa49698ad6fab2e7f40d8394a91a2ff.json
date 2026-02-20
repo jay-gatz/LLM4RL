@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MU55xuzzY5/rpUGp+eaJVLz8/AY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22956v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:03:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22956v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22956v1</id>
+    <title>SWE-Manager: Selecting and Synthesizing Golden Proposals Before Coding</title>
+    <updated>2026-01-30T13:17:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.22956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) research in software engineering has largely focused on tasks such as code generation and bug repair. In practice, teams often draft multiple candidate proposals for fixing an issue and then deliberate on one golden proposal for implementation. This selection requires not only assessing the issue's scope, impact, and urgency, but also a clear understanding of each proposal's strengths and weaknesses. A good selection could make issue resolution more reliable while reducing regression and operational risk, whereas a poor choice can increase risk and even cause unpredictable failures.
+  We first conduct a manual study of real-world issues to characterize the rationales maintainers use when selecting among competing proposals. Motivated by these findings, we introduce SWE-Manager, a joint selection and synthesis approach that selects the best proposal and synthesizes a golden proposal. SWE-Manager is an 8B model trained via reinforcement learning (RL) to compare proposals, justify its choice, and synthesize a golden proposal for implementation. We view proposal selection as a reasoning task, mirroring how technical managers review competing proposals by weighing issue context and each proposal's solution without executing code or running tests. On the SWE-Lancer Manager benchmark, SWE-Manager achieves 53.21 selection accuracy and 57.75 earn rate, earning 152,750 dollars and outperforming strong baselines including GPT-5. To further evaluate the effectiveness of SWE-Manager in real-world issue resolution, we design the P2A framework, which simulates a real-world workflow where multiple proposals are drafted, reviewed, and a golden proposal is selected for implementation ...</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T13:17:14Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Boyin Tan</name>
+    </author>
+    <author>
+      <name>Haoning Deng</name>
+    </author>
+    <author>
+      <name>Junyuan Zhang</name>
+    </author>
+    <author>
+      <name>Junjielong Xu</name>
+    </author>
+    <author>
+      <name>Pinjia He</name>
+    </author>
+    <author>
+      <name>Youcheng Sun</name>
+    </author>
+  </entry>
+</feed>

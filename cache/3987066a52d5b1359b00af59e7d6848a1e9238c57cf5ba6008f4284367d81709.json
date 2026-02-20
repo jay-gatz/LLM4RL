@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6iPFduYpB2vxCn6QKhCRLTnn8cw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16298v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:19:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16298v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16298v1</id>
+    <title>MultiCW: A Large-Scale Balanced Benchmark Dataset for Training Robust Check-Worthiness Detection Models</title>
+    <updated>2026-02-18T09:28:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.16298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are beginning to reshape how media professionals verify information, yet automated support for detecting check-worthy claims a key step in the fact-checking process remains limited. We introduce the Multi-Check-Worthy (MultiCW) dataset, a balanced multilingual benchmark for check-worthy claim detection spanning 16 languages, 7 topical domains, and 2 writing styles. It consists of 123,722 samples, evenly distributed between noisy (informal) and structured (formal) texts, with balanced representation of check-worthy and non-check-worthy classes across all languages. To probe robustness, we also introduce an equally balanced out-of-distribution evaluation set of 27,761 samples in 4 additional languages. To provide baselines, we benchmark 3 common fine-tuned multilingual transformers against a diverse set of 15 commercial and open LLMs under zero-shot settings. Our findings show that fine-tuned models consistently outperform zero-shot LLMs on claim classification and show strong out-of-distribution generalization across languages, domains, and styles. MultiCW provides a rigorous multilingual resource for advancing automated fact-checking and enables systematic comparisons between fine-tuned models and cutting-edge LLMs on the check-worthy claim detection task.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T09:28:53Z</published>
+    <arxiv:comment>18 pages, 8 figures, 19 tables, EACL-2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Martin Hyben</name>
+    </author>
+    <author>
+      <name>Sebastian Kula</name>
+    </author>
+    <author>
+      <name>Jan Cegin</name>
+    </author>
+    <author>
+      <name>Jakub Simko</name>
+    </author>
+    <author>
+      <name>Ivan Srba</name>
+    </author>
+    <author>
+      <name>Robert Moro</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pOgJmR7zOygx2knA5o5zQARrMEw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.12405v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:40:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.12405v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12405v1</id>
+    <title>Self-Refining Vision Language Model for Robotic Failure Detection and Reasoning</title>
+    <updated>2026-02-12T20:55:36Z</updated>
+    <link href="https://arxiv.org/abs/2602.12405v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12405v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning about failures is crucial for building reliable and trustworthy robotic systems. Prior approaches either treat failure reasoning as a closed-set classification problem or assume access to ample human annotations. Failures in the real world are typically subtle, combinatorial, and difficult to enumerate, whereas rich reasoning labels are expensive to acquire. We address this problem by introducing ARMOR: Adaptive Round-based Multi-task mOdel for Robotic failure detection and reasoning. We formulate detection and reasoning as a multi-task self-refinement process, where the model iteratively predicts detection outcomes and natural language reasoning conditioned on past outputs. During training, ARMOR learns from heterogeneous supervision - large-scale sparse binary labels and small-scale rich reasoning annotations - optimized via a combination of offline and online imitation learning. At inference time, ARMOR generates multiple refinement trajectories and selects the most confident prediction via a self-certainty metric. Experiments across diverse environments show that ARMOR achieves state-of-the-art performance by improving over the previous approaches by up to 30% on failure detection rate and up to 100% in reasoning measured through LLM fuzzy match score, demonstrating robustness to heterogeneous supervision and open-ended reasoning beyond predefined failure modes. We provide dditional visualizations on our website: https://sites.google.com/utexas.edu/armor</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T20:55:36Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Carl Qi</name>
+    </author>
+    <author>
+      <name>Xiaojie Wang</name>
+    </author>
+    <author>
+      <name>Silong Yong</name>
+    </author>
+    <author>
+      <name>Stephen Sheng</name>
+    </author>
+    <author>
+      <name>Huitan Mao</name>
+    </author>
+    <author>
+      <name>Sriram Srinivasan</name>
+    </author>
+    <author>
+      <name>Manikantan Nambi</name>
+    </author>
+    <author>
+      <name>Amy Zhang</name>
+    </author>
+    <author>
+      <name>Yesh Dattatreya</name>
+    </author>
+  </entry>
+</feed>

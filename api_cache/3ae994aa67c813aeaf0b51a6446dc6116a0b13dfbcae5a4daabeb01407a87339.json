@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hifB8rh8MQQxPEepRBwxUsGXt0o</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.06036v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.06036v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.06036v1</id>
+    <title>Towards Human-AI-Robot Collaboration and AI-Agent based Digital Twins for Parkinson's Disease Management: Review and Outlook</title>
+    <updated>2025-11-08T15:14:20Z</updated>
+    <link href="https://arxiv.org/abs/2511.06036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.06036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current body of research on Parkinson's disease (PD) screening, monitoring, and management has evolved along two largely independent trajectories. The first research community focuses on multimodal sensing of PD-related biomarkers using noninvasive technologies such as inertial measurement units (IMUs), force/pressure insoles, electromyography (EMG), electroencephalography (EEG), speech and acoustic analysis, and RGB/RGB-D motion capture systems. These studies emphasize data acquisition, feature extraction, and machine learning-based classification for PD screening, diagnosis, and disease progression modeling. In parallel, a second research community has concentrated on robotic intervention and rehabilitation, employing socially assistive robots (SARs), robot-assisted rehabilitation (RAR) systems, and virtual reality (VR)-integrated robotic platforms for improving motor and cognitive function, enhancing social engagement, and supporting caregivers. Despite the complementary goals of these two domains, their methodological and technological integration remains limited, with minimal data-level or decision-level coupling between the two. With the advent of advanced artificial intelligence (AI), including large language models (LLMs), agentic AI systems, a unique opportunity now exists to unify these research streams. We envision a closed-loop sensor-AI-robot framework in which multimodal sensing continuously guides the interaction between the patient, caregiver, humanoid robot (and physician) through AI agents that are powered by a multitude of AI models such as robotic and wearables foundation models, LLM-based reasoning, reinforcement learning, and continual learning. Such closed-loop system enables personalized, explainable, and context-aware intervention, forming the basis for digital twin of the PD patient that can adapt over time to deliver intelligent, patient-centered PD care.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-08T15:14:20Z</published>
+    <arxiv:comment>20 pages, 5 figures, 4 tables, under review with a journal</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Hassan Hizeh</name>
+    </author>
+    <author>
+      <name>Rim Chighri</name>
+    </author>
+    <author>
+      <name>Muhammad Mahboob Ur Rahman</name>
+    </author>
+    <author>
+      <name>Mohamed A. Bahloul</name>
+    </author>
+    <author>
+      <name>Ali Muqaibel</name>
+    </author>
+    <author>
+      <name>Tareq Y. Al-Naffouri</name>
+    </author>
+  </entry>
+</feed>

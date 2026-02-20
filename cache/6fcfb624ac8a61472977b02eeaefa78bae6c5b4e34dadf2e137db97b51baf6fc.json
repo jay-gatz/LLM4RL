@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M4n2D/ONi8GfgSu+QoOB1yEVnAg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00683v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:45:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00683v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00683v1</id>
+    <title>Video Understanding: Through A Temporal Lens</title>
+    <updated>2026-01-31T12:01:09Z</updated>
+    <link href="https://arxiv.org/abs/2602.00683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This thesis explores the central question of how to leverage temporal relations among video elements to advance video understanding. Addressing the limitations of existing methods, the work presents a five-fold contribution: (1) an automatic annotation framework that utilizes large vision-language models and a noise-robust contrastive learning objective with a subtractive angular margin; (2) a parameter-efficient fine-tuning strategy using "recurrent adapters" to capture temporal dynamics in low-data regimes; (3) the integration of State Space Layers (SSL) for efficient long-form video modeling, supported by the introduction of two new long-term benchmarks for egocentric and feature-length content; (4) a novel contrastive learning framework designed to explicitly model fine-grained relations between motions and video moments; and (5) a comprehensive empirical study on Large Vision-Language Models (LVLMs) that identifies the visual-language interface as a bottleneck for temporal reasoning, leading to a new "temporal-oriented recipe" for upscaled video understanding. Collectively, these contributions demonstrate that explicit temporal modeling significantly enhances a model's ability to represent and reason about the fluid nature of video content.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T12:01:09Z</published>
+    <arxiv:comment>PhD Thesis, NUS, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Thong Thanh Nguyen</name>
+    </author>
+  </entry>
+</feed>

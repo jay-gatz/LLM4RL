@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mpGD9lf0pinsOzFaizadH/Utc60</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15509v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15509v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15509v1</id>
+    <title>Fine-Refine: Iterative Fine-grained Refinement for Mitigating Dialogue Hallucination</title>
+    <updated>2026-02-17T11:33:23Z</updated>
+    <link href="https://arxiv.org/abs/2602.15509v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15509v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The tendency for hallucination in current large language models (LLMs) negatively impacts dialogue systems. Such hallucinations produce factually incorrect responses that may mislead users and undermine system trust. Existing refinement methods for dialogue systems typically operate at the response level, overlooking the fact that a single response may contain multiple verifiable or unverifiable facts. To address this gap, we propose Fine-Refine, a fine-grained refinement framework that decomposes responses into atomic units, verifies each unit using external knowledge, assesses fluency via perplexity, and iteratively corrects granular errors. We evaluate factuality across the HybriDialogue and OpendialKG datasets in terms of factual accuracy (fact score) and coverage (Not Enough Information Proportion), and experiments show that Fine-Refine substantially improves factuality, achieving up to a 7.63-point gain in dialogue fact score, with a small trade-off in dialogue quality.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T11:33:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiangyan Chen</name>
+    </author>
+    <author>
+      <name>Yujian Gan</name>
+    </author>
+    <author>
+      <name>Matthew Purver</name>
+    </author>
+  </entry>
+</feed>

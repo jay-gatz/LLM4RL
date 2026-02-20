@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CXNCaoJMzhBOHvoObqUIDRpy4yg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.05778&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:26:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.05778" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.05778v1</id>
+    <title>Risk Taxonomy, Mitigation, and Assessment Benchmarks of Large Language Model Systems</title>
+    <updated>2024-01-11T09:29:56Z</updated>
+    <link href="https://arxiv.org/abs/2401.05778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.05778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have strong capabilities in solving diverse natural language processing tasks. However, the safety and security issues of LLM systems have become the major obstacle to their widespread application. Many studies have extensively investigated risks in LLM systems and developed the corresponding mitigation strategies. Leading-edge enterprises such as OpenAI, Google, Meta, and Anthropic have also made lots of efforts on responsible LLMs. Therefore, there is a growing need to organize the existing studies and establish comprehensive taxonomies for the community. In this paper, we delve into four essential modules of an LLM system, including an input module for receiving prompts, a language model trained on extensive corpora, a toolchain module for development and deployment, and an output module for exporting LLM-generated content. Based on this, we propose a comprehensive taxonomy, which systematically analyzes potential risks associated with each module of an LLM system and discusses the corresponding mitigation strategies. Furthermore, we review prevalent benchmarks, aiming to facilitate the risk assessment of LLM systems. We hope that this paper can help LLM participants embrace a systematic perspective to build their responsible LLM systems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-11T09:29:56Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tianyu Cui</name>
+    </author>
+    <author>
+      <name>Yanling Wang</name>
+    </author>
+    <author>
+      <name>Chuanpu Fu</name>
+    </author>
+    <author>
+      <name>Yong Xiao</name>
+    </author>
+    <author>
+      <name>Sijia Li</name>
+    </author>
+    <author>
+      <name>Xinhao Deng</name>
+    </author>
+    <author>
+      <name>Yunpeng Liu</name>
+    </author>
+    <author>
+      <name>Qinglin Zhang</name>
+    </author>
+    <author>
+      <name>Ziyi Qiu</name>
+    </author>
+    <author>
+      <name>Peiyang Li</name>
+    </author>
+    <author>
+      <name>Zhixing Tan</name>
+    </author>
+    <author>
+      <name>Junwu Xiong</name>
+    </author>
+    <author>
+      <name>Xinyu Kong</name>
+    </author>
+    <author>
+      <name>Zujie Wen</name>
+    </author>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+    <author>
+      <name>Qi Li</name>
+    </author>
+  </entry>
+</feed>

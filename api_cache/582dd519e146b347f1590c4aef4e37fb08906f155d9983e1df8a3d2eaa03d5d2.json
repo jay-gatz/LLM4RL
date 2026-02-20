@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YDPSB96igPM8nExQ/OHSTCUCSt8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2312.14436&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2312.14436" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14436v3</id>
+    <title>REBEL: Reward Regularization-Based Approach for Robotic Reinforcement Learning from Human Feedback</title>
+    <updated>2025-01-19T16:21:24Z</updated>
+    <link href="https://arxiv.org/abs/2312.14436v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.14436v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effectiveness of reinforcement learning (RL) agents in continuous control robotics tasks is mainly dependent on the design of the underlying reward function, which is highly prone to reward hacking. A misalignment between the reward function and underlying human preferences (values, social norms) can lead to catastrophic outcomes in the real world especially in the context of robotics for critical decision making. Recent methods aim to mitigate misalignment by learning reward functions from human preferences and subsequently performing policy optimization. However, these methods inadvertently introduce a distribution shift during reward learning due to ignoring the dependence of agent-generated trajectories on the reward learning objective, ultimately resulting in sub-optimal alignment. Hence, in this work, we address this challenge by advocating for the adoption of regularized reward functions that more accurately mirror the intended behaviors of the agent. We propose a novel concept of reward regularization within the robotic RLHF (RL from Human Feedback) framework, which we refer to as \emph{agent preferences}. Our approach uniquely incorporates not just human feedback in the form of preferences but also considers the preferences of the RL agent itself during the reward function learning process. This dual consideration significantly mitigates the issue of distribution shift in RLHF with a computationally tractable algorithm. We provide a theoretical justification for the proposed algorithm by formulating the robotic RLHF problem as a bilevel optimization problem and developing a computationally tractable version of the same. We demonstrate the efficiency of our algorithm {\ours} in several continuous control benchmarks in DeepMind Control Suite \cite{tassa2018deepmind}.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-22T04:56:37Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Souradip Chakraborty</name>
+    </author>
+    <author>
+      <name>Anukriti Singh</name>
+    </author>
+    <author>
+      <name>Amisha Bhaskar</name>
+    </author>
+    <author>
+      <name>Pratap Tokekar</name>
+    </author>
+    <author>
+      <name>Dinesh Manocha</name>
+    </author>
+    <author>
+      <name>Amrit Singh Bedi</name>
+    </author>
+  </entry>
+</feed>

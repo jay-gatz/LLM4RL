@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zoj0c2TmLoFb/sbJdP3Fd4QlOBo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14857v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:35:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14857v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14857v1</id>
+    <title>World Models for Policy Refinement in StarCraft II</title>
+    <updated>2026-02-16T15:51:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.14857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have recently shown strong reasoning and generalization capabilities, motivating their use as decision-making policies in complex environments. StarCraft II (SC2), with its massive state-action space and partial observability, is a challenging testbed. However, existing LLM-based SC2 agents primarily focus on improving the policy itself and overlook integrating a learnable, action-conditioned transition model into the decision loop. To bridge this gap, we propose StarWM, the first world model for SC2 that predicts future observations under partial observability. To facilitate learning SC2's hybrid dynamics, we introduce a structured textual representation that factorizes observations into five semantic modules, and construct SC2-Dynamics-50k, the first instruction-tuning dataset for SC2 dynamics prediction. We further develop a multi-dimensional offline evaluation framework for predicted structured observations. Offline results show StarWM's substantial gains over zero-shot baselines, including nearly 60% improvements in resource prediction accuracy and self-side macro-situation consistency. Finally, we propose StarWM-Agent, a world-model-augmented decision system that integrates StarWM into a Generate--Simulate--Refine decision loop for foresight-driven policy refinement. Online evaluation against SC2's built-in AI demonstrates consistent improvements, yielding win-rate gains of 30%, 15%, and 30% against Hard (LV5), Harder (LV6), and VeryHard (LV7), respectively, alongside improved macro-management stability and tactical risk assessment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T15:51:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yixin Zhang</name>
+    </author>
+    <author>
+      <name>Ziyi Wang</name>
+    </author>
+    <author>
+      <name>Yiming Rong</name>
+    </author>
+    <author>
+      <name>Haoxi Wang</name>
+    </author>
+    <author>
+      <name>Jinling Jiang</name>
+    </author>
+    <author>
+      <name>Shuang Xu</name>
+    </author>
+    <author>
+      <name>Haoran Wu</name>
+    </author>
+    <author>
+      <name>Shiyu Zhou</name>
+    </author>
+    <author>
+      <name>Bo Xu</name>
+    </author>
+  </entry>
+</feed>

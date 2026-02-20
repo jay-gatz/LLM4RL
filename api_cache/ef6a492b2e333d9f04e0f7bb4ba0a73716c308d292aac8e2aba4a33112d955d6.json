@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rc3C1w7AhermZUVTNHpDSbLPlzo</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.18217v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:59:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.18217v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.18217v1</id>
+    <title>Paying Less Generalization Tax: A Cross-Domain Generalization Study of RL Training for LLM Agents</title>
+    <updated>2026-01-26T07:07:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.18217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.18217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalist LLM agents are often post-trained on a narrow set of environments but deployed across far broader, unseen domains. In this work, we investigate the challenge of agentic post-training when the eventual test domains are unknown. Specifically, we analyze which properties of reinforcement learning (RL) environments and modeling choices have the greatest influence on out-of-domain performance. First, we identify two environment axes that strongly correlate with cross-domain generalization: (i) state information richness, i.e., the amount of information for the agent to process from the state, and (ii) planning complexity, estimated via goal reachability and trajectory length under a base policy. Notably, domain realism and text-level similarity are not the primary factors; for instance, the simple grid-world domain Sokoban leads to even stronger generalization in SciWorld than the more realistic ALFWorld. Motivated by these findings, we further show that increasing state information richness alone can already effectively improve cross-domain robustness. We propose a randomization technique, which is low-overhead and broadly applicable: add small amounts of distractive goal-irrelevant features to the state to make it richer without altering the task. Beyond environment-side properties, we also examine several modeling choices: (a) SFT warmup or mid-training helps prevent catastrophic forgetting during RL but undermines generalization to domains that are not included in the mid-training datamix; and (b) turning on step-by-step thinking during RL, while not always improving in-domain performance, plays a crucial role in preserving generalization.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-26T07:07:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Zhihan Liu</name>
+    </author>
+    <author>
+      <name>Lin Guan</name>
+    </author>
+    <author>
+      <name>Yixin Nie</name>
+    </author>
+    <author>
+      <name>Kai Zhang</name>
+    </author>
+    <author>
+      <name>Zhuoqun Hao</name>
+    </author>
+    <author>
+      <name>Lin Chen</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Zhaoran Wang</name>
+    </author>
+    <author>
+      <name>Na Zhang</name>
+    </author>
+  </entry>
+</feed>

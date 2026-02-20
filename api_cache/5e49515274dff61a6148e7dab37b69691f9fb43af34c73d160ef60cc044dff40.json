@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TMunG/FwvPf4XUQ3h1k/2PQuIyU</id>
+  <title>arXiv Query: search_query=&amp;id_list=2401.13601&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:20:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2401.13601" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13601v5</id>
+    <title>MM-LLMs: Recent Advances in MultiModal Large Language Models</title>
+    <updated>2024-05-28T05:36:23Z</updated>
+    <link href="https://arxiv.org/abs/2401.13601v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13601v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the past year, MultiModal Large Language Models (MM-LLMs) have undergone substantial advancements, augmenting off-the-shelf LLMs to support MM inputs or outputs via cost-effective training strategies. The resulting models not only preserve the inherent reasoning and decision-making capabilities of LLMs but also empower a diverse range of MM tasks. In this paper, we provide a comprehensive survey aimed at facilitating further research of MM-LLMs. Initially, we outline general design formulations for model architecture and training pipeline. Subsequently, we introduce a taxonomy encompassing 126 MM-LLMs, each characterized by its specific formulations. Furthermore, we review the performance of selected MM-LLMs on mainstream benchmarks and summarize key training recipes to enhance the potency of MM-LLMs. Finally, we explore promising directions for MM-LLMs while concurrently maintaining a real-time tracking website for the latest developments in the field. We hope that this survey contributes to the ongoing advancement of the MM-LLMs domain.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-24T17:10:45Z</published>
+    <arxiv:comment>Accepted by ACL2024 (findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Duzhen Zhang</name>
+    </author>
+    <author>
+      <name>Yahan Yu</name>
+    </author>
+    <author>
+      <name>Jiahua Dong</name>
+    </author>
+    <author>
+      <name>Chenxing Li</name>
+    </author>
+    <author>
+      <name>Dan Su</name>
+    </author>
+    <author>
+      <name>Chenhui Chu</name>
+    </author>
+    <author>
+      <name>Dong Yu</name>
+    </author>
+  </entry>
+</feed>

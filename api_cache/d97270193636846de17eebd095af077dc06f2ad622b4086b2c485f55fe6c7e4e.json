@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mWZppECEph7oswFlZtmqFjaVX5I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.14759v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:36:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.14759v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.14759v1</id>
+    <title>Inner Loop Inference for Pretrained Transformers: Unlocking Latent Capabilities Without Training</title>
+    <updated>2026-02-16T14:04:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.14759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.14759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Learning architectures, and in particular Transformers, are conventionally viewed as a composition of layers. These layers are actually often obtained as the sum of two contributions: a residual path that copies the input and the output of a Transformer block. As a consequence, the inner representations (i.e. the input of these blocks) can be interpreted as iterative refinement of a propagated latent representation. Under this lens, many works suggest that the inner space is shared across layers, meaning that tokens can be decoded at early stages. Mechanistic interpretability even goes further by conjecturing that some layers act as refinement layers. Following this path, we propose inference-time inner looping, which prolongs refinement in pretrained off-the-shelf language models by repeatedly re-applying a selected block range. Across multiple benchmarks, inner looping yields modest but consistent accuracy improvements. Analyses of the resulting latent trajectories suggest more stable state evolution and continued semantic refinement. Overall, our results suggest that additional refinement can be obtained through simple test-time looping, extending computation in frozen pretrained models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-16T14:04:24Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jonathan Lys</name>
+    </author>
+    <author>
+      <name>Vincent Gripon</name>
+    </author>
+    <author>
+      <name>Bastien Pasdeloup</name>
+    </author>
+    <author>
+      <name>Lukas Mauch</name>
+    </author>
+    <author>
+      <name>Fabien Cardinaux</name>
+    </author>
+    <author>
+      <name>Ghouthi Boukli Hacene</name>
+    </author>
+  </entry>
+</feed>

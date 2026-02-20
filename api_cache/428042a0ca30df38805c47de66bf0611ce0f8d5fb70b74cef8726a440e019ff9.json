@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dur5gh41sQyfebMQKoIYAlGjups</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14406v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:49:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14406v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14406v1</id>
+    <title>Large-Scale Label Quality Assessment for Medical Segmentation via a Vision-Language Judge and Synthetic Data</title>
+    <updated>2026-01-20T19:09:12Z</updated>
+    <link href="https://arxiv.org/abs/2601.14406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale medical segmentation datasets often combine manual and pseudo-labels of uneven quality, which can compromise training and evaluation. Low-quality labels may hamper performance and make the model training less robust. To address this issue, we propose SegAE (Segmentation Assessment Engine), a lightweight vision-language model (VLM) that automatically predicts label quality across 142 anatomical structures. Trained on over four million image-label pairs with quality scores, SegAE achieves a high correlation coefficient of 0.902 with ground-truth Dice similarity and evaluates a 3D mask in 0.06s. SegAE shows several practical benefits: (I) Our analysis reveals widespread low-quality labeling across public datasets; (II) SegAE improves data efficiency and training performance in active and semi-supervised learning, reducing dataset annotation cost by one-third and quality-checking time by 70% per label. This tool provides a simple and effective solution for quality control in large-scale medical segmentation datasets. The dataset, model weights, and codes are released at https://github.com/Schuture/SegAE.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-20T19:09:12Z</published>
+    <arxiv:comment>ISBI 2026 accepted</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yixiong Chen</name>
+    </author>
+    <author>
+      <name>Zongwei Zhou</name>
+    </author>
+    <author>
+      <name>Wenxuan Li</name>
+    </author>
+    <author>
+      <name>Alan Yuille</name>
+    </author>
+  </entry>
+</feed>

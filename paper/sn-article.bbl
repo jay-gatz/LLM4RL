@@ -1,0 +1,2408 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{125}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{Ahn et~al.}{2022}]{arxiv_p_2204_01691}
+\begin{botherref}
+\oauthor{\bsnm{Ahn}, \binits{M.J.}},
+\oauthor{\bsnm{Brohan}, \binits{A.}},
+\oauthor{\bsnm{Brown}, \binits{N.}},
+\oauthor{\bsnm{Chebotar}, \binits{Y.}},
+\oauthor{\bsnm{Cortes}, \binits{O.A.C.}},
+\oauthor{\bsnm{David}, \binits{B.}},
+\oauthor{\bsnm{Finn}, \binits{C.}},
+\oauthor{\bsnm{Gopalakrishnan}, \binits{K.}},
+\oauthor{\bsnm{Hausman}, \binits{K.}},
+\oauthor{\bsnm{Herzog}, \binits{A.}},
+\oauthor{\bsnm{Ho}, \binits{D.W.C.}},
+\oauthor{\bsnm{Hsu}, \binits{J.}},
+\oauthor{\bsnm{Ibarz}, \binits{J.}},
+\oauthor{\bsnm{Ichter}, \binits{B.}},
+\oauthor{\bsnm{Irpan}, \binits{A.}},
+\oauthor{\bsnm{Jang}, \binits{E.B.}},
+\oauthor{\bsnm{Ruano}, \binits{R.J.}},
+\oauthor{\bsnm{Jeffrey}, \binits{K.}},
+\oauthor{\bsnm{Jesmonth}, \binits{S.}},
+\oauthor{\bsnm{Joshi}, \binits{N.J.}},
+\oauthor{\bsnm{Julian}, \binits{R.R.}},
+\oauthor{\bsnm{Kalashnikov}, \binits{D.}},
+\oauthor{\bsnm{Kuang}, \binits{Y.}},
+\oauthor{\bsnm{Lee}, \binits{K.-H.}},
+\oauthor{\bsnm{Levine}, \binits{S.}},
+\oauthor{\bsnm{Lu}, \binits{Y.}},
+\oauthor{\bsnm{Luu}, \binits{L.}},
+\oauthor{\bsnm{Parada}, \binits{C.}},
+\oauthor{\bsnm{Pastor}, \binits{P.}},
+\oauthor{\bsnm{Quiambao}, \binits{J.}},
+\oauthor{\bsnm{Rao}, \binits{K.}},
+\oauthor{\bsnm{Rettinghouse}, \binits{J.}},
+\oauthor{\bsnm{Reyes}, \binits{D.}},
+\oauthor{\bsnm{Sermanet}, \binits{P.}},
+\oauthor{\bsnm{Sievers}, \binits{N.}},
+\oauthor{\bsnm{Tan}, \binits{C.}},
+\oauthor{\bsnm{Toshev}, \binits{A.}},
+\oauthor{\bsnm{Vanhoucke}, \binits{V.}},
+\oauthor{\bsnm{Xia}, \binits{F.}},
+\oauthor{\bsnm{Xiao}, \binits{T.}},
+\oauthor{\bsnm{Xu}, \binits{P.}},
+\oauthor{\bsnm{Xu}, \binits{S.}},
+\oauthor{\bsnm{Yan}, \binits{M.}},
+\oauthor{\bsnm{Yan}},
+\oauthor{\bsnm{Mengyuan}},
+\oauthor{\bsnm{Zeng}},
+\oauthor{\bsnm{Andy}}:
+Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.
+arXiv (Cornell University)
+(2022).
+\url{https://arxiv.org/abs/2204.01691}
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Liang
+  et~al.}{2023}]{doi_p_10_1109_icra48891_2023_10160591}
+\begin{botherref}
+\oauthor{\bsnm{Liang}, \binits{J.}},
+\oauthor{\bsnm{Huang}, \binits{W.}},
+\oauthor{\bsnm{Xia}, \binits{F.}},
+\oauthor{\bsnm{Xu}, \binits{P.}},
+\oauthor{\bsnm{Hausman}, \binits{K.}},
+\oauthor{\bsnm{Ichter}, \binits{B.}},
+\oauthor{\bsnm{Florence}, \binits{P.}},
+\oauthor{\bsnm{Zeng}, \binits{A.}}:
+Code as Policies: Language Model Programs for Embodied Control.
+Unknown venue
+(2023).
+\doiurl{10.1109/icra48891.2023.10160591} .
+\url{https://doi.org/10.1109/icra48891.2023.10160591}
+\end{botherref}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2023}]{arxiv_p_2305_16291}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{G.}},
+\oauthor{\bsnm{Xie}, \binits{Y.}},
+\oauthor{\bsnm{Jiang}, \binits{Y.}},
+\oauthor{\bsnm{Mandlekar}, \binits{A.}},
+\oauthor{\bsnm{Xiao}, \binits{C.}},
+\oauthor{\bsnm{Zhu}, \binits{Y.}},
+\oauthor{\bsnm{Fan}, \binits{L.}},
+\oauthor{\bsnm{Anandkumar}, \binits{A.}}:
+Voyager: An Open-Ended Embodied Agent with Large Language Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2305.16291}
+\end{botherref}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Ma et~al.}{2023}]{arxiv_p_2310_12931}
+\begin{botherref}
+\oauthor{\bsnm{Ma}, \binits{Y.J.}},
+\oauthor{\bsnm{Liang}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{G.}},
+\oauthor{\bsnm{Huang}, \binits{D.-A.}},
+\oauthor{\bsnm{Bastani}, \binits{O.}},
+\oauthor{\bsnm{Jayaraman}, \binits{D.}},
+\oauthor{\bsnm{Zhu}, \binits{Y.}},
+\oauthor{\bsnm{Fan}, \binits{L.}},
+\oauthor{\bsnm{Anandkumar}, \binits{A.}}:
+Eureka: Human-Level Reward Design via Coding Large Language Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2310.12931}
+\end{botherref}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Lai et~al.}{2024}]{arxiv_p_2404_03648}
+\begin{botherref}
+\oauthor{\bsnm{Lai}, \binits{H.}},
+\oauthor{\bsnm{Liu}, \binits{X.}},
+\oauthor{\bsnm{Iong}, \binits{I.L.}},
+\oauthor{\bsnm{Yao}, \binits{S.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Shen}, \binits{P.}},
+\oauthor{\bsnm{Yu}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}},
+\oauthor{\bsnm{Dong}, \binits{Y.}},
+\oauthor{\bsnm{Tang}, \binits{J.}}:
+AutoWebGLM: A Large Language Model-based Web Navigating Agent.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2404.03648}
+\end{botherref}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Peng et~al.}{2026}]{arxiv_p_2602_16165}
+\begin{botherref}
+\oauthor{\bsnm{Peng}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Zhou}, \binits{R.}},
+\oauthor{\bsnm{Fleming}, \binits{C.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Garcia}, \binits{A.}},
+\oauthor{\bsnm{Hong}, \binits{M.}}:
+HiPER: Hierarchical Reinforcement Learning with Explicit Credit Assignment for
+  Large Language Model Agents.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.16165}
+\end{botherref}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Yuan et~al.}{2023}]{arxiv_p_2303_16563}
+\begin{botherref}
+\oauthor{\bsnm{Yuan}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Xie}, \binits{F.}},
+\oauthor{\bsnm{Cai}, \binits{P.}},
+\oauthor{\bsnm{Dong}, \binits{H.}},
+\oauthor{\bsnm{Lu}, \binits{Z.}}:
+Skill Reinforcement Learning and Planning for Open-World Long-Horizon Tasks.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2303.16563}
+\end{botherref}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Dalal et~al.}{2024}]{arxiv_p_2405_01534}
+\begin{botherref}
+\oauthor{\bsnm{Dalal}, \binits{M.}},
+\oauthor{\bsnm{Chiruvolu}, \binits{T.}},
+\oauthor{\bsnm{Chaplot}, \binits{D.}},
+\oauthor{\bsnm{Salakhutdinov}, \binits{R.}}:
+Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics
+  Tasks.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2405.01534}
+\end{botherref}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2025}]{arxiv_p_2512_12716}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{X.}},
+\oauthor{\bsnm{Feng}, \binits{J.}},
+\oauthor{\bsnm{Zhuang}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{J.}},
+\oauthor{\bsnm{Que}, \binits{M.}},
+\oauthor{\bsnm{Li}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{D.}},
+\oauthor{\bsnm{Tong}, \binits{H.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{P.}}:
+CoDA: A Context-Decoupled Hierarchical Agent with Reinforcement Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2512.12716}
+\end{botherref}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Xie et~al.}{2026}]{arxiv_p_2601_14140}
+\begin{botherref}
+\oauthor{\bsnm{Xie}, \binits{T.}},
+\oauthor{\bsnm{Qi}, \binits{Y.}},
+\oauthor{\bsnm{Wen}, \binits{J.}},
+\oauthor{\bsnm{Wan}, \binits{Z.}},
+\oauthor{\bsnm{Dong}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Cai}, \binits{S.}},
+\oauthor{\bsnm{Liang}, \binits{Y.}},
+\oauthor{\bsnm{Jia}, \binits{T.}},
+\oauthor{\bsnm{wang}},
+\oauthor{\bsnm{Wang}, \binits{R.}},
+\oauthor{\bsnm{Li}, \binits{M.}}:
+CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient
+  yet Reliable Embodied AI Systems.
+arXiv (Cornell University)
+(2026).
+\url{https://arxiv.org/abs/2601.14140}
+\end{botherref}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Cheng et~al.}{2025}]{arxiv_p_2511_14460}
+\begin{botherref}
+\oauthor{\bsnm{Cheng}, \binits{M.}},
+\oauthor{\bsnm{Ouyang}, \binits{J.}},
+\oauthor{\bsnm{Yu}, \binits{S.}},
+\oauthor{\bsnm{Yan}, \binits{R.}},
+\oauthor{\bsnm{Luo}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{D.}},
+\oauthor{\bsnm{Liu}, \binits{Q.}},
+\oauthor{\bsnm{Chen}, \binits{E.}}:
+Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2511.14460}
+\end{botherref}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Li et~al.}{2026}]{arxiv_p_2602_00994}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Yi}, \binits{M.}},
+\oauthor{\bsnm{Li}, \binits{X.}},
+\oauthor{\bsnm{Fan}, \binits{J.}},
+\oauthor{\bsnm{Jiang}, \binits{F.}},
+\oauthor{\bsnm{Chen}, \binits{B.}},
+\oauthor{\bsnm{Li}, \binits{P.}},
+\oauthor{\bsnm{Song}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{T.}}:
+Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to
+  Disentangled Tuning.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.00994}
+\end{botherref}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Xuan et~al.}{2026}]{arxiv_p_2601_07264}
+\begin{botherref}
+\oauthor{\bsnm{Xuan}, \binits{W.}},
+\oauthor{\bsnm{Zeng}, \binits{Q.}},
+\oauthor{\bsnm{Qi}, \binits{H.}},
+\oauthor{\bsnm{Xiao}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Yokoya}, \binits{N.}}:
+The Confidence Dichotomy: Analyzing and Mitigating Miscalibration in Tool-Use
+  Agents.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.07264}
+\end{botherref}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Bai et~al.}{2026}]{arxiv_p_2601_02439}
+\begin{botherref}
+\oauthor{\bsnm{Bai}, \binits{H.}},
+\oauthor{\bsnm{Taymanov}, \binits{A.}},
+\oauthor{\bsnm{Zhang}, \binits{T.}},
+\oauthor{\bsnm{Kumar}, \binits{A.}},
+\oauthor{\bsnm{Whitehead}, \binits{S.}}:
+WebGym: Scaling Training Environments for Visual Web Agents with Realistic
+  Tasks.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.02439}
+\end{botherref}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Nottingham et~al.}{2023}]{arxiv_p_2301_12050}
+\begin{botherref}
+\oauthor{\bsnm{Nottingham}, \binits{K.}},
+\oauthor{\bsnm{Ammanabrolu}, \binits{P.}},
+\oauthor{\bsnm{Suhr}, \binits{A.}},
+\oauthor{\bsnm{Choi}, \binits{Y.}},
+\oauthor{\bsnm{Hajishirzi}, \binits{H.}},
+\oauthor{\bsnm{Singh}, \binits{S.}},
+\oauthor{\bsnm{Fox}, \binits{R.}}:
+Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using
+  Language Guided World Modelling.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2301.12050}
+\end{botherref}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Sharma et~al.}{2026}]{arxiv_p_2602_02454}
+\begin{botherref}
+\oauthor{\bsnm{Sharma}, \binits{A.K.}},
+\oauthor{\bsnm{Sun}, \binits{Y.}},
+\oauthor{\bsnm{Lu}, \binits{N.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Yang}, \binits{S.}}:
+World-Gymnast: Training Robots with Reinforcement Learning in a World Model.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.02454}
+\end{botherref}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2026}]{arxiv_p_2602_11075}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{J.}},
+\oauthor{\bsnm{Lin}, \binits{K.}},
+\oauthor{\bsnm{Li}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{W.}},
+\oauthor{\bsnm{Lin}, \binits{T.}},
+\oauthor{\bsnm{Wu}, \binits{L.}},
+\oauthor{\bsnm{Su}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.-Q.}},
+\oauthor{\bsnm{Chen}, \binits{L.}},
+\oauthor{\bsnm{Luo}, \binits{P.}},
+\oauthor{\bsnm{Yue}, \binits{X.}},
+\oauthor{\bsnm{Li}, \binits{H.}}:
+RISE: Self-Improving Robot Policy with Compositional World Model.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.11075}
+\end{botherref}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Yang}{2026}]{arxiv_p_2602_00785}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{S.}}:
+World Models as an Intermediary between Agents and the Real World.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.00785}
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Song et~al.}{2026}]{arxiv_p_2602_06493}
+\begin{botherref}
+\oauthor{\bsnm{Song}, \binits{Z.}},
+\oauthor{\bsnm{Ma}, \binits{Z.}},
+\oauthor{\bsnm{Qiang}, \binits{W.}},
+\oauthor{\bsnm{Zheng}, \binits{C.}},
+\oauthor{\bsnm{Hua}, \binits{G.}}:
+Adaptive Uncertainty-Aware Tree Search for Robust Reasoning.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.06493}
+\end{botherref}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Cai and Sugiyama}{2026}]{arxiv_p_2602_12579}
+\begin{botherref}
+\oauthor{\bsnm{Cai}, \binits{X.-Q.}},
+\oauthor{\bsnm{Sugiyama}, \binits{M.}}:
+VI-CuRL: Stabilizing Verifier-Independent RL Reasoning via Confidence-Guided
+  Variance Reduction.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.12579}
+\end{botherref}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Guo et~al.}{2026}]{arxiv_p_2601_06845}
+\begin{botherref}
+\oauthor{\bsnm{Guo}, \binits{P.}},
+\oauthor{\bsnm{Li}, \binits{C.}},
+\oauthor{\bsnm{Feng}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}}:
+Code Evolution for Control: Synthesizing Policies via LLM-Driven Evolutionary
+  Search.
+ArXiv.org
+(2026).
+\url{https://arxiv.org/abs/2601.06845}
+\end{botherref}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Lü et~al.}{2026}]{arxiv_p_2601_22511}
+\begin{botherref}
+\oauthor{\bsnm{Lü}, \binits{Y.-J.}},
+\oauthor{\bsnm{Wang}, \binits{C.}},
+\oauthor{\bsnm{Shen}, \binits{L.}},
+\oauthor{\bsnm{Huang}, \binits{J.}},
+\oauthor{\bsnm{Xu}, \binits{T.}}:
+Mock Worlds, Real Skills: Building Small Agentic Language Models with Synthetic
+  Tasks, Simulated Environments, and Rubric-Based Rewards.
+ArXiv.org
+(2026).
+\url{https://arxiv.org/abs/2601.22511}
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Luo et~al.}{2025}]{arxiv_p_2508_03680}
+\begin{botherref}
+\oauthor{\bsnm{Luo}, \binits{X.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{He}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{D.}},
+\oauthor{\bsnm{Qiu}, \binits{L.K.}},
+\oauthor{\bsnm{Yang}, \binits{Y.}}:
+Agent Lightning: Train ANY AI Agents with Reinforcement Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2508.03680}
+\end{botherref}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Nellessen and
+  Kachman}{2026}]{arxiv_p_2602_02395}
+\begin{botherref}
+\oauthor{\bsnm{Nellessen}, \binits{S.}},
+\oauthor{\bsnm{Kachman}, \binits{T.}}:
+David vs. Goliath: Verifiable Agent-to-Agent Jailbreaking via Reinforcement
+  Learning.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.02395}
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Ye et~al.}{2025}]{arxiv_p_2510_24699}
+\begin{botherref}
+\oauthor{\bsnm{Ye}, \binits{R.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Li}, \binits{K.}},
+\oauthor{\bsnm{Yin}, \binits{H.}},
+\oauthor{\bsnm{Tao}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{Y.}},
+\oauthor{\bsnm{Su}, \binits{L.}},
+\oauthor{\bsnm{Zhang}, \binits{L.}},
+\oauthor{\bsnm{Qiao}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Xie}, \binits{P.}},
+\oauthor{\bsnm{Huang}, \binits{F.}},
+\oauthor{\bsnm{Chen}, \binits{S.}},
+\oauthor{\bsnm{Zhou}, \binits{J.}},
+\oauthor{\bsnm{Jiang}, \binits{Y.}}:
+AgentFold: Long-Horizon Web Agents with Proactive Context Management.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.24699}
+\end{botherref}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Vijay and Ethiraj}{2025}]{arxiv_p_2512_20275}
+\begin{botherref}
+\oauthor{\bsnm{Vijay}, \binits{D.}},
+\oauthor{\bsnm{Ethiraj}, \binits{V.}}:
+Graph-Symbolic Policy Enforcement and Control (G-SPEC): A Neuro-Symbolic
+  Framework for Safe Agentic AI in 5G Autonomous Networks.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2512.20275}
+\end{botherref}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Gu et~al.}{2026}]{arxiv_p_2601_08107}
+\begin{botherref}
+\oauthor{\bsnm{Gu}, \binits{C.}},
+\oauthor{\bsnm{Pan}, \binits{Y.}},
+\oauthor{\bsnm{Xiong}, \binits{H.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}}:
+STO-RL: Offline RL under Sparse Rewards via LLM-Guided Subgoal Temporal Order.
+ArXiv.org
+(2026).
+\url{https://arxiv.org/abs/2601.08107}
+\end{botherref}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2026}]{arxiv_p_2602_14468}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{C.}},
+\oauthor{\bsnm{Zhao}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{L.}},
+\oauthor{\bsnm{Ye}, \binits{Y.}},
+\oauthor{\bsnm{Szepesvári}, \binits{C.}},
+\oauthor{\bsnm{Yang}, \binits{L.F.}}:
+LACONIC: Length-Aware Constrained Reinforcement Learning for LLM.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.14468}
+\end{botherref}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Ding et~al.}{2026}]{arxiv_p_2601_22149}
+\begin{botherref}
+\oauthor{\bsnm{Ding}, \binits{H.}},
+\oauthor{\bsnm{Liu}, \binits{P.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Ji}, \binits{Z.}},
+\oauthor{\bsnm{Cao}, \binits{M.}},
+\oauthor{\bsnm{Zhang}, \binits{R.}},
+\oauthor{\bsnm{Ai}, \binits{L.}},
+\oauthor{\bsnm{Yang}, \binits{E.}},
+\oauthor{\bsnm{Shi}, \binits{T.}},
+\oauthor{\bsnm{Yu}, \binits{L.}}:
+DynaWeb: Model-Based Reinforcement Learning of Web Agents.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.22149}
+\end{botherref}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2026}]{arxiv_p_2602_07848}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{P.}},
+\oauthor{\bsnm{Fu}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{K.}},
+\oauthor{\bsnm{Li}, \binits{F.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Sun}, \binits{X.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{S.}},
+\oauthor{\bsnm{Zhao}, \binits{J.}},
+\oauthor{\bsnm{Tian}, \binits{K.}},
+\oauthor{\bsnm{Li}, \binits{D.}},
+\oauthor{\bsnm{Gao}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Zhang}, \binits{W.}},
+\oauthor{\bsnm{Ye}, \binits{P.}},
+\oauthor{\bsnm{Hu}, \binits{S.}},
+\oauthor{\bsnm{Bai}, \binits{L.}},
+\oauthor{\bsnm{Zhou}, \binits{B.}},
+\oauthor{\bsnm{Zhang}, \binits{K.}},
+\oauthor{\bsnm{Qi}, \binits{B.}}:
+MARTI-MARS$^2$: Scaling Multi-Agent Self-Search via Reinforcement Learning for
+  Code Generation.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.07848}
+\end{botherref}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{for Artificial Intelligence~2026
+  et~al.}{2026}]{doi_p_10_48448_q4pk_2g71}
+\begin{botherref}
+\oauthor{\bsnm{Artificial Intelligence~2026}, \binits{A.}},
+\oauthor{\bsnm{Duan}, \binits{Y.}},
+\oauthor{\bsnm{Jian}, \binits{L.}},
+\oauthor{\bsnm{Shi}, \binits{Y.}}:
+Navigating the Alpha Jungle: An LLM-Powered MCTS Framework for Formulaic Alpha
+  Factor Mining.
+Underline Science Inc.
+(2026).
+\doiurl{10.48448/q4pk-2g71} .
+\url{https://doi.org/10.48448/q4pk-2g71}
+\end{botherref}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Shi et~al.}{2023}]{arxiv_p_2310_20587}
+\begin{botherref}
+\oauthor{\bsnm{Shi}, \binits{R.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Ze}, \binits{Y.}},
+\oauthor{\bsnm{Du}, \binits{S.S.}},
+\oauthor{\bsnm{Xu}, \binits{H.}}:
+Unleashing the Power of Pre-trained Language Models for Offline Reinforcement
+  Learning.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2310.20587}
+\end{botherref}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Hu and Sadigh}{2023}]{arxiv_p_2304_07297}
+\begin{botherref}
+\oauthor{\bsnm{Hu}, \binits{H.}},
+\oauthor{\bsnm{Sadigh}, \binits{D.}}:
+Language Instructed Reinforcement Learning for Human-AI Coordination.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2304.07297}
+\end{botherref}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{Li et~al.}{2026}]{arxiv_p_2602_08335}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}},
+\oauthor{\bsnm{Lu}, \binits{W.}},
+\oauthor{\bsnm{Tang}, \binits{Z.}},
+\oauthor{\bsnm{Wu}, \binits{M.}},
+\oauthor{\bsnm{Luo}, \binits{H.}},
+\oauthor{\bsnm{Wu}, \binits{T.}},
+\oauthor{\bsnm{Peng}, \binits{Z.}},
+\oauthor{\bsnm{Mi}, \binits{H.}},
+\oauthor{\bsnm{Feng}, \binits{Y.}},
+\oauthor{\bsnm{Tan}, \binits{N.}},
+\oauthor{\bsnm{Huang}, \binits{C.}},
+\oauthor{\bsnm{Chen}, \binits{H.}},
+\oauthor{\bsnm{Shen}, \binits{L.}}:
+Who Deserves the Reward? SHARP: Shapley Credit-based Optimization for
+  Multi-Agent System.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.08335}
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Paischer et~al.}{2022}]{arxiv_p_2205_12258}
+\begin{botherref}
+\oauthor{\bsnm{Paischer}, \binits{F.}},
+\oauthor{\bsnm{Adler}, \binits{T.}},
+\oauthor{\bsnm{Patil}, \binits{V.}},
+\oauthor{\bsnm{Bitto-Nemling}, \binits{A.}},
+\oauthor{\bsnm{Holzleitner}, \binits{M.}},
+\oauthor{\bsnm{Lehner}, \binits{S.}},
+\oauthor{\bsnm{Eghbal-zadeh}, \binits{H.}},
+\oauthor{\bsnm{Hochreiter}, \binits{S.}}:
+History Compression via Language Models in Reinforcement Learning.
+arXiv (Cornell University)
+(2022).
+\url{https://arxiv.org/abs/2205.12258}
+\end{botherref}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Du et~al.}{2023}]{arxiv_p_2302_06692}
+\begin{botherref}
+\oauthor{\bsnm{Du}, \binits{Y.}},
+\oauthor{\bsnm{Watkins}, \binits{O.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Colas}, \binits{C.}},
+\oauthor{\bsnm{Darrell}, \binits{T.}},
+\oauthor{\bsnm{Abbeel}, \binits{P.}},
+\oauthor{\bsnm{Gupta}, \binits{A.}},
+\oauthor{\bsnm{Andreas}, \binits{J.}}:
+Guiding Pretraining in Reinforcement Learning with Large Language Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2302.06692}
+\end{botherref}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{Zhou et~al.}{2023}]{arxiv_p_2311_13373}
+\begin{botherref}
+\oauthor{\bsnm{Zhou}, \binits{Z.}},
+\oauthor{\bsnm{Hu}, \binits{B.}},
+\oauthor{\bsnm{Zhao}, \binits{C.}},
+\oauthor{\bsnm{Zhang}, \binits{P.}},
+\oauthor{\bsnm{Liu}, \binits{B.}}:
+Large Language Model as a Policy Teacher for Training Reinforcement Learning
+  Agents.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2311.13373}
+\end{botherref}
+\endbibitem
+
+%%% 38
+\bibitem[\protect\citeauthoryear{Qi et~al.}{2024}]{arxiv_p_2411_02337}
+\begin{botherref}
+\oauthor{\bsnm{Qi}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{X.}},
+\oauthor{\bsnm{Iong}, \binits{I.L.}},
+\oauthor{\bsnm{Lai}, \binits{H.}},
+\oauthor{\bsnm{Sun}, \binits{X.}},
+\oauthor{\bsnm{Zhao}, \binits{W.}},
+\oauthor{\bsnm{Yang}, \binits{Y.}},
+\oauthor{\bsnm{Yang}, \binits{X.}},
+\oauthor{\bsnm{Sun}, \binits{J.}},
+\oauthor{\bsnm{Yao}, \binits{S.}},
+\oauthor{\bsnm{Zhang}, \binits{T.}},
+\oauthor{\bsnm{Xu}, \binits{W.}},
+\oauthor{\bsnm{Tang}, \binits{J.}},
+\oauthor{\bsnm{Dong}, \binits{Y.}}:
+WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum
+  Reinforcement Learning.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2411.02337}
+\end{botherref}
+\endbibitem
+
+%%% 39
+\bibitem[\protect\citeauthoryear{Gao et~al.}{2026}]{arxiv_p_2601_12762}
+\begin{botherref}
+\oauthor{\bsnm{Gao}, \binits{X.}},
+\oauthor{\bsnm{Huang}, \binits{P.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Yan}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{S.}},
+\oauthor{\bsnm{Chen}, \binits{Z.}},
+\oauthor{\bsnm{Qian}, \binits{C.}},
+\oauthor{\bsnm{Yu}, \binits{G.}},
+\oauthor{\bsnm{Gu}, \binits{Y.}}:
+Teaching LLMs to Learn Tool Trialing and Execution through Environment
+  Interaction.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.12762}
+\end{botherref}
+\endbibitem
+
+%%% 40
+\bibitem[\protect\citeauthoryear{Guo et~al.}{2026}]{arxiv_p_2602_13559}
+\begin{botherref}
+\oauthor{\bsnm{Guo}, \binits{Y.}},
+\oauthor{\bsnm{Yang}, \binits{W.}},
+\oauthor{\bsnm{Yang}, \binits{S.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Chen}, \binits{C.}},
+\oauthor{\bsnm{Wei}, \binits{Y.}},
+\oauthor{\bsnm{Hu}, \binits{Y.}},
+\oauthor{\bsnm{Huang}, \binits{Y.}},
+\oauthor{\bsnm{Hao}, \binits{G.}},
+\oauthor{\bsnm{Yuan}, \binits{D.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Chen}, \binits{X.}},
+\oauthor{\bsnm{Yu}, \binits{H.}},
+\oauthor{\bsnm{Lei}, \binits{L.}},
+\oauthor{\bsnm{Di}, \binits{P.}}:
+OpAgent: Operator Agent for Web Navigation.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.13559}
+\end{botherref}
+\endbibitem
+
+%%% 41
+\bibitem[\protect\citeauthoryear{Szot et~al.}{2023}]{arxiv_p_2310_17722}
+\begin{botherref}
+\oauthor{\bsnm{Szot}, \binits{A.}},
+\oauthor{\bsnm{Schwarzer}, \binits{M.}},
+\oauthor{\bsnm{Agrawal}, \binits{H.}},
+\oauthor{\bsnm{Mazoure}, \binits{B.}},
+\oauthor{\bsnm{Talbott}, \binits{W.}},
+\oauthor{\bsnm{Metcalf}, \binits{K.}},
+\oauthor{\bsnm{Mackraz}, \binits{N.}},
+\oauthor{\bsnm{Hjelm}, \binits{D.}},
+\oauthor{\bsnm{Toshev}, \binits{A.}}:
+Large Language Models as Generalizable Policies for Embodied Tasks.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2310.17722}
+\end{botherref}
+\endbibitem
+
+%%% 42
+\bibitem[\protect\citeauthoryear{Deng et~al.}{2023}]{arxiv_p_2311_00262}
+\begin{botherref}
+\oauthor{\bsnm{Deng}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{W.}},
+\oauthor{\bsnm{Lam}, \binits{W.}},
+\oauthor{\bsnm{Ng}, \binits{S.-K.}},
+\oauthor{\bsnm{Chua}, \binits{T.-S.}}:
+Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2311.00262}
+\end{botherref}
+\endbibitem
+
+%%% 43
+\bibitem[\protect\citeauthoryear{Zhou et~al.}{2024}]{arxiv_p_2402_19446}
+\begin{botherref}
+\oauthor{\bsnm{Zhou}, \binits{Y.}},
+\oauthor{\bsnm{Zanette}, \binits{A.}},
+\oauthor{\bsnm{Pan}, \binits{J.}},
+\oauthor{\bsnm{Levine}, \binits{S.}},
+\oauthor{\bsnm{Kumar}, \binits{A.}}:
+ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2402.19446}
+\end{botherref}
+\endbibitem
+
+%%% 44
+\bibitem[\protect\citeauthoryear{Kwon et~al.}{2023}]{arxiv_p_2303_00001}
+\begin{botherref}
+\oauthor{\bsnm{Kwon}, \binits{M.}},
+\oauthor{\bsnm{Xie}, \binits{S.M.}},
+\oauthor{\bsnm{Bullard}, \binits{K.}},
+\oauthor{\bsnm{Sadigh}, \binits{D.}}:
+Reward Design with Language Models.
+arXiv (Cornell University)
+(2023).
+\url{https://arxiv.org/abs/2303.00001}
+\end{botherref}
+\endbibitem
+
+%%% 45
+\bibitem[\protect\citeauthoryear{Song et~al.}{2023}]{arxiv_p_2309_06687}
+\begin{botherref}
+\oauthor{\bsnm{Song}, \binits{J.}},
+\oauthor{\bsnm{Zhou}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Fang}, \binits{C.}},
+\oauthor{\bsnm{Shu}, \binits{Z.}},
+\oauthor{\bsnm{Ma}, \binits{L.}}:
+Self-Refined Large Language Model as Automated Reward Function Designer for
+  Deep Reinforcement Learning in Robotics.
+arXiv (Cornell University)
+(2023).
+\url{https://arxiv.org/abs/2309.06687}
+\end{botherref}
+\endbibitem
+
+%%% 46
+\bibitem[\protect\citeauthoryear{Lu et~al.}{2025}]{arxiv_p_2510_10197}
+\begin{botherref}
+\oauthor{\bsnm{Lu}, \binits{S.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Zhang}, \binits{H.}},
+\oauthor{\bsnm{Wu}, \binits{Q.}},
+\oauthor{\bsnm{Gan}, \binits{L.}},
+\oauthor{\bsnm{Zhuang}, \binits{C.}},
+\oauthor{\bsnm{Gu}, \binits{J.}},
+\oauthor{\bsnm{Lin}, \binits{T.}}:
+Don't Just Fine-tune the Agent, Tune the Environment.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.10197}
+\end{botherref}
+\endbibitem
+
+%%% 47
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2026}]{arxiv_p_2601_15690}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{J.}},
+\oauthor{\bsnm{Cui}, \binits{W.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Huang}, \binits{L.}},
+\oauthor{\bsnm{Malin}, \binits{B.}},
+\oauthor{\bsnm{Xiong}, \binits{C.}},
+\oauthor{\bsnm{Wu}, \binits{C.-S.}}:
+From Passive Metric to Active Signal: The Evolving Role of Uncertainty
+  Quantification in Large Language Models.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.15690}
+\end{botherref}
+\endbibitem
+
+%%% 48
+\bibitem[\protect\citeauthoryear{Pesjak and
+  Žabkar}{2026}]{doi_p_10_3390_make8010022}
+\begin{botherref}
+\oauthor{\bsnm{Pesjak}, \binits{D.}},
+\oauthor{\bsnm{Žabkar}, \binits{J.}}:
+Robot Planning via LLM Proposals and Symbolic Verification.
+Machine Learning and Knowledge Extraction
+(2026).
+\doiurl{10.3390/make8010022} .
+\url{https://doi.org/10.3390/make8010022}
+\end{botherref}
+\endbibitem
+
+%%% 49
+\bibitem[\protect\citeauthoryear{Ni et~al.}{2026}]{arxiv_p_2602_03022}
+\begin{botherref}
+\oauthor{\bsnm{Ni}, \binits{J.}},
+\oauthor{\bsnm{Pu}, \binits{J.}},
+\oauthor{\bsnm{Yang}, \binits{Z.}},
+\oauthor{\bsnm{Luo}, \binits{J.}},
+\oauthor{\bsnm{Hu}, \binits{C.}}:
+STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function
+  Calling Models.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.03022}
+\end{botherref}
+\endbibitem
+
+%%% 50
+\bibitem[\protect\citeauthoryear{Pallagani
+  et~al.}{2024}]{doi_p_10_1609_icaps_v34i1_31503}
+\begin{botherref}
+\oauthor{\bsnm{Pallagani}, \binits{V.}},
+\oauthor{\bsnm{Muppasani}, \binits{B.}},
+\oauthor{\bsnm{Roy}, \binits{K.}},
+\oauthor{\bsnm{Fabiano}, \binits{F.}},
+\oauthor{\bsnm{Loreggia}, \binits{A.}},
+\oauthor{\bsnm{Murugesan}, \binits{K.}},
+\oauthor{\bsnm{Srivastava}, \binits{B.}},
+\oauthor{\bsnm{Rossi}, \binits{F.}},
+\oauthor{\bsnm{Horesh}, \binits{L.}},
+\oauthor{\bsnm{Sheth}, \binits{A.}}:
+On the Prospects of Incorporating Large Language Models (LLMs) in Automated
+  Planning and Scheduling (APS).
+Proceedings of the International Conference on Automated Planning and
+  Scheduling
+(2024).
+\doiurl{10.1609/icaps.v34i1.31503} .
+\url{https://doi.org/10.1609/icaps.v34i1.31503}
+\end{botherref}
+\endbibitem
+
+%%% 51
+\bibitem[\protect\citeauthoryear{Xie et~al.}{2023}]{arxiv_p_2309_11489}
+\begin{botherref}
+\oauthor{\bsnm{Xie}, \binits{T.}},
+\oauthor{\bsnm{Zhao}, \binits{S.}},
+\oauthor{\bsnm{Wu}, \binits{C.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Luo}, \binits{Q.}},
+\oauthor{\bsnm{Zhong}, \binits{V.W.}},
+\oauthor{\bsnm{Yang}, \binits{Y.}},
+\oauthor{\bsnm{Yu}, \binits{C.}}:
+Text2Reward: Reward Shaping with Language Models for Reinforcement Learning.
+arXiv (Cornell University)
+(2023).
+\url{https://arxiv.org/abs/2309.11489}
+\end{botherref}
+\endbibitem
+
+%%% 52
+\bibitem[\protect\citeauthoryear{Jeong
+  et~al.}{2024}]{doi_p_10_3390_app14198868}
+\begin{botherref}
+\oauthor{\bsnm{Jeong}, \binits{H.}},
+\oauthor{\bsnm{Lee}, \binits{H.}},
+\oauthor{\bsnm{Kim}, \binits{C.}},
+\oauthor{\bsnm{Shin}, \binits{S.}}:
+A Survey of Robot Intelligence with Large Language Models.
+Applied Sciences
+(2024).
+\doiurl{10.3390/app14198868} .
+\url{https://doi.org/10.3390/app14198868}
+\end{botherref}
+\endbibitem
+
+%%% 53
+\bibitem[\protect\citeauthoryear{Fan et~al.}{2025}]{arxiv_p_2510_20867}
+\begin{botherref}
+\oauthor{\bsnm{Fan}, \binits{J.}},
+\oauthor{\bsnm{Ren}, \binits{R.}},
+\oauthor{\bsnm{Li}, \binits{J.}},
+\oauthor{\bsnm{Pandey}, \binits{R.}},
+\oauthor{\bsnm{Shivakumar}, \binits{P.G.}},
+\oauthor{\bsnm{Bulyko}, \binits{I.}},
+\oauthor{\bsnm{Gandhe}, \binits{A.}},
+\oauthor{\bsnm{Liu}, \binits{G.}},
+\oauthor{\bsnm{Gu}, \binits{Y.}}:
+Incentivizing Consistent, Effective and Scalable Reasoning Capability in Audio
+  LLMs via Reasoning Process Rewards.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.20867}
+\end{botherref}
+\endbibitem
+
+%%% 54
+\bibitem[\protect\citeauthoryear{for Artificial Intelligence~2026
+  et~al.}{2026}]{doi_p_10_48448_0js4_fm43}
+\begin{botherref}
+\oauthor{\bsnm{Artificial Intelligence~2026}, \binits{A.}},
+\oauthor{\bsnm{Gurevych}, \binits{I.}},
+\oauthor{\bsnm{Rizvi}, \binits{M.I.H.}},
+\oauthor{\bsnm{Zhu}, \binits{X.}}:
+SPARE: Single-Pass Annotation with Reference-Guided Evaluation for Automatic
+  Process Supervision and Reward Modelling.
+Underline Science Inc.
+(2026).
+\doiurl{10.48448/0js4-fm43} .
+\url{https://doi.org/10.48448/0js4-fm43}
+\end{botherref}
+\endbibitem
+
+%%% 55
+\bibitem[\protect\citeauthoryear{Zhong et~al.}{2026}]{arxiv_p_2602_11551}
+\begin{botherref}
+\oauthor{\bsnm{Zhong}, \binits{W.}},
+\oauthor{\bsnm{Yang}, \binits{J.}},
+\oauthor{\bsnm{Wu}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Yao}, \binits{J.}},
+\oauthor{\bsnm{Kuang}, \binits{K.}}:
+SIGHT: Reinforcement Learning with Self-Evidence and Information-Gain Diverse
+  Branching for Search Agent.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.11551}
+\end{botherref}
+\endbibitem
+
+%%% 56
+\bibitem[\protect\citeauthoryear{Shu et~al.}{2025}]{arxiv_p_2512_05686}
+\begin{botherref}
+\oauthor{\bsnm{Shu}, \binits{Y.}},
+\oauthor{\bsnm{Xu}, \binits{J.}},
+\oauthor{\bsnm{Tang}, \binits{J.}},
+\oauthor{\bsnm{Gao}, \binits{R.L.}},
+\oauthor{\bsnm{Sun}, \binits{C.}}:
+LA-RL: Language Action-guided Reinforcement Learning with Safety Guarantees for
+  Autonomous Highway Driving.
+arXiv (Cornell University)
+(2025).
+\url{https://arxiv.org/abs/2512.05686}
+\end{botherref}
+\endbibitem
+
+%%% 57
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2026}]{arxiv_p_2602_09367}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{J.}},
+\oauthor{\bsnm{Hou}, \binits{J.}},
+\oauthor{\bsnm{Yu}, \binits{X.}},
+\oauthor{\bsnm{He}, \binits{W.}},
+\oauthor{\bsnm{Wu}, \binits{Y.}}:
+CAPER: Constrained and Procedural Reasoning for Robotic Scientific Experiments.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.09367}
+\end{botherref}
+\endbibitem
+
+%%% 58
+\bibitem[\protect\citeauthoryear{Gao et~al.}{2026}]{arxiv_p_2602_13156}
+\begin{botherref}
+\oauthor{\bsnm{Gao}, \binits{Y.}},
+\oauthor{\bsnm{Hammar}, \binits{K.}},
+\oauthor{\bsnm{Li}, \binits{T.}}:
+In-Context Autonomous Network Incident Response: An End-to-End Large Language
+  Model Agent Approach.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.13156}
+\end{botherref}
+\endbibitem
+
+%%% 59
+\bibitem[\protect\citeauthoryear{Zhao et~al.}{2026}]{arxiv_p_2602_03719}
+\begin{botherref}
+\oauthor{\bsnm{Zhao}, \binits{Y.}},
+\oauthor{\bsnm{Huang}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{S.}},
+\oauthor{\bsnm{Zhao}, \binits{R.}},
+\oauthor{\bsnm{Chen}, \binits{C.}},
+\oauthor{\bsnm{Shu}, \binits{Y.}},
+\oauthor{\bsnm{Qin}, \binits{C.}}:
+Training Multi-Turn Search Agent via Contrastive Dynamic Branch Sampling.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.03719}
+\end{botherref}
+\endbibitem
+
+%%% 60
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025}]{arxiv_p_2510_13229}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Xie}, \binits{L.}},
+\oauthor{\bsnm{Qiu}, \binits{R.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{S.}}:
+Beyond Static LLM Policies: Imitation-Enhanced Reinforcement Learning for
+  Recommendation.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.13229}
+\end{botherref}
+\endbibitem
+
+%%% 61
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2025}]{arxiv_p_2510_14967}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{G.}},
+\oauthor{\bsnm{Dai}, \binits{S.}},
+\oauthor{\bsnm{Ye}, \binits{G.}},
+\oauthor{\bsnm{Gan}, \binits{Z.}},
+\oauthor{\bsnm{Yao}, \binits{W.}},
+\oauthor{\bsnm{Deng}, \binits{Y.}},
+\oauthor{\bsnm{Wu}, \binits{X.}},
+\oauthor{\bsnm{Ying}, \binits{Z.}}:
+Information Gain-based Policy Optimization: A Simple and Effective Approach for
+  Multi-Turn LLM Agents.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.14967}
+\end{botherref}
+\endbibitem
+
+%%% 62
+\bibitem[\protect\citeauthoryear{Hu et~al.}{2026}]{arxiv_p_2602_06554}
+\begin{botherref}
+\oauthor{\bsnm{Hu}, \binits{T.}},
+\oauthor{\bsnm{Fu}, \binits{Q.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Ding}, \binits{B.}}:
+SeeUPO: Sequence-Level Agentic-RL with Convergence Guarantees.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.06554}
+\end{botherref}
+\endbibitem
+
+%%% 63
+\bibitem[\protect\citeauthoryear{Zhao et~al.}{2025}]{arxiv_p_2509_26093}
+\begin{botherref}
+\oauthor{\bsnm{Zhao}, \binits{X.}},
+\oauthor{\bsnm{Yan}, \binits{M.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Deng}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Zhu}, \binits{F.}},
+\oauthor{\bsnm{Qiu}, \binits{Y.}},
+\oauthor{\bsnm{Cheng}, \binits{H.}},
+\oauthor{\bsnm{Chua}, \binits{T.-S.}}:
+Reinforced Strategy Optimization for Conversational Recommender Systems via
+  Network-of-Experts.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.26093}
+\end{botherref}
+\endbibitem
+
+%%% 64
+\bibitem[\protect\citeauthoryear{Jiang et~al.}{2025}]{arxiv_p_2512_16848}
+\begin{botherref}
+\oauthor{\bsnm{Jiang}, \binits{Y.}},
+\oauthor{\bsnm{Jiang}, \binits{L.}},
+\oauthor{\bsnm{Teney}, \binits{D.}},
+\oauthor{\bsnm{Moor}, \binits{M.}},
+\oauthor{\bsnm{Brbic}, \binits{M.}}:
+Meta-RL Induces Exploration in Language Agents.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2512.16848}
+\end{botherref}
+\endbibitem
+
+%%% 65
+\bibitem[\protect\citeauthoryear{Cai et~al.}{2026}]{arxiv_p_2602_07906}
+\begin{botherref}
+\oauthor{\bsnm{Cai}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Zhu}, \binits{X.}},
+\oauthor{\bsnm{Wang}, \binits{C.}},
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Wang}, \binits{W.-C.}},
+\oauthor{\bsnm{Jin}, \binits{D.}},
+\oauthor{\bsnm{Chen}, \binits{S.}}:
+AceGRPO: Adaptive Curriculum Enhanced Group Relative Policy Optimization for
+  Autonomous Machine Learning Engineering.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.07906}
+\end{botherref}
+\endbibitem
+
+%%% 66
+\bibitem[\protect\citeauthoryear{Ma et~al.}{2026}]{arxiv_p_2601_16486}
+\begin{botherref}
+\oauthor{\bsnm{Ma}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{L.}},
+\oauthor{\bsnm{chen}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{P.}},
+\oauthor{\bsnm{Li}, \binits{X.}},
+\oauthor{\bsnm{Guo}, \binits{Q.}},
+\oauthor{\bsnm{Lin}, \binits{D.}},
+\oauthor{\bsnm{Chen}, \binits{K.}}:
+Timely Machine: Awareness of Time Makes Test-Time Scaling Agentic.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.16486}
+\end{botherref}
+\endbibitem
+
+%%% 67
+\bibitem[\protect\citeauthoryear{Agashe et~al.}{2023}]{arxiv_p_2310_03903}
+\begin{botherref}
+\oauthor{\bsnm{Agashe}, \binits{S.}},
+\oauthor{\bsnm{Fan}, \binits{Y.}},
+\oauthor{\bsnm{Reyna}, \binits{A.}},
+\oauthor{\bsnm{Wang}, \binits{X.E.}}:
+LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities
+  in Large Language Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2310.03903}
+\end{botherref}
+\endbibitem
+
+%%% 68
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2026}]{arxiv_p_2602_11583}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Yang}, \binits{H.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Joe-Wong}, \binits{C.}}:
+The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and
+  Why -- A Survey from MARL to Emergent Language and LLMs.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.11583}
+\end{botherref}
+\endbibitem
+
+%%% 69
+\bibitem[\protect\citeauthoryear{Team et~al.}{2026}]{arxiv_p_2602_12099}
+\begin{botherref}
+\oauthor{\bsnm{Team}, \binits{G.}},
+\oauthor{\bsnm{Wang}, \binits{B.}},
+\oauthor{\bsnm{Ni}, \binits{C.}},
+\oauthor{\bsnm{Huang}, \binits{G.}},
+\oauthor{\bsnm{Zhao}, \binits{G.}},
+\oauthor{\bsnm{Li}, \binits{H.}},
+\oauthor{\bsnm{Li}, \binits{J.}},
+\oauthor{\bsnm{Lv}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Feng}, \binits{L.}},
+\oauthor{\bsnm{Yu}, \binits{M.}},
+\oauthor{\bsnm{Li}, \binits{P.}},
+\oauthor{\bsnm{Deng}, \binits{Q.}},
+\oauthor{\bsnm{Liu}, \binits{T.}},
+\oauthor{\bsnm{Zhou}, \binits{X.}},
+\oauthor{\bsnm{Chen}, \binits{X.}},
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Nie}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Zhou}, \binits{Y.}},
+\oauthor{\bsnm{Ye}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Zhu}, \binits{Z.}}:
+GigaBrain-0.5M*: a VLA That Learns From World Model-Based Reinforcement
+  Learning.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.12099}
+\end{botherref}
+\endbibitem
+
+%%% 70
+\bibitem[\protect\citeauthoryear{Hong et~al.}{2025}]{arxiv_p_2505_18098}
+\begin{botherref}
+\oauthor{\bsnm{Hong}, \binits{J.}},
+\oauthor{\bsnm{Dragan}, \binits{A.}},
+\oauthor{\bsnm{Levine}, \binits{S.}}:
+Planning without Search: Refining Frontier LLMs with Offline Goal-Conditioned
+  RL.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2505.18098}
+\end{botherref}
+\endbibitem
+
+%%% 71
+\bibitem[\protect\citeauthoryear{Hou et~al.}{2025}]{arxiv_p_2512_24653}
+\begin{botherref}
+\oauthor{\bsnm{Hou}, \binits{C.}},
+\oauthor{\bsnm{Wu}, \binits{K.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Che}, \binits{Z.}},
+\oauthor{\bsnm{Wu}, \binits{D.}},
+\oauthor{\bsnm{Liao}, \binits{F.}},
+\oauthor{\bsnm{Li}, \binits{G.}},
+\oauthor{\bsnm{He}, \binits{J.}},
+\oauthor{\bsnm{Feng}, \binits{Q.}},
+\oauthor{\bsnm{Jin}, \binits{Z.}},
+\oauthor{\bsnm{Gu}, \binits{C.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Han}, \binits{N.}},
+\oauthor{\bsnm{Mi}, \binits{X.}},
+\oauthor{\bsnm{Lv}, \binits{Y.}},
+\oauthor{\bsnm{Fu}, \binits{Y.}},
+\oauthor{\bsnm{Dai}, \binits{G.}},
+\oauthor{\bsnm{Gu}, \binits{L.}},
+\oauthor{\bsnm{Li}, \binits{T.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Fan}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{M.}},
+\oauthor{\bsnm{Zhao}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{N.}},
+\oauthor{\bsnm{Xu}, \binits{Z.}},
+\oauthor{\bsnm{Ren}, \binits{P.W.}},
+\oauthor{\bsnm{Ji}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{H.}},
+\oauthor{\bsnm{Cheng}, \binits{K.}},
+\oauthor{\bsnm{Zhang}, \binits{S.}},
+\oauthor{\bsnm{Tang}, \binits{J.}}:
+RoboMIND 2.0: A Multimodal, Bimanual Mobile Manipulation Dataset for
+  Generalizable Embodied Intelligence.
+ArXiv.org
+(2025).
+\url{https://arxiv.org/abs/2512.24653}
+\end{botherref}
+\endbibitem
+
+%%% 72
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2026}]{arxiv_p_2601_18225}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{P.}},
+\oauthor{\bsnm{Wu}, \binits{Y.}},
+\oauthor{\bsnm{Song}, \binits{X.}},
+\oauthor{\bsnm{Wang}, \binits{W.}},
+\oauthor{\bsnm{Chen}, \binits{G.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Yan}, \binits{K.}},
+\oauthor{\bsnm{Deng}, \binits{K.}},
+\oauthor{\bsnm{Liu}, \binits{Q.}},
+\oauthor{\bsnm{Zhao}, \binits{S.}},
+\oauthor{\bsnm{Xiong}, \binits{S.}},
+\oauthor{\bsnm{Liu}, \binits{X.}},
+\oauthor{\bsnm{Chen}, \binits{X.}},
+\oauthor{\bsnm{Deng}, \binits{W.}},
+\oauthor{\bsnm{Su}, \binits{W.}},
+\oauthor{\bsnm{Zheng}, \binits{B.}}:
+ShopSimulator: Evaluating and Exploring RL-Driven LLM Agent for Shopping
+  Assistants.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.18225}
+\end{botherref}
+\endbibitem
+
+%%% 73
+\bibitem[\protect\citeauthoryear{Hübotter et~al.}{2026}]{arxiv_p_2601_20802}
+\begin{botherref}
+\oauthor{\bsnm{Hübotter}, \binits{J.}},
+\oauthor{\bsnm{Lübeck}, \binits{F.}},
+\oauthor{\bsnm{Behric}, \binits{L.}},
+\oauthor{\bsnm{Baumann}, \binits{A.}},
+\oauthor{\bsnm{Bagatella}, \binits{M.}},
+\oauthor{\bsnm{Marta}, \binits{D.}},
+\oauthor{\bsnm{Hakimi}, \binits{I.}},
+\oauthor{\bsnm{Shenfeld}, \binits{I.}},
+\oauthor{\bsnm{Buening}, \binits{T.K.}},
+\oauthor{\bsnm{Guestrin}, \binits{C.}},
+\oauthor{\bsnm{Krause}, \binits{A.}}:
+Reinforcement Learning via Self-Distillation.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.20802}
+\end{botherref}
+\endbibitem
+
+%%% 74
+\bibitem[\protect\citeauthoryear{Li et~al.}{2026}]{arxiv_p_2602_02137}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{M.}},
+\oauthor{\bsnm{Wang}, \binits{R.}},
+\oauthor{\bsnm{Tan}, \binits{R.}},
+\oauthor{\bsnm{Wen}, \binits{Y.}}:
+DCoPilot: Generative AI-Empowered Policy Adaptation for Dynamic Data Center
+  Operations.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.02137}
+\end{botherref}
+\endbibitem
+
+%%% 75
+\bibitem[\protect\citeauthoryear{Xu et~al.}{2026}]{arxiv_p_2602_03305}
+\begin{botherref}
+\oauthor{\bsnm{Xu}, \binits{Q.}},
+\oauthor{\bsnm{Habib}, \binits{G.}},
+\oauthor{\bsnm{Wu}, \binits{F.}},
+\oauthor{\bsnm{Du}, \binits{Y.}},
+\oauthor{\bsnm{Chen}, \binits{Z.}},
+\oauthor{\bsnm{Mishra}, \binits{S.}},
+\oauthor{\bsnm{Perera}, \binits{D.}},
+\oauthor{\bsnm{Feng}, \binits{M.}}:
+medR: Reward Engineering for Clinical Offline Reinforcement Learning via
+  Tri-Drive Potential Functions.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.03305}
+\end{botherref}
+\endbibitem
+
+%%% 76
+\bibitem[\protect\citeauthoryear{Amer-Yahia}{2024}]{doi_p_10_14778_3685800_3685913}
+\begin{botherref}
+\oauthor{\bsnm{Amer-Yahia}, \binits{S.}}:
+Intelligent Agents for Data Exploration.
+Proceedings of the VLDB Endowment
+(2024).
+\doiurl{10.14778/3685800.3685913} .
+\url{https://doi.org/10.14778/3685800.3685913}
+\end{botherref}
+\endbibitem
+
+%%% 77
+\bibitem[\protect\citeauthoryear{Jiang and Ferraro}{2026}]{arxiv_p_2601_03555}
+\begin{botherref}
+\oauthor{\bsnm{Jiang}, \binits{Y.}},
+\oauthor{\bsnm{Ferraro}, \binits{F.}}:
+SCRIBE: Structured Mid-Level Supervision for Tool-Using Language Models.
+arXiv (Cornell University)
+(2026).
+\url{https://arxiv.org/abs/2601.03555}
+\end{botherref}
+\endbibitem
+
+%%% 78
+\bibitem[\protect\citeauthoryear{Chu et~al.}{2026}]{arxiv_p_2602_14234}
+\begin{botherref}
+\oauthor{\bsnm{Chu}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Hong}, \binits{J.}},
+\oauthor{\bsnm{Fan}, \binits{H.}},
+\oauthor{\bsnm{Huang}, \binits{Y.}},
+\oauthor{\bsnm{Yang}, \binits{Y.}},
+\oauthor{\bsnm{Xu}, \binits{G.}},
+\oauthor{\bsnm{Zhao}, \binits{C.}},
+\oauthor{\bsnm{Xiang}, \binits{C.}},
+\oauthor{\bsnm{Hu}, \binits{S.}},
+\oauthor{\bsnm{Kuang}, \binits{D.}},
+\oauthor{\bsnm{Liu}, \binits{M.}},
+\oauthor{\bsnm{Qin}, \binits{B.}},
+\oauthor{\bsnm{Yu}, \binits{X.}}:
+REDSearcher: A Scalable and Cost-Efficient Framework for Long-Horizon Search
+  Agents.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.14234}
+\end{botherref}
+\endbibitem
+
+%%% 79
+\bibitem[\protect\citeauthoryear{Sang et~al.}{2025}]{arxiv_p_2510_16720}
+\begin{botherref}
+\oauthor{\bsnm{Sang}, \binits{J.}},
+\oauthor{\bsnm{Xiao}, \binits{J.}},
+\oauthor{\bsnm{Han}, \binits{J.}},
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Chen}, \binits{X.}},
+\oauthor{\bsnm{Wei}, \binits{S.}},
+\oauthor{\bsnm{Sun}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}}:
+Beyond Pipelines: A Survey of the Paradigm Shift toward Model-Native Agentic
+  AI.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.16720}
+\end{botherref}
+\endbibitem
+
+%%% 80
+\bibitem[\protect\citeauthoryear{Lu et~al.}{2025}]{arxiv_p_2510_06727}
+\begin{botherref}
+\oauthor{\bsnm{Lu}, \binits{M.}},
+\oauthor{\bsnm{Sun}, \binits{W.}},
+\oauthor{\bsnm{Du}, \binits{W.}},
+\oauthor{\bsnm{Ling}, \binits{Z.}},
+\oauthor{\bsnm{Yao}, \binits{X.}},
+\oauthor{\bsnm{Liu}, \binits{K.}},
+\oauthor{\bsnm{Chen}, \binits{J.}}:
+Scaling LLM Multi-turn RL with End-to-end Summarization-based Context
+  Management.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.06727}
+\end{botherref}
+\endbibitem
+
+%%% 81
+\bibitem[\protect\citeauthoryear{Kar et~al.}{2026}]{arxiv_p_2601_11658}
+\begin{botherref}
+\oauthor{\bsnm{Kar}, \binits{I.}},
+\oauthor{\bsnm{Zonunpuia}, \binits{S.}},
+\oauthor{\bsnm{Ralte}, \binits{Z.}}:
+Towards AGI A Pragmatic Approach Towards Self Evolving Agent.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.11658}
+\end{botherref}
+\endbibitem
+
+%%% 82
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025}]{arxiv_p_2509_02547}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{G.}},
+\oauthor{\bsnm{Geng}, \binits{H.}},
+\oauthor{\bsnm{Yu}, \binits{X.}},
+\oauthor{\bsnm{Yin}, \binits{Z.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Tan}, \binits{Z.}},
+\oauthor{\bsnm{Zhou}, \binits{H.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Xue}, \binits{X.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Zhou}, \binits{Y.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}},
+\oauthor{\bsnm{Fan}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Huang}, \binits{S.}},
+\oauthor{\bsnm{Piedrahita-Velez}, \binits{F.}},
+\oauthor{\bsnm{Liao}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Yang}, \binits{M.}},
+\oauthor{\bsnm{Ji}, \binits{H.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Yan}, \binits{S.}},
+\oauthor{\bsnm{Torr}, \binits{P.}},
+\oauthor{\bsnm{Bai}, \binits{L.}}:
+The Landscape of Agentic Reinforcement Learning for LLMs: A Survey.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.02547}
+\end{botherref}
+\endbibitem
+
+%%% 83
+\bibitem[\protect\citeauthoryear{Zheng et~al.}{2022}]{arxiv_p_2202_05607}
+\begin{botherref}
+\oauthor{\bsnm{Zheng}, \binits{Q.}},
+\oauthor{\bsnm{Zhang}, \binits{A.}},
+\oauthor{\bsnm{Grover}, \binits{A.}}:
+Online Decision Transformer.
+arXiv (Cornell University)
+(2022).
+\url{https://arxiv.org/abs/2202.05607}
+\end{botherref}
+\endbibitem
+
+%%% 84
+\bibitem[\protect\citeauthoryear{Yeo et~al.}{2025}]{arxiv_p_2502_03373}
+\begin{botherref}
+\oauthor{\bsnm{Yeo}, \binits{E.}},
+\oauthor{\bsnm{Tong}, \binits{Y.}},
+\oauthor{\bsnm{Niu}, \binits{M.}},
+\oauthor{\bsnm{Neubig}, \binits{G.}},
+\oauthor{\bsnm{Yue}, \binits{X.}}:
+Demystifying Long Chain-of-Thought Reasoning in LLMs.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2502.03373}
+\end{botherref}
+\endbibitem
+
+%%% 85
+\bibitem[\protect\citeauthoryear{Christakopoulou
+  et~al.}{2025}]{arxiv_p_2502_19500}
+\begin{botherref}
+\oauthor{\bsnm{Christakopoulou}, \binits{K.}},
+\oauthor{\bsnm{Qu}, \binits{I.}},
+\oauthor{\bsnm{Canny}, \binits{J.}},
+\oauthor{\bsnm{Goodridge}, \binits{A.}},
+\oauthor{\bsnm{Adams}, \binits{C.}},
+\oauthor{\bsnm{Chen}, \binits{M.}},
+\oauthor{\bsnm{Matarić}, \binits{M.}}:
+Conversational Planning for Personal Plans.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2502.19500}
+\end{botherref}
+\endbibitem
+
+%%% 86
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2025}]{arxiv_p_2505_21668}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Zhou}, \binits{J.}},
+\oauthor{\bsnm{Hao}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{N.}},
+\oauthor{\bsnm{Fan}, \binits{C.}}:
+R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage
+  Reinforcement Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2505.21668}
+\end{botherref}
+\endbibitem
+
+%%% 87
+\bibitem[\protect\citeauthoryear{Gong et~al.}{2025}]{arxiv_p_2507_18884}
+\begin{botherref}
+\oauthor{\bsnm{Gong}, \binits{M.}},
+\oauthor{\bsnm{Huang}, \binits{X.}},
+\oauthor{\bsnm{Xu}, \binits{Z.}},
+\oauthor{\bsnm{Asari}, \binits{V.K.}}:
+MindFlow+: A Self-Evolving Agent for E-Commerce Customer Service.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2507.18884}
+\end{botherref}
+\endbibitem
+
+%%% 88
+\bibitem[\protect\citeauthoryear{Dong et~al.}{2025}]{arxiv_p_2507_19849}
+\begin{botherref}
+\oauthor{\bsnm{Dong}, \binits{G.}},
+\oauthor{\bsnm{Mao}, \binits{H.}},
+\oauthor{\bsnm{Ma}, \binits{K.}},
+\oauthor{\bsnm{Bao}, \binits{L.}},
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Chen}, \binits{Z.}},
+\oauthor{\bsnm{Du}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{F.}},
+\oauthor{\bsnm{Zhou}, \binits{G.}},
+\oauthor{\bsnm{Zhu}, \binits{Y.}},
+\oauthor{\bsnm{Wen}, \binits{J.-R.}},
+\oauthor{\bsnm{Dou}, \binits{Z.}}:
+Agentic Reinforced Policy Optimization.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2507.19849}
+\end{botherref}
+\endbibitem
+
+%%% 89
+\bibitem[\protect\citeauthoryear{Ding et~al.}{2025}]{arxiv_p_2508_13514}
+\begin{botherref}
+\oauthor{\bsnm{Ding}, \binits{H.}},
+\oauthor{\bsnm{Huang}, \binits{B.}},
+\oauthor{\bsnm{Fang}, \binits{Y.}},
+\oauthor{\bsnm{Liao}, \binits{W.}},
+\oauthor{\bsnm{Jiang}, \binits{X.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Zhao}, \binits{J.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}}:
+ProMed: Shapley Information Gain Guided Reinforcement Learning for Proactive
+  Medical LLMs.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2508.13514}
+\end{botherref}
+\endbibitem
+
+%%% 90
+\bibitem[\protect\citeauthoryear{Peng et~al.}{2025}]{arxiv_p_2511_13207}
+\begin{botherref}
+\oauthor{\bsnm{Peng}, \binits{C.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Chi}, \binits{C.}},
+\oauthor{\bsnm{Wei}, \binits{X.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Wang}, \binits{P.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{S.}}:
+PIGEON: VLM-Driven Object Navigation via Points of Interest Selection.
+arXiv (Cornell University)
+(2025).
+\url{https://arxiv.org/abs/2511.13207}
+\end{botherref}
+\endbibitem
+
+%%% 91
+\bibitem[\protect\citeauthoryear{Lei et~al.}{2026}]{arxiv_p_2601_21570}
+\begin{botherref}
+\oauthor{\bsnm{Lei}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{G.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Q.}},
+\oauthor{\bsnm{Wen}, \binits{C.}},
+\oauthor{\bsnm{Zhang}, \binits{S.}},
+\oauthor{\bsnm{Lian}, \binits{W.}},
+\oauthor{\bsnm{Chen}, \binits{S.}}:
+EmboCoach-Bench: Benchmarking AI Agents on Developing Embodied Robots.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.21570}
+\end{botherref}
+\endbibitem
+
+%%% 92
+\bibitem[\protect\citeauthoryear{Yoon et~al.}{2026}]{arxiv_p_2602_06440}
+\begin{botherref}
+\oauthor{\bsnm{Yoon}, \binits{S.-H.}},
+\oauthor{\bsnm{Qian}, \binits{R.}},
+\oauthor{\bsnm{Zhao}, \binits{M.}},
+\oauthor{\bsnm{Li}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{M.}}:
+TrailBlazer: History-Guided Reinforcement Learning for Black-Box LLM
+  Jailbreaking.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.06440}
+\end{botherref}
+\endbibitem
+
+%%% 93
+\bibitem[\protect\citeauthoryear{Wang et~al.}{2026}]{arxiv_p_2602_10576}
+\begin{botherref}
+\oauthor{\bsnm{Wang}, \binits{B.}},
+\oauthor{\bsnm{Li}, \binits{K.}},
+\oauthor{\bsnm{Liu}, \binits{T.}},
+\oauthor{\bsnm{Li}, \binits{C.}},
+\oauthor{\bsnm{Wang}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Cheng}, \binits{J.}}:
+LLM-Based Scientific Equation Discovery via Physics-Informed Token-Regularized
+  Policy Optimization.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.10576}
+\end{botherref}
+\endbibitem
+
+%%% 94
+\bibitem[\protect\citeauthoryear{Huang
+  et~al.}{2025}]{doi_p_10_1609_icaps_v35i1_36119}
+\begin{botherref}
+\oauthor{\bsnm{Huang}, \binits{S.}},
+\oauthor{\bsnm{Cohn}, \binits{T.}},
+\oauthor{\bsnm{Lipovetzky}, \binits{N.}}:
+Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan
+  Generation.
+Proceedings of the International Conference on Automated Planning and
+  Scheduling
+(2025).
+\doiurl{10.1609/icaps.v35i1.36119} .
+\url{https://doi.org/10.1609/icaps.v35i1.36119}
+\end{botherref}
+\endbibitem
+
+%%% 95
+\bibitem[\protect\citeauthoryear{Gu
+  et~al.}{2026}]{doi_p_10_3389_frobt_2026_1752914}
+\begin{botherref}
+\oauthor{\bsnm{Gu}, \binits{N.}},
+\oauthor{\bsnm{Hayashibe}, \binits{M.}},
+\oauthor{\bsnm{Kutsuzawa}, \binits{K.}},
+\oauthor{\bsnm{Yu}, \binits{H.}}:
+Deep learning-based robotic cloth manipulation applications: systematic review,
+  challenges and opportunities for physical AI.
+Frontiers in Robotics and AI
+(2026).
+\doiurl{10.3389/frobt.2026.1752914} .
+\url{https://doi.org/10.3389/frobt.2026.1752914}
+\end{botherref}
+\endbibitem
+
+%%% 96
+\bibitem[\protect\citeauthoryear{Müller-Brockhausen and
+  Matthias}{2025}]{doi_p_10_60602_1887_4282228}
+\begin{botherref}
+\oauthor{\bsnm{Müller-Brockhausen}},
+\oauthor{\bsnm{Matthias}}:
+Exploring the synergies between transfer in reinforcement learning and
+  procedural content generation.
+Unknown venue
+(2025).
+\doiurl{10.60602/1887/4282228} .
+\url{https://doi.org/10.60602/1887/4282228}
+\end{botherref}
+\endbibitem
+
+%%% 97
+\bibitem[\protect\citeauthoryear{Akyürek et~al.}{2023}]{arxiv_p_2305_08844}
+\begin{botherref}
+\oauthor{\bsnm{Akyürek}, \binits{A.F.}},
+\oauthor{\bsnm{Akyürek}, \binits{E.}},
+\oauthor{\bsnm{Madaan}, \binits{A.}},
+\oauthor{\bsnm{Kalyan}, \binits{A.}},
+\oauthor{\bsnm{Clark}, \binits{P.}},
+\oauthor{\bsnm{Wijaya}, \binits{D.}},
+\oauthor{\bsnm{Tandon}, \binits{N.}}:
+RL4F: Generating Natural Language Feedback with Reinforcement Learning for
+  Repairing Model Outputs.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2305.08844}
+\end{botherref}
+\endbibitem
+
+%%% 98
+\bibitem[\protect\citeauthoryear{Cheng et~al.}{2024}]{arxiv_p_2401_03428}
+\begin{botherref}
+\oauthor{\bsnm{Cheng}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Meng}, \binits{X.}},
+\oauthor{\bsnm{Hong}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Yin}, \binits{F.}},
+\oauthor{\bsnm{Zhao}, \binits{J.}},
+\oauthor{\bsnm{He}, \binits{X.}}:
+Exploring Large Language Model based Intelligent Agents: Definitions, Methods,
+  and Prospects.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2401.03428}
+\end{botherref}
+\endbibitem
+
+%%% 99
+\bibitem[\protect\citeauthoryear{Chen et~al.}{2024}]{arxiv_p_2406_14556}
+\begin{botherref}
+\oauthor{\bsnm{Chen}, \binits{Y.}},
+\oauthor{\bsnm{Ding}, \binits{Z.-h.}},
+\oauthor{\bsnm{Wang}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{L.}},
+\oauthor{\bsnm{Liu}, \binits{S.}}:
+Asynchronous Large Language Model Enhanced Planner for Autonomous Driving.
+ArXiv
+(2024).
+\url{https://arxiv.org/abs/2406.14556}
+\end{botherref}
+\endbibitem
+
+%%% 100
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2025}]{arxiv_p_2509_23863}
+\begin{botherref}
+\oauthor{\bsnm{Yang}, \binits{Z.}},
+\oauthor{\bsnm{Shen}, \binits{W.}},
+\oauthor{\bsnm{Li}, \binits{C.}},
+\oauthor{\bsnm{Chen}, \binits{R.}},
+\oauthor{\bsnm{Wan}, \binits{F.}},
+\oauthor{\bsnm{Yan}, \binits{M.}},
+\oauthor{\bsnm{Quan}, \binits{X.}},
+\oauthor{\bsnm{Huang}, \binits{F.}}:
+SPELL: Self-Play Reinforcement Learning for Evolving Long-Context Language
+  Models.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.23863}
+\end{botherref}
+\endbibitem
+
+%%% 101
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2026}]{arxiv_p_2601_03205}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Z.}},
+\oauthor{\bsnm{Huang}, \binits{Y.}},
+\oauthor{\bsnm{Feng}, \binits{X.}},
+\oauthor{\bsnm{Hu}, \binits{Z.}},
+\oauthor{\bsnm{Hu}, \binits{J.}},
+\oauthor{\bsnm{Yan}, \binits{J.}},
+\oauthor{\bsnm{Lian}, \binits{F.}},
+\oauthor{\bsnm{Liu}, \binits{Y.}}:
+UltraLogic: Enhancing LLM Reasoning through Large-Scale Data Synthesis and
+  Bipolar Float Reward.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.03205}
+\end{botherref}
+\endbibitem
+
+%%% 102
+\bibitem[\protect\citeauthoryear{Kumar et~al.}{2026}]{arxiv_p_2601_14228}
+\begin{botherref}
+\oauthor{\bsnm{Kumar}, \binits{P.}},
+\oauthor{\bsnm{Saran}, \binits{V.}},
+\oauthor{\bsnm{Patel}, \binits{D.}},
+\oauthor{\bsnm{Kulkarni}, \binits{N.}},
+\oauthor{\bsnm{Vereshchaka}, \binits{A.}}:
+Attention-Based Offline Reinforcement Learning and Clustering for Interpretable
+  Sepsis Treatment.
+ArXiv.org
+(2026).
+\url{https://arxiv.org/abs/2601.14228}
+\end{botherref}
+\endbibitem
+
+%%% 103
+\bibitem[\protect\citeauthoryear{Khan et~al.}{2026}]{arxiv_p_2602_03073}
+\begin{botherref}
+\oauthor{\bsnm{Khan}, \binits{R.M.S.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Tan}, \binits{Z.}},
+\oauthor{\bsnm{Fleming}, \binits{C.}},
+\oauthor{\bsnm{Chen}, \binits{T.}}:
+TMS: Trajectory-Mixed Supervision for Reward-Free, On-Policy SFT.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.03073}
+\end{botherref}
+\endbibitem
+
+%%% 104
+\bibitem[\protect\citeauthoryear{Furuta et~al.}{2023}]{arxiv_p_2305_11854}
+\begin{botherref}
+\oauthor{\bsnm{Furuta}, \binits{H.}},
+\oauthor{\bsnm{Lee}, \binits{K.-H.}},
+\oauthor{\bsnm{Nachum}, \binits{O.}},
+\oauthor{\bsnm{Matsuo}, \binits{Y.}},
+\oauthor{\bsnm{Faust}, \binits{A.}},
+\oauthor{\bsnm{Gu}, \binits{S.S.}},
+\oauthor{\bsnm{Gur}, \binits{I.}}:
+Multimodal Web Navigation with Instruction-Finetuned Foundation Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2305.11854}
+\end{botherref}
+\endbibitem
+
+%%% 105
+\bibitem[\protect\citeauthoryear{Zhuang et~al.}{2025}]{arxiv_p_2505_22942}
+\begin{botherref}
+\oauthor{\bsnm{Zhuang}, \binits{Y.}},
+\oauthor{\bsnm{Jin}, \binits{D.}},
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Shi}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{H.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}}:
+WorkForceAgent-R1: Incentivizing Reasoning Capability in LLM-based Web Agents
+  via Reinforcement Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2505.22942}
+\end{botherref}
+\endbibitem
+
+%%% 106
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2025}]{arxiv_p_2509_06501}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}},
+\oauthor{\bsnm{Li}, \binits{J.}},
+\oauthor{\bsnm{Chen}, \binits{A.}},
+\oauthor{\bsnm{Ji}, \binits{K.}},
+\oauthor{\bsnm{Cheng}, \binits{W.}},
+\oauthor{\bsnm{Wu}, \binits{Z.}},
+\oauthor{\bsnm{Du}, \binits{C.}},
+\oauthor{\bsnm{Xu}, \binits{Q.}},
+\oauthor{\bsnm{Song}, \binits{J.}},
+\oauthor{\bsnm{Zhu}, \binits{Z.}},
+\oauthor{\bsnm{Chen}, \binits{W.}},
+\oauthor{\bsnm{Zhao}, \binits{P.}},
+\oauthor{\bsnm{He}, \binits{J.}}:
+WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.06501}
+\end{botherref}
+\endbibitem
+
+%%% 107
+\bibitem[\protect\citeauthoryear{Zhang et~al.}{2025}]{arxiv_p_2509_12867}
+\begin{botherref}
+\oauthor{\bsnm{Zhang}, \binits{Y.}},
+\oauthor{\bsnm{Zeng}, \binits{Y.}},
+\oauthor{\bsnm{Li}, \binits{Q.}},
+\oauthor{\bsnm{Hu}, \binits{Z.}},
+\oauthor{\bsnm{Han}, \binits{K.}},
+\oauthor{\bsnm{Zuo}, \binits{W.}}:
+Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.12867}
+\end{botherref}
+\endbibitem
+
+%%% 108
+\bibitem[\protect\citeauthoryear{Tan et~al.}{2025}]{arxiv_p_2509_14480}
+\begin{botherref}
+\oauthor{\bsnm{Tan}, \binits{W.}},
+\oauthor{\bsnm{Qu}, \binits{X.}},
+\oauthor{\bsnm{Tu}, \binits{M.}},
+\oauthor{\bsnm{Ge}, \binits{M.}},
+\oauthor{\bsnm{Liu}, \binits{A.T.}},
+\oauthor{\bsnm{Koehn}, \binits{P.}},
+\oauthor{\bsnm{Lu}, \binits{L.}}:
+Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use
+  Agents.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2509.14480}
+\end{botherref}
+\endbibitem
+
+%%% 109
+\bibitem[\protect\citeauthoryear{Choi et~al.}{2025}]{arxiv_p_2510_18383}
+\begin{botherref}
+\oauthor{\bsnm{Choi}, \binits{C.}},
+\oauthor{\bsnm{Song}, \binits{H.}},
+\oauthor{\bsnm{Kim}, \binits{D.}},
+\oauthor{\bsnm{Jung}, \binits{W.}},
+\oauthor{\bsnm{Cho}, \binits{M.}},
+\oauthor{\bsnm{Park}, \binits{S.}},
+\oauthor{\bsnm{Bae}, \binits{N.}},
+\oauthor{\bsnm{Yu}, \binits{S.}},
+\oauthor{\bsnm{Lim}, \binits{K.}}:
+MENTOR: A Reinforcement Learning Framework for Enabling Tool Use in Small
+  Models via Teacher-Optimized Rewards.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.18383}
+\end{botherref}
+\endbibitem
+
+%%% 110
+\bibitem[\protect\citeauthoryear{Wu et~al.}{2025}]{arxiv_p_2510_25320}
+\begin{botherref}
+\oauthor{\bsnm{Wu}, \binits{J.}},
+\oauthor{\bsnm{Zhao}, \binits{Q.}},
+\oauthor{\bsnm{Chen}, \binits{Z.}},
+\oauthor{\bsnm{Qin}, \binits{K.}},
+\oauthor{\bsnm{Zhao}, \binits{Y.}},
+\oauthor{\bsnm{Wang}, \binits{X.}},
+\oauthor{\bsnm{Yao}, \binits{Y.}}:
+GAP: Graph-Based Agent Planning with Parallel Tool Use and Reinforcement
+  Learning.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.25320}
+\end{botherref}
+\endbibitem
+
+%%% 111
+\bibitem[\protect\citeauthoryear{Lin et~al.}{2026}]{arxiv_p_2602_00528}
+\begin{botherref}
+\oauthor{\bsnm{Lin}, \binits{M.}},
+\oauthor{\bsnm{Dai}, \binits{E.}},
+\oauthor{\bsnm{Liu}, \binits{H.}},
+\oauthor{\bsnm{Tang}, \binits{X.}},
+\oauthor{\bsnm{Yan}, \binits{Y.}},
+\oauthor{\bsnm{Dai}, \binits{Z.}},
+\oauthor{\bsnm{Zeng}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{F.}},
+\oauthor{\bsnm{Gao}, \binits{H.}},
+\oauthor{\bsnm{Luo}, \binits{C.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}},
+\oauthor{\bsnm{He}, \binits{Q.}},
+\oauthor{\bsnm{Wang}, \binits{S.}}:
+How Far Are LLMs from Professional Poker Players? Revisiting Game-Theoretic
+  Reasoning with Agentic Tool Use.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.00528}
+\end{botherref}
+\endbibitem
+
+%%% 112
+\bibitem[\protect\citeauthoryear{Shen et~al.}{2024}]{doi_p_10_32388_8vog0o}
+\begin{botherref}
+\oauthor{\bsnm{Shen}, \binits{J.-H.}},
+\oauthor{\bsnm{Jain}, \binits{A.}},
+\oauthor{\bsnm{Xiao}, \binits{Z.}},
+\oauthor{\bsnm{Amlekar}, \binits{I.}},
+\oauthor{\bsnm{Hadji}, \binits{M.}},
+\oauthor{\bsnm{Podolny}, \binits{A.}},
+\oauthor{\bsnm{Talwalkar}, \binits{A.}}:
+ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow
+  Data.
+Unknown venue
+(2024).
+\doiurl{10.32388/8vog0o} .
+\url{https://doi.org/10.32388/8vog0o}
+\end{botherref}
+\endbibitem
+
+%%% 113
+\bibitem[\protect\citeauthoryear{Kannan et~al.}{2023}]{arxiv_p_2309_10062}
+\begin{botherref}
+\oauthor{\bsnm{Kannan}, \binits{S.S.}},
+\oauthor{\bsnm{Venkatesh}, \binits{V.L.N.}},
+\oauthor{\bsnm{Min}, \binits{B.-C.}}:
+SMART-LLM: Smart Multi-Agent Robot Task Planning using Large Language Models.
+ArXiv
+(2023).
+\url{https://arxiv.org/abs/2309.10062}
+\end{botherref}
+\endbibitem
+
+%%% 114
+\bibitem[\protect\citeauthoryear{Hu et~al.}{2025}]{arxiv_p_2505_23885}
+\begin{botherref}
+\oauthor{\bsnm{Hu}, \binits{M.}},
+\oauthor{\bsnm{Zhou}, \binits{Y.}},
+\oauthor{\bsnm{Fan}, \binits{W.}},
+\oauthor{\bsnm{Nie}, \binits{Y.}},
+\oauthor{\bsnm{Xia}, \binits{B.}},
+\oauthor{\bsnm{Sun}, \binits{T.}},
+\oauthor{\bsnm{Ye}, \binits{Z.}},
+\oauthor{\bsnm{Jin}, \binits{Z.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Chen}, \binits{Q.}},
+\oauthor{\bsnm{Zhang}, \binits{Z.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}},
+\oauthor{\bsnm{Ye}, \binits{Q.}},
+\oauthor{\bsnm{Ghanem}, \binits{B.}},
+\oauthor{\bsnm{Luo}, \binits{P.}},
+\oauthor{\bsnm{Li}, \binits{G.}}:
+OWL: Optimized Workforce Learning for General Multi-Agent Assistance in
+  Real-World Task Automation.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2505.23885}
+\end{botherref}
+\endbibitem
+
+%%% 115
+\bibitem[\protect\citeauthoryear{Li et~al.}{2025}]{arxiv_p_2508_13167}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{W.}},
+\oauthor{\bsnm{Lin}, \binits{J.}},
+\oauthor{\bsnm{Jiang}, \binits{Z.}},
+\oauthor{\bsnm{Cao}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{X.}},
+\oauthor{\bsnm{Zhang}, \binits{J.}},
+\oauthor{\bsnm{Huang}, \binits{Z.}},
+\oauthor{\bsnm{Chen}, \binits{Q.}},
+\oauthor{\bsnm{Sun}, \binits{W.}},
+\oauthor{\bsnm{Wang}, \binits{Q.}},
+\oauthor{\bsnm{Lu}, \binits{H.}},
+\oauthor{\bsnm{Qin}, \binits{T.}},
+\oauthor{\bsnm{Zhu}, \binits{C.}},
+\oauthor{\bsnm{Yao}, \binits{Y.}},
+\oauthor{\bsnm{Fan}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{X.}},
+\oauthor{\bsnm{Wang}, \binits{T.}},
+\oauthor{\bsnm{Liu}, \binits{P.}},
+\oauthor{\bsnm{Zhu}, \binits{K.}},
+\oauthor{\bsnm{Zhu}, \binits{H.}},
+\oauthor{\bsnm{Shi}, \binits{D.}},
+\oauthor{\bsnm{Wang}, \binits{P.}},
+\oauthor{\bsnm{Guan}, \binits{Y.}},
+\oauthor{\bsnm{Tang}, \binits{X.}},
+\oauthor{\bsnm{Liu}, \binits{M.}},
+\oauthor{\bsnm{Jiang}, \binits{Y.E.}},
+\oauthor{\bsnm{Yang}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{G.}},
+\oauthor{\bsnm{Zhou}, \binits{W.}}:
+Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent
+  Distillation and Agentic RL.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2508.13167}
+\end{botherref}
+\endbibitem
+
+%%% 116
+\bibitem[\protect\citeauthoryear{Zhou et~al.}{2025}]{arxiv_p_2510_20176}
+\begin{botherref}
+\oauthor{\bsnm{Zhou}, \binits{Y.}},
+\oauthor{\bsnm{Zhang}, \binits{M.}},
+\oauthor{\bsnm{Li}, \binits{K.}},
+\oauthor{\bsnm{Wang}, \binits{M.}},
+\oauthor{\bsnm{Liu}, \binits{Q.}},
+\oauthor{\bsnm{Wang}, \binits{Q.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Liu}, \binits{F.}},
+\oauthor{\bsnm{Li}, \binits{S.}},
+\oauthor{\bsnm{Li}, \binits{W.}},
+\oauthor{\bsnm{Gao}, \binits{M.}},
+\oauthor{\bsnm{Kumar}, \binits{A.}},
+\oauthor{\bsnm{Fan}, \binits{X.}},
+\oauthor{\bsnm{Zhao}, \binits{Z.}},
+\oauthor{\bsnm{Zhang}, \binits{L.}}:
+Mixture-of-Minds: Multi-Agent Reinforcement Learning for Table Understanding.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2510.20176}
+\end{botherref}
+\endbibitem
+
+%%% 117
+\bibitem[\protect\citeauthoryear{Ali et~al.}{2025}]{arxiv_p_2511_03181}
+\begin{botherref}
+\oauthor{\bsnm{Ali}, \binits{R.S.}},
+\oauthor{\bsnm{Beltran-Hernandez}, \binits{C.C.}},
+\oauthor{\bsnm{Wan}, \binits{W.}},
+\oauthor{\bsnm{Harada}, \binits{K.}}:
+Learning-based Cooperative Robotic Paper Wrapping: A Unified Control Policy
+  with Residual Force Control.
+arXiv (Cornell University)
+(2025).
+\url{https://arxiv.org/abs/2511.03181}
+\end{botherref}
+\endbibitem
+
+%%% 118
+\bibitem[\protect\citeauthoryear{Liu et~al.}{2025}]{arxiv_p_2511_11373}
+\begin{botherref}
+\oauthor{\bsnm{Liu}, \binits{S.}},
+\oauthor{\bsnm{Du}, \binits{D.}},
+\oauthor{\bsnm{Yang}, \binits{T.}},
+\oauthor{\bsnm{Li}, \binits{Y.}},
+\oauthor{\bsnm{Qiu}, \binits{B.}}:
+MarsRL: Advancing Multi-Agent Reasoning System via Reinforcement Learning with
+  Agentic Pipeline Parallelism.
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2511.11373}
+\end{botherref}
+\endbibitem
+
+%%% 119
+\bibitem[\protect\citeauthoryear{Sharma et~al.}{2025}]{arxiv_p_2512_15790}
+\begin{botherref}
+\oauthor{\bsnm{Sharma}, \binits{A.}},
+\oauthor{\bsnm{Arafat}, \binits{S.Y.}},
+\oauthor{\bsnm{Sharma}, \binits{J.K.}},
+\oauthor{\bsnm{Huang}, \binits{K.}}:
+Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent
+  Architectures (XAMT).
+ArXiv
+(2025).
+\url{https://arxiv.org/abs/2512.15790}
+\end{botherref}
+\endbibitem
+
+%%% 120
+\bibitem[\protect\citeauthoryear{Zhou et~al.}{2026}]{arxiv_p_2601_04694}
+\begin{botherref}
+\oauthor{\bsnm{Zhou}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{Z.}},
+\oauthor{\bsnm{Liu}, \binits{J.}},
+\oauthor{\bsnm{Shao}, \binits{Q.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}},
+\oauthor{\bsnm{Shao}, \binits{K.}},
+\oauthor{\bsnm{Jin}, \binits{D.}},
+\oauthor{\bsnm{Xu}, \binits{F.}}:
+ResMAS: Resilience Optimization in LLM-based Multi-agent Systems.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2601.04694}
+\end{botherref}
+\endbibitem
+
+%%% 121
+\bibitem[\protect\citeauthoryear{Zou et~al.}{2026}]{arxiv_p_2602_00948}
+\begin{botherref}
+\oauthor{\bsnm{Zou}, \binits{M.}},
+\oauthor{\bsnm{Chen}, \binits{J.}},
+\oauthor{\bsnm{Luo}, \binits{A.}},
+\oauthor{\bsnm{Dai}, \binits{J.}},
+\oauthor{\bsnm{Zhang}, \binits{C.}},
+\oauthor{\bsnm{Sun}, \binits{D.}},
+\oauthor{\bsnm{Xu}, \binits{Z.}}:
+FinEvo: From Isolated Backtests to Ecological Market Games for Multi-Agent
+  Financial Strategy Evolution.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.00948}
+\end{botherref}
+\endbibitem
+
+%%% 122
+\bibitem[\protect\citeauthoryear{Xu et~al.}{2026}]{arxiv_p_2602_04634}
+\begin{botherref}
+\oauthor{\bsnm{Xu}, \binits{Z.}},
+\oauthor{\bsnm{Xu}, \binits{Z.}},
+\oauthor{\bsnm{Zhang}, \binits{R.}},
+\oauthor{\bsnm{Zhu}, \binits{C.}},
+\oauthor{\bsnm{Yu}, \binits{S.}},
+\oauthor{\bsnm{Liu}, \binits{W.}},
+\oauthor{\bsnm{Zhang}, \binits{Q.}},
+\oauthor{\bsnm{Ding}, \binits{W.}},
+\oauthor{\bsnm{Yu}, \binits{C.}},
+\oauthor{\bsnm{Wang}, \binits{Y.}}:
+WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via
+  Multi-Agent Reinforcement Learning.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.04634}
+\end{botherref}
+\endbibitem
+
+%%% 123
+\bibitem[\protect\citeauthoryear{Despature et~al.}{2026}]{arxiv_p_2602_07776}
+\begin{botherref}
+\oauthor{\bsnm{Despature}, \binits{J.Y.}},
+\oauthor{\bsnm{Shibata}, \binits{K.}},
+\oauthor{\bsnm{Matsubara}, \binits{T.}}:
+CoLF: Learning Consistent Leader-Follower Policies for Vision-Language-Guided
+  Multi-Robot Cooperative Transport.
+ArXiv
+(2026).
+\url{https://arxiv.org/abs/2602.07776}
+\end{botherref}
+\endbibitem
+
+%%% 124
+\bibitem[\protect\citeauthoryear{Li
+  et~al.}{2023}]{doi_p_10_18653_v1_2023_emnlp_main_13}
+\begin{botherref}
+\oauthor{\bsnm{Li}, \binits{H.}},
+\oauthor{\bsnm{Yu}, \binits{C.}},
+\oauthor{\bsnm{Stepputtis}, \binits{S.}},
+\oauthor{\bsnm{Campbell}, \binits{J.}},
+\oauthor{\bsnm{Hughes}, \binits{D.}},
+\oauthor{\bsnm{Lewis}, \binits{C.}},
+\oauthor{\bsnm{Sycara}, \binits{K.}}:
+Theory of Mind for Multi-Agent Collaboration via Large Language Models.
+Unknown venue
+(2023).
+\doiurl{10.18653/v1/2023.emnlp-main.13} .
+\url{https://doi.org/10.18653/v1/2023.emnlp-main.13}
+\end{botherref}
+\endbibitem
+
+%%% 125
+\bibitem[\protect\citeauthoryear{for Artificial Intelligence~2026
+  et~al.}{2026}]{doi_p_10_48448_8p81_ba98}
+\begin{botherref}
+\oauthor{\bsnm{Artificial Intelligence~2026}, \binits{A.}},
+\oauthor{\bsnm{Ma}, \binits{Q.}},
+\oauthor{\bsnm{Xie}, \binits{X.}},
+\oauthor{\bsnm{Xue}, \binits{X.}},
+\oauthor{\bsnm{Zhang}, \binits{X.}}:
+Adaptive Regulation via Dual-Layer Evolution (ARDE): A Multi-Agent Approach to
+  Balancing Efficiency, Fairness, and Diversity in Crowdsourced Platforms.
+Underline Science Inc.
+(2026).
+\doiurl{10.48448/8p81-ba98} .
+\url{https://doi.org/10.48448/8p81-ba98}
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}

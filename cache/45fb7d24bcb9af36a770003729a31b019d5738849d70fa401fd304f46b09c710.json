@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uI6APcbIxJ44kjlrnNjblz6etlQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.02545v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.02545v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02545v1</id>
+    <title>Beyond Alignment: Expanding Reasoning Capacity via Manifold-Reshaping Policy Optimization</title>
+    <updated>2026-01-30T05:38:44Z</updated>
+    <link href="https://arxiv.org/abs/2602.02545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning with Verifiable Rewards (RLVR) has demonstrated remarkable success in enhancing the reasoning capabilities of Large Language Models (LLMs). However, recent studies question whether RL genuinely expands reasoning capacity or merely aligns existing latent capabilities, arguing that exploration remains confined within the pre-trained model's low-rank bias manifold. In this work, we challenge this accessibility boundary hypothesis by demonstrating that the latent reasoning space can be fundamentally expanded through targeted geometric interventions. We propose Manifold-Reshaping Policy Optimization (MRPO), a geometric framework designed to fundamentally restructure the inference space of LLMs. MRPO operates in two stages: first, we employ Spectral Orthogonal Exploration (SOE) to eject the policy initialization into the null space of the bias manifold; second, we integrate an Effective Rank regularization term into the policy optimization objective. This approach incentivizes the discovery and maintenance of high-dimensional reasoning trajectories against the entropy-reducing tendency of standard RL. Empirically, our 4B-parameter method achieves state-of-the-art performance on mathematical tasks, significantly outperforming larger models (e.g., Qwen3-32B) and expanding the capability boundary beyond standard GRPO. Our code is available at https://anonymous.4open.science/r/MRPO-D57B/</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T05:38:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dayu Wang</name>
+    </author>
+    <author>
+      <name>Jiaye Yang</name>
+    </author>
+    <author>
+      <name>Weikang Li</name>
+    </author>
+    <author>
+      <name>Jiahui Liang</name>
+    </author>
+    <author>
+      <name>Yang Li</name>
+    </author>
+  </entry>
+</feed>

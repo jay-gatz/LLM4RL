@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WLZ7lAgVQJiquE/ajrF+kZiL6wg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.06485v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:46:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.06485v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.06485v1</id>
+    <title>AgentCPM-Explore: Realizing Long-Horizon Deep Exploration for Edge-Scale Agents</title>
+    <updated>2026-02-06T08:24:59Z</updated>
+    <link href="https://arxiv.org/abs/2602.06485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.06485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Model (LLM)-based agents have shown remarkable potential for solving complex tasks, existing systems remain heavily reliant on large-scale models, leaving the capabilities of edge-scale models largely underexplored. In this paper, we present the first systematic study on training agentic models at the 4B-parameter scale. We identify three primary bottlenecks hindering the performance of edge-scale models: catastrophic forgetting during Supervised Fine-Tuning (SFT), sensitivity to reward signal noise during Reinforcement Learning (RL), and reasoning degradation caused by redundant information in long-context scenarios. To address the issues, we propose AgentCPM-Explore, a compact 4B agent model with high knowledge density and strong exploration capability. We introduce a holistic training framework featuring parameter-space model fusion, reward signal denoising, and contextual information refinement. Through deep exploration, AgentCPM-Explore achieves state-of-the-art (SOTA) performance among 4B-class models, matches or surpasses 8B-class SOTA models on four benchmarks, and even outperforms larger-scale models such as Claude-4.5-Sonnet or DeepSeek-v3.2 in five benchmarks. Notably, AgentCPM-Explore achieves 97.09% accuracy on GAIA text-based tasks under pass@64. These results provide compelling evidence that the bottleneck for edge-scale models is not their inherent capability ceiling, but rather their inference stability. Based on our well-established training framework, AgentCPM-Explore effectively unlocks the significant, yet previously underestimated, potential of edge-scale models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-06T08:24:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haotian Chen</name>
+    </author>
+    <author>
+      <name>Xin Cong</name>
+    </author>
+    <author>
+      <name>Shengda Fan</name>
+    </author>
+    <author>
+      <name>Yuyang Fu</name>
+    </author>
+    <author>
+      <name>Ziqin Gong</name>
+    </author>
+    <author>
+      <name>Yaxi Lu</name>
+    </author>
+    <author>
+      <name>Yishan Li</name>
+    </author>
+    <author>
+      <name>Boye Niu</name>
+    </author>
+    <author>
+      <name>Chengjun Pan</name>
+    </author>
+    <author>
+      <name>Zijun Song</name>
+    </author>
+    <author>
+      <name>Huadong Wang</name>
+    </author>
+    <author>
+      <name>Yesai Wu</name>
+    </author>
+    <author>
+      <name>Yueying Wu</name>
+    </author>
+    <author>
+      <name>Zihao Xie</name>
+    </author>
+    <author>
+      <name>Yukun Yan</name>
+    </author>
+    <author>
+      <name>Zhong Zhang</name>
+    </author>
+    <author>
+      <name>Yankai Lin</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <author>
+      <name>Maosong Sun</name>
+    </author>
+  </entry>
+</feed>

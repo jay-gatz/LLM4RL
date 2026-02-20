@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/95SRqUEmn0Ex+oG825ciFtpcRe4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.21668v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.21668v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.21668v2</id>
+    <title>R1-Code-Interpreter: LLMs Reason with Code via Supervised and Multi-stage Reinforcement Learning</title>
+    <updated>2025-09-29T19:29:09Z</updated>
+    <link href="https://arxiv.org/abs/2505.21668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.21668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Practical guidance on training Large Language Models (LLMs) to leverage Code Interpreter across diverse tasks remains lacking. We present R1-Code-Interpreter, an extension of a text-only LLM trained via multi-turn supervised fine-tuning (SFT) and reinforcement learning (RL) to autonomously generate multiple code queries during step-by-step reasoning. Unlike prior RL + tool-use efforts focused on narrow domains such as math or retrieval, we curate 144 diverse reasoning and planning tasks and show that training a general-purpose Code Interpreter across them presents significant challenges due to task heterogeneity and scarcity of effective samples. To address this, we introduce a multi-stage curriculum learning approach that partitions training samples by measured improvement potential. The RL training prioritizes samples with higher potential and gradually shifts to lower-potential ones, increasing the average RL gains from merely +3.4% to +9.3% across Qwen-2.5 models (3/7/14B). Our final model, R1-CI-14B, improves average accuracy on the 37 test tasks from 44.1% to 72.4%, outperforming text-only GPT-4o (58.6%) and GPT-4o with Code Interpreter (70.9%). Notably, R1-CI-14B also exhibits emergent self-checking behavior through code generation. Datasets, Codes, and Models are available at https://github.com/yongchao98/R1-Code-Interpreter and https://huggingface.co/yongchao98.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-27T18:47:33Z</published>
+    <arxiv:comment>26 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yongchao Chen</name>
+    </author>
+    <author>
+      <name>Yueying Liu</name>
+    </author>
+    <author>
+      <name>Junwei Zhou</name>
+    </author>
+    <author>
+      <name>Yilun Hao</name>
+    </author>
+    <author>
+      <name>Jingquan Wang</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Na Li</name>
+    </author>
+    <author>
+      <name>Chuchu Fan</name>
+    </author>
+  </entry>
+</feed>

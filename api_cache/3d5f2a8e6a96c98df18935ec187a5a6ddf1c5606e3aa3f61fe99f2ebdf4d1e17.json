@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gjgw73/8mrCLXRRwsCxMoUJs/98</id>
+  <title>arXiv Query: search_query=&amp;id_list=2505.19255v3&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:04:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2505.19255v3" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.19255v3</id>
+    <title>VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use</title>
+    <updated>2025-06-11T21:47:49Z</updated>
+    <link href="https://arxiv.org/abs/2505.19255v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.19255v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning Finetuning (RFT) has significantly advanced the reasoning capabilities of large language models (LLMs) by enabling long chains of thought, self-correction, and effective tool use. While recent works attempt to extend RFT to vision-language models (VLMs), these efforts largely produce text-only reasoning conditioned on static image inputs, falling short of true multimodal reasoning in the response. In contrast, test-time methods like Visual Sketchpad incorporate visual steps but lack training mechanisms.
+  We introduce VTool-R1, the first framework that trains VLMs to generate multimodal chains of thought by interleaving text and intermediate visual reasoning steps. VTool-R1 integrates Python-based visual editing tools into the RFT process, enabling VLMs to learn when and how to generate visual reasoning steps that benefit final reasoning. Trained with outcome-based rewards tied to task accuracy, our approach elicits strategic visual tool use for reasoning without relying on process-based supervision. Experiments on structured visual question answering over charts and tables show that VTool-R1 enhances reasoning performance by teaching VLMs to "think with images" and generate multimodal chain of thoughts with tools.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-25T18:23:39Z</published>
+    <arxiv:comment>https://github.com/VTool-R1/VTool-R1</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingyuan Wu</name>
+    </author>
+    <author>
+      <name>Jingcheng Yang</name>
+    </author>
+    <author>
+      <name>Jize Jiang</name>
+    </author>
+    <author>
+      <name>Meitang Li</name>
+    </author>
+    <author>
+      <name>Kaizhuo Yan</name>
+    </author>
+    <author>
+      <name>Hanchao Yu</name>
+    </author>
+    <author>
+      <name>Minjia Zhang</name>
+    </author>
+    <author>
+      <name>Chengxiang Zhai</name>
+    </author>
+    <author>
+      <name>Klara Nahrstedt</name>
+    </author>
+  </entry>
+</feed>

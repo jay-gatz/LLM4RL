@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aYEZVi4elF0qK6/9mSoKaIM1P1Q</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16702v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:51:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16702v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16702v1</id>
+    <title>Saliency-Aware Multi-Route Thinking: Revisiting Vision-Language Reasoning</title>
+    <updated>2026-02-18T18:49:56Z</updated>
+    <link href="https://arxiv.org/abs/2602.16702v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16702v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) aim to reason by jointly leveraging visual and textual modalities. While allocating additional inference-time computation has proven effective for large language models (LLMs), achieving similar scaling in VLMs remains challenging. A key obstacle is that visual inputs are typically provided only once at the start of generation, while textual reasoning (e.g., early visual summaries) is generated autoregressively, causing reasoning to become increasingly text-dominated and allowing early visual grounding errors to accumulate. Moreover, vanilla guidance for visual grounding during inference is often coarse and noisy, making it difficult to steer reasoning over long texts. To address these challenges, we propose \emph{Saliency-Aware Principle} (SAP) selection. SAP operates on high-level reasoning principles rather than token-level trajectories, which enable stable control over discrete generation under noisy feedback while allowing later reasoning steps to re-consult visual evidence when renewed grounding is required. In addition, SAP supports multi-route inference, enabling parallel exploration of diverse reasoning behaviors. SAP is model-agnostic and data-free, requiring no additional training. Empirical results show that SAP achieves competitive performance, especially in reducing object hallucination, under comparable token-generation budgets while yielding more stable reasoning and lower response latency than CoT-style long sequential reasoning.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T18:49:56Z</published>
+    <arxiv:comment>preprint 10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mingjia Shi</name>
+    </author>
+    <author>
+      <name>Yinhan He</name>
+    </author>
+    <author>
+      <name>Yaochen Zhu</name>
+    </author>
+    <author>
+      <name>Jundong Li</name>
+    </author>
+  </entry>
+</feed>

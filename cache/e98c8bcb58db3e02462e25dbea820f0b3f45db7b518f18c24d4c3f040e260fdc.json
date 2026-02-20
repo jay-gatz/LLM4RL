@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OWjx5jS5vzsguWRxskCL0gVPHeg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.07782v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:00:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.07782v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.07782v1</id>
+    <title>Beyond Single-Shot: Multi-step Tool Retrieval via Query Planning</title>
+    <updated>2026-01-12T17:58:39Z</updated>
+    <link href="https://arxiv.org/abs/2601.07782v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.07782v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents operating over massive, dynamic tool libraries rely on effective retrieval, yet standard single-shot dense retrievers struggle with complex requests. These failures primarily stem from the disconnect between abstract user goals and technical documentation, and the limited capacity of fixed-size embeddings to model combinatorial tool compositions. To address these challenges, we propose TOOLQP, a lightweight framework that models retrieval as iterative query planning. Instead of single-shot matching, TOOLQP decomposes instructions into sub-tasks and dynamically generates queries to interact with the retriever, effectively bridging the semantic gap by targeting the specific sub-tasks required for composition. We train TOOLQP using synthetic query trajectories followed by optimization via Reinforcement Learning with Verifiable Rewards (RLVR). Experiments demonstrate that TOOLQP achieves state-of-the-art performance, exhibiting superior zero-shot generalization, robustness across diverse retrievers, and significant improvements in downstream agentic execution.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T17:58:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wei Fang</name>
+    </author>
+    <author>
+      <name>James Glass</name>
+    </author>
+  </entry>
+</feed>

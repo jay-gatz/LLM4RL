@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rp92pXHUvPn6UMSUIIWmUiwRx+I</id>
+  <title>arXiv Query: search_query=&amp;id_list=2402.00910&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:35:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2402.00910" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.00910v2</id>
+    <title>Addressing Bias Through Ensemble Learning and Regularized Fine-Tuning</title>
+    <updated>2024-02-13T18:54:59Z</updated>
+    <link href="https://arxiv.org/abs/2402.00910v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.00910v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Addressing biases in AI models is crucial for ensuring fair and accurate predictions. However, obtaining large, unbiased datasets for training can be challenging. This paper proposes a comprehensive approach using multiple methods to remove bias in AI models, with only a small dataset and a potentially biased pretrained model. We train multiple models with the counter-bias of the pre-trained model through data splitting, local training, and regularized fine-tuning, gaining potentially counter-biased models. Then, we employ ensemble learning for all models to reach unbiased predictions. To further accelerate the inference time of our ensemble model, we conclude our solution with knowledge distillation that results in a single unbiased neural network. We demonstrate the effectiveness of our approach through experiments on the CIFAR10 and HAM10000 datasets, showcasing promising results. This work contributes to the ongoing effort to create more unbiased and reliable AI models, even with limited data availability.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-01T09:24:36Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ahmed Radwan</name>
+    </author>
+    <author>
+      <name>Layan Zaafarani</name>
+    </author>
+    <author>
+      <name>Jetana Abudawood</name>
+    </author>
+    <author>
+      <name>Faisal AlZahrani</name>
+    </author>
+    <author>
+      <name>Fares Fourati</name>
+    </author>
+  </entry>
+</feed>

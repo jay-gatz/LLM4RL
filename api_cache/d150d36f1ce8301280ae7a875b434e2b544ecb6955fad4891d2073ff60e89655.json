@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MLZYJNiMPekq+QqKOw+D15vfmIA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.06098v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.06098v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.06098v1</id>
+    <title>Automatic Question Generation for Intuitive Learning Utilizing Causal Graph Guided Chain of Thought Reasoning</title>
+    <updated>2026-01-02T08:49:58Z</updated>
+    <link href="https://arxiv.org/abs/2601.06098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.06098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intuitive learning is crucial for developing deep conceptual understanding, especially in STEM education, where students often struggle with abstract and interconnected concepts. Automatic question generation has become an effective strategy for personalized and adaptive learning. However, its effectiveness is hindered by hallucinations in large language models (LLMs), which may generate factually incorrect, ambiguous, or pedagogically inconsistent questions. To address this issue, we propose a novel framework that combines causal-graph-guided Chain-of-Thought (CoT) reasoning with a multi-agent LLM architecture. This approach ensures the generation of accurate, meaningful, and curriculum-aligned questions. Causal graphs provide an explicit representation of domain knowledge, while CoT reasoning facilitates a structured, step-by-step traversal of related concepts. Dedicated LLM agents are assigned specific tasks such as graph pathfinding, reasoning, validation, and output, all working within domain constraints. A dual validation mechanism-at both the conceptual and output stages-greatly reduces hallucinations. Experimental results demonstrate up to a 70% improvement in quality compared to reference methods and yielded highly favorable outcomes in subjective evaluations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-02T08:49:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Nicholas X. Wang</name>
+    </author>
+    <author>
+      <name>Neel V. Parpia</name>
+    </author>
+    <author>
+      <name>Aaryan D. Parikh</name>
+    </author>
+    <author>
+      <name>Aggelos K. Katsaggelos</name>
+    </author>
+  </entry>
+</feed>

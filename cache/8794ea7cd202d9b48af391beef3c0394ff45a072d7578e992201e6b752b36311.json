@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uSfPGtkgKQ2FPwFQI7wpETNHjvg</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10093v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:41:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10093v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10093v1</id>
+    <title>UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking</title>
+    <updated>2026-02-10T18:57:00Z</updated>
+    <link href="https://arxiv.org/abs/2602.10093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robotic manipulation has seen rapid progress with vision-language-action (VLA) policies. However, visuo-tactile perception is critical for contact-rich manipulation, as tasks such as insertion are difficult to complete robustly using vision alone. At the same time, acquiring large-scale and reliable tactile data in the physical world remains costly and challenging, and the lack of a unified evaluation platform further limits policy learning and systematic analysis. To address these challenges, we propose UniVTAC, a simulation-based visuo-tactile data synthesis platform that supports three commonly used visuo-tactile sensors and enables scalable and controllable generation of informative contact interactions. Based on this platform, we introduce the UniVTAC Encoder, a visuo-tactile encoder trained on large-scale simulation-synthesized data with designed supervisory signals, providing tactile-centric visuo-tactile representations for downstream manipulation tasks. In addition, we present the UniVTAC Benchmark, which consists of eight representative visuo-tactile manipulation tasks for evaluating tactile-driven policies. Experimental results show that integrating the UniVTAC Encoder improves average success rates by 17.1% on the UniVTAC Benchmark, while real-world robotic experiments further demonstrate a 25% improvement in task success. Our webpage is available at https://univtac.github.io/.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T18:57:00Z</published>
+    <arxiv:comment>Website: https://univtac.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Baijun Chen</name>
+    </author>
+    <author>
+      <name>Weijie Wan</name>
+    </author>
+    <author>
+      <name>Tianxing Chen</name>
+    </author>
+    <author>
+      <name>Xianda Guo</name>
+    </author>
+    <author>
+      <name>Congsheng Xu</name>
+    </author>
+    <author>
+      <name>Yuanyang Qi</name>
+    </author>
+    <author>
+      <name>Haojie Zhang</name>
+    </author>
+    <author>
+      <name>Longyan Wu</name>
+    </author>
+    <author>
+      <name>Tianling Xu</name>
+    </author>
+    <author>
+      <name>Zixuan Li</name>
+    </author>
+    <author>
+      <name>Yizhe Wu</name>
+    </author>
+    <author>
+      <name>Rui Li</name>
+    </author>
+    <author>
+      <name>Xiaokang Yang</name>
+    </author>
+    <author>
+      <name>Ping Luo</name>
+    </author>
+    <author>
+      <name>Wei Sui</name>
+    </author>
+    <author>
+      <name>Yao Mu</name>
+    </author>
+  </entry>
+</feed>

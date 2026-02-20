@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IINtsD1nh5u43RB3MaJMLZ0N1YA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2510.22732v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:27:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2510.22732v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22732v2</id>
+    <title>WebATLAS: An LLM Agent with Experience-Driven Memory and Action Simulation</title>
+    <updated>2025-12-19T23:16:01Z</updated>
+    <link href="https://arxiv.org/abs/2510.22732v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22732v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) web agents often struggle with long-horizon web navigation and web task completion in new websites, producing inefficient action sequences unless fine-tuned on environment-specific data. We show that experience-driven memory, combined with look-ahead action simulation, is sufficient for LLM agents to adapt to unseen web environments by remembering past failures and predicting the consequences of future actions. We introduce WebATLAS (Actor-Critic Task-completion with Look-ahead Action Simulation), a memory-augmented LLM web agent that learns a lightweight internal model of the environment from interaction experience and performs hypothetical action rollouts before acting in the real world. WebATLAS builds a persistent cognitive map via curiosity-driven exploration, stores interaction outcomes as experience-based memory, and evaluates candidate actions in cognitive space using a planner--simulator--critic loop. This enables the agent to reuse past experience, avoid previously unsuccessful behaviors, and generate more efficient plans. We evaluate WebATLAS on the WebArena-Lite benchmark for autonomous web navigation and demonstrate a success rate of 63%, outperforming the previous state-of-the-art at 53.9%. Unlike previous systems, our modular architecture requires no website-specific LLM fine-tuning. Ablation studies confirm that experience-driven memory, look-ahead action simulation, and hierarchical replanning play complementary roles in enabling robust, training-free web agents.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-26T16:03:39Z</published>
+    <arxiv:comment>9 pages, NeurIPS 2025 Workshop on Language Agents and World Models</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiali Cheng</name>
+    </author>
+    <author>
+      <name>Anjishnu Kumar</name>
+    </author>
+    <author>
+      <name>Roshan Lal</name>
+    </author>
+    <author>
+      <name>Rishi Rajasekaran</name>
+    </author>
+    <author>
+      <name>Hani Ramezani</name>
+    </author>
+    <author>
+      <name>Omar Zia Khan</name>
+    </author>
+    <author>
+      <name>Oleg Rokhlenko</name>
+    </author>
+    <author>
+      <name>Sunny Chiu-Webster</name>
+    </author>
+    <author>
+      <name>Gang Hua</name>
+    </author>
+    <author>
+      <name>Hadi Amiri</name>
+    </author>
+  </entry>
+</feed>

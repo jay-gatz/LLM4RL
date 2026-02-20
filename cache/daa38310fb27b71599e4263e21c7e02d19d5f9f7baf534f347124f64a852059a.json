@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4x0GU9znTTfiG3U/1uj7scJSpq4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2509.14172v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2509.14172v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14172v2</id>
+    <title>TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning</title>
+    <updated>2025-09-19T02:13:09Z</updated>
+    <link href="https://arxiv.org/abs/2509.14172v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14172v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid advancement of large language models and vision-language models, employing large models as Web Agents has become essential for automated web interaction. However, training Web Agents with reinforcement learning faces critical challenges including credit assignment misallocation, prohibitively high annotation costs, and reward sparsity. To address these issues, we propose Tree-Guided Preference Optimization (TGPO), an offline reinforcement learning framework that proposes a tree-structured trajectory representation merging semantically identical states across trajectories to eliminate label conflicts. Our framework incorporates a Process Reward Model that automatically generates fine-grained rewards through subgoal progress, redundancy detection, and action verification. Additionally, a dynamic weighting mechanism prioritizes high-impact decision points during training. Experiments on Online-Mind2Web and our self-constructed C-WebShop datasets demonstrate that TGPO significantly outperforms existing methods, achieving higher success rates with fewer redundant steps.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-17T16:58:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ziyuan Chen</name>
+    </author>
+    <author>
+      <name>Zhenghui Zhao</name>
+    </author>
+    <author>
+      <name>Zhangye Han</name>
+    </author>
+    <author>
+      <name>Miancan Liu</name>
+    </author>
+    <author>
+      <name>Xianhang Ye</name>
+    </author>
+    <author>
+      <name>Yiqing Li</name>
+    </author>
+    <author>
+      <name>Hongbo Min</name>
+    </author>
+    <author>
+      <name>Jinkui Ren</name>
+    </author>
+    <author>
+      <name>Xiantao Zhang</name>
+    </author>
+    <author>
+      <name>Guitao Cao</name>
+    </author>
+  </entry>
+</feed>

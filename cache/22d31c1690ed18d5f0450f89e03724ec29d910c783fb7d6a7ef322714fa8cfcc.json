@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bsg/5NpKqQwq1dif+bp2cbJdYKc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10458v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10458v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10458v1</id>
+    <title>Found-RL: foundation model-enhanced reinforcement learning for autonomous driving</title>
+    <updated>2026-02-11T02:56:04Z</updated>
+    <link href="https://arxiv.org/abs/2602.10458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement Learning (RL) has emerged as a dominant paradigm for end-to-end autonomous driving (AD). However, RL suffers from sample inefficiency and a lack of semantic interpretability in complex scenarios. Foundation Models, particularly Vision-Language Models (VLMs), can mitigate this by offering rich, context-aware knowledge, yet their high inference latency hinders deployment in high-frequency RL training loops. To bridge this gap, we present Found-RL, a platform tailored to efficiently enhance RL for AD using foundation models. A core innovation is the asynchronous batch inference framework, which decouples heavy VLM reasoning from the simulation loop, effectively resolving latency bottlenecks to support real-time learning. We introduce diverse supervision mechanisms: Value-Margin Regularization (VMR) and Advantage-Weighted Action Guidance (AWAG) to effectively distill expert-like VLM action suggestions into the RL policy. Additionally, we adopt high-throughput CLIP for dense reward shaping. We address CLIP's dynamic blindness via Conditional Contrastive Action Alignment, which conditions prompts on discretized speed/command and yields a normalized, margin-based bonus from context-specific action-anchor scoring. Found-RL provides an end-to-end pipeline for fine-tuned VLM integration and shows that a lightweight RL model can achieve near-VLM performance compared with billion-parameter VLMs while sustaining real-time inference (approx. 500 FPS). Code, data, and models will be publicly available at https://github.com/ys-qu/found-rl.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T02:56:04Z</published>
+    <arxiv:comment>39 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yansong Qu</name>
+    </author>
+    <author>
+      <name>Zihao Sheng</name>
+    </author>
+    <author>
+      <name>Zilin Huang</name>
+    </author>
+    <author>
+      <name>Jiancong Chen</name>
+    </author>
+    <author>
+      <name>Yuhao Luo</name>
+    </author>
+    <author>
+      <name>Tianyi Wang</name>
+    </author>
+    <author>
+      <name>Yiheng Feng</name>
+    </author>
+    <author>
+      <name>Samuel Labi</name>
+    </author>
+    <author>
+      <name>Sikai Chen</name>
+    </author>
+  </entry>
+</feed>

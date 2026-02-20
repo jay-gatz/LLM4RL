@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GNqYlSy+m5zTWyszlyiaXOmd03g</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.22696v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:46:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.22696v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22696v1</id>
+    <title>Bi-MCQ: Reformulating Vision-Language Alignment for Negation Understanding</title>
+    <updated>2026-01-30T08:14:45Z</updated>
+    <link href="https://arxiv.org/abs/2601.22696v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22696v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent vision-language models (VLMs) achieve strong zero-shot performance via large-scale image-text pretraining and have been widely adopted in medical image analysis. However, existing VLMs remain notably weak at understanding negated clinical statements, largely due to contrastive alignment objectives that treat negation as a minor linguistic variation rather than a meaning-inverting operator. In multi-label settings, prompt-based InfoNCE fine-tuning further reinforces easy-positive image-prompt alignments, limiting effective learning of disease absence. To overcome these limitations, we reformulate vision-language alignment as a conditional semantic comparison problem, which is instantiated through a bi-directional multiple-choice learning framework(Bi-MCQ). By jointly training Image-to-Text and Text-to-Image MCQ tasks with affirmative, negative, and mixed prompts, our method implements fine-tuning as conditional semantic comparison instead of global similarity maximization. We further introduce direction-specific Cross-Attention fusion modules to address asymmetric cues required by bi-directional reasoning and reduce alignment interference. Experiments on ChestXray14, Open-I, CheXpert, and PadChest show that Bi-MCQ improves negation understanding by up to 0.47 AUC over the zero-shot performance of the state-of-the-art CARZero model, while achieving up to a 0.08 absolute gain on positive-negative combined (PNC) evaluation. Additionally, Bi-MCQ reduces the affirmative-negative AUC gap by an average of 0.12 compared to InfoNCE-based fine-tuning, demonstrating that objective reformulation can substantially enhance negation understanding in medical VLMs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T08:14:45Z</published>
+    <arxiv:comment>15 pages, 4 figures, Submitted to ICPR 2026 (under review)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tae Hun Kim</name>
+    </author>
+    <author>
+      <name>Hyun Gyu Lee</name>
+    </author>
+  </entry>
+</feed>

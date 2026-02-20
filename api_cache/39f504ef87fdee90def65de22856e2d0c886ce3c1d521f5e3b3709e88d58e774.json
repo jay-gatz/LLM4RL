@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c3vsB7twPyIehXFoVexAEoNynnM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.04238v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:15:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.04238v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04238v1</id>
+    <title>Generative AI for Social Impact</title>
+    <updated>2026-01-05T02:44:39Z</updated>
+    <link href="https://arxiv.org/abs/2601.04238v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04238v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI for Social Impact (AI4SI) has achieved compelling results in public health, conservation, and security, yet scaling these successes remains difficult due to a persistent deployment bottleneck. We characterize this bottleneck through three coupled gaps: observational scarcity resulting from limited or unreliable data; policy synthesis challenges involving combinatorial decisions and nonstationarity; and the friction of human-AI alignment when incorporating tacit expert knowledge and dynamic constraints. We argue that Generative AI offers a unified pathway to bridge these gaps. LLM agents assist in human-AI alignment by translating natural-language guidance into executable objectives and constraints for downstream planners, while diffusion models generate realistic synthetic data and support uncertainty-aware modeling to improve policy robustness and transfer across deployments. Together, these tools enable scalable, adaptable, and human-aligned AI systems for resource optimization in high-stakes settings.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T02:44:39Z</published>
+    <arxiv:comment>To appear in IEEE Intelligent Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Lingkai Kong</name>
+    </author>
+    <author>
+      <name>Cheol Woo Kim</name>
+    </author>
+    <author>
+      <name>Davin Choo</name>
+    </author>
+    <author>
+      <name>Milind Tambe</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n/MTmrm4E2oaYhSac45GXzsQiSQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2304.05332&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:56:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2304.05332" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.05332v1</id>
+    <title>Emergent autonomous scientific research capabilities of large language models</title>
+    <updated>2023-04-11T16:50:17Z</updated>
+    <link href="https://arxiv.org/abs/2304.05332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.05332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based large language models are rapidly advancing in the field of machine learning research, with applications spanning natural language, biology, chemistry, and computer programming. Extreme scaling and reinforcement learning from human feedback have significantly improved the quality of generated text, enabling these models to perform various tasks and reason about their choices. In this paper, we present an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments. We showcase the Agent's scientific research capabilities with three distinct examples, with the most complex being the successful performance of catalyzed cross-coupling reactions. Finally, we discuss the safety implications of such systems and propose measures to prevent their misuse.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-11T16:50:17Z</published>
+    <arxiv:comment>Version 1, April 11, 2023. 48 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Daniil A. Boiko</name>
+    </author>
+    <author>
+      <name>Robert MacKnight</name>
+    </author>
+    <author>
+      <name>Gabe Gomes</name>
+    </author>
+  </entry>
+</feed>

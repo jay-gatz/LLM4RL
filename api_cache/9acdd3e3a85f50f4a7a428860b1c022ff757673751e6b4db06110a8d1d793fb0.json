@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1fpLVq9/WbcQ/3Gbdd1VSHKGYv4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.10520v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.10520v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.10520v2</id>
+    <title>Prioritize the Process, Not Just the Outcome: Rewarding Latent Thought Trajectories Improves Reasoning in Looped Language Models</title>
+    <updated>2026-02-12T02:42:42Z</updated>
+    <link href="https://arxiv.org/abs/2602.10520v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.10520v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Looped Language Models (LoopLMs) perform multi-step latent reasoning prior to token generation and outperform conventional LLMs on reasoning benchmarks at smaller parameter budgets. However, attempts to further improve LoopLM reasoning with reinforcement learning have failed - standard objectives such as Group Relative Policy Optimization (GRPO) only assign credit to the final latent state, creating a fundamental mismatch with the model's internal computation. To resolve this, we introduce RLTT (Reward Latent Thought Trajectories), a reinforcement learning framework which distributes reward across the full latent reasoning trajectory. RLTT provides dense, trajectory-level credit assignment without relying on external verifiers and can directly replace GRPO with negligible overhead. Across extensive experiments with Ouro-2.6B-Thinking under identical training and inference conditions, RLTT yields substantial improvements over GRPO on challenging mathematical reasoning benchmarks, improving accuracy by +14.4% on MATH-500, +16.6% on AIME24, and +10.0% on BeyondAIME. Despite being trained exclusively on mathematics, RLTT also transfers effectively to non-mathematical reasoning benchmarks, demonstrating the effectiveness of trajectory-level credit assignment for reinforcement learning in LoopLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-11T04:39:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jonathan Williams</name>
+    </author>
+    <author>
+      <name>Esin Tureci</name>
+    </author>
+  </entry>
+</feed>

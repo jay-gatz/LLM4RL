@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IqXVFYmDR6i30zncz5Vr8pP7zcc</id>
+  <title>arXiv Query: search_query=&amp;id_list=2511.11035v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:26:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2511.11035v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.11035v1</id>
+    <title>GraphMASAL: A Graph-based Multi-Agent System for Adaptive Learning</title>
+    <updated>2025-11-14T07:44:01Z</updated>
+    <link href="https://arxiv.org/abs/2511.11035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.11035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advent of Intelligent Tutoring Systems (ITSs) has marked a paradigm shift in education, enabling highly personalized learning pathways. However, true personalization requires adapting to learners' complex knowledge states (multi-source) and diverse goals (multi-sink); existing ITSs often lack the necessary structural-reasoning capability and knowledge dynamism to generate genuinely effective learning paths, and they lack scientifically rigorous validation paradigms. In this paper we propose GraphMASAL (A Graph-based Multi-Agent System for Adaptive Learning), which integrates (i) a dynamic knowledge graph for persistent, stateful learner modeling; (ii) a LangGraph-orchestrated trio of agents (Diagnostician, Planner, Tutor); (iii) a knowledge-graph-grounded two-stage neural IR component (dual-encoder dense retrieval with cross-encoder listwise re-ranking and calibrated score fusion); and (iv) a multi-source multi-sink (MSMS) planning engine with a cognitively grounded cost and an approximation guarantee via greedy set cover. Under blinded automated evaluations with matched inputs and inference settings across diverse student profiles, GraphMASAL consistently outperforms LLM prompting and structured ablations in planning--achieving stronger structural/sequence alignment of learning paths, higher coverage of weak concepts, and lower learning cost--while also surpassing prompt-based baselines in cognitive diagnosis. Agreement with expert/LLM-proxy ratings further supports the validity of our evaluation protocol. These findings indicate that grounding LLM agents in a dynamic knowledge graph, coupled with optimization under educational constraints, yields reliable, interpretable, and pedagogically plausible learning plans, advancing personalized and goal-oriented education.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-14T07:44:01Z</published>
+    <arxiv:comment>9 pages, 3 figures,submitted to AAMAS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Biqing Zeng</name>
+    </author>
+    <author>
+      <name>Mengquan Liu</name>
+    </author>
+    <author>
+      <name>Zongwei Zhen</name>
+    </author>
+  </entry>
+</feed>

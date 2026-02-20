@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vpssp2PRcqV9kXJOuB8Azy1cyFE</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17226v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17226v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17226v1</id>
+    <title>Retell, Reward, Repeat: Reinforcement Learning for Narrative Theory-Informed Story Generation</title>
+    <updated>2026-01-23T23:23:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.17226v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17226v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the subjective nature of storytelling, past works on automatic story generation (ASG) have relied on limited ground truths for training and evaluation. In this work, we explore reinforcement learning (d-RLAIF) as a post-training alternative to supervised fine-tuning (SFT). We first apply Todorov's Theory of Narrative Equilibrium to establish principles that define desirable ASG qualities. We prompt 7B and 14B LLM-as-judge models with our principles to test alignment with human annotators and provide reward signals during d-RLAIF. We use Gemini-3-Flash to evaluate the output of our post-trained models and compare them to human-written stories from the TimeTravel dataset. We show that d-RLAIF offers a viable alternative to supervised fine-tuning (SFT)--producing stories that are more diverse and aligned with human narrative conventions. Our paper demonstrates the promise of reinforcement learning for linguistically grounded post-training for subjective tasks such as ASG.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T23:23:42Z</published>
+    <arxiv:comment>8 Pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>David Y. Liu</name>
+    </author>
+    <author>
+      <name>Xanthe Muston</name>
+    </author>
+    <author>
+      <name>Aditya Joshi</name>
+    </author>
+    <author>
+      <name>Sebastian Sequoiah-Grayson</name>
+    </author>
+  </entry>
+</feed>

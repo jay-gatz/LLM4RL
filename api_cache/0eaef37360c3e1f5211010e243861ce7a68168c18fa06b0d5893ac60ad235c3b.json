@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yw/Yl1vgRNjfwGpRGR1Eg0Wb6Cw</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.21662v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:47:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.21662v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.21662v1</id>
+    <title>Epistemic Uncertainty Quantification for Pre-trained VLMs via Riemannian Flow Matching</title>
+    <updated>2026-01-29T12:58:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.21662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.21662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language Models (VLMs) are typically deterministic in nature and lack intrinsic mechanisms to quantify epistemic uncertainty, which reflects the model's lack of knowledge or ignorance of its own representations. We theoretically motivate negative log-density of an embedding as a proxy for the epistemic uncertainty, where low-density regions signify model ignorance. The proposed method REPVLM computes the probability density on the hyperspherical manifold of the VLM embeddings using Riemannian Flow Matching. We empirically demonstrate that REPVLM achieves near-perfect correlation between uncertainty and prediction error, significantly outperforming existing baselines. Beyond classification, we also demonstrate that the model also provides a scalable metric for out-of-distribution detection and automated data curation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-29T12:58:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Li Ju</name>
+    </author>
+    <author>
+      <name>Mayank Nautiyal</name>
+    </author>
+    <author>
+      <name>Andreas Hellander</name>
+    </author>
+    <author>
+      <name>Ekta Vats</name>
+    </author>
+    <author>
+      <name>Prashant Singh</name>
+    </author>
+  </entry>
+</feed>

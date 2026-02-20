@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5n1DimtoMhkEaZZOph2VwiH/weI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09701v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:43:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09701v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09701v1</id>
+    <title>GenSeg-R1: RL-Driven Vision-Language Grounding for Fine-Grained Referring Segmentation</title>
+    <updated>2026-02-10T11:59:14Z</updated>
+    <link href="https://arxiv.org/abs/2602.09701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study fine-grained referring image segmentation via a decoupled reason-then-segment pipeline. A vision-language model (VLM) receives an image and a natural-language query, reasons about the scene, and emits structured spatial prompts: a bounding box plus two interior keypoints for every referred instance. A frozen promptable segmenter (SAM 2) converts these prompts into high-quality masks.
+  Within our GenSeg-R1 framework we finetune Qwen3-VL models (4B and 8B parameters) using Group Relative Policy Optimization (GRPO), requiring no supervised reasoning-chain annotations. On RefCOCOg validation our best model (GenSeg-R1-8B) achieves 0.7127 cIoU and 0.7382 mIoU, substantially outperforming the corresponding Qwen3-VL Instruct baselines (+15.3 and +21.9 points, respectively) and surpassing Seg-Zero-7B [3] by +3.3 cIoU under identical evaluation.
+  We further introduce GenSeg-R1-G, a variant trained on GRefCOCO [9] with a SAM 2 in-the-loop reward that directly optimizes mask quality. On GRefCOCO validation GenSeg-R1-G achieves 76.69% target mIoU with 82.40% accuracy on negative (no-target) prompts, substantially outperforming Seg-R1-7B and Seg-Zero-7B, which lack no-target detection capability. On ReasonSeg test, GenSeg-R1-4B reaches 68.40% mIoU, surpassing Seg-Zero-7B by +7.0 and Seg-R1-7B by +10.7 points.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T11:59:14Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sandesh Hegde</name>
+    </author>
+    <author>
+      <name>Jaison Saji Chacko</name>
+    </author>
+    <author>
+      <name>Debarshi Banerjee</name>
+    </author>
+    <author>
+      <name>Uma Mahesh</name>
+    </author>
+  </entry>
+</feed>

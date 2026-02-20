@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KEezBKVgmnV8BGrjMacJxjqyYqA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.08366v2&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:23:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2512.08366v2" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08366v2</id>
+    <title>Reflecting with Two Voices: A Co-Adaptive Dual-Strategy Framework for LLM-Based Agent Decision Making</title>
+    <updated>2026-01-31T03:46:11Z</updated>
+    <link href="https://arxiv.org/abs/2512.08366v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08366v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) agents often rely on external demonstrations or retrieval-augmented planning, leading to brittleness, poor generalization, and high computational overhead. Inspired by human problem-solving, we propose DuSAR (Dual-Strategy Agent with Reflecting) -- a demonstration-free framework that enables a single frozen LLM to perform co-adaptive reasoning via two complementary strategies: a high-level holistic plan and a context-grounded local policy. These strategies interact through a lightweight reflection mechanism, where the agent continuously assesses progress via a Strategy Fitness Score and dynamically revises its global plan when stuck or refines it upon meaningful advancement, mimicking human metacognitive behavior. On both simulated household (ALFWorld) and real-world web (Mind2Web) environments, DuSAR achieves state-of-the-art performance using only open-source LLMs, substantially outperforming all prior methods without any demonstrations or fine-tuning. Remarkably, it also reduces per-step token consumption by a large margin while maintaining strong task success. Ablation studies confirm the necessity of dual-strategy coordination. Moreover, optional integration of expert demonstrations further boosts performance, highlighting DuSAR's flexibility and compatibility with external knowledge.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T08:44:59Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wentao Zhang</name>
+    </author>
+    <author>
+      <name>Qunbo Wang</name>
+    </author>
+    <author>
+      <name>BoXuan Zhao</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Junsheng Wu</name>
+    </author>
+    <author>
+      <name>Hongping Gan</name>
+    </author>
+    <author>
+      <name>Ling Dai</name>
+    </author>
+    <author>
+      <name>Shizhuang Deng</name>
+    </author>
+    <author>
+      <name>Shuntong Sun</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+</feed>

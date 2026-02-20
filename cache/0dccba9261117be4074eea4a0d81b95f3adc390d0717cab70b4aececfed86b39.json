@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KJ78ceNiDW3jfLvIXopfn0b9AC4</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.14606v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:14:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.14606v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14606v1</id>
+    <title>An LLM Agent-based Framework for Whaling Countermeasures</title>
+    <updated>2026-01-21T02:43:42Z</updated>
+    <link href="https://arxiv.org/abs/2601.14606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the spread of generative AI in recent years, attacks known as Whaling have become a serious threat. Whaling is a form of social engineering that targets important high-authority individuals within organizations and uses sophisticated fraudulent emails. In the context of Japanese universities, faculty members frequently hold positions that combine research leadership with authority within institutional workflows. This structural characteristic leads to the wide public disclosure of high-value information such as publications, grants, and detailed researcher profiles. Such extensive information exposure enables the construction of highly precise target profiles using generative AI. This raises concerns that Whaling attacks based on high-precision profiling by generative AI will become prevalent. In this study, we propose a Whaling countermeasure framework for university faculty members that constructs personalized defense profiles and uses large language model (LLM)-based agents. We design agents that (i) build vulnerability profiles for each target from publicly available information on faculty members, (ii) identify potential risk scenarios relevant to Whaling defense based on those profiles, (iii) construct defense profiles corresponding to the vulnerabilities and anticipated risks, and (iv) analyze Whaling emails using the defense profiles. Furthermore, we conduct a preliminary risk-assessment experiment. The results indicate that the proposed method can produce judgments accompanied by explanations of response policies that are consistent with the work context of faculty members who are Whaling targets. The findings also highlight practical challenges and considerations for future operational deployment and systematic evaluation.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T02:43:42Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Daisuke Miyamoto</name>
+    </author>
+    <author>
+      <name>Takuji Iimura</name>
+    </author>
+    <author>
+      <name>Narushige Michishita</name>
+    </author>
+  </entry>
+</feed>

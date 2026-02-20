@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W82zRn47mv8ioNI/aMDGCiUB1X0</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.15456v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:33:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.15456v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.15456v1</id>
+    <title>In Agents We Trust, but Who Do Agents Trust? Latent Source Preferences Steer LLM Generations</title>
+    <updated>2026-02-17T09:45:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.15456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.15456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agents based on Large Language Models (LLMs) are increasingly being deployed as interfaces to information on online platforms. These agents filter, prioritize, and synthesize information retrieved from the platforms' back-end databases or via web search. In these scenarios, LLM agents govern the information users receive, by drawing users' attention to particular instances of retrieved information at the expense of others. While much prior work has focused on biases in the information LLMs themselves generate, less attention has been paid to the factors that influence what information LLMs select and present to users. We hypothesize that when information is attributed to specific sources (e.g., particular publishers, journals, or platforms), current LLMs exhibit systematic latent source preferences- that is, they prioritize information from some sources over others. Through controlled experiments on twelve LLMs from six model providers, spanning both synthetic and real-world tasks, we find that several models consistently exhibit strong and predictable source preferences. These preferences are sensitive to contextual framing, can outweigh the influence of content itself, and persist despite explicit prompting to avoid them. They also help explain phenomena such as the observed left-leaning skew in news recommendations in prior work. Our findings advocate for deeper investigation into the origins of these preferences, as well as for mechanisms that provide users with transparency and control over the biases guiding LLM-powered agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T09:45:22Z</published>
+    <arxiv:comment>ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mohammad Aflah Khan</name>
+    </author>
+    <author>
+      <name>Mahsa Amani</name>
+    </author>
+    <author>
+      <name>Soumi Das</name>
+    </author>
+    <author>
+      <name>Bishwamittra Ghosh</name>
+    </author>
+    <author>
+      <name>Qinyuan Wu</name>
+    </author>
+    <author>
+      <name>Krishna P. Gummadi</name>
+    </author>
+    <author>
+      <name>Manish Gupta</name>
+    </author>
+    <author>
+      <name>Abhilasha Ravichander</name>
+    </author>
+  </entry>
+</feed>

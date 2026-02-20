@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MPqy4kLq20oXf/6+KLfXm1Q8BRA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2601.17329v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:08:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2601.17329v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.17329v1</id>
+    <title>Conformal Feedback Alignment: Quantifying Answer-Level Reliability for Robust LLM Alignment</title>
+    <updated>2026-01-24T06:23:18Z</updated>
+    <link href="https://arxiv.org/abs/2601.17329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.17329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Preference-based alignment like Reinforcement Learning from Human Feedback (RLHF) learns from pairwise preferences, yet the labels are often noisy and inconsistent. Existing uncertainty-aware approaches weight preferences, but ignore a more fundamental factor: the reliability of the \emph{answers} being compared. To address the problem, we propose Conformal Feedback Alignment (CFA), a framework that grounds preference weighting in the statistical guarantees of Conformal Prediction (CP). CFA quantifies answer-level reliability by constructing conformal prediction sets with controllable coverage and aggregates these reliabilities into principled weights for both DPO- and PPO-style training. Experiments across different datasets show that CFA improves alignment robustness and data efficiency, highlighting that modeling \emph{answer-side} uncertainty complements preference-level weighting and yields more robust, data-efficient alignment. Codes are provided here.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-24T06:23:18Z</published>
+    <arxiv:comment>Accetped to Findings of EACL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tiejin Chen</name>
+    </author>
+    <author>
+      <name>Xiaoou Liu</name>
+    </author>
+    <author>
+      <name>Vishnu Nandam</name>
+    </author>
+    <author>
+      <name>Kuan-Ru Liou</name>
+    </author>
+    <author>
+      <name>Hua Wei</name>
+    </author>
+  </entry>
+</feed>

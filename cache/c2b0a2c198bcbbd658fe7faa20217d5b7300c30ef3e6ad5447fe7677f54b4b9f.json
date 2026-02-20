@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ob7iGgeWGUAmi8wMhYiDg9UxUeY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.09443v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:44:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.09443v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09443v1</id>
+    <title>P1-VL: Bridging Visual Perception and Scientific Reasoning in Physics Olympiads</title>
+    <updated>2026-02-10T06:28:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.09443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition from symbolic manipulation to science-grade reasoning represents a pivotal frontier for Large Language Models (LLMs), with physics serving as the critical test anchor for binding abstract logic to physical reality. Physics demands that a model maintain physical consistency with the laws governing the universe, a task that fundamentally requires multimodal perception to ground abstract logic in reality. At the Olympiad level, diagrams are often constitutive rather than illustrative, containing essential constraints, such as boundary conditions and spatial symmetries, that are absent from the text. To bridge this visual-logical gap, we introduce P1-VL, a family of open-source vision-language models engineered for advanced scientific reasoning. Our method harmonizes Curriculum Reinforcement Learning, which employs progressive difficulty expansion to stabilize post-training, with Agentic Augmentation, enabling iterative self-verification at inference. Evaluated on HiPhO, a rigorous benchmark of 13 exams from 2024-2025, our flagship P1-VL-235B-A22B becomes the first open-source Vision-Language Model (VLM) to secure 12 gold medals and achieves the state-of-the-art performance in the open-source models. Our agent-augmented system achieves the No.2 overall rank globally, trailing only Gemini-3-Pro. Beyond physics, P1-VL demonstrates remarkable scientific reasoning capacity and generalizability, establishing significant leads over base models in STEM benchmarks. By open-sourcing P1-VL, we provide a foundational step toward general-purpose physical intelligence to better align visual perceptions with abstract physical laws for machine scientific discovery.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T06:28:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yun Luo</name>
+    </author>
+    <author>
+      <name>Futing Wang</name>
+    </author>
+    <author>
+      <name>Qianjia Cheng</name>
+    </author>
+    <author>
+      <name>Fangchen Yu</name>
+    </author>
+    <author>
+      <name>Haodi Lei</name>
+    </author>
+    <author>
+      <name>Jianhao Yan</name>
+    </author>
+    <author>
+      <name>Chenxi Li</name>
+    </author>
+    <author>
+      <name>Jiacheng Chen</name>
+    </author>
+    <author>
+      <name>Yufeng Zhao</name>
+    </author>
+    <author>
+      <name>Haiyuan Wan</name>
+    </author>
+    <author>
+      <name>Yuchen Zhang</name>
+    </author>
+    <author>
+      <name>Shenghe Zheng</name>
+    </author>
+    <author>
+      <name>Junchi Yao</name>
+    </author>
+    <author>
+      <name>Qingyang Zhang</name>
+    </author>
+    <author>
+      <name>Haonan He</name>
+    </author>
+    <author>
+      <name>Wenxuan Zeng</name>
+    </author>
+    <author>
+      <name>Li Sheng</name>
+    </author>
+    <author>
+      <name>Chengxing Xie</name>
+    </author>
+    <author>
+      <name>Yuxin Zuo</name>
+    </author>
+    <author>
+      <name>Yizhuo Li</name>
+    </author>
+    <author>
+      <name>Yulun Wu</name>
+    </author>
+    <author>
+      <name>Rui Huang</name>
+    </author>
+    <author>
+      <name>Dongzhan Zhou</name>
+    </author>
+    <author>
+      <name>Kai Chen</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Lei Bai</name>
+    </author>
+    <author>
+      <name>Yu Cheng</name>
+    </author>
+    <author>
+      <name>Ning Ding</name>
+    </author>
+    <author>
+      <name>Bowen Zhou</name>
+    </author>
+    <author>
+      <name>Peng Ye</name>
+    </author>
+    <author>
+      <name>Ganqu Cui</name>
+    </author>
+  </entry>
+</feed>

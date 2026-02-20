@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WIRfQ9KIuezd4Xq+KMCH53agjvY</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16061v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:20:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16061v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16061v1</id>
+    <title>Partial Identification under Missing Data Using Weak Shadow Variables from Pretrained Models</title>
+    <updated>2026-02-17T22:18:27Z</updated>
+    <link href="https://arxiv.org/abs/2602.16061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Estimating population quantities such as mean outcomes from user feedback is fundamental to platform evaluation and social science, yet feedback is often missing not at random (MNAR): users with stronger opinions are more likely to respond, so standard estimators are biased and the estimand is not identified without additional assumptions. Existing approaches typically rely on strong parametric assumptions or bespoke auxiliary variables that may be unavailable in practice. In this paper, we develop a partial identification framework in which sharp bounds on the estimand are obtained by solving a pair of linear programs whose constraints encode the observed data structure. This formulation naturally incorporates outcome predictions from pretrained models, including large language models (LLMs), as additional linear constraints that tighten the feasible set. We call these predictions weak shadow variables: they satisfy a conditional independence assumption with respect to missingness but need not meet the completeness conditions required by classical shadow-variable methods. When predictions are sufficiently informative, the bounds collapse to a point, recovering standard identification as a special case. In finite samples, to provide valid coverage of the identified set, we propose a set-expansion estimator that achieves slower-than-$\sqrt{n}$ convergence rate in the set-identified regime and the standard $\sqrt{n}$ rate under point identification. In simulations and semi-synthetic experiments on customer-service dialogues, we find that LLM predictions are often ill-conditioned for classical shadow-variable methods yet remain highly effective in our framework. They shrink identification intervals by 75--83\% while maintaining valid coverage under realistic MNAR mechanisms.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T22:18:27Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Hongyu Chen</name>
+    </author>
+    <author>
+      <name>David Simchi-Levi</name>
+    </author>
+    <author>
+      <name>Ruoxuan Xiong</name>
+    </author>
+  </entry>
+</feed>

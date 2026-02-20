@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7VZknqgTAt5RhR0bd1719YW8LxA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.00994v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T08:02:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.00994v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00994v1</id>
+    <title>Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning</title>
+    <updated>2026-02-01T03:19:22Z</updated>
+    <link href="https://arxiv.org/abs/2602.00994v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00994v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic Reinforcement Learning (ARL) focuses on training large language models (LLMs) to interleave reasoning with external tool execution to solve complex tasks. Most existing ARL methods train a single shared model parameters to support both reasoning and tool use behaviors, implicitly assuming that joint training leads to improved overall agent performance. Despite its widespread adoption, this assumption has rarely been examined empirically. In this paper, we systematically investigate this assumption by introducing a Linear Effect Attribution System(LEAS), which provides quantitative evidence of interference between reasoning and tool-use behaviors. Through an in-depth analysis, we show that these two capabilities often induce misaligned gradient directions, leading to training interference that undermines the effectiveness of joint optimization and challenges the prevailing ARL paradigm. To address this issue, we propose Disentangled Action Reasoning Tuning(DART), a simple and efficient framework that explicitly decouples parameter updates for reasoning and tool-use via separate low-rank adaptation modules. Experimental results show that DART consistently outperforms baseline methods with averaged 6.35 percent improvements and achieves performance comparable to multi-agent systems that explicitly separate tool-use and reasoning using a single model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T03:19:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Mingyang Yi</name>
+    </author>
+    <author>
+      <name>Xiuyu Li</name>
+    </author>
+    <author>
+      <name>Ju Fan</name>
+    </author>
+    <author>
+      <name>Fuxin Jiang</name>
+    </author>
+    <author>
+      <name>Binbin Chen</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Jie Song</name>
+    </author>
+    <author>
+      <name>Tieying Zhang</name>
+    </author>
+  </entry>
+</feed>

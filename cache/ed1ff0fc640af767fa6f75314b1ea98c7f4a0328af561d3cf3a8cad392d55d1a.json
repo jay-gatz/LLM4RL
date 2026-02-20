@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UaAYpmldGaJ/fFKhLqsgGfE3KUI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2602.16469v1&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T07:41:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2602.16469v1" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16469v1</id>
+    <title>Training Models on Dialects of Translationese Shows How Lexical Diversity and Source-Target Syntactic Similarity Shape Learning</title>
+    <updated>2026-02-18T13:59:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.16469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine-translated data is widely used in multilingual NLP, particularly when native text is scarce. However, translated text differs systematically from native text. This phenomenon is known as translationese, and it reflects both traces of the source language and characteristic properties of translation itself. In this paper, we study how training on machine-translated data affects small English language models, focusing on how translationese from different source languages shapes linguistic acceptability judgments and language modelling for different domains. We train models on English text translated from 24 typologically and resource-diverse source languages, enabling a systematic analysis of how source language and corpus properties influence what models learn. Our results show that the source language has a clear impact on model behavior: general perplexity is more driven by the lexical diversity of the translated corpus, while grammatical performance is strongly correlated to typological similarity to English, given enough data.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-18T13:59:08Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jenny Kunz</name>
+    </author>
+  </entry>
+</feed>

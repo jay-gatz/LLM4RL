@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uOMIaW6npA7hFlvzJHUA/y3WnC8</id>
+  <title>arXiv Query: search_query=&amp;id_list=2307.12966&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-19T05:25:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2307.12966" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.12966v1</id>
+    <title>Aligning Large Language Models with Human: A Survey</title>
+    <updated>2023-07-24T17:44:58Z</updated>
+    <link href="https://arxiv.org/abs/2307.12966v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.12966v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) trained on extensive textual corpora have emerged as leading solutions for a broad array of Natural Language Processing (NLP) tasks. Despite their notable performance, these models are prone to certain limitations such as misunderstanding human instructions, generating potentially biased content, or factually incorrect (hallucinated) information. Hence, aligning LLMs with human expectations has become an active area of interest within the research community. This survey presents a comprehensive overview of these alignment technologies, including the following aspects. (1) Data collection: the methods for effectively collecting high-quality instructions for LLM alignment, including the use of NLP benchmarks, human annotations, and leveraging strong LLMs. (2) Training methodologies: a detailed review of the prevailing training methods employed for LLM alignment. Our exploration encompasses Supervised Fine-tuning, both Online and Offline human preference training, along with parameter-efficient training mechanisms. (3) Model Evaluation: the methods for evaluating the effectiveness of these human-aligned LLMs, presenting a multifaceted approach towards their assessment. In conclusion, we collate and distill our findings, shedding light on several promising future research avenues in the field. This survey, therefore, serves as a valuable resource for anyone invested in understanding and advancing the alignment of LLMs to better suit human-oriented tasks and expectations. An associated GitHub link collecting the latest papers is available at https://github.com/GaryYufei/AlignLLMHumanSurvey.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-24T17:44:58Z</published>
+    <arxiv:comment>work in progress</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yufei Wang</name>
+    </author>
+    <author>
+      <name>Wanjun Zhong</name>
+    </author>
+    <author>
+      <name>Liangyou Li</name>
+    </author>
+    <author>
+      <name>Fei Mi</name>
+    </author>
+    <author>
+      <name>Xingshan Zeng</name>
+    </author>
+    <author>
+      <name>Wenyong Huang</name>
+    </author>
+    <author>
+      <name>Lifeng Shang</name>
+    </author>
+    <author>
+      <name>Xin Jiang</name>
+    </author>
+    <author>
+      <name>Qun Liu</name>
+    </author>
+  </entry>
+</feed>
